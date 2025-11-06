@@ -1,0 +1,99 @@
+Manduca sexta is a moth of the family Sphingidae present through much of the American continent. The species was first described by Carl Linnaeus in his 1763 Centuria Insectorum.
+Commonly known as the Carolina sphinx moth and the tobacco hawk moth (as adults) and the tobacco hornworm and the goliath worm (as larvae), it is closely related to and often confused with the very similar tomato hornworm (Manduca quinquemaculata); the larvae of both feed on the foliage of various plants of the family Solanaceae. The tobacco hornworm is sometimes kept as a pet by children throughout its range. The larvae of these species can be distinguished by their lateral markings: Tomato hornworms have eight V-shaped white markings with no borders; tobacco hornworms have seven white diagonal lines with a black border. Additionally, tobacco hornworms have red horns, while tomato hornworms have dark blue or black horns. A mnemonic to remember the markings is tobacco hornworms have straight white lines like cigarettes, while tomato hornworms have V-shaped markings (as in "vine-ripened" tomatoes). M. sexta has mechanisms for selectively sequestering and secreting the neurotoxin nicotine present in tobacco.M. sexta is a common model organism, especially in neurobiology, due to its easily accessible nervous system and short life cycle. It is used in a variety of biomedical and biological scientific experiments. It can be easily raised on a wheat-germ-based diet. The larva is large, and thus it is relatively easy to dissect it and isolate its organs.
+
+
+== Life cycle ==
+M. sexta has a short life cycle, lasting about 30 to 50 days.  In most areas, M. sexta has about two generations per year, but can have three or four generations per year in Florida.
+
+
+=== Eggs ===
+M. sexta eggs are spherical, approximately 1.5 millimeters in diameter, and translucent green. They typically hatch two to four days after they are laid. Eggs are normally found on the underside of foliage, but can also be found on the upper surface.
+
+
+=== Larva ===
+M. sexta larvae are green and grow up to 70 millimeters in length. Under laboratory conditions, when fed a wheat-germ-based diet, larvae are turquoise due to a lack of pigments in their diet. M. sexta hemolymph (blood) contains the blue-colored protein insecticyanin. When the larva feeds on plants, it ingests pigmentacious carotenoids. Carotenoids are primarily yellow in hue. The resulting combination is green. 
+During the larval stage, M. sexta caterpillars feed on plants of the family Solanaceae, principally tobacco, tomatoes and members of the genus Datura. M. sexta has five larval instars, which are separated by ecdysis (molting), but may add larval instars when nutrient conditions are poor. Near the end of this stage, the caterpillar seeks a location for pupation, burrows underground, and pupates. The searching behaviour is known as "wandering". The imminence of pupation suggested behaviorally by the wandering can be anatomically confirmed by spotting the heart (aorta), which is a long, pulsating vessel running along the length of the caterpillar's dorsal side. The heart becomes visible through the skin just as the caterpillar is reaching the end of the final instar.
+A common biological control for hornworms is the parasitic braconid wasp Cotesia congregata, which lays its eggs in the bodies of the hornworms. The wasp larvae feed internally and emerge from the body to spin their cocoons. Parasitized hornworms are often seen covered with multiple white, cottony wasp cocoons, which are often mistaken for large eggs.  A wasp species, Polistes erythrocephalus, feeds on hornworm larvae.
+
+		
+		
+		
+
+
+=== Pre-pupa ===
+Before the larva pupates, it goes through a stage called the pre-pupa, where it shrinks considerably and prepares to pupate. Often people mistake this stage for a dead or dying caterpillar.
+
+
+=== Pupa ===
+The pupal stage lasts approximately 18 days under laboratory conditions (17 hours light, 7 hours dark, 27 °C). When reared on a short-day photoperiod (12 hours light, 12 hours dark), pupae enter a state of diapause that can last several months. During the pupal stage, structures of the adult moth form within the pupal case, which is shed during eclosion (adult emergence).
+
+
+=== Adult ===
+Adult M. sexta have narrow wings with a wing span of approximately 100 mm. M. sexta moths are nectarivorous and feed on flowers, demonstrating a remarkable ability to hover.
+Adults are sexually dimorphic. Males are identifiable by their broader antennae and the presence of claspers at the end of the abdomen. Female moths are typically ready to mate one week after eclosion, and do so only once. Males may mate many times. Mating generally occurs on a vertical surface at night, and can last several hours, with the male and female facing in opposite positions, their posterior ends touching.  After mating, females deposit their fertilized eggs on foliage, usually on the underside of leaves.
+
+		
+		
+		
+
+
+=== Laboratory rearing ===
+Like Drosophila melanogaster, M. sexta is commonly used as a model organism for experiments.  They are frequently studied in the laboratory due to their large size and relative ease of rearing.  They may be reared on host plants, such as tobacco and tobacco relatives, tomato plants, or wheat-germ-based artificial diet.  Their rearing is straightforward, as long as they receive a "long day" (i.e., 14 hour) daylight cycle during development to prevent diapause.
+Eggs are rinsed for one to five minutes in dilute household bleach for disinfection.
+Eggs are placed on diet cubes or host plants.  The eggs hatch and develop at different speeds depending on temperature.  The larvae are moved to fresh diet or leaves as their food spoils or is consumed.  When they start to "wander", they are about to pupate, so are placed in a pupation chamber.  Pupation chambers are holes drilled into a wood board.  The Manduca larvae are sealed in the chamber using a stopper and allowed to pupate.  After pupation, the pupae are placed in a breeding or colony chamber to eclose.  Providing a cup of sugar water and a tobacco (or related) plant will allow mated females to oviposit fertile eggs, which can then be reared.
+When fed an artificial diet, Manduca larvae do not consume the xanthophyll -which is a yellow pigment- needed to produce their green coloration; instead they appear blue.  On some diets, they have very little pigment and pigment precursors, so are a very pale blue-white.  As vitamin A and other carotenoids are necessary for the visual pigments (rhodopsin), an artificial-diet-reared hornworm may have poor vision due to lack of carotenoids in the diet.
+
+
+=== As pet food ===
+Captive-bred hornworms fed on an artificial diet are often given to insectivorous exotic animals, such as certain reptiles, fish and small mammals. They are preferred over wild-collected hornworms, which may bioaccumulate poisonous substances found in dietary plants. Hornworms, though originally bred for laboratories, are also farmed for this purpose. They are often sold already-packed into pods that include everything the larvae need, including food. Care is relatively easy, and animals seem to relish their bright color and flavor.
+
+
+== Subspecies ==
+Manduca sexta caestri (Blanchard, 1854) (Chile)
+Manduca sexta jamaicensis (Butler, 1875) (Caribbean)
+Manduca sexta leucoptera (Rothschild & Jordan, 1903) (Galápagos Islands)
+Manduca sexta paphus (Cramer, 1779) (South America)
+Manduca sexta saliensis (Kernbach, 1964) (Argentina)
+Manduca sexta garapa (Pixley, 2016) (Saipan)
+Manduca sexta sexta (Americas)
+		
+		
+		
+
+		
+
+		
+
+
+== Behavior ==
+
+
+=== Feeding ===
+Tobacco hornworms are facultative specialists; the larvae can grow and develop on any host plants. However, the larvae prefer solanaceous plants, such as tobacco and tomato plants. On these types of plants, larvae grow and develop faster. The lateral and medial sensilla styloconia, which are sensory receptors, on their mouthparts help them to identify solanaceous plants by recognizing indioside D, a steroidal glycoside found in those particular plants (del Campo et al., 2001). Tobacco hornworms are considered pests because they feed on the upper leaves of tobacco plants and leave green or black droppings on the plants. As adults, they do not damage plants since they feed on nectar.Tobacco hornworm larvae prefer humid environments. When dehydrated, tobacco hornworm larvae will move towards a source of water or to an area with a high relative level of humidity. They use their antennae to locate water to drink (Rowley and Hanson, 2007).
+
+
+=== Defense ===
+Nicotine is poisonous to most animals that use muscles to move because nicotine targets the acetylcholine receptor at the neuromuscular junction. However, the tobacco hornworm is capable of metabolizing nicotine from the tobacco plant and using nicotine as a defense against predators. It possesses a gene called cytochrome P450 6B46 (CYP6B46) that converts nicotine into a metabolite. About 0.65% of nicotine metabolites are transported from the gut to the hemolymph, where they are reconverted to nicotine and released into the air from the tobacco hornworm's spiracles. The emitted nicotine is used as a way to deter spiders, a practice known as “toxic halitosis.”  In one study, tobacco hornworms that fed from nicotine-deficient plants or expressed low levels of CYP6B46 were more susceptible to wolf spider predation (Kumar et al., 2013).Tobacco hornworm caterpillars emit short clicking sounds from their mandibles when they are being attacked. This sound production is believed to be a type of acoustic aposematism, or warning sounds that let predators know that trying to eat them will be troublesome; tobacco hornworms have been observed to thrash and bite predators after producing those clicking sounds. These clicks can be heard at a close distance with a frequency range of 5 to 50 kHz. The intensity of clicks increases with the number of attacks (Bura et al., 2012).
+
+
+== Gallery ==
+
+		
+		
+		
+
+
+== References ==
+
+
+== Further reading ==
+Van Griethuijsen, L. I.; Banks, K. M.; Trimmer, B. A. (2013). "Spatial accuracy of a rapid defense behavior in caterpillars". Journal of Experimental Biology. 216 (3): 379–387. doi:10.1242/jeb.070896. PMID 23325858.
+Bura, Veronica L.; Hnain, Antoine K.; Hick, Justin N.; Yack, Jayne E. (2011). "Defensive Sound Production in the Tobacco Hornworm, Manduca sexta (Bombycoidea: Sphingidae)". Journal of Insect Behavior. 25 (2): 114–126. doi:10.1007/s10905-011-9282-8. S2CID 18667417.
+
+
+== External links ==
+Fact sheet. Colorado State University.
+Parasitic Wasps. Ohio State University Extension.
+Manduca sexta. Butterflies and Moths of North America.
+Microscopy.
+Modelling insect wings using the finite element method

@@ -1,0 +1,66 @@
+The schoolmaster snapper (Lutjanus apodus), also known as the dogtooth snapper, is a species of marine ray-finned fish, a snapper belonging to the family Lutjanidae. It is found in the western Atlantic Ocean.  Like other snapper species, it is a popular food fish.
+
+
+== Taxonomy ==
+The schoolmaster snapper was first formally described in 1792 as Perca apoda by the German physician, naturalist and taxonomist Johann Julius Walbaum with the type locality given as the Bahamas. Walbaum's description was based on an illustration which omitted the fish's pectoral fins, so he gave it the specific name apoda meaning "footless".
+
+
+== Description ==
+The schoolmaster snapper has a moderately deep body which is robust and slightly compressed with a long. pointed snout and a large mouth. One of the upper pairs of canine teeth is clearly larger than back teeth in the lower jaw and can be seen when mouth is closed. The vomerine teeth are arranged in a chevron or crescent shaped patch with a line of similar teeth extending from the middle of the patch towards the rear. The preoperculum has a weakly developed incision and knob. This species has a protrusible upper jaw which is mostly covered by the cheek bone when the mouth is closed and both pairs of nostrils are simple holes. The dorsal fin is continuous with a slight incision separating the spiny part from the soft rayed part. The dorsal fin has 10 spines and 14 soft rays while the rounded anal fin contains 3 spines and 8 soft rays. The interior scale rows on back are parallel to lateral line. The caudal fin is slight emarginate or truncate. The pectoral fins are longer than the distance from longest point of the snout to tail edge of preopercle, reaching the level of anus. The color is olive gray to brownish on upper back and upper sides, with yellow to reddish mite around the head. The lower sides and belly are lighter; there is no dark lateral spot below the anterior part of soft dorsal fin. There are 8 narrow, light vertical bars on the side of the body which may be faded or absent in large adults. A solid or broken blue line runs beneath the eye; it may also disappear with growth. From the upper jaw to the tip of the fleshy opercle, the line is often broken into parts that resemble dashes and spots. The fin and tail is bright yellow, yellow green, or pale orange, and the snout contains blue stripes. This fish attains a maximum fork length of 79.1 cm (31.1 in), although 35 cm (14 in) is more typical, and the maximum published weight is 10.8 kg (24 lb).
+
+
+== Distribution ==
+The schoolmaster snapper is founed in the western Atlantic Bermuda and the southeastern coast of the United States from Cape Canaveral in Florida southwards to the Bahamas and into the Gulf of Mexico where its range runs from the Florida Keys as far north as Tampa, Florida then from Alabama westwards along the coast of the Gulf to the Yucatan Peninsula and northwestern Cuba. It occurs throughout the Caribbean Sea. It has been recorded as far north as Massachusetts but these records involve juveniles that cannot survive the winter. Its is typically found at depths between 1 and 50 m (3 ft 3 in and 164 ft 1 in), with one record at 89 m (292 ft). Adults usually stay near shore shelter around elkhorn and gorgonian coral. Large adults are sometimes found on the continental shelf. Typical depths are up to 4 m (13 ft). reported that at night, schoolmaster snapper may increase their range to twice the daytime range, mostly by visiting seagrass beds.
+
+
+== Biology ==
+The schoolmaster snapper forms large resting schools during the day which disperse to forage at night, these schools frequently sheletering in beds of sea grass. These aggregations are defensive and are adopted by the fishes to minimise the chance of any one of them being predated. These fish spend 84% of the day sswimming, 13% resting, 2% eating and  less than 0.5% in other behaviors.
+
+
+=== Feeding ===
+Studies have reported that the diet of the schoolmaster snapper changes ontogenetically, small individuals, less than 70 mm (2.8 in) in length have a 90% of their diet made up of crustaceans, specifically amphipods and crabs. Larger specimens preferred smaller fish. these making up more than 50% of their diet by weight, and also ate crabs, shrimp, and stomatopods.  These differences in diets were attributed to the ability of the bigger fish to open their jaws wider for bigger prey.
+
+
+=== Reproduction and growth ===
+Schoolmaster snapper are gonochorist, meaning males and females are separate. They spawn over most of the year, with the majority of the spawning happening during middle to late summer. They spawn during April–June off Cuba. They reproduce by spawning in open water with both male and female fish releasing their gametes at the same time. The fertilized eggs then settle to the bottom, where they are left unguarded.The schoolmaster snapper is a slow growing, long lived species which has a maximum recorded age of 42 years.
+ As fish grow longer, they increase in weight, but the relationship is not linear.  The relationship between length (L) and weight (W) for nearly all species of fish can be expressed by an equation of the form:
+
+  
+    
+      
+        W
+        =
+        c
+        
+          L
+          
+            b
+          
+        
+        
+        
+      
+    
+    {\displaystyle W=cL^{b}\!\,}
+  Invariably, b is close to 3.0 for all species, and c varies between species. A weight-length relationship based on 100 schoolmaster snapper ranging in length from 2 to 7 in (50 mm to 180 mm) found the coefficient c was 0.000050015 and the exponent b was 2.9107.   This relationship suggests a 12.5-inch schoolmaster snapper (320 mm) will weigh about 2.2 lb (1 kg).
+
+
+== Commercial and recreational use ==
+Schoolmaster snapper, along with other snapper species, are sought by both recreational and commercial fishermen.  but the schoolmaster snapper is not as frequently targeted by commercial fisheries as other sympatric Lutjanus snappers.  Their food quality is reported to be excellent. However, the consumption of this species has been linked to ciguatera poisoning in humans.Fishing regulations in US state waters are specific to each state, but they have similarities.  For example, the minimum length in Florida for schoolmaster snapper is 10 in (250 mm) total length with a catch limit of 10 per fisherman per day.  However, the 10-fish limit is an aggregate for all species of snapper.Light spinning and baitcasting tackle are used to fish for schoolmaster snapper. Live shrimp and baitfish, as well as shrimp pieces and cut bait, are the best natural bait. While jigs make for the best artificial bait, artificials are rarely used and rarely successful.
+
+
+== Conservation ==
+The IUCN list this species as being of Least Concern because it is not routinely targeted by commercial fisheries and separate commercial catch statistics are unavailable. The juveniles are common in mangroves and on shallow reefs which may be threatened by coastal development, as well as the impacts of climate change. In Colombia illegal dynamite fishing in the Rosario Islands led to the near expirtation this species. In some area minimum sizes and bag limits have been introduced to conserve the stocks of schoolmaster snapper. Fishing pressure could lead to a decrease in numbers and make the defensive aggregations of these fish more vulnerable to predation so it has been suggested that no take zone be introduced to reduce the amount of fishes killed by fisheries.
+
+
+== References ==
+
+
+== External links ==
+ Media related to Lutjanus apodus at Wikimedia Commons
+Photos of the schoolmaster snapper at Florent's Guide to the Tropical Reefs
+Photos of developing larval and juvenile schoolmaster snapper
+South Atlantic Fishery Management Council Recreational fishing regulations for snapper. Accessed 20 February 2012
+South Atlantic Fishery Management Council Commercial fishing regulations for snapper. Accessed 20 February 2012 Data related to Lutjanus apodus at Wikispecies
+ Media related to Lutjanus apodus at Wikimedia Commons
+Photos of Schoolmaster snapper on Sealife Collection

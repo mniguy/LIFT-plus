@@ -1,0 +1,71 @@
+Lepiota is a genus of gilled mushrooms in the family Agaricaceae. All Lepiota species are ground-dwelling saprotrophs with a preference for rich, calcareous soils. Basidiocarps (fruit bodies) are agaricoid with whitish spores, typically with scaly caps and a ring on the stipe. Around 400 species of Lepiota are currently recognized worldwide. Many species are poisonous, some lethally so.
+
+
+== Taxonomy ==
+
+
+=== History ===
+Agaricus section Lepiota was originally published in 1797 by South African-born mycologist Christian Hendrik Persoon. It was subsequently raised to the rank of genus by Samuel Frederick Gray. As originally conceived, the genus was a mix of agarics with rings on their stems, including species now placed in Armillaria, Cortinarius, and Pholiota. In 1822, however, the influential Swedish mycologist Elias Magnus Fries restricted Lepiota to white-spored, ringed agarics.Based on macro- and micromorphology, later authors gradually refined the generic concept of Lepiota. Some unrelated genera, such as Cystoderma (Fayod 1889) and Limacella (Earle 1909), were removed from the genus whilst several related genera, including Leucocoprinus (Patouillard 1888), Macrolepiota and Leucoagaricus (Singer 1948), Cystolepiota (Singer 1952), and Echinoderma (Bon 1991) were separated off. These segregated genera, together with Lepiota itself, are still often grouped together as Lepiota s.l. (sensu lato = "in the wide sense") or as the "lepiotoid" fungi.The secotioid species Amogaster viridiglebus, described in 1996 and initially placed in the order Boletales, was later determined to be a member of Lepiota, and officially transferred to the genus in 2013.
+
+
+=== Current status ===
+Following some discussion over the type species, Lepiota has now been conserved under the International Code of Nomenclature for algae, fungi, and plants, typified by Agaricus colubrinus Pers. (= Lepiota clypeolaria). Recent molecular research, based on cladistic analysis of DNA sequences, suggests that the morphological concept of Lepiota s.s. (sensu stricto = in the strict or narrow sense) is soundly based.The name "Lepiota" is derived from the Greek λεπις (= "scale") + οὖς (= "ear").
+
+
+== Description ==
+Fruit bodies of Lepiota species are almost all agaricoid (Lepiota viridigleba is the sole sequestrate species in the genus), most (but not all) having comparatively small caps (less than 10 cm (4 in) in diameter) and slender stems. The cap cuticle (surface skin) typically splits as the cap expands, breaking up into concentric rings of scales towards the margin. The gills beneath the cap are white to cream (rarely yellow) and are free (not joined to the stem). The gills are covered by a partial veil when young, which typically ruptures to leave a cuff-like ring (sometimes ephemeral) often with additional scaly remains on the stem. Several species have a distinct, often rubbery, smell. The spore print is white to cream. The spores are usually (but not always) dextrinoid (turning red-brown in an iodine-based reagent).
+
+
+== Habitat and distribution ==
+Most if not all Lepiota species are nitrophilic, with a preference for calcareous soils. They typically occur in rich humus in broadleaf or conifer woodland, in northern Europe often among nettles (Urtica dioica) or dog's mercury (Mercurialis perennis). A few species are more frequently found in calcareous grassland or in dunes. The genus has a cosmopolitan distribution, but with a preference for warm areas, meaning there are fewer species in colder climates. Around 400 species are currently recognized worldwide.
+
+
+== Toxicity ==
+Several species contain amatoxins and are lethally poisonous, if consumed. Those known to have caused fatalities include Lepiota brunneoincarnata, L. brunneolilacea, L. castanea, L. helveola, and L. subincarnata (synonym L. josserandii). No Lepiota species is recommended as edible.
+
+
+== Literature ==
+No comprehensive monograph of the genus has yet been published. In Europe, however, species of Lepiota were illustrated and described in a regional guide by Candusso & Lanzoni (1990) and more briefly in descriptive keys by Bon (1993). Dutch species were illustrated and described by Vellinga (2001). No equivalent modern guides have been published for North America, but Vellinga (2008) has published an online bibliography of the relevant literature. In Australia, a guide to the Lepiota species of south-eastern Queensland was published by Aberdeen (1992). In Asia, a study of Lepiota diversity in northern Thailand revealed 73 species.
+
+		
+		
+		
+		
+		
+
+
+== List of species ==
+
+The following species have individual entries:
+
+Lepiota ananya
+Lepiota anupama
+Lepiota babruka
+Lepiota babruzalka
+Lepiota bengalensis
+Lepiota brunneoincarnata
+Lepiota castanea
+Lepiota clypeolaria
+Lepiota harithaka
+Lepiota helveola
+Lepiota ignivolvata
+Lepiota nirupama
+Lepiota shveta
+Lepiota spheniscispora
+Lepiota subincarnata (synonym L. josserandii)
+Lepiota zalkavrithaThe following species have individual entries, but are now placed in different genera:
+
+Lepiota aspera = Echinoderma asperum
+Lepiota lutea = Leucocoprinus birnbaumii
+Lepiota molybdites = Chlorophyllum molybdites
+Lepiota naucina = Leucoagaricus leucothites
+Lepiota procera = Macrolepiota procera
+Lepiota rhacodes = Chlorophyllum rhacodes
+
+
+== See also ==
+List of Agaricaceae genera
+List of Agaricales genera
+
+
+== References ==

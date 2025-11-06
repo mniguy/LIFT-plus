@@ -1,0 +1,47 @@
+Watering hole is a computer attack strategy in which an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. Hacks looking for specific information may only attack users coming from a specific IP address. This also makes the hacks harder to detect and research. The name is derived from predators in the natural world, who wait for an opportunity to attack their prey near watering holes.
+
+
+== Defense techniques ==
+Websites are often infected through zero-day vulnerabilities on browsers or other software. A defense against known vulnerabilities is to apply the latest software patches to remove the vulnerability that allowed the site to be infected. This is assisted by users to ensure that all of their software is running the latest version. An additional defense is for companies to monitor their websites and networks and then block traffic if malicious content is detected.
+
+
+== Examples ==
+
+
+=== 2012 US Council on Foreign Relations ===
+In December 2012, the Council on Foreign Relations website was found to be infected with malware through a zero-day vulnerability in Microsoft's Internet Explorer. In this attack, the malware was only deployed to users using Internet Explorer set to English, Chinese, Japanese, Korean and Russian.
+
+
+=== 2013 Havex ICS software supply chain attack ===
+Havex was discovered in 2013 and is one of five known Industrial Control System (ICS) tailored malware developed in the past decade. Energetic Bear began utilizing Havex in a widespread espionage campaign targeting energy, aviation, pharmaceutical, defense, and petrochemical sectors. The campaign targeted victims primarily in the United States and Europe.Havex exploited supply chain and watering-hole attacks on ICS vendor software in addition to spear phishing campaigns to gain access to victim systems.
+
+
+=== 2013 US Department of Labor ===
+In mid-early 2013, attackers used the United States Department of Labor website to gather information on users' information. This attack specifically targeted users visiting pages with nuclear-related content.
+
+
+=== 2016 Polish banks ===
+In late 2016, a Polish bank discovered malware on computers belonging to the institution. It is believed that the source of this malware was the web server of the Polish Financial Supervision Authority. There have been no reports on any financial losses as a result of this hack.
+
+
+=== 2017 Montreal-based International Civil Aviation Organization attack ===
+There was an organization-level watering-hole attack in Montreal from 2016-2017 by an unknown entity causing a data breach.
+
+
+=== 2017 CCleaner attack ===
+From August to September 2017, the installation binary of CCleaner distributed by the vendor's download servers included malware. CCleaner is a popular tool used to clean potentially unwanted files from Windows computers, widely used by security-minded users. The distributed installer binaries were signed with the developer's certificate making it likely that an attacker compromised the development or build environment and used this to insert malware.
+
+
+=== 2017 NotPetya attack ===
+In June 2017, the NotPetya (also known as ExPetr) malware, believed to have originated in Ukraine, compromised a Ukrainian government website. The attack vector was from users of the site downloading it. The malware erases the contents of victims' hard drives.
+
+
+=== 2018 Chinese country-level attack ===
+There was a country-level watering-hole attack in China from late 2017 into March 2018, by the group "LuckyMouse" also known as "Iron Tiger", "EmissaryPanda", "APT 27" and "Threat Group-3390."
+
+
+=== 2019 Holy Water Campaign ===
+In 2019, a watering-hole attack, called Holy Water Campaign, targeted Asian religious and charity groups. Victims were prompted to update Adobe Flash which triggered the attack. It was creative and distinct due to its fast evolution. Motive remains unclear.
+
+
+== References ==

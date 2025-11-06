@@ -1,0 +1,60 @@
+The rough-skinned newt or roughskin newt (Taricha granulosa) is a North American newt known for the strong toxin exuded from its skin.
+
+
+== Appearance ==
+A stocky newt with rounded snout, it ranges from light brown to olive or brownish-black on top, with the underside, including the head, legs, and tail, a contrasting orange to yellow. The skin is granular, but males are smooth-skinned during breeding season. They measure 6 to 9 cm in snout-to-vent length, and 11 to 18 cm overall. They are similar to the California newt (Taricha torosa) but differ in having smaller eyes, yellow irises, V-shaped tooth patterns, and uniformly dark eyelids. Males can be distinguished from females during breeding season by large swollen vent lobes and cornified toe pads.
+
+
+== Distribution and subspecies ==
+
+Habitats of rough-skinned newts are found throughout the Pacific Northwest. Their range extends south to Santa Cruz, California, and north to Alaska. They are uncommon east of the Cascade Mountains, though occasionally are found (and considered exotic, and possibly artificially introduced) as far as Montana. One isolated population lives in several ponds just north of Moscow, Idaho, and was most likely introduced.A number of subspecies have been defined based on local variants, but only two subspecies have wider recognition:
+Taricha granulose – rough-skinned newt
+Taricha granulosa mazamae – Crater Lake newt (Crater Lake, Oregon)
+It is now believed that the Taricha granulosa mazamae subspecies is no longer valid, as specimens that look similar to T.g.m have been found in areas of Alaska as well.
+
+
+== Toxicity ==
+Many newts produce toxins from skin glands as a defense against predation, but the toxins of the genus Taricha are particularly potent. An acrid smell radiates from the newt, which acts as a warning for animals to stay away. Toxicity is generally experienced only if the newt is ingested, although some individuals have been reported to experience skin irritation after dermal contact, particularly if the eyes are touched after handling the animal without washing hands. In 1979 a person died after ingesting a newt.
+
+
+=== Tetrodotoxin binding ===
+The newt produces a neurotoxin called tetrodotoxin (TTX), which in this species was formerly called "tarichatoxin". It is the same toxin found in pufferfish and a number of other marine animals. This toxin targets voltage gated sodium channels via binding to distinct but allosterically coupled sites. Because TTX is much larger than a sodium ion, it acts like a cork in a bottle and prevents the flow of sodium. The reverse binding to sodium channels in nerve cells blocks electrical signals necessary for conducting nerve impulses. This inhibition of firing action potentials has the effect of inducing paralysis and death by asphyxiation.
+
+
+=== Toxin resistance and predation ===
+
+Throughout much of the newt's range, the common garter snake (Thamnophis sirtalis) has been observed to exhibit resistance to the tetrodotoxin produced in the newt's skin. While in principle the toxin binds to a tube-shaped protein that acts as a sodium channel in the snake's nerve cells, researchers have identified a genetic disposition in several snake populations where the protein is configured in such a way as to hamper or prevent binding of the toxin. In each of these populations, the snakes exhibit resistance to the toxin and successfully prey upon the newts. Successful predation of the rough-skinned newt by the common garter snake is made possible by the ability of individuals in a common garter snake population to gauge whether the newt's level of toxin is too high to feed on. T. sirtalis assays toxin levels of the rough-skinned newt and decides whether or not the levels are manageable by partially swallowing the newt, and either swallowing or releasing the newt. Toxin-resistant garter snakes are the only known animals today that can eat a rough-skinned newt and survive.
+
+
+=== Arms race ===
+In evolutionary theory, the relationship between the rough-skinned newt and the common garter snake is considered an example of co-evolution. The mutations in the snake's genes that conferred resistance to the toxin have resulted in a selective pressure that favors newts which produce more potent levels of toxin. Increases in the amount of newt then apply a selective pressure favoring snakes with mutations conferring even greater resistance. This cycle of a predator and prey evolving to one another is sometimes termed an evolutionary arms race because the two species compete in developing adaptations and counter adaptations against each other. This has resulted in the newts producing levels of toxin far in excess of what is needed to kill any other conceivable predator. Some newts secrete enough toxins to kill several adult humans. It appears that in some areas, the common garter snake has surpassed the newt in the evolutionary arms race by developing such a strong resistance to the toxin that the newt is unable to compete with its production of the toxin. There has been phylogenetic evidence that indicates elevated resistance to TTX has originated independently and only in certain species of garter snakes. The resistance has evolved in at least two unrelated species in the genus Thamnophis and at least twice within T. sirtalis.
+
+
+=== Toxin effect ===
+The toxin, when injected into animals, may not kill resistant animals; however, they are normally slowed down by its toxic effects. In snakes, individuals who showed some resistance tended to move slower after TTX injection, while those with less resistance become paralyzed.Newts are not immune to their own toxin; they only have a heightened resistance. The toxin in newts consists of a tradeoff. Each time they release the toxin, they inject themselves with a few milligrams. The TTX becomes concentrated in certain parts of the tissue after passing through cell membranes. As a result of tissue exposure to the toxin, newts have evolved a protection mechanism via a single amino acid substitution to the voltage-gated sodium channel normally affected by TTX. Puffer fishes show a similar amino acid sequence that allows them to survive from their own toxin exposure.Predation on newts by T. sirtalis also shows evidence that tetrodotoxin may serve as protection of eggs by the mother. While TTX is mainly located in the glands of the skin, the rough-skinned newt, as well as some other amphibians also possesses TTX in the ovaries and eggs. The higher the skin toxin levels were in the female, the higher the toxin level found in the egg. This is evidence that high toxin levels of the skin may, in fact, be under indirect selection. Since egg toxin levels would ultimately increase the survivability from predators, such as the garter snake, of the offspring, egg toxin levels may be under direct selection by mates, which is detectable via skin toxin levels.
+
+
+=== Predator avoidance ===
+The rough skinned newt uses a form of chemical based avoidance behavior to avoid being eaten by predators, mainly the common garter snake. The snakes, after swallowing, digesting, and metabolizing a rough-skinned newt, release a chemical signature. This stimulus can be detected by a nearby newt and trigger an avoidant response, which allows them to minimize predation risks. In this way, newts are able to differentiate whether a snake is resistant or sensitive to the toxin in order to avoid being preyed upon. However, newts do not avoid the corpses of a recently digested newt that has been left to decompose. This behavior is unlike salamanders that have been documented in avoiding other damaged salamanders.
+
+
+== Parasites ==
+Parasites include the trematode Halipegus occidualis, the adult form of which may infest the newt's esophagus and the anterior of its stomach.
+
+
+== See also ==
+Cosmocercoides
+Salamander
+California newt
+Red-bellied newt
+
+
+== Line notes ==
+
+
+== References ==
+
+
+== External links ==
+ Data related to Taricha granulosa at Wikispecies
+ Media related to Taricha granulosa at Wikimedia Commons

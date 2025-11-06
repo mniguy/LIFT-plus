@@ -1,0 +1,71 @@
+Samea multiplicalis, the salvinia stem-borer moth, is an aquatic moth commonly found in freshwater habitats from the southern United States to Argentina, as well as in Australia where it was introduced in 1981. Salvinia stem-borer moths lay their eggs on water plants like Azolla caroliniana (water velvet), Pistia stratiotes (water lettuce), and Salvinia rotundifolia (water fern). Larval feeding on host plants causes plant death, which makes S. multiplicalis a good candidate for biological control of weedy water plants like Salvinia molesta, an invasive water fern in Australia. However, high rates of parasitism in the moth compromise its ability to effectively control water weeds. S. multiplicalis larvae are a pale yellow to green color, and adults develop tan coloration with darker patterning. The lifespan, from egg to the end of adulthood is typically three to four weeks. The species was first described by Achille Guenée in 1854.
+
+
+== Geographic range ==
+Samea multiplicalis was first observed in Brazil in 1854, and has since been documented across the southeastern United States, as far west as Louisiana. This region constitutes its native range. In 1981, the moth was introduced in Australia as a potential method of biological control of the water fern, S. molesta. It is now common throughout Queensland and New South Wales. In Australia, it has been found to thrive in tropical climates, with slower growth and dispersal in more temperate climates.
+
+
+== Habitat ==
+S. multiplicalis primarily lives on the water plants, Azolla caroliniana (water velvet), Pistia stratiotes (water lettuce), Salvinia rotundifolia (water fern) in their native range, and Salvinia molesta (a water fern) in Australia. These plants grow to form floating mats on the surface of calm or still bodies of water like ponds, lakes, and slow-moving rivers. S. multiplicalis can survive within a temperature range of 11-36 °C, however it survives best around temperatures of 30 °C. It requires warm conditions to survive and develop, however steady temperatures above the low 30s cause populations to crash. Moth populations can survive year round in habitats where food resources and adequate temperatures are sustained through the winter.
+
+
+== Food resources ==
+
+
+=== Host plant ===
+
+In its native habitat, S. multiplicalis prefers the water lettuce P. stratiotes over other aquatic plants for feeding and oviposition, and in its introduced habitat in Australia, it primarily feeds and lays eggs on the water fern Salvinia molesta. P. stratiotes has a rosette of leaves surrounding a short, central stem and a submerged root system. Leaves are covered in short hairs. S. molesta plants in Australia are all clones, meaning they are genetically identical. However, there is some phenotypic variation due to differing temperature and nitrogen availability across its range, which is important due to S. multiplicalis larvae's preference for high-nitrogen food sources.
+
+
+=== Food preferences ===
+Caterpillars of the salvinia stem-borer moth feed on several aquatic plants, primarily Azolla caroliniana (water velvet), Pistia stratiotes (water lettuce), Salvinia rotundifolia (water fern), Salvinia molesta (a water fern), and occasionally Eichhornia crassipes (water hyacinth). Feeding by colonies of larvae often leads to intensive damage and plant death after two or three weeks of feeding. Larvae eat by boring into plant stems or feeding externally on leaves.
+
+
+=== Protection while feeding ===
+Often, groups of larvae display cooperative behavior when they feed in groups. They collectively construct a silk canopy over their feeding site while they eat, expanding it as they exhaust their current site and move on to new areas of their host plant. This behavior offers protection from predation, decreasing larval mortality.
+
+
+=== Larval nutrition ===
+Nitrogen is very important nutrient for larval development, especially during the first two instars, so larvae prefer food plants with higher nitrogen content. Higher nitrogen intake correlates with larger larval biomass and faster development, both of which are favored because they decrease larval vulnerability to predation. Additionally, a lack of sufficient nitrogen intake during early development leads to decreased ability to digest and utilize food throughout the rest of the insect's life.
+
+
+=== Compensatory feeding ===
+Water lettuce and other aquatic plants tend to have high water content, which dilutes the nitrogen and other nutrients they contain. To account for this, S. muliplicalis has a higher feeding rate than many other Lepidoptera species. When nitrogen levels are especially low, larvae show compensatory feeding behavior, increasing their already high feeding rate and consuming a larger volume in order to make up for the nutrient deficit. This behavior does not usually mitigate the poor quality food, however, and larvae on nitrogen-depleted host plants still experience slower development and decreased digestive efficiency.
+
+
+== Life history ==
+
+
+=== Larvae ===
+
+Larvae hatch approximately four days after eggs are laid. Larvae have an off-white or pale yellow color during early instars and develop a yellow-green color as they mature. They typically develop through five instars over the course of about two weeks, and male larvae develop faster than females by about two days. In low-nitrogen conditions, larvae require a sixth instar and two or three additional days to develop.
+
+
+=== Pupae ===
+Caterpillars construct a silk cocoon inside of a leaf petiole on their host plant in order to pupate. Pupation lasts between four and ten days, with females developing faster than males. Time spent in this stage of development is not dependent on larval nutrition.
+
+
+=== Adults ===
+After they emerge from their cocoons, adult salvinia stem-borer moths spend the rest of their three- or four-week life span around their host plants, mating and laying eggs. Female moths lay an average of 150 eggs over the course of several days on the surfaces of host plant leaves or among hairs or leaflet structures. Moths prefer the host plant P. stratiotes for laying eggs due to its structure which provides abundant oviposition surfaces. Moths are not known to oviposit on E. crassipes. Adults are tan with darker markings on both sets of wings and a wingspan of about 20 mm. Adult size is not significantly affected by larval nutrition levels, however insufficient nitrogen during larval development does lead to reduced egg production in female moths.
+
+
+== Enemies ==
+
+
+=== Parasites ===
+S. multiplicalis is affected by a number of parasites, most commonly by wasp species of the order Hymenoptera and parasitic flies of the order Diptera, as well as miscrosporidia. Parasitic wasps attack S. multiplicalis larvae during their first instar and pre-pupal wasps emerge during the caterpillars' last instar, killing their hosts. Parasitism rates are fairly high in some populations, which diminishes their effectiveness at controlling weedy host plants. S. multiplicalis larvae are parasitized in both their native and introduced ranges by similar species. Parasitism rates remain steady through spring, summer, and fall and decrease slightly during winter months.
+
+
+== Interactions with humans ==
+
+
+=== Biological control agent ===
+
+S. molesta is an aquatic plant native to Brazil that is invasive in Australia due to a lack of sufficient herbivory to control the growth of the plant. It has become a common weed in many bodies of water, especially in eastern Australia in Queensland and New South Wales. The water fern grows in expansive mats, potentially crowding out other native aquatic plants and preventing light penetration in water bodies where it grows. Efforts to control S. molesta began in 1980 with the introduction of the salvinia weevil Cyrtobagous salviniae, which is also native to Brazil. S. multiplicalis was introduced the following year in 1981 to aid in the biological control of the weed.
+
+
+== C. salviniae and S. multiplicalis ==
+Since their introduction, the two insects have had different levels of effectiveness; the weevil has proved more useful than the moth at keeping salvinia populations down through intensive feeding. While C. salviniae and S. multiplicalis both have similar habitat needs, including common host plants, similar nitrogen requirements, and an optimal temperature of 30 °C, S. multiplicalis populations are highly susceptible to parasites and parasitoids, which prevent the colony growth and dispersal that would be required for effective weed control. S. multiplicalis actually has a higher rate of reproduction and dispersal than C. salviniae, but infection prevalence still prevents sufficient levels of feeding to significantly affect S. molesta numbers.
+
+
+== References ==

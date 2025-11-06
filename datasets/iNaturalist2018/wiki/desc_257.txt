@@ -1,0 +1,21 @@
+Cucujus clavipes is known as the flat bark beetle. It is found throughout North America. These are generally found near tree line under bark of dead poplar and ash trees. C. clavipes are described as phloem-feeding and often predators of other small insects, such as wood-boring beetles, and mites. These are usually seen during spring-summer seasons. Having a cold habitat, these beetles must go through several physiological mechanisms to survive; they are recognised for their ability to change their overwintering mechanisms.
+
+
+== Distribution ==
+C. clavipes can be found in North America [1] over a broad latitudinal range from North Carolina (latitude ~35°N) to the Brooks Range in Alaska (latitude, ~67°30 N)  and has also been reported in  Alberta [2] and in Ontario, Canada. C. clavipes has two subspecies, C. clavipes clavipes, which resides in the Eastern portion of the North America and C. clavipes puniceus in the West.  These are poikilothermic organisms.
+
+
+== Characteristics ==
+The beetles are between 10–14 mm in length,. Their body tends to be strongly dorsoventrally flattened and their sides parallel. Their abdomen has 5 visible ventral segments. These have strongly forked median process at abdominal apex. These beetles are bright or dull red in colour.  The adult have triangular shaped heads and black antenna.
+
+
+== Special adaptations ==
+The cold temperature in the temperate and polar USA and Canada makes survival challenging for an organism like C. clavipes. These beetles have evolved physiological adaptations to persist. Many studies of insects and some invertebrates have indicated a correlation between dehydration and the organism’s ability to prevent freezing. C. clavipes has evolved to have this ability of going through extreme dehydration, producing anti-freeze proteins (AFPs) and anti-freeze glycolipids (AFGL), entering into a diapause, producing a multimolar concentration glycerundol, and purging the gut in order to remove potential ice nucleators. Absence of freezing indicates that their AFPs can inhibit ice nucleators to vary in low temperatures and may inhibit homogenous nucleation resulting in vitrification. Another study reported that if temperatures were held constant, then C. clavipes individuals with the highest water content had the highest probability of freezing, and individuals with the lowest water content had the lowest probability of freezing. 
+AFPs decrease the temperature at which an ice crystal grows, defined as the hysteretic freezing point, by an average of 2–5 °C below the melting point in insects, which can be as much as 13 °C in C. clavipes in winter when the insect is dehydrated and the AFPs concentrated. The Alpha S1 and S2 caesin precursor proteins are thought to have roles in the inhibition of formation of ice nucleators in C. clavipes. The beetle can also be freeze tolerant during a given year based on previous determinations of freeze tolerance in former years and that a strong correlation exists between its supercooling point (SCP) and the lower lethal temperature.
+
+
+== References ==
+
+
+== External links ==
+Bugguide page for the red flat bark beetle: https://bugguide.net/node/view/7531

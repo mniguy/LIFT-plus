@@ -1,0 +1,62 @@
+A television studio, also called a television production studio, is an installation room in which video productions take place, either for the production of live television and its recording onto video tape or other media such as SSDs, or for the acquisition of raw footage for post-production. The design of a studio is similar to, and derived from, movie studios, with a few amendments for the special requirements of television production. A professional television studio generally has several rooms, which are kept separate for noise and practicality reasons. These rooms are connected via 'talkback' or an intercom, and personnel will be divided among these workplaces.
+
+
+== Studio floor ==
+
+The studio floor is the actual stage on which the actions that will be recorded and viewed take place. A typical studio floor has the following characteristics and installations:
+
+decoration and/or sets
+professional video camera (sometimes one, usually several), typically mounted on pedestals
+microphones and foldback speakers
+stage lighting rigs and the associated Lighting control console, although it is often located in the production control room (PCR)
+several video monitors for visual feedback from the PCR
+a small public address system for communication
+a glass window between the PCR and studio floor for direct visual contact is often desired, but not always possible
+While a production is in progress, people composing a television crew work on the studio floor.
+
+the on-screen presenters themselves, and any guests - the subjects of the television show.
+a floor manager, who has overall charge of the studio area stage management, and who relays timing and other information from the television director.
+one or more camera operators who operate the cameras, though in some instances these can also be operated from the PCR using remotely controlled robotic pan tilt zoom camera (PTZ) heads.
+possibly a teleprompter operator, especially if this is a live television news broadcast
+
+
+== Production control room ==
+
+The production control room is the place in a television studio in which the composition of the outgoing program takes place. The production control room is occasionally also called a studio control room (SCR) or a "gallery" – the latter name comes from the original placement of the director on an ornately carved bridge spanning the BBC's first studio at Alexandra Palace, which was once referred to as like a minstrels' gallery.The vast majority of devices in a PCR are interfaces for rack-mounted equipment that is located in the Central Apparatus Room (CAR).
+
+
+== Central apparatus room ==
+
+The central apparatus room (CAR) houses equipment that is too noisy or runs too hot to be located in the production control room (PCR). It also makes sure that coax cable, SDI cable, Fibre optic cable or other wire lengths and installation requirements keep within manageable lengths, since most high-quality wiring runs only between devices in this room. This can include the actual circuitry and connections between:
+
+
+== Master control room ==
+
+Master control is the technical hub of a broadcast operation common among most over-the-air television stations and television networks. Master control is distinct from a PCR in television studios where the activities such as switching from camera to camera are coordinated. A transmission control room (TCR) is usually smaller in size and is a scaled-down version of centralcasting.
+The master control room in a US television station is the place where the on-air signal is controlled. It may include controls to playout pre-recorded television programs and television commercials, switch local or television network feeds, record satellite feeds and monitor the transmitter(s), or these items may be in an adjacent equipment rack room. If the program is broadcast live, the signal goes from the PCR to MCR and then out to the transmitter.
+
+
+== Other facilities ==
+
+A television studio usually has other rooms with no technical requirements beyond video monitors and studio monitors for audio. Among them are:
+one or more make-up and changing rooms
+a reception area for crew, talent, and visitors, commonly called the green room
+an audience handling area
+
+
+== See also ==
+Broadcast engineering
+Electronic field production (EFP)
+Electronic news-gathering (ENG)
+Remote broadcast
+Outside broadcasting (OB)
+Television crew
+Television studies
+Production team
+
+
+== References ==
+
+
+== External links ==
+ Media related to Television studios at Wikimedia Commons

@@ -1,0 +1,28 @@
+Hypoplectrodes is a genus of marine ray-finned fish belonging to the Anthiinae subfamily, part of the family Serranidae, the groupers and sea basses. It contains eight species; six of which are endemic to Australia, with one species endemic to New Zealand, and another found in the southeastern Pacific Ocean.
+
+
+== Taxonomy ==
+The genus Hypoplectrodes was first established by the American ichthyologist Theodore Gill in 1862. Gill originally merely assigned a type species (Plectropoma nigrorobrum) to the genus, but did not include a diagnosis of its characteristics. As a result, some later taxonomists rejected the name.Notably, the British zoologist George Albert Boulenger in the first volume of his Catalogue of the Perciform Fishes in the British Museum acknowledged Gill's earlier name, but because of the absence of a diagnosis, Boulenger instead preferred to use the later name Gilbertia, coined by the American ichthyologists David Starr Jordan and Carl H. Eigenmann in 1890. Both Jordan and Eigenmann where unaware of Gill's earlier paper and had used a different species as the type. In 1896, after reading Boulenger's book, Gill admitted to not including a diagnosis in his original paper and that he had indeed even forgotten that he had ever named the genus, but he clarified that a diagnosis for Hypoplectrodes had actually been published in an 1871 paper by the Cuban zoologist Felipe Poey, which Gill had provided via personal correspondence in response to a request by the former author. Thus, the name Hypoplectrodes was still valid. Gill also pointed out that the name Gilbertia was also used in 1891 for a genus of moths (now valid as Walsinghamiella).Despite this, most authors continued to use the name Gilbertia in accordance with Boulenger's more widely known book. Though Hypoplectrodes was also used, it was then considered a monotypic genus and only contained Hypoplectrodes nigroruber (the species Gill used as type). In 1927, the Australian ichthyologist Gilbert P. Whitley (who was also unaware of Gill's 1896 paper) pointed out that the fish genus Gilbertia, as with the moth, were both invalidated by an earlier usage of the name Gilbertia for a genus of molluscs. Whitley proposed the replacement name of Ellerkeldia.In 1989, the American ichthyologist William D. Anderson, Jr. and the South African ichthyologist Phillip C. Heemstra synonymized the genus Scopularia (established in 1959 for Scopularia rubra - now accepted as Hypoplectrodes semicinctum) with Whitley's Ellerkeldia. In doing so, they also discovered that Ellerkeldia was actually a junior synonym of Hypoplectrodes. They published a revised diagnosis of the genus in 1989. The genus is now valid under the name Hypoplectrodes.Hypoplectrodes is classified under the subfamily Anthiadinae of the family Serranidae. It is closely related to the genus Plectranthias.
+
+
+== Description ==
+Members of the genus Hypoplectrodes are characterized by the absence of scales on the maxilla, one to three antrorse spines on the preopercle of the gill cover, three predorsal bones, and 26 to 28 vertebrae (usually 27, only very rarely 26). Supramaxillae are also usually present.
+
+
+== Species and distribution ==
+Eight species are currently classified under Hypoplectrodes, listed below, along with their common names (if present) and distribution:
+Hypoplectrodes annulatus (Günther, 1859) - blackbanded seaperch, endemic to Australia
+Hypoplectrodes cardinalis Allen & Randall, 1990 - red seaperch, endemic to Western Australia
+Hypoplectrodes huntii (Hector, 1875) - redbanded perch, endemic to New Zealand, though with unverified reports in Australia
+Hypoplectrodes jamesoni Ogilby, 1908 - Jameson's seaperch, endemic to Australia
+Hypoplectrodes maccullochi (Whitley, 1929) - half-banded seaperch, endemic to Australia
+Hypoplectrodes nigroruber (Cuvier, 1828) - banded seaperch, endemic to southern Australia
+Hypoplectrodes semicinctum (Valenciennes, 1833) - no common name, found in the southeastern Pacific Ocean, with records from Easter Island, the Desventuradas Islands, and the Juan Fernández Islands
+Hypoplectrodes wilsoni (Allen & Moyer, 1980) - spotty seaperch, endemic to Western Australia
+
+
+== References ==
+
+
+== External links ==
+ Media related to Hypoplectrodes at Wikimedia Commons

@@ -1,0 +1,61 @@
+The light brown apple moth (Epiphyas postvittana) (often abbreviated to LBAM) is a leafroller moth belonging to the lepidopteran family Tortricidae.
+
+
+== Identification ==
+
+
+=== Adult moths ===
+Light brown apple moth adults are variable in colour and may be confused with other leafroller moths and similar species. DNA analysis is currently required to positively identify the species which are otherwise indistinguishable on gross characteristics from other moths of similar species. Typical males have a forewing length of 6–10 mm with a light brown area at the base, which is distinguishable from a much darker, red-brown area at the tip. The latter may be absent, with the moth appearing uniformly light brown, as in the females, which have only slightly darker oblique markings distinguishing the area at the tip of the wing. Females have a forewing length of 7–13 mm.
+
+		
+		
+		
+
+
+=== Larvae ===
+Larvae are not easily distinguished from the larvae of other tortricid leafrollers; only DNA testing is a certain identification method. The first larval instar has a dark brown head; all other instars have a light fawn head and prothoracic plate. Overwintering larvae are darker. First instar larvae are approximately 1.6 mm long, and final instar larvae range from 10–18 mm in length. The body of a mature larva is medium green with a darker green central stripe and two side stripes.
+
+
+== Distribution ==
+The light brown apple moth is a native insect of Australia. It has been introduced and now also lives in New Caledonia, the British Isles, Hawaii (since 1896), and New Zealand. In March 2007 the moth was positively identified in California by DNA samples across hundreds of miles, from Los Angeles to Napa, north of San Francisco.
+
+
+== Life cycle ==
+Light brown apple moth pass through three generations annually with a partial fourth generation in some years.  The moth has no winter resting stage. There is considerable overlap in the generations.  In warmer areas, four or even five generations are completed annually, with major flight periods occurring during September–October, December–January, February–March, and April–May. In cooler climates, the number of complete generations may be reduced to two.
+
+Eggs are laid in clusters of 3–150 on leaves or fruit. A single female might lay hundreds of eggs.  Adults produced by the overwintering larval generation emerge during October and November. These give rise to the first summer generation, in which final instar larvae mature between January and mid February. Second generation larvae reach maturity during March and April, and the adults from this generation provide third generation eggs. Normally, the rate of larval development is slowed considerably during the winter, particularly when temperatures approach freezing; thus the majority of larvae over-winter in the prolonged early juvenile phases of the second third, and fourth instars. During this period they normally feed on herbaceous plants. Re-invasion of apple trees takes place during October–December, when moths of the third generation start laying eggs again on apple leaves.
+
+
+=== Sex pheromone ===
+Females release a specific blend of sex pheromone to attract males. The blend is a mixture of two compounds (E)-11-tetradecen-1-yl acetate, comprising 95% of the mixture and (E,E)-9,11-tetradecadien-1-yl acetate comprising the remaining 5%.  As an attractant used in moth traps, the synthetic versions of these pheromones are highly specific.  Only very closely related species of moths are attracted to the pheromone's scent.
+
+
+== Diet and damage ==
+The insect is regarded as an herbivorous generalist, and the larvae feed on numerous horticultural crops in Australia and New Zealand, where they have limited natural predators. It is known to feed on 123 dicotyledonous plant species, including 22 Australian natives, belonging to 55 different families. In New Zealand, over 250 host species have been recorded. It feeds on nearly all types of fruit crops, ornamentals, vegetables, glasshouse crops, and occasionally young pine seedlings.The larvae cause significant damage to foliage and fruit.  Early instars feed on tissue beneath the upper epidermis (surface layer) of leaves, while protected under self-constructed silken webs on the undersurface of leaves. Larger larvae migrate from these positions to construct feeding niches between adjacent leaves, between a leaf and a fruit, in the developing bud, or on a single leaf, where the leaf roll develops. The late stage larvae feed on all leaf tissue except main veins, and can often be found tunneling into berry fruits such as strawberries and caneberries.
+Superficial fruit damage is common in apple varieties which form compact fruit clusters, though more significant damage may also occur such that crops are no longer commercially viable. Leaves are webbed to the fruit and feeding injury takes place under the protection of the leaf; or larvae spin up between fruits of a cluster. Internal damage to apple, pear, and citrus fruits is less common, but a young larva may enter the interior of an apple or pear fruit through the calyx or beneath the stem of a citrus fruit. Excreta are usually ejected on to the outside of the fruit.
+In sharp contrast to most affected regions, the Hawaii Department of Agriculture says the moth "has not been a significant pest in Hawaii" and finds it beneficial in a few cases, because it kills some invasive plants, including gorse and blackberry.In April 2008, an attorney for the California Department of Agriculture acknowledged in court papers that there were "no documented crop losses in California at this time".
+
+
+== Control ==
+The species has been classified as a noxious insect in the United States and Canada, leading to restrictions on produce from counties with substantial populations. Typical orchard control of the insect commonly involves Integrated Pest Management (IPM) regimes using a variety of methods such as insecticide applications and application of horticultural oils to smother insects and egg masses, biological control including Bacillus thuringiensis (BT) and occasionally mating disruption, which typically involves releasing synthetic insect pheromones to confuse the male moth's tracking of female scent. This results in fewer fertile pairings and thus fewer offspring. Sex pheromone lures are also often used to assess and monitor populations of moths in specific areas. In California, a range of native parasitoids and predators have been found to attack the eggs and larval stages.
+
+
+== Control measures in Australia and New Zealand ==
+The moth is native to Australia, and its natural predators keep the population in check.  It is a pest in New Zealand where various measures, including using natural enemies, insecticides and pheromones (to disrupt mating), have been taken for more than a decade.Natural enemies of the moth include species of tachinid fly and ichneumonid wasp. These are parasitoids which deposit their eggs on or within the bodies of the moth larvae. The parasitoid larva hatches and consumes the interior of the moth larva's body, killing the pest larva. Historically, the most abundant parasitoid has been the braconid wasp Dolichogenidea tasmanica, and it is still the most common natural enemy found with the moth in New Zealand. This wasp, like the moth, is native to Australia and was probably imported along with it. Other common parasitoids include the tachinid fly Trigonospila brevifacies, the braconid wasp Glyptapanteles demeter, and the bethylid wasp Goniozus jacintae. The combination of these parasitoids have played a role in reducing moth damage.
+
+
+=== Eradication measures in California ===
+
+It is unknown how long LBAM has been present in California, though widespread confirmed insect captures have been found across much of the coastal region of the state. After the moth was confirmed for the first time by DNA testing to be present in California in 2007, quarantine measures and a controversial program of aerial spraying proprietary synthetic pheromones over urban and suburban areas was begun.  Other less controversial efforts included nursery and grower treatment of potential infestations in plants using graduated Integrated Pest Management (IPM) techniques with pesticides, smothering oils, and biologic controls such as Bacillus thuringiensis. USDA officials obtained an Emergency Exemption from Registration from the U.S. Environmental Protection Agency that allowed them to bypass state rules for the use of pesticides, such as the production of an environmental impact report that would normally be required.
+Public outcry was significant after an initial round of aerial spraying, when over 600 complaints of adverse health effects were reported to government agencies and local groups opposing the aerial spraying.  In June 2008, the California Department of Food and Agriculture announced that it was abandoning plans for aerial spraying over population centers in favor of using local application of pheromone-impregnated twist-ties, a control measure that has proven effective in New Zealand. In December 2015, an appeals court ruled against the LBAM pesticide program on the grounds that it violated state environmental laws.
+
+
+== References ==
+
+
+== External links ==
+Light Brown Apple Moth CISR: Center for Invasive Species Research
+California Department of Food and Agriculture LBAM website
+United States Department of Agriculture Animal and Plant Health Inspection Service LBAM website
+light brown apple moth on the UF / IFAS Featured Creatures Web site
+Species Profile- Light Brown Apple Moth (Epiphyas postvittana), National Invasive Species Information Center, United States National Agricultural Library. Lists general information and resources for Light Brown Apple Moth.

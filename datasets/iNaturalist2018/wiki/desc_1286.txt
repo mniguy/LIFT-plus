@@ -1,0 +1,106 @@
+Helicoverpa zea, commonly known as the corn earworm, is a species (formerly in the genus Heliothis) in the family Noctuidae. The larva of the moth Helicoverpa zea is a major agricultural pest. Since it is polyphagous (feeds on many different plants) during the larval stage, the species has been given many different common names, including the cotton bollworm and the tomato fruitworm. It also consumes a wide variety of other crops.The species is widely distributed across the Americas with the exception of northern Canada and Alaska. It has become resistant to many pesticides, but can be controlled with integrated pest management techniques including deep ploughing, trap crops, chemical control using mineral oil, and biological controls.
+The species migrates seasonally, at night, and can be carried downwind up to 400 km. Pupae can make use of diapause to wait out adverse environmental conditions, especially at high latitudes and in drought.
+
+
+== Distribution ==
+The corn earworm is found in temperate and tropical regions of North America, with the exception of northern Canada and Alaska as it cannot overwinter in these areas. Helicoverpa zea found in the eastern United States also does not overwinter successfully. They live in Kansas, Ohio, Virginia, and southern New Jersey, but survival rate is mainly affected by the severity of the winter. Corn earworm moths regularly migrate from southern regions to northern regions depending on winter conditions. They are also found in Hawaii, the Caribbean islands, and most of South America, including Peru, Argentina, and Brazil.Cotton earworms have also been reported from China in 2002.The taxonomy of Helicoverpa was poorly understood for a long time. Many older works referring to "Heliothis obsoleta", a synonym of H. armigera, are actually about H. zea.
+
+
+== Lifecycle and description ==
+
+
+=== Eggs ===
+Eggs are individually deposited on leaf hairs and corn silks (not in reference given). The eggs are initially pale green in color, but over time they turn yellowish and then grey. Eggs are 0.5 mm in height and average about 0.55 mm in diameter. They hatch after 66 to 72 hours of development. Once larvae have breached the chorion, they spend up to 85% of their time emerging from their shell. In this eclosion process, the larvae work to make the exit hole larger than their heads. Larvae spend the rest of the time making a silk meshwork around the exit hole; this both helps them escape the shell and helps them find the shell afterwards so they can feed on it. After feeding on their shell, larvae rest about 3 minutes before they begin feeding on the plant material around them.
+
+
+=== Larvae ===
+Following hatching, larvae feed on the reproductive structures of the plant and usually develop through four to six instars. Initially, the young larva feed together, and this stage is their most destructive stage. Through maturation, older larvae become aggressive and cannibalistic, leaving one or two larvae per feeding site (See Interfamilial Predation). They usually have orange heads, black thorax plates, and a body color that is primarily black. Their bodies can also be brown, pink, green, and yellow with many thorny microspines. Mature larvae migrate to the soil, where they pupate for 12 to 16 days.
+
+
+=== Pupae ===
+Larvae pupate 5 to 10 cm below the soil surface. Pupae are brown in color; they measure 5.5 mm wide and 17 to 22 mm long. The biggest environmental factor that affects the pupal developmental rate is temperature, primarily soil temperature. This is because proper insulation facilitates development, and soil temperatures below 0 degrees Celsius correlate to higher pupal mortality. Another factor that influences pupal development is soil moisture. Pupal mortality is high in wet soil, where the moisture level is between 18 and 25 percent. Dehydration can also lead to high death rates among pupae, if soil moisture is as low as 1 to 2 percent.
+
+
+=== Adults ===
+Adults have forewings that are yellowish brown in color and have a dark spot located in the center of their body. The moths have a wingspan ranging from 32 to 45mm, and live over thirty days in optimal conditions. However, the life span ranges from five to fifteen days on average. They are nocturnal and hide in vegetation during the day. Adult moths collect nectar or other plant exudates from a large number of plants, and live for 12 to 16 days. Females can lay up to 2,500 eggs in their lifetime.
+
+
+== Economic impact ==
+
+
+=== Damage ===
+The corn earworm is a major agricultural pest, with a large host range encompassing corn and many other crop plants. H. zea is the second-most important economic pest species in North America, next to the codling moth. The estimated annual cost of the damage is more than US$100 million, though expenditure on insecticide application has reached up to $250 million. The moth's high fecundity, ability to lay between 500 and 3,000 eggs, polyphagous larval feeding habits, high mobility during migration, and a facultative pupal diapause have led to the success of this pest.
+
+
+=== Control ===
+Two kinds of control measures have been advocated since the 19th century. One aims at total pest population reduction, while the other is aimed at protection of the particular crop. As of 2013, integrated pest management (IPM), an array of techniques and approaches to control pests, was recommended. Practices such as deep ploughing, mechanical destruction, and trap crops are also used to kill different instars. Chemical control is widely successful, and includes the use of applying mineral oil inside the tip of each corn ear, which suffocates the young larvae. Pesticides are one method by which corn earworm populations are controlled; however, since they have been widely used, the insects have become resistant to many pesticides. The use of biological controls, such as the bacterium Bacillus thuringiensis and various forms of nematodes, is also common, although not without their own problems. Corn earworm moths are not always vulnerable to the bacterium, and they are only afflicted by nematodes once the larvae have pupated and dropped to the ground. Strains of maize have been genetically modified to produce the same toxin as the bacterium, and are referred to as Bt-corn.
+
+
+== Survival ==
+
+
+=== Natural enemies ===
+More than 100 insect species prey on H. zea, usually feeding on eggs and larvae. The insidious flower bug (Orius insidiosus), a pirate bug, feeds on the eggs of H. zea, thus acting as a biological control agent. Some plants emit a blend of chemicals in response to damage from H. zea, which attract parasitic insects. Cardiochiles nigriceps, a solitary endoparasitoid wasp, makes use of these volatile plant compounds to identify the presence of H. zea. When the wasps find damaged host plants, they hover around and then search for the host with their antennae. When the females find their prey, they use their antennae to position themselves and deposit eggs into the host. The braconid wasp Microplitis croceipes, which deposits its eggs inside a living caterpillar, is also an important parasitoid of both H. zea and the related species Heliothis virescens. When larval densities are high, a fungal pathogen, Nomuraea rileyi, can cause an outbreak of disease. However, pupal mortality is high not because of predators, but because of harsh weather conditions, collapsing pupal chambers, and disease.
+
+
+=== Larval predation ===
+As the larvae mature, they become increasingly aggressive. Although they have host plants surrounding them, H. zea larvae attack and eat other insects. When presented with a second-instar larva of Urbanus proteus, the corn earworm larva grasps the insect, rolls onto its side to form a semicircle, and begins feeding on the insect's posterior end. If the U. proteus begins to bite out of defense, H. zea rotates the larva 180° and uses its mandibles to puncture the head capsule, killing the insect. Then, the H. zea larva  rotates the U. proteus back to its original position and continues feeding until the insect is entirely consumed. Even when presented with up to five U. proteus larvae, H. zea engages in the unique behavior, as the larvae have a higher affinity for lepidopterous prey over plant material. H. zea raised in a low-moisture environment has a lower pupal weight and a longer developmental time than those raised in environments of high moisture, so a nutritional benefit exists to such aggressive feeding behavior under such conditions.
+
+
+== Movement ==
+
+
+=== Migration ===
+
+Helicoverpa zea is a seasonal, nocturnal migrant, and adults disperse, weather permitting, when there are poor reproductive conditions. In short-range dispersal, the moths move within the crop and low over the foliage. This type of dispersal is mostly independent of wind currents. Long-range dispersal involves adults flying up to 10 meters above the ground and moving downwind from crop to crop. Migratory flights occur up to 1–2 km above the ground and can last for hours. Migration of 400 km is common for such flights as moths are carried downwind. Helicoverpa zea caterpillars are usually intercepted on produce transported by air-freight transportation. Most activity is restricted to the night-time. Some moths display vertical take-off flight, which carries them above the flight boundary layer and allows them to undertake migratory movement in upper wind systems. During mating, males engage in high-speed directed flight in search of pheromone plumes (See Pheromone Production).
+
+
+=== Diapause ===
+Pupae have the ability to enter facultative diapause, the state of arrested development and growth in response to a change in the environment. By preparing themselves for a major change in environmental conditions, they can increase reproductive success. Diapause increases with increasing latitude. In tropical conditions, populations breed continuously, and only 2-4% of pupae diapause. In subtropical and temperate regions, most individuals diapause. Individuals who don't enter diapause in these areas emerge in late fall and die without reproducing. Drought-responsive diapause has also been observed in the summer.
+
+
+== Feeding ==
+
+
+=== Host plants ===
+Helicoverpa zea has a wide host range, attacking vegetables that include corn, tomato, artichoke, asparagus, cabbage, cantaloupe, collards, cowpea, cucumber, eggplant, lettuce, lima bean, melon, okra, pea, pepper, potato, pumpkin, snap bean, spinach, squash, sweet potato, and watermelon. However, not all of these are good hosts. While corn and lettuce are shown to be great hosts, tomatoes are less beneficial, and broccoli and cantaloupe are poor hosts. Corn and sorghum are most favored by corn earworms. Various signs reveal the presence of these moths. Young maize crops have holes in their leaves, following whorl-feeding on the apical leaf. Eggs can be found on silks on larger plants, and silks display grazing evidence. The soft, milky grains in the top few centimeters of corn cobs are eaten as the corn ears develop. One larva per cob can be observed. Bore holes are observed in cabbage and lettuce hearts, flower heads, cotton bolls, and tomato fruits. Sorghum heads are grazed, and legume pod seeds are eaten.
+
+
+=== Corn ===
+
+Helicoverpa zea earns its nickname the corn earworm for its widely known destruction of cornfields. The corn earworm feeds on every part of corn, including the kernels. Severe feeding at the tip of kernels allows entry for diseases and mold growth. Larvae begin feeding on the kernels once they have reached third instar. Larvae penetrate 9 to 15 cm into the ear, with deeper penetration occurring as the kernels harden. Larvae do not eat the hard kernels, but take bites out of many kernels, lowering the quality of the corn for processing.
+
+
+=== Soybeans ===
+Helicoverpa zea is the most common and destructive pest of soybean growth in Virginia. About one-third of Virginia acreage is treated annually with insecticide, costing farmers around 2 million dollars. The degree of damage varies on the size of the pest infestation, the timing, and the stage of the plant. However, soybean plants are capable of withstanding a large amount of damage without substantial yield loss depending on soil moisture, planting date, and weather. If the damage is early in the plants life, then damage will mostly be to the leaves. Plants compensate for the damage by processes such as increasing seed size in remaining pods. Most damage happens in August, when the plants are flowering. Attacks that happen after August do much less damage because many pods have developed tougher walls that H. zea can't penetrate. Infestations that affect pod formation and seed filling have the potential to reduce yields, and because this happens in the later stages of plants, they have less time to compensate.Female moths are attracted to flowering soybean fields. The most severe infestations occur between flowering and when pods become fully developed. Large-scale outbreak is associated with time of peak flowering, when most pods are developed, and peak moth flight, for giant. Moths are also attracted to drought stressed soybeans or fields with poor growth. Dry weather leads to quick drying of corn plants, compelling moths to leave and seek other hosts. Heavy rainfall also decreases corn earworm populations because it drowns pupae in their soil chambers, limits moth flight, washes eggs from leaves, and creates favorable conditions for fungal diseases that kill caterpillars.
+
+
+== Mating ==
+
+
+=== Pheromone production ===
+A hormone produced in the brain of the female moths controls sex pheromones. The hormone is released into the hemolymph to stimulate pheromone production.  Pheromone biosynthesis-activating neuropeptide (PBAN) is a peptide that regulates pheromone production in moths. It acts on the pheromone gland cells using calcium and cyclic AMP. Although the photoperiod regulates the release of PBAN to some extent, the chemical signals from the host plant supersede the effect from the time of day. Female Helicoverpa zea in corn fields do not produce pheromones during the night until they encounter corn. Several natural corn silk volatiles like the plant hormone Ethylene as a plant hormone#ethylene induce H. zea pheromone production. The presence of the silk from an ear of corn is enough to cause pheromone production, and physical contact between females and corn is unnecessary. This evolutionary mechanism enables the moths to coordinate their reproductive behavior with the availability of food. Female moths often become depleted of sex pheromone after mating within 2 hours of separation from the male. The pheromonostatic peptide (PSP), a protein 57 amino acids long found in the male accessory gland, is what causes depletion of the female's sex pheromone. This capability in males has been selected for because it increases the reproductive fitness of those that carry it, since other males will not be attracted to a female without a sex pheromone; thus, the female will bear only the first male's offspring. The transfer of a spermatophore without accessory gland products does not stop female pheromone production, but does stop the female's calling behavior. Intense selection acting on males to manipulate female reproductive physiology promotes rapid evolution of specific molecules, and male-derived pheromone suppressing factors exhibit positive selection. When females are infected with the virus Helicoverpa zea nudivirus 2, they produce 5 to 7 times the amount of sex pheromone than uninfected females.
+
+
+=== Mortality ===
+Sperm competition and chemicals introduced to females through mating have a negative effect on females and their lifespan. In males, production of the spermatophore, sperm, and secondary chemicals reduces their lifespan. As the number of copulations increase, the rate of mortality also increases in both sexes.
+
+
+=== Flight behavior ===
+Males must first wait to sense a female's pheromones before they can locate her. Before males engage in flight to find a female, they warm-up by shivering the major flight muscles to reach thoracic temperature optimal to sustain flight, around 26 degrees Celsius. The thermoregulatory shivering activities of males were measured as they were exposed to different sex-related olfactory cues. Males are found to heat up more quickly in the presence of a female pheromone and take-off at a lower thoracic temperature than males who are exposed to other chemical scents. Since heating up to the right temperature leads to better flight performance than flying immediately, there is a trade-off between sub-optimal flight performance and rapid onset of directed flight. Helicoverpa zea males exposed to an attractive pheromone blend thus spend less time shivering and increase their heating rate. Thermoregulatory behavior of unrestrained moths is associated with competition for access to females, showing the ecological trade-off.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+
+
+== References ==
+
+
+== External links ==
+corn earworm on the UF / IFAS Featured Creatures Web site
+corn earworm moth Find large format diagnostic photos and information.

@@ -1,0 +1,62 @@
+The viceroy (Limenitis archippus) is a North American butterfly that ranges through most of the contiguous United States as well as parts of Canada and Mexico. The westernmost portion of its range extends from the Northwest Territories along the eastern edges of the Cascade Range and Sierra Nevada mountains, southwards into central Mexico. Its easternmost range extends along the Atlantic and Gulf coasts of North America from Nova Scotia into Texas.It was long thought to be a Batesian mimic of the monarch butterfly, but since the viceroy is also distasteful to predators, it is now considered a Müllerian mimic instead.
+The viceroy was named the state butterfly of Kentucky in 1990.
+
+
+== Description ==
+Its wings feature an orange and black pattern, and over most of its range it is a Müllerian mimic with the monarch butterfly (Danaus plexippus). The viceroy's wingspan is between 53 and 81 mm (2.1 and 3.2 in).  It can be distinguished from the monarch by its smaller size and the postmedian black line that runs across the veins on the hindwing.In Florida, Georgia, and the American Southwest, viceroys share the pattern of the queen (Danaus gilippus) and in Mexico they share the pattern of the soldier (Danaus eresimus). In all three areas, the local Danaus population mimic the coloration of the viceroy species. It was originally believed that the viceroy was a Batesian mimic of the three other species, and presumed edible or only mildly unpalatable to predators, but this has since proven not to be true.  In an experiment with both the monarch's and viceroy's wings removed, birds were discovered to think the viceroy was just as unpalatable as the monarchs.
+
+
+== Food sources ==
+The caterpillar feeds on trees in the willow family Salicaceae, including willows (Salix), and poplars and cottonwoods (Populus). The caterpillars sequester the salicylic acid in their bodies, which makes them bitter, and upsets predators' stomachs. As further protection, the caterpillars, as well as their chrysalis stage, resemble bird droppings.Adults are strictly diurnal, flying preferentially in the late morning and early afternoon.  Adult viceroys nectar on milkweeds, thistles and other common flowers.
+
+
+== Life stages ==
+
+		
+		
+
+
+== Evolution of admiral butterflies (Limenitis) ==
+The world is divided into eight biogeographic realms – Palearctic, Nearctic, Afrotropical, Neotropical, Australasian, Indomalayan, Oceanian, and Antarctic. The Palearctic realm includes most of Eurasia and North Africa while Nearctic realm includes most of North America. Limenitis butterfly wing patterns are much more diverse in the Nearctic than the Palearctic. Three lineages of mimetic butterflies occur in North America and the evolution of mimicry may have played a large role in the diversification of this group. For butterflies to travel from the Palearctic region to the Nearctic region of the world, the migration must have occurred during a time period when Beringia, the land bridge between Euorasia and North America, was still above water.  Based on crude divergence rate calculations, the colonization of the Nearctic Leminitis dates back approximately four million years. Whether the migration event was a single or multiple occurrence event has a significant effect on how we look at the evolution of mimicry. A history of multiple migrations would suggest that speciation occurred before the evolution of mimicry, meaning mimicry was the result of speciation instead of the driver of speciation.
+However, much evidence supports that a single event colonization is the best explanation. One theory of Nearctic colonization states that the reason for the colonization was a larva host plant shift. The position of the poplar admiral (L. populi), a Palearctic species, in a phylogenetic tree confirms that the poplar is the closest existing relative of the Nearctic taxa and is consistent with the theory that the host plant had a large effect on the evolution of North American admirals. Just like the wing-pattern of the Palearctic butterflies has little evidence of divergence, the host plant use of these species also shows no sign of divergence. These species only feed on different species of honeysuckle (Lonicera ssp.) The exception is the poplar that feeds exclusively on aspen (Populus tremulus of the willow family). All North American Limenitis feed on members of the willow family as well, suggesting that an (ancestral host plant shift) expansion of a novel host plant across the Bering land bridge could have driven the colonization of the Nearctic. Species level phylogenies based on the mitochondrial gene COI and the gene EFI-α of Nearctic and Palearctic species also indicate a single colonization of the Nearctic species. The phylogenies produced indicate that a white-banded ancestor similar to the species L. arthemis. established itself in North America and resulted in several major lineages, three of which involved mimicry independently of each other. Given the present monophyly of the Nearctic species, it is likely that a single migration and subsequent expansion of the population was the foundation of the Nearctic butterflies.
+
+
+== Predators and avoidance ==
+Color warnings in viceroy butterflies have been shaped by natural selection in an evolutionary relationship between prey and predator. The viceroy's main predators – like many other butterflies – consist mostly of birds.
+
+
+=== Batesian mimicry ===
+The viceroy's wing color ranges from tawny orange (resembling monarchs) in the north to dark mahogany (resembling queens) in the south.  It has been argued that selective pressures from predators have given rise to "model switching" in the viceroy, with each subspecies being selected to copy the color pattern of the locally dominant Danaine subspecies. When the monarch's breeding range overlaps with the viceroy, the viceroy will adopt the lighter shades of orange. Towards the south, the viceroy mostly displayed darker orange phenotypes in response to the larger population of queens. It is important to note that the differences between these two morphs is only the color of the wings and the line drawn through the viceroy's lower wings; other features, such as body size and wing-pattern elements, are identical.It had been long accepted that the viceroy practiced Batesian mimicry, with the monarch and the queen serving as models. Batesian mimicry is a type of defensive behavior in which a palatable species closely resembles unpalatable or toxic species to avoid predation.
+Early experiments suggested that the viceroys use Batesian mimicry to defend themselves against predators.  In these experiments, birds that had not been exposed to monarchs willingly ate viceroys, but those that had tasted the unpalatable monarch refused to touch the mimic.  In addition, when given the choice between a mimic and non-mimic after being exposed to an unpalatable model, avian predators never ate the viceroy mimic.
+
+
+=== The Müllerian mimicry dispute ===
+Recent research has argued that the viceroy may be unpalatable to avian predators. If that is the case, then the viceroy butterfly displays Müllerian mimicry, and both viceroy and monarch are co-mimics of each other.Some literature suggests that the queen-viceroy may not be a good model-mimic pair for Batesian mimicry. Experimental evidence has shown that avian predators express aversion to the queen butterfly after being exposed to viceroys. That the avian predators avoided the queen butterfly implies that the queen does not serve as a model and the viceroy as a parasitic mimic; rather, they may be Müllerian co-mimics.When avian predators were exposed to butterfly abdomens without the wings, many avian predators rejected the viceroy after a single peck. Furthermore, they exhibited distress behavior similar to that displayed when eating other, known, unpalatable species.When palatability was measured by looking at avian responses to butterfly abdomen, it was found that the viceroy butterfly was significantly more unpalatable than the queen. The queen-viceroy relationship is too asymmetrical for them to be considered real co-mimics of each other. Instead, mathematical models have suggested that the queen enjoys the benefits of mimicry at the viceroy's expense, and that the model-mimic dynamic between the two should be switched.In light of this new interpretation, it has been speculated that different food plants in different geographical locations influence the palatability of the viceroy. Further investigation is needed to clarify the relationship between the viceroy and its purported models.
+
+
+== Evolution of viceroy mimicry ==
+Based on phylogenic evidence, it is known that mimicry in the North American admirals was a driver of speciation. An essential condition for the evolution of mimicry was the presence and abundance of unpalatable models. Mimetic evolution also involved direct selection with the model acting as a "starting block" for the mimic to evolve against. The drive behind this type of evolution must be predation. Eventually, the mimetic population undergoes phenotypic fixation, usually at a point where the wing pattern and colors of the mimic have reached the closest superficial resemblance of its model. As these processes continued, the subspecies divergences began occurring as the mimetic species expanded their geographical range and began mimicking other species of butterfly.
+Determining what part of the butterfly genome controls wing color and pattern is also a major component that must be taken into account when trying to understand the evolution of mimicry. Each individual stripe or spot on a wing has a distinct identity that can be traced from species to species within a family.A fascinating feature of pattern genetics is that the dramatic phenotypic changes are primarily due to small changes in the gene that determines the sizes and positions of pattern elements.  This discovery is in accord with the principal theory for the evolution of mimicry. The theory proposes that initial mimicry is achieved by a single mutation that has a large effect on the phenotype, which immediately gives the organism some protection, and is then refined by so-called modifier genes with lesser phenotypic effects.  Consequently, if the genes for wing pattern and color were normal functioning genes, a single mating would produce several phenyotypically different offspring, making the ability for mimicry to evolve very difficult.
+This unique puzzle led to proposal of a possible supergene. A supergene is a tight cluster of loci that facilitate the co-segregation of adaptive variation, providing integrated control of complex adaptive phenotypes.  Different genomic rearrangements have tightened the genetic linkage between different color and pattern loci with complete suppression of recombination in experimental crosses in a 400,000 base section containing at least 18 genes.  This single supergene locus controls differences in a complex phenotype like wing coloration that can involve modifications of wing pattern, shape, and body color. Mimetic patterns have high fitness correlated to locally abundant wing patterns and low fitness when the offspring have recombinant, non-mimetic phenotypes. This tight-linked area of wing pattern genes explains how mimetic phenotypes are not broken up during recombination during sexual reproduction.
+
+
+== Polymorphism ==
+Viceroys display geographic color polymorphism, which occurs when the viceroy butterflies are observed having different color forms in different regions of their territory. Color polymorphism is hypothesized to be affected by interaction between the viceroy, monarch and queen's overlapping environments.  In the northern areas of their region, where monarchs predominate, viceroys are lighter, while in southern Florida, they are darker due to queens being more abundant than monarchs.
+
+
+== References ==
+
+
+== Further reading ==
+Glassberg, Jeffrey Butterflies through Binoculars, The West (2001)
+Guppy, Crispin S. and Shepard, Jon H. Butterflies of British Columbia (2001)
+James, David G. and Nunnallee, David Life Histories of Cascadia Butterflies (2011)
+Pelham, Jonathan Catalogue of the Butterflies of the United States and Canada (2008)
+Pyle, Robert Michael The Butterflies of Cascadia (2002)
+
+
+== External links ==
+
+Description of Viceroy on Butterflies and Moths website
+viceroy butterfly on the UF / IFAS Featured Creatures Web site
+Viceroy, Butterflies of Canada

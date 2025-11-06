@@ -1,0 +1,42 @@
+Urnula craterium is a species of cup fungus in the family Sarcosomataceae. It is parasitic on oak and various other hardwood species; it is also saprobic, as the fruit bodies develop on dead wood after it has fallen to the ground. Appearing in early spring, its distinctive goblet-shaped and dark-colored fruit bodies have earned it the common names devil's urn and the gray urn. The distribution of U. craterium includes eastern North America, Europe, and Asia. It produces bioactive compounds that can inhibit the growth of other fungi. The asexual (imperfect), or conidial stage of U. craterium is a plant pathogen known as Conoplea globosa, which causes a canker disease of oak and several other hardwood tree species.
+
+
+== History and taxonomy ==
+Urnula craterium was first described in 1822 by American botanist Lewis David de Schweinitz as Peziza craterium, based on a specimen found in North Carolina. The species first appeared in the scientific literature under its current name when Elias Magnus Fries described the new genus Urnula in 1849, and set Peziza craterium as the type species. In 1896, German mycologist Heinrich Rehm removed the species from Urnula – transferring it to the genus Geopyxis – and replaced the type species with Urnula terrestris, a peripherally related species. This restructuring resulted in a taxomically untenable situation in which the genus Urnula consisted of a single species with ambiguous resemblance to the original species (described by Fries) upon which the genus was based. According to Elsie Kupfer, who had written Rehm to clarify the rationale for his decision: Urnula craterium was placed with its related species under Geopyxis, because Geopyxis was established by Persoon before Urnula by Fries; and that in order to retain the genus Urnula, under which Saccardo had placed Podophacidium terrestre of Niessl, he (Rehm) restricted the genus to this latter fungus.
+As Kupfer explains, Rehm did not justify why he believed Urnula craterium should be allied to Geopyxis, or why Podophacidium terrestre should be considered an Urnula. Kupfer's macro- and microscopic analysis of tissues from these and related genera clearly showed the inconsistency in Rehm's taxonomical choices, and that Urnula craterium represented an entirely different genus not related to Geopyxis; Fries's naming was restored.The genus name means "little urn"; the specific epithet is derived from the Latin cratera, referring to a type of bowl used in antiquity to mix wine with water. It is commonly known as the devil's urn and the gray urn.
+
+
+== Description ==
+The fruit bodies begin from dense, black mycelium on the surface of oak branches in contact with the ground. Starting out as rolls of cylindrical tissue 1 or more centimeters long and 3–4 mm wide, they expand slowly over the winter, and grow rapidly in the spring when the weather becomes warmer.The goblet-shaped fruit body (technically an ascocarp) is 3–4 cm (1.2–1.6 in) in diameter and 4–6 cm (1.6–2.4 in) deep; initially it is closed, but opens as it matures, leaving a ragged or smooth inrolled margin around a round opening. The flesh of the ascocarp walls is tough and initially gelatinous, later becoming leathery. The exterior of the ascocarp is brownish black to black, with a velvety surface, while the interior spore-bearing surface, the hymenium, is brownish black in color, usually somewhat paler than the outside. The outer surface may be partially covered with small flakelike patches of tissue. When viewed with a magnifying glass, the "hairs" (fungal hyphae) making up the outer velvety surface are variable in length, and are thick-walled, blunt, and appear to wind from side to side (flexuous). The ascocarp is connected to a stalk that is typically 3–4 cm (1.2–1.6 in) long by 0.4–0.8 cm (0.2–0.3 in) thick, with black mycelia at its base.
+
+
+=== Microscopic features ===
+The spores are ellipsoid or sausage-shaped (allantoid), smooth, and thin-walled. They are non-amyloid (not taking up iodine stain), and hyaline (translucent), with dimensions of 22–37 by 10–15 μm. The spore-bearing cells, the asci are eight-spored, cylindrical, and measure 600 by 15–17 μm. They are operculate, analogous to having a flip-top lid mechanism to release the spores. Interspersed among the asci are thin, filamentous, branched paraphyses that extend beyond the tops of the asci.Viewed with a microscope, the wall of the apothecium is made of three tissue layers of roughly equal thickness. The first layer of tissue is black, leathery and compact, and covered with a fine layer of brownish-black hairs (a tomentum); the second layer consists of loosely interlaced brown hyphae suspended in a gelatinous matrix. The third layer is the fertile, spore-bearing surface, the brownish-black hymenium.
+
+
+=== Imperfect state ===
+The life cycle of Urnula craterium allows for both an imperfect (making asexual spores, or conidia) or perfect (making sexual spores) form; as has often happened in fungal taxonomy, the imperfect form was given a different name, because the relationship between the perfect and imperfect forms of the same species was not then known. The imperfect stage of Urnula craterium is the plant pathogenic species Conoplea globosa, known to cause a canker disease (Strumella canker) of oak and several other hardwoods.
+
+
+=== Edibility ===
+This species is often listed in field guides as inedible, or not recommended for consumption due to its tough texture. Michael Kuo, in his 2007 book on edible mushrooms, lists the taste as "mediocre", and comments "the devil's urn is not as bad as I thought it was going to be. It's not good, mind you, but it would be possible to eat it with a forced smile if your Aunt Wanda served it to you."
+
+
+=== Similar species ===
+
+The cup fungus Plectania melastoma is also black, but it is smaller and the cup not as deep.
+
+
+== Spore development ==
+The spores of U. craterium have a rapid and high percentage of germination. Germination requires only 1.5 hours, a relatively short time compared to another inoperculate species in the same family, Sarcoscypha coccinea, which requires 48 hours. Furthermore, germination is possible under a wide temperature range, from 5 °C (41 °F) to 35 °C (95 °F), and wide soil pH range; the quality and quantity of light does not affect germination, although prolonged exposure to light does reduce germination efficiency.
+
+
+== Ecology, habitat and distribution ==
+Urnula craterium grows singly or clustered together, usually attached to sticks and branches (especially oak) that are partially buried in the ground. The teleomorph state is saprobic, and decomposes hardwood; the anamorph state is parasitic, and causes a canker of various hardwoods, including oaks, hickories, basswood and beech. It is often found in deciduous forests, although it is sometimes inconspicuous due to its dark color, and because it may be partially covered with leaf litter. One of the first fleshy fungi to appear from March to May, U. craterium has been dubbed a "harbinger of spring", and is sometimes encountered under melting snow.The distribution of U. craterium includes eastern North America, Europe (including the Czech Republic, Finland, Spain,) Japan, and China. It is red-listed as critically endangered in the Czech Republic.
+
+
+== Bioactive compounds ==
+Urnula craterium, when grown in liquid culture, produces bioactive chemicals that inhibit the growth of other fungi that are pathogenic to aspen; specifically, these chemical are antagonistic to aspen blue-stain fungi Ophiostoma crassivaginatum and O. piliferum, as well as the wood-decay fungus Phellinus tremulae. Chemicals produced by U. craterium include pestalotin, 5,6-dehydropestalotin, 4-methoxy-3,5-dimethyl-pyran-2-one, and (4S)-3,4-dihydro-4,8-dihydroxy-1(2H)-napthalenone. However, none of these isolated compounds inhibits the aspen pathogens in vitro, suggesting the true nature of the antifungal mechanism in the devil's urn has not yet been resolved.
+
+
+== References ==

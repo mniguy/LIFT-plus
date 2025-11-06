@@ -1,0 +1,60 @@
+The tricolored bat (Perimyotis subflavus) is a species of microbat native to eastern North America. Formerly known as the eastern pipistrelle, based on the errant belief that it was closely related to European Pipistrellus species, the closest known relative of the tricolored bat is now recognized as the canyon bat. Its common name "tricolored bat" derives from the coloration of the hairs on its back, which have three distinct color bands. It is the smallest bat species in the eastern and midwestern US, with individuals weighing only 4.6–7.9 g (0.16–0.28 oz). This species mates in the fall before hibernation, though due to sperm storage, females do not become pregnant until the spring. Young are born helpless, though rapidly develop, flying and foraging for themselves by four weeks old. It has a relatively long lifespan, and can live nearly fifteen years.
+In the summer, females roost in small groups and males roost solitarily in tree foliage or beard lichen. It eats a diverse array of insects, foraging with a slow, erratic flight and navigating via echolocation. Though once considered one of the most common bat species in its range, its populations have declined rapidly since 2006 with the introduction of the fungal disease white-nose syndrome. It was listed as an endangered species in 2012 in Canada, and has been petitioned for inclusion on the US endangered species list. Along with the silver-haired bat, the tricolored bat is one of two bat species whose rabies variants have most frequently been implicated in human rabies deaths in the US, with sixteen deaths from 1958–2000.
+
+
+== Taxonomy ==
+
+The tricolored bat was described as a new species in 1832 by French zoologist Frédéric Cuvier, who placed it in the genus Vespertilio with a scientific name of Vespertilio subflavus. The holotype had been collected in the US state of Georgia by American naturalist John Eatton Le Conte. In 1897, American zoologist Gerrit Smith Miller placed it in the genus Pipistrellus for the first time as a result of its physical similarities to other members of the genus. Its common name was thus the "eastern pipistrelle". In 1984 its status was reviewed, with H. Menu concluding that it was more similar in appearance to species in the genus Myotis rather than Pipistrellus, erecting a new genus for the taxon: Perimyotis. The name "Perimyotis" means "around Myotis", alluding to its similarities with the genus. This classification was not immediately accepted, however, with a 1985 study instead grouping it and the canyon bat into the genus Parastrellus and a 1987 publication maintaining that the tricolored bat was part of the Pipistrellus genus, though they listed Perimyotis as one of seven subgenera. However, in 2003, a genetic study concluded that the tricolored bat was distinct from Pipistrellus species (and the canyon bat), confirming the validity of the genus Perimyotis. Usage of the scientific name Perimyotis subflavus is widely accepted as of 2019. Its common name was changed from "eastern pipistrelle" to "tricolored bat" to reflect its revised classification.A 2010 study found that the sister taxon of the tricolored bat is the canyon bat, with the authors suggesting that these two genera form a tribe, though declining to name and formally describe the tribe. Instead, they referred to it as the "perimyotine group", which they gave as the most basal member of a clade that also included the following tribes: Nycticeiini, Eptesicini, Vespertilioni, and another unnamed tribe referred to as the "hysugine group" (including Chalinolobus, Hypsugo, Laephotis, Neoromicia, Nycticeinops, Tylonycteris, and Vespadelus).Its species name "subflavus" means "a little less than yellow", meaning yellowish or pale yellow. Four subspecies are recognized:
+P. s. clarus (Baker, 1954)
+P. s. floridanus (Davis, 1957)
+P. s. subflavus (Cuvier, 1832)
+P. s. veraecrucis (Ward, 1891)
+
+
+== Description ==
+The tricolored bat has blond fur that is distinctly tricolored on its back. Individual hairs tricolored: dark gray at the base, buffy (yellowish brown) in the middle, and brown or reddish brown at the tip. It is the smallest bat species found in the eastern and midwestern US. Individuals have a forearm length of 31.4–34.1 mm (1.24–1.34 in) and weigh 4.6–7.9 g (0.16–0.28 oz). Its forearms are reddish, contrasting sharply with the black membranes of its wings. Its wingspan is 21–26 cm (8.3–10.2 in). It has a dental formula of 2.1.2.33.1.2.3 for a total of 34 teeth.
+
+
+== Biology and ecology ==
+
+
+=== Reproduction and life cycle ===
+The tricolored bat is a seasonal breeder, with copulation (mating) occurring in the fall before hibernation. Ovulation does not occur until the spring, however, and females store the males' sperm in their uteruses through the winter. Gestation (pregnancy) length is about forty-four days, with females giving birth in June or July. The litter size is typically two individuals. As newborns, the combined mass of twin pups can be as great as 58% of the mother's postpartum mass. At birth, the young lack fur and their eyes are closed. The mother leaves the offspring behind at the roost while she forages at night. Offspring develop rapidly, beginning to fly at three weeks old. By four weeks old, they are foraging for themselves. Young do not reach sexual maturity in their first fall; they do not breed until their second fall.Individuals can live at least 14.8 years in the wild; juveniles have higher mortality rates than adults, and females have higher mortality rates than males.
+
+
+=== Behavior ===
+During the summer, the tricolored bat will roost in tree foliage or buildings, with females alone or in maternity colonies of up to thirty individuals. Trees used for this purpose include oak, maple, the eastern cottonwood, and American tulip tree. Males are solitary and do not form colonies. In Nova Scotia, researchers discovered nearly one hundred roosts of this species, finding that all sampled individuals were roosting not in tree foliage, but rather in a species of beard lichen, Usnea trichodea. This was thought to be the first documentation of a bat using beard lichen as a roosting substrate. It was speculated that the tricolored bat may use the lichen to ward off parasites. Usnic acid, which has anti-insect and anti-bacterial properties, naturally occurs in beard lichens, and no ectoparasites (external parasites) have been documented on the tricolored bat in Nova Scotia.In the winter, the tricolored bat hibernates in mines, caves, or other human structures. A years-long study of a mine in the US state of Nebraska found that in the summer, the mine was mostly occupied by males. Total number of tricolored bats using the mine at one time ranged from zero to forty-three. Bats were in a state of torpor from November to April. More bats used the mine as a roost in the winter than in the summer. In another abandoned mine in the US state of Indiana, researchers found that the tricolored bat roosts solitarily during hibernation for the majority of the time (96.8% of observations were singletons). During hibernation, males lose an average of 2.65 g (0.093 oz), while females lose an average of 2.5 g (0.088 oz).
+
+
+=== Diet and foraging ===
+The tricolored bat is insectivorous, consuming small prey of 4–10 mm (0.16–0.39 in) in length. Prey taxa include mosquitoes, beetles, ants, moths, and cicadas. It forages with slow, erratic flight in areas near water or forest edges. It is one of the first bat species to begin foraging each night. It navigates and searches for prey via echolocation (sonar). Its echolocation calls are at a high frequency; visual renderings of the calls show a distinctive hook-shaped call profile, with the lowest frequencies (bottom of the hook shape) at 42 kHz.
+
+
+=== Predators, parasites, and disease ===
+
+The tricolored bat's natural predators include the northern leopard frog, birds of prey, raccoons, snakes, skunks, and prairie voles. Feral cats will also catch and kill them as they leave their hibernacula (cave or mine used for hibernation). There are also records of it being attacked by the hoary bat. The tricolored bat is the host to several species of endoparasites (internal parasites) and ectoparasites. Oocysts (spores) of an Eimeria species (Eimeria heidti ) have been recovered from its guano (feces).The tricolored bat has experienced severe population decline as a result of the fungal disease white-nose syndrome, which arrived in the US in 2006, with losses of 70% and greater detected in multiple US states. The disease kills bats by colonizing their skin during the winter, causing them to arouse from torpor and burn through their limited fat reserves. Though its population experienced dramatic reduction, subsequent studies have found that their numbers may be stabilizing, though hibernacula where many individuals once roosted may only host fewer than five bats, or even one solitarily.
+
+
+== Range and habitat ==
+The tricolored bat is common throughout eastern North America, with the southern extent of its range in Central America and the northern extent in southern Canada. Its range has expanded since the 1980s, with westward expansion reaching the US states of Colorado, New Mexico, South Dakota, and Wyoming. Additionally, its range started to include the Great Lakes Basin.
+
+
+== Conservation ==
+As of 2018, it is listed as a vulnerable species by the IUCN. In 2008, however, it was considered a least-concern species, which is the IUCN's lowest conservation priority. In the time between the two assessments, the fungal disease white-nose syndrome became widespread in eastern North America, severely impacting the tricolored bat. Historically, it was one of the most common bat species of eastern North America. After an emergency assessment, the tricolored bat is considered an endangered species under the Committee on the Status of Endangered Wildlife in Canada as of 2012. In 2016, the Center for Biological Diversity and Defenders of Wildlife submitted a petition to the United States Fish and Wildlife Service (USFWS) to list the tricolored bat under the Endangered Species Act of 1973. The USFWS determined that the petition demonstrated that listing the species as "threatened" or "endangered" may be warranted. As of 2019, the listing consideration was still under review.
+
+
+== Relationship to people ==
+Along with the silver-haired bat, the tricolored bat is one of two species of bat whose rabies variants are responsible for 70% of human rabies cases from bats in the US. Additionally, the rabies virus variants associated with these two species caused 75% of cryptic rabies deaths in the US (rabies cases where the exposure route is unclear, and no bite history exists). From 1958–2000, sixteen people in the US died from the rabies variant associated with tricolored bats, or 46% of all nationwide indigenous (not acquired elsewhere) rabies fatalities. The tricolored bat is infrequently encountered by humans and submitted for rabies testing, with only thirty-one individuals tested for rabies in the US in 2017. Of those, one (3.4%) tested positive for the virus.
+
+
+== See also ==
+Bats of Canada
+Bats of the United States
+
+
+== References ==
+
+
+== External links ==
+ Media related to Pipistrellus subflavus at Wikimedia Commons
+ Data related to Perimyotis subflavus at Wikispecies

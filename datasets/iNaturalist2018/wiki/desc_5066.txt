@@ -1,0 +1,44 @@
+Cyathus olla also known as the field bird's nest is a species of saprobic fungus in the genus Cyathus of the family Nidulariaceae. The fruit bodies resemble tiny bird's nests filled with "eggs" – spore-containing structures called peridioles. Like other bird's nest fungi, C. olla relies on the force of falling water to dislodge peridioles from fruiting bodies to eject and disperse their spores. The life cycle of this fungus allows it to reproduce both sexually, with meiosis, and asexually via spores. C. olla is a relatively common fungus, with a worldwide distribution. It is the subject of agricultural research to determine its potential as a means to accelerate the breakdown of crop residue, and reduce the population of plant pathogens. The specific epithet is derived from the Latin word olla, meaning "pot".
+
+
+== Description ==
+
+Cyathus olla bears a resemblance to a miniature bird's nest containing eggs, hence the common name bird's nest fungi. The fruiting body, or peridium, is roughly funnel-shaped, 10–18 mm tall and 8–12 mm wide. It is greyish yellow or greyish brown to fawn-colored and covered with even, fine-textured hairs on the outside surface. The inner surface is silver grey and smooth, often with faint transverse ridges. Cyathus olla is thick-walled, and flared outwards at the rim; the rim is typically wavy in outline. The 'eggs', or peridioles, typically number 8 to 10 in the cup, and they are white or grey in color, with a diameter of 2–4 mm—conspicuously larger than other Cyathus species. They are covered with a thin membrane called a tunica.
+Peridioles are often attached to the fruiting body by a funiculus, a structure of hyphae that is differentiated into three regions: the basal piece, which attaches it to the inner wall of the peridium, the middle piece, and an upper sheath, called the purse, connected to the lower surface of the peridiole. Inside the purse and middle piece is a coiled thread of interwoven hyphae called the funicular cord, attached at one end to the peridiole and at the other end to an entangled mass of hyphae called the hapteron. C. olla has a wide purse with an upper portion not easily distinguishable from the lower part. The species is inedible.A different form of this species, Cyathus olla forma anglicus, originally reported from England by mycologist Curtis Gates Lloyd, has also been found in Oregon and Colorado in the US, Alberta Canada, and in Argentina. This form is large, with cup openings up to 1.5 cm (0.6 in) in diameter. Spores have dimensions of 11.5–12.5 × 7.5–9 μm.
+The related species Cyathus earlei Lloyd closely resembles C. olla, although mating analysis has shown that they are distinct species.
+
+
+=== Microscopic features ===
+Cyathus olla has ovate-shaped spores with dimensions of 10–14 × 6–8 μm. In 1927, George Willard Martin examined the microscopic features of various members of the family Nidulariaceae, including Cyathus olla. He noted that in this species, the basidia—spore-bearing cells—are club-shaped or cylindrical and have long stems, and they sometimes have a clamp connection at the basal end of the structure. Basidia typically hold between two and four sessile spores that are directly attached to the basidium, rather than via a sterigma. Revealed only after the spore is separated, a temporary apiculus marks the point of attachment. The spores are generally separated from the basidia when the latter collapse and gelatinize; this basidial breakdown typically occurs simultaneously with a gelatinization of cells lining the inside wall of the peridiole. After separating from the basidia the outer wall of the spores may thicken, although they generally do not increase in size.
+
+
+== Habitat and distribution ==
+
+Being a saprobic fungus, Cyathus olla obtains nutrients from the breakdown of dead organic matter, and as such is usually found growing on woody debris; specimens found growing on soil are usually attached to bits of wood or stems present in the soil. Brodie notes that this species usually grows in moist and shaded locations, although its discovery in the arid regions of Lima, Peru, suggest that it is tolerant of low-moisture conditions. It is the most abundant species of Cyathus found in Europe, and is also common in North America. Its range extends north to Sweden and far south in South America; it has also been reported in Australia, South Africa, Iran, and India.
+
+
+== Life cycle ==
+The life cycle of Cyathus olla, which contains both haploid and diploid stages, is typical of taxa in the basidiomycetes that can reproduce both asexually (via vegetative spores), or sexually (with meiosis). Basidiospores produced in the peridioles each contain a single haploid nucleus. After dispersal, the spores germinate and grow into homokaryotic hyphae, with a single nucleus in each compartment. When two homokaryotic hyphae of different mating compatibility groups fuse with one another, they form a dikaryotic mycelia in a process called plasmogamy. After a period of time and under the appropriate environmental conditions, fruiting bodies may be formed from the dikaryotic mycelia. These fruiting bodies produce peridioles containing the basidia upon which new basidiospores are made. Young basidia contain a pair of haploid sexually compatible nuclei which fuse, and the resulting diploid fusion nucleus undergoes meiosis to produce haploid basidiospores. Meiosis in C. olla has been found to be similar to that of higher organisms.
+
+
+== Spore dispersal ==
+
+When a raindrop hits the interior of the cup with the proper angle and velocity it can produce considerable force, and can create a splash that drives the water up along the sides of the cup (also known as splash cups), tearing the funiculus, and ejecting the peridioles. The peridioles are followed by their funicular cord and basal hapteron. When they hit a nearby plant stem or stick, the hapteron sticks to it, and the funicular cord wraps around the stem or stick powered by the force of the still-moving peridiole (similar to a tetherball). The peridiole, attached to the plant, may be eaten by herbivorous mammals, and the subsequent passage through its digestive tract will soften the hard shell enough to facilitate later sporulation.Experiments investigating the splash dispersal of peridioles have shown a maximum horizontal distance for peridiole ejection of 82.5 centimetres (32.5 in), less than that observed for other Cyathus species. This reduced ejection distance may be due to such factors as the greater size of peridioles, the looser construction of the funiculus, or the increased flaring seen in the upper lip of the splash cup.
+
+
+== Agricultural applications ==
+Blackleg is a fungal disease of canola that results in major yield loss in affected crops. It overwinters on infected stubble (leftover crop residue) that is left on farm fields, and can continue to produce spores, infecting future crops, until the stubble is buried or broken down completely. The observation that C. olla grows and fruits on canola stubble has led to research on the potential of this fungus to degrade canola stubble, and reduce the incidence of stubble-borne diseases like blackleg and blackspot. In a study of its lignin-degrading abilities, C. olla was shown to colonize canola, wheat, and barley residue, but appeared to have a preference for the woody taproots of canola as compared to the cereal residue.
+
+
+== See also ==
+
+List of Cyathus species
+
+
+== References ==
+
+
+=== Cited text ===
+Brodie HJ (1975). The Bird's Nest Fungi. Toronto, Canada: University of Toronto Press. ISBN 0-8020-5307-6.
+
+ Media related to Cyathus olla at Wikimedia Commons

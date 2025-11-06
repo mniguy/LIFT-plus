@@ -1,0 +1,42 @@
+Hypomyces hyalinus is a species of parasitic fungi that attacks fungi of the genus Amanita. The earliest recording of this parasite was in 1822 in Salem, North Carolina, but microscopic descriptions of H. hyalinus do not appear in the literature until 1886.
+
+
+== Host ==
+H. hyalinus is a host-specific pathogen which exclusively attacks species of the genus Amanita, which is famous for containing some of the most toxic mushrooms in the world.
+H. hyalinus specifically attaches to the basidiocarp on the sporocarp (fruiting body) of the fungus.
+
+
+== Effects ==
+The parasitic effects of H. hyalinus thoroughly disfigures its host and in the absence of a nearby healthy specimen it can be impossible to determine the identity of the host in the field.Infection often covers the host mushroom preventing the expansion of the pileus (cap) and causing the pileus to deform and fuse to the stipe (stalk). As a consequence of this, the gills of the mushroom are also destroyed and the fruiting body dies without dispersing spores.
+
+
+== Reproduction and life cycle ==
+The life cycle for H. hyalinus is not currently completely understood. The life cycle of fungi in the division Ascomycota generally alternates between an asexual stage and a sexual stage respectively termed the anamorph stage and the teleomorph stage. Each of these stages contains intermediary steps that vary depending on the species.
+
+
+=== Anamorph ===
+Although anamorphs have been observed in some samples of H. hyalinus, there in no consistently identifiable connection H. hyalinus and an anamorph.
+
+
+=== Teleomorph ===
+The teleomorph of H. hyalinus is observable and can be identified. A teleomorphic structure called the subiculum covers the fruiting body of the host, resulting in destruction of the host's gills and inability of the host to expand its pileus.Another teleomorphic structure, the perithecia, forms throughout the subiculum with pores facing outward to facilitate the release of ascospores into the environment. Despite this, researchers have not been able to associate any specific ascospore with H. hyalinus.
+
+
+== Studies ==
+H. hyalinus has been studied in several different manners. Field observation has been used to observe the effects of the pathogen on the host.
+In addition to direct field study, the pathogen has been cultured on oat meal agar and potato dextrose agar to facilitate testing of the pathogen at the biochemical and microscopic level. KOH string testing, which can be used to determine the gram status of an organism, is used to determine the gram classification, gram positive, of H. hyalinus.  In addition to this, various forms of microscopy including bright-field microscopy, fluorescence microscopy, interference contrast microscopy, and phase contrast microscopy have been used to observe the pathogen.
+
+
+== Geographical distribution ==
+H. hyalinus has a large geographic distribution and has been recorded in Eastern Canada, Northwestern U.S.A., North-Central U.S.A., Northeastern U.S.A., Southeastern U.S.A., China, and Eastern Asia.
+
+
+== Further research ==
+This parasite has very minimal citations in scientific literature. Further research would be useful to form a more complete picture of life cycle of H. hyalinus which would allow researchers to better understand the mode of transmission of this disease. Furthermore, due to the specificity of H. hyalinus to parasitize the poisonous species ofAmanita, further research could prove useful in manipulating Amanita fungi.
+Although H. hyalinus does not currently have a large impact economically or socially, further research could make this parasite more important to society due to its relation to species of Amanita, which comprises both toxic and edible mushrooms. H. hyalinus is considered inedible and may be poisonous. Further research could also reveal the ecological roles of H. hyalinus in population, environmental, and evolutionary biology.
+
+
+== References ==
+
+
+== External links ==

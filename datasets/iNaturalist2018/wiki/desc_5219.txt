@@ -1,0 +1,44 @@
+Tremella mesenterica (common names include yellow brain, golden jelly fungus, yellow trembler, and witches' butter) is a common jelly fungus in the family Tremellaceae of the Agaricomycotina. It is most frequently found on dead but attached and on recently fallen branches, especially of angiosperms, as a parasite of wood decay fungi in the genus Peniophora. The gelatinous, orange-yellow fruit body of the fungus, which can grow up to 7.5 cm (3.0 in) diameter, has a convoluted or lobed surface that is greasy or slimy when damp. It grows in crevices in bark, appearing during rainy weather. Within a few days after rain it dries into a thin film or shriveled mass capable of reviving after subsequent rain. This fungus occurs widely in deciduous and mixed forests and is widely distributed in temperate and tropical regions that include  Africa, Asia, Australia, Europe, North and South America. Although considered bland and flavorless, the fungus is edible. Tremella mesenterica produces carbohydrates that are attracting research interest because of their various biological activities.
+
+
+== Taxonomy and phylogeny ==
+The species was originally described from Sweden as Helvella mesenterica by the naturalist Jacob Christian Schäffer in 1774. Valid description was provided by Anders Jahan Retzius in 1769. It was later (1822) sanctioned by Elias Magnus Fries in the second volume of his Systema Mycologicum. It is the type species of the genus Tremella. Its distinctive appearance has led the species to accumulate a variety of common names, including "yellow trembler", "yellow brain", "golden jelly fungus", and "witches' butter", although this latter name is also applied to Exidia glandulosa. The specific epithet is a Latin adjective formed from the Ancient Greek word μεσεντεριον (mesenterion), "middle intestine", from μεσο- (meso-, "middle, center") and εντερον (enteron, "intestine"), referring to its shape.The species formerly recognized as Tremella lutescens is now seen as a form of T. mesenterica with washed-out colors and considered a synonym.Based on molecular analysis of the sequences of the D1/D2 regions of the large subunit ribosomal RNA gene and the internal transcribed spacer regions of rRNA, T. mesenterica is most closely related to T. coalescens, T. tropica, and T. brasiliensis. This analysis included 20 of the estimated 120 Tremella species.
+
+
+== Description ==
+The fruit body has an irregular shape, and usually breaks through the bark of dead branches. It is up to 7.5 cm (3.0 in) broad and 2.5 to 5.0 cm (1.0 to 2.0 in) high, rounded to variously lobed or brain-like in appearance. The fruit body is gelatin-like but tough when wet, and hard when dry. The surface is usually smooth, the lobes translucent, deep yellow or bright yellow-orange, fading to pale yellow, rarely unpigmented and white or colorless. The fruit bodies dry to a dark reddish or orange. The spores, viewed in mass, are whitish or pale yellow.
+
+
+=== Microscopic characteristics ===
+The basidia (spore-bearing cells) are ellipsoid to roughly spherical in shape, not or rarely stalked, and typically 15–21 µm wide. They contain two to four septa that divide it into compartments; the septa are most frequently diagonal or vertical. Asexual reproduction in T. mesenterica is carried out through the formation of spores called conidia, which arise from conidiophores—specialized hyphal cells that are morphologically distinct from the somatic hyphae.  The conidiophores are densely branched and normally abundant in the hymenium; young specimens may be entirely conidial. The conidia are roughly spherical, ovoid, or ellipsoid, and about 2.0–3.0 by 2.0–2.5 µm.  They may be so numerous that young fruit bodies may be covered in a bright yellow, conidial slime. The spores are broadly ellipsoid to oblong, on average 10.0–16.0 by 6.0–9.5 µm; they germinate by germ tube or by yeast-like conidia of identical form to the conidia produced on the conidiophores.
+
+
+=== Edibility ===
+Although some have claimed the fungus to be inedible or merely "non-poisonous", other sources say that it is edible but flavorless. The gelatinous to rubbery consistency lends texture to soups. In China, the fungus is used by vegetarians to prepare "an immunomodulating cooling soup with lotus seed, lily bulbs, jujube, etc."
+
+
+== Similar species ==
+
+Tremella mesenterica  is frequently confused with Tremella aurantia, a widespread species parasitic on the plant pathogenic fungus Stereum hirsutum. Tremella aurantia can often be recognized by the presence of its host, which typically grows on logs, stumps, and trunks. Though the two species are similarly colored, the surface of T. aurantia is usually matte, not greasy or shiny, and its lobes or folds are thicker than those of T. mesenterica. Fruit bodies of T. aurantia contain unclamped, thick-walled host hyphae and consequently retain their shape when dried, rather than shriveling or collapsing to a film (as in T. mesenterica). Microscopically, T. aurantia has smaller basidia and smaller, differently shaped spores measuring 8.5–10 by 7–8.5 µm. T. brasiliensis, known from neotropical areas and Japan, and the North American species T. mesenterella are also similar.Tremella mesenterica may also be confused with members of the family Dacrymycetaceae, like Dacrymyces chrysospermus (formerly D. palmatus), due to their superficial resemblance. Microscopic examination shows that the Dacrymycetaceae have Y-shaped basidia with two spores, unlike the longitudinally split basidia characteristic of Tremella; additionally, D. chrysospermus is smaller, has a whitish attachment point to its substrate, and grows on conifer wood.
+
+
+== Life cycle ==
+Tremella mesenterica has a yeastlike phase in its life cycle that arises as a result of budding of basidiospores. The alternation between asexual and sexual propagation is achieved by mating of yeast-form haploid cells of two compatible mating types. Each mating type secretes a mating pheromone that elicits sexual differentiation of the target cell having the opposite mating type to the pheromone-producing cell. The sexual differentiation is characterized by the arrest of the growth in the G1 phase of the cell division cycle and subsequent formation of an elongated mating tube. Formation of the mating tube, initiated by the pheromones A-10 and a-13, is similar to the process of bud emergence during bipolar budding in yeasts. Tremerogen A-10 has been purified and its chemical structure found to be S-polyisoprenyl peptide. Fruit bodies arise from a primordium located beneath the wood bark, and sometimes more than one fruit body can originate separately from the same primordia.
+
+
+== Habitat and distribution ==
+
+Tremella mesenterica has a cosmopolitan distribution, having been recorded from Europe, North, Central, and South America, Africa, Asia, and Australia. Fruit bodies are formed during wet periods throughout the year. In British Columbia, Canada, it is sometimes found on maple, poplar, or pine, but is most abundant on red alder. It prefers to grow in habitats ranging from mesic to wet. The fungus grows parasitically on the mycelium of wood-rotting corticioid fungi in the genus Peniophora. Occasionally, T. mesenterica and its host fungus are found fruiting together.
+
+
+== Bioactive compounds ==
+Some Tremella species produce polysaccharides that are of interest to the medical field, because of their biological activity; several patents have been filed in China pertaining to the use of these compounds for cancer prevention or immune system enhancement. In 1966, Slodki reported discovering an acidic polysaccharide from haploid cells of T. mesenterica that closely resembled those produced by the species Cryptococcus laurentii. The structural similarity of the polysaccharides from the two species suggested a phylogenetic relationship between them. Subsequently, researchers chemically synthesized the polysaccharide, and determined the chemical identities of the component sugar units. The polysaccharide, known as glucuronoxylomannan—produced by fruit bodies and in pure culture conditions—has been shown to consist of a mannan backbone that is glycosylated with xylan chains in a regular repeating structure. Laboratory tests have associated a number of biological activities with T. mesenterica glucuronoxylomannan, including immunostimulatory,antidiabetic, anti-inflammatory, hypocholesterolemic, hepatoprotective, and antiallergic effects.
+
+
+== References ==
+
+
+== External links ==
+Fungi of Poland Several photographs
+Mushroom Observer Photographs and description
+Genome sequence from JGI

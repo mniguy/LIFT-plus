@@ -1,0 +1,30 @@
+Chamaesipho columna is the type species for the barnacle genus Chamaesipho. Originally, species concept, as refined by Darwin472 consisted of C. columna. Spengler's 1790 description included specimens from "Otaheite" (Tahiti), which were far larger than any of the three described species. As Chamaesipho is restricted to Australia and New Zealand, and Spengler's Tahiti material lacked opercular plates, it is no longer included as Chamaesipho. Spengler's written description agrees with Chamaesipho.472 Spengler's Tahiti material is thought to be New Zealand Epopella, mislabeled.Later authors recognized Chamaesipho columna populations really represented three species. Moore, 1944, recognized a second New Zealand population with sufficient anatomical differences to warrant description as Chamaesipho brunnea. The two species substantially overlap, and are sympatric. Australian Chamaesipho' specimens were seen to represent a third species, which was proposed as Chamaesipho tasmanica. Neither New Zealand species occurs naturally in Australia.
+
+
+== Description and Discussion ==
+Adult shells are very small, rostrocarinal diameter of not more than 9 mm in solitary specimens, 4 mm in columnar growth individuals. Height of crowded individuals reaches to 16 mm, 6 mm in solitary specimens. The shell is whitish, and erodes to show pitting. Juvenile shell wall of 6 plates, becoming four plated by diameter of .5mm, and sutures fuse together, cannot be seen in adult, even when etched with acid. Basis is membraneous.Opercular plates are deeply interlocked with sinuous articulation, and subject to considerable environmental wear, making large variations in individual appearance and shape.471 Articulation is not nearly as deep as in Chamaesipho brunnea. Interior of scutum shows a wide shallow adductor pit, and small lateral depressor pit. There is a distinct low rounded scutal adductor ridge, in contrast to that of C. brunnea, which has at best poorly developed ridge. Scutal articular ridge, which in chthamaloids is large central lobe on tergal margin, is rounded. In C. brunnea, this lobe is very large and rectangular. The tergum is much narrower than in C. brunnea, with articular margin bearing two rounded relatively shallow re-entrants. Chamaesipho brunnea shows a single very deep re-entrant. Tergal depressor crests are prominent in both species, with fewer (to about four) in C. columna, versus up to seven in C. brunnea. Crests are not visible from exterior in C. columna. Neither species shows a tergal spur.Moore, 1944 provides full descriptions of hard- and soft-part anatomy for both juvenile and adult stages of C. columna.
+
+
+=== Nomenclature and synonymy ===
+Lepas columna Spengler, 1790, original description
+Chamaesipho columna (Spengler). Darwin, 1854 (genetic reassignment, discussion of Spengler's material); Moore, 1944, (emended complete description, description of Chamaesipho brunnea); Newman & Ross, 1976, (complete reference list to 1976); Foster and Anderson, 1986 (modification of description, separating Australian occurrences as Chamaesipho tasmanica); Poltarukha, 2006 (post 1976 synonymy, emended description).
+The type locality is given as Otaheite by Spengler. Otaheite is now known as Tahiti. It is unlikely Tahitian material is Chamaesipho, which genus as presently defined, is unknown outside of New Zealand and Australia.
+The type specimen repository is specimen illustrated in Pl. 6, fig. 6 of Spengler (1790) was selected by Foster & Anderson (1986) as plesiotype. No opercular plates were present. Illustration was reproduced in Foster & Anderson (1986) as Fig. 1A.
+
+
+=== Vernacular names ===
+It is locally known as the "column barnacle", after its shell form in crowded colonies.
+
+
+== Geographical and environmental data ==
+Chamaesipho columna is found in all New Zealand waters except the Chatham Islands. Much of its range overlaps that of C. brunnea, and in those areas, C. columna will be found below the zone of C. brunnea in higher intertidal. In addition, C. columna will colonize areas more protected from direct wave action. C. brunnea prefers the highest areas most exposed to wave action. Both species overwhelmingly prefer rocky or shell substrates, rarely wood.Unlike nearly all other chthamaloids, C. columna occasionally enters tidal estuaries, but not as far as to encounter brackish or muddy water.
+
+
+== References ==
+
+
+== External links ==
+ Data related to Chamaesipho columna at Wikispecies
+WoRMS
+NCBI
+EOL

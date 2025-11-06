@@ -1,0 +1,94 @@
+The red drum (Sciaenops ocellatus), also known as redfish, channel bass, puppy drum,   spottail bass, or simply red, is a game fish found in the Atlantic Ocean from Massachusetts to Florida and in the Gulf of Mexico from Florida to northern Mexico. It is the only species in the genus Sciaenops.
+The red drum is related to the black drum (Pogonias cromis), and the two species are often found near to each other; they can interbreed and form a robust hybrid, and younger fish are often indistinguishable in flavor.
+
+
+== Characteristics ==
+Red drum are a dark red color on the back, which fades into white on the belly. The red drum has a characteristic eyespot near the tail and is somewhat streamlined. Three-year-old red drum typically weigh 6-8 lb.  The largest red drum on record weighed just over 94 lb and was caught in 1984 on Hatteras Island. Male red drum make a knocking or drumming sound during spawning by vibrating their swim bladders.The most distinguishing mark on the red drum is one large black spot on the upper part of the tail base. Having multiple spots is not uncommon for this fish, but having no spots is extremely rare.  As the fish with multiple spots grow older, they seem to lose their excess spots. Scientists believe that the black spot near their tail helps fool predators into attacking the red drum's tail instead of its head, allowing the red drum to escape. The red drum uses its senses of sight and touch, and its downturned mouth, to locate forage on the bottom through vacuuming or biting. On the top and middle of the water column, it uses changes in the light that might look like food. In the summer and fall, adult red drum feed on crabs, shrimp, and mullet; in the spring and winter, adults primarily feed on menhaden, mullet, pinfish, sea robin, lizardfish, spot,  Atlantic croaker, and mudminnows.
+
+
+== Distribution ==
+Red drum naturally occur along the eastern and southern Atlantic and Gulf of Mexico coasts of Louisiana, Texas, Alabama, Mississippi, Florida, Georgia, the Carolinas, and Virginia. They are a highly prized game fish in the Gulf of Mexico. Aquaculture activities involving them occur around the world. Immature red drum prefer grass marsh areas of bays and estuaries when available. Both younger mature red drum (3-6 years of age) and bull red drum prefer rocky outcroppings including jetties and manmade structures, such as oil rigs and bridge posts. Around this type of structure, they are found throughout the water column.
+
+
+== Reproduction and growth ==
+Mature red drum spawn in near shorelines from mid-August to mid-October. The red drum's eggs incubate for 24 hours. A female lays about 1.5 million (with a range of 200,000 up to more than three million) eggs per batch. Scharf (2000) reported that in the first year, young red drum in Texas estuaries grew about 0.6 mm per day, though the rates varied with location and year and were higher in more southerly estuaries. After the first year, they may be 271 – 383 mm long. About half of red drum are able to reproduce by age 4 years, when they are 660-700 mm long and 3.4 – 4 kg in weight. Red drum can live to be 60 years old.
+Adults mature by 3 – 5 years of age; approximate length at maturity: males – 28 inches, females – 33 inches.
+Spawn during late summer and fall occurs near estuary inlets and passes along barrier island beaches. Males produce drumming sounds using muscular contractions to vibrate the swimbladder, to attract females.
+Larval red drum use vertical migrations to ride high salinity tidal currents into tidal creeks and shallow salt marsh nursery habitats. As red drum grow longer, they increase in weight exponentially.  The relationship between length (L) and weight (W) for nearly all species of fish can be expressed by an equation of the form:
+
+  
+    
+      
+        W
+        =
+        a
+        
+          L
+          
+            b
+          
+        
+        
+        
+      
+    
+    {\displaystyle W=aL^{b}\!\,}
+  Invariably, b is close to 3.0 for all species, and a varies between species. Jenkins (2004) reported slightly different weight-length relationships for red drum caught in the spring and the fall off the western Gulf Coast of Louisiana:
+
+Spring: 
+  
+    
+      
+        W
+        =
+        0.000005297
+        
+          L
+          
+            3.110
+          
+        
+        
+        
+      
+    
+    {\displaystyle W=0.000005297L^{3.110}\!\,}
+  Fall: 
+  
+    
+      
+        W
+        =
+        0.000015241
+        
+          L
+          
+            2.94
+          
+        
+        
+        
+      
+    
+    {\displaystyle W=0.000015241L^{2.94}\!\,}
+  where weight is in grams and length is total length measured in millimeters.  For example, these relationships predict that a 600-mm red drum (just under 2 ft long) would weigh about 2300 g (just over 5 lb).  These relationships can be used more specifically to determine how healthy a sample of red drum is by comparing their actual weights to weights predicted by these relationships for the same length.
+
+
+== Consumption ==
+In the early 1980s, the chef Paul Prudhomme made his dish of Cajun-style blackened redfish (red drum) popular. His seasoning was then sold commercially and the dish became so popular that redfish were overfished to the point of near extinction.On March 1, 2009, redfish was the "secret ingredient" on the television program Iron Chef America, with competitors Mourad Lahlou and Cat Cora both preparing several dishes from the fish.Red drum have a moderate flavor and are not oily. Big drum can be tricky to clean; removing the large scales can be challenging. Many fishers prefer to fillet with an electric knife, first removing the fillet from along the backbone, and then using the electric knife to cut the fillet from the skin and scales. Fish over 15 lb can become tough and have a consistency comparable with chicken, rather than the flaky texture of many species of fish. Younger fish are often indistinguishable in flavor from black drum.
+
+
+== Commercial and recreational use ==
+From 1980 through 1988, commercial fishermen took an average of 28% of the redfish, while sport fishermen harvested 72%. Catch limits and size restrictions have increased the average weight of redfish caught in Louisiana coastal waters. Restrictions on both sport and commercial fishermen allowed the species to rebuild.  States actively vary the recreational catch limits and minimum and maximum lengths to help maintain sustainable red drum populations.  Executive Order 13449 of October 20, 2007, issued by U.S. President George W. Bush, designated the red drum as a protected game fish. The order prohibits sale of red drum caught in federal waters and encourages states to consider designating red drum as a protected game fish within state waters.
+While they may no longer be commercially harvested in U.S. federal waters or in most state waters, they are readily caught and still enjoyed as table fare by many. In addition, farm-raised redfish are still available as a commercial product  Commercial netting disappeared after coastal states such as Florida declared red drum prohibited for sale. Recreational size and bag limits have been highly effective, allowing daily limits to be increased in recent years.
+
+
+== Relationship to humans ==
+The North Carolina General Assembly of 1971 designated the red drum as the official state saltwater fish. (Session Laws, 1961, c. 274; G.S. 145-6).
+
+
+== References ==
+
+"Sciaenops ocellatus". Integrated Taxonomic Information System. Retrieved 24 January 2006.
+Texas Parks and Wildlife Department. Red drum (Sciaenops ocellatus). Retrieved on 6 August 2009.
+Froese, Rainer and Pauly, Daniel, eds. (2005). "Sciaenops ocellatus" in FishBase. November 2005 version.

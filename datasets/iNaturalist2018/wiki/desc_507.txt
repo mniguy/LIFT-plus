@@ -1,0 +1,65 @@
+Bombus terricola, the yellow-banded bumblebee, is a species of bee in the genus Bombus. It is native to southern Canada and the east and midwest of the United States. It possesses complex behavioral traits, such as the ability to adapt to a queenless nest, choose which flower to visit, and regulate its temperature to fly during cold weather. It was at one time a common species, but has declined in numbers since the late 1990s, likely due to urban development and parasite infection. It is a good pollinator of wild flowers and crops such as alfalfa, potatoes, raspberries, and cranberries.
+
+
+== Taxonomy and phylogeny ==
+B. terricola belongs to the order Hymenoptera, which consists of ants, bees, wasps, and sawflies. B. terricola belongs to the family Apidae, which encompasses bumblebees, honey bees, stingless bees, and more. Within this, it is part of the genus Bombus, which consists of bumblebees. Kirby first defined this species in 1837. Bombus occidentalis has been speculated to be a subspecies of B. terricola, but most experts now agree that it is its own distinct species.  B. terricola is also closely related to B. affinis both phylogenetically and in terms of pheromone signalling.  Oftentimes, the B. terricola is so similar to B. affinis that members of B. affinis can invade and dominate entire B. terricola nests without the hosts knowing.
+
+
+== Description ==
+The yellow-banded bumblebee is black and yellowish-tan, and has a characteristic fringe of short yellow-brown hairs on its fifth abdominal segment. The queen is about 18 mm (0.7 in) long. The front half of the thorax is yellowish-brown, as are segments 2, 3 and 4 and the sides of segment 6 of the abdomen. The other parts of the thorax and abdomen are black. The worker is similar in appearance to the queen but smaller at a length of 9 to 14 mm (0.35 to 0.55 in). The male is intermediate in size, being 13 to 17 mm (0.5 to 0.7 in) long. In the male, abdominal segments 2, 3, and 7 are yellowish-brown as are usually the sides of abdominal segment 6.
+
+
+== Distribution and habitat ==
+Bombus terricola occupies the eastern and Midwestern parts of the United States as well as southern Canada. They are known to occupy a wide range of habitats including urban areas, meadows, grasslands, wetlands, woodlands, and farmlands. They can also occupy alpine meadows to lowland tropical forests.
+
+
+== Colony cycle ==
+In B. terricola, there are three phases of colony development. The first phase, known as colony initiation, begins when a solitary queen starts to produce her first workers by laying diploid eggs. This leads to further eusociality within the colony and the queen's continued efforts to produce more worker bees. The emergence of workers is essential for colony growth. The onset of the second phase, known as the switch point, is when the queen stops laying diploid eggs and starts making haploid eggs to produce male bees. During the third phase, the workers exhibit overt aggression towards each other and towards the queen. The beginning of the third phase is known as the competition point. Reciprocal oophagy also occurs during this third stage.
+
+
+== Behavior ==
+
+
+=== Reproduction ===
+In Bombus terricola, there are female-biased investment ratios. The workers of the colony try to bias the sex ratios to be 3:1, in favor of the worker bees, which are female. The workers attempt to bias the sex ratios so that they can benefit for their own gene propagation; however, the queen tries to bring the sex ratio back to a favorable 1:1 of males and females for her own benefit as well. This process is referred to conflict between kin and is commonly seen in bees. B. terricola queens usually have a single mating opportunity in one mating flight with multiple males; the queen then stores all of the sperm in a spermatheca, from which only one sperm will get to fertilize her egg.
+
+
+==== Orphaning ====
+Sometimes, some B. terricola colonies become orphaned. If there are feeble and weak queens, the queen has a decreased ability to fertilize eggs or cannot fertilize them at all. With declining queen vigor, worker-laid male eggs became more common. Furthermore, the highest proportion of worker-laid male eggs was observed in smaller colonies. Due to the absence of a strong queen leader, these male-dominated colonies attempt to get young, strong queens back because that would be in the best interest and benefit for the colony.
+
+
+=== Foraging ===
+Bombus terricola congregate in nectar rich areas. They can discern which flowers have been previously visited by other bees or are depleted of resources such as nectar or pollen. They usually visit consecutive flowers in one direction and do not return to previous flowers. They tend to go to areas that are rich in resources and usually do not visit these areas again once the bees deplete the resources. Instead, it has been found that B. terricola expend energy to fly to new locations of food sources. Although the flight costs energy, they expend it for future profit in finding areas abundant in resources. The mechanism of their foraging beyond this information is currently unknown; it is also unknown whether they do not return to previously visited sites due to memory of the flowers or memory of landmarks (such as a nearby tree).
+
+
+==== Flower pollination ====
+B. terricola foragers are highly selective about the flowers they pollinate. They can visit about 12–21 flowers per minute. The amount, quality, and availability of nectar and pollen are the primary qualities that B. terricola use to determine which flowers to pollinate. These bees can determine the quality of pollen grain from a distance, but the method as to how this is accomplished is still not yet known. Individual foragers vary in their speed, flight, directionality, and erratic movements. Some bees hover over flowers but never land on them. Flower visitation rates depend on the number of rewarding or non-rewarding flowers they encountered on their flights. Rewarding flowers are ones that contain much pollen or honey. One study noted that B. terricola bypass flowers that they have previously visited and only foraged a small amount of pollen from them. Finally, the bees release their pollen by emitting one to four sharp buzzing sounds of one second each. While buzzing, B. terricola also rotate clockwise or counterclockwise.
+
+
+==== Types of flowers ====
+B. terricola have been known to forage on milkweed (Aslepia syriaca), jewelweed (Impatiens biflora), and fireweed (Epilobium angustifolium). B. terricola exhibit consistent foraging behavior and tend to visit the same flowers repeatedly, especially if these flowers were rewarding in the past in terms of the amount of nectar and pollen they carried.
+
+
+=== Temperature regulation ===
+Bumblebees can fly at a wide range of temperatures, including normal air temperature or below freezing point. They must have body temperatures of at least 29-30 degrees Celsius before they are able to free fly independently in the air. Like honeybees, they produce heat before their flight. To raise their body temperature, specifically their thoracic temperature, these bees must expend a lot of energy. These bees can visit dispersed flowers within a short span of time at either high or low air temperatures. Sometimes at low temperatures, these bees do not have enough heat to maintain continuous flight. Consequently, landing on flowers warms them up so that their thoracic temperature remains high enough for flight. Since they use up a lot of energy for this thermoregulation, they take a lot of nectar from flowers that are most readily available to use as energy storage. By maintaining a high thoracic temperature, B. terricola can look for new sources of food and have the advantage to fly away quickly if they are at risk for predation.
+
+
+== Interactions with other species ==
+
+
+=== Parasites ===
+There are a few parasites that have been found to affect the populations of Bombus terricola. The larva, Physocephala, infects about twelve percent of the worker population of B. terricola from July to August in Ontario, Canada. There is another parasite that is known to affect this population: the fungus Nosema bombi. Classified as a fungus, Nosema bombi is a small, unicellular parasite that is known to infect bumblebees. It may also be one of the factors that is leading to the decline in numbers of Bombus terricola. There is a high prevalence of this parasite specifically in Bombus terricola populations.
+
+
+== Population decline ==
+Similar to other species of the Bombus genus, B. terricola has been declining in numbers. A specific study in Illinois shows that there was a severe decline in the middle of the 20th century from 1940-1960. In the state of Illinois specifically, intensive farming and urban development have taken away the natural landscapes and habitats that these bees would normally occupy. This decline in B. terricola corresponded with the huge growth in agriculture and urban development. Furthermore, the Nosema bombi parasite may also contribute to the decline in populations of B. terricola as they particularly attack these bees.
+
+
+=== Conservation status ===
+Like several other North American species in its subgenus Bombus, the yellow-banded bumblebee has suffered sharp declines in numbers since the mid-1990s.The Xerces Society for Insect Conservation has placed Bombus terricola on their "Red List" of endangered bees. The yellow-banded bumblebee has disappeared over large parts of its range, but is still present in Vermont, New Hampshire, and Maine, where the population appears to be stabilizing and in the Great Smoky Mountains, where the population seems to be expanding. It is not clear whether this is because it has developed some resistance to the parasite, Nosema bombi, or whether the parasite has not yet spread into these parts. The rusty-patched bumblebee (Bombus affinis) has suffered an even steeper decline. It will become clearer over time whether populations of these bees will remain viable or whether the species will become extinct.
+
+
+== References ==
+
+
+== External links ==

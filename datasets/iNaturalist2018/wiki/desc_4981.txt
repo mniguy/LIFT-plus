@@ -1,0 +1,32 @@
+Rhytisma acerinum is a plant pathogen that commonly affects sycamores and maples in late summer and autumn, causing tar spot. Tar spot does not usually have an adverse effect on the trees' long-term health. R. acerinum is an Ascomycete fungus that locally infects the leaves of trees and is a biotrophic parasite. The disease is cosmetic and is therefore usually controlled only with sanitation methods.
+
+
+== Symptoms and signs ==
+In late spring, chlorotic spots appear on tree leaves. These develop into brown-black lesions, retaining the yellow border. The lesions continue to grow, and by the end of summer form leaf spots that look like tar. The spot can grow up to 1.5 inches (4 cm) in diameter. A microscopic sign of the pathogen are the stroma, mats of hyphae found in the lesions. These lesions can cause senescence of leaves but are mostly of cosmetic importance.
+
+
+== Affected species ==
+Rhytisma acerinum can occur in many tree species, with the most commonly affected genus being Acer. The species most commonly affected by the disease are Norway maple (Acer platanoides), silver maple (Acer saccharinum), and sycamore maple (Acer pseudoplatanus).
+
+
+== Disease cycle ==
+Rhytisma acerinum is the teleomorph of tar spot. In the spring, needle-shaped ascospores are released from overwintering apothecia in fallen leaf debris. These spores are disseminated by the wind and have a sticky coat to attach to new healthy leaves. Once on the leaves, the spores germinate and penetrate through the stoma. The subsequent infection causes chlorosis of the leaves in localized yellow spots. As the season continues into summer, apothecia begin to form, giving rise to brown-black leaf lesions that resemble spots of tar. Leaves retain their yellow border from the initial chlorosis. Apothecia survive in the fallen plant debris over winter, releasing spores when the temperature is warm again. The infection of Tar Spot is localized to the chlorotic areas on the leaves and is mostly a cosmetic issue, rather than an economically detrimental disease.The anamorph of tar spot is Melasmia acerina. In late summer, conidiophores are formed in the mass of fungal tissue called the stroma. Stroma is located in the black lesions of the infected leaves. Conidiophores form non-infectious conidia that are released both in conditions of wetness and drought. The most favorable environment for the pathogen is when there is an extended period of moisture such as fog or rain, which prevents the leaves from drying out. Young trees growing in shade are therefore more susceptible. Under these conditions, conidiophores excrete a milky substance of conidia. In times of drought, the conidia stick together as one unit and form yellowish tendrils. Because the conidia are not infectious, this stage is not seen as often as the teleomorph, and it is not certain why the spores are produced.
+
+
+== Geographical occurrence ==
+Tar spot is most commonly found in Europe and North America. It was thought to be a useful pollution indicator because it is not found in areas with high amounts of sulfur dioxide. However, while sulfur dioxide is toxic to the fungus in laboratory studies (sulfur dioxide prevents stroma from causing subsequent infections), no correlation was found between pollution levels and the disease. Instead, it was found that in urban areas fallen (infected) leaves were more likely to be swept up and removed, thus removing a source of infection for the plants.As mentioned previously, the disease appears in the summer especially in times of wetness, but it can also develop through a drier season.
+
+
+== Disease control ==
+Tar spot is a localized disease that causes mostly cosmetic symptoms and is therefore not a highly controlled disease. One of the best ways to manage the pathogen is through proper sanitation techniques. Because the fungus overwinters in diseased leaf debris, removing the debris in fall can help reduce the occurrence of the disease. In certain severe cases, fungicides can be implemented to help with control. Copper fungicides sprayed in early spring when leaves are budding and twice more throughout the season help reduce the disease. However, chemical control is not normally used because this disease is mostly cosmetic. Resistant varieties are unknown. Also, because the affected tree species are of low economic value, yield reduction is of little concern to growers. By far the most important practice is to keep a clean yard and remove as much debris as possible.
+
+
+== Significance ==
+Tar spot has been recognized since 1794, when it was discovered in Europe by Christiaan Hendrik Persoon, a prominent mycologist of that time. Tar spot has little historical importance because of its cosmetic nature. However, equine atypical myopathy has been associated with the ingestion of tar spot infected maple leaves. This disease causes the complete degeneration of muscle fibers and subsequent death in horses.
+
+
+== References ==
+
+
+== External links ==
+Commentary and video of Tar Spot

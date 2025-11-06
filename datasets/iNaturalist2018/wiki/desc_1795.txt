@@ -1,0 +1,179 @@
+The codling moth (Cydia pomonella) is a member of the Lepidopteran family Tortricidae. They are major pests to agricultural crops, mainly fruits such as apples and pears. Because the larvae are not able to feed on leaves, they are highly dependent on fruits as a food source and thus have a significant impact on crops. The caterpillars bore into fruit and stop it from growing, which leads to premature ripening. Various means of control, including chemical, biological, and preventive, have been implemented. This moth has a widespread distribution, being found on six continents. Adaptive behavior such as diapause and multiple generations per breeding season have allowed this moth to persist even during years of bad climatic conditions.
+
+
+== Geographic distribution ==
+Although the geographic origin of codling moths is unclear, there are theories of these moths originating from either Europe or the Mediterranean. Scholars believe that the codling moths were introduced to the Americas in the mid-1700s. There is still debate on whether or not these moths have been distributed by humans. Today, the codling moths are spread all over the world, ranging from Europe, Asia, Africa, North and South America, Australia, and islands in the Pacific.
+
+
+== Habitat ==
+Viability and fitness of the codling moths are highly dependent on humidity levels and climate. Under observation, the optimal conditions for moth growth and survival were 32 °C and 75% humidity. Even if the temperature is favorable, low and high levels of relative humidity (20% and 100% respectively) led to hindrance in pupation. At a temperature below 0 °C, the larvae become completely inactive and turn seemingly lifeless. However, researchers observed that if the temperature is returned to optimal levels, the larvae regained normal activity. Codling moths have been located at altitudes as high as 1000–1500 m.Because the codling moth is polyphagous, or able to utilize a variety of food sources, the availability of specific food resources does not determine their optimal habitat. Various stages of the moth's life history, from eggs to pupae, can be found on host plants which the larvae feed on. These plants include apple, pear, walnut, chestnut, and even apricot trees.
+
+
+== Morphology ==
+
+Codling moths are not large, as the full grown adult codling moth has an average length of 10 mm and wingspan of 20 mm. The wings fold into a tent-like shape when the moths are resting. They are distinguished from other similar moths in the family Tortricidae by the distinctive patterns on their fore-wings. These brown spots enclosed in gold rings are called "little mirrors" because they resemble small mirrors with a golden rim. The slender antennae are mildly curved near the distal end. The dorsal side of the abdomen is smooth and bare, while the ventral side is covered in scales. Though most of the moths are brown or gray in color, it has been observed that the maturity of the fruits the larvae feed on can lead to variation in color in the adult moth.
+
+
+== Food resources ==
+
+
+=== Caterpillar ===
+
+
+==== Feeding behavior ====
+The codling moth caterpillars bore into a fruit within 24 hours of hatching from their eggs, usually traveling between 1.5 m to 3 m in search of a fruit. Because they are susceptible to predation, drying up, or being washed away between the period of hatching and boring into a fruit, the caterpillars are prompt in finding a fruit to feed on. Although apples are their dominant food source, they are polyphagous, feeding on a wide variety of fruits from pear, walnut, apricot, peaches, plums, cherries, and chestnuts. They are unable to survive by feeding on leaves of the fruit trees.It was previously believed that the searching behavior of the caterpillar for fruit to feed on or for a pupation site was random. However, the caterpillar is exposed and susceptible to predation, parasitization, drying up, and even energy depletion during this searching period. Thus, it was hypothesized that the searching behavior uses thigmotactic sense, which means the caterpillars use contact reflex to search. Caterpillars also use phototaxis to locate fruits to feed on. They are photopositive, which means they move towards light. This is adaptive because fruits tend to be located at the ends of the branches where there is most sunlight. Therefore, by following light, the larvae are able to move closer to fruits.
+
+Once the caterpillar has located a fruit to feed on, it starts penetrating the epidermis of the fruit. As the caterpillar makes way into the fruit, scraps of the skin, pulp, and frass build up near the entrance of the hole. These pieces are glued together by silk threads released from the caterpillar to create a cap. This cap protects the caterpillar by blocking the entrance. It takes the caterpillar approximately 45 minutes to bore into the fruit and about 15 minutes to cap. The caterpillar bores through the fruit until it reaches the seminal chamber of the fruit. There, the caterpillar bites into the seeds and halts the growth of the fruit. The fruit ripens prematurely as a result. By doing so, the caterpillar gains beneficial resources, such as albumin and fat. Such feeding behavior lasts for 23 to 27 days and the caterpillar feeds on an average of one to two fruits during this time.
+
+
+==== Host plant deterrents to herbivory ====
+Fruits attacked by the codling moth caterpillars have developed methods of resisting the caterpillars. Methods of resistance include thickening of the epidermis of the fruit and using stony cells to protect the seed. Fuzziness of the fruit has also been observed to deter codling moth caterpillars.Stony cells, which are present in some pears, have shown to help in resisting codling moth caterpillars. Stony cells are found in the endocarp of fruits such as cherries or walnuts. The endocarp is the innermost layer of a fruit's pericarp. In pears, stone cells are found in groups of cells found in the fruit pulp. These cells are found to have thick cell walls, reaching up to 10 µm. At maturity, these cells are composed out of 30% cellulose, 30% glucuronoxylans, and 40% lignins, which are biopolymers that are commonly found in plants.
+
+
+=== Adult ===
+Adult moths feed little if at all. Though feeding may prolong life a little longer, abstaining from feeding does not significantly reduce their reproductive success. Their ability to copulate and oviposit are unaffected, and embryonic development in eggs is not affected by lack of feeding behavior of the parent moths. If they choose to feed, the moths feed on sweet fluids, such as juice from the fruit, diluted honey, and diluted molasses.
+
+
+== Reproduction and life history ==
+
+
+=== Number of generations ===
+The number of yearly generations varies depending on the climatic conditions. The number of generations is higher closer to the equator in the Northern hemisphere, which indicates that warmer climate is optimal for higher number of generations. In Denmark, for example, only one generation was observed; in Palestine, four to five generations have been noted. In most of Europe and North America there are usually two generations of moths in a given flight period (summer months). At those latitudes, first generation moths emerge in July and are active through August. Eggs laid by the first generation moths are called second generation. These eggs hatch and the caterpillar undergoes pupation. The pupae go into diapause and "hibernate" over the winter. In April and May of the following year, these second generation pupae eclose and the second generation moths are active during the months of May and June.
+
+
+=== Mating ===
+Males fly upward near the top of the trees to search for females because females tend to stay near trees that they eclosed from. Codlemones, or (E,E)-8,10-dodecadien-1-ol, is a major male-attracting sex pheromone secreted by females. Plant volatiles create a synergistic effect with the codlemone, which increases the degree of male attraction. These volatiles include racemic linalool, (E)-β-farnesene, or (Z)-3-hexen-1-ol. The optimal ratio at which attraction is maximized is at a 1:100 ratio of codlemone to synergistic plant volatiles.Pear-derived kairomone has been found to be a species-specific attractant as well. Ethyl (2E, 4Z)-2,4-decadienoate, which is found in ripe pears and is a minor volatile secreted from ripe apples, attracts both mated and virgin males and females.Codling moths can copulate as early as the day of their eclosion, as long as the climate is appropriate. Males have developed hooks near the end of the abdomen, which are used to grasp onto the female during copulation. Because these hooks hold onto the female tightly, copulation that lasts up to several hours has been observed. Copulation occurs within 24 hours of eclosion.
+
+
+=== Oviposition ===
+Oviposition occurs at a location where an optimal climate and humidity for growth is met. It has been shown that 75% humidity is optimal for oviposition, and females are more likely to oviposit in the presence of water, fresh fruits, or even molasses. Female fecundity depends greatly on the climate. If the temperature is too low, oviposition is suspended. If the temperature is too high, the female may become sterile. Females do not travel far to oviposit, and generally lay eggs near the tree from which they emerged. On average, the female lays 50–60 eggs, but this number may vary. She can lay as few as ten eggs or as many as over 100 eggs. First generation eggs are laid on fruits, and second generation eggs are generally oviposited on twigs and leaves. Females favor laying eggs at the upper part of the tree near the edges of the branches, where fruits are most commonly located. The eggs are laid along with sticky mass secreted from the female, which acts as glue to hold the eggs in place and prevent them from being washed away by rain.
+
+
+=== Life history stages ===
+
+
+==== Egg ====
+The eggs, which are oviposited on either the fruit or twig depending on the generation, are white and shaped like a convex lens. They are tiny, usually about 1–1.2 mm in size. As the caterpillar develops inside the egg, the egg changes color. A reddish ring forms first and then a red spot appears, which becomes the head of the caterpillar. It typically takes about 7 to 12 days for the eggs to hatch, but under optimal conditions, they can hatch in as soon as 5 days.
+
+
+==== Caterpillar ====
+
+When the caterpillar first hatches from the egg, it is about 2 mm long and 0.5 mm in diameter. The body is divided up into twelve segments, and the color is usually pale yellow. As the caterpillar undergoes development through five instar phases, it grows to become 18–20 mm long and more reddish in color. By the time the caterpillars are fully grown, they are light brown in color and have dark brown spots. The sex of the moth is determined during the larval stage. The karyotype of codling moths has shown a diploid system (2n=56), which means the offspring receives two sets of chromosome, one from each parent. Females have a WZ sex chromosome system, while males have ZZ. Males have two brown spots near the end of the dorsal side, which become the gonads.The eggs can hatch at night or day, depending on humidity. Because direct sunlight can dry up the caterpillar and increases the temperature, the caterpillar moves into a shade or crawls to the bottom of the leaf if it hatches during the day. The eggs are glued onto the leaf by the sticky substance secreted by the female, but the caterpillars are small and light enough to be washed away by rain or blown off the tree by wind. Especially because the caterpillars are so small when they first emerge from the egg, they are more susceptible to rainy summers, and data have shown that crops were attacked less by the moths in rainy summers.
+
+
+==== Pupa ====
+The pupae are 10–12 mm long and can be as wide as 3 mm. The color changes as time passes, from the brown color of the caterpillar to light brown. The pupa's morphology varies with both sex and generation. Female pupae are generally longer and wider than the male pupae. First generation caterpillars secrete smoother and more delicate silk, and thus the cocoon is covered with finer material. Second generation cocoons are coarser and have shreds of wood barks. That is because second generation caterpillars bore out the bark of the tree to create itself a cradle.The fifth instar caterpillar seeks for a place to spin the cocoon near the ground. Using its spider-like silk threads, the larva lowers down to the ground from the branches. They can also crawl down the trunk of the tree. The process of searching for an appropriate place to pupate is long and selective. Pupae have been spotted in various places, such as under old bark, cracks, dry places in the earth, ditches dug into ground, storehouse with the fruit, trunk, under rocks, and between clods of soil.For first generation caterpillars, pupation lasts a shorter period of time, usually less than ten days. For the second generation, the duration of pupation is longer at around 20 days. The difference in pupation duration between first and second generation pupae is due to temperature change as the season progresses. There is a relationship between temperature and duration of pupation: warmer temperatures have been found to shorten the duration. Therefore, first generation caterpillars, which emerge in the warmer months of summer, tend to have a shorter pupation duration. Some second generation caterpillars pupate over winter and in the spring emerge as first generation moths. The cocoon provides sufficient protection from rain and other external factors, except mechanical ones.
+
+
+==== Adult ====
+Second generation adult moths first emerge in the spring, around the end of April to beginning of May in Northern Hemisphere countries (September/October in the Southern Hemisphere). Flight time and emergence are dependent on temperature and other climatic factors. As soon as the moths emerge, they copulate, oviposit first generation eggs, and caterpillars that arise from the eggs bore into the fruits. Therefore, it is critical to predict the time of emergence of the moths in the spring to minimize damages to the crops. Segments of the moth abdomen have sharp notches that can make it easier for the moth to emerge from the cocoon. The notches can be used to cut through the exterior cover of the pupa. When the moths first eclose, or emerge as adults, their wings are not spread out completely. Thus they are not capable of flight immediately after eclosion. It takes about ten minutes for the wings to spread completely.The average life span of the moth is around 13 to 18 days. However, the longest living male observed lived for 38 days, and the oldest female lived for 37 days.
+
+
+=== Diapause ===
+Diapause, or a period of suspended development, occurs in codling moth caterpillars if the climatic conditions or food availability are unfavorable. Larvae in diapause do not spin cocoons but rather enter a stage of decreased metabolism and vital activity. Once the temperature drops below 0 degrees Celsius, the caterpillar turns lifeless and becomes a blob of mush. The caterpillar becomes so soft that if poked, the place where it is poked will remain caved in, as if it is made out of heated wax or clay.For first generation larvae, a greater percentage of the caterpillars entered diapause if they did not pupate by the end of June or beginning of July. Second generation diapause is generally to pass through the winter. Inactivity over the winter is caused by a drop in temperature, and once the temperature and humidity rise back up to a favorable range, activity is resumed. This explains how codling moths are able to survive even if a bad, sterile apple year occurs: the larvae enter diapause and emerge after the bad year has passed.The possibility of a two-year diapause has been debated in the literature for several years. However, the possibility of two-year diapause is slim because none of the caterpillars out of 15,000 cocoons observed emerged after a diapause that lasted two years.
+
+
+== Local dispersion ==
+Flight of the adult codling moths starts near the beginning of May with the eclosion of second generation moths and stops around the end of August as the first generation moths reach senescence every year. The first and second generation flight period overlap anywhere from 10 to 20 days. Overlap of second and first generation moth flight period means there will be continuous damage done by the codling moth during the summer months.Adult moths are generally sedentary and tend to spend the day resting on leaves or branches. Such limited mobility is not because they are incapable of long-distance flight; they have the capacity to travel up to several kilometers. However, the majority of the moths travel between 60 and 800m. Only about 10% of the population are long-distance travelers. Such wide range of flight behavior is an adaptive characteristic; their habitat is usually determined by the availability of the fruit, so there is normally no need to travel far, but if the fruits are spread out in a patchy manner, the moths are capable of traveling longer distances to find food and re-colonize. Virgin females and males have been shown to be more likely to fly longer distances, with both sexes being able to travel about the same distance. Virgin and mated males and virgin females were able to fly the longest during the first third of adulthood, while mated females reached their maximum potential of flight within 1–3 days after eclosion.High genetic correlation (0.84 to 1.00) was found between total distance traveled and flight traits, such as flight duration and velocity. Flight characteristics are shown to be heritable for both sexes. Selection for and against genes that increase flight traits showed rapid changes in flight traits in both directions. There is, however, a trade-off between mobility and fitness. Research has shown that sedentary females have higher fecundity, or the ability to produce offspring, than mobile females. Sedentary females are larger in size, lay more eggs, and live longer than mobile females. Thus, there is higher reproductive rate in sedentary females. This explains why females do not travel far from the fruit tree from which they emerged to oviposit.
+
+
+== Predators, parasites, and diseases ==
+
+
+=== Predators ===
+Predators of the codling moth are mostly birds, accounting for nearly 80% of caterpillar killings. Woodpeckers are especially significant predators because they find caterpillars from hidden crevices beneath the bark and branches of host trees. They are also highly preyed upon by arthropods from the following taxonomic groups Araneae (spiders), Opiliones (harvestman), Carabidae (ground beetle), Cicindellidae (tiger beetle which is a kind of ground beetle), Dermaptera (earwig), Formicidae (ant), Geocoridae (big-eyed bugs), Staphylinidae (rove beetle), and Coleoptera (other beetles).Ants are among the most significant of the insect predators because they are numerous and are active in masses. They attack all the stages of the codling moth life cycle, including the caterpillar, pupae, cocoons, and eclosing moths. Some of the commonly known ant predators include Solenopsis molesta, Lasius niger, Formica fusca, Formica pallidefulva schauffussi inserta, Aphaenogaster fulva aquia, Tetramorium caespitum, and Monomorium minimum. Solenopsis molesta can kill 90% of caterpillars they attack, which are usually those moving between fruits or fifth instar caterpillars looking for a pupation site.Thrips are also predators of various life stages of the codling moth. Haplothrips faurei feeds on eggs from all generations, while Leptothrips mali feeds on second generation eggs.
+
+
+=== Parasitoids ===
+The egg stage is the most vulnerable period for parasitism because it is when the moth is exposed the longest. Caterpillars are protected by the fruit and the pupae are protected by the cocoon. Insect parasitoids are listed below, with the parasitized life stage of the codling moth indicated in parentheses:
+Arrhinomya tragica (pupa) – a fly
+Neoplectops veniseta (pupa) – a Tachinid fly
+Ephialtes extensor (caterpillar) – an Ichneumonidae wasp that attacks both generations and overwinters in the body of second generation caterpillar
+Hyssopus pallidus (larva) – these Eulophid wasps follow the kairomone formed in the frass as the caterpillar bores into the fruit.
+Lissonota culiciformis – an Ichneumonidae wasp
+Mastrus ridens – another Ichneumon
+Pimpla examinator (caterpillar and pupa) – another Ichneumon
+Pristomerus vulnerator (caterpillar) – another Ichneumon that attacks both generations
+Trichomma enecator (caterpillar) – another Ichneumon
+Ascogaster nov. sp. (egg or pupa) – another Ichneumon. A parasitised pupa may die or eclose as a stunted adult. Perilampus tristis, a Chalcidoid wasp, is a hyperparasite of this Ascogaster species.
+
+
+=== Pathogens ===
+
+
+==== Fungi ====
+Beauveria bassiana is a parasite to the caterpillar and pupae of the codling moth. The spores of this snowy white fungus are dispersed in locations where the caterpillars pass by or where they pupate. The mycelium of B. bassiana grows radially out from the body of the caterpillar, turning the caterpillar soft and mushy. It has a killing rate of 13.1% in caterpillars. B. bassiana grows favorably in humid and warm environments.
+Hirsutella subulata is another entomophagous, or insect-eating, fungal parasite to the codling moth larvae. Unlike B. bassiana, this fungus type can grow even if the humidity is low.
+
+
+==== Bacteria ====
+Known bacteria that parasitize the codling moth are Erwinia amylovora and Bacillus cereus. B. cereus parasitizes the larvae of the codling moth.
+
+
+==== Granulovirus ====
+Baculoviruses are common viruses of lepidopteran insects, and divide into two genera: Nucleopolyhedrovirus and Granulovirus. Of these, a granulovirus species specific to codling moths has been identified and studied. Granuloviruses form small granules that each carry one virion, and can be divided into two classes: the 'slow' and 'fast' granuloviruses, which refers to the rate at which the virus kills the host. Fast-killing granuloviruses usually kill the host during the same instar in which it was infected. Cydia pomonella granulovirus is a species of fast granulovirus that is fatally pathogenic to codling moths. Because Cydia pomonella granulovirus is a fast granulovirus, the codling moth larvae dies within the same instar as when infected. The complete genome of Cydia pomonella granulovirus has been sequenced and was found to have 123,500 bp.Three main Cydia pomonella granulovirus isolates have been identified: Cydia pomonella granulovirus-M, E, R. These can be categorized into four genome types: genomes A, B, C, and D. It is believed that genome C is ancestral to the other genomes. Genome C is also less pathogenic to codling moth neonates compared to other genome types. Isolates from Iran have also been identified and were found to have same genome types as the other isolates.
+
+
+=== As bioinsecticide ===
+Cydia pomonella granulovirus-M, which is a Mexican isolate strain of Cydia pomonella granulovirus, has been used as a bioinsecticide. Codling moth larvae can be infected with Cydia pomonella granulovirus just by crawling or browsing on infected leaves and fruits. A linear log time/mortality relationship has been found, which indicates that the longer the larva remains in contact with the bioinsecticide sprayed surface, the higher the degree of infection. Aqueous suspension of the granules are sprayed on leaves and fruits, which are then taken up by the larvae. Cydia pomonella granulovirus works most effectively when taken up by neonate larvae, so the bioinsecticide should be applied in concordance to the hatching time schedule of the eggs. Once the granules reach the midgut, which is basic (pH>7), the granules are dissolved and invade the tracheal matrix, epidermis, fat body, and other tissue bodies. During the later stages of infection, the virus form clusters, which causes apoptosis, or programmed cell-death, of host cells and eventually host death. Death of the host occurs within 5–10 days.Some colonies of codling moths have developed resistance against the commonly used Cydia pomonella granulovirus-M isolate. However, some Cydia pomonella granulovirus-M isolates have overcome that host resistance. Identified isolates, such as 112 and NPP-R1, have shown increased pathogenicity against RGV isolates, which are Cydia pomonella granulovirus resistant colonies of codling moths used in laboratories.
+
+
+== Physiology: Olfaction ==
+
+
+=== Olfactory receptors ===
+The antennae of the moths are used to detect volatiles released by fruits like apples and pears. Males and females display similar antennal responses to most volatiles, except to codlemone. Males responded more strongly to codlemone than females.
+Common apple volatiles include (Z)3-hexenol, (Z)3-hexenyl benzoate, (Z)3-hexenyl hexanoate, (±)-linalool and E,E-α-farnesene. Non-apple volatiles include pear ester ethyl (E,Z)-2,4-decadienoate. (E,E)-2,4-decadienal is a corresponding aldehyde for (E,Z)-2,4-decadienoate and is released as a defense mechanism by the fifth instar larvae of the European apple sawfly Hoplocampa testudinea. Apples infested with apple sawflies are unsuitable for codling moth larvae because apple sawflies secrete (E,E)-2,4-decadienal as part of their defense secretion. (E,E)-2,4-decadienal also causes a decrease in codling moth male attraction, so female codling moths are deterred by this volatile.
+
+
+=== Olfaction sexual dimorphism ===
+α-farnesene is a major volatile released by ripe apples that attracts codling moths. Sexual dimorphism in olfaction has been discovered with regards to this volatile. Both mated and virgin females were attracted to α-farnesene at a low dosage but repelled by it at a high dosage. The degree of response was stronger for mated females. Compared to that, mated males were attracted to a higher dosage of α-farnesene, while mid to low dosage elicited neutral responses. The threshold for mated male attraction was higher, which means the males are not as sensitive to the volatile as the females are. Butyl hexanoate is another sex-specific volatile released by ripe apples. Mated females were attracted by this volatile while males were not affected.
+
+
+== Pest control ==
+
+Because the caterpillar of the codling moth bore into fruits and stop their growth, codling moths are major agricultural pests. They are widespread and attack a wide range of fruits. In order to control these pests, insecticide has been used extensively. Case study done in British Columbia in the late 1980s and early 1990s showed that damage from codling moths ranged from 25% to 50% of crops being damaged. Another case study at Codling Moth Areawide Management (CAMP) project sites in Washington, California, and Oregon showed that the number of hectares of farms treated with mating disruption insecticides to control codling moths has grown exponentially from 1990 to 2000.
+
+
+=== Preventive measures ===
+Regularly pruning the branches of the fruit trees will allow insecticide to reach the insides of the crown better. A crown of a tree is the branches, leaves, and fruits of the tree that stems from the tree trunk. Also, more sunlight can reach the branches after pruning, and sunlight is deadly to the eggs and larvae. Scraping bark from the tree trunk can decrease the number of sites available for pupation. Fallen fruits should be gathered and disposed of regularly. Caterpillars bore into the fruit and cause premature ripening of the fruit and causing the fruit to fall off of the tree. Getting rid of fallen fruits can eliminate caterpillars that are still inside the fruits that have fallen.
+
+
+=== Mechanical control ===
+Trunk banding consists of wrapping a corrugated cardboard strip around the tree trunk. Larvae making their way down the tree to pupate after exiting the infested fruits will use bands as pupation sites. Bands may then be removed and burned.Mass-trapping consists of placing kairomonal lures on a high density of sticky traps in orchards.  Both male and female moths are attracted to the lure and become stuck in the trap.  An experiment conducted over 5 years showed a significant decrease in the number of apples damaged by codling moth.
+
+
+==== Particle films ====
+Particle films are hydrophobic solutions used to spray crops and plants to prevent damage from pathogens and arthropod pests. A common type of particle film is composed primarily of kaolin clay and adjuvants. Kaolin is a non-abrasive, white material that is found commonly in paint, pharmaceuticals, and cosmetics. It is an aluminosilicate mineral, which means it is composed of aluminum, silicon, and oxygen. Kaolin clay particle films are used to slow down the activity of larvae and adults. On trees coated with particle films, the larvae displayed decreased walking speed, fruit scavenging activity, and penetration rate. Although hatching rate of the eggs did not differ between treated and untreated trees, female moths oviposited less on film-treated trees.Vinegar traps  - use a plastic bottle (such as a 5 litre vinegar bottle), cut a hole on each side, fill with one cup sugar, one cup vinegar, one cup water.  Tie 2 or 3 traps to the tree.  Scoop out the drowned moths and wasps, and top up vinegar as it evaporates in the heat; the scent of fresh vinegar attracts more moths.  At the start, traps will be full daily; over time the numbers diminish.  Remove the fallen apples from the ground asap.  Start as soon as the temperatures are above freezing.
+
+
+=== Chemical control ===
+
+
+==== Synthetic attractants ====
+Successful development of synthetic fruit volatiles has led to increased control of codling moths. Codling moths can be managed and controlled with the use of synthetic apple volatiles, such as (Z)3-hexenol, (Z)3-hexenyl benzoate, (Z)3-hexenyl hexanoate, (±)-linalool and E,E-a-farnesene, and other synthetic attractants, such as pear ester ethyl (E,Z)-2,4-decadienoate and its corresponding aldehyde, E,E-2, 4-decadienal. Attractants are used as lures in codling moth traps, and are widely used in codling moth management programs in orchards.
+
+
+==== Growth inhibitors and regulators ====
+Insect growth inhibitors (IGIs) and insect growth regulators (IGRs) are used in insects, especially Lepidoptera, to prevent the synthesis of chitin during development. Chitin is one of the major component which constitutes the exoskeleton of arthropods and cell walls of fungi. Without chitin, insects cannot develop properly. Ovicidal IGIs, such as diflubenzuron, hexaflumuron and teflubenzuron, have been shown to be effective against egg development. Fenoxycarb is an ovicidal IGR, while Tebufenozide is a larvicidal IGR. Flufenoxuron and Methoxyfenozide are an IGI and IGR respectively and are equally effective in preventing growth in eggs as in larvae. In addition to IGRs, reduced-risk pesticides are also used to control codling moth population in apple orchards.
+
+
+==== Insecticide resistance ====
+In recent years, codling moths with insecticide-resistant strains arose. They have become resistant to avermectins, benzoylureas, benzoylhydrazines, neonicotinoids, organophosphates, macrocyclic lactones, pyrethroids. It is believed that this resistance is due to increase in enzymatic activity of the larvae. Low genetic structuration and high rate of gene flow have led to a rapid spread of resistance in European populations.However, there is a fitness cost associated with increased insecticide resistance. Pesticide-resistant codling moths are less fecund, less fertile, slower in development, lighter in weight, and have a shorter life span compared to non-resistant moths. This is believed to be caused by increase in the metabolically costly activities of oxidase and glutathione-S-transferase. Oxidase is an enzyme that catalyzes oxidation-reduction reactions. Gluthione-S-transferase is an enzyme that catalyzes a detoxification process involving a conjugation of gluthione into xenobiotic substrates.
+
+
+=== Biological control ===
+The codling moth is not a great candidate for biological pest control, as the larvae are well protected within the fruit for the majority of development. However, their eggs are susceptible to biological control by Trichogramma wasps. The wasps deposit their eggs into codling moth eggs, and the developing wasp larvae consume the moth embryo inside.
+Another candidate for a biological control agent is the parasitoid wasp Mastrus ridens, also known as the Mastrus ridibundus. This wasp has exhibited a positive response to higher densities of codling moth larvae, a short generation time compared to other parasites of the codling moth, and a high number of female offspring per host larva. These 3 characteristics improve M. ridibundus's ability to control codling moth populations. Parasitism of overwintering codling moth cocoons has reached up to 70%, but most field tests have not demonstrated a dramatic result. M. ridibundus as a biological control is recommended as part of a broader management strategy.
+
+
+== References ==
+
+Darby, Gene (1958). What is a Butterfly. Chicago: Benefic Press. p. 43.
+
+
+== External links ==
+Codling moth on UKmoths
+Codling Moth Information Support System (CMISS) Archived 2013-12-19 at the Wayback Machine
+UC IPM Pest Management Guidelines – Apple Codling Moth
+Lepiforum.de

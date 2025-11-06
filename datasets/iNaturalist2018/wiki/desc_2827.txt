@@ -1,0 +1,54 @@
+The waterfowl genus Anser includes the grey geese and the white geese. It belongs to the true geese and swan subfamily (Anserinae). The genus has a Holarctic distribution, with at least one species breeding in any open, wet habitats in the subarctic and cool temperate regions of the Northern Hemisphere in summer. Some also breed further south, reaching into warm temperate regions. They mostly migrate south in winter, typically to regions in the temperate zone between the January 0 °C (32 °F) to 5 °C (41 °F) isotherms.
+The genus contains 11 living species, which span nearly the whole range of true goose shapes and sizes. The largest is the greylag goose at 2.5–4.1 kg (5.5–9.0 lb). All have legs and feet that are pink, or orange, and bills that are pink, orange, or black. All have white under- and upper-tail coverts, and several have some extent of white on their heads. The neck, body and wings are grey or white, with black or blackish primary—and also often secondary—remiges (pinions). The three species of "white geese" (emperor, snow and Ross's geese) were formerly treated as a separate genus Chen, but are now generally included in Anser. The closely related "black" geese in the genus Branta differ in having black legs, and generally darker body plumage.
+
+
+== Systematics, taxonomy and evolution ==
+The genus Anser was introduced by the French zoologist Mathurin Jacques Brisson in 1760. The name was derived by tautonymy from the specific epithet of the greylag goose Anas anser introduced by Linnaeus in 1758.  Anser is the Latin word for "goose".
+
+
+=== Phylogeny ===
+The evolutionary relationships between Anser geese have been difficult to resolve because of their rapid radiation during the Pleistocene and frequent hybridization. In 2016 Ottenburghs and colleagues published a study that established the phylogenetic relationships between the species by comparing exonic DNA sequences.
+
+
+=== Species ===
+The genus contains 11 species:
+The following white geese were separated as the genus Chen. Most ornithological works now include Chen within Anser,
+Snow goose, Anser caerulescens
+Ross's goose, Anser rossii
+Emperor goose, Anser canagicus – sometimes separated in PhilacteSome authorities also treat some subspecies as distinct species (notably the tundra bean goose) or as likely future species splits (notably the Greenland white-fronted goose).
+
+
+=== Fossil record ===
+Numerous fossil species have been allocated to this genus. As the true geese are near-impossible to assign osteologically to genus, this must be viewed with caution. It can be assumed with limited certainty that European fossils from known inland sites belong into Anser. As species related to the Canada goose have been described from the Late Miocene onwards in North America too, sometimes from the same localities as the presumed grey geese, it casts serious doubt on the correct generic assignment of the supposed North American fossil geese.  Heterochen = Anser pratensis seems to differ profoundly from other species of Anser and might be placed into a different genus; alternatively, it might have been a unique example of a grey goose adapted for perching in trees.
+†Anser atavus (Middle/Late Miocene of Bavaria, Germany) – sometimes in Cygnus
+†Anser arenosus Bickart 1990 (Big Sandy Late Miocene of Wickieup, USA)
+†Anser arizonae Bickart 1990 (Big Sandy Late Miocene of Wickieup, USA)
+†Anser cygniformis (Late Miocene of Steinheim, Germany)
+†Anser oeningensis (Meyer 1865) Milne-Edwards 1867b [Anas oeningensis Meyer 1865] (Late Miocene of Oehningen, Switzerland)
+†Anser thraceiensis Burchak-Abramovich & Nikolov 1984 (Late Miocene/Early Pliocene of Trojanovo, Bulgaria)
+†Anser pratensis (Short 1970) [Heterochen pratensis Short 1970] (Valentine Early Pliocene of Brown County, USA)
+†Anser pressus (Brodkorb 1964) [Chen pressa Brodkorb 1964] (Dwarf Snow goose) (Glenns Ferry Late Pliocene of Hagerman, USA)
+†Anser thompsoni Martin & Mengel 1980 (Pliocene of Nebraska)
+†Anser azerbaidzhanicus (Early? Pleistocene of Binagady, Azerbaijan)
+†Anser devjatkini Kuročkin 1971
+†Anser eldaricus Burchak-Abramovich & Gadzyev 1978
+†Anser tchikoicus Kuročkin 1985
+†Anser djuktaiensis Zelenkov & Kurochkin 2014 (Late Pleistocene of Yakutia, Russia)The Maltese swan Cygnus equitum was occasionally placed into Anser, and Anser condoni is a synonym of Cygnus paloregonus. A goose fossil from the Early-Middle Pleistocene of El Salvador is highly similar to Anser. Given its age it is likely to belong to an extant genus, and biogeography indicates Branta as other likely candidate.
+?Anser scaldii Beneden 1872 nomen nudum (Late Miocene of Antwerp, Belgium) may be a shelduck.
+
+
+== Relationship with humans and conservation status ==
+Two species in the genus are of major commercial importance, having been domesticated as poultry: European domesticated geese are derived from the greylag goose, and Chinese and some African domesticated geese are derived from the swan goose.
+Most species are hunted to a greater or lesser extent; in some areas, some populations are endangered by over-hunting. Most notably, the lesser white-fronted goose is listed by IUCN Red List as Vulnerable throughout its range, and due to overhunting and rampant habitat destruction, the population of the swan goose is on the verge of collapsing, leading to a listing as Endangered.Other species have benefited from reductions in hunting since the late 19th and early 20th centuries, with most species in western Europe and North America showing marked increases in response to protection. In some cases, this has led to conflicts with farming, when large flocks of geese graze crops in the winter.
+
+
+== See also ==
+List of recently extinct birds
+Late Quaternary prehistoric birds
+List of fossil bird genera
+
+
+== Notes ==
+
+
+== References ==

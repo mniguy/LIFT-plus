@@ -1,0 +1,34 @@
+The glassy-winged sharpshooter (Homalodisca vitripennis, formerly known as H. coagulata) is a large leafhopper insect from the family Cicadellidae, similar to other species of sharpshooter.
+
+
+== Description ==
+
+These sharpshooters are about 12 millimetres (0.5 in) in length. Their color is dark brown to black with black-and-yellow undersides, with yellow eyes, and the upper parts of the head and back are speckled with ivory or yellowish spots. The wings are transparent with reddish veins.They have piercing, sucking mouthparts and rows of fine spines on their hind legs.
+
+
+== Distribution ==
+It is native to North America (northeastern Mexico), but it was accidentally introduced into Southern California in the early 1990s, probably with ornamental or agricultural stock. There it has become an agricultural pest especially to viticulture.Glassy-winged sharpshooters usually lay a mass of eggs on the underside of leaves, and they cover them with powdery white protective secretions kept in dry form (called "brochosomes") on the wings. After the nymphs hatch, the remaining egg mass leaves a brown mark on the leaf's surface. The nymphs feed within the vascular system of the small stems on the plant where the eggs were deposited. After several molts, the nymphs become adult glassy-winged sharpshooters.The glassy-winged sharpshooter feeds on a wide variety of plants. Scientists estimate the host plants for this sharpshooter include over 70 different plant species. Among the hosts are grapes, citrus trees, almonds, stone fruit, and oleanders. Because of the large number of hosts, glassy-winged sharpshooter populations are able to flourish in both agricultural and urban areas. They feed on a plant by inserting their needle-like mouth parts into the plant's xylem. While feeding, sharpshooters squirt small droplets of waste from the anus (filtered xylem fluid, basically water with trace solutes, especially carbohydrates), often called "leafhopper rain." These droplets are messy and, when the water evaporates, leave a residue that gives plants and fruit a whitewashed appearance.Their feeding method, along with their voracious appetite for so many different hosts, makes glassy-winged sharpshooters an effective vector for the Xylella fastidiosa bacterium. Once the sharpshooter feeds on an infected plant, X. fastidiosa colonizes it by forming a biofilm on its mouth-parts. The sharpshooter then transmits the disease to additional plants while feeding. A plant that is not affected by any of the diseases caused by X. fastidiosa becomes a reservoir, holding the bacterium for other sharpshooters to pick up and carry to other plants. X. fastidiosa is linked to many plant diseases, including phoney peach disease in the southern United States, oleander leaf scorch and Pierce's disease in California, and citrus X disease in Brazil.
+
+
+== Management ==
+Successful efforts using integrated pest management (IPM) of the glassy-winged sharpshooter include the use of insecticides, parasitoids (especially wasps in the family Mymaridae), and the impact of naturally occurring pathogens like viruses, bacteria, and fungi.  
+One of the newly discovered pathogens is a virus specific to sharpshooters. The leafhopper-infecting virus, Homalodisca coagulata virus-1 (HoCV-1, Dicistroviridae), has been shown to increase leafhopper mortality. The virus occurs in nature and is spread most readily at high population densities through contact among infected individuals, contact with virus-contaminated surfaces, and/or as an aerosol in leafhopper excreta.One of the most successful biocontrol efforts has been the mass rearing and release of four different leafhopper parasitoids (in the mymarid genus Gonatocerus), which have been very successful in reducing the number of eggs that survive.  
+The traditional means of insect management, such as scouting and land owner reports of leafhopper presence, followed by highly focused insecticide treatments, have also been of great value in reducing leafhopper numbers; all of these impacts have produced a system wherein reasonable, environmentally sound management of this insect pest is being maintained.
+
+
+== References ==
+
+
+== Further reading ==
+Grandgirard, J., M.S. Hoddle, G.K. Roderick, J.N. Petit, D. Percy, R. Putoa, C. Garnier, and N. Davies. 2006. Invasion of French Polynesia by the Glassy-Winged Sharpshooter, Homalodisca coagulata (Hemiptera: Cicadellidae): A New Threat to the South Pacific. Pacific Science, 60:4, 429-438.
+Hoddle M.S., Grandgirard J., Petit J., Roderick G.K., Davies N., 2006. Glassy-winged sharpshooter Ko'ed - First round - in French Polynesia. Biocontrol News and Information 27(3), 47N-62N
+
+
+== External links ==
+PIPRA - Pierce's Disease Website
+CDFA PD/GWSS Board Interactive Forum
+Organization fighting the potential of infestation in Northern California
+Biocontrol of the GWSS in French Polynesia
+glassy-winged sharpshooter on the University of Florida / Institute of Food and Agricultural Sciences Featured Creatures website
+CISR - Glassy-Winged Sharpshooter Fact Sheet with photos
+Species Profile - Glassy-Winged Sharpshooter (Homalodisca coagulata), National Invasive Species Information Center, United States National Agricultural Library. Lists general information and resources for Glassy-Winged Sharpshooter.

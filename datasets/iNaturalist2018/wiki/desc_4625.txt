@@ -1,0 +1,251 @@
+Scallop () is a common name that is primarily applied to any one of numerous species of saltwater clams or marine bivalve mollusks in the taxonomic family Pectinidae, the scallops. However, the common name "scallop" is also sometimes applied to species in other closely related families within the superfamily Pectinoidea, which also includes the thorny oysters.
+Scallops are a cosmopolitan family of bivalves which are found in all of the world's oceans, although never in fresh water. They are one of very few groups of bivalves to be primarily "free-living", with many species capable of rapidly swimming short distances and even of migrating some distance across the ocean floor. A small minority of scallop species live cemented to rocky substrates as adults, while others attach themselves to stationary or rooted objects such as sea grass at some point in their lives by means of a filament they secrete called a byssal thread. The majority of species, however, live recumbent on sandy substrates, and when they sense the presence of a predator such as a starfish, they may attempt to escape by swimming swiftly but erratically through the water using jet propulsion created by repeatedly clapping their shells together. Scallops have a well-developed nervous system, and unlike most other bivalves all scallops have a ring of numerous simple eyes situated around the edge of their mantles.
+Many species of scallops are highly prized as a food source, and some are farmed as aquaculture. The word "scallop" is also applied to the meat of these bivalves, the adductor muscle, that is sold as seafood. The brightly coloured, symmetric, fan-shaped shells of scallops with their radiating and often fluted ornamentation are valued by shell collectors, and have been used since ancient times as motifs in art, architecture, and design.
+Owing to their widespread distribution, scallop shells are a common sight on beaches and are often brightly coloured, making them a popular object to collect among beachcombers and vacationers. The shells also have a significant place in popular culture, including symbolism.
+
+
+== Biology ==
+
+
+=== Distribution and habitat ===
+Scallops inhabit all the oceans of the world, with the largest number of species living in the Indo-Pacific region. Most species live in relatively shallow waters from the low tide line to 100 m, while others prefer much deeper water. Although some species only live in very narrow environments, most are opportunistic and can live under a wide variety of conditions. Scallops can be found living within, upon, or under either rocks, coral, rubble, sea grass, kelp, sand, or mud. Most scallops begin their lives as byssally attached juveniles, an ability that some retain throughout their lives while others grow into freeliving adults.
+
+
+=== Anatomy and physiology ===
+Very little variation occurs in the internal arrangement of organs and systems within the scallop family, and what follows can be taken to apply to the anatomy of any given scallop species.
+
+
+==== Orientation ====
+
+The shell of a scallop consists of two sides or valves, a left valve and a right one, divided by a plane of symmetry. Most species of scallops rest on their right valve, and consequently this valve is often deeper and more rounded than the left (i.e., upper) valve, which in many species is actually concave. With the hinge of the two valves oriented towards the top, one side corresponds to the animal's morphological anterior or front, the other is the posterior or rear, the hinge is the dorsal or back/top region, and the bottom corresponds to the ventral or (as it were) underside/belly. However, as many scallop shells are more or less bilaterally symmetrical ("equivalved"), as well as symmetrical front/back ("equilateral"), determining which way a given animal is "facing" requires detailed information about its valves.
+
+
+==== Valves ====
+
+The model scallop shell consists of two similarly shaped valves with a straight hinge line along the top, devoid of teeth, and producing a pair of flat wings or "ears" (sometimes called "auricles", though this is also the term for two chambers in its heart) on either side of its midpoint, a feature which is unique to and apparent in all adult scallops. These ears may be of similar size and shape, or the anterior ear may be somewhat larger (the posterior ear is never larger than the anterior one, an important feature for distinguishing which valve is which). As is the case in almost all bivalves, a series of lines and/or growth rings originates at the center of the hinge, at a spot called the "beak" surrounded by a generally raised area called the "umbo". These growth rings increase in size downwards until they reach the curved ventral edge of the shell. The shells of most scallops are streamlined to facilitate ease of movement during swimming at some point in their lifecycles, while also providing protection from predators. Scallops with ridged valves have the advantage of the architectural strength provided by these ridges called "ribs", although the ribs are somewhat costly in terms of weight and mass. A unique feature of the scallop family is the presence, at some point during the animal's lifecycle, of a distinctive and taxonomically important shell feature, a comb-like structure called a ctenolium located on the anterior edge of the right valve next to the valve's byssal notch. Though many scallops lose this feature as they become free-swimming adults, all scallops have a ctenolium at some point during their lives, and no other bivalve has an analogous shell feature. The ctenolium is found in modern scallops only; both putative ancestors of modern scallops, the entoliids and the Aviculopectinidae, did not possess it.
+
+
+==== Muscular system ====
+
+Like the true oysters (family Ostreidae), scallops have a single central adductor muscle, thus the inside of their shells has a characteristic central scar, marking the point of attachment for this muscle. The adductor muscle of scallops is larger and more developed than those of oysters, because scallops are active swimmers; some species of scallops are known to move en masse from one area to another. In scallops, the shell shape tends to be highly regular, and is commonly used as an archetypal form of a seashell.
+
+
+==== Digestive system ====
+Scallops are filter feeders, and eat plankton. Unlike many other bivalves, they lack siphons. Water moves over a filtering structure, where food particles become trapped in mucus. Next, the cilia on the structure move the food toward the mouth. Then, the food is digested in the digestive gland, an organ sometimes misleadingly referred to as the "liver", but which envelops part of the oesophagus, intestine, and the entire stomach. Waste is passed on through the intestine (the terminus of which, like that of many mollusks, enters and leaves the animal's heart) and exits via the anus.
+
+
+==== Nervous system ====
+
+Like all bivalves, scallops lack actual brains. Instead, their nervous system is controlled by three paired ganglia located at various points throughout their anatomy, the cerebral or cerebropleural ganglia, the pedal ganglia, and the visceral or parietovisceral ganglia. All are yellowish. The visceral ganglia are by far the largest and most extensive of the three, and occur as an almost-fused mass near the center of the animal – proportionally, these are the largest and most intricate sets of ganglia of any modern bivalve. From these radiate all of the nerves which connect the visceral ganglia to the circumpallial nerve ring which loops around the mantle and connects to all of the scallop's tentacles and eyes. This nerve ring is so well developed that, in some species, it may be legitimately considered an additional ganglion. The visceral ganglia are also the origin of the branchial nerves which control the scallop's gills. The cerebral ganglia are the next-largest set of ganglia, and lie distinct from each other a significant distance dorsal to the visceral ganglia. They are attached to the visceral ganglia by long cerebral-visceral connectives, and to each other via a cerebral commissure that extends in an arch dorsally around the esophagus. The cerebral ganglia control the scallop's mouth via the palp nerves, and also connect to statocysts which help the animal sense its position in the surrounding environment. They are connected to the pedal ganglia by short cerebral-pedal connectives. The pedal ganglia, though not fused, are situated very close to each other near the midline. From the pedal ganglia, the scallop puts out pedal nerves which control movement of, and sensation in, its small muscular foot.
+
+
+==== Reproduction ====
+The scallop family is unusual in that some members of the family are dioecious (males and females are separate), while other are simultaneous hermaphrodites (both sexes in the same individual), and a few are protoandrous hermaphrodites (males when young then switching to female). Red roe is that of a female, and white, that of a male. Spermatozoa and ova are released freely into the water during mating season, and fertilized ova sink to the bottom. After several weeks, the immature scallops hatch and the larvae, miniature transparent versions of the adults called "spat", drift in the plankton until settling to the bottom again (an event called spatfall) to grow, usually attaching by means of byssal threads. Some scallops, such as the Atlantic bay scallop Argopecten irradians, are short-lived, while others can live 20 years or more. Age can often be inferred from annuli, the concentric rings of their shells.
+
+
+==== Eyes ====
+
+Scallops have a large number (up to 200) of small (about 1 mm) eyes arranged along the edge of their mantles. These eyes represent a particular innovation among molluscs, relying on a concave, parabolic mirror of guanine crystals to focus and retro-reflect light instead of a lens as found in many other eye types. Additionally, their eyes possess a double-layered retina, the outer retina responding most strongly to light and the inner to abrupt darkness. While these eyes are unable to resolve shapes with high fidelity, the combined sensitivity of both retinas to light entering the eye and light retro-reflected from the mirror grants scallops exceptional contrast definition, as well as the ability to detect changing patterns of light and motion. Scallops primarily rely on their eyes as an 'early-warning' threat detection system, scanning around them for movement and shadows which could potentially indicate predators. Additionally, some scallops alter their swimming or feeding behavior based on the turbidity or clarity of the water, by detecting the movement of particulate matter in the water column.
+
+
+==== Adductor muscles ====
+ 
+Scallops possess fast (striated) and slow (smooth) adductor muscles, which have different structure and contractile properties. These muscles lie closely apposed to one another but are divided by a connective tissue sheet. The striated adductor muscle contracts very quickly for swimming, whereas smooth catch adductor muscle lacks striations, contracts for long periods, keeping shells closed with little expenditure of energy.
+
+
+==== Locomotion ====
+ 
+
+Scallops are mostly free-living and active, unlike the vast majority of bivalves, which are mostly slow-moving and infaunal. All scallops are thought to start out with a byssus, which attaches them to some form of substrate such as eelgrass when they are very young. Most species lose the byssus as they grow larger. A very few species go on to cement themselves to a hard substrate (e.g. Chlamys distorta and Hinnites multirigosus).However, the majority of scallops are free-living and can swim with brief bursts of speed to escape predators (mostly starfish) by rapidly opening and closing their valves. Indeed, everything about their characteristic shell shape – its symmetry, narrowness, smooth and/ or grooved surface, small flexible hinge, powerful adductor muscle, and continuous and uniformly curved edge – facilitates such activity. They often do this in spurts of several seconds before closing the shell entirely and sinking back to the bottom of their environment. Scallops are able to move through the water column either forward/ventrally (termed swimming) by sucking water in through the space between their valves, an area called the gape, and ejecting it through small holes near the hinge line called exhalant apertures, or backward/dorsally (termed jumping) by ejecting the water out the same way it came in (i.e. ventrally). A jumping scallop usually lands on the sea floor between each contraction of its valves, whereas a swimming scallop stays in the water column for most or all of its contractions and travels a much greater distance (though seldom at a height of more than 1 m off the sea bed and seldom for a distance of greater than 5 m). Both jumping and swimming movements are very energy-intensive, and most scallops cannot perform more than four or five in a row before becoming completely exhausted and requiring several hours of rest. Should a swimming scallop land on its left side, it is capable of flipping itself over to its right side via a similar shell-clapping movement called the righting reflex. So-called singing scallops are rumored to make an audible, soft popping sound as they flap their shells underwater (though whether or not this happens is open to some debate). Other scallops can extend their foot from between their valves, and by contracting the muscles in their foot, they can burrow into sand.
+
+
+==== Mobility and behavior ====
+Most species of the scallop family are free-living, active swimmers, propelling themselves through the water through the use of the adductor muscles to open and close their shells. Swimming occurs by the clapping of valves for water intake. Closing the valves propels water with strong force near the hinge via the velum, a curtain-like fold of the mantle that directs water expulsion around the hinge. Scallops swim in the direction of the valve opening, unless the velum directs an abrupt change in course direction.Other species of scallops can be found on the ocean floor attached to objects by byssal threads. Byssal threads are strong, silky fibers extending from the muscular foot, used to attach to a firm support, such as a rock. Some can also be found on the ocean floor, moving with the use of an extendable foot located between their valves or burrowing themselves in the sand by extending and retracting their feet. Scallops are highly sensitive to shadows, vibrations, water movement, and chemical stimuli. All possess a series of 100 blue eyes, embedded on the edge of the mantle of their upper and lower valves that can distinguish between light and darkness. They serve as a vital defense mechanism for avoiding predators. Though rather weak, their series of eyes can detect surrounding movement and alert precaution in the presence of predators, most commonly sea stars, crabs, and snails. Physiological fitness and exercise of scallops decreases with age due to the decline of cellular and especially mitochondrial function, thus increasing the risk of capture and lowering rates of survival. Older individuals show lower mitochondrial volume density and aerobic capacity, as well as decreased anaerobic capacity construed from the amount of glycogen stored in muscle tissue. Environmental factors, such as changes in oxidative stress parameters, can inhibit the growth and development of scallops.Seasonal changes in temperature and food availability have been shown to affect muscle metabolic capabilities. The properties of mitochondria from the phasic adductor muscle of Euvola ziczac varied significantly during their annual reproductive cycle. Summer scallops in May have lower maximal oxidative capacities and substrate oxidation than any other times in the year. This phenomenon is due to lower protein levels in adductor muscles.
+
+
+==== Pearls ====
+
+Scallops do occasionally produce pearls, though scallop pearls do not have the buildup of translucent layers or "nacre" which give desirability to the pearls of the feather oysters, and usually lack both lustre and iridescence. They can be dull, small, and of varying colour, but exceptions occur that are appreciated for their aesthetic qualities.
+
+
+==== Mutualism ====
+Some scallops, including Chlamys hastata, frequently carry epibionts such as sponges and barnacles on their shells. The relationship of the sponge to the scallop is characterized as a form of mutualism, because the sponge provides protection by interfering with adhesion of predatory sea-star tube feet, camouflages Chlamys hastata from predators, or forms a physical barrier around byssal openings to prevent sea stars from inserting their digestive membranes. Sponge encrustation protects C. hastata from barnacle larvae settlement, serving as a protection from epibionts that increase susceptibility to predators. Thus, barnacle larvae settlement occurs more frequently on sponge-free shells than sponge-encrusted shells.In fact, barnacle encrustation negatively influences swimming in C. hastata. Those swimming with barnacle encrustation require more energy and show a detectable difference in anaerobic energy expenditure than those without encrustation. In the absence of barnacle encrustation, individual scallops swim significantly longer, travel further, and attain greater elevation.
+
+
+==== Lifecycle and growth ====
+Many scallops are hermaphrodites (having female and male organs simultaneously), altering their sex throughout their lives, while others exist as dioecious species, having a definite sex. In this case, males are distinguished by roe-containing white testes and females with roe-containing orange ovaries. At the age of two, they usually become sexually active, but do not contribute significantly to egg production until the age of four. The process of reproduction takes place externally through spawning, in which eggs and sperm are released into the water. Spawning typically occurs in late summer and early autumn; spring spawning may also take place in the Mid-Atlantic Bight. The females of scallops are highly fecund, capable of producing hundreds of millions of eggs per year.Once an egg is fertilized, it is then planktonic, which is a collection of microorganisms that drift abundantly in fresh or salt water. Larvae stay in the water column for the next four to seven weeks before dissipating to the ocean floor, where they attach themselves to objects through byssus threads. Byssus is eventually lost with adulthood, transitioning almost all scallop species into free swimmers. Rapid growth occurs within the first several years, with an increase of 50–80 % in shell height and quadrupled size in meat weight, and reach commercial size at about four to five years of age. The lifespans of some scallops have been known to extend over 20 years.
+
+
+=== Taxonomy and phylogeny ===
+
+
+==== Etymology ====
+The family name Pectinidae, which is based on the name of the type genus, Pecten, comes from the Latin pecten meaning comb, in reference to a comb-like structure of the shell which is situated next to the byssal notch.
+
+
+==== Phylogeny ====
+
+The fossil history of scallops is rich in species and specimens. The earliest known records of true scallops (those with a ctenolium) can be found from the Triassic period, over 200 million years ago. The earliest species were divided into two groups, one with a nearly smooth exterior: Pleuronectis von Schlotheim, 1820, while the other had radial ribs or riblets and auricles: Praechlamys Allasinaz, 1972. Fossil records also indicate that the abundance of species within the Pectinidae has varied greatly over time; Pectinidae was the most diverse bivalve family in the Mesozoic era, but the group almost disappeared completely by the end of the Cretaceous period. The survivors speciated rapidly during the Tertiary period. Nearly 7,000 species and subspecies names have been introduced for both fossil and recent Pectinidae.The cladogram is based on molecular phylogeny using mitochondrial (12S, 16S) and nuclear (18S, 28S, and H3) gene markers by Yaron Malkowsky and Annette Klussmann-Kolb in 2012.
+
+
+==== Taxonomic structure ====
+Scallops are the family Pectinidae, marine bivalve molluscs within the superfamily Pectinoidea. Other families within this same superfamily share a somewhat similar overall shell shape, and some species within some of the related families are also commonly referred to as "scallops" (for example, Propeamussiidae, the glass scallops).
+The family Pectinidae is the most diversified of the pectinoideans in present-day oceans. Pectinidae is one of the largest marine bivalve families, and contains over 300 extant species in 60 genera. Its origin dates back to the Middle Triassic Period, approximately 240 million years ago; in terms of diversity, it has been a thriving family to present day.Evolution from its origin has resulted in a successful and diverse group: pectinids are present in the world's seas, found in environments ranging from the intertidal zone to the hadal depths. The Pectinidae play an extremely important role in many benthic communities and exhibit a wide range of shell shape, sizes, sculpture, and culture.Raines and Poppe listed nearly 900 species names of scallops, but most of these are considered either questionable or invalid. Raines and Poppe mentioned over 50 genera and around 250 species and subspecies. Although species are generally well circumscribed, their attribution to subfamilies and genera is sometimes equivocal, and information about phylogeny and relationships of the species is minimal, not the least because most work has been based only on adult morphology.The earliest and most comprehensive taxonomic treatments of this family were based on macroscopic morphological characters of the adult shells and represent broadly divergent classification schemes. Some level of taxonomic stability was achieved when Waller's studies in 1986, 1991, and 1993 concluded evolutionary relationships between pectinid taxa based on hypothesized morphological synapomorphies, which previous classification systems of Pectinidae failed to do. He created three Pectinidae subfamilies: Camptonectinidae, Chlamydinae and Pectininae.The framework of its phylogeny shows that repeated life habit states derive from evolutionary convergence and parallelism. Studies have determined the family Pectinidae is monophyletic, developing from a single common ancestor. The direct ancestors of Pectinidae were scallop-like bivalves of the family Entoliidae. Entoliids had auricles and byssal notch only at youth, but they did not have a ctenolium, a comb-like arrangement along the margins of the byssal notch in Pectinidae. The ctenolium is the defining feature of the modern family Pectinidae and is a characteristic that has evolved within the lineage.In a 2008 paper, Puslednik et al. identified considerable convergence of shell morphology in a subset species of gliding Pectinidae, which suggests iterative morphological evolution may be more prevalent in the family than previously believed.There have been a number of efforts to address phylogenetic studies. Only three have assessed more than 10 species and only one has included multiple outgroups. Nearly all previous molecular analyses of the Pectinidae have only utilized mitochondrial data. Phylogenies based only on mitochondrial sequence data do not always provide an accurate estimation on the species tree. Complicated factors can arise due to the presence of genetic polymorphisms in ancestral species and resultant lineage sorting.In molecular phylogenies of the Bivalvia, both the Spondylidae and the Propeamussiidae have been resolved as sister to the Pectinidae.
+
+
+==== List of subfamilies and genera ====
+Family Pectinidae 
+
+Subfamily Camptonectinae Habe, 1977Delectopecten Stewart, 1920
+Ciclopecten Seguenza, 1877
+Lyropecten Conrad, 1862
+Pseudohinnites Dijkstra, 1989
+Subfamily Hemipectinae Habe, 1977 (disputed, often in Chlamydinae: Chlamydini)
+Hemipecten Adams & Reeve, 1849
+Subfamily Palliolinae Korbkov in Eberzin, 1960
+Tribe Palliolini Waller, 1993
+Palliolum Monterosato, 1884
+Lissochlamys Sacco, 1897
+Placopecten Verrill, 1897
+Pseudamussium Mörch, 1853
+Mesopeplum Iredale, 1929
+Subfamily Pectininae
+Tribe Amusiini Ridewood, 1903
+Amusium Röding, 1798
+Dentamussium Dijkstra, 1990
+Euvola Dall, 1898
+Leopecten Masuda, 1971
+Ylistrum Mynhardt & Alejandrino, 2014
+Tribe Decatopectinini Waller, 1986
+Anguipecten Dall, Bartsch & Rehder, 1938
+Annachlamys Iredale, 1939
+Bractechlamys Iredale, 1939
+Decatopecten Rüppell in G. B. Sowerby II, 1839
+Excellichlamys Iredale, 1939
+Flexopecten Sacco, 1897
+Glorichlamys Dijkstra, 1991
+Gloripallium Iredale, 1939
+Juxtamusium Iredale, 1939
+Mirapecten Dall, Bartsch & Rehder, 1938
+Tribe Pectinini Wilkes, 1810
+Annachlamys Iredale, 1939
+†Gigantopecten Rovereto, 1899
+Minnivola Iredale, 1939
+†Oopecten Sacco, 1897
+†Oppenheimopecten Teppner, 1922
+Pecten Müller, 1776 (includes the great or king scallop, Pecten maximus; coquille St Jacques Pecten jacobaeus; Japanese (sea) scallop, Pecten yessoensis; the New Zealand scallop, Pecten novaezealandiae; and the Ravenel or round-rib scallop, Pecten raveneli)
+Serratovola Habe, 1951
+Subfamily Chlamydinae von Teppner, 1922
+Tribe Clamydini von Teppner, 1922
+Chlamys Röding, 1798
+Complichlamys Iredale, 1939
+Coralichlamys Iredale, 1939
+Equichlamys Iredale, 1929
+Hinnites Deference, 1821
+Laevichlamys Waller, 1993
+Manupecten Monterosato, 1872
+Nodipecten Dall, 1898
+Notochlamys Cotton, 1930
+Pascahinnites Dijkstra & Raines, 1999
+Pedum Bruguière, 1791
+Psychrochlamys Jonkers, 2003
+Scaeochlamys Iredale, 1929
+Semipallium Jousseaume in Lamy, 1928
+Swiftopecten Hertlein, 1936
+Veprichlamys Iredale, 1929
+Tribe Austrochlamydini Jonkers, 2003
+Austrochlamys Jonkers, 2003
+Tribe Adamussiini Habe, 1977
+Adamussium Thiele, 1934
+Tribe Fortipectinini Masuda, 1963
+Mizuhopecten Masuda, 1963
+Patinopecten Dall, 1898
+Tribe Crassadomini Waller, 1993
+Crassadoma Bernard, 1986
+Caribachlamys Waller, 1993
+Tribe Mimachlamydini Waller, 1993
+Mimachlamys Iredale, 1929
+Spathochlamys Waller, 1993
+Talochlamys Iredale, 1935 includes Talochlamys pusio (Linnaeus, 1758) == Chlamys distorta (da Costa, 1778)
+Tribe Aequipectinini F. Nordsieck, 1969
+Aequipecten Fischer, 1886 (includes Rough scallop Aequipecten muscosus)
+Argopecten Monterosato, 1889 (includes bay scallop, Argopecten irradians, Atlantic calico scallop Argopecten gibbus and Pacific calico scallop, Argopecten ventricosus)
+Cryptopecten Dall, Bartsch & Rehder, 1938
+Haumea Dall, Bartsch & Rehder, 1938
+Leptopecten Verrill, 1897
+Leptopecten latiauratus Conrad, 1837
+Volachlamys Iredale, 1939
+Subfamily incertae sedis
+Hyalopecten Verrill, 1897
+
+
+== Seafood industry ==
+
+
+=== Aquaculture ===
+
+
+=== Wild fisheries ===
+The largest wild scallop fishery is for the Atlantic sea scallop (Placopecten magellanicus) found off northeastern United States and eastern Canada. Most of the rest of the world's production of scallops is from Japan (wild, enhanced, and aquaculture) and China (mostly cultured Atlantic bay scallops).Scallops are most commonly harvested using scallop dredges or bottom trawls. Recently, scallops harvested by divers, hand-caught on the ocean floor, have entered the marketplace. In contrast to scallops captured by a dredge across the sea floor, diver scallops tend to be less gritty. They are also more ecologically friendly, as the harvesting method does not cause damage to undersea flora or fauna.
+
+
+=== Sustainability ===
+The scallop fishery in New Zealand declined from a catch of 1246 tonnes in 1975 to 41 tonnes in 1980, at which point the government ordered the fishery closed. Spat seeding in the 1980s helped it recover, and catches in the 1990s were up to 684 tonnes. The Tasman Bay / Te Tai-o-Aorere area was closed to commercial scallop harvesting from 2009 to 2011 due to a decline in the numbers. The commercial catch was down to 22 tonnes in 2015, and the fishery was closed again. The main causes for the decline seem to be fishing, climate effects, disease, pollutants, and sediment runoff from farming and forestry. Forest and Bird list scallops as "Worst Choice" in their Best Fish Guide for sustainable seafood species.On the east coast of the United States, over the last 100 years, the populations of bay scallops have greatly diminished due to several factors, but probably is mostly due to reduction in sea grasses (to which bay scallop spat attach) caused by increased coastal development and concomitant nutrient runoff. Another possible factor is reduction of sharks from overfishing. A variety of sharks used to feed on rays, which are a main predator of bay scallops. With the shark population reduced – this apex predator in some places almost eliminated – the rays have been free to feed on scallops to the point of greatly decreasing their numbers. By contrast, the Atlantic sea scallop (Placopecten magellanicus) is at historically high levels of abundance after recovery from overfishing.
+
+
+== As food ==
+
+Scallops are characterized by offering two flavors and textures in one shell: the meat, called "scallop", which is firm and white, and the roe, called "coral", which is soft and often brightly coloured reddish-orange. Sometimes, markets sell scallops already prepared in the shell, with only the meat remaining. Outside the U.S., the scallop is often sold whole. In the UK and Australia, they are available both with and without coral.Scallops without any additives are called "dry packed", while scallops that are treated with sodium tripolyphosphate (STPP) are called "wet packed". STPP causes the scallops to absorb moisture prior to the freezing process, thereby increasing the weight. The freezing process takes about two days.In Galician cuisine, scallops are baked with breadcrumbs, ham, and onions. In Japanese cuisine, scallops may be served in soup or prepared as sashimi or sushi. In a sushi bar, hotategai (帆立貝, 海扇) is the traditional scallop on rice and, while kaibashira (貝柱) may be called scallops, it is actually the adductor muscle of any kind of shellfish, e.g. mussels, oysters, or clams. In Chinese cuisine, scallop is more loosely used to include other shellfish species with round-shaped flesh (the adductor muscle), such as Atrina (帶子). Dried scallop is known in Cantonese Chinese cuisine as conpoy (乾瑤柱, 乾貝, 干貝). Smoked scallops are sometimes served as appetizers or used as an ingredient in the preparation of various dishes and appetizers.Scallops have lent their name to the culinary term "scalloped", which originally referred to seafood creamed and served hot in the shell. Today, it means a creamed casserole dish such as scalloped potatoes, which contains no seafood at all.
+
+		
+		
+		
+		
+
+
+== Symbolism of the shell ==
+
+
+=== Shell of Saint James ===
+
+The scallop shell is the traditional emblem of St James the Great and is popular with pilgrims returning from the Way of St James (Camino de Santiago) and the apostle's shrine at Santiago de Compostela in Galicia, Spain. Medieval Christians would collect a scallop shell while at Compostela as evidence of having made the journey. The association of Saint James with the scallop can most likely be traced to the legend that the apostle once rescued a knight covered in scallops. An alternative version of the legend holds that while St. James' remains were being transported to Galicia (Spain) from Jerusalem, the horse of a knight fell into the water, and emerged covered in the shells.Indeed in French the mollusc itself – as well as a popular preparation of it in cream sauce – is called coquille St. Jacques. In German they are Jakobsmuscheln – literally "James's shellfish". Curiously the Linnaean name Pecten jacobeus is given to the Mediterranean scallop, while the scallop endemic to Galicia is called Pecten maximus due to its bigger size. The scallop shell is represented in the decoration of churches named after St. James, such as in St James' Church, Sydney, where it appears in a number of places, including in the mosaics on the floor of the chancel.When referring to St James, a scallop shell valve is displayed with its convex outer surface showing. In contrast, when the shell refers to the goddess Venus (see below), it is displayed with its concave interior surface showing.
+
+
+=== Shell of Saint Augustine ===
+Saint Augustine is said to have been walking along the seashore, meditating on the unfathomable mystery of the Holy Trinity. A boy was using a shell to pour sea water into a little hole. When Augustine asked him what he was doing, he replied, "I am emptying the sea into this hole." Thus did Augustine understand that man would never penetrate to the depths of the mystery of God.This symbolic meaning was taken up by Joseph Ratzinger in his coat of arms as Archbishop of Munich, and also retained by him when elected Pope Benedict XVI. While a doctoral candidate in 1953, Ratzinger wrote his dissertation on The People of God and the House of God in Augustine's Teaching, and the shell therefore has a personal connection with the thought of Saint Augustine.
+
+
+=== Badge ===
+
+The scallop shell symbol found its way into heraldry as a badge of those who had been on the pilgrimage to Compostela, although later it became a symbol of pilgrimage in general. Winston Churchill and Diana, Princess of Wales' family, the Spencer family coat of arms includes a scallop, as well as both of Diana's sons Prince William, Duke of Cambridge and Prince Harry's personal coats of arms; also Pope Benedict XVI's personal coat of arms includes a scallop; another example is the surname Wilmot and also John Wesley's (which as a result the scallop shell is used as an emblem of Methodism). However, charges in heraldry do not always have an unvarying symbolic meaning, and there are cases of arms in which no family member went on a pilgrimage and the occurrence of the scallop is simply a pun on the name of the armiger (as in the case of Jacques Coeur), or for other reasons. In 1988, the State of New York in the US chose the bay scallop (Argopecten irradians) as its state shell.
+
+
+=== Fertility symbol ===
+
+Throughout antiquity, scallops and other hinged shells have symbolized the feminine principle. Outwardly, the shell can symbolize the protective and nurturing principle, and inwardly, the "life-force slumbering within the Earth", an emblem of the vulva.Many paintings of Venus, the Roman goddess of love and fertility, included a scallop shell in the painting to identify her. This is evident in Botticelli's classically inspired 15th century painting The Birth of Venus.One legend of the Way of St. James holds that the route was seen as a sort of fertility pilgrimage, undertaken when a young couple desired to bear offspring. The scallop shell is believed to have originally been carried, therefore, by pagans as a symbol of fertility.
+
+
+=== Other interpretations ===
+Alternatively, the scallop resembles the setting sun, which was the focus of the pre-Christian Celtic rituals of the area. To wit, the pre-Christian roots of the Way of St. James was a Celtic death journey westwards towards the setting sun, terminating at the End of the World (Finisterra) on the "Coast of Death" (Costa da Morte) and the "Sea of Darkness" (i.e., the Abyss of Death, the Mare Tenebrosum, Latin for the Atlantic Ocean, itself named after the Dying Civilization of Atlantis).
+
+
+=== Contemporary art ===
+
+The beach at Aldeburgh, Suffolk, England, features Maggi Hambling's steel sculpture, The Scallop, erected in 2003 as a memorial to the composer Benjamin Britten, who had a long association with the town.
+
+
+== See also ==
+ Animals portal
+
+
+== Explanatory notes ==
+
+
+== Citations ==
+
+
+== General bibliography ==
+
+
+== External links ==
+Mollusca - Bivalvia - Pectinidae at Natural History Museum Rotterdam – photos of Pectinidae shells

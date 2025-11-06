@@ -1,0 +1,39 @@
+The American gizzard shad (Dorosoma cepedianum), also known as the mud shad, is a member of the herring family of fish, and is native to large swaths of fresh and brackish waters of the United States of America. The adult has a deep body, with a silvery-green coloration above fading to plain silver below. The gizzard shad commonly resides in freshwater lakes, reservoirs, rivers, and streams, but can reside in brackish waters, as it does on the Atlantic coast of the United States. Their range is across most of the continental United States, although they typically go no further north than New York and no further west than New Mexico. They are large parts of many of the ecosystems they inhabit, and can drive changes in phyto- and zooplankton, thereby indirectly affecting other planktivorous fishes. The gizzard shad has been widely used as a food source for game fish, with varied success in management and effectiveness.
+
+
+== Physical description ==
+
+The gizzard shad's dorsal fin starts behind the insertion of the pelvic fins, and the last ray is greatly lengthened in adults, but not in the young. They have a long anal fin, with 25 to 36 long, soft rays on the fin. The mouth of the gizzard shad has a short, wide, upper jaw with a deep notch along the ventral margin, and a weak, relatively smaller, lower jaw. The mouth itself is subterminal to inferior (on the lower portion of the head), and the adults possess no teeth. The gizzard shad also has 90 to 275 gill rakers along the lower limbs. Their ventral (pelvic) fins are in the thoracic position, or in the chest region of the fish. The gizzard shad can range from very small size when fry to a maximum recorded length of 477 mm (18.8 in) and maximum weight of 1.56 kg (3.4 lb). The average length is typically larger in northern waters, and ranges from 284 mm (11.2 in) at age three years to 399 mm (15.7 in) at age 10. They have a highly reduced lateral line system, a feature shared by other members of the Clupeidae. To compensate for this reduction in their mechanical sensory system, they have developed other methods of sensing movement.
+
+
+== Range and habitat ==
+
+They have historically ranged from North Dakota in the northwest of the United States south to New Mexico in the southwest, east to Florida in the southeast, and north to  40°N latitude (they have historically been seen no farther north than the lower New York Harbor). They were not seen in many of the Great Lakes until the late 1800s and early 1900s, although they are suspected to be endemic to Lake Erie, reaching it after the last ice age. Gizzard shad typically live in lakes and reservoirs, although they can live in rivers and streams, and brackish waters. They reside in the limnetic zone, and can comprise up to 80% of fish biomass in certain lake systems. They prefer shallow lakes with muddy bottoms and relatively high turbidity. This may be due in part to their breeding preferences, but it probably arises from because they have lower survival rates in clear waters and waters with high vegetative cover.
+
+
+== Diet and feeding habits ==
+Gizzard shad are planktivorous in early life, feeding mainly on phytoplankton and zooplankton as larvae. Consumptive demand of young of year fish (including larvae) can be intense enough to cause collapses in the zooplankton community, which has far-reaching effects through the ecosystem of which they are a part. In midwestern USA reservoirs, where gizzard shad are often the most abundant fish (by biomass), they usually switch to diets dominated by sediment detritus during the first year of life, whereas in some natural lakes they may rely heavily on zooplankton throughout their lives. As zooplankton are a nutritionally superior food than detritus, if large zooplankton (e.g., Daphnia) are available, gizzard shad probably prefer to feed on this resource. However, in many reservoirs, large zooplankton are scarce so gizzard shad rely on detritus. Gizzard shad growth rates may be lower when they feed only on detritus (compared to zooplankton), and in reservoirs they may consume more zooplankton (and less detritus) when density of conspecifics is low and the abundance of large-bodied zooplankton is high. In such cases, Daphnia and other crustaceans make up a large portion of some gizzard shad diets. 
+Gizzard shad feed mainly during the day, with minimal activity at night. They have been observed at night in Lake Mead, Arizona congregating in schools in very shallow water two to three feet deep during the fall.
+
+
+== Reproduction ==
+The start of the spawning period is typically between mid-May and early June, and is triggered by rising water temperatures. The number of eggs per individual varies between populations, but typically it is 12,500 eggs for a two-year-old and peaks at 380,000 eggs for a four-year-old. The eggs are laid in shallow water in clumps, with seemingly no pairing off occurring between individuals. They spawn during the evening and the early hours of the night, and the eggs adhere to underwater vegetation and do not receive any parental attention. Feeding begins three to four days after hatching, and most individuals are 3.3 mm long upon hatching. Gizzard shad have very high fecundity and a rapid growth rate, meaning they can become a large part of an ecosystem, in terms of abundance and biomass, very quickly. They are capable of hybridizing with the closely related threadfin shad.
+
+
+== Fisheries management ==
+Gizzard shad were introduced into many lake and river systems as a source of food for game fish, such as walleye, bass, and trout, because of their small size and relatively high abundance. They were thought to be easy food for game fish and could help increase the numbers of fish available, as well as decrease the pressures on prey species (such as the bluegill). However, due to their rapid growth, they can quickly grow beyond the size available to many predators. In addition, they spawn in large numbers and can reach densities high enough to ensure that many of them survive past the first year, making them essentially invulnerable to predation. They are also harmful exploitative competitors to other species, leading to declines in other fish species populations. Partly as a result of this, Gizzard shad are often labeled as invasive and "unwanted".
+
+
+== Lake management ==
+Gizzard shad can increase productivity in an ecosystem through redistribution of nutrients, particularly in their adult stages when they consume detritus in lower depths of the lake and both make them available to other predator species as well as excreting them in more bioavailable forms. Because of this, gizzard shad can have a strong effect on algal production even when phosphorus loading from watersheds is high, and can counteract management efforts to combat cultural eutrophication.
+
+
+== Aquatic Toxicology ==
+Gizzard shad are important to toxicology testing for chemical products.  Due to the food web dependencies and fecundity gizzard shad are somewhat the water bound version of "canary in the coal mine."
+
+
+== Etymology ==
+The gizzard shad is so named because it possesses a gizzard, a sack filled with rocks or sand, that aids the animal in the breakdown of consumed food. Its generic name, Dorosoma, is a reflection of the fact that, when young, the fish has a lancelet-shaped body (doro meaning lanceolate and soma meaning body). The specific name, cepedianum, is a reference to amateur French ichthyologist La Cépède.
+
+
+== References ==

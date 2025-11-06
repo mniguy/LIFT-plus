@@ -1,0 +1,31 @@
+Culex quinquefasciatus (originally named Culex fatigans), commonly known as the southern house mosquito, is a medium-sized mosquito found in tropical and subtropical regions of the world. It is a vector of Wuchereria bancrofti, avian malaria, and arboviruses including St. Louis encephalitis virus, Western equine encephalitis virus, Zika virus and West Nile virus. It is taxonomically regarded as a member of the Culex pipiens species complex. Its genome was sequenced in 2010, and was shown to have 18,883 protein-coding genes.
+
+
+== Description ==
+The adult C. quinquefasciatus is a medium-sized mosquito and is brown in colour. The body is about 3.96 to 4.25 mm long. While the main body is brown, the proboscis, thorax, wings, and tarsi are darker than the rest of the body. The head is light brown, with the lightest portion in the center. The antennae and the proboscis are about the same length, but in some cases, the antennae are slightly shorter than the proboscis. The flagellum has 13 segments that may have few or no scales. The scales of the thorax are narrow and curved. The abdomen has pale, narrow, rounded bands on the basal side of each tergite. Males can be differentiated from females in having large palps and feathery antennae.The larva has a short and stout head. The mouth brushes have long yellow filaments used for filtering organic materials. The abdomen consists of eight segments, the siphon, and the saddle. Each segment has a unique setae pattern. The siphon is on the dorsal side of the abdomen, and is four times longer than its breadth. The siphon has multiple setae tufts. The saddle is barrel-shaped and located on the ventral side of the abdomen, with four long anal papillae protruding from the posterior end.
+
+
+== Lifecycle ==
+Mature C. quinquefasciatus females fly at night to nutrient-rich standing water to lay eggs. The larvae feed on organic material in the water and require between five and eight days to complete their development at 30 °C. The larvae pass through four larval instars, and towards the end of the fourth instar, they stop eating and undergo moulting to give rise to pupae. After 36 hours at 27 °C, adults emerge. The exact timing of development can vary depending on temperature. Both males and females take sugar meals from plants. But after mating, the female seeks a blood meal on mammals and birds. Ingested blood is necessary for egg development. A single female can lay up to five rafts of eggs in a lifetime, with each raft containing thousands of eggs. The exact number varies depending on climatic conditions.
+
+
+== As a vector ==
+The southern house mosquito transmits zoonotic diseases that affect humans and wild and domestic animals, such as lymphatic filariasis, avian malaria, St. Louis encephalitis, Western equine encephalitis, and West Nile fever, and may be a vector of the Zika virus. It causes infection through biting during blood meal. In the southern U.S., it is the primary vector of St. Louis encephalitis virus. In India and Southeast Asia, it is the primary vector of Wuchereria bancrofti, a nematode that causes lymphatic filariasis. It acts as an intermediate host for the helminth parasite by harbouring the larval stages. In Hawaii, it is the principal vector of avian malaria (Plasmodium relictum), to which historic extinctions and significant contemporary population declines in Hawaii's native honeycreeper species are attributed. It is the definitive host for the malarial parasite as it harbours the sexual cycle.
+
+
+== Bionomics ==
+It breeds profusely in dirty water collections, including stagnant drains, cesspools, septic tanks with leaks, burrow pits, and almost all organic polluted water collections. In optimum temperature and humidity, the lifecycle will be completed in seven days, passing through the egg, larval, pupal, and adult stages.
+C. quinquefasciatus shows a preference to feed on the blood of birds, but will also commonly bite humans. It rests in trees and high places.
+
+
+== References ==
+
+
+== External links ==
+ Data related to Culex quinquefasciatus at Wikispecies
+ Media related to Culex quinquefasciatus at Wikimedia Commons
+"Culex quinquefasciatus". VectorBase. Archived from the original on 2010-07-18.
+Disease monger
+Identification guide at University of Florida
+NSW Arbovirus Surveillance & Vector Monitoring Program
+Taxonomy at UniProt

@@ -1,0 +1,141 @@
+The cabbage looper (Trichoplusia ni) is a medium-sized moth in the family Noctuidae, a family commonly referred to as owlet moths. Its common name comes from its preferred host plants and distinctive crawling behavior. Cruciferous vegetables, such as cabbage, bok choy, and broccoli, are its main host plant; hence, the reference to cabbage in its common name. The larva is called a looper because it arches its back into a loop when it crawls.While crucifers are preferred, over 160 plants can serve as hosts for the cabbage looper larvae. The adult cabbage looper is a migratory moth that can be found across North America and Eurasia, as far south as Florida and as far north as British Columbia. Its migratory behavior and wide range of host plants contribute to its broad distribution.
+The cabbage looper larva is a minor vegetable pest, especially for crucifers. While it is not significantly destructive, it is becoming difficult to manage due to its broad distribution and resistance to many insecticides. Numerous methods are being researched in order to control this species.
+
+
+== Taxonomy ==
+The cabbage looper larva is a type of cabbage worm, a general term for a Lepidopteran pest that primarily feeds on crucifers. They closely resemble each other, in that they are all smooth and green, but they are not closely related in terms of phylogeny. In fact, none of the cabbage worms bear close phylogenetic relations, as they are all from different families. The cabbage looper is a member of the family Noctuidae, one of the largest families in Lepidoptera. It is related to other vegetable pests, like the cutworm and armyworms.
+
+
+== Reproduction and life cycle ==
+
+
+=== Mating ===
+When ready to mate, cabbage loopers display by elevating their abdomen and fanning their wings. Males also fan out their abdominal hairs, open their genital claspers, and partially stick out their spermatophores. Males gradually expose more of their spermatophores as they wait for a mate. Upon interest, a potential mate examines the other's abdomen with antennae, and mating occurs if both agree. Mating on average occurs at 2am, but has been observed occurring between 12 and 4am. Mating generally occurs 3–4 days after emergence, but can occur up to 16 days afterwards. Usually, mating does not occur before the third day, as eggs are not fully developed upon emergence and require a few days to reach maturity.Multiple matings is a mating strategy where individuals have multiple mates in their lifetime. This is in contrast to monogamy, where individuals have one mate for life. Mating multiply can be advantageous to both sexes, which is why this strategy has evolved in many species, including the cabbage looper. For female cabbage loopers, rate of oviposition increases with the number of matings, and ultimately lay more eggs total. While it was once believed that multiple matings were necessary to fertilize all eggs, evidence shows that only one mating is needed to fertilize almost all eggs. Instead, it is more likely that the spermatophore provides nutrients to the female that confers reproductive benefits. This may explain why males produce female-attracting pheromones, as females may be seeking nutrient-rich spermatophores. For male cabbage loopers, multiple matings did not affect the quality of their spermatophores, suggesting that they can maximize reproductive opportunities without decreasing fecundity.
+
+
+=== Sexual role reversal ===
+Conventional mate-finding strategy involves males seeking and competing for females and females caring for offspring. In many animals, however, the opposite occurs, where the females competes for males and males care for young. This role reversal can occur for a variety of reasons: environmental conditions, timing of fertilization, and biased sex ratios. For example, male fish often provide more parental care because, after females lay their eggs, males have to ensure that their sperm fertilizes the eggs and does not get washed away. It may be beneficial for the female to lay more eggs instead of caring for the eggs, so she departs as the male fertilizes the eggs, leaving him to care for the eggs. The cabbage looper generally utilizes typical mating strategies, in that males compete for females. However, occasionally the reverse occurs, where females will seek males. This only happens under particular selection conditions, such as a shortage of males or host plants that bias the sex ratio towards females.
+
+
+=== Oviposition ===
+After mating, the female seeks a host plant and lays her eggs, also known as oviposition. Oviposition actually can occur without mating, even as early as just after emergence from the pupa. However, oviposition right after emergence is futile, because the eggs do not mature in the female until the third day of adulthood, and therefore are not fertile until then. Host plant of choice for oviposition will depend on larval experience, known as learned host behavior. Moths unfamiliar with a host plant will avoid ovipositing on that plant and instead preferentially oviposit on a familiar host, even if the familiar host produces unappetizing chemicals. This demonstrates that larvae and moths develop host preferences and that the species is slow to determine whether a plant chemical is toxic, given that the larva is not immediately turned off by the unappetizing chemicals. This choice is also influenced by insect waste, also known as larval frass, as its presence serves as a chemical deterrent for potential mothers. Larval frass indicates that the site is already occupied, therefore avoiding overcrowding.
+
+
+=== Life cycle ===
+
+
+==== Egg ====
+The cabbage looper eggs are generally yellow-white in color, dome-shaped, and patterned with ridges. They are 0.6mm in diameter and 0.4mm in height, and they are usually laid singly on the underside of leaves. In one day, 40-50 females can lay 1000-2000 viable eggs. Viable eggs hatch after about three days, while unviable eggs fail to develop and collapse within that period. Eggs are mostly found on leaves that are both larger and higher on the plant. It is not clear why eggs are preferentially laid on these leaves.
+
+
+==== Larva ====
+Cabbage looper larvae are a type of cabbage worm, green in colour with a white stripe on the side. After hatching, they are green and slightly hairy, but eventually turn green and lose the hair, leaving only a few bristles. They are identified by their looping behaviour, in which they arch their body in a loop when they crawl. Larvae are generally 3–4  cm long, and can have four to seven instars within 9–14 days. Larvae initially do not consume much food but increase their consumption during their lifetime until they are consuming three times their weight daily.
+
+
+==== Pupa ====
+
+When they pupate, they attach to the undersides of leaves and form a silky cocoon. This stage can last 4–13 days, depending on the temperature of the environment. Male pupae are slightly larger than female.
+
+
+==== Adult ====
+The adult form is a moth with gray-brown front wings and light brown back wings. It is about 2.5 cm long and has a wingspan of 3.8 cm. Because they are nocturnal, adults spend their days protected by their host plants and begin activity 30 minutes before sunset. Males can be distinguished from females by light brown hairs that lie flat against their abdomen. Mating occurs 3 or 4 days after metamorphosis, during which 300-1400 eggs are oviposited. From egg to adulthood, the cabbage looper's life cycle is generally 24–33 days long.
+
+
+== Distribution and migration ==
+The cabbage looper can be found across North America and Eurasia, as far south as Florida and as far north as British Columbia.Cabbage looper populations in North America migrate from Mexico to Canada, depending on the seasons. It generally overwinters in Mexico or southern California, where temperatures are above 16 °C (61 °F) even during winter. It used to be frequently found in Florida, but this has lessened due to fewer cabbage crops. As northern regions of North America grow warmer, the cabbage looper gradually moves upward, only migrating if the region is above 16 °C (61 °F). During summer, it is less commonly found in southern regions, due to high temperatures. Similar to the monarch butterfly, populations presumably migrate in groups, as there is little genetic difference between source and migrating populations.Similar seasonal distributions were found in Europe. There, the cabbage looper can be found from England to southeastern Europe.
+
+
+== Temperature ==
+The cabbage looper migration patterns are highly temperature dependent, as temperature can impact development. It has the greatest impact on pupation, where pupae often cease to finish metamorphosis if grown at 10 °C (50 °F). Even if pupae are transferred from 10 °C to 12.7 °C (54.86 °F), they often emerge deformed, sometimes developing an extra instar. Temperatures above 35 °C (95 °F) also result in physical deformations in adults, such as poor wing development. Mating and flight are negatively impacted by temperatures above 32 °C (89.6 °F) and below 16 °C, which may explain why cabbage loopers migrate to northern regions once temperatures reach 16 °C. The time between female calling and male response increases as temperature increases, but when the temperature reaches 27 °C (80.6 °F), mating increases. At the same time, oviposition and longevity decrease, with hatching almost ceasing at 32 °C. The embryo itself is actually quite resilient, as it is able to develop at 10 °C and at 40 °C (104 °F). However, although it is developed, it is unable to hatch. Temperature does not affect the pheromone-sensitive receptor neurons.
+
+
+== Host plants ==
+The cabbage looper is a generalist insect that can reside and feed on over 160 host plants. The looper's variety of hosts is partially due to the ability of its salivary glands to differentially express based on the host. For example, cabbage and tomato plants use defensive strategies involving different compounds, and the cabbage looper can combat either by upregulating the appropriate genes. The gland's high responsiveness to the diet allows for considerable flexibility in host plants. The cabbage looper's preferred hosts are crucifers such as cabbage and broccoli, because it grows faster on these plants, possibly due to nutritional or chemical differences. Tobacco can also be a host for the cabbage looper. However, it is not preferred because gummosis, a gummy substance produced by some plants, and trichomes, hair-like appendages, harm early larvae survival. Older larvae are more resistant to these defenses.The number of caterpillars on a plant can depend on a plant's maturity. Cabbages that mature early are less attractive, whereas cabbages just beginning to head are the most attractive. Among crucifers, there generally seems to be no preference for one specific type of crucifer, like kale over cabbage or broccoli over brussels sprouts. The only apparent preference is for red cabbage – nearby double the number of caterpillars were present on the red cabbage compared to the green. This suggests that the number of caterpillars on a host plant has less to do with the species of host than with the host's height and foliage.
+
+
+=== Attraction to odors ===
+Cabbage loopers detect plant odors to locate food resources and suitable host plants for laying eggs, thereby increasing their chances for survival and reproduction. Mated females respond faster to plant odors compared to their unmated female and male counterparts. This difference in response time may be a result of mated females needing host plants for both food and egg laying whereas unmated individuals mostly use host plants for food, so mated females have greater motivations to find a host plant. The cabbage looper is attracted to the floral compounds:
+
+phenylacetaldehyde
+methyl salicylate
+2-phenylethanol
+benzaldehyde
+benzyl alcohol
+benzyl acetate
+methyl-2-methoxy benzoateAlthough the strongest attractor is phenylacetaldehyde, the cabbage looper is more attracted to a blend of odors than phenylacetaldehyde alone.
+
+
+== Pheromones ==
+
+
+=== Biosynthesis ===
+Similar to other pheromone biosynthesis reactions, female cabbage looper pheromone production initiates with synthesis of 16 and 18-carbon fatty acids. This is followed by desaturation at C1 and chain shortening by two or four carbons. Finally, the fatty acid is reduced and acetylated to form an acetate ester. The result is a blend of different female pheromone compounds at a consistent ratio. This ratio can be highly altered by mutations in chain shortening proteins, demonstrating that the chain shortening step is important for determining the ratio of pheromones in the final blend.As a species, the cabbage looper does not hormonally regulate pheromone production. Stage specific proteins correspond to the development of the pheromone gland. The immature gland lacks numerous enzymes crucial to pheromone biosynthesis, such as fatty acid synthetase and acetyltransferase, which is why the looper cannot produce pheromones prior to the adult stage. Upon complete development of the pheromone glands at the adult stage, pheromones are constantly produced.
+
+
+=== Male pheromones ===
+d-linalool
+m-cresol
+p-cresolAlthough males engage in mate searching behavior more often than females, male cabbage loopers also produce pheromones from the hair pencils on the abdomen. Different blends of pheromones serve as competitive advantages for mating, as certain pheromone components are more appealing to females than others. Cresol is important for attractiveness to females, while linalool is found in floral odors and is believed to attract individuals searching for nutrients. Males around host plants are more attractive to females, because plant odor enhances the attractiveness of the male pheromone. This is advantageous to females because it helps with mate choice, as plant odor-enhanced males are more likely to be near a host plant. The male pheromone may also be related to food-finding behavior, as both males and females are more attracted to the male pheromone when starving. Although there is no direct evidence demonstrating that males release pheromones in response to host plant odor, it is highly possible this behavior occurs, and that the lack of evidence is due to either the choice of host plant or the experimental setup.
+
+
+=== Female pheromones ===
+cis-7-dodecenyl acetate
+cis-5-dodecenyl acetate
+11-dodecenyl acetate
+cis-7-tetradecenyl acetate
+cis-9-tetradecenyl acetate
+dodecyl acetateCabbage loopers are unique in that both females and males release pheromones in order to seek a mate. Generally, females release pheromones from the tips of their abdomens, and males seek females upon detection. Females around host plants are more attractive to males, possibly because females release more pheromones in the presence of host plant odor. Although it is not clear why host plant odors incite female pheromone production, this response may help reduce time wasted spent searching for a mate and therefore increase the chance of mating. Female cabbage loopers usually attract the male, as females have more to lose by spending energy and time on searching for a mate.
+
+
+==== Detection ====
+Cabbage loopers possess olfactory receptor neurons on their antennae for detecting pheromones. The neurons are specifically located on two sensory structures called sensilla that differ in length and pore density. Male loopers have two types of neurons, and depending on which sensilla that are present, the neurons will detect female pheromones at varying sensitivities to each of the six pheromones. The neurons are most sensitive to the main component of the female pheromone blend, cis-7-dodecenyl acetate, and the male inhibitory signal, cis-7-dodecenol. The presence of cis-7-dodecenyl acetate is crucial for male response to female pheromones, as it is 80% of the entire blend. The base region of the antennae, where receptor neurons for this pheromone are located, has more sensory structures than the ends. The base region is also less likely to experience damage, showing the importance of detecting the pheromone. It is not clear why male neurons detect the inhibitory compound, as there is no evidence showing that females produce this compound. One possibility is that its presence in the female pheromone blend may be too small to be detected by scientific equipment. The inhibitory signal only elicits a response when delivered alongside female pheromones to avoid mixing signals from other species, suggesting that while it cannot be detected in the female pheromone blend, it has an important role in female detection.These neurons are also capable of recognizing and responding to cis-7-tetradecenyl acetate and cis-9-tetradecenyl acetate. There are no specialized neurons for the other three pheromones. Instead, these minor pheromones can cross-stimulate neurons, which is why partial blends that lack one or two of the minor pheromones can still fully stimulate the male receptors.
+
+
+== Enemies ==
+
+
+=== Predators ===
+General predators like spiders, ants, and lady beetles prey on cabbage looper eggs and larvae, removing 50% of the eggs and 25% of the larvae within three days. Lady beetles consume at the highest rate. Other common predators of cabbage looper larva include Orius tristicolor, Nabis americoferus, and Geocoris pallens.
+
+
+=== Parasites ===
+While the cabbage looper frequently encounters parasites, its most common parasite is the tachinid fly. In one study, 90% of the parasitized larvae were due to the tachinid fly. It parasitizes most often in the late fall and winter, but it is capable of parasitizing year-round. Cabbage loopers at their third or fourth instar yield the most parasites. It is early enough in the larval stage that the maggots still have time to feed and grow before pupation can prevent parasite emergence. It is also late enough that the caterpillars are large enough to support the maggots. Fly oviposition is often triggered by the larva thrashing to repel the fly, regardless of whether the larvae are already parasitized. As a result, larvae are often overparasitized, overwhelming and killing smaller larvae. During oviposition, the mother glues the fly egg to the host. This helps the maggot burrow into the larva, where it remains until the third day. The maggot cuts a slit into the back and eats its way out of the larva.
+
+
+=== Diseases ===
+The moth is susceptible to viral diseases including nucleopolyhedrovirus (NPV). This is a naturally occurring virus whose natural hosts include Lepidoptera, arthropods, and Hymenoptera. From the family Baculoviridae, it is a type of Alphabaculovirus and its genome is 80-180kb long. NPVs are commonly used as pesticides for the cabbage looper. There are numerous NPVs, many of which were isolated from the cabbage looper or the alfalfa looper. NPVs vary in infectivity and virulence. For example, the AcMNPV isolates are more infectious than the TnSNPV (the SNPV/single nuclear polyhedrosis virus specific to the cabbage looper) isolates in the first instar, while the TnSNPV isolates produced more occlusion bodies, protein structures that protect the virus and increase long term infectivity. TnSNPVs are their most lethal during the third and fourth instars; they have detrimental effects such as delayed development, reduced egg production, and fewer hatched eggs. These effects are significantly diminished when the larvae are infected during the fifth instar, suggesting that the earlier infection is more effective.Bacillus thuringiensis (Bt) is a gram-positive soil bacterium from the phylum Firmicutes. It is often used as a biological insecticide for numerous insect pests, including the cabbage looper, and reduces both growth rate and pupal weight. The cabbage looper has demonstrated resistance to Bt, specifically the toxin Cry1Ac, due to an autosomal recessive allele. Although it is not entirely clear which gene causes the resistance phenotype, there is strong evidence supporting the correlation between a mutation in the membrane transporter ABCC2 and Bt resistance. Other studies with greenhouse-evolved population of Bt resistant cabbage looper demonstrate that the downregulation of the aminopeptidase N, APN1, results in its resistance.
+
+
+== Genome ==
+The cabbage looper genome is 368.2 Mb long (scaffold N50=14.2 Mb; contig N50=621.9 kb; GC content=35.6%) and includes 14,037 protein-coding genes and 270 microRNA (miRNA) genes. The genome and annotation are available at the Cabbage Looper Database. The cabbage looper genome is larger than the Drosophila melanogaster genome (180Mb) but smaller than the Bombyx mori genome (530mb). It encodes at least 108 cytochrome P450 enzymes, 34 glutathione S-transferases, 87 carboxylesterases, and 54 ATP-binding cassette transporters, some of which may be involved in its insecticide resistance. It has the ZW sex-determination system, where females are heterogametic (ZW) and males are homogametic (ZZ). Its telomeres contain (TTAGG)n repeats and transposons belonging to the non-long-terminal-repeat LINE/R1 family, similar to the silkworm.
+
+
+== Interactions with humans ==
+
+
+=== Crop damage ===
+Similar to the diamondback moth, the cabbage looper is one of the most problematic cabbage pests. The larvae eat large holes in the underside of leaves and consume developing cabbage heads. In addition, they leave behind sticky frass, contaminating the plants. They also consume the leaves of a myriad of host plants beyond cabbages. Although it is a damaging pest, the cabbage looper can be tolerated. For example, plant seedlings can endure the cabbage looper. However, the cabbage looper becomes more problematic once the plant begins heading. This pest's infamous reputation likely stems from its ability to easily infest a variety of crops and growing difficulty managing it, because the cabbage looper is growing resistant to biological insecticides and synthetic insecticides.
+
+
+=== Management ===
+
+
+==== Sex pheromone traps ====
+There is extensive research in cabbage looper pheromones for the goal of developing traps to catch the moth. Initial research involved isolation of the female pheromone to identify the compounds and potentially synthetically replicate the natural female pheromone. Scientists were able to develop a synthetic version that functions biologically like the natural form. The synthetic female pheromone has been used with black light traps to study cabbage looper populations in various regions of the US. Synthetic male pheromone has also been developed and was found to be effective in attracting and trapping both male and female cabbage loopers. The blend of male pheromones helped to trap females seeking mates and individuals seeking food. Further studies in Arizona showed that pheromone baited black light traps are not effective in managing the cabbage looper. The traps did capture some males, which resulted in less mating and therefore fewer eggs laid. However, the effect was not large enough to cease using insecticides, as farming standards require crops that are basically insect-free.
+
+
+==== Insecticides ====
+Scientists are actively seeking methods for controlling the cabbage looper. Known as an evolutionary arms race, scientists are constantly researching ways to control the cabbage looper while the looper evolves resistance to the management methods. Synthetic insecticides are relatively effective; however, many of them are banned for their toxicity. One exception is Ambush. Studies have shown that this pyrethroid insecticide is effective at killing cabbage looper eggs, and its usage is permitted in the US. Other studies have explored the usage of biological insecticides; for example, a polyhedrosis virus was shown to be effective. Unfortunately, managing large quantities of this virus would be difficult, so it is not a feasible option.An effective option is to use synthetic and biological insecticides together; this method seems to both control the population and slow the development of resistance, but it still requires the usage of toxic chemicals. Currently, spraying Bacillus thuringiensis is considered to be the best option, possibly with NPV for an added benefit, but cabbage looper is growing increasingly more resistant to B. thuringiensis. Recent studies, however, have demonstrated that cabbage loopers resistant to B. thuringiensis are twice as susceptible to NPVs, which provides insight into novel biological control methods.
+
+
+=== Use in research ===
+Baculovirus-insect cell expression is a technique used to produce large quantities of a desired protein. It takes advantage of the ability of Baculovirus to insert genes into its target cell and induce protein expression this gene. Numerous insect cells have been developed into cell lines, such as fruit flies, mosquitoes, and silkworms. The tissue of the cabbage looper has also been used to develop a cell line. It is particularly useful for its fast growth rate and less reliance upon insect haemolymph in the medium. The cabbage looper cell line has also been engineered to grow in serum-free media. Although serum helps insect cell growth, it is very expensive and can hinder subsequent experimental procedures. As a result, the development of the cell line to grow independently of serum means that the cell line could be used to produce viruses and proteins in a more affordable, efficient, and productive manner.
+
+
+== References ==
+
+
+== External links ==
+Funet Taxonomy
+Cabbage looper on the UF / IFAS Featured Creatures Web site
+Lepiforum.de

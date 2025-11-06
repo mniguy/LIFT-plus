@@ -1,0 +1,181 @@
+An igloo (Inuit languages: iglu, Inuktitut syllabics ᐃᒡᓗ [iɣˈlu] (plural: igluit ᐃᒡᓗᐃᑦ [iɣluˈit])), also known as a snow house or  snow hut, is a type of shelter built of snow, typically built when the snow is suitable.
+Although igloos are often associated with all Inuit (Eskimo) peoples, they were traditionally used only by the people of Canada's Central Arctic and Greenland's Thule area. Other Inuit tended to use snow to insulate their houses, which were constructed from whalebone and hides. Snow is used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as −45 °C (−49 °F), but on the inside, the temperature may range from −7 to 16 °C (19 to 61 °F) when warmed by body heat alone.
+
+
+== Nomenclature ==
+
+The Inuit language word iglu (plural igluit) can be used for a house or home built of any material, and is not restricted exclusively to snowhouses (called specifically igluvijaq, plural igluvijait), but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.Several dialects throughout the Canadian Arctic (Siglitun, Inuinnaqtun, Natsilingmiutut, Kivalliq, North Baffin) use iglu for all buildings, including snowhouses, and it is the term used by the Government of Nunavut. An exception to this is the dialect used in the Igloolik region. Iglu is used for other buildings, while igluvijaq, (plural igluvijait, Inuktitut syllabics: ᐃᒡᓗᕕᔭᖅ) is specifically used for a snowhouse. Outside Inuit culture, however, igloo refers exclusively to shelters constructed from blocks of compacted snow, generally in the form of a dome.
+
+
+== Types ==
+There are three traditional types of igloos, all of different sizes and used for different purposes.
+The smallest are constructed as temporary shelters, usually only used for one or two nights so they are easier to build. On rare occasions these are built and used during hunting trips, often on open sea ice.
+Intermediate-sized igloos were for semi-permanent, family dwelling. This was usually a single room dwelling that housed one or two families. Often there were several of these in a small area, which formed an Inuit village.
+The largest igloos were normally built in groups of two. One of the buildings was a temporary structure built for special occasions, the other built nearby for living. These might have had up to five rooms and housed up to 20 people. A large igloo might have been constructed from several smaller igloos attached by their tunnels, giving common access to the outside. These were used to hold community feasts and traditional dances.
+
+
+== Construction ==
+Snow igloos are not spherical, but are built in a catenary curve, a shape more closely resembling a paraboloid.  Using this shape, the stresses of snow as it ages and compresses are less likely to cause it to buckle because in an inverted paraboloid or catenoid the pressures are nearer to being exclusively compressive.If the walls are of uniform thickness and density, the maximum compressive stress at the base of a paraboloid is
+
+  
+    
+      
+        
+          S
+        
+        α
+        =
+        
+          
+            
+              γ
+              
+                
+                  d
+                
+                
+                  2
+                
+              
+            
+            
+              24
+              h
+            
+          
+        
+        ⋅
+        
+          
+            
+              1
+              +
+              cos
+              ⁡
+              α
+              +
+              
+                cos
+                
+                  2
+                
+              
+              ⁡
+              α
+            
+            
+              (
+              1
+              +
+              cos
+              ⁡
+              α
+              )
+              
+                cos
+                
+                  2
+                
+              
+              ⁡
+              α
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathrm {S} \alpha ={\frac {\gamma \mathrm {d} ^{2}}{24h}}\cdot {\frac {1+\cos \alpha +\cos ^{2}\alpha }{(1+\cos \alpha )\cos ^{2}\alpha }},}
+  
+where 
+  
+    
+      
+        
+          d
+        
+      
+    
+    {\displaystyle \mathrm {d} }
+   is the diameter at the base, 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   is the height, 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   is the unit weight of the snow, and 
+  
+    
+      
+        α
+        =
+        arctan
+        ⁡
+        (
+        4
+        h
+        
+          /
+        
+        
+          d
+        
+        )
+      
+    
+    {\displaystyle \alpha =\arctan(4h/\mathrm {d} )}
+  .Since stress is a force per unit area, if the walls are of uniform thickness the compressive stress is independent of wall thickness; thicker walls provide better insulation but do not strengthen the structure because of added weight.The maximum compressive stress at the base of the igloo can be obtained by multiplying S,/yd times the  snow unit weight y and the mean igloo base diameter.
+The individual snow bricks start out 4-sided and being cut out of the ground with saws and machete-like blades, but are then often cut into 5 or 6-sided shapes to increase structural interlocking, similar to the stones used in the Inca Empire.
+Igloos gradually become shorter with time due to the compressive creep of the snow.
+
+
+== Building methods ==
+The snow used to build an igloo must have enough structural strength to be cut and stacked appropriately. The best snow to use for this purpose is snow which has been blown by wind, which can serve to compact and interlock the ice crystals; snow that has settled gently to the ground in still weather is not useful. The hole left in the snow where the blocks are cut is usually used as the lower half of the shelter.Snow's insulating properties enable the inside of the igloo to remain relatively warm. In some cases, a single block of clear freshwater ice is inserted to allow light into the igloo. Igloos used as winter shelters had beds made of loose snow, skins, and caribou furs. Sometimes, a short tunnel is constructed at the entrance, to reduce wind and heat loss when the door is opened. Animal skins or a snow block can be used as a door.
+Architecturally, the igloo is unique in that it is a dome that can be raised out of independent blocks leaning on each other and polished to fit without an additional supporting structure during construction. An igloo that is built correctly will support the weight of a person standing on the roof.
+Traditionally, an igloo might be deliberately consolidated immediately after construction by making a large flame with a kudlik (qulliq, stone lamp), briefly making the interior very hot, which causes the walls to melt slightly and settle. Body heat is also adequate, if slower. This melting and refreezing builds up a layer of ice that contributes to the strength of the igloo.
+Igloo construction
+		
+		
+The sleeping platform is a raised area. Because warmer air rises and cooler air settles, the entrance area acts as a cold trap whereas the sleeping area will hold whatever heat is generated by a stove, lamp, body heat, or other device.
+The Central Inuit, especially those around the Davis Strait, lined the living area with skin, which could increase the temperature within from around 2 °C (36 °F) to 10–20 °C (50–68 °F).
+
+Igloos
+		
+		
+		
+
+
+== See also ==
+
+Glacier cave – a natural hollow space within a glacier
+Quinzhee – a shelter made by hollowing out a pile of settled snow
+Snow cave – a shelter constructed in snow
+Snow fort – a usually open-topped temporary structure made of snow walls that is usually used for recreational purposes
+Vernacular architecture – a category of architecture based on local needs, construction materials and reflecting local traditions
+
+
+== References ==
+
+
+== Further reading ==
+Richard Guy Condon, Julia Ogina and the Holman Elders, The Northern Copper Inuit (ISBN 0-8020-0849-6)
+Igloo – the Traditional Arctic Snow Dome
+An article on igloos from The Canadian Encyclopedia
+Watch How to Build an Igloo (National Film Board of Canada)
+Field Manual for the U.S. Antarctic Program, Chapter 11: "Snow Shelters", pp. 140-145
+Traditional Dwellings: Igloos (1) (Interview; Library and Archives Canada)
+Roald Amundsen (1908). "Chapter 8". The North West Passage, being the record of a voyage of exploration of the ship "Gyöa" 1903-1907. Volume 2. London, Constable. p. 1-14.  (a Norwegian observer's account of the building a family's winter igloo, not a short-term hunting one, by Atikleura and Nalungia, Netsilik Inuit)
+
+
+== External links ==
+How to Build an Igloo (wikiHow)

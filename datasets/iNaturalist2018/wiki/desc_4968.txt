@@ -1,0 +1,34 @@
+Xanthoria elegans, commonly known as the elegant sunburst lichen, is a lichenized species of fungus in the genus Xanthoria, family Teloschistaceae. Recognized by its bright orange or red pigmentation, this species grows on rocks, often near bird or rodent perches. It has a circumpolar and alpine distribution. It was one of the first lichens to be used for the rock-face dating method known as lichenometry.
+
+
+== Taxonomy ==
+Xanthoria elegans was described by Johann Heinrich Friedrich Link as Lichen elegans in 1791, and transferred to the genus Xanthoria by Theodor Magnus Fries (son of Elias Magnus Fries) in 1860.
+
+
+== Description ==
+The thallus of this lichen is described as foliose, having the aspect of leaves, although the central portions of the thallus may appear nearly crustose. It is small, typically less than 5 cm (2 in) wide, with lobes less than 2 mm (0.08 in) broad, appressed to loosely appressed. The upper surface is some shade of orange while the lower surface is white, corticate, with short, sparse hapters (an attachment structure produced by some lichens). The vegetative propagules called soredia and isidia are absent, although apothecia are common. It has been described as possessing swollen, orange-yellow thalli (in streams), compact orange thalli (on boulders) or dark orange-red thalli on the driest rock faces.The variety X. elegans var. granulifera, characterized by having isidia-like vegetative propagules, has been reported from Greenland and Spitsbergen.
+
+
+== Growth rate ==
+Xanthoria elegans was one of the first species used for lichenometry, a technique of estimating the age of rock faces by measuring the diameter of the lichen thalli growing on them. After an initial period of one or two decades to establish growth (the ecesis interval), X. elegans grows at a rate of 0.5 mm per year for the first century, before slowing down somewhat.
+
+
+== Habitat and distribution ==
+This species grows on rock, both calcareous and siliceous, occasionally overgrowing moss or litter or rock. It is often found on exposed to somewhat sheltered sites, often near bird or small-mammal droppings. It has also adapted successfully to growth on man-made and natural growing surfaces from the sea-water spray zone to the boreal forest and in the grasslands of the continental interior. It can thrive in areas having less than 6 centimetres (2.4 in) annual precipitation and can survive submerged in streams for much of the growing season.Xanthoria elegans has an extremely broad circumpolar and alpine distribution, and is found on all continents except Australia. It is widespread in Antarctic regions.The lichen is used as a model system to study the potential to resist extreme environments of outer space. Out of various lichens tested, it showed the ability to recover from space-simulating situations, including exposure to 16 hours of vacuum at 10−3 Pa and UV radiation at wavelengths less than 160 nm or greater than 400 nm. X. elegans has survived an 18-month exposure to  solar UV radiation, cosmic rays, vacuum and varying temperatures in an experiment performed by the ESA outside of the ISS.
+
+
+== Bioactive compounds ==
+Various anthraquinone compounds have been identified in X. elegans, including allacinal, physcion, teloschistin, xanthorin, and erythoglaucin, murolic acid and a glycoside derivative of murolic acid ((18R)-18-O-β-D-apiofuranosyl-(1-2)-β-D-glucopyranoside).
+
+
+=== Carotenoids ===
+Carotenoids have a number of physiological functions in lichens, such as enhancing the availability of light energy for photosynthesis, and protecting the organism from the photooxidizing action of UV light. In X. elegans, like many Xanthoria species, specimens growing in areas with intense UV radiation contain more carotenoids than those grown in more shaded areas. The biosynthesis of carotenoids is also dependent on the season of the year, as was shown in a study of X. elegans in Antarctica. The predominant carotenoid in X. elegans, responsible for the orange-yellow color, is mutatoxanthin.
+
+
+== See also ==
+Xanthoria parietina ('Common orange lichen')
+
+
+== References ==
+
+ Media related to Xanthoria elegans at Wikimedia Commons

@@ -1,0 +1,72 @@
+A simple suspension bridge (also rope bridge, swing bridge (in New Zealand), suspended bridge, hanging bridge and catenary bridge) is a primitive type of bridge in which the deck of the bridge lies on two parallel load-bearing cables that are anchored at either end. They have no towers or piers. The cables follow a shallow downward catenary arc which moves in response to dynamic loads on the bridge deck.
+The arc of the deck and its large movement under load make such bridges unsuitable for vehicular traffic. Simple suspension bridges are restricted in their use to foot traffic. For safety, they are built with stout handrail cables, supported on short piers at each end, and running parallel to the load-bearing cables. Sometime these may be the primary load-bearing element, with the deck suspended below. Simple suspension bridges are considered the most efficient, and sustainable design, in rural regions, especially for river crossings that lie in non-floodplain topography such as gorges.
+
+
+== Comparison to other types ==
+
+In some contexts the term "simple suspension bridge" refers not to this type of bridge but rather to a suspended-deck bridge that is "simple" in that its deck is not stiffened.  Although simple suspension bridges and "simple" suspended deck bridges are similar in many respects, they differ in their physics.  On a simple suspension bridge, the main cables (or chains) follow a hyperbolic curve, the catenary.  This is because the main cables are free hanging.  In contrast, on a suspended deck bridge (whether "simple" or not) the main cables follow a parabolic curve.  This is because the main cables are tied at uniform intervals to the bridge deck below (see suspension bridge curve).
+The differences between these two curves were a question of importance in the 17th century, worked on by Isaac Newton. The solution was found in 1691, by Gottfried Leibniz, Christiaan Huygens, and Johann Bernoulli who derived the equation in response to a challenge by Jakob Bernoulli. Their solutions were published in the Acta Eruditorum for June 1691.A stressed ribbon bridge also has one or more catenary curves and a deck laid on the main cables.  Unlike a simple suspension bridge however, a stressed ribbon bridge has a stiff deck, usually due to the addition of compression elements (concrete slabs) laid over the main cables.  This stiffness allows the bridge to be much heavier, wider, and more stable.
+
+
+== History ==
+The simple suspension bridge is the oldest known type of suspension bridge and, ignoring the possibility of pre-Columbian trans-oceanic contact, there were at least two independent inventions of the simple suspension bridge, in the wider Himalaya region and South America.
+
+The earliest reference to suspension bridges appear in Han dynasty records on the travels of Chinese diplomatic missions to the countries on the western and southern fringe of the Himalaya, namely the Hindukush range in Afghanistan, and the lands of Gandhara and Gilgit. These were simple suspension bridges of three or more cables made from vines, where people walked directly on the ropes to cross. Later, they also used decking made from planks resting on two cables.
+
+In South America, Inca rope bridges predate the arrival of the Spanish in the Andes in the 16th century.  The oldest known suspension bridge, reported from ruins, dates from the 7th century in Central America (see Maya Bridge at Yaxchilan).
+Simple suspension bridges using iron chains are also documented in Tibet and China.  One bridge on the upper Yangtze dates back to the 7th century.  Several are attributed to Tibetan monk Thang Tong Gyalpo, who reportedly built several in Tibet and Bhutan in the 15th century, including Chushul Chakzam and one at Chuka. Another example, the Luding Bridge, dates from 1703, spanning 100 m using 11 iron chains.
+
+Development of wire cable suspension bridges dates to the temporary simple suspension bridge at Annonay built by Marc Seguin and his brothers in 1822. It spanned only 18 m. However, simple suspension bridge designs were made largely obsolete by the 19th century invention and patent of the suspended deck bridge by James Finley.  A late 18th century English painting of a bridge in Srinagar, then part of the Garhwal Kingdom, anticipates the invention of the suspended deck bridge. This unusual bridge, built on a floodplain, had suspended deck ramps used to access a simple suspension bridge supported from towers.
+
+
+== Materials ==
+This type of bridge is known as a rope bridge due to its historical construction from rope. Inca rope bridges still are formed from native materials, chiefly rope, in some areas of South America.  These rope bridges must be renewed periodically owing to the limited lifetime of the materials, and rope components are made by families as contributions to a community endeavor.
+Simple suspension bridges, for use by pedestrians and livestock, are still constructed, based on the ancient Inca rope bridge but using wire rope and sometimes steel or aluminium grid decking, rather than wood.
+
+In modern bridges, materials used instead of (fiber) rope include wire rope, chain, and special-purpose articulated steel beams.
+
+
+=== Living bridges ===
+In the northeast Indian state of Meghalaya, Khasi and Jaintia tribal people have created living root bridges, which are a form of tree shaping. Here, simple suspension bridges are made by training the roots of the Ficus elastica species of banyan tree across watercourses. There are examples with a span of over 170 feet (52 m).  They are naturally self-renewing and self-strengthening as the component roots grow thicker and some are thought to be more than 500 years old.In the Iya Valley of Japan, bridges have been constructed using wisteria vines. To build such a bridge, these vines were planted on opposite sides of a river and woven together when they grew long enough to span the gap. The addition of planks produced a serviceable bridge.
+
+
+== Design ==
+
+The arc of the bridge deck varies between a catenary and a parabola, depending on the weight of the bridge itself versus the load it carries.The very lightest bridges of this type consist of a single footrope and nothing more.  These are tightropes and slacklines, and require skill to use.  More commonly, the footrope is accompanied by one or two handrail ropes, connected at intervals by vertical side ropes.  This style is used by mountaineers and is employed extensively in New Zealand on lesser backcountry walking tracks where examples are referred to as 'three wire bridges'.  A slightly heavier variation has two ropes supporting a deck, and two handrail ropes.  Handrails are necessary because these bridges are prone to oscillate side to side and end to end.  Rarely, the footrope (or footrope plus handrails) is combined with an overhead rope similar to a zip-line (see also Ropeway).
+In some cases, such as the Capilano Suspension Bridge, the primary supports form the handrails with the deck suspended below them.  This makes for more motion side-to-side in the deck than when the primary supports are at deck level, but less motion in the handrails.
+Disadvantages connected with simple suspension bridges are very great.  The location of the deck is limited, massive anchorages and piers generally are required, and loading produces transient deformation of the deck.  Solutions to these problems led to a wide variety of methods of stiffening the deck, resulting in several other types of suspension bridge.  These include a stressed ribbon bridge, which is closely related to a simple suspension bridge but has a stiffened deck suitable for vehicle traffic.
+A very light bridge, constructed with cables under high tension, may approach a suspended deck bridge in the nearly horizontal grade of its deck.
+The bridge may be stiffened by the addition of cables that do not bear the primary structural or live loads and so may be relatively light. These also add stability in wind.  An example is the 220-meter-long (720 ft) bridge across the river Drac at Lac de Monteynard-Avignonet:  this bridge has stabilizing cables below and to the side of the deck.
+To reduce twisting motion in response to users a bridge may employ vertical drop cables from each side at the center of the bridge, anchored to the ground below.
+
+
+== Use ==
+
+The lightest of these bridges, without decking, are suitable for use only by pedestrians.  Light bridges with decking, and sufficient tension that crossing the bridge does not approach climbing, may be used also by pack horses (and other animals), equestrians, and bicycle riders.  To walk a lighter bridge of this type at a reasonable pace requires a particular gliding step, as the more normal walking step will induce traveling waves that can cause the traveler to pitch (uncomfortably) up and down or side-to-side.  The exception is a stabilized bridge, which may be quite stable.
+Simple suspension bridges have applications in outdoor recreation. They are a popular choice for tree-top trails and, where the terrain is suitable, for stream crossings.  They may be designed without stabilizing so that the free movement of the bridge provides a more interesting experience for the user.In French, a rudimentary simple suspension bridge is known by one of three names, depending on its form:  pont himalayen ("Himalayan bridge":  a single footrope and handrails on both sides, usually without a deck);  pont de singe ("monkey bridge: a footrope with overhead rope);  and tyrolienne ("Tyrolean":  a zip-line).  Zip-lines can be traversed by hanging below, or walked (by individuals with exceptional balance).  A more developed version of the pont himalayen, provided with a deck between a pair of main cables, is known as a passerelle himalayenne (French, "Himalayan footbridge").  Examples of this type include two bridges at Lac de Monteynard-Avignonet in the French Alps;  these bridges are exceptionally long, for bridges of this type.
+
+
+== Notable bridges ==
+Notable simple suspension bridges include:
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+
+
+== See also ==
+Category:Simple suspension bridges
+Inca Bridge
+Stressed ribbon bridge (compression forces on the deck stabilize against swaying)
+Zip-line
+Suspension bridge types
+
+
+== References ==
+
+Troyano, Leonardo Fernández (2003). "8.3.2 Catenary Bridges". Bridge Engineering: A Global Perspective. Thomas Telford. p. 514. ISBN 0-7277-3215-3.

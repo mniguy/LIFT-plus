@@ -1,0 +1,63 @@
+The New Zealand sea lion (Phocarctos hookeri), also known as Hooker's sea lion, and whakahao in Māori, is a species of sea lion that primarily breeds on New Zealand's subantarctic Auckland and Campbell islands and to some extent around the coast of New Zealand's South and Stewart islands. The New Zealand sea lion numbers around 10,000 and is perhaps the world's rarest sea lion species. They are the only species of the genus Phocarctos.
+
+
+== Physiology and behaviour ==
+
+New Zealand sea lions are one of the largest New Zealand animals. Like all otariids, they have marked sexual dimorphism; adult males are 240–350 centimetres (7.9–11.5 ft) long and weigh 320–450 kilograms (710–990 lb), while adult females are 180–200 centimetres (5.9–6.6 ft) long and weigh 90–165 kilograms (198–364 lb). At birth, pups are 70–100 centimetres (2.3–3.3 ft) long and weigh 7–8 kilograms (15–18 lb); the natal pelage is a thick coat of dark brown hair that becomes dark gray with cream markings on the top of the head, nose, tail and at the base of the flippers. Adult females' coats vary from buff to creamy grey with darker pigmentation around the muzzle and the flippers. Adult males are blackish-brown with a well-developed black mane of coarse hair reaching the shoulders. New Zealand sea lions are strongly philopatric.
+
+
+== Distribution ==
+The main breeding populations are at the Auckland and Campbell Islands in the NZ Subantarctic, where approximately 99% of the species' annual pup production occurs. There are currently three functioning breeding rookeries on the Auckland Islands.   Most sea lions are born on Dundas Island.  A smaller rookery exists at Sandy Bay on Enderby Island and the smallest rookery is on Figure of Eight Island. An even smaller rookery at South East Point on Auckland Island appears to now have been abandoned.
+The other major breeding area is the Campbell Islands. For the first time in 150 years, sea lions began breeding again on the South Island coast in 1994, on the Otago Peninsula. Other small populations of breeding sea lions have recently begun to establish in various parts of the Stewart Island coastline and have been observed on the Catlins coast south of the Clutha River.Recent DNA information indicates the New Zealand sea lion is a lineage previously restricted to subantarctic regions.  Somewhere between 1300 and 1500 AD, a genetically distinct mainland lineage was wiped out by the first Maori settlers, and the subantarctic lineage has since then gradually filled the ecological niche.
+It has been inferred from middens and ancient DNA that a third lineage was made extinct at the Chatham Islands due to predation by the Moriori people.
+
+
+== Diet and predation ==
+New Zealand sea lions are known to prey on a wide range of species including fish such as Antarctic horsefish and Patagonian toothfish, cephalopods (e.g. New Zealand arrow squid and yellow octopus), crustaceans, seabirds and other marine mammals, and even New Zealand fur seals. Studies indicate a strong location effect on diet, with almost no overlap in prey species comparing sea lions at Otago Peninsula and Campbell Island, at the north and south extents of the species' breeding range. New Zealand sea lions are in turn preyed on by great white sharks, with 27% showing evidence of scarring from near-miss shark attacks in an opportunistic study of adult NZ sea lions at Sandy Bay, Enderby Island.
+
+
+== Status ==
+
+New Zealand sea lions are considered the most threatened sea lion in the world. The species' status is largely driven by the main breeding population at the Auckland Islands, which declined by ~50% between 2000 and 2015. The 2013 sea lion pup production count on the Auckland Islands showed the number of pups born on the islands has risen to 1931, from the 2012 figure of 1684 (dead pups are also counted, since the annual pup count is used to assess the population of breeding females, but not future births when the counted pups mature). The 2013 number was the highest in five years. The Campbell Island population 'appears to be increasing slowly' and births here comprise ~30% of the species' total. The Otago and Stewart Island sea lion populations are currently small, though increasing. Population estimates for the whole species declined from ~15,000 in the mid-1990s to 9,000 in 2008 (based on the number of pups born).
+In 2010, the Department of Conservation—responsible for marine mammal conservation—changed the New Zealand Threat Classification System ranking from Nationally Endangered to Nationally Critical. The Department of Conservation estimates that Auckland Islands' sea lions, nearly 80% of the total, could be functionally extinct by 2035. However, the New Zealand Ministry for Primary Industries considers research on which this prediction is based is low quality and ‘should not be used in management decisions’. In 2015, the International Union for Conservation of Nature (IUCN) changed the classification of this species to "Endangered", based on low overall population size, the small number of breeding populations and the projected trend of the Auckland Islands breeding population.
+
+
+== Threats ==
+
+
+=== Subsistence hunting and commercial sealing ===
+Subsistence hunting and commercial harvest of sea lions greatly reduced the breeding range and population size of New Zealand sea lions between the 13th and 19th Centuries. In 1893, sealing for both New Zealand sea lions and New Zealand fur seals was prohibited by law in New Zealand.
+
+
+=== Commercial fishery bycatch ===
+In the 1990s, as the volume of squid fishing around the Auckland Islands increased, numbers of sea lions were captured as bycatch and drowned in the squid trawl nets. The government uses a modelling system to set a fishing-related mortality limit (FRML) each year. If the limit is predicted to be exceeded, the Minister of Primary Industries may close the fishery. The last time the FRML was exceeded was in 2000, though a number of closures occurred in the 1990s. The estimated (as different from reported) captures in the 2014 season were 11.58% of the FRML. The proportion of vessels in the Auckland Island squid fishery with government observers has increased over the years, providing independent reports of bycatch based on observation rather than computer model estimates. In the 2014 season, the observers' coverage was of 84% of tows. In late February 2013, the first observed sea lion mortalities in the Auckland Island squid fleet in three years occurred. Juvenile sea lions slipped through the grid at the opening of the net into its cod end. The 23-cm grid aperture is designed to hold adult sea lions in the SLED and yet still allow squid to pass into the net.  In 2013, one adult female was taken as incidental bycatch. In the concluded 2014 season, two sea lions were reportedly captured in the fishery.In August 2013, the seasonal southern blue whiting fleet captured 21 male sea lions in fishing grounds more than 100 km off the Campbell Islands.  Four were released alive.  No captures were reported by government observers the year before.  The government responded to the captures by requesting the vessels try sea lion exclusion devices (SLEDs) to reduce this bycatch.
+
+
+==== Sea lion exclusion devices ====
+In 2001, the sea lion exclusion device (SLED) was introduced into the Auckland Island squid fishery to reduce sea lion bycatch.  Conservation advocates have supported SLED use to protect other marine animals or sharks. Since 2007, all vessels in the Auckland Islands fishery have been equipped with SLEDs.  Some scientists still do not believe sea lions survive the interaction with a SLED, though the Ministry for Primary Industries (MPI) believes the direct effect of fishing-related mortality on the sea lion population is minimal. MPI has concluded that a sea lion has an 85% chance of escaping the SLED and a 97 per cent probability of surviving a SLED escape, though it says this estimate may be 'mildly pessimistic'.
+
+
+=== Food limitation ===
+Food availability is a well-known, major cause of population change in pinniped species. The Auckland Islands population has displayed numerous indicators of food limitation during the recent decline in breeder numbers, including: poor maternal condition, delayed maturation, years with very low pupping rate, low survival of pups born and long-term shifts in diet composition. Starvation was provisionally identified as cause of mortality for 62% of pups necropsied at Campbell Island in 2015, when 58% of all pups born were estimated to have died in the first month of life.
+
+
+=== Disease ===
+Though the Auckland Island sea lion pup production is highly variable, a decline trend for some years followed the outbreak of an introduced bacterial disease caused by a Campylobacter species in 1998 which killed an estimated 53% of newborn pups and 20% of adult females.  In 2002, another probably introduced bacterial disease caused by Klebsiella pneumoniae killed 32% of pups, and in 2003 another 21% of the pups. Since 2002, K. pneumoniae bacteria have caused significant mortality in the sea lion pups at Enderby Island. Infected pups have meningitis, as well as sepsis. On 12 March 2014, the Conservation Minister Nick Smith was quoted as saying an "excessive focus on fishing bycatch" existed and 300 pups had died this summer from an as yet unidentified disease.
+
+
+=== Mainland threats ===
+The mainland population was estimated to reach 1000 animals by 2044, leading to issues of ‘marine protected areas, local fishing quotas and numbers management’.
+
+
+== See also ==
+
+Australian sea lion
+
+
+== References ==
+
+
+== External links ==
+New Zealand sea lion at the Department of Conservation
+Encyclopedia of New Zealand - New Zealand sea lion
+ARKive—images and movies of the Hooker's sea lion (Phocarctos hookeri)

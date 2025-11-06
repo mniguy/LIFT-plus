@@ -1,0 +1,90 @@
+The vervet monkey (Chlorocebus pygerythrus), or simply vervet, is an Old World monkey of the family Cercopithecidae native to Africa. The term "vervet" is also used to refer to all the members of the genus Chlorocebus. The five distinct subspecies can be found mostly throughout Southern Africa, as well as some of the eastern countries. Vervets were introduced to Florida, St. Kitts and Nevis, and Cape Verde. These mostly herbivorous monkeys have black faces and grey body hair color, ranging in body length from about 40 cm (16 in) for females, to about 50 cm (20 in) for males.
+In addition to behavioral research on natural populations, vervet monkeys serve as a nonhuman primate model for understanding genetic and social behaviors of humans. They have been noted for having human-like characteristics, such as hypertension, anxiety, and social and dependent alcohol use. Vervets live in social groups ranging from 10 to 70 individuals, with males moving to other groups at the time of sexual maturity. Studies done on vervet monkeys involve their communication and alarm calls, specifically in regard to kin and group recognition, and particular predator sightings.
+
+
+== Taxonomy ==
+The vervet monkey was previously classified as Cercopithecus aethiops, now renamed 'grivet' and reclassified as Chlorocebus. The vervet and malbrouck have also been considered conspecific, or as subspecies of a widespread Ch. aethiops. The different taxa are distinguished by coat colour and other morphological characteristics. The characteristics of Ch. aethiops graduate into Ch. pygerythrus where their ranges meet,  thus deciding if the vervets commonly known to occur in Kenya are actually Ch. aethiops is difficult; animals in the same pack may be classified as one species or the other, and Ch. pygerythrus may also interbreed with Ch. tantalus where their ranges meet.Colin Groves recognised the below five subspecies of vervet monkey in the third edition of Mammals of the World:
+Chlorocebus pygerythrus excubitor
+Ch. p. hilgerti from southern Kenya
+Ch. p. nesiotes
+Ch. p. pygerythus from South Africa, Botswana, Lesotho, and Eswatini
+Ch. p. rufoviridis from Mozambique and Uganda has a distinctly reddish-coloured back, which is darker towards the base of the tail.Groves used Ch. p. hilgerti for all East African vervets except the insular subspecies Ch. p. excubitor and Ch. p. nesiotes. The name Ch. p. centralis has been suggested to have precedence, and that Ch. p. hilgerti should be restricted to the population of southern Ethiopia.
+
+
+=== Synonymy ===
+Ch. p. pygerythrus, as Cercopithecus aethiops, was also formerly divided into four subspecies:
+
+C. a. pygerythrus, from South Africa (Western Cape, Eastern Cape, Northern Cape and southern KwaZulu-Natal), and Lesotho; is said to have pale-colored limbs and white hands and feet (though the hands are also said to be black with a scattering of greyish hairs), and a greyish body colour with an olive sheen.
+C. a. cloetei, from northern KwaZulu-Natal, Eswatini, and northern South Africa; is darker, with greyish-brown speckles and dark feet.
+C. a. marjoriae, from southern Botswana and the North West Province of South Africa; is pale in colour (light ash-grey).
+C. a. ngamiensis, from north-eastern Botswana and the Okavango; has pale feet and a yellowish back and the tail is darker (especially towards the tip) than in other southern vervets.These subspecies are no longer recognised and are synonymous with Ch. p. pygerythrus.
+
+
+== Physical description ==
+The vervet monkey very much resembles a gray langur, having a black face with a white fringe of hair, while its overall hair color is mostly grizzled-grey. The species exhibits sexual dimorphism; the males are larger in weight and body length and may be recognized by a turquoise-blue scrotum. Adult males weigh between 3.9 and 8.0 kg (8.6 and 17.6 lb), averaging 5.5 kg (12 lb), and have a body length between 420 and 600 mm (17 and 24 in), averaging 490 mm (19 in) from the top of the head to the base of the tail. Adult females weigh between 3.4 and 5.3 kg (7.5 and 11.7 lb) and average 4.1 kg (9.0 lb), and measure between 300 and 495 mm (11.8 and 19.5 in), averaging 426 mm (16.8 in).
+
+
+== Behaviour ==
+
+
+=== Social behaviour ===
+
+When males reach sexual maturity, they move to a neighboring group. Often, males move with a brother or peer, presumably for protection against aggression by males and females of the resident group. Groups that had previously transferred males show significantly less aggression upon the arrival of another male. In almost every case, males migrate to adjacent groups. This obviously increases benefits in regard to distance traveled, but also reduces the amount of genetic variance, increasing the likelihood of inbreeding.Females remain in their groups throughout life. Separate dominance hierarchies are found for each sex. Male hierarchies are determined by age, tenure in the group, fighting abilities, and allies, while female hierarchies are dependent on maternal social status. A large proportion of interactions occurs between individuals that are similarly ranked and closely related. Between unrelated individuals, female competition exists for grooming members of high-ranking families, presumably to gain more access to resources. These observations suggest individual recognition is possible and enables discrimination of genetic relatedness and social status. Interactions between different groups are variable, ranging from highly aggressive to friendly. Furthermore, individuals seem to be able to recognise cross-group vocalisations, and identify from and to which monkey each call is intended, even if the call is made by a subadult male, which is likely to transfer groups. This suggests the members within a group are actively monitoring the activity of other groups, including the movement of individuals within a group.Within groups, aggression is directed primarily at individuals that are lower on the hierarchy. Once an individual is three years or older, it is considerably more likely to be involved in conflict. Conflict often arises when one group member shows aggression toward a close relative of another. Further, both males and females may redirect aggression towards individuals in which both had close relatives that were previously involved in a conflict. This suggests complex recognition not only of individuals, but also of associations between individuals. This does not suggest recognition of other's individual kinship bonds is possible, but rather that discrimination of social relationships does occur.
+
+
+=== Alarm calls and offspring recognition ===
+
+Vervet monkeys have four confirmed predators: leopards, eagles, pythons, and baboons. The sighting of each predator elicits an acoustically distinct alarm call. As infants, vervets learn to make the variety of calls from observation alone, without explicit tutelage. In experimentation with unreliable signalers, individuals became habituated to incorrect calls from a specific individual. Though the response was lessened for a specific predator, if an unreliable individual gives an alarm call for a different predator, group members respond as if the alarm caller is, in fact, reliable. This suggests vervet monkeys are able to recognize and to respond to not only the individual calling, but also to the semantics of what the individual is communicating. Vervet monkeys are thought to have up to 30 different alarm calls. In the wild, they have been seen giving a different call when seeing a human being approaching, leading researchers to believe that vervet monkeys may have a way of distinguishing between different land and flight predators.Mothers can recognise their offspring by a scream alone. A juvenile scream elicits a reaction from all mothers, yet the juvenile's own mother had a shorter latency in looking in the direction of the scream, as well as an increased duration in her look. Further, mothers have been observed to help their offspring in conflict, yet rarely aided other juveniles. Other mothers evidently can determine to which mother the offspring belongs. Individuals have been observed to look towards the mother whose offspring is creating the scream.
+
+
+=== Kin relationships ===
+Siblings likely provide the prevailing social relationships during development. Within social groups, mother-offspring and sibling interactive units are distinct groups. The sibling interactions are heavily supportive and friendly, but do have some competition. Contests primarily involve postweaning resource allocation by the common mother. For example, siblings have conflict over grooming time allocated by their mother. Offspring are usually not born in extremely close time proximity due to the interbirth period of the mother. This time can be reduced by use of an allomother. The clarity of the familial and sibships within a group may act as a form of alliance, which would come at relatively low cost in regards to grooming. Other alliances are shown through conflict with aggressive individuals that have acted against a closely related sibling.
+
+Allomothering is the process when another individual besides the mother cares for an infant. In groups of vervet monkeys, infants are the target of a tremendous amount of attention. Days after an infant is born, every member of the group inspects the infant at least once by touching or sniffing. While all group members participate in infant caretaking, juvenile females that cannot yet menstruate are responsible for the majority of allomothering. The benefit is mutual for the mother and allomother. Mothers that use allomothers are able to shorten their interbirth periods, the time between successive births. At the same time, allomothers gain experience in rearing infants, and had more success in raising their own offspring. Juvenile females discriminate in preference for the infant they choose to allomother, and usually choose siblings or infants of high-ranking individuals. When a mother allows her juvenile daughter to become an allomother for a newborn sibling, the mother decreases her own investment in the infant, while increasing the chances of successful rearing of her immature daughter.Grandmothers and grandchildren share one-quarter of their genes, so they should be more likely to form affiliative relationships than unrelated members in a group. Not only do infants approach their grandmothers more often than unrelated members, but they also prefer their grandmothers compared to other adult female kin, not including their own mothers. Additional research has shown grandmothers show no preference over the sex of their grandchild. Interest in the grandchild spurred from the rank of the grandmother within a group. Higher-ranking grandmothers showed more interest in caring for their grandchildren when compared to low-ranking grandmothers. The presence of grandmothers has been associated with a decrease in mortality of infants.
+
+
+=== Spite ===
+Spiteful actions are extremely rare in the animal kingdom. Often,  an indirect benefit is seen for the individual acting 'spiteful' or to a close relative of that individual. Vervet monkeys have been observed to destroy a competitor's food source rather than consume or steal it themselves. While energy is being lost on destroying the food, a competitive advantage is given to the individual due to an increase in competitive gain. This would be pertinent for a male that could be displaced within his group to immigrating males.
+
+
+=== Reproduction ===
+Female vervets do not have external signs indicating estrus, thus elaborate social behaviors involving reproduction do not occur. Typically, a female gives birth once a year, between September and February, after a gestation period around 165 days. Usually, only one infant is born at a time, though twins can occur rarely. A normal infant weighs 300–400 grams (11–14 oz).
+
+
+== Ecology ==
+
+
+=== Diet ===
+
+The vervet monkey eats a primarily herbivorous diet, living mostly on wild fruits, flowers, leaves, seeds, and seed pods. In agricultural areas, vervets become problem animals, as they raid bean, pea, young tobacco, vegetable, fruit, and grain crops. Animal foods of their diet include grasshoppers and termites. Raids of cattle egrets and weaver bird nests have been observed where the vervets eat the eggs and chicks.A list of some natural food plants and part of the plant eaten, in South Africa:
+
+
+=== Distribution and habitat ===
+The vervet monkey ranges throughout much of Southern and East Africa, being found from Ethiopia, Somalia and extreme southern South Sudan, to South Africa. It is not found west of the East African Rift or the Luangwa River, where it is replaced by the closely related malbrouck (C. cynosuros). The vervet monkey inhabits savanna, riverine woodland, coastal forest, and mountains up to 4000 m (13,100 ft). They are adaptable and able to persist in secondary and/or highly fragmented vegetation, including cultivated areas, and sometimes are found living in both rural and urban environments. Annual home range size has been observed to be as high as 176 ha, with an average population density of 54.68 animals/km².
+Introduced vervet monkeys are naturalised in Cape Verde. Dania Beach, Florida, is home to about 40 introduced vervets.
+
+
+== Relationship with humans ==
+
+The monkeys are used for biomedical research. Many people living in close proximity to vervet colonies see them as pests, as they steal their food. Heavy fines in some areas discourage the killing of vervet monkeys.Its status according to the IUCN is "least concern".
+This species was known in ancient Egypt, including the Red Sea Mountains and the Nile Valley. From fresco artworks found in Akrotiri on the Mediterranean island of Santorini there is evidence that the vervet monkey was known to the inhabitants of this settlement around 2000 BC; this fact is most noted for evidence of early contact between Egypt and Akrotiri. Excavations dated to the end of the 1st century AD from Berenike, a Roman-Egyptian port-town on the Red Sea coast, demonstrate that vervet monkeys must have been kept as pets at that time.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+
+
+== References ==
+
+
+== External links ==
+Vervet Monkey Foundation
+BBC story: Vervet monkeys raid farms
+Darwin Primate Group
+Vervet monkey, Primate Info Net
+Computerized atlas of vervet brain MRI
+Alcoholism in vervet monkeys

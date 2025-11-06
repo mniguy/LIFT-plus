@@ -1,0 +1,49 @@
+Trigonospila brevifacies is a species of true fly in the family Tachinidae native to eastern Australia. Like the vast majority of tachinid flies, T. brevifacies is a parasitoid of other insects, specifically late larval stages of a number of species of Lepidoptera. It is also known as the Australian Leaf-Roller Fly or Leafroller Fly.
+
+
+== Distribution ==
+T. brevifacies is native to the eastern states of Australia and has been collected from Tasmania, New South Wales, Victoria, and southern Queensland. T. brevifacies is also present in New Zealand as it was introduced to control a number of agricultural pests.
+
+
+== Identification ==
+Like all Trigonospila species, T. brevifacies can be recognised by its distinctive markings. They are primarily black with pearly whitish to golden transverse bars on the thorax and abdomen.
+T. brevifacies is frequently confused with T. cingulata in locations where both species co-occur. T. cingulata appears to much more common than T. brevifacies, particularly in Queensland, New South Wales, and the Australian Capital Territory. It is believed T. cingulata is a parasitoid of chrysomelid beetle larvae in the genus Paropsis, which are abundant herbivores in many Australian environments. Only T. brevifacies is known to be present in New Zealand.
+T. brevifacies can be easily distinguished from T. cingulata by colouration of the abdomen. The black and white abdominal markings of T. cingulata are continuous, crisp stripes from the dorsal to ventral sides of the abdomen, whereas the black markings of T. brevifacies typically are more or less triangular spots on the anterior margin of each the third, fourth, and fifth abdominal tergites which may or may not be quite diffused. The sides of the abdomen in both sexes of T. brevifacies are yellow.
+
+
+== Biocontrol ==
+
+T. brevifacies is an economically important parasitoid of a number of larvae of Lepidoptera and has been deployed in New Zealand as a biocontrol agent of a number of pest species including the light brown apple moth Epiphyas postvittana (Lepidoptera : Tortricidae) and the potato tuber moth Phthorimaea operculella (Lepidoptera : Gelechiidae). T. brevifacies was initially introduced to New Zealand to control the light brown apple moth Epiphyas postvittana and released a number of times between 1967 and 1973 to control a number of other pests. However it competes with many native parasitoids, because it is polyphagous on Lepidoptera. Of the 18 confirmed and published hosts (below), at least 10 are known pests in agriculture or forestry.
+
+
+=== Host range ===
+T. brevifacies is the only species of Trigonospila for which substantial host records exist. The species is polyphagous and known to parasitise at least 18 species of Lepidoptera in 8 families. Some of these are non target species and T. brevifacies is found to compete with many native parasitods Carposinidae
+
+Carpinosina adreptella (Walker) Gelechiidae
+
+Helcystogramma sp. 
+Phthorimaea operculella ZellerGeometridae
+
+Pasiphila lunata (Philpott)Tortricidae
+
+Cnephasia jactatana (Walker)
+Ctenopseustis obliquana (Walker)
+Epalxiphora axanana (Meyrick)
+Epiphyas postvittana (Walker)
+Planotortrix excessana (Walker)
+Planotortrix notophaea (Walker)
+Pyrgotis lagiatana (Walker)
+Strepsicrates macropetana (Meyrick)Oecophoricae
+
+Eutorna phalocosma (Meyrick)
+Hierodoris atychioides (Butler)Pterophoridae
+
+Aciptilia monospilalis (Walker)
+Platyptilia falcatalis (Walker)Pyralidae
+
+Epipaschia costigeralis (Walker)Stathmopodidae
+
+Stathmopoda skelloni (Butler)
+
+
+== References ==

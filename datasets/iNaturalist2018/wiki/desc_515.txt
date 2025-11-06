@@ -1,0 +1,67 @@
+Xylocopa micans, also known as the southern carpenter bee, is a species of bee within Xylocopa, the genus of carpenter bees. The southern carpenter bee can be found mainly in the coastal and gulf regions of the southeastern United States, as well as Mexico and Guatemala. Like all Xylocopa bees, X. micans bees excavate nests in woody plant material. However, unlike its sympatric species Xylocopa virginica, X. micans has not been found to construct nest galleries in structural timbers of building, making it less of an economic nuisance to humans. Carpenter bees have a wide range of mating strategies between different species. The southern carpenter bee exhibits a polymorphic mating strategy, with its preferred method of mating changing as the season progresses from early spring to mid summer. Like most bees in its genus, the southern carpenter bee is considered a solitary bee because it does not live in colonies.
+
+
+== Taxonomy and phylogeny ==
+The French entomologist and Hymenoptera specialist Amédée Louis Michel le Peletier first described Xylocopa micans in 1841. The genus name Xylocopa is derived from the Ancient Greek word xylokopos/ξῦλοκὀπος meaning "wood-worker", a reference to the bee's tendency to nest in wood. The species name micans comes from the Latin word for "shining", referring to the reflective quality of the bee's body. The common name for X. micans, the southern carpenter bee, refers to the distribution of the species in the southern United States. X. micans has been studied alongside X. virginica where they are sympatric in the state of Texas. Although the bees Xylocopa vidua, Xylocopa purpurea, and Xylocopa binotata were described separately, they are all synonyms of X. micans. X. micans belongs to the subgenus Schonnherria, which is a largely Neotropical lineage of carpenter bee species.
+
+
+== Description and identification ==
+
+X. micans is a large carpenter bee, ranging between 15 and 19 mm long and 8 and 9.5 mm wide. The body of the bee is generally a metallic black and reflects light with blue or green tinges. The bees have a flat clypeus and relatively short mandibles in addition to a set of lateral ocelli set below the top of the head. Both males and females have short, dense pubescence on the head. Although the males and females of X. micans are largely monomorphic, they differ in the amount of hair covering their bodies. Females have sparse, dark pubescence on the scutum and scutellum, whereas males have scutum and scutellum that are densely, pubescent with bright-yellow coloring. Furthermore, whereas females have bare terga 1–4 and white tufts of hair from term 5 and 6, males have all terga 1 and 2 covered in yellow pubescence, and terga 3–6 with black pubescence.Like other Xylocopa, X. micans creates nests by excavating in woody plant material, such as the dead wood of nearly any species.  However, the nests of X. micans have rarely been observed in nature. Females use strong jaws to vibrate holes in wood, and then burrow to form a nest of roughly 8 mm in diameter, with several brood cells spaced along the length of the nest. The entire length of the nest is roughly 12 cm.
+
+
+== Distribution and habitat ==
+X. micans is found in several states in the southeastern United States, along the coast from southeastern Virginia to Florida, and west along the gulf to Texas. The bee can also be found further south in Mexico and as far south as Guatemala. The bee can be found only in the warmer months in certain regions such as the lower Rio Grande Valley, but is generally found year-round elsewhere.Specimens of X. micans have also been found moving as far north as Prairie County, Arkansas. The northward expansion may be reflective of range shifts of species predicted by climate change; similar impacts of climate change have been seen on the Edith's checkerspot butterfly. Conversely, since the specimens found in Arkansas were mainly co-located with Interstate 40, the range expansion could be caused by human activity; the southern carpenter bee could burrow into commercial lumber that could then be transported northward for several hundred miles.
+
+
+== Life history ==
+All carpenter bees of the genus Xylocopa are solitary and therefore generally do not form colonies. Both males and females of X. micans overwinters in old nests as adults until the following spring; each generation lives for roughly one year. In early April the adults emerge from their nests for the mating season.Nests are preferably recycled by bees, who prefer to avoid the energy-intensive activity of excavating a new nest. When necessary, females will excavate nests by boring a hole into a piece of wood, making a sharp orthogonal turn, and boring down to form a tunnel with several brood cells, moving one inch every six days. Each brood cell is provisioned with a ball composed of pollen and regurgitated nectar. On top of the food ball, the female will lay an egg, and then plug up the respective brood cell with wood pulp. After filling each of the brood cells in this manner, the female dies.Bees of X. micans develop from egg to adult over the course of seven weeks. New adults break out of the brood cell partitions several weeks after reaching adulthood, generally in late August, to collect pollen to store for overwintering. The bees quickly return to their nests to overwinter.
+
+
+== Behavior ==
+
+
+=== Male aggression ===
+
+
+==== Conspecific wanderers ====
+Males of X. micans are highly territorial, which is important when mating. If a conspecific male wanderer is found intruding into the territory of a male southern carpenter bee, the territory defender will fly swiftly toward the insurgent bee and engage in a swirling chase. During these chases, the bees maintain a distance of about 15 cm, although they sometimes come together to make brief contact. These exchanges can last up to 30 seconds before the two bees separate and the intruder leaves. In rare occasions, the insurgent bee can usurp the resident and take over the territory.
+
+
+==== Conspecific territory holders ====
+A male territory holder may sometimes slowly fly into an adjacent territory until it is aggressed by the other territory holder. The aggression follows the same pattern as territory holder aggression against a wanderer, following which the insurgent bee returns to its own territory. Researchers Frankie et al. explained this phenomenon using the "dear enemy effect", which suggests that it is mutually beneficial for both bees holding adjacent territories to recognize each other and agree upon an established boundary between their territories, in order to reduce the number of hostile encounters between neighbors and, consequently, the amount of energy expended on such encounters.
+
+
+==== Other species ====
+Although conspecific males are always met with immediate aggression when intruding into a territory, intruders of other species are investigated first. Intrusions by butterflies, wasps, and robber flies cause the territory holder to quickly investigate and examine the intruder, generally without contact. This first examination will almost always lead to the quick exit of the intruder. This intimidation tactic is applied to larger intruders as well, and the southern carpenter bee has been known to fly toward humans entering their territory as well.
+
+
+=== Mating ===
+The southern carpenter bee is unique among the genus Xylocopa in that it demonstrates two forms of mating strategies. In the early spring, the southern carpenter bee utilizes resource defense polygyny. Males structure territories around floral resources in order to take advantage of clumped distributions of females. Later in the season, toward July and August, southern carpenter bees are observed opting instead for lek polygyny, where males hold territories at nonflowering plants and landmarks such as small hills and prominent vegetation.When females enter a male's territory, they generally approach a high point in the environment where males may have released pheromones and then slowly fly away. The territory holder will then slowly approach the female and pursue it through the territory. The male may choose not to engage with the female, which indicates an element of male choice, or to mate with the female in the air. Sometimes females reject certain males, demonstrating an element of female choice as well.
+
+
+=== Communication ===
+
+
+==== Dufour's gland ====
+The Dufour's gland of X. micans contains secretions high in pentacosene and pentacosane, and contain heptacosene and heptacosane as well. All components of the Dufour's gland of X. micans are hydrocarbons. The secretions of this species are less complex than those of similar species within the genus, such as X. virginica. X. micans and X. virginica both have Dufour's glands that have highly diverse and distinct chemical compositions, which may play a role in allowing both species to communicate clearly with conspecifics within the same region.
+
+
+==== Mesosomal gland ====
+The mesosomal gland of the X. micans bee is key to communication during mating. The gland is an invagination of the outer membrane of the bee between the propodeum and the metanotum. The gland contains several projections that release secretions in the form of aerosol rather than as a volatilized form, which allows the secretion to spread to a much greater distance and increase the size of the male's territory. The secretions are used as a pheromone during mating.The mesosomal gland contents consist of saturated, monounsaturated, and diunsaturated straight-chain hydrocarbons as well as methyl and ethyl esters of long-chain fatty acids. The main ester in the chemical composition is ethyl oleate. During the early spring, when males defend floral resources and rely on natural female aggregation, the percentage of ethyl oleate in gland contents is only 1.1%; however, during late summer, when males defend lek territories, the percentage of ethyl oleate in gland contents is 39.7%. This change in concentration suggests that males use ethyl oleate as a pheromone to attract females during the latter mating stages, and can demonstrate male fitness to females flying through a territory. Gland size also differs in between mating strategy states.
+
+
+=== Foraging behavior ===
+
+Southern carpenter bees are nectarivores. Males will forage from 12 PM until 4 PM at the latest during the summer months, although males with territories will forage for only one hour before returning to defend their territories. X. micans bees exhibit risk sensitive foraging, where bees demonstrate risk-aversion to completely empty flowers and favor flowers with nectar. X. micans is also polylectic, meaning that X. micans bees are general pollinators and can collect pollinators from a broad variety of plants. They also have special abilities for pollination, since they are capable of buzz pollination, a technique that allows the bees to dislodge tightly held pollen using resonant vibration. This ability expands the types of plants that X. micans is capable of foraging on.
+
+
+== Evolution ==
+X. micans is a member of the subgenus Schonnherria, which is largely neotropical. X. micans likely became separated from a South American ancestor species during Pleistocene glacial maxima in Florida. In the current period between ice ages, it has moved back southwest toward Guatemala.X. micans serves as a key example for step-wise evolution in the genus Xylocopa. Many Xylocopa bees demonstrate resource defense polygyny, and many demonstrate lek polygyny. X. micans serves as a bridge between the two, exhibiting both states. It serves as an intermediate in terms of mesosomal gland size between those species requiring resource defense polygyny and those species requiring lek polygyny (which need to release pheromones to attract females). X. micans also demonstrates that evolution of sexual dimorphism followed the evolution of non-resource defense mating strategies in Xylocopa. Monomorphism is the ancestral state, and X. micans, which shows both mating strategies, have males partially covered in light hairs, showing the beginnings of sexual dimorphism that grows more prominent in species that require lek polygyny.
+
+
+== Human impact ==
+As a general pollinator, X. micans is key to the reproduction of many plants within its habitat. In the nesting sites of many Xylocopa bee populations, destruction and removal of woody plants have caused the loss and extinction of those populations. Land clearing can lead to the loss of natural nesting sites, which can cause either the loss or the migration of certain species. X. micans may face a similar loss of location if land management practices reducing available dead wood removes potential nesting sites for the bee. The effect of dead wood management could be exacerbated if X. micans has a level of host specificity when determining a nesting site.
+
+
+== References ==

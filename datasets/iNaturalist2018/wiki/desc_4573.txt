@@ -1,0 +1,79 @@
+The Portuguese man o' war (Physalia physalis), also known as the man-of-war, bluebottle, or floating terror is a marine hydrozoan found in the Atlantic Ocean and the Indian Ocean. It is considered to be the same species as the Pacific man o' war, which is found mainly in the Pacific Ocean.
+The Portuguese man o' war is the only species in the genus Physalia, which in turn is the only genus in the family Physaliidae. It has numerous venomous microscopic nematocysts which deliver a painful sting powerful enough to kill fish, and has been known to occasionally kill humans. Although it superficially resembles a jellyfish, the Portuguese man o' war is in fact a siphonophore. Like all siphonophores, it is a colonial organism, made up of many smaller units called zooids. All zooids in a colony are genetically identical, but fulfill specialized functions such as feeding and reproduction, and together allow the colony to operate as a single individual.
+
+
+== Etymology ==
+The name man o' war comes from the man-of-war, an 18th-century sailing warship, and the animal's resemblance to the Portuguese version (the caravel) at full sail.The names for the animal in Hawaiʻian include ʻili maneʻo, palalia, and others.
+
+
+== Habitat ==
+
+Found mostly in tropical and subtropical waters, the Portuguese man o' war lives at the surface of the ocean. The gas-filled bladder, or pneumatophore, remains at the surface, while the remainder is submerged. Portuguese men o' war have no means of propulsion, and move passively, driven by the winds, currents, and tides.
+Strong winds may drive them into bays or onto beaches. Often, finding a single Portuguese man o' war is followed by finding many others in the vicinity. Because they can sting while beached, the discovery of a man o' war washed up on a beach may lead to the closure of the beach.
+
+
+== Anatomy and physiology ==
+
+Just like all siphonophores, the Portuguese man o' war is colonial: each man o' war is composed of many smaller units (zooids) that hang in clusters from under a large, gas-filled structure called the pneumatophore. New zooids are added by budding as the colony grows. As many as seven different kinds of zooids have been described in the man o' war: three of the medusoid type (gonophores, nectophores, and vestigial nectophores) and four of the polypoid type (free gastrozooids, tentacle-bearing zooids, gonozooids and gonopalpons). However, naming and categorization of zooids varies between authors, and much of the embryonic and evolutionary relationships of zooids remains unclear.The pneumatophore, or bladder, is the most conspicuous part of the man o' war. It is translucent and tinged blue, purple, pink, or mauve, and may be 9 to 30 centimetres (3.5 to 11.8 inches) long and rise as high as 15 cm (6 in) above the water. The pneumatophore functions as both a flotation device and a sail for the colony, allowing the colony to move with the prevailing wind. The gas in the pneumatophore is part carbon monoxide (0.5–13%), which is actively produced by the animal, and part atmospheric gases (nitrogen, oxygen and noble gases) that diffuse in from the surrounding air. In the event of a surface attack, the pneumatophore can be deflated, allowing the colony to temporarily submerge.The colony hunts and feeds through the cooperation of two types of zooid: gastrozooids and tentacle-bearing zooids known as dactylozooids or tentacular palpons. The dactylozooids are equipped with tentacles, which are typically about 10 m (30 ft) in length but can reach over 30 m (100 ft). Each tentacle bears tiny, coiled, thread-like structures called nematocysts. Nematocysts trigger and inject venom on contact, stinging, paralyzing, and killing adult or larval squids and fishes. Large groups of Portuguese man o' war, sometimes over 1,000 individuals, may deplete fisheries. Contraction of tentacles drags the prey upward, into range of the gastrozooids, the digestive zooids. The gastrozooids surround and digest the food by secreting enzymes.
+The main reproductive zooids, the gonophores, are situated on branching structures called gonodendra. Gonophores produce sperm or eggs (see life cycle). Besides gonophores, each gonodendron also contains several other types of specialized zooids: gonozooids (which are accessory gastrozooids), nectophores (which have been speculated to allow detached gonodendra to swim), and vestigial nectophores (also called jelly polyps; the function of these is unclear).
+
+
+=== Coloniality ===
+The man o' war is described as a colonial organism because the individual zooids in a colony are evolutionarily derived from either polyps or medusae, i.e. the two basic body plans of cnidarians. Both of these body plans comprise entire individuals in non-colonial cnidarians (for example, a jellyfish is a medusa; a sea anemone is a polyp). All zooids in a man o' war develop from the same single fertilized egg and are therefore genetically identical; they remain physiologically connected throughout life, and essentially function as organs in a shared body. Hence, a Portuguese man o' war constitutes a single individual from an ecological perspective, but is made up of many individuals from an embryological perspective.
+
+
+=== Left- or right-handedness ===
+A Portuguese man o' war is somewhat asymmetrically shaped: the zooids of the colony hang down not quite from the midline of the pneumatophore, but offset to either the right or left side of the midline. When combined with the trailing action of the tentacles (which function as a sea anchor), this left- or right-handedness makes the colony sail sideways relative to the wind, by about 45° in either direction. Colony handedness has therefore been theorized to affect man o' war migration, with left-handed or right-handed colonies potentially being more likely to drift down particular respective sea routes. While previously believed to develop as a result of what winds a colony experienced, handedness in fact emerges early in the colony's life, while it is still living below the surface of the sea.
+
+
+== Life cycle ==
+Man o' war individuals are dioecious, meaning each colony is either male or female. Gonophores producing either sperm or eggs (depending on the sex of the colony) sit on a tree-like structure called a gonodendron, which is believed to drop off from the colony during reproduction. Mating takes place primarily in the autumn, when eggs and sperm are shed from gonophores into the water. As neither fertilization nor early development have been directly observed in the wild, it is not yet known at what depth they occur.A fertilized man o' war egg develops into a larva that buds off new zooids as it grows, gradually forming a new colony. This development initially occurs under the water, and has been reconstructed by comparing different stages of larvae collected at sea. The first two structures to emerge are the pneumatophore (sail) and a single, early feeding zooid called a protozooid; later, gastrozooids and tentacle-bearing zooids are added. Eventually, the growing pneumatophore becomes buoyant enough to carry the immature colony on the surface of the water.
+
+
+== Venom ==
+
+This species is responsible for up to 10,000 human stings in Australia each summer, particularly on the east coast, with some others occurring off the coast of South Australia and Western Australia.The stinging, venom-filled nematocysts in the tentacles of the Portuguese man o' war can paralyze small fish and other prey. Detached tentacles and dead specimens (including those that wash up on shore) can sting just as painfully as the live organism in the water, and may remain potent for hours or even days after the death of the organism or the detachment of the tentacle.Stings usually cause severe pain to humans, leaving whip-like, red welts on the skin that normally last two or three days after the initial sting, though the pain should subside after about 1 to 3 hours (depending on the biology of the person stung). However, the venom can travel to the lymph nodes and may cause symptoms that mimic an allergic reaction, including swelling of the larynx, airway blockage, cardiac distress, and an inability to breathe (though this is not due to a true allergy, which is defined by serum IgE). Other symptoms can include fever and shock, and in some extreme cases, even death, although this is extremely rare. Medical attention for those exposed to large numbers of tentacles may become necessary to relieve pain or open airways if the pain becomes excruciating or lasts for more than three hours, or if breathing becomes difficult. Instances where the stings completely surround the trunk of a young child are among those that have the potential to be fatal.
+
+
+=== Treatment of stings ===
+Stings from a Portuguese man o' war are often extremely painful. They result in severe dermatitis characterized by long, thin, open wounds that resemble those caused by a whip. These are not caused by any impact or cutting action, but by irritating urticariogenic substances in the tentacles. Flushing the affected area with sea water helps remove any adherent tentacles in the wound area.Acetic acid (vinegar) or a solution of ammonia and water is popularly believed to deactivate the remaining nematocysts and usually provides some pain relief, though some isolated studies suggest that in some individuals vinegar dousing may increase toxin delivery and worsen symptoms. Vinegar has also been claimed to provoke hemorrhaging when used on the less severe stings of cnidocytes of smaller species. The current recommended treatment from studies in Australia is to avoid the use of vinegar, as local studies have shown this to exacerbate the symptoms.
+The ammonia soak is then often followed by the application of shaving cream to the wound for 30 seconds, followed by shaving the area with a razor and rinsing the razor thoroughly between each stroke. This removes any remaining unfired nematocysts. Heat in the form of hot saltwater or hot packs may be applied: heat speeds the breakdown of the toxins already in the skin. Hydrocortisone cream may also be used.A 2017 study stated that a wash of undiluted vinegar or Sting No More Spray, a proprietary "combined stinging capsule and venom-inhibiting product" were the most effective topical rinse solutions. The vinegar (or spray) rinse should be followed by immersion in 45°C (113°F) water or application of a hot pack for 45 minutes.
+
+
+== Predators and prey ==
+The Portuguese man o' war is a carnivore. Using its venomous tentacles, a man o' war traps and paralyzes its prey while "reeling" it inwards to the digestive polyps. It typically feeds on small marine organisms, such as fish and plankton and sometimes shrimp.
+The organism has few predators of its own; one example is the loggerhead turtle, which feeds on the Portuguese man o' war as a common part of its diet. The turtle's skin, including that of its tongue and throat, is too thick for the stings to penetrate. Also, the blue sea slug Glaucus atlanticus specializes in feeding on the Portuguese man o' war, as does the violet snail Janthina janthina. The ocean sunfish's diet, once thought to consist mainly of jellyfish, has been found to include many species, the Portuguese man o' war being one such example.The blanket octopus is immune to the venom of the Portuguese man o' war; young individuals have been observed to carry broken man o' war tentacles, which males and immature females rip off and use for offensive and defensive purposes.
+
+
+== Commensalism and symbiosis ==
+A small fish, Nomeus gronovii (the man-of-war fish or shepherd fish), is partially immune to the venom from the stinging cells and can live among the tentacles. It seems to avoid the larger, stinging tentacles but feeds on the smaller tentacles beneath the gas bladder. The Portuguese man o' war is often found with a variety of other marine fish, including yellow jack.
+All these fish benefit from the shelter from predators provided by the stinging tentacles, and for the Portuguese man o' war, the presence of these species may attract other fish to eat.
+
+
+== Gallery ==
+
+		
+		
+		
+
+
+== See also ==
+Chondrophores (porpitids), a different hydrozoan colonial organism
+Velella, a smaller hydrozoa which has a similar shape and colouration.
+Porpita porpita
+Siphonophorae
+
+
+== References ==
+
+
+== Further reading ==
+Mapstone, Gillian (February 6, 2014). "Global Diversity and Review of Siphonophorae (Cnidaria: Hydrozoa)". PLOS ONE. 9 (2): e87737. Bibcode:2014PLoSO...987737M. doi:10.1371/journal.pone.0087737. PMC 3916360. PMID 24516560.
+
+
+== External links ==
+ Data related to Physalia physalis at Wikispecies
+Siphonophores.org General information on siphonophores, including the Portuguese man-of-war
+National Geographic: Portuguese Man-of-War
+Life In The Fast Lane: Blue bottle
+Portuguesemanofwar.com: Real Stories, Real People, Real Encounters.

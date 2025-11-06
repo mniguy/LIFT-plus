@@ -1,0 +1,71 @@
+Chorthippus brunneus, also known as the common field grasshopper, is a species of grasshopper of the subfamily Gomphocerinae. It was first described by Thunberg in 1815. It is also known as Gryllus brunneus, although this name has not been adopted by the IUCN. The IUCN lists C. brunneus as Least Concern.
+
+
+== Appearance ==
+C. brunneus  are predominantly brown. However, they show a large variation in colour and can also be black, green, purple, or white. Wing patterns vary between individuals and can be mottled, striped, striped-mottled, or plain. Both green and purple grasshoppers tend to have plain forewing patterns while black grasshoppers primarily have mottled forewing patterns. Brown grasshoppers do not consistently have the same forewing pattern instead they have variable forewing patterns.At least two loci are responsible for pronotum color in C. brunneus. Green alleles are dominant to all other colors while brown alleles are recessive to all other colors. Wing pattern is determined by a separate locus than colour. The plain forewing pattern is dominant and the striped and mottled forewing patterns are codominant.
+
+
+== Habitat and range ==
+C. brunneus are found in Europe, north Africa, and temperate Asia. They prefer dry habitats. They are present in higher numbers in heathland areas compared to agricultural areas. This can be explained by the difference in sward height in the two areas. C. brunneus  prefer habitats with sward heights of 100 to 200 mm and fine leaved grass species. In fact a positive correlation between C. brunneus and both Agrostis   species and  Festuca   species exists. Fine leaved grass species and taller sward heights occur more commonly in heathlands where less human alteration of the land occurs compared to agricultural sites. Sward height also influences abundance. A greater number of C. brunneus are found in taller swards although some scientific literature suggests C. brunneus thrives in wastelands.
+Vertebrate grazing also influences C. brunneus density by directly influencing sward height. Ungrazed areas have higher densities of C. brunneus than grazed areas. Vertebrate grazing is thought to alter plant hormones two of which are known to effect fecundity, abscisic acid, and gibberellins. Additionally grazing results in the production of proteinase inhibitors in plants and the alteration of nitrogen levels. In areas that experience less vertebrate grazing C. brunneus  have increased rates of development, higher adult weights, and increased fecundity.
+
+
+== Diet ==
+C. brunneus are herbivores and polyphagous. They feed primarily on grasses.
+
+
+== Reproduction ==
+C. brunneus are univoltine.
+
+
+=== Mating ===
+Males attract females by singing via stridulation. An interested female will respond singing a similar-sounding song. The male will respond to the female by singing again. This can continue until copulation or the female becomes disinterested. Although a female response to male song does not guarantee mating it does increase the likelihood of copulation. Upon contact the male will produce a soft song and mount the female.
+
+
+=== Reproductive output ===
+While the average weight of females does not differ between high and low-density population conditions reproductive output is greater in low-density conditions compared to high-density conditions. Females in high-density conditions also experience a higher mortality rate. In a study by Wall and Begon (1987) 10 of 29 females in high-density conditions died while no females died in the low-density conditions.  
+A positive correlation also exists between the number of eggs per pod and the length of a female's hind femur. Females in high-density conditions produced only half of the eggs produced by females in low-density conditions. Larger females in high-density conditions produce eggs at a faster rate than smaller females. While smaller females in low-density groups produce eggs faster than larger females resulting in an equal reproductive output between small and large females.
+
+
+=== Hybridization ===
+In northern Spain C. brunneus and C. jacobsi form a hybrid zone. It has been suggested that the two species diverged during Pleistocene ice age. Both have the same number of chromosomes (2n=17) with three pairs of long metacentric, four pairs of medium acrocentric, and one pair of short acrocentric chromosomes. Using in situ hybridization an extra rDNA sequence is consistently found on the X chromosome in C. brunneus that is absent in C. jacobsi. The additional rDNA is not expressed in either C. brunneus or the hybrids that possess the rDNA sequence. C. brunneus  and C. jacobsi  can also be differentiated based on song and by the difference in number of stridulatory pegs located on the hind femur.Using a mark and recapture procedure, the lifetime dispersal of C. brunneus and C. jacobsi were estimated to be similar to other grasshopper species that form hybrid zones. C. brunneus and C. jacobsi are dominant during different months. C. brunneus are dominant in August while C. jacobsi are dominant in June and July. Additionally C. brunneus are only found in valley habitats while C. jacobsi are found in both valley and mountain habitats This suggests both seasonal and temporal isolation between the two species.C. brunneus, C. jacobsi, and hybrid females all show a preference for male C. brunneus and C. jacobsi  songs over hybrid male songs. Differences in song traits echeme, syllable, and phrase length have a small epistatic effect but cannot be fully explained by genetic factors. Low genetic variation was found to occur between the three song characteristics in C. brunneus and C. jacobsi and no sex linkage was found. Peg numbers on the stridulatory file, while different between the two species, are surprisingly not dependent on song characteristics. Genetics cannot account for the difference in peg number. Instead additive effects explain the phenotypic variation in both song characteristics and peg number between C. brunneus, C. jacobsi, and their hybrids.
+
+
+== Development ==
+C. brunneus are hemimetabolous. Females lay eggs over a 10-week period in the soil. Eggs hatch as early as April. Hatchlings typically go through four nymphal stages before becoming adults. Adults can live into the late autumn.
+
+
+=== Eggs and hatchlings ===
+C. brunneus  lay eggs in a variety of habitats from chalk hills to sandy hills but most commonly lay their eggs in sandy, dry habitats. In the lab, C. brunneus prefer dry and compact substrates composed of fine particles such as sand. They produce the largest number of eggs between 28-35 °C degrees.
+In theory, smaller eggs should have higher mortality rates because of reduced provisions provided within the egg. However researchers found that egg viability is greater in the southern populations where eggs are smaller. This can be explained by higher overwintering temperatures.
+Egg size is influenced by a number of factors. As maternal age increases so does egg size. At the beginning of the breeding season females lay smaller eggs compared to the end of the breeding season. Eggs laid in the last part of the breeding season are smaller in size due to deteriorating maternal health.Research suggests that there is no correlation between stage of development and water uptake. While eggs can withstand a large amount of water loss they cannot survive complete desiccation. Therefore, it is not important at what point water is absorbed, it is only important that water is absorbed at some point.A larger egg size generally results in a larger hatchling and adult size. Eggs laid by C. brunneus from late August to early September are the heaviest, hatch the latest, and have heavier hatchlings. While earlier hatchlings are initially smaller, earlier hatchlings achieve a larger body size than later hatchlings. Maximum temperatures rather than minimum temperatures influence the weight of hatchlings unless the minimum temperature exceeds the tolerance limit. In later hatchlings warmer weather and decreased food availability promotes more rapid development resulting in a smaller body size compared to earlier hatchlings. The heaviest hatchlings come from colder habitats. Increased population density also results in decreased adult size as well as slower development.
+
+
+=== Diapause ===
+C. brunneus overwinter via obligate egg diapause. Research suggests that diapause can be broken regardless of the stage of development. Eggs can be kept for up to a year at 5 °C and still hatch. In the lab, diapause can be broken by keeping the eggs at 25 °C for two weeks before lowering the temperature to approximately 4 °C for several weeks.
+
+
+=== Additional instar ===
+Two populations of C. brunneus have females that have an additional instar inserted between instar II and III termed instar IIa. Morphological characteristics of instar IIa are a mixture of instars II and III. Females are of an intermediate size and length between instars II and III. Wing buds closely resemble the wing buds of instar II but have more venation than the typical wing buds of instar II. Genitalia development is closer to the development of instar III development.  
+Additional instars have been found in other acridid species that display sexual dimorphism in which females are larger than males such as C. parallelus. C. brunneus females on average are 3 to 4 times larger than males. The occurrence of the additional instar most likely reflects the habitat the C. brunneus females occur. Females with the additional instar have only been found to occur in the region of East Anglia in Britain. The longer summers in East Anglia may facilitate earlier hatching and an increased growth rate permitting the inclusion of instar IIa allowing the females to reach a larger size. Decreased availability of food may encourage rapid development also explaining the inclusion of an additional instar.
+
+
+=== Growth ===
+Development rate is not affected by humidity but is affected by heat source.C. brunneus reared with a radiant heat source take six to seven weeks less to reach their adult instar than those that are not. Development is also quicker in nymphs reared in low-density populations.
+Males and females weigh the same until the third instar where females outweigh the males. Females take a longer time to develop as they have longer instars than males. However, males develop more uniformly and live longer than females.
+In England, northern populations of C. brunneus  have faster development and shorter growth periods compared to southern populations.
+
+
+== Song ==
+C. brunneus produce song by moving stridulatory pegs against their elytra. The normal calling song consists of 5-12 notes that range between 0.25 and 0.50 seconds in length. Notes are followed by a 3-second period of rest. Males will repeat the song at intervals. 
+Males produce a rival song when they come into contact with other males. C. brunneus males produce sounds during the pauses of the other males' song. Notes in the rival song are produced three to four times faster than notes produced in the normal song. In the normal song notes are produced every 1.5–2 seconds but in the rival song notes are produced every 0.35–0.57 seconds.
+Courtship songs are produced after the male produces some notes from his normal song and fails to copulate. Courtship songs in C. brunneus consist of softer notes similar to the normal song produced at higher frequencies. After producing the song for a duration the male will attempt to copulate with the female. If he is unsuccessful he will produce several short, loud notes before producing the courtship song again. A receptive female will respond to the male's song leading to the alteration of song between her and the male. This is called the attraction song. 
+Male C. brunneus not only produce several different types of calls, they also show variation in characteristics of the same song. Stabilizing selection has acted on male C. brunneus song. Males with intermediate song characteristics are most successful while males with extreme characteristics are the least successful in attracting a mate. 
+Song production is sensitive to the environment.
+
+
+== Pollution ==
+C. brunneus are used as a bioindicators for heavy metal pollution. They are commonly found living in habitats that are polluted with heavy metals such as Szopienice and Olkusz in Poland. Some sites have heavy metal concentrations as high as 124.3±15.9 mg•kg-1. Individuals can have heavy metal concentrations as larger as 21.25 mg•kg-1. Exposure to heavy metal concentrations alters catalytic ability of enzymes. Individuals from heavily polluted sites have increased glutathione concentrations and decreased glutathione S-transferase activity. In the lab, individuals exposed to zinc during diapause have lower glutathione concentrations. Dimethoate exposure enhances the effect of heavy metal exposure decreasing glutathione concentrations and reducing acetylcholinesterase activity by almost 50%. Exposure to dimethoate also decreases glutathione peroxidase, glutathione reductase, and carboxylesterases activity. Because C. brunneus in non polluted reference sites do not experience the same decrease in enzyme activities, researchers have suggested that the decreased enzyme activities can be contributed to the tradeoff associated with adapting to living in heavily polluted habitats. Individuals are forced to allocate more energy towards neutralizing harmful effects of heavy metals instead of allocating the energy to growth and development.
+
+
+== References ==

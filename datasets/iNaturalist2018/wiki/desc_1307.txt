@@ -1,0 +1,131 @@
+Mythimna unipuncta, the true armyworm moth, white-speck moth, common armyworm or rice armyworm, is a nocturnal agricultural pest belonging to the family Noctuidae. This moth is also commonly referred to by the scientific name Pseudaletia unipuncta. The species was first described by Adrian Hardy Haworth in 1809. Mythimna unipuncta is found in the Americas and in parts of Europe, Africa and Asia. Its original distribution is North and South America. It has been introduced to other places from there. They are known as armyworms because the caterpillars move in lines as a massive group, like an army, from field to field, damaging crops.The true armyworm has a distinct migration pattern in which they travel north in the spring and south in the fall to ensure that mating occurs in a favorable environment in the summer. While progressing through the life cycle stages of egg, larva, pupa, and adult, this species must avoid attack from predatory bugs, birds, wasp and fly parasitoids, and bacterial and fungal diseases. As polygamous insects, females release sex pheromones and choose multiple males as mates. The production and release of the pheromones are influenced by temperature, photoperiod, and the juvenile hormone. Hearing is an important sense for the true armyworm, necessary for mating and evading bat predation.
+
+
+== Geographic range ==
+M. unipuncta are commonly found around the world including the Americas, southern Europe, central Africa, and western Asia. In North America, they inhabit areas east of the Rocky Mountains and in northern Canada.
+
+
+== Food resources ==
+
+
+=== Larvae ===
+Larvae feed and damage on a variety of Graminae (weedy grasses) and other crops.
+
+
+=== Adults ===
+Adults feed on the nectar of various types of flowers and will eat ripe or decaying fruit.
+
+
+== Life history ==
+
+
+=== Life cycle ===
+In a given year, there can be two to three generations, each generation requiring 30–50 days to complete.
+
+
+=== Egg ===
+Adults oviposit in groups of 2 to 5 rows on dry leaves and grass, especially between the leaf sheath and blade. Females may deposit up to 80 eggs per cluster, leading to highly dense larvae populations. Total reproductive capacity for females is between 500-1500 eggs. The egg stage lasts on average 3.5 days in warmer weather and 6.5 days in cooler weather.
+The eggs appear to be a white or yellowish color but change to a gray hue right before eclosion. A sticky material on the surface of the egg sticks to surrounding foliage and helps hide the eggs.
+
+
+=== Larvae ===
+The true armyworm larval stage lasts at least six instars but may extend to nine. The caterpillar grows from 4 to 35 mm within this stage. The larval stage lasts about 20 days in warmer weather and 30 days in cooler weather. When the larvae hatch, they feed on the foliage on which they were laid, but if disrupted, larvae release silk and fall into the soil. Larvae in the later instars are nocturnal and will often hide under the soil for protection during daylight.
+The larvae are usually grayish green or grayish brown but have characteristic longitudinal stripes along the length of the body. Seitz describes it "The larva is green to brown, freckled with darker; the lines obscure; dorsal line almost lost in a dark clouding; subdorsal lines plainer, with the upper edge diffuse: lateral and spiracular lines white."
+
+
+=== Pupa ===
+Pupation occurs underground in a silken case produced by the larvae. The pupa is usually 13–17 mm long and 5–6 mm wide. A pair of hooks protrude from the abdomen. The pupal stage lasts 7–14 days in warmer conditions and up to 40 days in cooler conditions.
+The color of the pupae is initially yellowish brown but changes to a mahogany-brown hue.
+
+
+=== Adult ===
+The adult true armyworms are nocturnal insects. A complete generation from egg to adult lasts 30–50 days. Life expectancy in warm conditions is 9 days in males and 10 days in females. In cooler conditions, life expectancy is 19 days in males and 17 days in females.
+Adults have a wingspan of approximately 4 cm. Black dots line the anterior edge of the forewings, making them look very pointed. There is a centrally located darker area that has several white dots as well. The hindwings have a more grayish tint. In Seitz it is described thus- The forewings are ochreous grey, freckled with darker grey, often suffused with rufous and with obscure markings. The orbicular and reniform stigmata are pale or yellowish, the latter with a white dot at lower end. There is an outer row of dark dots on veins, joined by a dark streak from apex. The hindwings are fuscous grey, paler basewards, the veins dark.
+
+
+== Migration ==
+P. unipuncta are seasonal migratory moths that travel north in the spring to escape high temperatures and south in the winter to escape cold temperatures. It has been shown that females reared in high temperatures mated less often, and those that did copulate experienced a 10-fold decrease in fertile egg production compared to females reared in temperate conditions. This could indicate an evolutionarily beneficial reason for this migratory behavior. Females flying in the spring northern migration were found to have developed ovaries and mating experience whereas females flying in the fall southern migration were found to have little or no reproductive organ development. This lends further support to mating being favored in the summer months.
+
+
+== Enemies ==
+
+
+=== Predators ===
+Many species feed on armyworm larvae. These include ground beetles, who share the same habitat in the soil, in addition to predatory bugs, ants, and spiders. The bobolink, a small type of blackbird, has been nicknamed the "armyworm bird" in North America because of its predation on armyworms. Other birds that pose a predation risk are crows and starlings.
+
+
+=== Parasitoids ===
+There are over 60 wasp and fly parasitoid species that terrorize the true armyworm. The larvae of the parasitoids live in the true armyworm and ultimately kill the host. Some examples of wasp parasitoids include Meteorus autographae and Cotesia marginiventris.
+
+
+=== Diseases ===
+Bacterial and fungal diseases can harm the true armyworm especially in densely populated areas. In particular, the fungus Metarhizium anisopliae has been recorded. Viral infections including several granulosis, cytoplasmic polyhedrosis, and nuclear polyhedrosis can wipe out entire populations, especially when coupled with poor food and weather conditions.
+
+
+== Mating ==
+
+
+=== Female calling behavior ===
+When females are ready to mate, they release sex pheromones through a behavior known as calling. On average, this behavior is displayed around 4–6 days after emergence; age of calling onset is determined by ambient temperature and photoperiod. Low temperatures and short photoperiods delay the calling period, but higher temperatures and long photoperiods trigger calling period sooner after emergence These are consistent with the yearly changes in the behavior of P. unipuncta: the moth is in migration in the fall and spring seasons, and P. unipuncta prefer to mate in the summer. Females can mate about 5 or 6 times in their lifetime.
+
+
+=== Juvenile hormone ===
+The juvenile hormone, released by the corpora allota, is necessary for females to produce and release pheromones through their calling behavior. The corpora allata is an endocrine gland that when removed, causes pheromone synthesis and calling behavior to cease. The juvenile hormone also plays a role in ovarian development. When the corpora allata is removed in females, the ovaries are underdeveloped, whereas in insects with intact corpora allata, mature gametes are formed. The ovaries are not necessary for pheromone production or release, though, because removing the ovaries did not impact pheromone levels in the insect. Neuroendocrine control of calling behavior allows P. unipuncta to determine when mating is favorable or not.
+
+
+=== Female mate choice ===
+Males have specific scent organs called hair-pencils that contain benzyl alcohol in young males as well as benzaldehyde and acetic acid. Female antennae can detect benzaldehyde and acetic acid. It has been shown that females are more likely to choose males with intact hair-pencils than males with hair-pencils removed. However, these scent organs are not necessary for copulation as a significant portion of females will still mate with males with no hairpencils. The amount of sex pheromone released by males decreases as the number of matings increase. It has been shown that females reject males with lower pheromone levels.Females reject males in multiple ways. First, the female may walk or fly away. If the male has already clasped the female, the female will arch her abdomen and walk or fly away in the opposite direction until the male releases his grip.
+
+
+=== Female abdominal marks ===
+Non-virgin females are often marked on the abdomen after mating by the male. However, many non-mated females have markings. This may be from males clasping the females, leaving a mark, but unsuccessfully copulating.
+
+
+=== Male mating habits ===
+Males wait on average three days after eclosion to begin mating. The delay can be attributed to the time it takes to transfer sperm to the duplex, an accessory gland. After every mating, the male must wait 6 hours for the duplex to be refilled in order to mate again. Males have at least two partners in their lifetime. Males who have a higher reproductive rate and mate more frequently suffer from a shorter lifespan than virgin males or males that mate less frequently. There is a limit to the number of mates a male can have, though, because after approximately the seventh mating, eggs in females are not properly developed due to deficient and limited ejaculate.In the fall, males do not respond to female sex pheromones, indicating that males also delay mating before winter and during migration.
+
+
+=== Preventing cross-species mating ===
+M. unipuncta males can distinguish females of their own species from those of other species by recognizing the contents of the female sex pheromone. One study looked at how M. unipuncta males responded to lures containing their own pheromone and to lures containing the sex pheromone of a sympatric species known as Sesamia nonagrioides. When (Z)-11-hexadecenal, a component found in the sex pheromones of S. nonagrioides females, was added to the lures, the M. unipuncta males were less attracted. Therefore, the males' ability to detect certain acetates in the pheromones serves as a reproductive isolating mechanism and prevents cross-species mating.
+
+
+== Physiology ==
+
+
+=== Hearing ===
+It has been suggested that hearing is important for mating. Females will often increase their wing fanning frequency when males are approaching. In response to female sex pheromones, males may produce a low-frequency trembling noise.When echolocation sounds of bats were simulated around P. unipuncta, females stopped calling behavior and males stopped flapping their wings. This species uses their tympanal organ to stop mating behavior in the presence of predators.
+
+
+== Interactions with humans ==
+
+
+=== Pest of crop plants ===
+The true armyworm is considered an agricultural pest. During the caterpillar stage, the larvae feed on leaves. This species prefers grass weeds, but when those are depleted, they quickly move to crops. Outbreaks of true armyworm swarms are not uncommon.In the United States, the western regions of New York experienced an outbreak of common armyworms around May 2012. While the infestation remained fairly localized, it obliterated several hay and corn fields.When fields are prone to being attacked, the crops should be checked periodically, especially in the first two weeks of June. Pheromone traps can be used to gauge size of adult populations. The damage on leaves is a telling sign that insecticides and baits may be useful in combatting an outbreak.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+^  The flight season refers to the British Isles. This may vary in other parts of the range.
+
+
+== See also ==
+African armyworm (Spodoptera exempta) (Africa)
+Fall armyworm (Spodoptera frugiperda) (North and South America)
+Northern armyworm, oriental armyworm or rice ear-cutting caterpillar (Mythimna separata) (Asia)
+
+
+== References ==
+
+Waring, Paul & Townsend, Martin (2006). Nachtvlinders, veldgids met alle in Nederland en België voorkomende soorten. Baarn. (in Dutch)
+
+
+== External links ==
+Kimber, Ian. "73.296 BF2203 White-speck Mythimna unipuncta (Haworth, 1809)". UKMoths. Retrieved July 4, 2019.
+Savela, Markku. "Mythimna unipuncta (Haworth, 1809)". Lepidoptera and Some Other Life Forms. Retrieved July 4, 2019. Taxonomy
+Lepiforum e.V.
+De Vlinderstichting (in Dutch)

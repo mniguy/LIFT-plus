@@ -1,0 +1,70 @@
+The cotton bollworm, corn earworm, or Old World (African) bollworm (Helicoverpa armigera) (also known as the scarce bordered straw in the UK, where it is a migrant) is a moth, the larvae of which feed on a wide range of plants, including many important cultivated crops. It is a major pest in cotton and one of the most polyphagous and cosmopolitan pest species. It should not be confused with the similarly named, related species Helicoverpa zea.
+
+
+== Distribution ==
+This species comprises two sub-species: Helicoverpa armigera armigera is native and widespread in central and southern Europe, temperate Asia and Africa; Helicoverpa armigera conferta is native to Australia, and Oceania. The former sub-species has also recently been confirmed to have successfully invaded Brazil and has since spread across much of South America and reached the Caribbean. It is a migrant species, able to reach Scandinavia and other northern territories.
+
+
+== Morphology ==
+
+The cotton bollworm is very variable in both size and colour. The body length varies between 12 and 20 millimetres (1⁄2 and 3⁄4 in) with a wingspan of 30–40 millimetres (1+1⁄4–1+1⁄2 in). The fore wings are yellowish to orange in females and greenish-gray in males, with a slightly darker transversal band in the distal third. The external transversal and submarginal lines and the reniform spot are diffused. The hind wings are a pale yellow with a narrow brown band at the external edge and a dark round spot in the middle.
+
+
+== Lifecycle ==
+
+The female cotton bollworm can lay several hundred eggs, distributed on various parts of the plant. Under favourable conditions, the eggs can hatch into larvae within three days and the whole lifecycle can be completed in just over a month.The eggs are spherical and 0.4 to 0.6 millimetres (1⁄64 to 3⁄128 in) in diameter, and have a ribbed surface. They are white, later becoming greenish.The larvae take 13 to 22 days to develop, reaching up to 40 millimetres (1+1⁄2 in) long in the sixth instar. Their colouring is variable, but mostly greenish and yellow to red-brown. The head is yellow with several spots. Three dark stripes extend along the dorsal side and one yellow light stripe is situated under the spiracles on the lateral side. The ventral parts of the larvae are pale. They are rather aggressive, occasionally carnivorous and may even cannibalise each other. If disturbed, they fall from the plant and curl up on the ground.
+The pupae develop inside a silken cocoon over 10 to 15 days in soil at a depth of 4–10 centimetres (1+1⁄2–4 in), or in cotton bolls or maize ears.
+
+
+== Host plants ==
+The cotton bollworm is a highly polyphagous species. The most important crop hosts are tomato, cotton, pigeon pea, chickpea, rice, sorghum, and cowpea. Other hosts include groundnut, okra, peas, field beans, soybeans, lucerne, Phaseolus spp., other Leguminosae, tobacco, potatoes, maize, flax, Dianthus, Rosa, Pelargonium, Chrysanthemum, Lavandula angustifolia, a number of fruit trees, forest trees, and a range of vegetable crops. In Russia and adjacent countries, the larvae populate more than 120 plant species, favouring Solanum, Datura, Hyoscyamus, Atriplex, and Amaranthus genera.
+
+
+== Economic significance ==
+The greatest damage is caused to cotton, tomatoes, maize, chick peas, alfalfa, and tobacco. The economic threshold of harmfulness in central Asia is three to five larvae per hundred plants of long-staple cotton and eight to 12 larvae per hundred plants on medium-staple cotton. In cotton crops, blooms that have been attacked may open prematurely and stay fruitless. When the bolls are damaged, some will fall off and others will fail to produce lint or produce lint of an inferior quality. Secondary infections by fungi and bacteria are common and may lead to rotting of fruits. Injury to the growing tips of plants may disturb their development, maturity may be delayed, and the fruits may be dropped. Control measures include the use of NOCTOVI adulticide attract and kill formulation, growing of resistant varieties, weeding, inter-row cultivation, removing crop residues, deep autumn ploughing, winter watering to destroy the pupae, the use of insecticides or biological control through the release of entomophages such as Trichogramma spp. and Habrobracon hebetor. Monitoring is possible by the use of sex pheromone traps. Development of Bt cotton (genetically modified to produce Bacillus thuringiensis toxin) improved yields of lint.
+
+
+== Genetics ==
+The genomes of Helicoverpa armigera conferta and Helicoverpa zea were published in July 2017. Significant differences have been identified between Chinese and Greek populations, and between those tending toward short migration and long migration. H. armigera populations already had widespread resistance to the Bt toxins Cry1Ab, Cry1Ac, Cry2Ab, and Vip3A before the multiple recent invasions of South America. The existence/prevalence of anti-Cry mutations (for example mutations in ABCA2) and other insecticide resistance mutations (for example, the cytochrome p450 mutation CYP337B3) is unassessed as of 2019 and such information will be needed to monitor changes in resistance across populations over time.
+
+
+== Population genetics ==
+Overall H. amerigera is the best characterised out of Helicoverpa due to its longstanding and severe agricultural impact.
+
+
+== Management ==
+
+
+=== Prevention ===
+The CABI-led programme, Plantwise and their partners suggest planting trap crops and intercropping with crops including cowpea, sunflower, maize, marigold. They also recommend rotating with cereal crops and other non-host crops to prevent the population from building up.Partners of Plantwise suggest introducing spacing when planting, removing weeds, crop residues and volunteer crops.Introducing bird perches and providing habitats for natural enemies are methods that can be used to prevent pest populations building up.
+
+
+=== Monitoring ===
+The caterpillars feed on buds, flowers, grains, fruits, pods; sometimes leaves and stems. In cotton they are found on the vegetative part and reproductive structures. In corn, millet at sorghum they attack the grain. In tomato and beans caterpillars bore into young fruits and in chickpea they attack foliage and consume developing seeds.
+
+
+=== Direct control ===
+In small plots, Plantwise suggests handpicking and destroying eggs and young caterpillars is possible.CABI and Plantwise partners recommend introducing light and pheromone traps to trap adult moths.Plantwise and partners have suggested the release of natural enemies, including the parasitoid Trichogramma brassilences or T. pretiosum as methods of control.
+
+
+== Sources ==
+ This article incorporates text from a free content work.  Licensed under CC-BY-SA License statement/permission on Wikimedia Commons. Text taken from PMDG: Cotton bollworm in chickpea - Ethiopia,  Atsbha Gebreslasie, Kifle G/zihe, CABI. To learn how to add open license text to Wikipedia articles, please see this how-to page. For information on reusing text from Wikipedia, please see the terms of use.
+ This article incorporates text from a free content work.  Licensed under CC-BY-SA License statement/permission on Wikimedia Commons. Text taken from PMDG: Cotton bollworm - Ghana,  CABI, Patrick Beseh, CABI. To learn how to add open license text to Wikipedia articles, please see this how-to page. For information on reusing text from Wikipedia, please see the terms of use.
+ This article incorporates text from a free content work.  Licensed under CC-BY-SA License statement/permission on Wikimedia Commons. Text taken from PMDG: Bollworm on cotton - Uganda,  Robert Amayo Robert and Dennis Gayi, CABI. To learn how to add open license text to Wikipedia articles, please see this how-to page. For information on reusing text from Wikipedia, please see the terms of use.
+ This article incorporates text from a free content work.  Licensed under CC-BY-SA License statement/permission on Wikimedia Commons. Text taken from PMDG: Tomato fruit borer - India,  Dr. Kamlesh Bali, Sushil Kumar and Arun Khajuria, CABI. To learn how to add open license text to Wikipedia articles, please see this how-to page. For information on reusing text from Wikipedia, please see the terms of use.
+ This article incorporates text from a free content work.  Licensed under CC-BY-SA License statement/permission on Wikimedia Commons. Text taken from PMDG Green List: Cotton bollworm,  Plantwise, CABI. To learn how to add open license text to Wikipedia articles, please see this how-to page. For information on reusing text from Wikipedia, please see the terms of use.
+
+
+== References ==
+
+
+== External links ==
+African moths
+Fauna Europaea
+Funet.fi
+Helicoverpa genome publication available online
+Helicoverpa armigera genome assembly at NCBI: GCF_002156985.1/
+Helicoverpa armigera Genome Project data on InsectaCentral Archived 2011-07-26 at the Wayback Machine
+Lepiforum.de
+UK Moths
+Species Profile- Old World Bollworm (Helicoverpa armigera), National Invasive Species Information Center, United States National Agricultural Library.

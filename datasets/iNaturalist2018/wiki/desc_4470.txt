@@ -1,0 +1,69 @@
+Gonatodes albogularis, which has been called a number of vernacular names in English, is a smallish species of gecko found in warm parts of Central and South America, Cuba, Hispaniola and Jamaica. It is sexually dimorphic: the male is colourful, while the female is a more drab grey. The fingers do not have lamellar pads for climbing smooth surfaces like many other geckos but instead have normal claws like most lizards. At one time the species had a breeding population in southern Florida, especially Key West, but this population appears to have died out by the early 1990s.
+
+
+== Taxonomy ==
+This gecko was first scientifically described by André Marie Constant Duméril and Gabriel Bibron in 1836 using a few specimens sent to Paris by Auguste Plée from Martinique. They also were able to examine numerous specimens collected in Cuba by the anarchist polymath Ramón de la Sagra, who had arrived in Paris from that island the previous year with many objects of natural history.Gonatodes albogularis is the type species for the genus Gonatodes, because when Leopold Fitzinger defined the genus in 1843 he included three species in it: G. gravenhorstii, G. laevis and G. albogularis, because the first two names were nomina nuda, G. albogularis remains the only valid name for a type species by monotypy.
+
+
+=== Subspecies ===
+There are four subspecies as of 2020:
+Gonatodes albogularis albogularis (Duméril and Bibron, 1836)
+Gonatodes albogularis bodinii (Rivero Blanco, 1964) – First described as an independent species by Carlos Rivero-Blanco, first subsumed as a subspecies of this species by Beate Röll in 2009.
+Gonatodes albogularis fuscus (Hallowell, 1855) – First subsumed under this species by some taxonomists in 1962. It was considered an independent species by authorities such as the Reptile Database as of 2014 and Röll in 2009, but herpetologists from the United States such as Robert Powell and Robert W. Henderson have preferred to consider it to be a subspecies.
+Gonatodes albogularis notatus (Reinhardt and Lütken, 1862) – The form from the islands in the north of the Caribbean.
+
+
+=== Types ===
+There are two syntypes for the nominate form which are kept at the Muséum national d'histoire naturelle in Paris. These were supposedly collected on Martinique, although the species does not appear to occur there.
+
+
+=== Etymology ===
+The etymology of the specific epithet albogularis is from the Latin language adjective albus, meaning '(dull) white', gula, meaning 'throat', and the Latin suffix -arius, which means 'pertaining to'; i.e. together giving 'white-throated', as this described their syntypes. This name was chosen by Duméril and Bibron for this taxon because the specimens they examined had the lower part of the head and the neck being "un blanc extrêmement pur", this colour also being found on the thighs, belly and underside of the tail, which contrasted sharply with "un noir profond" of the flanks and sides of the body -they describe the anterior of the creature as slate-coloured, and the breast whitish-grey. Clearly, dead animals discolour somewhat when preserved, or at least did so with the methods of two centuries ago!
+
+
+== Common names ==
+It has traditionally been called the white-throated clawed gecko or white-throated gecko in English, which is a calque of its scientific name. The name yellow-headed gecko is now commonly used for this species in the United States, but it originally applied to Gonatodes fuscus, now G. albogularis fuscus, which is the subspecies formerly found as an introduced species in Florida. In Venezuela it is known as mea-mea or machurito in Spanish. In La Guajira, where the language is the Arawakan Wayuunaiki or heavily influenced by it, this gecko is called curumachár or culumasár. The Mexican Comisión Nacional para el Conocimiento y Uso de la Biodiversidad officiated the vernacular name in Spanish of geco cabeza amarilla in 2001. A name in Colombia is güeco cabeciamarillo. Another Spanish name is limpiacasa. The Papiamento name for this gecko (and most other species) is pega-pega.
+
+
+== Description ==
+This gecko can grow up to between 69–90 mm (2.7–3.5 in). A maximal length of 100 mm (3.9 in) is also given. Like almost all Gonatodes species it is sexually dimorphic. Male geckos are colourful and have yellowish to orange-coloured heads and dark blue bodies, whereas the female geckos are more drab, having greyish white or light brown heads and bodies. The species are also identified by their round pupils and digits without extending lamellae. It has no eyelids. The young geckos are coloured like the females.
+
+
+=== Similar species ===
+
+In the Lesser Antilles it can be distinguished from G. antillensis by having a much rougher skin texture. The males have a darker-coloured body, and have a blue patch near the ear. The pupil is always round.
+
+
+== Distribution ==
+Gonatodes albogularis albogularisThe nominate subspecies is known from the Lesser Antilles, northern Colombia (Valle del Cauca, Chocó, La Guajira), Venezuela (Barinas and elsewhere). The first specimens were supposedly collected on Martinique in the early 19th century, but the species has never been recovered from that island again. There are some records from Trinidad and Tobago, but as of 2018 it is believed that these are in error and based on misidentifications with G. vittatus, which is an extremely common species in that country. The syntypes of the nominate form have also been said to have been collected on Cuba, but the nominate form is also thought to be introduced to the island.
+
+In the Lesser Antilles it is found on Aruba and Curaçao. Wagenaar
+Hummelinck proposed that this distribution is not natural and that the species is introduced on these islands. On Curaçao it is particularly common in the central portion of the island around the old plantations of Daniël and Siberië.The populations in Venezuela are found in the ecoregions of: the islands of the coast of the mainland, the coastal strip of the mainland, the lowlands around Lake Maracaibo, the Cordillera de Mérida, the Serranía del Perijá, the hills of Lara and Falcón and the Orinoco Delta. It is absent from the central Llanos (plains), the Amazon rainforest in the south, and the Guyana Shield in the east, which together correspond to the vast majority of the territory of the country.
+Gonatodes albogularis bodiniiThis taxon was first collected on Monje Grande del Sur, Venezuela, in the early 1960s. It appears to be endemic to the Los Monjes Archipelago and found on both Monje Grande del Sur and Monje Grande del Norte.
+Gonatodes albogularis fuscusG. albogularis fuscus was first collected in Nicaragua, likely at the port town of El Rama, although as of 1988 the holotype is missing. It is also distributed in Panama, Costa Rica, El Salvador, and Cuba, including Cayo Santa María, and western Colombia.This taxon was first collected around Miami, Florida, in 1934, and is thought to have spread from the Florida Keys, although the first specimen was only collected there in 1939. It may have been transported from the Keys to other areas in southern Florida in the early 20th century, but it seems to have naturally died out throughout the Florida mainland or never truly established breeding populations there. The last specimen was collected in Key West in 1989, and the last sighting of the species was in Key West in 1995. Monitoring for the creature by gecko specialist herpetologists from 1995 to 2005 throughout southern Florida failed to provide any evidence that the species remained extant in the region.
+Gonatodes albogularis notatusThis taxon was probably first collected in the city of Aquin, Haiti, although in 1988 Schartz and Henderson gave a long list of different type localities throughout Haiti for the single specimen. It is found on the islands of Jamaica, Grand Cayman Island, Îlet à Cabrit (part of the Guadeloupe archipelago of France) and Hispaniola. It has been recorded at altitudes from sea level to 3,000 feet (910 m).On Hispaniola it is primarily found in coastal areas and is restricted to the west of Haiti, it had not been recorded from eastern Haiti or anywhere in the Dominican Republic as of 1980. It is widespread on the Tiburon Peninsula of Haiti and occurring on the Plaine du Cul-de-Sac and the northern shore of the Gulf of Gonâve northwards to the city of Gonaïves, including the Ile de la Gonâve.
+UnknownThe species also occur in Mexico (Chiapas, Veracruz), Guatemala and Honduras, but it is unclear to which subspecies these populations belong. It has been stated to be found in Belize, but it has never actually been recorded in that country. The population on Cuba has also been said to represent the nominate subspecies which is generally from northern South America, as well as fuscus from southern Central America, although notatus is found on the surrounding Caribbean islands, and the species has also been said to be introduced to the nation.
+
+
+== Ecology ==
+Yellow-headed geckos feed on insects. They are mainly diurnal, although they avoid direct sunlight. A study in Panama found that they may lay eggs on a seasonal basis, laying more eggs during the rainy season. Only one egg is laid at a time.
+
+
+=== Habitat ===
+The species seems to prefer tropical dry forest, forest edges and anthropogenic habitats. In Haiti it is primarily found along the coast as an "edificarian" -this means it prefers human buildings as habitat. They can sometimes be found indoors.
+
+
+== Relationship to humans ==
+Up until the 1950s the pega-pega was much feared in the Antilles, where the superstition formerly existed that once it climbed on you it would latch itself so tightly it would be almost impossible to remove, with the best remedies being burning it off with a lit cigarette, a hot clothes iron or by pouring boiling water over it. Some also claimed it was poisonous. This superstition had largely faded among the younger generation by the turn of the century.
+
+
+== See also ==
+Dwarf yellow-headed gecko
+Yellow-headed day gecko
+
+
+== References ==
+
+
+== External links ==
+ Media related to Gonatodes albogularis at Wikimedia Commons

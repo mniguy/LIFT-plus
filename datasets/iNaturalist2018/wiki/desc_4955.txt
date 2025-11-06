@@ -1,0 +1,45 @@
+Lobaria pulmonaria is a large epiphytic lichen consisting of an ascomycete fungus and a green algal partner living together in a symbiotic relationship with a cyanobacterium—a symbiosis involving members of three kingdoms of organisms. Commonly known by various names like tree lungwort, lung lichen, lung moss, lungwort lichen, oak lungs or oak lungwort, it is sensitive to air pollution and is also harmed by habitat loss and changes in forestry practices. Its population has declined across Europe and L. pulmonaria is considered endangered in many lowland areas. The species has a history of use in herbal medicines, and recent research has corroborated some medicinal properties of lichen extracts.
+
+
+== Description ==
+
+It is a foliose lichen and its leaf-like thallus is green, leathery and lobed with a pattern of ridges and depressions on the upper surface. Bright green under moist conditions, it becomes brownish and papery when dry. This species often has a fine layers of hairs, a tomentum, on its lower surface. The cortex, the outer protective layer on the thallus surface, is roughly comparable to the epidermis of a green plant. The thallus is typically 5–15 centimetres (2.0–5.9 in) in diameter, with individual lobes 1–3 centimetres (0.39–1.18 in) wide and up to 7 cm long. The asexual reproductive structures soredia and isidia are present on the thallus surface. Minute (0.5–1.5 mm in diameter) cephalodia—pockets of cyanobacteria—are often present on the lower surface of the thallus; these spots are conspicuously darker than the green surface of the thallus. Like other foliose lichens, the thallus is only loosely attached to the surface on which it grows.
+
+
+=== Photobionts ===
+The thallus contains internal structures known as cephalodia, characteristic of three-membered lichen symbioses involving two photobionts (the photosynthetic symbionts in the fungal-algal lichen relationship). These internal cephalodia, found between the "ribs" of the thallus surface, arise when blue-green algae (from the genus Nostoc) on the thallus surface are enveloped during mycobiont growth. Structurally, cephalodia consist of dense aggregates of Nostoc cells surrounded by thin-walled hyphae—this delimits them from the rest of the thallus which contains a loose structure of thick-walled hyphae. Blue-green cyanobacteria can fix atmospheric nitrogen, providing a nutrient for the lichen. The other photobiont of L. pulmonaria is the green alga Dictyochloropsis reticulata.
+
+
+== Reproduction ==
+Lobaria pulmonaria has the ability to form both vegetative propagation and sexual propagules at an age of about 25 years.  In sexual reproduction, the species produces small reddish-brown discs known as apothecia containing asci, from which spores are forcibly released into the air (like ballistospores). Based on studies of ascospore germination, it has been suggested that L. pulmonaria spores use some mechanism to inhibit germination—the inhibition is lifted when the spores are grown in a synthetic growth medium containing an adsorbent like bovine serum albumin or α-cyclodextrin.Dispersal by vegetative propagules (via soredia or isidia) has been determined as the predominant mode of reproduction in L. pulmonaria. In this method, the protruding propagules become dry and brittle during the regular wet/dry cycles of the lichen, and can easily crumble off the thallus. These fragments may develop into new thalli, either at the same locale or at a new site after dispersal by wind or rain. A number of steps are required for the development of the vegetative propagules, including the degeneration of the thallus cortex, replication of green algal cells, and entanglement of fungal hyphae with the green algal cells.  This steps lead to an increase in internal pressure which eventually breaks through the cortex. Continued growth leads to these granules being pushed upwards and out of the thallus surface.
+
+
+== Distribution and habitat ==
+
+It has a wide distribution in Europe, Asia, North America and Africa, preferring damp habitats with high rainfall, especially coastal areas. It is the most widely distributed and most common Lobaria species in North America. Associated with old-growth forests, its presence and abundance may be used as an indicator of forest age, at least in the Interior Cedar-Hemlock biogeoclimatic zone in eastern British Columbia. It is also found in pasture-woodlands. It usually grows on the bark of broad-leaved trees such as oak, beech and maple but will also grow on rocks. In the laboratory, L. pulmonaria has been grown on nylon microfilaments.
+Various environmental factors are thought to affect the distribution of L. pulmonaria, such as temperature, moisture (average humidity, rapidity and frequency of wet-dry cycles), sunlight exposure, and levels of air pollution. Attempts to quantitatively evaluate the contribution of these factors to lichen growth is difficult because differences in the original environment from which the lichen thalli are collected will greatly affect heat and desiccation tolerances.Due to declining population, L. pulmonaria is considered to be rare or threatened in many parts of the world, especially in lowland areas of Europe. The decline has been attributed to industrial forestry and air pollution, particularly acid rain. L. pulmonaria, like other lichens containing a blue-green algal component, are particularly susceptible to the effects of acid rain, because the subsequent decrease in pH reduces nitrogen fixation through inhibition of the algal nitrogenase enzyme.
+
+
+== Chemical compounds ==
+Lobaria pulmonaria is known to contain a variety of acids common to lichens, such as stictic acid, desmethyl stictic acid, gyrophoric acid, tenuiorin, constictic acid, norstictic acid, peristictic acid, and methylnorstictic acid.  These compounds, collectively known as depsidones, are known to be involved in defense against grazing herbivores like lichen-feeding molluscs. It also contains the sugar alcohols D-arabitol, volemitol, in addition to several carotenoids (total content > 10 mg/kg), such as alpha carotene, beta carotene, and beta cryptoxanthin. The upper cortex of the lichen contains melanins that screen UV and PAR radiation from the photobiont. The synthesis of melanin pigments in the lichen increases in response to greater solar irradiation, and shade-adapted thalli are greenish-grey in the air-dry state, while sun-exposed thalli can be dark brown in color. This adaptation helps protect the photosymbiont D. reticulata, known to be relatively intolerant to high light levels.Also known to be present are various steroids, namely ergosterol, episterol, fecosterol, and lichesterol.
+
+
+== Uses ==
+
+
+=== Medicinal ===
+Its shape somewhat resembles the tissue inside lungs and therefore it is thought to be a remedy for lung diseases based on the doctrine of signatures. The lichen's common English names are derived from this association. Gerard's book  The Herball or General Historie of plants (1597) recommends L. pulmonaria as medicinally valuable. It is still used for asthma, urinary incontinence and lack of appetite.  In India it is used as a traditional medicine to treat hemorrhages and eczema, and it is used as a remedy for coughing up blood by the Hesquiaht in British Columbia, Canada. An ethnophytotherapeutical survey of the high Molise region in central-southern Italy revealed that L. pulmonaria is used as an antiseptic, and is rubbed on wounds.A hot-water extract prepared using this species has been shown to have anti-inflammatory and ulcer-preventing activities. Also, methanol extracts were shown to have a protective effect on the gastrointestinal system of rats, possibly by reducing oxidative stress and reducing the inflammatory effects of neutrophils. Furthermore, methanol extracts also have potent antioxidative activity and reducing power, probably due to the presence of phenolic compounds.
+
+
+=== Other uses ===
+Lobaria pulmonaria has also been used to produce an orange dye for wool, in the tanning of leather, in the manufacture of perfumes and as an ingredient in brewing.
+
+
+== References ==
+
+
+== External links ==
+ Media related to Lobaria pulmonaria at Wikimedia Commons
+ Data related to Lobaria pulmonaria at Wikispecies
+University of British Columbia Botany Photo of the Day
+Catherine Daniels: The Biogeography of the Lungwort

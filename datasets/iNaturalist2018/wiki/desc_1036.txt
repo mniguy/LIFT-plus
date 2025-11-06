@@ -1,0 +1,59 @@
+Astraptes fulgerator, the two-barred flasher, is a spread-wing skipper butterfly in the genus Astraptes which may constitute a possible cryptic species complex. It ranges all over the Americas, from the southern United States to northern Argentina.
+
+
+== Description ==
+
+Astraptes fulgerator's adults all look quite alike. They are mid-sized skipper butterflies with the typical wing shape of this group. The upperside is black, with basal to postbasal blue corners which are more extensive on the forewings. There is one discal-tomal and one apical band on the forewing; these are usually off white to light blue but the former may be quite white towards the costal margin. The thorax has bluish hair on the back, the underside is yellow to orange.The caterpillars and pupae show a wide range of colors and patterns, and the caterpillars also vary in food preference. Last-instar caterpillars are black with a pattern consisting of light to bright yellow dots along the sides, or rings of varying thickness, sometimes interrupted on the back, in a range of colors varying from white to orange red.
+
+
+=== Larval food plants ===
+This species is highly polyphagous, with most food plants belonging to the Fabaceae (legume family):
+Selected primary food plants
+Fabaceae
+Inga: I. exalata, I. oerstediana, I. punctata, I. sapindoides, I. vera and probably others
+Lonchocarpus (see also below)
+Senna: candle bush (S. alata), S. cobanensis, S. hayesiana, S. pallida, S. papillosa, S. undulata and probably others
+Malvaceae
+Hampea appendiculata (but see below)
+Sapindaceae
+Cupania: C. glabra, C. guatemalensis and probably othersSelected secondary and accidental food plants
+Capparaceae
+Capparis frondosa
+Fabaceae
+Canavalia brasiliensis
+Cassia: golden shower tree (C. fistula), C. grandis and possibly others
+Centrosema (butterfly peas): C. macrocarpum, C. plumieri and possibly others
+Desmodium glabrum
+Dioclea: D. malacocarpa, D. violacea and possibly others
+Mucuna holtonii
+Piscidia carthagenensis
+Malvaceae
+Byttneria catalpaefolia
+Rhamnaceae
+Karwinskia calderoni
+Salicaceae
+Casearia sylvestris
+Styracaceae
+Styrax argenteus
+
+
+== Systematics ==
+Due to the diversity of caterpillar colors and food plants it was suspected that the butterflies referred to as Astraptes fulgerator might be more than a single species. A controversial 2004 DNA barcoding study of a 648 base pair sequence from the Cytochrome c oxidase (COI) DNA sequence by Paul D. N. Hébert et al. led the authors to claim that at least ten sympatric populations in the Area de Conservación Guanacaste World Heritage Site in northwestern Costa Rica were in various stages of reproductive isolation. However, a later reanalysis of the same DNA sequence data using neighbor joining bootstrap, population aggregation analysis and cladistic haplotype analysis found that: "[a]t least three, but not more than seven mtDNA clades that may correspond to cryptic species are supported by the evidence". Also, where a specific DNA sequence did not correspond to its purported host plant, it was "simply dismissed with an ad hoc hypothesis and manifestly incorrect explanation" by Hébert and his coworkers. The improper use of taxonomic vocabulary was also criticized; Hébert et al. apply the terms "species" and "taxa" as if they were synonymous, but never actually validly described their proposed "species".
+
+		
+
+
+=== Cryptic variation ===
+The exact number of taxa involved is disputed, most of the "species" detected by the DNA barcoding study seem to be nothing more than morphs or incipient subspecies, coupled with a serious underestimation of variation. Still, two lineages appear to be well distinct and separable at least as subspecies: "CELT" has larvae with bold orange bands in the last instar, which were recorded only on Celtis iguanaea (Ulmaceae); "TRIGO" last-instar larvae have bold yellow bands and were found on the Malpighiales Trigonia (T. arborea, T. laevia and T. rugosa) and, apparently accidentally, on Licania arborea.Three more lineages are in need of further study. One, "NUMT", was initially dismissed as a numt pseudogene combined with sequencing error but may represent a hitherto unrecognized taxon. Two other lineages, "LOHAM" and "LONCHO", were considered highly distinct in the barcoding study but the reanalysis showed that this might be an error. The latter two are peculiar in some aspects, such as apparently never having bands or orange colors in the last instar stage and showing a preference for Lonchocarpus costaricensis, Lonchocarpus oliganthus, and Hampea appendiculata as larval food but are not monophagous. They appear to be an intermediate stage in lineage sorting and might be considered one or two subspecies if the two most distinct lineages are split off as species.The other lineages show a marked lack of agreement between morphological, ecological and genetical variation in the reanalysis of the supposed clusters. The entire range of caterpillar colors and patterns is found across one huge ill-structured cluster of genetic diversity. They are polyphagous, feeding preferentially on Inga and Senna as well as a variety of other plants, but apparently not on those preferred by the more distinct lineages except Hampea appendiculata.The proposed divergence times for the lineages are derived from a standard molecular clock model, which is today known to be incorrect.
+
+
+== Footnotes ==
+
+
+== References ==
+Brower, Andrew V.Z. (2006): Problems with DNA barcodes for species delimitation: 'ten species' of Astraptes fulgerator reassessed (Lepidoptera: Hesperiidae). Systematics and Biodiversity 4(2): 127–132. doi:10.1017/S147720000500191X PDF fulltext
+Hébert, Paul D.N.; Penton, Erin H.; Burns, John M.; Janzen, Daniel H. & Hallwachs, Winnie (2004): Ten species in one: DNA barcoding reveals cryptic species in the semitropical skipper butterfly Astraptes fulgerator. PNAS 101(41): 14812-14817. doi:10.1073/pnas.0406166101 PDF fulltext Supporting Appendices
+
+
+== External links ==
+Gallery of specimens as per Hébert et al. (2004). Retrieved 2007-DEC-17.

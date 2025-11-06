@@ -1,0 +1,73 @@
+Bombus ruderatus, the large garden bumblebee or ruderal bumblebee, is a species of long-tongued bumblebee found in Europe and in some parts of northern Africa. This species is the largest bumblebee in Britain and it uses its long face and tongue to pollinate hard-to-reach tubed flowers. Bumblebees are key pollinators in many agricultural ecosystems, which has led to B. ruderatus and other bumblebees being commercially bred and introduced into non-native countries, specifically New Zealand and Chile. Since its introduction in Chile, B. ruderatus has spread into Argentina as well. Population numbers have been declining and it has been placed on the Biodiversity Action Plan to help counteract these declines.
+
+
+== Taxonomy and phylogeny ==
+Bombus ruderatus is part of the order Hymenoptera and the family Apidae. B. ruderatus is in the genus Bombus and is one of 239 species of bumblebees, with 23 of those existing in Britain alone. B. ruderatus is part of the subgenus Megabombus, along with Bombus hortorum. B. ruderatus is most closely related to B. hortorum.
+
+
+== Description and identification ==
+The body lengths of B. ruderatus reach about 22 mm (0.87 in) in queens, 16 mm (0.63 in) in workers and 15 mm (0.59 in) in males. It has a long face and tongue, which is well adapted for feeding on long-tubed flowers. The basic color of the body is black with two yellow bands on its mesonoma—one on its scutellum and one on its pronotum—and a single thin yellow band on the abdomen. A black band is located on the interwing and separates the two yellow bands on the thorax. Similarly, queens are the most difficult to find as the bee is scarce in many areas and queens are less abundant within a colony itself.
+
+
+=== Similarities with Bombus hortorum ===
+There are many similarities between B. ruderatus and B. hortorum, making it difficult to distinguish between the two species. Due to numerous physical similarities, many scientists have suggested reassessing their current status as two distinct species. Both bees are similar sizes, are black with two yellow bands, and the drones have similar genitalia. Although they may be hard to assess at first glance, there are minor physical differences. For example, the width of two yellow bands on the scutellum and pronotum are relatively equal in B. ruderatus, while in B. hortorum, the band on the scutellum tends to be narrower than the band on the pronotum. Physical variations may exist within a species as well, making it important to use other sources to distinguish between the two species. Studies of mitochondrial DNA has shown a 6.2% divergence for COII and a 9.2% divergence for cytochrome b. These percentages are higher than the divergences between other distinct species, affirming that these bees are in fact two distinct species.
+
+
+=== Nests ===
+Most Bombus ruderatus nests tend to be subterranean. Queens have been seen to return to their maternal nest site, but will assess it indiscriminately to determine if it is suitable for colonization.
+
+
+== Distribution and habitat ==
+Bombus ruderatus is naturally found in Europe and north Africa, favoring large flower-rich areas of meadowland that support numerous species of plants with long-corolla flowers. It is vital that pollen and nectar sources are available within foraging distance of nests from April to September. Specifically in Europe, this species is present in Austria, Belgium, Great Britain, the Czech Republic, Denmark, France, Germany, Italy, Poland, Romania, Spain, and Switzerland. Since the 1800s it has been used commercially in non-native countries to assist with crop pollination. In 1885, B. ruderatus was introduced into New Zealand to pollinate the red clover plant, and in 1982, it was introduced into Chile for the same purpose. Since 1993, this species has also been seen in Argentina’s Patagonia, thought to have traveled there through the low-altitude sections of the Andes. Many parts of the world, including western Europe and North America, have seen declining populations of their native bumblebees due to many contributing factors. In Britain specifically, habitat fragmentation has led to declines in B. ruderatus, in both population size and pollination range. B. ruderatus is commonly found in sympatric distribution with B. hortorum, but the latter has seemed to be unaffected by fragmentation, since it is still relatively commonly in Britain. Conversely, B. ruderatus has become one of the most rare of the 23 English bumblebees.
+
+
+== Worker-Queen conflict ==
+
+
+=== Biased sex ratio ===
+In New Zealand, colonies started by natural queens of Bombus ruderatus tended to have a male-biased sex ratio. Additionally, the two sexes emerged at different times, with males usually emerging before new queens. Male-biased sex ratios tend to occur when queens have multiple mates.
+
+
+=== Larva ejection ===
+In Bombus ruderatus, worker oviposition has been seen in association with oophagy, which may include the queen eating eggs deposited by workers. Larvae ejection was also a common process done by workers and sometimes queens, and involved pulling live larvae out of cells and depositing them outside of the nest. Analysis of ejected and survivor larvae showed no morphological difference so the reason for ejection is unknown, but female ejection occurred more frequently than male ejection.
+
+
+== Diet ==
+In Argentina, Bombus ruderatus is most commonly found feeding from plant species from families Fabaceae, Alstroemeriaceae, and Rosaceae. Newly emergent queens tend to consume more pollen than the much smaller males.
+
+
+== Parasites ==
+Apicystis bombi, a pathogenic protozoan, has been recently found in Bombus ruderatus species in Argentina. Apicystis bombi can have many negative effects in bee populations due to it high virulence, its generalism for many different bumblebee species, and its ability to affect both commercially produced and native born colonies. Apicystis bombi can cause extreme physical and behavior effects within colonies, along with inhibiting colony foundation, both of which increase mortality. This parasite is thought to have been contracted in B. ruderatus due to the interaction with another invasive species, Bombus terrestris. B. terrestris was introduced in Argentina in 2006, and before this time, Apicystis bombi had not been found in any native or invasive species of bee. The spread of parasites can happen through a process known as pathogen spillover, which may be a contributing factor to the declining bumblebee populations. This has been seen to occur in commercial trading when invasive species pass parasites or illnesses to native species, like in the situation with B. terrestris.
+
+
+== Human importance ==
+
+
+=== Agricultural importance ===
+Bumblebees are important pollinators of crops and flowers, some of which are important for economic and agricultural reasons. Bumblebees tend to be more effective pollinators than honeybees since they can fly at lower temperatures. Honeybee pollination has been seen to decrease as the season progresses due to decreasing temperatures, while pollination of bumblebees usually remains relatively constant. In 1982, Bombus ruderatus was brought to Chile to be used as a pollinator of the red clover, which is a small legume used for its seeds. Chile is an important exporter in red clover seeds and thus their agricultural and economic success may depend on the effectiveness of bee pollination. Most pollination of red clover is done by honeybees, but their pollination decreases in late summer to early fall, leading to less seed recovery. B. ruderatus was introduced in order to compensate for late season decreases in pollination. Although there have been positive agricultural benefits from increased seed production, negative consequences, in terms of decreased native populations have been observed as well.
+
+
+=== Effects of invasion into non-native countries ===
+Invasive species may be very harmful to native species by outcompeting them for resources or by passing illnesses through pathogen spillover. For example, the introduction of Bombus ruderatus and Bombus terrestris in Argentina have been shown to decrease the population of the native species, Bombus dahlbomii. This can be seen in the comparison of the visitation frequency of the two species. Since the introduction of B. ruderatus, the visitation frequency of Bombus dahlbomii to certain plants has decreased, while it has increased in B. ruderatus. Although a large part of the decline of Bombus dahlbomii populations in southern South America could be due to the introduction of Apicystis bombi by B. terrestris, resource and foraging competition with B. ruderatus has further facilitated the decline of the native Bombus dahlbomii. In general, B. dahlbomii tends to be more successful in areas where B. ruderatus or B. terrestris has not yet colonized.
+
+
+=== Declines in B. ruderatus and other bumblebee populations ===
+In recent years, many countries have seen decreases in bee populations, specifically bumblebees. Some possible explanations could include habitat fragmentation, climate change, disease, agrochemicals, and other factors. As stated previously, B. ruderatus has seen a population decline in Britain and has disappeared completely from many of its previous sites. Declines in bee populations can lead to other ecological issues, such as declines in the success of plant species that rely on their pollination.
+
+
+=== Counteracting declining bee populations ===
+Recently, the European Union has introduced agri-environment plans that can be used to pay farmers to manage their land in a way that benefits bee species. Britain adopted the Environmental Stewardship scheme with the goal of enhancing the supply of pollen and nectar sources for bumblebees. These plans hope to counteract some of the issues that commercial developments have caused. For example, intense crop management with decreased mixed farming has led to “botanical simplification” of habitats, which may have contributed to decreased bumblebee populations by decreasing the quality and quantity of resources and habitats.
+
+
+== Photos of B. ruderatus ==
+
+
+== References ==
+
+
+== External links ==
+Biolib
+Fauna europaea
+National Archives
+Arkive.org
+Bumblebee

@@ -1,0 +1,126 @@
+Helianthus annuus, the common sunflower, is a large annual forb of the genus Helianthus grown as a crop for its edible oil and edible fruits. This sunflower species is also used as wild bird food, as livestock forage (as a meal or a silage plant), in some industrial applications, and as an ornamental in domestic gardens. The plant was first domesticated in the Americas. Wild Helianthus annuus is a widely branched annual plant with many flower heads. The domestic sunflower, however, often possesses only a single large inflorescence (flower head) atop an unbranched stem. The name sunflower may derive from the flower's head's shape, which resembles the sun.
+Sunflower seeds were brought to Europe from the Americas in the 16th century, where, along with sunflower oil, they became a widespread cooking ingredient.
+
+
+== Description ==
+
+The plant has an erect rough-hairy stem, reaching typical heights of 3 metres (9.8 ft). The tallest sunflower on record achieved 9.17 metres (30.1 ft). Sunflower leaves are broad, coarsely toothed, rough and mostly alternate. What is often called the "flower" of the sunflower is actually a "flower head" or pseudanthium of numerous small individual five-petaled flowers ("florets"). The outer flowers, which resemble petals, are called ray flowers. Each "petal" consists of a ligule composed of fused petals of an asymmetrical ray flower. They are sexually sterile and may be yellow, red, orange, or other colors. The flowers in the center of the head are called disk flowers. These mature into fruit (sunflower "seeds"). The disk flowers are arranged spirally. Generally, each floret is oriented toward the next by approximately the golden angle, 137.5°, producing a pattern of interconnecting spirals, where the number of left spirals and the number of right spirals are successive Fibonacci numbers. Typically, there are 34 spirals in one direction and 55 in the other; however, in a very large sunflower head there could be 89 in one direction and 144 in the other. This pattern produces the most efficient packing of seeds mathematically possible within the flower head.Most cultivars of sunflower are variants of Helianthus annuus, but four other species (all perennials) are also domesticated. This includes H. tuberosus, the Jerusalem artichoke, which produces edible tubers.
+
+
+== Mathematical model of floret arrangement ==
+
+A model for the pattern of florets in the head of a sunflower was proposed by H. Vogel in 1979. This is expressed in polar coordinates
+
+  
+    
+      
+        r
+        =
+        c
+        
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle r=c{\sqrt {n}},}
+  
+
+  
+    
+      
+        θ
+        =
+        n
+        ×
+        
+          137.5
+          
+            ∘
+          
+        
+        ,
+      
+    
+    {\displaystyle \theta =n\times 137.5^{\circ },}
+  where θ is the angle, r is the radius or distance from the center, and n is the index number of the floret and c is a constant scaling factor. It is a form of Fermat's spiral. The angle 137.5° is related to the golden ratio (55/144 of a circular angle, where 55 and 144 are Fibonacci numbers) and gives a close packing of florets. This model has been used to produce computer graphics representations of sunflowers.
+
+
+== Genome ==
+The sunflower, Helianthus annuus, genome is diploid with a base chromosome number of 17 and an estimated genome size of 2871–3189 Mbp. Some sources claim its true size is around 3.5 billion base pairs (slightly larger than the human genome).
+
+
+== Cultivation and uses ==
+To grow best, sunflowers need full sun. They grow best in fertile, moist, well-drained soil with heavy mulch. In commercial planting, seeds are planted 45 cm (1.48 ft) apart and 2.5 cm (0.98 in) deep.
+Sunflower "whole seed" (fruit) are sold as a snack food, raw or after roasting in ovens, with or without salt and/or seasonings added. Sunflowers can be processed into a peanut butter alternative, sunflower butter. In Germany, it is mixed with rye flour to make Sonnenblumenkernbrot (literally: sunflower whole seed bread), which is quite popular in German-speaking Europe. It is also sold as food for birds and can be used directly in cooking and salads. Native Americans had multiple uses for sunflowers in the past, such as in bread, medical ointments, dyes and body paints.Sunflower halva is popular in countries in Eastern Europe, including Belarus, Bulgaria, Romania, Moldova, Latvia, Lithuania, Estonia, Russia, and Ukraine as well as other countries of the former Soviet Union. It is made of sunflower seeds instead of sesame.
+Sunflower oil, extracted from the seeds, is used for cooking, as a carrier oil and to produce margarine and biodiesel, as it is cheaper than olive oil. A range of sunflower varieties exist with differing fatty acid compositions; some "high-oleic" types contain a higher level of monounsaturated fats in their oil than even olive oil. The oil is also sometimes used in soap.The cake remaining after the seeds have been processed for oil is used as a livestock feed. The hulls resulting from the dehulling of the seeds before oil extraction can also be fed to domestic animals. Some recently developed cultivars have drooping heads. These cultivars are less attractive to gardeners growing the flowers as ornamental plants, but appeal to farmers, because they reduce bird damage and losses from some plant diseases. Sunflowers also produce latex, and are the subject of experiments to improve their suitability as an alternative crop for producing hypoallergenic rubber.
+Traditionally, several Native American groups planted sunflowers on the north edges of their gardens as a "fourth sister" to the better-known three sisters combination of corn, beans, and squash. Annual species are often planted for their allelopathic properties. It was also used by Native Americans to dress hair.However, for commercial farmers growing commodity crops other than sunflowers, the wild sunflower, like any other unwanted plant, is often considered a weed. Especially in the Midwestern US, wild (perennial) species are often found in corn and soybean fields and can decrease yields.
+Sunflowers can be used in phytoremediation to extract toxic ingredients from soil, such as lead, arsenic and uranium, and used in rhizofiltration to neutralize radionuclides and other toxic ingredients and harmful bacteria from water. They were used to remove caesium-137 and strontium-90 from a nearby pond after the Chernobyl disaster, and a similar campaign was mounted in response to the Fukushima Daiichi nuclear disaster.
+
+
+=== Cultivars ===
+Sunflowers are grown as ornamentals in a domestic setting. Being easy to grow and producing spectacular results in any good, moist soil in full sun, they are a favourite subject for children. A large number of cultivars, of varying size and colour, are now available to grow from seed. The following are cultivars of sunflowers (those marked agm have gained the Royal Horticultural Society's Award of Garden Merit):-
+
+
+== Heliotropism in Helianthus annuus ==
+
+A common misconception is that flowering sunflower heads track the Sun across the sky. Although immature flower buds exhibit this behaviour, the mature flowering heads point in a fixed (and typically easterly) direction throughout the day. This old misconception was disputed in 1597 by the English botanist John Gerard, who grew sunflowers in his famous herbal garden: "[some] have reported it to turn with the Sun, the which I could never observe, although I have endeavored to find out the truth of it." The uniform alignment of sunflower heads in a field might give some people the false impression that the flowers are tracking the Sun.
+This alignment results from heliotropism in an earlier development stage, the young flower stage, before full maturity of flower heads (anthesis). Young sunflowers orient themselves in the direction of the sun. At dawn the head of the flower faces east and moves west throughout the day. When sunflowers reach full maturity they no longer follow the sun, and continuously face east. Young flowers reorient overnight to face east in anticipation of the morning. Their heliotropic motion is a circadian rhythm, synchronized by the sun, which continues if the sun disappears on cloudy days or if plants are moved to constant light. They are able to regulate their circadian rhythm in response to the blue-light emitted by a light source. If a sunflower plant in the bud stage is rotated 180°, the bud will be turning away from the sun for a few days, as resynchronization by the sun takes time.When growth of the flower stalk stops and the flower is mature, the heliotropism also stops and the flower faces east from that moment onward. This eastward orientation allows rapid warming in the morning and, as a result, an increase in pollinator visits. Sunflowers do not have a pulvinus below their inflorescence. A pulvinus is a flexible segment in the leaf stalks (petiole) of some plant species and functions as a 'joint'. It effectuates leaf motion due to reversible changes in turgor pressure, which occurs without growth. The sensitive plant's closing leaves are a good example of reversible leaf movement via pulvinuli.
+
+
+== History ==
+This species was one of several plants cultivated by Native Americans in prehistoric North America as part of the Eastern Agricultural Complex. Although it was commonly accepted that the sunflower was first domesticated in what is now the southeastern US, roughly 5000 years ago, there is evidence that it was first domesticated in Mexico around 2600 BC. These crops were found in Tabasco, Mexico at the San Andres dig site. The earliest known examples in the United States of a fully domesticated sunflower have been found in Tennessee, and date to around 2300 BC. Other very early examples come from rockshelter sites in Eastern Kentucky. Many indigenous American peoples used the sunflower as the symbol of their solar deity, including the Aztecs and the Otomi of Mexico and the Incas in South America. In 1510 early Spanish explorers encountered the sunflower in the Americas and carried its seeds back to Europe. Of the four plants known to have been domesticated in eastern North America and to have become important agricultural commodities, the sunflower is currently the most economically important.
+During the 18th century, the use of sunflower oil became very popular in Russia, particularly with members of the Russian Orthodox Church, because sunflower oil was one of the few oils that was allowed during Lent, according to some fasting traditions. In the early 19th century it was first commercialized in the village of Alexeyevka in Voronezh Governorate by the merchant named Daniil Bokaryov, who developed a technology suitable for its large-scale extraction, and quickly spread around. The town's coat of arms includes an image of a sunflower ever since.
+During the 19th century, it was believed that nearby plants of the species would protect a home from malaria.Among the Zuni people, the fresh or dried root is chewed by the medicine man before sucking venom from a snakebite and applying a poultice to the wound. This compound poultice of the root is applied with much ceremony to rattlesnake bites. Blossoms are also used ceremonially for anthropic worship.
+
+
+== Culture ==
+
+The sunflower is the state flower of the US state of Kansas, and one of the city flowers of Kitakyūshū, Japan.
+The sunflower is often used as a symbol of green ideology. The sunflower is also the symbol of the Vegan Society.
+During the late 19th century, the flower was used as the symbol of the Aesthetic Movement.
+The flowers were the subject of Van Gogh's Sunflowers series of paintings.
+The sunflower is the national flower of Ukraine.
+The sunflower was chosen as the symbol of the Spiritualist Church for many reasons, but mostly because it turns toward the sun as "Spiritualism turns toward the light of truth". As stated earlier in the article, this is in fact, not true. Modern Spiritualists often have art or jewelry with sunflower designs.
+Sunflowers were also worshipped by the Incas because they viewed it as a symbol for the Sun.
+The sunflower is the symbol behind the Sunflower Movement, a 2014 mass protest in Taiwan.
+In July 2015, viable seeds were acquired from the field where Malaysia Airlines Flight 17 crashed on a year earlier and were grown in tribute to the 15 Dutch residents of Hilversum who were killed. Earlier that year, Fairfax chief correspondent Paul McGeough and photographer Kate Geraghty had collected 1.5 kg of sunflower seeds from the wreck site for family and friends of the 38 Australian victims, who aimed to give them a poignant symbol of hope.
+
+
+== Other species ==
+There are many species in the sunflower genus Helianthus, and many species in other genera that may be called sunflowers.
+
+The Maximillian sunflower (Helianthus maximiliani) is one of 38 species of perennial sunflower native to North America. The Land Institute and other breeding programs are currently exploring the potential for these as a perennial seed crop.
+The sunchoke (Jerusalem artichoke or Helianthus tuberosus) is related to the sunflower, another example of perennial sunflower.
+The Mexican sunflower is Tithonia rotundifolia. It is only very distantly related to North American sunflowers.
+False sunflower refers to plants of the genus Heliopsis.
+
+
+== Sunflower hybrids ==
+In today's market, most of the sunflower seeds provided or grown by farmers are hybrids. Hybrids or hybridized sunflowers are produced by crossbreeding different types and species of sunflower, for example crossbreeding cultivated sunflowers with wild species of sunflowers. By doing so, new genetic recombinations are obtained ultimately leading to the production of new hybrid species. These hybrid species generally have a higher fitness and carry properties or characteristics that farmers look for, such as resistance to pathogens.Hybrid, Helianthus annuus dwarf2 does not contain the hormone gibberellin and does not display heliotropic behavior. Plants treated with an external application of the hormone display a temporary restoration of elongation growth patterns. This growth pattern diminished by 35% 7–14 days after final treatment.Hybrid male sterile and male fertile flowers that display heterogeneity have a low crossover of honeybee visitation. Sensory cues such as pollen odor, diameter of seed head, and height may influence pollinator visitation of pollinators that display constancy behavior patterns.
+
+
+== Threats and diseases ==
+One of the major threats that sunflowers face today is Fusarium, a filamentous fungus that is found largely in soil and plants. It is a pathogen that over the years has caused an increasing amount of damage and loss of sunflower crops, some as extensive as 80 percent of damaged crops.Downy mildew is another disease to which sunflowers are susceptible. Its susceptibility to downy mildew is particular high due to the sunflower's way of growth and development. Sunflower seeds are generally planted only an inch deep in the ground. When such shallow planting is done in moist and soaked earth or soil, it increases the chances of diseases such as downy mildew.
+Another major threat to sunflower crops is broomrape, a parasite that attacks the root of the sunflower and causes extensive damage to sunflower crops, as high as 100 percent.
+
+
+== See also ==
+List of sunflower diseases
+
+
+== References ==
+Footnotes
+GeneralPope, Kevin; Pohl, Mary E. D.; Jones, John G.; Lentz, David L.; von Nagy, Christopher; Vega, Francisco J.; Quitmyer Irvy R. (18 May 2001). "Origin and Environmental Setting of Ancient Agriculture in the Lowlands of Mesoamerica". Science, 292(5520):1370–1373.
+Shosteck, Robert (1974) Flowers and Plants: An International Lexicon with Biographical Notes. New York: Quadrangle/The New York Times Book Co. ISBN 9780812904536.
+Wood, Marcia. (June 2002). "Sunflower Rubber? Agricultural Research". USDA. Retrieved 2011-01-31.
+
+
+== External links ==
+ Media related to Helianthus annuus at Wikimedia Commons
+
+National Sunflower Association
+Sunflowerseed—USDA Economic Research Service. Summary of sunflower production, trade, and consumption and links to relevant USDA reports.
+Sunflower cultivation—New Crop Resource Online Program, Purdue University

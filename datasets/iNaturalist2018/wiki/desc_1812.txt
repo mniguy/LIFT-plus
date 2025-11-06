@@ -1,0 +1,1364 @@
+North American moths represent about 12,000 types of moths. In comparison, there are about 825 species of North American butterflies. The moths (mostly nocturnal) and butterflies (mostly diurnal) together make up the taxonomic order Lepidoptera.
+This list is sorted by MONA number (MONA is short for Moths of America North of Mexico). A numbering system for North American moths introduced by Ronald W. Hodges, et al. in 1983 in the publication Check List of the Lepidoptera of America North of Mexico. The list has since been updated, but the placement in families is outdated for some species.
+Former numbers for some species are given in square brackets, for example:
+
+3754 [3807] - Aethes angulatanaThis list covers America north of Mexico (effectively the continental United States and Canada). For a list of moths and butterflies recorded from the state of Hawaii, see List of Lepidoptera of Hawaii.
+This is a partial list, covering moths with MONA numbers ranging from 2701 to 3862. For the rest of the list, see List of moths of North America.
+
+
+== Tortricidae ==
+
+
+=== Olethreutinae ===
+2701 - Episimus argutana, sumac leaftier moth
+2701.1 - Episimus guiana
+2701.2 - Episimus transferrana
+2702 - Episimus augmentana
+2702.1 - Episimus burserae
+2702.2 - Episimus kimballi
+2702.3 - Episimus nesoites
+2702.4 - Episimus lagunculariae
+2703 - Episimus tyrius, maple tip borer moth
+2704 - Cacocharis cymotoma
+2704.1 - Cryptaspasma bipenicilla
+2705 - Bactra lancealana, black-blotched bactra moth
+2706 - Bactra furfurana
+2707 - Bactra verutana, javelin moth
+2707.1 - Bactra miwok
+2708 - Bactra maiorina
+2709 - Bactra priapeia
+2710 - Bactra sinistra
+2711 - Paralobesia liriodendrana, tulip-tree leaftier moth
+2712 - Paralobesia viteana, grape berry moth
+2713 - Paralobesia monotropana
+2714 - Paralobesia sambuci
+2715 - Paralobesia cypripediana
+2716 - Paralobesia rhoifructana
+2717 - Paralobesia yaracana
+2718 - Paralobesia spiraeifoliana
+2719 - Paralobesia exasperana
+2720 - Paralobesia palliolana
+2721 - Paralobesia piceana
+2722 - Paralobesia aemulana
+2723 - Paralobesia vernoniana
+2724 - Paralobesia aruncana
+2725 - Paralobesia slingerlandana
+2726 - Paralobesia blandula
+2727 - Paralobesia cyclopiana
+2728 - Lobesia carduana
+2729 - Lobesia bicinctana
+2729.1 - Lobesia botrana, European grapevine moth
+2730 - Ahmosia galbinea
+2731 - Ahmosia aspasiana
+2732 - Endothenia montanana
+2733 - Endothenia heinrichi
+2734 - Endothenia rubipunctana
+2735 - Endothenia sordulenta
+2736 - Endothenia melanosticta
+2737 - Endothenia affiliana
+2738 - Endothenia hebesana, verbena bud moth
+2740 - Endothenia conditana
+2741 - Endothenia microptera
+2742 - Endothenia infuscata
+2743 - Endothenia nubilana
+2744 - Endothenia gentianaeana
+2745 - Taniva albolineana, spruce needleminer moth
+2746 - Tia enervana
+2747 - Hulda impudens
+2748 - Aterpia approximana, sparkling aterpia moth
+2749 - Eumarozia malachitana, sculptured moth
+2750 - Zomaria interruptolineana, broken-line zomaria moth
+2751 - Zomaria rosaochreana
+2752 - Zomaria andromedana, andromedana moth
+2753 - Apotomis capreana, sallow apotomis moth
+2754 - Apotomis paludicolana
+2755 - Apotomis funerea, funereal apotomis moth
+2756 - Apotomis frigidana
+2757 - Apotomis spinulana
+2757.1 - Apotomis trifida
+2758 - Apotomis brevicornutana
+2759 - Apotomis tertiana
+2760 - Apotomis bifida
+2761 - Apotomis afficticia
+2763 - Apotomis albeolana
+2764 - Apotomis apateticana
+2765 - Apotomis deceptana, deceptive apotomis moth
+2765.1 - Apotomis coloradensis
+2767 - Apotomis infida
+2767.1 - Apotomis spurinfida
+2768 - Apotomis removana, green aspen leafroller moth
+2769 - Pseudosciaphila duplex, poplar leafroller moth
+2770 - Orthotaenia undulana, dusky leafroller moth
+2771 - Phaecasiophora confixana, macramé moth
+2772 - Phaecasiophora niveiguttana, labyrinth moth
+2773 - Phaecasiophora inspersa
+2774 - Olethreutes monetiferanum
+2775 - Olethreutes nitidana
+2776 - Olethreutes furfuranum, woolly-backed moth
+2777 - Olethreutes comandranum
+2778 - Olethreutes olivaceana, olivaceous olethreutes moth
+2779 - Olethreutes fraternanum
+2780 - Olethreutes subnubilum
+2781 - Olethreutes electrofuscum
+2782 - Olethreutes rusticanum
+2783 - Olethreutes diallacta
+2784 - Olethreutes footiana
+2785 - Olethreutes atrodentana
+2786 - Olethreutes punctanum
+2787 - Olethreutes connectum, bunchberry leaffolder moth
+2788 - Olethreutes inornatana, inornate olethreutes moth
+2790 - Olethreutes mediopartitum
+2791 - Olethreutes exoletum, wretched olethreutes moth
+2792 - Olethreutes bicoloranum
+2793 - Olethreutes tenebricum
+2794 - Olethreutes quadrifidum
+2795 - Olethreutes tilianum, basswood olethreutes moth
+2796 - Olethreutes sciotana
+2797 - Olethreutes appalachiana
+2799 - Olethreutes clavana
+2799.1 - Olethreutes mysteriana, mysterious olethreutes moth
+2800 - Olethreutes nigranum, variable nigranum moth
+2801 - Olethreutes viburnanum
+2802 - Olethreutes hippocastanum
+2803 - Olethreutes merrickanum
+2804 - Olethreutes hamameliana
+2805 - Olethreutes corylana
+2806 - Olethreutes ochrosuffusanum
+2807 - Olethreutes brunneopurpurata
+2808 - Olethreutes ferrugineanum
+2809 - Olethreutes fagigemmeana
+2810 - Olethreutes sericoranum
+2811 - Olethreutes melanomesum
+2812 - Olethreutes valdanum
+2813 - Olethreutes baccatana
+2814 - Olethreutes versicolorana
+2815 - Olethreutes brevirostratum
+2816 - Olethreutes galevora
+2817 - Olethreutes permundana, raspberry leafroller moth
+2818 - Olethreutes submissanum
+2819 - Olethreutes nananum
+2820 - Olethreutes malana, Malana leafroller moth
+2821 - Olethreutes appendiceum, serviceberry leafroller moth
+2822 - Olethreutes concinnana
+2823 - Olethreutes fasciatana
+2824 - Olethreutes troglodanum
+2825 - Olethreutes exaeresimum
+2826 - Olethreutes lacunana, lacuna moth
+2827 - Olethreutes ferriferana, hydrangea leaftier moth
+2828 - Olethreutes griseoalbana, putty-patched moth
+2829 - Olethreutes osmundana
+2830 - Olethreutes auricapitana
+2831 - Pristerognatha fuligana
+2831.1 - Argyroploce dalecarlianus
+2831.2 - Argyroploce aquilonanus
+2832 - Olethreutes albiciliana
+2833 - Olethreutes siderana
+2834 - Olethreutes sordidana
+2835 - Olethreutes galaxana
+2837 - Olethreutes astrologana, the astronomer moth
+2838 - Olethreutes coruscana
+2838.1 - Olethreutes ferrolineana
+2839 - Olethreutes metallicana
+2840 - Olethreutes nordeggana
+2842 - Olethreutes heinrichana
+2843 - Olethreutes minaki
+2844 - Olethreutes deprecatorius
+2845 - Olethreutes carolana
+2846 - Olethreutes polluxana
+2847 - Olethreutes glaciana
+2848 - Olethreutes bipartitana, divided olethreutes moth
+2849 - Olethreutes trinitana
+2850 - Olethreutes schulziana, moorland olethreutes moth
+2851 - Olethreutes turfosana
+2852 - Olethreutes septentrionana
+2853 - Olethreutes inquietana
+2854 - Olethreutes bowmanana
+2855 - Olethreutes mengelana
+2856 - Olethreutes costimaculana
+2857 - Olethreutes devotana
+2858 - Olethreutes buckellana
+2858.1 - Olethreutes exaridanus
+2858.2 - Olethreutes palustrana
+2858.3 - Selenodes concretana
+2859 - Celypha cespitana, celypha moth
+2860 - Metendothenia separatana, pink-washed leafroller moth
+2860.1 - Metendothenia atropunctana
+2861 - Hedya ochroleucana, off-white hedya moth
+2862 - Hedya nubiferana, green budworm moth
+2863 - Hedya chionosema, white-spotted hedya moth
+2864 - Hedya cyanana
+2864.1 - Hedya salicella
+2865 - Tsinilla lineana
+2866 - Evora hemidesma, spirea leaftier moth
+2867 - Rhyacionia buoliana, European pine shoot moth
+2868 - Rhyacionia rigidana, pitch pine tip moth
+2869 - Rhyacionia subtropica, subtropical pine tip moth
+2870 - Rhyacionia multilineata
+2871 - Rhyacionia pasadenana
+2872 - Rhyacionia zozana
+2873 - Rhyacionia neomexicana
+2874 - Rhyacionia salmonicolor
+2875 - Rhyacionia monophylliana
+2876 - Rhyacionia martinana
+2877 - Rhyacionia adana, Adana pine tip moth
+2878 - Rhyacionia jenningsi
+2879 - Rhyacionia busckana, red pine tip moth
+2879.1 - Rhyacionia granti, jack pine tip moth
+2880 - Rhyacionia blanchardi
+2881 - Rhyacionia fumosana
+2882 - Rhyacionia frustrana, Nantucket pine tip moth
+2883 - Rhyacionia bushnelli
+2884 - Rhyacionia sonia, yellow jack pine tip moth
+2885 - Rhyacionia aktita
+2886 - Rhyacionia subcervinana
+2887 - Rhyacionia pallifasciata
+2887.1 - Rhyacionia duplana
+2888 - Rhyacionia versicolor
+2888.2 - Jerapowellia burnsorum
+2889 - Retinia comstockiana, pitch twig moth
+2890 - Retinia taedana, southern pitch-blister moth
+2891 - Retinia wenzeli, Wenzel's pitch-blister moth
+2892 - Retinia albicapitana, northern pitch twig moth
+2893 - Retinia arizonensis
+2894 - Retinia metallica
+2896 - Retinia sabiniana
+2897 - Retinia edemoidana
+2898 - Retinia gemistrigulana
+2898.1 - Retinia mafica
+2899 - Retinia pallipennis
+2900 - Retinia burkeana
+2901 - Retinia picicolana
+2902 - Retinia houseri, minute pitch-blister moth
+2903 - Barbara colfaxiana, Douglas-fir cone moth
+2904 - Barbara ulteriorana
+2905 - Barbara mappana
+2906 - Spilonota ocellana, eye-spotted bud moth
+2907 - Strepsicrates smithiana, bayberry leaftier moth
+2908 - Phaneta radiatana
+2909 - Phaneta albertana
+2910 - Phaneta essexana, Essex phaneta moth
+2911 - Phaneta awemeana
+2912 - Phaneta indeterminana
+2913 - Phaneta umbrastriana
+2915 - Phaneta ferruginana, ferruginous phaneta moth
+2916 - Phaneta formosana, beautiful phaneta moth
+2917 - Phaneta altana
+2918 - Phaneta corculana
+2919 - Phaneta annetteana
+2920 - Phaneta scotiana
+2921 - Phaneta citricolorana
+2922 - Phaneta amphorana
+2923 - Phaneta decempunctana
+2924 - Phaneta refusana
+2925 - Phaneta autumnana
+2926 - Phaneta verna, speckled phaneta moth
+2927 - Phaneta ochrocephala, pale-headed phaneta moth
+2928 - Phaneta raracana, reddish phaneta moth
+2929 - Phaneta ochroterminana, buff-tipped phaneta moth
+2933 - Phaneta marmontana
+2935 - Phaneta oregonensis
+2936 - Phaneta tomonana, aster-head phaneta moth
+2937 - Phaneta parmatana
+2938 - Phaneta modernana
+2939 - Phaneta fasciculatana
+2940 - Phaneta convergana
+2941 - Phaneta mormonensis
+2942 - Phaneta delphinus
+2943 - Phaneta latens
+2944 - Phaneta columbiana
+2944.1 - Phaneta mayelisana
+2945 - Phaneta insignata
+2946 - Phaneta apacheana
+2947 - Phaneta influana
+2947.1 - Phaneta musetta
+2948 - Phaneta sublapidana
+2949 - Phaneta lapidana
+2950 - Phaneta kokana
+2951 - Phaneta ornatula
+2952 - Phaneta elongana
+2953 - Phaneta rupestrana
+2954 - Phaneta vernalana
+2955 - Phaneta transversa
+2956 - Phaneta tarandana
+2957 - Phaneta nepotinana
+2958 - Phaneta complicana
+2959 - Phaneta spectana
+2960 - Phaneta tenuiana
+2961 - Phaneta migratana
+2962 - Phaneta cinereolineana
+2963 - Phaneta misturana
+2964 - Phaneta parvana
+2965 - Phaneta fertoriana
+2966 - Phaneta crassana
+2967 - Phaneta alatana
+2968 - Phaneta clavana, striped phaneta moth
+2969 - Phaneta indagatricana
+2969.1 - Phaneta verecundana
+2970 - Phaneta argenticostana
+2971 - Phaneta spiculana
+2972 - Phaneta dorsiatomana
+2973 - Phaneta striatana, striated phaneta moth
+2974 - Phaneta implicata
+2975 - Phaneta delphinoides
+2976 - Phaneta pallidarcis
+2977 - Phaneta modicellana
+2978 - Phaneta minimana
+2979 - Phaneta subminimana
+2980 - Phaneta pallidicostana
+2981 - Phaneta perangustana
+2982 - Phaneta kiscana
+2983 - Phaneta salmicolorana
+2984 - Phaneta artemisiana
+2985 - Phaneta infimbriana
+2986 - Phaneta octopunctana
+2987 - Phaneta youngi
+2988 - Phaneta setonana
+2989 - Phaneta scalana
+2990 - Phaneta festivana
+2991 - Phaneta segregata
+2992 - Phaneta castrensis
+2993 - Phaneta camdenana
+2994 - Phaneta montanana
+2995 - Phaneta benjamini
+2996 - Phaneta griseocapitana
+2996.1 - Phaneta cruentana
+2997 - Phaneta pastigiata
+2998 - Phaneta olivaceana, olivaceous phaneta moth
+2999 - Phaneta verniochreana
+3001 - Phaneta granulatana
+3002 - Phaneta grindeliana
+3002.1 - Phaneta clarkei
+3003 - Phaneta stramineana
+3004 - Phaneta umbraticana
+3004.1 - Phaneta ambodaidaleia
+3004.2 - Phaneta canusana
+3005 - Phaneta offectalis
+3005.1 - Phaneta argutipunctana, coastal phaneta moth
+3005.2 - Phaneta linitipunctana, sand dune phaneta moth
+3006 - Phaneta bucephaloides
+3007 - Phaneta southamptonensis
+3008 - Eucosma quinquemaculana, five-spotted eucosma moth
+3009 - Eucosma robinsonana, Robinson's eucosma moth
+3009.1 - Eucosma fritillana
+3009.2 - Eucosma guttulana, speckled eucosma moth
+3010 - Eucosma hazelana
+3011 - Eucosma crambitana
+3011.1 - Eucosma aurilineana
+3012 - Eucosma fandana
+3013 - Eucosma canariana
+3014 - Eucosma ridingsana, snakeweed borer moth
+3014.1 - Eucosma griselda
+3015 - Eucosma fernaldana, Fernald's eucosma moth
+3016 - Eucosma betana
+3017 - Eucosma magnidicana
+3018 - Eucosma caniceps
+3020 - Eucosma avalona
+3021 - Eucosma adamantana
+3022 - Eucosma spaldingana
+3023 - Eucosma sandiego
+3023.1 - Eucosma atacosana
+3024 - Eucosma gilletteana
+3025 - Eucosma optimana
+3026 - Eucosma aemulana
+3027 - Eucosma laticurva
+3028 - Eucosma dapsilis
+3029 - Eucosma bolanderana
+3030 - Eucosma ragonoti
+3031 - Eucosma serpentana
+3032 - Eucosma ophionana
+3033 - Eucosma heathiana
+3034 - Eucosma langstoni
+3035 - Eucosma morrisoni
+3036 - Eucosma lathami, Latham's eucosma moth
+3037 - Eucosma agricolana
+3038 - Eucosma smithiana
+3039 - Eucosma barbara
+3040 - Eucosma costastrigulana
+3041 - Eucosma comatulana
+3041.1 - Eucosma pediasios
+3041.2 - Eucosma rindgei
+3041.3 - Eucosma austrina
+3042 - Eucosma vagana
+3043 - Eucosma albiguttana
+3044 - Eucosma graciliana
+3045 - Eucosma galenapunctana
+3046 - Eucosma monogrammana
+3047 - Eucosma atomosana
+3049 - Eucosma serapicana
+3050 - Eucosma watertonana
+3051 - Eucosma glomerana
+3052 - Eucosma circulana
+3053 - Eucosma fraudabilis
+3054.1 - Eucosma kandana
+3055 - Eucosma louisana
+3056 - Eucosma russeola
+3057 - Eucosma luridana
+3058 - Eucosma consociana
+3059 - Eucosma irroratana
+3060 - Eucosma subflavana
+3061 - Eucosma handana
+3061.1 - Eucosma curlewensis
+3063 - Eucosma immaculana
+3064 - Eucosma maculatana
+3065 - Eucosma sonomana, western pine shoot borer moth
+3066 - Eucosma gloriola, eastern pine shoot borer moth
+3067 - Eucosma bobana
+3068 - Eucosma ponderosa
+3069 - Eucosma monoensis
+3070 - Eucosma franclemonti
+3071 - Eucosma recissoriana, lodgepole pinecone borer moth
+3072 - Eucosma cocana, shortleaf pinecone borer moth
+3073 - Eucosma monitorana, red pinecone borer moth
+3074 - Eucosma tocullionana, white pinecone borer moth
+3075 - Eucosma siskiyouana, fir cone borer moth
+3076 - Eucosma crymalana
+3077 - Eucosma momana
+3079 - Eucosma palabundana
+3080 - Eucosma lolana
+3081 - Eucosma dodana
+3082 - Eucosma fofana
+3083 - Eucosma invicta
+3085 - Eucosma eburata
+3086 - Eucosma subinvicta
+3087 - Eucosma snyderana
+3089 - Eucosma totana
+3089.1 - Eucosma piperata
+3089.2 - Eucosma nordini
+3089.3 - Eucosma taosana
+3090 - Eucosma persolita
+3091 - Eucosma matutina
+3091.1 - Eucosma notialis
+3092 - Eucosma larana
+3093 - Eucosma exclusoriana
+3094 - Eucosma heinrichi
+3095 - Eucosma shastana
+3096 - Eucosma grandiflavana
+3097 - Eucosma hyponomeutana
+3098 - Eucosma giganteana, giant eucosma moth
+3099 - Eucosma bipunctella
+3100 - Eucosma bilineana
+3101 - Eucosma denverana
+3102 - Eucosma williamsi
+3103 - Eucosma graziella
+3104 - Pelochrista mediostriata
+3105 - Eucosma excerptionana
+3106 - Eucosma abstemia
+3107 - Eucosma biplagata
+3108 - Eucosma primulana
+3109 - Eucosma hasseanthi
+3110 - Eucosma gomonana
+3111 - Eucosma dilatana
+3112 - Eucosma nandana
+3113 - Eucosma aprilana
+3114 - Eucosma landana
+3115 - Eucosma simplex
+3116 - Eucosma dorsisignatana, triangle-backed eucosma moth
+3116.1 - Eucosma similiana
+3117 - Eucosma hennei
+3118 - Eucosma graduatana
+3119 - Eucosma juncticiliana
+3120 - Eucosma derelicta, derelict eucosma moth
+3121 - Eucosma excusabilis
+3122 - Eucosma wandana
+3124 - Eucosma fulminana
+3125 - Eucosma rusticana
+3125.1 - Eucosma haydenae
+3126 - Eucosma mobilensis
+3127 - Eucosma sombreana
+3128 - Eucosma pandana
+3129 - Eucosma fiskeana
+3130 - Eucosma nuntia
+3131 - Eucosma inquadrana
+3132 - Eucosma pulveratana
+3133 - Eucosma consobrinana
+3134 - Eucosma aspidana
+3135 - Eucosma hohana
+3136 - Eucosma jejunana
+3137 - Eucosma biquadrana
+3138 - Eucosma microsignata
+3138.1 - Eucosma sierrae
+3138.2 - Eucosma diabolana
+3139 - Eucosma suadana
+3140 - Eucosma aeana
+3141 - Eucosma canana
+3142 - Eucosma cataclystiana, solidaga eucosma moth
+3143 - Eucosma conspiciendana
+3144 - Eucosma floridana
+3145 - Eucosma fuscana
+3146 - Eucosma liturana
+3147 - Eucosma petalonota
+3148 - Eucosma urnigera
+3148.1 - Eucosma salaciana
+3148.2 - Eucosma rosaocellana
+3149 - Pelochrista argenteana
+3149.1 - Pelochrista gelattana
+3151 - Pelochrista scintillana
+3152 - Pelochrista fratruelis
+3153 - Pelochrista pallidipalpana
+3154 - Pelochrista popana
+3155 - Pelochrista daemonicana
+3156 - Eucosma occipitana
+3157 - Pelochrista reversana
+3157.1 - Pelochrista ainsliei
+3157.2 - Pelochrista kingi
+3158 - Pelochrista emaciatana
+3160 - Pelochrista palpana
+3160.1 - Pelochrista gilligani
+3161 - Pelochrista fuscosparsa
+3161.1 - Pelochrista fuscostriata
+3161.2 - Pelochrista collilonga
+3162 - Pelochrista corosana
+3164 - Pelochrista expolitana
+3165 - Pelochrista rorana
+3166 - Pelochrista metariana
+3167 - Pelochrista passerana
+3168 - Pelochrista zomonana
+3169 - Pelochrista womonana
+3170 - Pelochrista vandana
+3170.1 - Pelochrista powelli
+3170.2 - Pelochrista milleri
+3170.3 - Pelochrista medullana
+3171 - Epiblema boxcana
+3172 - Epiblema strenuana, ragweed borer moth
+3173 - Epiblema abruptana, abrupt epiblema moth
+3174 - Epiblema numerosana
+3174.1 - Epiblema luctuosissima
+3174.2 - Epiblema chromata
+3175 - Epiblema grossbecki
+3176 - Epiblema praesumptiosa, presumed epiblema moth
+3177 - Epiblema separationis
+3178 - Epiblema deflexana
+3179 - Epiblema ochraceana
+3180 - Epiblema sosana
+3181 - Epiblema insidiosana
+3182 - Epiblema symbolaspis
+3183 - Epiblema exacerbatricana
+3184 - Epiblema tripartitana
+3184.1 - Epiblema glenni
+3185 - Epiblema benignatum
+3186 - Epiblema scudderiana, goldenrod gall moth
+3188 - Epiblema discretivana, epiblema species group
+3189 - Epiblema obfuscana
+3190 - Epiblema desertana
+3191 - Epiblema rudei
+3192 - Epiblema carolinana, gray-blotched epiblema moth
+3193 - Epiblema arizonana
+3194 - Epiblema hirsutana
+3194.1 - Epiblema deverrae
+3195 - Epiblema radicana
+3196 - Epiblema walsinghami
+3197 - Epiblema periculosana
+3198 - Epiblema iowana
+3200 - Epiblema lyallana
+3200.1 - Epiblema simploniana
+3201 - Epiblema infelix
+3202 - Epiblema otiosana, bidens borer moth
+3203 - Epiblema brightonana, Brighton's epiblema moth
+3204 - Epiblema tandana
+3205 - Epiblema resumptana
+3206 - Epiblema dorsisuffusana
+3207 - Epiblema macneilli
+3207.2 - Epiblema gibsoni
+3208 - Notocelia rosaecolana, Doubleday's notocelia moth
+3208.1 - Notocelia cynosbatella
+3209 - Notocelia purpurissatana
+3210 - Notocelia illotana
+3211 - Notocelia culminana
+3212 - Suleima helianthana, sunflower bud moth
+3213 - Suleima daracana
+3214 - Suleima skinnerana
+3215 - Suleima lagopana
+3216 - Suleima baracana
+3217 - Suleima cinerodorsana
+3217.1 - Suleima mendaciana
+3218 - Sonia constrictana, constricted sonia moth
+3218.1 - Sonia paraplesiana, Hebrew sonia moth
+3219 - Sonia canadana, Canadian sonia moth
+3220 - Sonia vovana
+3221 - Sonia comstocki
+3222 - Sonia filiana
+3222.1 - Sonia divaricata
+3223 - Gypsonoma fasciolana
+3224 - Gypsonoma nebulosana
+3225 - Gypsonoma parryana
+3226 - Gypsonoma haimbachiana, cottonwood twig borer moth
+3227 - Gypsonoma substitutionis
+3228 - Gypsonoma salicicolana
+3229 - Gypsonoma adjuncta
+3229.1 - Gypsonoma nitidulana
+3229.2 - Gypsonoma aceriana, European poplar shoot borer moth
+3230 - Proteoteras aesculana, maple twig borer moth
+3231 - Proteoteras implicatum
+3232 - Proteoteras willingana, eastern boxelder twig borer moth
+3233 - Proteoteras crescentana, northern boxelder twig borer moth
+3234 - Proteoteras naracana
+3235 - Proteoteras moffatiana, maple bud borer moth
+3236 - Proteoteras arizonae, western boxelder twig borer moth
+3237 - Proteoteras obnigrana
+3238 - Zeiraphera claypoleana, buckeye petiole borer moth
+3239 - Zeiraphera pacifica
+3240 - Zeiraphera canadensis, spruce bud moth
+3241 - Zeiraphera improbana, larch needleworm moth
+3242 - Zeiraphera fortunana, yellow spruce budworm moth
+3243 - Zeiraphera unfortunana, purple-striped shootworm moth
+3244 - Zeiraphera hesperiana
+3245 - Zeiraphera vancouverana
+3246 - Pseudexentera cressoniana, shagbark hickory leafroller moth
+3247 - Pseudexentera mali, pale apple leafroller moth
+3248 - Pseudexentera oregonana
+3250 - Pseudexentera senatrix
+3251 - Pseudexentera spoliana, bare-patched leafroller moth
+3252 - Pseudexentera haracana
+3252.1 - Pseudexentera sepia
+3252.2 - Pseudexentera oreios
+3253 - Pseudexentera faracana
+3253.3 - Pseudexentera knudsoni
+3254 - Pseudexentera maracana
+3254.1 - Pseudexentera vaccinii
+3255 - Pseudexentera kalmiana
+3256 - Pseudexentera habrosana
+3257 - Pseudexentera costomaculana
+3257.1 - Pseudexentera hodsoni
+3258 - Pseudexentera virginiana
+3259 - Gretchena deludana, arrowhead moth
+3260 - Gretchena concubitana
+3261 - Gretchena watchungana
+3262 - Gretchena dulciana
+3263 - Gretchena bolliana, pecan bud moth
+3264 - Gretchena amatana
+3265 - Gretchena delicatana, ironwood fruitworm moth
+3266 - Gretchena obsoletana
+3266.1 - Gretchena nymphana
+3267 - Gretchena semialba
+3268 - Gretchena concitatricana
+3269 - Epinotia radicana, red-striped needleworm moth
+3270 - Chimoptesis chrysopyla
+3271 - Chimoptesis matheri
+3272 - Chimoptesis gerulae
+3273 - Chimoptesis pennsylvaniana, filigreed moth
+3274 - Crocidosema plebejana, cotton tipworm moth
+3274.1 - Crocidosema lantana
+3274.2 - Crocidosema longipalpana
+3274.3 - Crocidosema unica
+3274.4 - Crocidosema aporema
+3274.5 - Crocidosema litchivora, litchi bud moth
+3275 - Hendecaneura shawiana, blueberry tip borer moth
+3276 - Rhopobota naevana, holly tortrix moth
+3277 - Rhopobota dietziana
+3278 - Rhopobota finitimana
+3280 - Epinotia trigonella, birch epinotia moth
+3281 - Epinotia sperana
+3282 - Epinotia myricana
+3283 - Epinotia solandriana, birch-aspen leafroller moth
+3283.1 - Epinotia abbreviana
+3284 - Epinotia ethnica
+3285 - Epinotia pulsatillana
+3285.1 - Epinotia siskiyouensis
+3286 - Epinotia medioviridana, raspberry leaf-roller moth
+3287 - Epinotia perplexana
+3288 - Epinotia castaneana
+3289 - Epinotia johnsonana
+3290 - Epinotia madderana, white lace epinotia moth
+3291 - Epinotia celtisana
+3291.1 - Epinotia sotipena, black dash epinotia moth
+3292 - Epinotia vertumnana
+3292.1 - Epinotia celtisana
+3294 - Epinotia zandana
+3295 - Epinotia xandana
+3296 - Epinotia albicapitana
+3297 - Epinotia hopkinsana
+3298 - Epinotia subviridis
+3299 - Epinotia fumoviridana
+3300 - Epinotia subplicana
+3301 - Epinotia improvisana
+3302 - Epinotia rectiplicana
+3303 - Epinotia corylana
+3304 - Epinotia solicitana, birch shoot borer moth
+3305 - Epinotia hamptonana
+3306 - Epinotia nisella, poplar branchlet borer moth
+3307 - Epinotia criddleana
+3308 - Epinotia albangulana
+3309 - Epinotia walkerana
+3310 - Epinotia transmissana, Walker's epinotia moth
+3311 - Epinotia removana
+3312 - Epinotia momonana
+3313 - Epinotia terracoctana
+3314 - Epinotia miscana
+3315 - Epinotia silvertoniensis
+3315.1 - Epinotia huroniensis
+3317 - Epinotia digitana
+3318 - Epinotia nigralbanoidana
+3319 - Epinotia nigralbana
+3320 - Epinotia ruidosana
+3321 - Epinotia heucherana
+3322 - Epinotia sagittana
+3323 - Epinotia emarginana
+3324 - Epinotia crenana
+3324.1 - Epinotia columbia
+3325 - Epinotia cercocarpana
+3326 - Epinotia bigemina
+3327 - Epinotia bicordana
+3328 - Epinotia arctostaphylana
+3329 - Epinotia keiferana
+3331 - Epinotia infuscana
+3333 - Catastega timidella, oak trumpet skeletonizer moth
+3333.1 - Catastega spectra
+3333.2 - Catastega nebula
+3333.3 - Catastega strigatella
+3333.4 - Catastega triangulana
+3333.5 - Catastega adobe
+3333.6 - Catastega plicata
+3334 - Catastega aceriella, maple trumpet skeletonizer moth
+3334.1 - Catastega marmoreana
+3335 - Epinotia nonana
+3336 - Epinotia normanana
+3337 - Epinotia balsameae
+3338 - Epinotia nanana, European spruce needleminer moth
+3339 - Epinotia tsugana, hemlock needleminer moth
+3340 - Epinotia meritana, white fir needleminer moth
+3341 - Epinotia aridos
+3342 - Epinotia lomonana
+3343 - Epinotia purpuriciliana
+3344 - Epinotia medioplagata
+3345 - Epinotia cruciana, willow tortrix moth
+3346 - Epinotia plumbolineana
+3347 - Epinotia septemberana
+3348 - Epinotia vagana
+3349 - Epinotia seorsa
+3350 - Epinotia kasloana
+3350.1 - Epinotia signiferana
+3351 - Epinotia lindana, diamondback epinotia moth
+3352 - Epinotia trossulana
+3353 - Epinotia biangulana
+3354 - Ancylis nubeculana, little cloud ancylis moth
+3355 - Ancylis subaequana
+3356 - Ancylis galeamatana
+3357 - Ancylis sheppardana
+3358 - Ancylis discigerana, yellow birch leaffolder moth
+3359 - Ancylis metamelana, black-marked ancylis moth
+3360 - Ancylis tenebrica
+3361 - Ancylis semiovana
+3362 - Ancylis columbiana
+3363 - Ancylis simuloides
+3364 - Ancylis maritima
+3365 - Ancylis spireaefoliana
+3366 - Ancylis laciniana
+3367 - Ancylis burgessiana, oak leaffolder moth
+3368 - Ancylis mira
+3369 - Ancylis fuscociliana
+3370 - Ancylis platanana
+3371 - Ancylis rhoderana
+3372 - Ancylis brauni
+3373 - Ancylis definitivana
+3374 - Ancylis comptana, strawberry leafroller moth
+3375 - Ancylis divisana, two-toned ancylis moth
+3376 - Ancylis apicana
+3377 - Ancylis muricana, red-headed ancylis moth
+3378 - Ancylis carbonana
+3379 - Ancylis diminutana
+3380 - Ancylis goodelliana
+3381 - Ancylis albafascia
+3382 - Ancylis unguicella
+3383 - Ancylis pacificana
+3384 - Ancylis mediofasciana
+3385 - Ancylis torontana
+3386 - Ancylis tineana
+3387 - Ancylis albacostana, white-edged ancylis moth
+3388 - Ancylis cordiae
+3388.1 - Ancylis geminana
+3389 - Hystrichophora leonana
+3390 - Hystrichophora paradisiae
+3391 - Hystrichophora stygiana
+3392 - Hystrichophora roessleri
+3393 - Hystrichophora ostentatrix
+3395 - Hystrichophora taleana, indigobush twig borer moth
+3396 - Hystrichophora ochreicostana
+3397 - Hystrichophora loricana
+3398 - Hystrichophora decorosa
+3399 - Hystrichophora vestaliana
+3399.1 - Eucosmomorpha albersana
+3399.2 - Eucosmomorpha nearctica
+3399.3 - Enarmonia formosana, cherry bark tortrix moth
+3400 - Goditha bumeliana
+3400.1 - Riculorampha ancyloides
+3404 - Dichrorampha simulana
+3406 - Dichrorampha bittana
+3407 - Dichrorampha incanana
+3408 - Dichrorampha vancouverana, tanacetum root moth
+3409 - Dichrorampha radicicolana
+3410 - Dichrorampha banana
+3411 - Dichrorampha piperana
+3412 - Dichrorampha sedatana
+3413 - Dichrorampha dana
+3414 - Dichrorampha leopardana
+3414.1 - Dichrorampha sapodilla, sapodilla pod borer moth
+3414.2 - Dichrorampha manilkara
+3414.3 - Dichrorampha broui
+3414.4 - Dichrorampha petiverella
+3415 - Satronia tantilla, southern pine catkinworm moth
+3416 - Ricula maculana
+3417 - Talponia plummeriana, speckled talponia moth
+3418 - Pammene ocliferia
+3419 - Pammene felicitana
+3420 - Pammene perstructana
+3421 - Pammene paula
+3422 - Pammene bowmanana
+3422.1 - Pammene medioalbana
+3423 - Larisa subsolana
+3424 - Ethelgoda texanana
+3425 - Sereda tautana, speckled sereda moth
+3426 - Grapholita molesta, Oriental fruit moth
+3427 - Grapholita libertina
+3428 - Grapholita packardi, cherry fruitworm moth
+3429 - Grapholita prunivora, lesser appleworm moth
+3430 - Grapholita angeleseana
+3431 - Grapholita caeruleana
+3432 - Grapholita boulderana
+3433 - Grapholita vitrana
+3434 - Grapholita fana
+3435 - Grapholita conversana
+3436 - Grapholita imitativa
+3437 - Grapholita lunatana
+3438 - Grapholita eclipsana, solidago root moth
+3439 - Grapholita interstinctana, clover head caterpillar moth
+3440 - Grapholita edwardsiana
+3441 - Grapholita lana
+3441.1 - Grapholita hieroglyphana
+3442 - Grapholita dyarana
+3443 - Grapholita tristrigana, three-lined grapholita moth
+3443.1 - Grapholita delineana, Eurasian hemp moth
+3444 - Ofatulena duodecemstriata
+3445 - Ofatulena luminosa
+3446 - Corticivora clarki
+3446.1 - Corticivora chica
+3446.2 - Corticivora parva
+3447 - Cydia coniferana
+3448 - Cydia bracteatana
+3449 - Cydia laricana
+3450 - Cydia rana
+3452 - Cydia inopiosa
+3453 - Cydia confusana
+3454 - Cydia obnisa
+3455 - Cydia strobilella, spruce seed moth
+3455.1 - Cydia phyllisi
+3456 - Cydia larimana
+3457 - Cydia garacana
+3458 - Cydia membrosa
+3459 - Cydia multilineana
+3460 - Cydia ingrata
+3461 - Cydia albimaculana, white-marked cydia moth
+3462 - Cydia palmetum
+3463 - Cydia populana
+3464 - Cydia lacustrina
+3465 - Cydia flexiloqua
+3467 - Cydia nigricana, pea moth
+3469 - Cydia candana
+3470 - Cydia grandicula
+3471 - Cydia caryana, hickory shuckworm moth
+3472 - Cydia fletcherana, Fletcher's cydia moth
+3473 - Cydia pseudotsugae
+3474 - Cydia tana
+3475 - Cydia cupressana
+3476 - Cydia prosperana
+3477 - Cydia costastrigulana
+3478 - Cydia leucobasis
+3479 - Cydia gallaesaliciana, willow gall moth
+3480 - Cydia lautiuscula
+3481 - Cydia americana
+3482 - Cydia fahlbergiana
+3483 - Cydia ninana
+3484 - Cydia colorana
+3485 - Cydia erotella
+3486 - Cydia toreuta, eastern pine seedworm moth
+3487 - Cydia ingens, longleaf pine seedworm moth
+3488 - Cydia anaranjada, slash pine seedworm moth
+3489 - Cydia piperana, ponderosa pine seedworm moth
+3489.1 - Cydia montezuma
+3490 - Cydia miscitata
+3490.1 - Cydia latisigna
+3491 - Cydia injectiva
+3492 - Cydia pomonella, codling moth
+3493 - Cydia saltitans (formerly deshaisiana, a nomen nudum) Mexican jumping bean moth
+3493.1 - Cydia largo
+3494 - Cydia latiferreana, filbertworm moth
+3495 - Gymnandrosoma punctidiscanum, dotted ecdytolopha moth
+3495.1 - Ecdytolopha coloradana
+3495.2 - Ecdytolopha occidentana
+3496 - Gymnandrosoma desotanum
+3497 - Ecdytolopha insiticiana, locust twig borer moth
+3498 - Ecdytolopha mana
+3500 - Pseudogalleria inimicella, inimical borer moth
+
+
+=== Tortricinae ===
+3501 - Acleris forskaleana, maple leaftier moth
+3502 - Acleris albicomana, red-edged acleris moth
+3503 - Acleris semipurpurana, oak leaftier moth
+3504 - Acleris curvalana, blueberry leaftier moth
+3505 - Acleris holmiana, golden leafroller moth
+3506 - Acleris macdunnoughi
+3507 - Acleris comariana, strawberry tortrix moth
+3508 - Acleris caliginosana
+3509 - Acleris ptychogrammos
+3510 - Acleris nivisellana, snowy-shouldered acleris moth
+3511 - Acleris rhombana, rhomboid tortrix moth
+3512 - Acleris notana
+3513 - Acleris caryosphena
+3514 - Acleris cervinana
+3515 - Acleris santacrucis
+3516 - Acleris comandrana
+3517 - Acleris subnivana
+3518 - Acleris braunana
+3519 - Acleris kearfottana
+3520 - Acleris fuscana, small aspen leaftier moth
+3521 - Acleris semiannula
+3521.1 - Acleris stadiana
+3521.2 - Acleris ferrugana
+3522 - Acleris implexana
+3523 - Acleris cornana
+3524 - Acleris simpliciana
+3525 - Acleris forbesana, Forbes' acleris moth
+3526 - Acleris negundana, speckled acleris moth
+3527 - Acleris schalleriana, Schaller's acleris moth
+3528 - Acleris okanagana
+3529 - Acleris oxycoccana
+3530 - Acleris variegana, garden rose tortrix moth
+3531 - Acleris hastiana
+3532 - Acleris fragariana
+3533 - Acleris celiana
+3534 - Acleris arcticana
+3535 - Acleris keiferi
+3536 - Acleris robinsoniana, Robinson's acleris moth
+3537 - Acleris britannia, Brittania moth
+3538 - Acleris klotsi
+3539 - Acleris chalybeana, lesser maple leafroller moth
+3540 - Acleris logiana, black-headed birch leaffolder moth
+3541 - Acleris senescens
+3542 - Acleris flavivittana, multiform leafroller moth
+3543 - Acleris maculidorsana, stained-back leafroller moth
+3544 - Acleris clarkei
+3545 - Acleris minuta, yellowheaded fireworm moth
+3546 - Acleris paracinderella
+3547 - Acleris gloveranus, western black-headed budworm moth
+3548 - Acleris variana, eastern black-headed budworm moth
+3549 - Acleris maccana
+3550 - Acleris youngana
+3551 - Acleris inana
+3552 - Acleris scabrana, gray rough-wing moth
+3553 - Acleris bowmanana
+3554 - Acleris aenigmana
+3555 - Acleris lipsiana
+3556 - Acleris nigrolinea
+3557 - Acleris maximana
+3558 - Acleris busckana
+3559 - Acleris effractana, hook-winged tortrix moth
+3560 - Acleris foliana
+3561 - Acleris hudsoniana
+3562 - Acleris incognita
+3563 - Acleris capizziana
+3564 - Apotoforma rotundipennis
+3564.1 - Tinacrucis noroesta
+3565 - Eulia ministrana, ferruginous eulia moth
+3566 - Cnephasia longana, omnivorous leaftier moth
+3567 - Cnephasia asseclana
+3567.1 - Cnephasia stephensiana, gray tortrix moth
+3568 - Eana argentana
+3569 - Eana georgiella
+3570 - Eana osseana, eana grass tortrix moth
+3572 - Eana idahoensis
+3573 - Decodes basiplagana
+3574 - Decodes fragariana
+3575 - Decodes montanus
+3576 - Decodes lundgreni
+3576.1 - Decodes catherinae
+3576.2 - Decodes macswaini
+3576.3 - Decodes stevensi
+3577 - Decodes bicolor
+3578 - Decodes johnstoni
+3579 - Decodes aneuretus
+3579.1 - Decodes helix
+3580 - Decodes horariana
+3580.1 - Decodes macdunnoughi
+3580.2 - Decodes tahoense
+3580.3 - Decodes asapheus
+3580.4 - Decodes opleri
+3580.5 - Decodes tonto
+3581 - Dorithia semicirculana
+3582 - Dorithia peroneana
+3582.1 - Dorithia trigonana
+3582.2 - Cuproxena minimana
+3583 - Anopina triangulana
+3584 - Anopina ednana
+3584.1 - Anopina internacionana
+3584.2 - Anopina hermana
+3585 - Anopina eleonora
+3586 - Anopina arizonana
+3587 - Anopina silvertonana
+3587.1 - Anopina chiricahuae
+3587.2 - Anopina wrighti
+3588 - Anopina ainslieana
+3589 - Apotomops wellingtoniana
+3589.1 - Apotomops texasana
+3590 - Acroplectis haemanthes
+3591 - Neoeulia dorsistriatana
+3591.1 - Bonagota arizonae
+3592 - Pandemis cerasana, barred fruit-tree tortrix moth
+3592.1 - Pandemis heparana, dark fruit-tree tortrix moth
+3593 - Pandemis lamprosana, woodgrain leafroller moth
+3594 - Pandemis limitata, three-lined leafroller moth
+3595 - Pandemis canadana, green aspen leaftier moth
+3596 - Pandemis pyrusana, pandemis leafroller moth
+3597 - Argyrotaenia velutinana, red-banded leafroller moth
+3598 - Argyrotaenia montezumae
+3598.1 - Argyrotaenia hodgesi
+3599 - Argyrotaenia floridana
+3600 - Argyrotaenia kimballi, Kimball's leafroller moth
+3601 - Argyrotaenia repertana
+3602 - Argyrotaenia pinatubana, pine tube moth
+3603 - Argyrotaenia tabulana, jack pine tube moth
+3604 - Argyrotaenia spaldingiana
+3605 - Argyrotaenia gogana
+3606 - Argyrotaenia amatana, pondapple leafroller moth
+3607 - Argyrotaenia occultana, fall spruce needle moth
+3608 - Argyrotaenia coloradanus
+3609 - Argyrotaenia provana
+3610 - Argyrotaenia niscana
+3611 - Argyrotaenia lignitaenia
+3612 - Argyrotaenia franciscana, orange tortrix moth
+3613 - Argyrotaenia isolatissima
+3615 - Argyrotaenia cupressae
+3616 - Argyrotaenia paiuteana
+3617 - Argyrotaenia burroughsi
+3618 - Argyrotaenia dorsalana
+3619 - Argyrotaenia lautana
+3620 - Argyrotaenia klotsi
+3621 - Argyrotaenia quadrifasciana, four-lined leafroller moth
+3622 - Argyrotaenia juglandana, hickory leafroller moth
+3623 - Argyrotaenia quercifoliana, yellow-winged oak leafroller moth
+3624 - Argyrotaenia alisellana, white-spotted leafroller moth
+3625 - Argyrotaenia mariana, gray-banded leafroller moth
+3626 - Argyrotaenia burnsorum
+3627 - Argyrotaenia ivana, ivana leafroller moth
+3628 - Argyrotaenia martini
+3629 - Argyrotaenia graceana
+3629.1 - Argyrotaenia coconinana
+3629.2 - Argyrotaenia bialbistriata
+3630 - Diedra cockerellana, Cockerell's moth
+3630.1 - Diedra wielgusi
+3630.2 - Diedra intermontana
+3630.3 - Diedra leuschneri
+3630.4 - Diedra calocedrana
+3631 - Choristoneura obsoletana
+3632 - Choristoneura fractivittana, broken-banded leafroller moth
+3633 - Choristoneura parallela, parallel-banded leafroller moth
+3634 - Choristoneura zapulata, zapulata moth
+3635 - Choristoneura rosaceana, oblique-banded leafroller moth
+3635.1 - Choristoneura argentifasciata
+3636 - Choristoneura albaniana
+3637 - Choristoneura conflictana, large aspen tortrix moth
+3638 - Choristoneura fumiferana, spruce budworm moth
+3639 - Choristoneura retiniana
+3640 - Choristoneura occidentalis, western spruce budworm moth
+3640.97 - Choristoneura occidentalis complex, western spruce budworm complex
+3641 - Choristoneura biennis, two-year-cycle budworm moth
+3642 - Choristoneura orae
+3643 - Choristoneura pinus, jack pine budworm moth
+3644 - Choristoneura lambertiana
+3645 - Choristoneura carnana
+3646 - Choristoneura spaldingana
+3647 - Cudonigera houstonana, juniper budworm moth
+3648 - Archips argyrospila, fruit-tree leafroller moth
+3648.1 - Archips goyerana
+3648.2 - Archips nigriplagana
+3649 - Archips mortuana
+3650 - Archips rosana, rose tortrix moth
+3651 - Archips eleagnana
+3652 - Archips myricana
+3653 - Archips semiferana, oak leafroller moth
+3654 - Archips negundana, larger boxelder leafroller moth
+3655 - Archips fervidana, oak webworm moth
+3656 - Archips georgiana
+3657 - Archips magnoliana
+3658 - Archips purpurana, omnivorous leafroller moth
+3659 - Archips infumatana, smoked leafroller moth
+3660 - Archips grisea, gray archips moth
+3661 - Archips cerasivorana, ugly-nest caterpillar moth
+3662 - Archips rileyana, southern ugly-nest caterpillar moth
+3663 - Archips oporana
+3663.1 - Archips podana, large fruit-tree tortrix moth
+3663.2 - Archips fuscocupreana, exotic leafroller moth
+3664 - Archips strianus, striated tortrix moth
+3665 - Archips alberta
+3666 - Archips dissitana, boldly-marked archips moth
+3667 - Archips packardiana, spring spruce needle moth
+3668 - Archips tsuganus
+3669 - Archepandemis borealis
+3670 - Archepandemis coniferana
+3671 - Archepandemis morrisana
+3672 - Syndemis afflictana, gray leafroller moth
+3673 - Lozotaenia hesperia
+3674 - Lozotaenia rindgei
+3674.1 - Lozotaenia costinotana
+3674.2 - Lozotaenia exomilana
+3675 - Aphelia alleniana, Allen's tortrix moth
+3676 - Aphelia koebelei
+3677 - Aphelia septentrionalis
+3677.1 - Aphelia gregalis
+3678 - Cacoecimorpha pronubana, carnation tortrix moth
+3679 - Clepsis listerana
+3680 - Clepsis fucana
+3681 - Clepsis kearfotti
+3681.1 - Clepsis spectrana
+3682 - Clepsis persicana, white-triangle tortrix moth
+3683 - Clepsis consimilana
+3684 - Clepsis clemensiana, Clemens' clepsis moth
+3685 - Clepsis moeschleriana
+3685.1 - Clepsis danilevskyi
+3686 - Clepsis melaleucanus, black-patched clepsis moth
+3687 - Clepsis flavidana
+3687.1 - Clepsis anderslaneyii
+3688 - Clepsis peritana, garden tortrix moth
+3688.1 - Clepsis penetralis
+3689 - Clepsis virescana
+3689.1 - Clepsis illustrana
+3690 - Adoxophyes furcatana
+3691 - Adoxophyes negundana, shimmering adoxophyes moth
+3692 - Ditula angustiorana, red-barred tortrix moth
+3693 - Xenotemna pallorana
+3693.1 - Epiphyas postvittana, light brown apple moth
+3693.2 - Unplaced retractana Walker, 1863
+3694 - Niasoma metallicana
+3695 - Sparganothis sulfureana, sparganothis fruitworm moth
+3697 - Sparganothis lycopodiana
+3697.1 – Sparganothis minimetallica
+3698 - Sparganothis bistriata
+3699 - Sparganothis tristriata, three-streaked sparganothis moth
+3700 - Sparganothis caryae
+3700.1 – Sparganothis robinsonana
+3700.2 – Sparganothis tessellata
+3701 - Sparganothis pulcherrimana, beautiful sparganothis moth
+3702 - Sparganothis taracana
+3702.1 – Sparganothis sullivani
+3702.2 – Sparganothis lindalinea
+3702.3 – Sparganothis mcguinnessi
+3702.4 – Sparganothis azulispecca
+3702.5 – Sparganothis niteolinea
+3703 - Sparganothis demissana
+3704 - Sparganothis distincta, distinct sparganothis moth
+3705 - Sparganothis rubicundana
+3706 - Sparganothis xanthoides, mosaic sparganothis moth
+3706.1 – Sparganothis boweri
+3707 - Cenopis daphnana
+3707.1 – Cenopis unicolorana
+3708 - Sparganothis salinana
+3709 - Sparganothis striata
+3710 - Sparganothis violaceana
+3711 - Sparganothis unifasciana, one-lined sparganothis moth
+3712 - Sparganothis vocaridorsana
+3712.1 – Sparganothis richersi
+3713 - Sparganothis tunicana
+3714 - Sparganothis senecionana
+3715 - Sparganothis umbrana
+3715.1 - Sparganothis putmanana
+3716 - Cenopis diluticostana, spring dead-leaf roller moth
+3717 - Sparganothis flavibasana
+3718 - Cenopis karacana
+3719 - Sparganothis pilleriana, vine leafroller tortrix moth
+3720 - Cenopis reticulatana, reticulated fruitworm moth
+3720.1 - Cenopis ferreana
+3721 - Cenopis albicaudana, white-tailed fruitworm moth
+3721.1 – Cenopis eulongicosta
+3722 - Cenopis directana, chokecherry leafroller moth
+3723 - Cenopis chambersana
+3724 - Cenopis saracana
+3725 - Cenopis pettitana, maple-basswood leafroller moth
+3725.1 - Cenopis lamberti
+3726 - Sparganothis acerivorana, maple leafroller moth
+3727 - Cenopis niveana, aproned cenopis moth
+3728 - Cenopis cana, gray sparganothis moth
+3728.1 - Cenopis vabroui
+3728.5 - Amorbimorpha mackayiana
+3729 - Sparganothoides machimiana
+3730 - Sparganothoides hydeana
+3731 - Sparganothoides lentiginosana, lentiginos moth
+3732 - Platynota flavedana, black-shaded platynota moth
+3733 - Platynota viridana
+3734 - Platynota yumana
+3735 - Platynota larreana
+3736 - Platynota stultana
+3736.1 – Platynota redingtonensis
+3736.2 – Platynota zapatana
+3737 - Platynota nigrocervina
+3738 - Platynota labiosana
+3738.1 – Platynota blanchardi
+3738.2 – Platynota islameconae
+3739 - Platynota calidana
+3740 - Platynota idaeusalis, tufted apple budmoth
+3741 - Platynota semiustana
+3742 - Platynota scotiana
+3743 - Platynota exasperatana, exasperating platynota moth
+3744 - Platynota wenzelana
+3744.1 – Platynota polingi
+3744.2 – Platynota texana
+3745 - Platynota rostrana, omnivorous platynota moth
+3745.1 - Sparganopseustis martinana
+3746 - Synnoma lynosyrana, rabbitbrush webbing moth
+3746.1 - Synalocha gutierreziae
+3746.2 - Syllonoma longipalpana
+3747 - Coelostathma discopunctana, the Batman moth
+3747.1 – Coelostathma placidana
+3748 - Amorbia humerosana, white-line leafroller moth
+3749 - Amorbia cuneana, western avocado leafroller moth
+3749.1 - Amorbia knudsoni
+3750 - Amorbia synneurana
+3750.1 - Amorbia emigratella
+3750.2 – Amorbia vero
+3751 - Thaumatographa jonesi, psychedelic Jones moth
+3752 - Thaumatographa youngiella
+3753 - Thaumatographa regalis
+3753.1 - Auratonota dispersa
+3754 [3807] - Aethes angulatana
+3754.1 [3808] - Aethes angustana
+3754.2 [3809] - Aethes argentilimitana
+3754.3 [3810] - Aethes atomosana
+3755 - Aethes baloghi
+3755.1 [3815] - Aethes biscana
+3755.2 [3816] - Aethes bomonana
+3755.3 [3757] - Aethes deutschiana
+3756 [3754] - Aethes fernaldana
+3756.1 [3822] - Aethes floccosana
+3756.2 - Aethes heleniana
+3756.3 [3759] - Aethes intactana
+3757 [3832] - Aethes interruptofasciata
+3757.1 [3756] - Aethes kindermanniana
+3757.2 [3837] - Aethes louisiana
+3757.3 - Aethes matheri
+3758 - Aethes matthewcruzi
+3758.1 - Aethes monera
+3758.2 - Aethes mymara
+3758.3 [3841] - Aethes obliquana
+3759 - Aethes patricia
+3759.1 [3844] - Aethes promptana
+3759.2 [3846] - Aethes rana
+3759.3 - Aethes razowskii, Razowski's aethes moth
+3760 [3758] - Aethes rutilana
+3760.1 [3850] - Aethes seriatana, seriated aethes moth
+3760.2 - Aethes sexdentata
+3760.3 [3755] - Aethes smeathmanniana, Smeathmann's aethes moth
+3761 - Aethes sonorae, streaked aethes moth
+3761.1 [3851] - Aethes spartinana
+3761.2 - Aethes terriae
+3761.3 [3856] - Aethes vachelliana
+3761.4 - Aethes westratei
+3762 - Agapeta zoegana, knapweed root-borer moth
+3763 [3783] - Carolella bimaculana, two-spotted carolella moth
+3764 [3782] - Carolella sartana, broad-patch carolella moth
+3765 - Cochylidia subroseana
+3766 - Cochylis arthuri
+3767 [3812] - Cochylis aurorana
+3768 - Cochylis avita
+3769 - Cochylis bucera
+3770 [3817] - Cochylis carmelana
+3771 - Cochylis caulocatax
+3772 - Cochylis disputabilis
+3773 - Cochylis dormitoria
+3774 - Cochylis dubitana
+3775 [3767] - Cochylis formonana
+3776 [3828] - Cochylis hoffmanana, Hoffman's cochlid moth
+3777 [3830] - Cochylis hospes
+3778 [3764] - Cochylis nana
+3779 [3761] - Cochylis parallelana
+3780 - Cochylis ringsi, Rings' cochylid moth
+3781 [3854] - Cochylis temerana
+3782 [3762] - Cochylis transversana
+3783 [3857] - Cochylis viscana
+3784 [3788] - Eugnosta argyroplaca
+3785 [3789] - Eugnosta beevorana
+3786 [3790] - Eugnosta busckana
+3787 - Eugnosta californica
+3788 - Eugnosta chemsakiana
+3789 [3785] - Eugnosta deceptana
+3790 [3784] - Eugnosta erigeronana, fleabane cochylid moth
+3791 [3786] - Eugnosta mexicana
+3792 [3791] - Eugnosta willettana
+no number yet Eupinivora ponderosae
+3793 [3847] - Gynidomorpha romonana
+3794 - Henricus cognata
+3795 [3778] - Henricus comes
+3796 [3774] - Henricus contrastana, contrasting henricus moth
+3797 [3820] - Henricus edwardsiana
+3798 [3773] - Henricus fuscodorsana, cone cochylid moth
+3799 [3771] - Henricus infernalis
+3800 [3770] - Henricus macrocarpana
+3801 [3777] - Henricus umbrabasana
+3802 - Lorita baccharivora
+3803 - Lorita scarificata, chrysanthemum flower borer moth
+3804 [3814] - Phalonidia basiochreana
+3805 [3821] - Phalonidia elderana
+3806 [3779] - Phalonidia latipunctana
+3807 [3856] - Phalonidia lepidana
+3808 - Phalonidia memoranda
+3809 - Phalonidia ontariana
+3810 [3793] - Phtheochroa aegrana
+3811 [3794] - Phtheochroa aureoalbida
+3812 [3804] - Phtheochroa baracana
+3813 [3801] - Phtheochroa birdana
+3814 [3798] - Phtheochroa cartwrightana
+3815 [3792] - Phtheochroa fulviplicana
+3816 - Phtheochroa hamartopenis
+3817 [3776] - Phtheochroa huachucana
+3818 - Phtheochroa inopiana
+3819 [3805] - Phtheochroa modestana, modest phtheochroa moth
+3820 [3803] - Phtheochroa pecosana
+3821 [3800] - Phtheochroa perspicuana
+3822 [3802] - Phtheochroa riscana
+3823 [3799] - Phtheochroa terminana
+3824 [3797] - Phtheochroa villana
+3825 [3787] - Phtheochroa vitellinana
+3826 - Phtheochroa vulneratana
+3827 [3796] - Phtheochroa waracana
+3828 - Platphalonidia albertae
+3829 [3765] - Platphalonidia campicolana
+3830 - Platphalonidia dangi
+3831 [3760] - Platphalonidia felix
+3832 - Platphalonidia imitabilis
+3833 [3834] - Platphalonidia lavana
+3834 [3766] - Platphalonidia parvimaculana
+3835 - Platphalonidia plicana
+3836 - Rolandylis fusca
+3837 [3838] - Rolandylis maiana, Kearfott's rolandylis moth
+3838 - Rolandylis virilia
+3839 [3835] - Rudenia leguminana, black-tipped rudenia moth
+3840 [3840] - Saphenista nomonana
+3841 [3780] - Saphenista saxicolana
+3842 - Spinipogon resthavenensis
+3843 [3775] - Thyraylia bana
+3844 [3769] - Thyraylia bunteana
+3845 [3819] - Thyraylia discana
+3846 [3827] - Thyraylia gunniana
+3847 [3829] - Thyraylia hollandana, Holland's cochylid moth
+3848 [3842] - Atroposia oenotherana, primrose cochylid moth
+3849 [3818] - Cagiva cephalanthana
+3850 [3831] - Cybilla hubbardana
+3851 [3826] - Honca grandis
+3852 [3763] - Nycthia pimana
+3853 [3860] - Nycthia yuccatana
+3854 [3859] - Poterioparvus wiscana
+3855 [3813] - Unplaced baboquivariana (Kearfott, 1907)
+3856 [3768] - Unplaced dilutana Walsingham, 1879
+3857 [3823] - Unplaced foxcana (Kearfott, 1907)
+3858 [3824] - Unplaced fulvotinctana (Walsingham, 1884)
+3859 [3825] - Unplaced glaucofuscana (Zeller, 1875)
+3860 [3845] - Unplaced punctadiscana (Kearfott, 1908)
+3861 [3862] - Unplaced ziscana (Kearfott, 1907)
+
+
+== See also ==
+List of butterflies of North America
+List of Lepidoptera of Hawaii
+List of moths of Canada
+List of butterflies of Canada
+
+
+== External links ==
+Checklists of North American Moths

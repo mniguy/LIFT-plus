@@ -1,0 +1,76 @@
+A cockpit or flight deck is the area, usually near the front of an aircraft or spacecraft, from which a pilot controls the aircraft.
+
+The cockpit of an aircraft contains flight instruments on an instrument panel, and the controls that enable the pilot to fly the aircraft. In most airliners, a door separates the cockpit from the aircraft cabin. After the September 11, 2001 attacks, all major airlines fortified their cockpits against access by hijackers.
+
+
+== Etymology ==
+The word cockpit seems to have been used as a nautical term in the 17th century, without reference to cock fighting. It referred to an area in the rear of a ship where the cockswain's station was located, the cockswain being the pilot of a smaller "boat" that could be dispatched from the ship to board another ship or to bring people ashore. The word "cockswain" in turn derives from the old English terms for "boat-servant" (coque is the French word for "shell"; and swain was old English for boy or servant). The midshipmen and master's mates were later berthed in the cockpit, and it served as the action station for the ship's surgeon and his mates during battle. Thus by the 18th century, "cockpit" had come to designate an area in the rear lower deck of a warship where the wounded were taken. The same term later came to designate the place from which a sailing vessel is steered, because it is also located in the rear, and is often in a well or "pit".However, a convergent etymology does involve reference to cock fighting. According to the Barnhart Concise Dictionary of Etymology, the buildings in London where the king's cabinet worked (the Treasury and the Privy Council) were called the "Cockpit" because they were built on the site of a theater called The Cockpit (torn down in 1635), which itself was built in the place where a "cockpit" for cock-fighting had once stood prior to the 1580s. Thus the word Cockpit came to mean a control center.The original meaning of "cockpit", first attested in the 1580s, is "a pit for fighting cocks", referring to the place where cockfights were held. This meaning no doubt influenced both lines of evolution of the term, since a cockpit in this sense was a tight enclosure where a great deal of stress or tension would occur.From about 1935, cockpit came to be used informally to refer to the driver's cabin, especially in high performance cars, and this is official terminology used to describe the compartment that the driver occupies in a Formula One car.
+In an airliner, the cockpit is usually referred to as the flight deck, the term deriving from its use by the RAF for the separate, upper platform in large flying boats where the pilot and co-pilot sat. In the USA and many other countries, however, the term cockpit is also used for airliners.The seat of a powerboat racing craft is also referred to as the cockpit.
+
+
+== Ergonomics ==
+The first airplane with an enclosed cabin appeared in 1912 on the Avro Type F; however, during the early 1920s there were many passenger aircraft in which the crew remained open to the air while the passengers sat in a cabin. Military biplanes and the first single-engined fighters and attack aircraft also had open cockpits, some as late as the Second World War when enclosed cockpits became the norm.
+The largest impediment to having closed cabins was the material used to make the windows. Prior to Perspex becoming available in 1933, windows were either safety glass, which was heavy, or cellulose nitrate (i.e.: guncotton), which yellowed quickly and was extremely flammable. In the mid-1920s many aircraft manufacturers began using enclosed cockpits for the first time. Early airplanes with closed cockpits include the 1924 Fokker F.VII, the 1926 German Junkers W 34 transport, the 1926 Ford Trimotor, the 1927 Lockheed Vega, the Spirit of St. Louis and the passenger aircraft manufactured by the Douglas and Boeing companies during the mid-1930s. Open-cockpit airplanes were almost extinct by the mid-1950s, with the exception of training planes, crop-dusters and homebuilt aircraft designs.
+Cockpit windows may be equipped with a sun shield. Most cockpits have windows that can be opened when the aircraft is on the ground. Nearly all glass windows in large aircraft have an anti-reflective coating, and an internal heating element to melt ice. Smaller aircraft may be equipped with a transparent aircraft canopy.
+In most cockpits the pilot's control column or joystick is located centrally (centre stick), although in some military fast jets the side-stick is located on the right hand side. In some commercial airliners (i.e.: Airbus—which features the glass cockpit concept) both pilots use a side-stick located on the outboard side, so Captain's side-stick on the left and First-officer's seat on the right.
+Except for some helicopters, the right seat in the cockpit of an aircraft is the seat used by the co-pilot.  The captain or pilot in command sits in the left seat, so that they can operate the throttles and other pedestal instruments with their right hand.  The tradition has been maintained to this day, with the co-pilot on the right hand side.The layout of the cockpit, especially in the military fast jet, has undergone standardisation, both within and between aircraft, manufacturers and even nations. An important development was the "Basic Six" pattern, later the "Basic T", developed from 1937 onwards by the Royal Air Force, designed to optimise pilot instrument scanning.
+Ergonomics and Human Factors concerns are important in the design of modern cockpits. The layout and function of cockpit displays controls are designed to increase pilot situation awareness without causing information overload. In the past, many cockpits, especially in fighter aircraft, limited the size of the pilots that could fit into them. Now, cockpits are being designed to accommodate from the 1st percentile female physical size to the 99th percentile male size.
+In the design of the cockpit in a military fast jet, the traditional "knobs and dials" associated with the cockpit are mainly absent. Instrument panels are now almost wholly replaced by electronic displays, which are themselves often re-configurable to save space. While some hard-wired dedicated switches must still be used for reasons of integrity and safety, many traditional controls are replaced by multi-function re-configurable controls or so-called "soft keys". Controls are incorporated onto the stick and throttle to enable the pilot to maintain a head-up and eyes-out position – the Hands On Throttle And Stick or HOTAS concept,. These controls may be then further augmented by control media such as head pointing with a Helmet Mounted Sighting System or Direct voice input (DVI). Advances in auditory displays allow for Direct Voice Output of aircraft status information and for the spatial localisation of warning sounds for improved monitoring of aircraft systems.
+The layout of control panels in modern airliners has become largely unified across the industry. The majority of the systems-related controls (such as electrical, fuel, hydraulics and pressurization) for example, are usually located in the ceiling on an overhead panel. Radios are generally placed on a panel between the pilot's seats known as the pedestal. Automatic flight controls such as the autopilot are usually placed just below the windscreen and above the main instrument panel on the glareshield. A central concept in the design of the cockpit is the Design Eye Position or "DEP", from which point all displays should be visible.
+Most modern cockpits will also include some kind of integrated warning system.
+In a 2013 comparative study of a number of novel methods for cockpit-user interaction, touchscreen produced the largest number of "best scores".
+
+
+== Flight instruments ==
+
+In the modern electronic cockpit, the electronic flight instruments usually regarded as essential are MFD, PFD, ND, EICAS, FMS/CDU and back-up instruments.
+
+
+=== MCP ===
+A Mode control panel, usually a long narrow panel located centrally in front of the pilot, may be used to control heading, speed, altitude, vertical speed, vertical navigation and lateral navigation. It may also be used to engage or disengage both the autopilot and the autothrottle. The panel as an area is usually referred to as the "glareshield panel". MCP is a Boeing designation (that has been informally adopted as a generic name for the unit/panel) for a unit that allows for the selection and parameter setting of the different autoflight functions, the same unit on an Airbus aircraft is referred to as the FCU (Flight Control unit).
+
+
+=== PFD ===
+The primary flight display is usually located in a prominent position, either centrally or on either side of the cockpit. It will in most cases include a digitized presentation of the attitude indicator, air speed and altitude indicators (usually as a tape display) and the vertical speed indicator. It will in many cases include some form of heading indicator and ILS/VOR deviation indicators. In many cases an indicator of the engaged and armed autoflight system modes will be present along with some form of indication of the selected values for altitude, speed, vertical speed and heading. It may be pilot selectable to swap with the ND.
+
+
+=== ND ===
+A navigation display, which may be adjacent to the PFD, shows the route and information on the next waypoint, wind speed and wind direction. It may be pilot selectable to swap with the PFD.
+
+
+=== EICAS/ECAM ===
+The Engine Indication and Crew Alerting System (used for Boeing) or Electronic Centralized Aircraft Monitor (for Airbus) will allow the pilot to monitor the following information: values for N1, N2 and N3, fuel temperature, fuel flow, the electrical system, cockpit or cabin temperature and pressure, control surfaces and so on. The pilot may select display of information by means of button press.
+
+
+=== FMS/MCDU ===
+The flight management system/control and/or display unit may be used by the pilot to enter and check for the following information: flight plan, speed control, navigation control, and so on.
+
+
+=== Back-up instruments ===
+In a less prominent part of the cockpit, in case of failure of the other instruments, there will be a battery-powered integrated standby instrument system along with a magnetic compass, showing essential flight information such as speed, altitude, attitude and heading.
+
+
+== Aerospace industry technologies ==
+In the U.S. the Federal Aviation Administration (FAA) and the National Aeronautics and Space Administration (NASA) have researched the ergonomic aspects of cockpit design and have conducted investigations of airline industry accidents. Cockpit design disciplines include Cognitive science, Neuroscience, Human–computer interaction, Human Factors Engineering, Anthropometry and Ergonomics.
+Aircraft designs have adopted the fully digital "glass cockpit". In such designs, instruments and gauges, including navigational map displays, use a user interface markup language known as ARINC 661. This standard defines the interface between an independent cockpit display system, generally produced by a single manufacturer, and the avionics equipment and user applications it is required to support, by means of displays and controls, often made by different manufacturers. The separation between the overall display system, and the applications driving it, allows for specialization and independence.
+
+
+== See also ==
+Bridge (nautical)
+Cab (locomotive)
+Control room
+Command center
+
+
+== Notes ==
+The Aircraft Cockpit – from stick-and-string to fly-by-wire, by L. F. E. Coombes, 1990, Patrick Stephens Limited, Wellingborough.
+Fighting Cockpits: 1914 – 2000, by L. F. E. Coombes, 1999, Airlife Publishing Limited, Shrewsbury.
+Control In The Sky: The Evolution and History of The Aircraft Cockpit, by L. F. E. Coombes, 2005, Pen and Sword Books Limited, Barnsley.
+
+
+== References ==
+
+
+== External links ==
+A380 cockpit
+Cockpit pictures of aircraft in the Indian Air Force

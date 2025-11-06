@@ -1,0 +1,38 @@
+Panus conchatus, commonly known as the lilac oysterling, is an inedible species of mushroom that occurs throughout the Northern Hemisphere. Its fruitbodies are characterized by a smooth, lilac- or tan-colored cap, and decurrent gills.  The fungus is saprophytic and fruits on the decomposing wood of a wide variety of deciduous and coniferous trees. Despite being a gilled species, phylogenetic analysis has shown it is closely related to the pored species found in the family Polyporaceae.
+
+
+== Taxonomy ==
+The species was originally described under the name Agaricus conchatus by French mycologist Jean Baptiste François Pierre Bulliard in volume 7 of his 1787 Herbier de la France. Elias Magnus Fries transferred it to the genus Panus in 1838.The specific epithet conchatus is derived from the Latin word meaning "shell-like". It is commonly known as the lilac oysterling.Panus conchatus mushrooms have an extremely variable morphology that changes with the age of the fruitbodies. Young specimens are pliable and fleshy, colored lilac to purple, and have a monomitic hyphal system (containing only generative hyphae). Old fruitbodies lose the coloring and develop a tough texture. They have a dimitic hyphal system, containing both generative and skeletal hyphae. Because of this variability in fruitbody morphology, the fungus has been described several times under different names by different mycologists. The following are heterotypic synonyms of Panus conchatus (based on a different type):
+Agaricus flabelliformis Schaeff. (1774)
+Agaricus carneotomentosus Batsch (1783)
+Panus monticola Berk (1851)
+Panus vaporarius Bagl. (1865)
+Lentinus percomis Berk. & Broome (1875)
+Lentinus divisus Schulzer (1879)
+Lentinus bresadolae Schulzer (1885)
+Lentinus carneotomentosus  J.Schröt. (1889)
+Lentinus obconicus Peck (1906)
+
+
+== Description ==
+The cap is 5 to 15 centimetres (2.0 to 5.9 in) in diameter, and is initially convex, but later flattens or becomes centrally depressed in maturity. The cap is tan, lilac or reddish-brown, and smooth (glabrous); in age the surface may crack into small flattened scales. The cap margin is inrolled and often has a wavy or lobed outline. The flesh is tough and whitish. The gills are attached in a decurrently (running down the length of the stem), and are narrow and often forked. The gills initially have a violet tinge, but later become an or reddish-violet. The stem is 2 to 3 centimetres (0.8 to 1.2 in) long and 1 to 3 centimetres (0.4 to 1.2 in) thick, roughly the same color as the cap, but covered with violet hairs; it is attached to the cap laterally, or off-center. The spore print is white.
+Viewed microscopically, spores are elliptical, smooth, and non-amyloid, with dimensions of 5–7 by 2.5–3.5 µm. The pleurocystidia are either enlarged in the middle (ventricose) or enlarged and spherical at the tip (capitate); these cells have dimensions of 35–45 by 8–11 µm.
+
+
+== Habitat and distribution ==
+Panus conchatus is a saprobic species – deriving nutrition from rotting or decaying organic matter – and fruit bodies can be found on hardwood stumps, logs and sticks, usually crowded together in clusters. Typical hosts include wood of deciduous trees—especially beech, poplar, birch, and oak, and less frequently on ash and elm. Coniferous hosts include fir, spruce, pine, and yew.Found throughout the Northern Hemisphere, this species has been collected in North America, and Europe.
+
+
+== Edibility ==
+Although believed to be non-toxic and sometimes eaten when young, P. conchatus is not recommended for consumption due to its tough and leathery texture.
+
+
+== Phylogenetics ==
+The general growth form, or habit, of P. conchatus is pleurotoid, referring to its growth on wood, the presence of gills, and roughly semicircular-shaped caps and off-center stem attachment to the cap. A study of this and various other pleurotoid species using phylogenetic analysis determined that despite the presence of gills, P. conchatus is closely related to mushrooms with pores, hence their placement in the Polyporaceae family.
+
+
+== Research ==
+Panus conchatus contains a laccase, a polyphenol oxidase enzyme. These enzymes have potential in industrial applications for pulp bleaching, wastewater treatment in mills, and removal of phenolic compounds in the food industry. Most laccases have an active site containing four copper molecules, and are known as blue copper phenol oxidases. P. conchatus, however, contains a white laccase that lacks the typical blue copper color. The crudely purified enzyme has been used for pulp bleaching and wastewater decoloration in experimental studies.
+
+
+== References ==

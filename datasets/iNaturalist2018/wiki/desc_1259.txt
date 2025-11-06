@@ -1,0 +1,104 @@
+Chloridea virescens, commonly known as the tobacco budworm, is a moth of the family Noctuidae found throughout the eastern and southwestern United States along with parts of Central America and South America.It is a major pest of field crops including tobacco (as its common name suggests) and cotton. However, it is able to thrive on a wide variety of host plants ranging from fruits, vegetables, flowers, and weeds. Control of this pest has proven to be particularly difficult due a variety of factors, but widespread insecticide and pesticide resistance have proven particularly concerning.
+Chloridea virescens was formerly a member of the genus Heliothis, but was moved to the reinstated genus Chloridea as a result of genetic and morphological research published in 2013.
+
+
+== Description ==
+Adult C. virescens are brownish in color with a light green tinge. The front wings have three dark bands, each associated with a whitish or cream border. Hindwings are whitish with a dark band at the distal margin. Fully grown adults measure between 28 and 35 mm (1.1 to 1.4 inches) in wingspan. Females are generally darker in color than males.
+
+
+=== Life cycle ===
+The tobacco budworm goes through 4 life stages: egg, larval, pupal, and adult. The life cycle generally occurs during the warmer months of late spring to early fall, depending on the region that the budworm is found. During this time, Chloridea virescens can undergo around 4 to 5 generations depending on the region. For larval, pupal, and adult stages, warmer temperatures encourage faster maturation but also faster senescence, while colder climates allow the budworm to mature at a slower rate. Chloridea virescens moths emerge between March to May in the southern United States.
+
+
+==== Egg ====
+
+Females generally produce 300 to 500 eggs in the wild but have been seen to produce 1000 to 1500 eggs on an artificial diet consisting of primarily water, wheat germ, casein, and sucrose at cool temperatures in an Arizona study. Eggs are deposited on the blossoms, fruit, or terminal growths of host plants. They are initially whitish or yellowish and turn grey as they age. With a radius of 0.5 to 0.6 millimeters, eggs are generally spherical with a flattened base where they are attached to the plant. There are 18 to 25 ridges that radiate from the top of the egg. Tobacco budworm eggs are almost indistinguishable from the eggs of the corn earworm. In tobacco budworm eggs, primary ribs terminate before they reach the cells surrounding micropyle, a small pore opening at the top of the egg. On the other hand, corn earworm ridges extend to the rosette.
+
+
+==== Larvae ====
+Chloridea virescens larvae usually have 5 to 6 instars or moultings, but there have been instances where 7 instars are necessary to reach the pupal stage. Head width of the larvae starts from 0.26 mm and grows to 2.87 mm by the last instar. Larval length ranges from 1.4 mm in the first instar and grows to 36 mm by the fifth instar. Larvae are a yellow or yellowish green upon hatching, with a yellowish brown head capsule. During later instars, larvae have variable colors ranging from greenish to pinkish, or even a dark red or maroon with a broad brown head capsule.  Whitish dorsal and ventral bands run down the length of its body, along with a broad lateral band that is generally brown in color. Larvae also have black thorn-like microspines. Starting from the third or fourth instar, cannibalistic behavior can be observed. Similar to the eggs, early instar C. virescens larvae are difficult to distinguish from corn earworm larvae, with minor differences such as missing or differing lengths of microspines.
+
+
+===== Pupae =====
+Pupation, or the process of transforming from an immature stage to an adult, occurs in the soil. Pupae start off a shiny reddish-brown that progresses to a dark brown color. The size of a pupa averages 18.2 mm to 4.7 mm in width. The budworm overwinters in the pupal stage, and diapause or dormancy can be initiated by either short days or low temperatures.
+
+
+==== Temperature dependence ====
+Development time and lifespan show a negative correlation with temperature. Higher temperatures result in shorter development times in studies conducted on Chloridea virescens raised in a temperature controlled laboratory environment.In the larval stages, development time for the instars required anywhere between 2.6 and 10.1 days at 20 °C. When the temperature was increased to 25 °C instar development times ranged between 1.9 and 5.7 days. Most notably, the later instar development times were nearly halved. The duration of the pupal stage also decreases with increasing temperature: on average, 22 days were required to hatch at 20 °C, while only 13 days were needed at 25 °C, and 11.2 days at 30 °C. Adulthood longevity ranges from 25 days at 20 °C but drops to 15 days at 30 °C.
+
+
+== Distribution and habitat ==
+The tobacco budworm is found throughout the eastern and southwestern United States and has been collected in states such as Louisiana and Florida. However, it has also been spotted in California and even in New England and southern Canada during the later summer months as it disperses northward annually. Generally, Chloridea virescens spends the winter in the Southern states, but it has been seen to survive northern climates in sheltered areas such as greenhouses. C. virescens is also widely found in the Caribbean and has been spotted in Central and South America. More specifically, Virginia, North Carolina, South Carolina, Georgia, Florida, Texas, Colorado, Mexico, Guatemala, Panama, Brazil and the Antilles all have C. virescens populations.
+
+
+== Host plants ==
+Chloridea virescens larvae are a field crop pest, attacking a wide variety of crops. As its common name suggests, it is widely described as attacking tobacco plants of the Nicotiana species, but it also favors cotton, alfalfa, clovers, soybean, and flax plants. In addition to crop plants, it is a common pest of vegetables and fruits such as cabbage, cantaloupe, lettuce, pea, and tomato plants. Aside from plants that are grown for agricultural reasons, C. virescens larvae also attack flower crops such as geranium and a large variety of weeds.After eggs are laid on the host plant's leaves and hatch, the larvae may chew small holes in the leaves before they reach the buds. They then damage the bud or growing tip of the plant. The leaves that expand from the buds are often ragged and distorted as a result.
+Host plant preference seems to differ by region or habitat. In Mississippi, cranesbill is the key early season host plant. In Texas, cotton is the principal host plant, but wild tobacco, vervain, ruellia, and mallow are all important hosts as well. Studies in Florida show that C. virescens prefer tobacco more highly than other field crops and vegetables, but cabbage, collards, okra, and tomato were all still attacked. However, it is notable that cotton was not present in this study.Movements between host plants throughout generations of C. virescens have been observed in a widespread number of environments. For example, in Georgia, the first two generations of C. virescens of the year (in around April and May) develop primarily on toadflax, but the third generation (in June and July) prefers deergrass. Future generations (between July to October) prefer beggarweed to other host plants.Other recorded food plants include Penstemon laevigatus, Desmodium species, Lespedeza bicolor, Medicago lupulina, Geranium dissectum, Rhexia species, Rumex species, Physalis species, Lonicera japonica, Lupinus species, Ipomoea species, Jacquemontia tamnifolia, Passiflora species, Sida spinosa, Helianthus species, Linaria canadensis, and Abutilon theophrasti.
+
+
+== Oviposition ==
+Chloridea virescens lays its eggs on the leaves of its host plants; upon hatching, larvae migrate to the terminal area and then to the buds to feed. It has been shown that there is maternal inheritance of preferred host plants. Mothers that have been raised on certain plants generally prefer to oviposit their eggs on the same species of plant.
+
+
+== Parasites ==
+There are high levels of parasitism at all stages of life for the Chloridea virescens. For example, egg parasitoid Trichogramma pretiosum Riley is an effective parasitoid in budworm populations in vegetable crops. Most known egg parasites are members of the order Hymenoptera.The braconid wasp, Microplitis croceipes, which deposits its eggs inside a living caterpillar, is an important parasitoid of both C. virescens and the related species Helicoverpa zea.In northern Florida, the predominant parasite of C. virescens on tobacco plants was Cardiochiles nigriceps, a parasitoid wasp. Adults of this parasitoid were found on the vast majority of tobacco plants, before any tobacco budworm eggs or larvae were found on it. Once tobacco was removed from the plots, parasitism by C. nigriceps declined. C. nigriceps generally oviposit its eggs onto small Chloridea virescens larvae; eggs hatch either at later instars or at the prepupae stage. In the study, C. nigriceps larvae were collected from tobacco budworm larvae in the late spring.Meteorus autographae was as common as C. nigriceps in larvae collected from white clover, and at least ten other parasitoids were recorded between April and October.
+
+
+=== Defenses ===
+Chloridea virescens larvae attack C. nigriceps females that approach with an oral exudate that causes C. nigriceps to become agitated and groom themselves, allowing the budworm to escape. C. nigriceps also avoid budworms painted with this exudate. It is hypothesized that this exudate may function by overloading the wasp's sensory receptors.Winthemia rufopicta eggs are sometimes laid on C. virescens larvae, but upon hatching and trying to penetrate its host, caterpillars react by biting, crushing, puncturing, or trying to eat the parasitoid eggs. This kills off many of the maggots.
+
+
+== Pheromones ==
+Male Chloridea virescens produce and display pheromones from their hair-pencil during mating. These hair-pencil pheromones attract conspecific females, specifically when males were presented with the option of mating with C. virescens and H. subflexa.  Antennectomized female Heliothis virescens, or those who had their antennae removed, mated with hair-pencil pheromone displaying males less often than those which had been sham-operated, suggesting that C. virescens females are dependent on their antennae to detect these pheromones. If the hair-pencil was surgically removed from the male, mating frequency could be restored with a filter paper was loaded with a load of hair-pencil extract.
+
+
+== Physiology ==
+
+
+=== Hormones ===
+In Chloridea virescens, juvenile hormone (JH, which regulates many aspects of insect development) is necessary for the deposition of nutrients into the female germ cell, or yolk formation (vitellogenesis). It is thought that mating can enhance egg maturation, increase egg production, and induce oviposition due to stimulation of JH production. Mating was correlated with a surge in JH production by the corpus allatum in females - a 5 to 15 fold increase compared to virgin females, an allototropic effect. Juvenile hormone released by mated females increased 2.5 fold. The profile of the juvenile hormone produced also changed - synthesis of JH II exhibited significant increases, JH I increases but not significantly, and JH III remained the same. In males, juvenile hormone is synthesized in small quantities by accessory sex glands. At birth, males synthesize around 1.5 nanograms of JH I and II; this quantity increases by 12 hours after emergence and remains steady for up to 54 hours after emergence. While mating, males also transfer the juvenile hormone they synthesize to the females they copulate with. By 6 hours, levels on the female bursa copulatrix decrease dramatically.
+
+
+=== Vitellogenin ===
+Vitellogenin (VG), an egg yolk precursor protein, is dependent on juvenile hormone levels. Mated females exhibit higher levels of VG than virgin females 48 hours after emergence; mated females also exhibit significantly higher egg production rates than virgin females at 48–120 hours post emergence.
+
+
+== Interactions with humans ==
+
+
+=== Pest of crop plants ===
+The tobacco budworm has a long record of attempted management. Records dating back to the early 1800s have descriptions of pest damage and control measures that match the damage caused by Chloridea virescens; the USDA has records dating to around 100 years ago describing significant losses to tobacco agriculture totaling around US$2000 per hectare. C. virescens was misidentified up until the 1920s as Heliothis zea, both of which are still referred to as heliothines or the “bollworm complex." The bollworm complex was described by the Ecological Society of America as “the nation’s most destructive and ecologically disruptive insect pest problem, costing the country over $1 billion dollars for their damage."This damage occurs because larvae tunnel into buds and blossoms, tender terminal growth, leaf petioles, and stalks of their host plant. Larvae will also burrow into fruit, but this increased the frequency of plant disease. If there is no reproductive tissue available, Chloridea virescens will readily feed on leaves. Injury of the crop presents very similar patterns and at similar levels as the corn earworm.
+
+
+== Management ==
+
+
+=== Insecticides ===
+Previously, insecticides such as Paris Green or arsenates were used in high enough doses that affected not only the insects they were meant to kill, but also the plants that the insecticides were supposed to be protecting.Part of the reason Chloridea virescens has proved so difficult to control is because of its ability to rapidly evolve insecticide and pesticide resistance. C. virescens acquired resistance to DDT a mere 14 years after widespread use, carbaryl within 10 years, pyrethroids in 7, and methomyl in less than 5 years of intensive use.When insecticides are implemented, foliar insecticides are used, but this often also hurts beneficial organisms that control Chloridea virescens populations, further exacerbating the damage.
+
+
+=== Sampling ===
+Large cone-shaped wire traps are baited with sex pheromone lures are able to capture adult moths. Smaller bucket traps are also widely used but not as effective as the larger wire traps.
+
+
+=== Destruction of habitats ===
+Mowing or killing weeds with herbicide early in the spring can reduce budworm population size later in the year. Killing larvae already on the weeds is also effective.
+
+
+=== Biological control ===
+Heliothis nuclear polyhedrosis virus have been used to suppress populations on field crops and early season weed hosts. Release of Trichogamma egg parasitoids is beneficial in some vegetable crops.
+
+
+=== Multitactic approach ===
+Around the 1980s, a multi-tactic approach was developed, including destruction of weed hosts, biological insecticides, and release of sterile Chloridea virescens crosses. While these tactics had no immediate effect on the tobacco budworm population, much of the data collected during these control efforts was valuable in control efforts for other pests.
+
+
+=== Irradiation ===
+Studies have been done on the usage of reserpine and subsequently exposing the moth with gamma irradiation (treatments ranged from 0 to 25 krad).No level of radiation treatments completely sterilized the adult males, but fecundity was reduced to 33-40%. Fertility (percentage hatched) was dramatically reduced, and greater doses of radiation resulted in a sex imbalance that lowered the proportion of female progeny. Females were completely sterilized at the 25 krad treatment. It was also observed that sterility could be inherited; the fecundity of F1 females, born from treated females, was still markedly reduced. There was a high female pupal mortality rate that increased with doses of irradiation treatment. Hatching rates decreased at lower levels of radiation; above 20 krad treatments, eggs ceased to hatch.
+
+
+=== Genetic engineering ===
+Cotton has been genetically engineered to express insecticidal proteins (specifically Cry1Ac and Cry1Ab, d-endotoxin proteins of Bacillus thuringiensis) to resist the budworm. These transgenic cotton plants are remarkably effective, especially considering previous lack of success with insecticides. In cage studies where larvae were placed with cotton expressing Cry1ab for 10 days, less than 2% survived. Transgenic cotton that has been genetically engineered to express Bacillus thuringiensis toxins have proved incredibly effective for controlling Chloridea virescens populations.The limiting factor to long term usage of transgenic cottons as a method of population control is the development of resistant pest populations. A study in North Carolina collected wild Chloridea virescens populations and fed some diets containing Bacillus thuringiensis toxins. After just 12 selection episodes, survivors were already 7-fold more resistant to the toxins. It is estimated that the frequency of the resistant allele may be as high as 0.001 in the population.There have been strategies proposed to delay the rate of resistance development. One strategy proposes mixing transgenic and nontransgenic seeds before packaging them for sale, resulting in a mixed field population. However, studies modeling this situation suggest that Chloridea virescens larvae will simply ingest sublethal doses of toxin, then move to a nontransgenic plant and recover. Therefore, this strategy may actually hasten the rate of resistance development.
+
+
+== References ==

@@ -1,0 +1,88 @@
+A metro station or subway station is a railway station for a rapid transit system, which as a whole is usually called a "metro" or "subway". A station provides a means for passengers to purchase tickets, board trains, and evacuate the system in the case of an emergency. In the United Kingdom, they are known as underground stations, most commonly used in reference to the London Underground.
+
+
+== Location ==
+The location of a metro station is carefully planned to provide easy access to important urban facilities such as roads, commercial centres, major buildings and other transport nodes.
+Most stations are located underground, with entrances/exits leading up to ground or street level. The bulk of the station is typically positioned under land reserved for public thoroughfares or parks. Placing the station underground reduces the outside area occupied by the station, allowing vehicles and pedestrians to continue using the ground-level area in a similar way as before the station's construction. This is especially important where the station is serving high-density urban precincts, where ground-level spaces are already heavily utilised.In other cases, a station may be elevated above a road, or at ground level depending on the level of the train tracks. The physical, visual and economic impact of the station and its operations will be greater. Planners will often take metro lines or parts of lines at or above ground where urban density decreases, extending the system further for less cost. Metros are most commonly used in urban cities, with great populations. Alternatively, a preexisting railway land corridor is re-purposed for rapid transit.
+
+
+== Facilities ==
+
+At street level the logo of the metro company marks the entrances/exits of the station. Usually, signage shows the name of the station and describes the facilities of the station and the system it serves. Often there are several entrances for one station, saving pedestrians from needing to cross a street and reducing crowding.A metro station typically provides ticket vending and ticket validating systems. The station is divided into an unpaid zone connected to the street, and a paid zone connected to the train platforms. The ticket barrier allows passengers with valid tickets to pass between these zones. The barrier may operated by staff or more typically with automated turnstiles or gates that open when a transit pass is scanned or detected. Some small metro systems dispense with paid zones and validate tickets with staff in the train carriages.Access from the street to ticketing and the train platform is provided by stairs, concourses, escalators, elevators and tunnels. The station will be designed to minimise overcrowding and improve flow, sometimes by designating tunnels as one way. Permanent or temporary barriers may be used to manage crowds. Some metro stations have direct connections to important nearby buildings (see underground city).
+Most jurisdictions mandate that people with disabilities must have unassisted use of the station. This is resolved with elevators, taking a number of people from street level to the unpaid ticketing area, and then from the paid area to the platform. In addition, there will be stringent requirements for emergencies, with backup lighting, emergency exits and alarm systems installed and maintained. Stations are a critical part of the evacuation route for passengers escaping from a disabled or troubled train.A subway station may provide additional facilities, such as toilets, kiosks and amenities for staff and security services, such as Transit police.
+
+
+== Transfer stations ==
+Some metro stations are interchanges, serving to transfer passengers between lines or transport systems. The platforms may be multi-level. Transfer stations handle more passengers than regular stations, with additional connecting tunnels and larger concourses to reduce walking times and manage crowd flows.
+
+
+== Platform-edge doors ==
+In some stations, especially where trains are fully automated, the entire platform is screened from the track by a wall, typically of glass, with automatic platform-edge doors (PEDs). These open, like elevator doors, only when a train is stopped, and thus eliminate the hazard that a passenger will accidentally fall (or deliberately jump) onto the tracks and be run over or electrocuted.
+Control over ventilation of the platform is also improved, allowing it to be heated or cooled without having to do the same for the tunnels. The doors add cost and complexity to the system, and trains may have to approach the station more slowly so they can stop in accurate alignment with them.
+
+
+== Architectural design ==
+Metro stations, more so than railway and bus stations, often have a characteristic artistic design that can identify each stop. Some have sculptures or frescoes. For example, London's Baker Street station is adorned with tiles depicting Sherlock Holmes. The tunnel for Paris' Concorde station is decorated with tiles spelling the Déclaration des Droits de l'Homme et du Citoyen. Every metro station in Valencia, Spain has a different sculpture on the ticket-hall level. Alameda station is decorated with fragments of white tile, like the dominant style of the Ciutat de les Arts i les Ciències. Each of the original four stations in the Olympic Green on Line 8 of the Beijing Subway are decorated in Olympic styles, while the downtown stations are decorated traditionally with elements of Chinese culture. On the Tyne and Wear Metro, the station at Newcastle United's home ground St James' Park is decorated in the clubs famous black and white stripes.  Each station of the Red Line and Purple Line subway in Los Angeles was built with different artwork and decorating schemes, such as murals, tile artwork and sculptural benches. Every station of the Mexico City Metro is prominently identified by a unique icon in addition to its name, because the city had high illiteracy rates at the time the system was designed.
+Some metro systems, such as those of Naples, Stockholm, Moscow, St. Petersburg, Tashkent, Kyiv, Montreal, Lisbon, Kaohsiung and Prague are famous for their beautiful architecture and public art. The Paris Métro is famous for its art nouveau station entrances; while the Athens Metro is known for its display of archeological relics found during construction.
+However, it is not always the case that metro designers strive to make all stations artistically unique. Sir Norman Foster's new system in Bilbao, Spain uses the same modern architecture at every station to make navigation easier for the passenger, though some may argue that this is at the expense of character.
+Metro stations usually feature prominent poster and video advertising, especially at locations where people are waiting, producing an alternative revenue stream for the operator.
+
+
+== Construction types ==
+
+
+=== Shallow column station ===
+
+The shallow column station is a type of construction of subway stations, with the distinguishing feature being an abundance of supplementary supports for the underground cavity. Most designs employ metal columns or concrete and steel columns arranged in lines parallel to the long axis of the station.
+Stations can be double-span with a single row of columns, triple-span with two rows of columns, or multi-span.  The typical shallow column station in Russia is triple-span, assembled from concrete and steel, and is from 102 to 164 metres in length with a column spacing of 4-6 m.  Along with the typical stations, there are also specially built stations.  For example, one of the spans may be replaced with a monolithic vault (as in the Moskovskaya station of the Samara Metro or Sibirskaya of the Novosibirsk Metro).  In some cases, one of the rows of columns may be replaced with a load-bearing wall.  Such a dual hall, one-span station, Kashirskaya, was constructed to provide a convenient cross-platform transfer.  Recently, stations have appeared with monolithic concrete and steel instead of assembled pieces, as Ploshchad Tukaya in Kazan.
+The typical shallow column station has two vestibules at both ends of the station, most often combined with below-street crossings.
+For many metro systems outside Russia, the typical column station is a two-span station with metal columns, as in New York City, Berlin, and others.  In Chicago, underground stations of the Chicago 'L' are three-span stations if constructed with a centre platform.
+In the Moscow Metro, approximately half of the stations are of shallow depth, built in the 1960s and 1970s, but in Saint Petersburg, because of the difficult soil conditions and dense building in the centre of the city this was impossible.  The Saint Petersburg Metro has only five shallow-depth stations altogether, with three of them having the column design: Avtovo, Leninsky Prospekt, and Prospekt Veteranov.  The first of these is less typical, as it is buried at a significant depth, and has only one surface vestibule.
+
+
+=== Deep column station ===
+
+A deep column station is a type of subway station consisting of a central hall with two side halls connected by ring-like passages between a row of columns. Depending on the type of station, the rings transmit load to the columns either by "wedged arches" or through purlins, forming a "column-purlin complex".
+The fundamental advantage of the column station is the significantly greater connection between the halls, compared with a pylon station.
+The first deep column station in the world is Mayakovskaya, opened in 1938 in Moscow.
+One variety of column station is the "column-wall station".  In such stations, some of the spaces between the columns are replaced with walls.  In this way, the resistance to earth pressure is improved in difficult ground environments. Examples of such stations in Moscow are Krestyanskaya Zastava and Dubrovka. In Saint Petersburg, Komendantsky Prospekt is an example.
+
+
+=== Pylon station ===
+
+The pylon station is a type of deep underground subway station. The basic distinguishing characteristic of the pylon station is the manner of division of the central hall from the station tunnels
+The pylon station consists of three separate halls, separated from each other by a row of pylons with passages between them.  The independence of the halls allows the architectural form of the central and side halls to be differentiated. This is especially characteristic in the non-metro Jerusalem–Yitzhak Navon railway station, constructed as a pylon station due to its 80-meter depth, where the platform halls are built to superficially resemble an outdoor train station.
+Building stations of the pylon type is preferable in difficult geological situations, as such a station is better able to oppose earth pressure.  However, the limited number of narrow passages limits the throughput between the halls.
+The pylon station was the earliest type of deep underground station.  One variation is the so-called London-style station.  In such stations the central hall is reduced to the size of an anteroom, leading to the inclined walkway or elevators.  In some cases the anteroom is also the base of the escalators.  In the countries of the former USSR there is currently only one such station: Arsenalna in Kyiv.  In Moscow, there were such stations, but they have since been rebuilt: Lubyanka and Chistiye Prudy are now ordinary pylon stations, and Paveletskaya-Radialnaya is now a column station.
+In the Moscow Metro, typical pylon station are Kievskaya-Koltsevaya, Smolenskaya of the Arbatsko-Pokrovskaya line, Oktyabrskaya-Koltsevaya, and others.
+In the Saint Petersburg Metro, pylon stations include Ploshchad Lenina, Pushkinskaya, Narvskaya, Gorkovskaya, Moskovskie Vorota, and others.
+
+
+=== Single-vault station ===
+
+The construction of a single-vault station consists of a single wide and high underground hall, in which there is only one vault (hence the name).  The first single-vault stations were built in Leningrad in 1975: Politekhnicheskaya and Ploshchad Muzhestva. Not long after, the first two-level single-vault transfer stations were opened in Washington DC in 1976: L'Enfant Plaza, Metro Center and Gallery Place.
+In the Moscow Metro there is only one deep underground single-vault station, Timiryazevskaya, in addition to several single-vault stations at shallow depth. In the Nizhny Novgorod Metro is 4 stations: Park Kultury, Leninskaya, Chkalovskaya and Kanavinskaya. In the Saint Petersburg Metro all single-vault stations are deep underground, for example Ozerki, Chornaya Rechka, Obukhovo, Chkalovskaya, and others.  Most of the underground stations of the Washington D.C.'s Metro system are single-vault designs, as are all the single-line vaulted stations in the Montreal Metro. In Prague Metro, there are two underground stations built as single-vault, Kobylisy and Petřiny.
+
+
+== Records ==
+The largest and most complex metro station is the Paris Métro-RER station Châtelet-Les Halles in France, with 20 platforms serving eight (three RER commuter rail and five Métro) lines.The deepest metro station is Kyiv Metro's Arsenalna station located in Ukraine, located at a depth of 105.5 metres (346 ft).
+The highest elevated station is New York City Subway's Smith–Ninth Streets station in the United States, at 87 feet 6 inches (26.67 m) above ground.The northernmost metro station is the Helsinki Metro's Mellunmäki station in Finland, at 60°14′21″N 25°6′39″E.The southernmost metro station is the Buenos Aires Underground's Plaza de los Virreyes - Eva Perón metro station in Argentina, at 34°38′34.9″S 58°27′41.8″W.
+The easternmost metro station is Sydney Metro's Chatswood station in Australia, at 33°47′50″S 151°10′51″E.
+The westernmost metro station is the SkyTrain YVR-Airport station in Vancouver, Canada, at 49°11′39″N 123°10′42″W.
+Atlanta Metro's Civic Center station in the United States is the only one built on a highway overpass.
+
+
+== See also ==
+Bus stop
+In a Station of the Metro (poem)
+List of metro systems
+Outline of transport
+Railway platform
+Rapid transit
+
+
+== References ==
+
+
+== External links ==
+UrbanRail.Net — descriptions of all metro systems in the world, each with a schematic map showing all stations.

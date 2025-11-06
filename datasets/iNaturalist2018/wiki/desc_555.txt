@@ -1,0 +1,98 @@
+Halictus ligatus is a species of sweat bee from the family Halictidae, among the species that mine or burrow into the ground to create their nests. H. ligatus, like Lasioglossum zephyrus, is a primitively eusocial bee species, in which aggression is one of the most influential behaviors for establishing hierarchy within the colony, and H. ligatus exhibits both reproductive division of labor and overlapping generations.
+
+
+== Taxonomy and phylogeny ==
+Halictus ligatus was originally described by Thomas Say in 1837. The genus name Halictus refers to a group of sweat bees of the family Halictidae and order Hymenoptera known for their eusocial behavior and underground nesting. Within Halictidae, the subfamily Halictinae is unique for the substantial diversity in social behavior exhibited among species or within species, such as in H. rubicundus. For instance, species of this subfamily may exhibit either solitary nesting, communal nesting, cleptoparasitism, social parasitism, or primitive eusociality similar to H. ligatus.
+
+
+== Description and identification ==
+The appearance of H. ligatus individuals closely resembles other members of the genus Halictus. These individuals are easily differentiated from those of the closely related Lasioglossum by the presence of their pale fasciae hair bands on the posterior margins of the metasomal terga. In addition, the species is predominantly black or brown-black and lacks the faint metallic tints found in bees of the Seladonia subgenus. Moreover, species of Halictus are generally larger than species of Seladonia which are typically under 7 mm long.H. ligatus females are easily distinguished from other females by a postero-ventral genal tooth. In addition, the males are easily distinguished from other males by the presence of long suberect hairs on the second and third metasomal sterna.
+
+
+=== Female physical distinctions based on role ===
+For H. ligatus, similar to other eusocial halictids, the differences in reproductive strategies among females correlate with distinctions in body size and appearance. For instance foundresses, or queens, tend to be large-bodied females in order to maximize energetic reserves, thereby enabling them to overwinter, establish nests, and reproduce independently. On the contrary, helpers tend to be smaller-bodied daughters with undeveloped ovaries.
+
+
+== Distribution and habitat ==
+
+Halictus ligatus is one of the most abundant and readily identifiable bees in North America, encompassing a wide range of aridities and altitudes. The species can be found in North American for about 50 degrees north latitude, south to the West Indies and Colombia. H. ligatus is also located in temperate areas of the Atlantic to the Pacific, including the southern Gulf of Mexico and southern Canada  This vast range of distribution contributes to local distinctions in behavior, colony cycle, and colony demographic as a result of variation in environmental pressures.
+
+
+=== Nest ===
+H. ligatus typically nests in level, well-drained, hard-packed soil free of vegetation. As a result, these nests are most frequently encountered in dense aggregations in dirt roads and paths. The tendency for H. ligatus to nest in aggregations is advantageous for the cooperation of bees for the repulsion of parasites. However, this behavior can also be disadvantageous as it minimizes the time spent by predators in search of prey, or parasites in search of hosts.
+
+
+==== Nest initiation ====
+In general, H. ligatus will continue to utilize a nest site year after year until it becomes too crowded as a result of encroaching vegetation or parasites and diseases. The overwintered queens actually prefer to remodel old nests in order to initiate new nests. Presumably, those bees which nest at old sites and in old nests tend to produce a greater number of descendants than those who nest elsewhere. As a result, selection favors the continued use of this site. However, in situations in which a sudden catastrophe has eliminated the original nesting site, the bees will of course be forced to select a new site. This new site will be selected favoring those bees who have already dispersed, in an effort to select individuals who possess the tendency to disperse again in the future.
+
+
+==== Nest construction ====
+The nests of H. ligatus occur either in rotting wood or within the ground. They have diverse ways of setting up ground nests which can include small cells, scattered cells, and clusters of cells depending on the size of the colony. Nests inside rotting wood are usually irregular in shape due to the constraints of their medium.  The area around the cells is usually uncovered and the cells are lined with a waxy substance from the Dulfor gland of the bee. which is used to protect developing bees.
+
+
+== Colony cycle ==
+In north temperate regions, H, ligatus has an annual colony cycle similar to that which is found in almost all other halictines, or social sweat bees, during which the cold winter ensures several months of complete inactivity during which only young gynes survive. Following this period, these individuals undergo a burst of nest initiation in the spring and produce workers during the summer before switching to male and gyne production in the late summer and autumn. In this context, "gynes" are defined as females that are unworn and have no ovarian development. Gynes will overwinter and later become foundresses by initiating nests in the spring. As a result, bees collected towards the end of the colony cycle display a larger proportion of males and young gynes than earlier samples.However, in the extreme south of Florida, H. ligatus is continuously brooded and multivoltine; having overlapping colony cycles with one complete cycle lasting for up to a few months, with the inclusion of an option break in activity in areas with a pronounced dry season.  In addition, individuals in this region experience markedly reduced reproductive division of labor as compared to those who participate in the annual colony cycle.  As a result, bees collected towards the end of this colony cycle display an increase in the proportion of newly emerged gynes, an increase in the proportion of female bees that are mated, an increase in the proportion of males, and a morphological caste differentiation indicating that the gynes are larger than the worker bees.
+
+
+== Behavior ==
+
+
+=== Dominance hierarchy ===
+The vast range of distribution contributes to the variations in behavior and dominance hierarchy observed for individuals of the species living in different environments. For instance studies indicate that annual variation in local weather conditions actually directly influences the demography of these sweat bee colonies, thereby indirectly influencing the nature of social interactions among adult females. In fact, habitats experiencing adverse conditions caused by excessive rainfall resulted in poor brood survival, production of fewer workers, and queen-dominated oviposition. Under more favorable conditions such as warm weather, it was found that colony and brood survival was high, large numbers of workers were produced, and workers were responsible for a larger proportion of eggs laid in the reproductive brood. These distinctions in environment may also affect colony size and decrease eusociality. For instance, in southern areas with long nesting seasons where there are a large number of workers per nest, queen control of worker behavior is less effective than in northern areas with shorter nesting seasons where there are fewer workers per nest.
+
+
+=== Division of labor ===
+
+
+==== Female reproductive roles ====
+Female sweat bees of H. ligatus exhibit a wide range of reproductive roles, ranging from typically foundress (or queen-like) to typically worker-like. Nests founded in the spring are mostly haplometrotic or founded by a single queen. A few others, around 12%, are pleometrotic or founded by anywhere from 2 to 6 queens. In these pleiometric associations, dominant foundresses behave in a manner similar to haplometrotic queens while subordinates behave like mid-summer workers.The choice of reproductive role available to a particular female is generally dictated by several important factors at the time of emergence including social milieu of the nest, body size and fat stores at eclosion, and time of year. For instance, females that emerge in mid-summer that are small, have few or no fat stores, and whose nesting includes a larger queen tend to develop as workers who assist their mothers to raise the second, reproductive brood. On the contrary, females that emerge in late summer that are large and have large fat stores are destined to mate and become queens of their own nests in the following spring.
+
+
+===== Role of the queen =====
+Typical queens in single foundress colonies exhibit behaviors consisting of solitary nest excavation and spring provisioning for the brood followed by queen-type behavior after the mid-summer emergency of workers. These behaviors include ceasing to forage and instead overlooking the workers of the colony. For colonies in which there exist multiple foundress associations, subordinates continue to forage while their social role more closely resembles that of a mid-summer worker as opposed to a haplometrotic spring queen.
+
+
+===== Role of the worker =====
+H. ligatus worker individuals experience varying levels of eusocial behavior and colony organization depending on the environmental conditions. For instance, under harsher environmental conditions, there is more classical eusocial behavior. Therefore, the reproductive efforts of workers are generally focused on assisting the queen to raise the queen’s reproductive offspring by tending to eggs, cleaning the facility, and foraging for food and water. However, under gentler environmental conditions, there is a reduction in overall eusociality. As a result, workers tend to focus more on raising their own reproductive offspring, including gynes.
+
+
+=== Aggression ===
+H. ligatus is a primitively eusocial species meaning that there is suppression of ovarian development in female workers by aggressive behavior of the queen. Aggression is most common in the queen of the nest, but it may be exhibited by other members, especially if the nest is larger. The inhibition of ovarian development is accomplished by phermonal secretions and aggressive acts by the queen, who is trying to maintain herself as the sole egg layer. When there is a nest with multiple foundresses, one will assume the reproductive duties and become a guard while, the other a forager. This guard will protect the nest from intruders and assume a C- shape with the head and stinger directed toward an intruder to threaten them. Familiar members of the nest are allowed in based on familiarity, age, and smell  If a queen happens to die during the season when the nest is still highly active a replacement queen will be chosen from the workers, who will begin to exhibit the same types of behaviours as the previous queen. When climate is harsh or breeding season becomes short, some members of the colony may become socially polymorphic and revert to a solitary lifestyle, an adaptation to varying environmental conditions.
+
+
+=== Defense ===
+In the rare occurrence of nests which contain more than one foundress, one individual will become the "guard". These guards are reproductively dominant individuals, while other individuals assume foraging duties. Single foundress nests, however, are left unguarded during foraging trips. As a result, these nests may be prone to experience conflict over nest ownership due to the occurrence of usurpation attempts. These conflicts range from brief feuds of 5 seconds or less to prolonged fights lasting anywhere from 10 to 26 minutes. During these encounters, the guard blocks the nest entrance with its abdomen and engages in thrusts to eject the intruder. In fact, this may even involve mandibular aggression, which often leads to the loss of legs and other vital body parts.
+
+
+=== Provisioning ===
+Due to the correlation between female body size and role in the colony, it becomes evident that larval diet plays an integral part in caste differentiation and sociality for H. ligatus. In fact, the mother bee is often seen limiting the amount of resources and nutritious intake she provides to her offspring so that they are forced to develop into small and lean females. This deliberate behavior ensures that these daughters are suitable for their roles as helpers, as a result of their incapability to perform independent reproduction. Furthermore, small-bodied females may be desirable as they are much easier to manipulate into a subordinate role with the use of dominance interactions and aggression.
+
+
+== Kin selection ==
+
+
+=== Worker-queen conflict ===
+In established nests, workers may directly compete with the queen as well as each other for oviposition, and attempt to lay their own eggsthough many workers forgo their own reproduction and provision for others' offspring. However, many other workers lay eggs, thereby raising their own offspring in addition to the queen’s. In fact, around half of H. ligatus workers are inseminated and actually capable of producing diploid eggs.
+
+
+== Life history ==
+The life history and development time for H. ligatus is comparable with that of H. confusus as well as other Halictus species. The development from egg to adult takes around 36 days in the spring when the soil temperatures are low. However, this development in the summer takes only around 28 days as a result of higher soil temperatures.The life cycle of H. ligatus consists of two main stages: the overwintering and the active stage. The nest, which occurs within burrows in the ground or rotting wood, begins to become active and bees awake from their hibernal diapause in late April to early June, but will not leave their overwintering burrows until late June. Hibernal diapause is a delayed development that occurs in many insects where there is no growth and feeding of larvae, embryonic and pupal development stops, and mating, reproduction, and egg development of adults does not occur.  Nests are established by a single female bee, who has mated and laid eggs last spring, called the foundress, but there have also been instances where multiple bees may start a nest together.  The foundress will forage for several weeks in early June to provide for the first brood which will be composed of mostly of small females, who become workers, and a few males  Once the workers have emerged, they start to forage and will produce their own reproductive brood that is composed of both males and females. The females in this group are called gynes and they are those that overwinter and enter hibernal diapause to become foundresses the following spring  and after they emerge they mate and dig an overwintering tunnel beneath the one they came from and enter diapause.H. ligatus are mass provisoners meaning that they will construct a mass of pollen and nectar which will be the sole source of food for the developing larva and the larvae will not pupate until they have consumed the entire pollen mass. Daughters of the first brood may become non-reproductive helpers that either forage or stay in their natal nest to assist the queen in raising the next brood, or will reproduce in their natal nest, will find other nests to reproduce in, or enter diapause early and become a foundress in the next spring. In most cases, when there are larger colonies,  queens will produce the eggs that become males wheres workers will produce gyne destined eggs. Within a single foundress colony the average relatedness is 0.5, implying that the queens will use equal amounts of sperm from two males that are not related. This is only able to occur because workers have maintained their ancestral abilities of being able to breed independently, which has direct fitness benefits for the worker through reproduction and indirect fitness benefits by being able to help relatives. This is why, in larger colonies, workers are more likely to reproduce as it increases the genetic diversity of the nest allowing for a better proliferation of the species.
+
+
+== Diet ==
+Although pollen protein content is commonly considered the most important factor for bees, different pollens are known to vary widely by many nutritional factors. For H. ligatus, a polylectic, social halictine, offspring mass increases with increasing protein content in a linear manner. This suggests that smaller amounts of high protein pollen are needed to produce an offspring of a given size relative to the required amount of pollen of lower pollen content. However, size of provision masses does not vary with pollen type, indicating that foragers are not able to recognize protein content differences.
+
+
+=== Pollination ===
+H. ligatus are a generalist species when pollinating  and will pollinate a variety of different plants via their foragers. Much of the pollen collected will become part of the provisions in the nest, but many stigmas of plants are pollinated while foragers are collecting what they need.
+
+
+=== Pollen transport ===
+The amount of provisions that can be carried per foraging trip varies widely across different bee species. H. ligatus, for instance, participates in dry external pollen transport as opposed to internal transported or agglutinated external transport. This type of pollen transport allows for more rapid pollen loading than the agglutination as it omits the step of nectar addition.
+
+
+== Environmental influences ==
+Weather pattern differences from year to year and other environmental factors effect the ways in which H. ligatus develop. Changes in weather patterns can result in significant body size variation in all castes of the colony. H. ligatus are ectothermic organisms meaning that both food availability and temperature have significant effects on development and body size. At higher temperatures, ectothermic insects develop faster causing them to move from one larval stage to the next at a faster pace and then spend less time feeding as juveniles. Due to this, those insects will be smaller when they enter their adult stage compared to those who had more time eat as juveniles.
+
+
+== References ==

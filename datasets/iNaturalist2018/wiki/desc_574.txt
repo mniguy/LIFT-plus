@@ -1,0 +1,88 @@
+Dolichovespula maculata is a species of yellowjacket and a member of the eusocial, cosmopolitan family Vespidae. It is known by many colloquial names, primarily bald-faced hornet, but also including bald-faced aerial yellowjacket, bald-faced wasp, bald hornet, white-faced hornet, blackjacket, white-tailed hornet, spruce wasp, and bull wasp. As a species of yellowjacket wasp, it is not a true hornet, which are in the genus Vespa. Colonies contain 400 to 700 workers, the largest recorded colony size in its genus, Dolichovespula. It builds a characteristic large hanging paper nest up to 58 centimeters (23 in) in length. Workers aggressively defend their nest by repeatedly stinging invaders.The bald-faced hornet  is distributed throughout the United States and southern Canada, but is most common in the southeastern United States. Males in this species are haploid and females are diploid. Worker females can therefore lay eggs which develop into males.
+
+
+== Taxonomy and phylogenetics ==
+The bald-faced hornet gets its name from the characteristic white markings on its face, as the word bald in English is derived from the word piebald. It was first described by Carl Linnaeus in his 1763 Centuria Insectorum. D. maculata is part of the cosmopolitan family Vespidae. It is in the genus Dolichovespula. Its black and white coloring differentiates it from its mostly black and yellow genus mates.
+
+
+== Description ==
+Baldfaced hornets are distinguished from other yellowjackets by their white and black coloring. It has a white or "baldfaced" head, which is the source of its colloquial name. These wasps also have three white stripes at the end of their bodies. They are notably larger than other species of Dolichovespula, as adults average about 19 millimetres (0.75 in) in length. Queen and worker wasps have similar morphologies. Queens are always larger than workers in their colonies, though size distributions can vary in different nests and workers in one colony might be as large as a queen in a different one.D. maculata create egg-shaped, paper nests up to 360 millimetres (14 in) in diameter and 580 millimetres (23 in) in length. Nests are layered hexagonal combs covered by a mottled gray paper envelope. Bald-faced hornets create this paper envelope by collecting and chewing naturally occurring fibers. The wood fiber mixes with their saliva to become a pulpy substance that they can then form into place.
+
+		
+		
+
+
+== Distribution ==
+
+The bald-faced hornet lives in North America, including Canada, the Rocky Mountains, the western coast of the United States, and most of the eastern United States. It is most common in the southeastern United States.Dolichovespula maculata is found in forested areas and in vegetation in urban areas. Nests are generally located in trees and bushes but they can occasionally be found under rock overhangs or the sides of buildings. Vertical distribution of nests has been recorded from heights of 0.3 to 20 m (1 ft 0 in to 65 ft 7 in) above ground level.
+
+
+== Behavior ==
+Bald-faced hornets are omnivorous, and considered to be beneficial due to their predation of flies, caterpillars, and spiders. However, their aggressive defensive nature makes them a threat to humans who wander too close to a nest or when a nest is constructed too close to human habitation. They vigorously defend the nest, with workers stinging repeatedly, as is common among social bees and wasps. However, the bald-faced hornet has a unique defense in that it can squirt or spray venom from the stinger into the eyes of vertebrate nest intruders. The venom causes immediate watering of the eyes and temporary blindness.
+
+
+== Colony cycle ==
+The life cycle of a colony can be divided into the founding stage, the ergonomic stage and the reproductive stage. Colonies show annual cycling. New nests are generally founded during spring and early summer by a single queen, though temporal specifics vary depending on location. In Washington State, nest initiation occurs during mid-May, and workers emerge during mid-June. Large cell building starts during mid-July, and the first queens emerge during mid-August. The colony terminates during mid-September, for a life cycle of approximately four months (122 days). Lower latitudes correlate with longer life cycles. In Indiana, colonies were observed to begin in early May and terminate in late September, a life cycle of five months (153 days), and in Central California nests are initiated as early as the end of March. These nests survive between 155 and 170 days. Active colonies have been observed in central Pennsylvania as late as mid-October.
+
+
+=== Founding stage ===
+The colony is founded by a single overwintered, inseminated queen. She rears the first generation of workers on her own until they are functional. Colonies pass through the foundation over an average period of 23–24 days. After the queen lays her eggs, it takes 6 days for them to hatch. They grow as larvae for eight days. It takes them an additional 9–10 days to mature into adult workers.
+
+
+=== Ergonomic and reproductive stage ===
+During the ergonomic stage, the colony's activities are concerned with cell building and worker production. The queen devotes herself entirely to laying eggs while the workers take over all other necessary housekeeping tasks. At some point, sometime before the midpoint of colony life, the colony will begin to invest energy in producing reproductives as well. This marks the transition into the reproductive stage. There is an extensive time period where both workers and reproductives are raised. Production of both castes limits the size of the work force. However, an early switching time is highly adaptive for social wasp colonies in limiting the risk of total loss.
+In a sampling of 50 colonies taken in Maryland in 1977, workers were produced from mid-April to early October, and reproductives were produced from mid-July through the end of November. Onset of male output usually precedes that of queen output in social wasps, however here D. maculata is an exception to this trend.Energy investment by workers required to produce reproductives is considerable. Newly emerged males and queens are no more functional than pupae; both depend heavily on solid prey brought in by workers, thus competing with larvae for food resources. As a result, worker quantity must remain high in order to maintain reproductive output. Workers must maintain food stores and defend the nest, and colonies whose work force diminishes too early in the colony's life cycle will suffer a greater overall total loss in reproductives.
+
+
+== Social organization ==
+
+
+=== Caste structure and distribution ===
+
+A colony is divided into haploid males, female workers and the queen. All females are born with reproductive capacities. Dolichovespula is unique from its sister group Vespula in that some of the workers create haploid offspring that develop into males. Caste systems are determined by larval feeding regime. G. T. Felippotti et al examined caste distribution amongst females in five small cell colonies and six large cell colonies. Small cell colonies had one queen and 17–21 female workers. Large cell colonies had 2–6 queens and 10–52 workers. Morphological comparisons revealed that queens are always larger than workers in the same colonies.
+
+
+=== Cuticular hydrocarbons ===
+Cuticular hydrocarbons serve as a barrier to moisture diffusion and thus prevent dehydration in wasps. Cuticular hydrocarbon profiles vary over species and nests, and so cuticular hydrocarbons are a proposed mechanism for nest-mate recognition. Worker and queen cuticular lipids have similar components, but their distributions differ dramatically, implying that cuticular hydrocarbons also play a role in caste differentiation.
+
+
+=== Cuticular hydrocarbon profile and dimorphism among castes ===
+The following lipid profiles were determined from specimens collected in the summer and early fall of northeastern Georgia in 1989. The dominant hydrocarbons recovered from the cuticles of workers were n-alkanes and methyl branched and dimethyl branched alkanes with a C27 or a C29 backbone. The major lipids and their distributions in workers were as follows: n-heptacosane (28%), 11-13-methylheptacosane (15%) 3,13-dimethylheptacosane (11%) and 13 and 15-methylnonacosane (10%). Nonacosene comprised 34% of cuticular lipids in the queen. The average chain length of identified cuticular lipids is 28.0 in queens and 27.5 in workers.
+
+
+== Kin selection ==
+
+
+=== Genetic relatedness within various classes ===
+In D. maculata, queens mate with only one male which results in a worker relatedness of 0.75, whereas the relatedness between the queen and worker is only 0.5.
+
+
+=== Kin recognition and discrimination ===
+Gynes in D. maculata have the ability to discriminate between fragments of natal comb and foreign comb. Recognition does not depend upon presence of viable brood in the comb fragment. The physical nature of cues mediating natal comb recognition is unknown, though some researchers propose distinct cuticular hydrocarbon profiles allow wasps to recognize nest mates.
+
+
+=== Worker-queen conflict ===
+D. maculata is characterized by low paternity, worker reproduction and queen-worker conflict. Divergent genetic interests between workers and their queen cause intra-nest struggle for control, which disrupts social organization. Because of haplodiploidy, workers are unable to mate. However, their unfertilized eggs become males. Workers and their queens are most related to their own sons. Natural selection will therefore favor those workers who produce their own sons rather than rearing the queen's brood. In a sampling of seven D. maculata nests, 20.9% of males were produced by workers. The percentage of males who were workers' sons did not correlate with the time during which nests were collected or colony size.
+Because worker relatedness is so high in D. maculata, workers are more related to other workers' sons than to the queen's own sons, and therefore worker policing of egg production does not occur.An explanation for the queen's near monopoly on male production is that worker production is costly and therefore reduces total colony reproduction. The cost toward worker production acts as a selective pressure on the workers, so they are more likely to exercise reproductive restraint.It has been suggested that workers in reproductive nests may kill their queen so they can reproduce. When researchers at the University of Sheffield examined a collection of 19 D. maculata nests during the reproductive phase of their life cycle, they found that 14/19 nests did not have a queen. Matricide might occur after sufficient workers have been raised and queen-destined eggs have been laid. However, matricide has not been directly observed and other causes of death are possible.
+
+
+== Diet ==
+Diet in D. maculata varies depending on an individual's life cycle stage and geographic location. Adult yellowjackets, like their sister true hornets, are carnivorous, and will prey upon several insect types. They have been observed consuming meat, spiders, fruit and insects. Adults will also drink flower nectar which they feed to their larvae.
+
+
+== Parasites ==
+Female bee moths (Aphomia sociella) have been known to lay their eggs in bald-faced hornet nests. The hatched larvae will then proceed to feed on the eggs, larvae, and pupae left unprotected by the wasps, sometimes destroying large parts of the nest as they tunnel throughout looking for food.
+
+
+== Life cycle ==
+Each spring, queens that were born and fertilized at the end of the previous season begin new colonies. A queen selects a location for its nest, begins building it, lays a first batch of eggs and feeds this first group of larvae. These become workers and assume the chore of expanding the nest. They chew up wood, which mixes with a starch in their saliva. They then spread it around with their mandibles and legs, and it dries into a papery structure. The workers guard the nest and feed on nectar, tree sap and fruit pulp (particularly that of apples). They also prey on insects and other arthropods, chewing them up and feeding them to the larvae. They have been known to scavenge raw meat. In late summer and early fall, the queen begins to lay eggs which will become drones and new queens. After pupation, these fertile males and females fly off to mate. Fertilized queens then overwinter and start new colonies during the next year.
+Males and workers die in the end of the cycle. The old queen, if not killed by workers, dies with them around mid-autumn.
+
+
+== References ==
+
+
+== External links ==
+Bald-faced hornet. PestWorld.org
+Bald-faced hornet. Hornets: Gentle Giants.
+Bald-faced hornet. Study of Northern Virginia Ecology. Fairfax County Public Schools. VA.

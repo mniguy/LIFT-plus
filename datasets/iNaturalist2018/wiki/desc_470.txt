@@ -1,0 +1,42 @@
+Phymata americana is a Phymatinae, or ambush bug in the family Reduviidae. It can be found on the flowers of various plants in Central America and North America, where it waits to prey on other insects.
+
+
+== Subspecies ==
+These four subspecies belong to the species Phymata americana:
+
+Phymata americana americana Melin, 1930 i c g b
+Phymata americana coloradensis Melin, 1930 i c g b
+Phymata americana metcalfi Evans, 1931 i c g b
+Phymata americana obscura Kormilev, 1957 i c gData sources: i = ITIS, c = Catalogue of Life, g = GBIF, b = Bugguide.net
+
+
+== Habitat ==
+Phymata americana are found in open fields of flowering plants near rural forest edges, farms, and urban areas.
+
+
+== Camouflage and color polymorphism ==
+Although P. americana can be found on many species of flowering plants, they tend to prefer either yellow or blue flowers over red or white flowers. Variation in flower color choice may reflect individual variation in P. americana color pattern, where individuals prefer flowers which match their own body color. This habitat-matching behavior may confer benefits for increased camouflage and prey capture ability. However, increased camouflage can also be achieved through a small degree of phenotypic plasticity in color pattern (i.e. color changing ability).
+
+
+== Diet and predation behavior ==
+Phymata americana feed on a wide variety of prey, most often including small bees, moths, and flies. As their common name suggests, P. americana are sit-and-wait ambush predators, resting on flower heads where they grab visiting insects with large raptorial foreleg weapons. Females can be larger than males, and often have disproportionately longer weapons. Sexual dimorphism in weapon morphology in P. americana may have evolved due to sex differences in prey capture strategies, with females capturing prey from underneath flower heads and males either eating prey already captured by females or capturing smaller prey on plant stems while searching for mates. Females tend to capture larger prey species than males due to their larger weapons, potentially decreasing intersexual resource competition.
+
+
+== Mating and reproduction ==
+
+
+=== Mating behavior ===
+Phymata americana males actively search for females. After finding and mounting the female, males produce tactile and stridulatory courtship behaviors thought to be assessed by the female during mate choice decisions. During this time, males may also guard the female from competitors.
+
+
+=== Sexual selection on color pattern ===
+Phymata americana show sexual dimorphism in size and color pattern. Males tend to be darker than females, although only as adults. Additionally, the degree of coloration is condition dependent, with increased food availability resulting in darker males and females. Although many sexually dichromatic species use color signals in elaborate courtship displays, color patterns in P. americana do not appear to be involved in signalling behavior to rivals or potential mates.Darker males absorb more radiative heat and as a consequence heat faster and reach hotter temperatures than lighter males. Because this allows darker males to find mates more quickly (potentially due to the thermal sensitivity of muscle function), darker males are favored by intrasexual selection in cooler climates. However, darker coloration in males is less advantageous under hotter environmental conditions because it can increase heat stress. In addition to environmental temperature, the strength of sexual selection on color pattern depends on demography, with strongest selection occurring when male-to-female sex ratio is low and at high densities.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==

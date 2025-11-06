@@ -1,0 +1,105 @@
+Apodemia mormo (Mormon metalmark) is a principally Nearctic butterfly in the family Riodinidae. It is a particularly fascinating species for ecological and evolutionary research, as evidenced by its shifting taxonomic classifications. Conflicting observations of host plants utilized, distinctive morphologies, and a wide range of occupied habitats have prompted investigation into several potential subspecies. To date, two genetic studies have been done on A. mormo, with analysis revealing that disjunct populations are genetically and phenotypically distinct. These studies support a potential need for refined taxonomies, although a larger body of data is required to make clear decisions.Populations of A. mormo are widely distributed throughout western North America, with peripheral colonies located in Canada and Mexico. The Canadian populations have historically lacked scientific study, prompting a series of investigations in the past decade. A. mormo is the only representative of the family Riodinidae, a primarily Neotropic family consisting of roughly 1500 species, that lives in Canada.Three populations of A. mormo have been given conservation statuses: the Saskatchewan population is listed as threatened, while both the British Columbia and Comstock Lange populations are classified as endangered. Conservation efforts are complicated by a dependency on human activity for habitat success. Soil disturbances, caused by human and railway traffic, are critical for the survival of host plants and subsequent A. mormo populations; however, overbearing human presence can lead to habitat destruction. Conservation statuses have been repeatedly defended by research, and recovery strategies developed in response.
+
+
+== Geographic range ==
+Apodemia mormo constitutes the widest ranging North American species of the family Riodinidae. Populations of A. mormo span western North America, ranging from Sinola, Mexico to Southwestern Canada, and are found west of North Dakota primarily in California, Utah, Arizona, New Mexico, and Washington. While there are several populations recognized in the US, only two are present in Canada: the British Columbia population, along the Similkameen River Valley, and the Saskatchewan population, in the Grasslands National Park. The Canadian populations are listed with conservation statuses of “endangered” and “threatened”, respectively. Rather than a continuous distribution, A. mormo colonies occur in semi-isolated patches. Population studies have found that small amounts of geographic distance between colonies (15–20 km) are significant to hinder gene flow, and render populations phenotypically distinct. Thus, there is great within species variation depending on geographic location, and taxonomic distinctions are still in flux.
+
+
+== Habitat ==
+Populations of Apodemia mormo primarily occupy dry, arid habitats that support a high density of their larval host plant: various species of buckwheat (Eriogonum). Since A. mormo is singularly dependent on Eriogonum during the larval stage, its presence is the most stable predictor of habitat. Dunes, sloping hillsides, grasslands and gravelly deserts have all been observed as viable environments for A. mormo habitats, indicating the species’ broad adaptability. Wick investigated microhabitat characteristics associated with A. mormo inhabitance, and found “host plant habitat[s] with lower elevation, a southerly to southwesterly aspect, lower available soil nitrogen, a steeper slope, higher % bare ground, and higher soil pH” were most often correlated with presence of A. mormo.
+The exact variety of buckwheat which functions as the larval host plant changes with the population being studied. E. paucifllorum, commonly known as the branched umbrella plant, is closely associated with the Saskatchewan population. In British Columbia, Eriogonum niveum functions as the larval host plant, while in the population of A. m. langei, Eriogonum nudum serves as the primary host and food source. A. mormo colonies have additionally been correlated with the presence of several other plants. In the Saskatchewan population, presence of Ericamerica nauseosa (rabbitbrush) is a good predictor of A. mormo presence, and functions as a secondary nectar source. Furthermore, Wick investigated the possibility of complex dependencies with other observed habitat plants, including “creeping juniper, yellow umbrella plant, saltbush, prickly pear cactus, Colorado rubberweed, yellow sweet clover, wild rose and sage”.Some level of human interaction with A. mormo habitats is thought to be crucial for their success. In the Canadian populations, specifically, human railway traffic through habitat corridors provides frequent disturbances to the soil, nurturing the growth of their larval host plant. To similar effect, steep and unstable slopes prone to frequent erosion provide appropriate conditions for host plant prosperity. A. mormo are rarely found on undisturbed flats.
+
+
+== Food resources ==
+
+
+=== Caterpillars ===
+
+In general, species of Eriogonum serve as larval host plants for A. mormo. In the Saskatchewan population, Eriogonum niveum, or snow buckwheat, functions as the primary host plant and food resource. In the British Columbia population, the branched umbrella plant Eriogonum pauciflorum solely fulfills this role. These species flourish with adequate soil disturbances, thus only those on rocky hillsides tend to bloom and attract A. mormo.
+
+
+=== Adults ===
+Eriogonum pauciflorum doubles as the primary nectar source for adult Mormon Metalmarks; however, rabbitbrush (Ericameria nauseosus) is often used as a secondary nectar source. A. mormo preferentially visit branched umbrella plants, and have only been observed visiting rabbitbrush once Eriogonum pauciflorum flowers are in decay.
+
+
+== Oviposition ==
+Differing observations have been made regarding the oviposition behavior of Apodemia mormo. In California, Powell reports A. m. langei ovipositing on deteriorating, lower leaves of the Eriogonum, typically in groups of 2-4 eggs. However, in the Canadian populations, Wick observes entirely different behavior. The specimens of A. mormo were seen laying eggs near their host plants, but not directly on the leaves. Instead, females oviposited a single egg in rocky crevices or soil cracks. This occurred in the afternoon, with a duration of up to 30 seconds. Temperature differentials between Southern California and Canada may help to explain these observed differences. Since exposure to sunlight supports increased survival in cold habitats, laying eggs on exposed rocky surfaces could be an adaptive advantage in the Canadian populations. Regardless, these populations still require ovipositing nearby suitably mature host plants, since the larvae will require adequate protection and nutrients once hatched.
+
+
+== Life cycle ==
+
+
+=== Egg ===
+Eggs are laid by adult females in clusters ranging from 1-4, depending on the specific population being observed. In Canadian populations, Scott reported the eggs as resembling “flattened spheres”, and described their color as “pink turning purple”. In contrast, Wick observed “amber coloured” eggs the size of a “pinhead” in the Saskatchewan population. Egg development is potentially dependent on habitat choice, temperature, and exposure to solar radiation; further studies are needed in regards to A. mormo.
+
+
+=== Caterpillar ===
+Larvae emerge from eggs during the winter, and are thought to remain at a single host plant during this stage of their lives. Early instar larvae hibernate following their eclosion. From June to July, the late instar larvae feed nocturnally on the leaves of their host plants, which are various species of buckwheat, depending on the population under study. During the day, larvae can be found resting in nests made of leaf debris and silk at the base of the plant.
+
+
+=== Pupa ===
+Pupation takes place by between July and August, with “hairy…mottled brown” pupas congregated in leaf litter underneath the host plant.
+
+
+=== Adult ===
+Adult emergence occurs spread out over the course of a month, with males preceding females by a few days. These mature butterflies live between nine and twelve days, with females having a slightly longer lifespan than males. During this time, A. mormo prefer to stay near to their host plant, travelling short distances of up to 50 m. Again, there is a slight distinction between sexes, with females tending to fly farther than males. Both males and females forage for nectar.
+
+
+=== Reproduction ===
+Mating occurs approximately three days into the adult lifespan. Females seek out male partners, who wait on food plants for their arrival. It has been postulated that females of the subspecies Langei mate multiply, because of an observed ratio of 2.6 spermatophores per female.
+
+
+== Enemies ==
+
+
+=== Parasites ===
+Trichogramma kaykai, a small parasitic wasp, parasitize Apodemia mormo deserti, primarily located in the Mojave Desert. These wasps lay clutches of 3-5 offspring in each Apodemia mormo deserti egg.
+
+
+== Genetics ==
+
+
+=== Population genetics ===
+The proper taxonomic classifications for Apodemia mormo are still under debate. Because the species tends to occur in small, isolated populations, the relatedness between populations is frequently questioned. A population genetics study conducted by Proshek revealed that the British Columbia and Saskatchewan populations of A. mormo in Canada are genetically distinct; furthermore, they uncovered higher genetic diversity in eastern vs. western populations, emphasizing low diversity in the British Columbia population. A second genetic study using AFLPs supports low genetic diversity in the British Columbia population, and reports high spatial genetic structure and limited gene flow between populations. Furthermore, they found genetic similarities between the Saskatchewan population and more eastern populations. The combined results of these two studies indicate potentials for current migration activities, as well as high genetic drift. In addition to genetic evidence, morphological and behavioral data are required to make firm taxonomic distinctions; however, genetic investigation has begun to reveal some of the challenges of classification.
+
+
+=== Subspecies ===
+There are at least twenty named subspecies of A. mormo. Below is a partial list of recognized subspecies:
+
+A. m. langei
+A. m. pueblo 
+A. m. mejicanus
+A. m. nigrescens
+A. m. arenaria
+A. m. pratti
+
+
+== Physiology ==
+A. mormo populations exhibit significant morphological variation, and therefore no singular description is a perfect fit for the species. In general, the butterfly has a wingspan of 25–35 mm, with males being slightly smaller than females. Females are further differentiated from males by their number of functional legs; females possess three pairs, while males do not utilize their shortened forelegs and thus only have two. The Canadian populations have been described as having white checked dark brown wings, a gray body, green eyes, and black and white banded antennae. There is a reddish tint towards the base of the forewings, and the ventral side of the wings are gray.
+
+
+=== Flight ===
+Both the Canadian populations and the endangered A. m. langei are univoltine, meaning they have one generation annually. Following emergence, A. mormo adults have a flight period of roughly thirty days, with specific timing ranging from mid-July into September. They reach their highest concentration two weeks after the first adult emerges, usually during August. Adults do not fly long distances, and display mostly sedentary behaviors. The primary purposes for flight include foraging for nectar on nearby plants, and seeking out mates. Their flight pattern can be characterized as short, linear and fast.
+
+
+== Conservation ==
+
+
+=== Status ===
+Low genetic diversity, small, distinctive populations, semi-isolated geographic distribution, and habitat dependence all predispose A. mormo to risk of extinction and warrant conservation efforts. In particular, Canadian populations are perceived as especially vulnerable to stochastic events, such as natural disasters, climate change, and outbreaks of disease. Conservation efforts have been in effect for the Canadian populations since the early 2000s under COSEWIC, and for A. m. langei since 1976 under the US Federal Endangered Species Act.
+
+
+=== Habitat loss ===
+A key concern for conservationists is potential habitat loss. Urban development, agricultural expansion, ranching practices, and campground activities may be responsible for disturbing natural habitats and breaking them up into small patches. While efforts to prevent such fragmentation are encouraged, Crawford emphasizes a need to conserve even small habitat zones, which may function as bridges between sub-populations. Furthermore, habitat loss might result from invasive, competitive plant species. A. mormo populations would severely suffer if these intruders successfully outcompete local Eriogonum species, given their dependency on the host plant. Finally, Eriogonum plants go into senescence after 10–15 years. This poses a significant problem for habitat maintenance, and suggests a need for regular dispersal of new Eriogonum plants as part of conservation efforts.
+
+
+=== Recovery strategies ===
+Recovery strategies are consistently developed and updated as new research emerges. Regarding the Lange population in California, efforts to clear weedy vegetation and recreate mounds of sand and soil were started in 1991. Eriogonum species were seeded through the habitats and the land was completely fenced in, preventing destructive human presence. With respect to the Canadian populations, Crawford suggests the development of strategies which recover habitat patches, regardless of size, and encourage gene flow between isolated populations.
+
+
+== References ==
+
+
+== External links ==
+Mormon metalmark, Butterflies and Moths of North America
+Mormon metalmark, Butterflies of Canada

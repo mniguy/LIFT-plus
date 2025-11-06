@@ -1,0 +1,63 @@
+Kina (Evechinus chloroticus) is a sea urchin endemic to New Zealand. This echinoderm belongs to the family Echinometridae and it can reach a maximum diameter of 16–17 cm (Barker 2007).
+Kina have been a traditional component of Māori diet since pre-European times and has been fished commercially since 1986 in small quantities under the quota management system in restricted areas along the coast of New Zealand (Barker 2007, James et al.2007). Attempts to export E. chloroticus to Asian markets have been unsuccessful, so it may not be an economically attractive species for aquaculture development (James 2003, James 2010).
+Evechinus chloroticus is distributed throughout New Zealand and in some northern and southern offshore islands (Dix 1970a, Barker 2007).
+
+
+== Habitat ==
+This sea urchin is found all around New Zealand in shallow waters around 12–14 metres deep (Barker 2007), although there are also intertidal populations in the north of both the North and South Islands (Dix 1970a).
+
+Evechinus chloroticus prefers areas with moderate wave action (Barker 2007). In the north of New Zealand it is found mostly on rocky seafloor areas but also in areas of sandy seafloor (Dix 1970a, Choat and Schiel 1982). In the South Island it is also found in abundant densities throughout the fiords (Villouta et al. 2001).
+Individuals smaller than 1 cm of diameter are found attached under both intertidal and subtidal rocks, whereas individuals between 1–4 cm are found in intertidal and subtidal areas under the rocks, or within small depressions in rocks (Dix 1970a, Barker 2007). After the sea urchins reach 4 cm they migrate to open areas (Barker 2007).
+
+
+== Diet ==
+Evechinus chloroticus is mainly herbivorous (Barker 2007), feeding on large brown algae, red algae and encrusting substrate (Dix 1970a). If kina populations become out of control, kelp forest can be entirely eaten away, leaving bare rocks, also known as Kina Barrens.
+Larval stages can feed on different species of unicellular algae in a size range between 5 and 50 µm (MacEdward and Miner 2007).
+
+
+== Predators ==
+Molluscs such as the cymatiid gastropods Charonia capax and C. rudicunda, starfish, and benthic feeding fishes can feed on individuals of E. chloroticus (Dix 1970a). The most important predators are the eleven-armed sea star, Coscinasterias calamaria, the seven-armed prickly starfish, Astrostole scabra, and the spiny lobster, Jasus edwardsii (Andrew and MacDiarmid 1991, Barker 2007).
+
+
+== Reproduction ==
+Evechinus chloroticus has an annual breeding cycle (Dix 1970b). It becomes sexually mature between 3.5-7.5 cm in diameter, depending on the population (Dix 1970b). Gonads are ripe from October and individuals can spawn from November to February (Barker 2007).
+Swimming larvae complete development in the water column between 4 and 6 weeks (Lamare 1998). Other studies related to larval development report development in the laboratory can take between 22 and 30 days (Dix 1969, Walker 1984). The larvae of E. chloroticus are known to settle on substrates covered with coralline algal species, such as Corallina officinalis (Walker 1984) as well as artificial surfaces (Barker 2007). High sedimentation loads in the water column, such as those associated with residential construction, have a negative effect on settling sea urchins.
+Evechinus chloroticus can grow between 0.8 and 1 cm in diameter only in its first year of life (Lamare and Mladenov 2000), and growth rate of in wild populations has been reported between 1–2 cm in diameter annually (Dix 1972).
+
+
+== Aquaculture ==
+Sea urchin gonads are highly prized in some Asian and European seafood markets where demand has been increasing (James 2010). In the New Zealand market, the roe can reach NZ$70 per kg (NIWA 2005). However, because E. chloroticus is not well known in Japan and has a reputation for having a bitter taste, this sea urchin is unable to reach a high price in export markets (James 2010).
+Despite the fact that E. chloroticus is not a profitable species for aquaculture, there are many studies on the complete culture of this species, especially relating to roe enhancement from fished sea urchins. There is strong interest in the production of good quality roe through roe enhancement, which could allow the export of them to markets such as Japan (James and Heath 2008).
+Roe enhancement for only nine weeks can give the greatest return for the lowest costs (feeding and maintenance) (James and Heath 2008). Also, it is more profitable to enhance sea urchins with low gonad index which are found in the North Island rather than the South Island (James et al. 2007).
+The growth rate in juveniles of E. choloticus maintained in the laboratory is around 1 mm of diameter per month (Walker 1984). Maturity in this species depends on the feed quality and availability rather than the sea urchin size (Barker et al.1998). Therefore, it can reach maturity as small as 30 mm if it is fed with a prepared diet (Barker et al.1998).
+Artificial diets for sea urchins are well developed. However, more studies in appropriate artificial food for newly settled sea urchins are necessary as well as the design of systems for the nursery culture of post-settled sea urchins (James 2010).
+
+
+== Toxicology ==
+Copper is having a detrimental effect on all stages of E. choloticus. For gametes, LOEC of >15 μg/L over one hour. For pluteus stage, LOEC of 10.4 μg/L over 4 days. For adults, LOEC of 50 μg/L over 2 weeks.
+
+
+== References ==
+
+• Andrew NL, MacDiarmid AB. 1991. Interrelations between sea urchins and spiny lobsters in northeastern New Zealand. Marine Ecology Progress Series 70: 211–222.
+• Barker MF. 2007. The ecology of Evechinus chloroticus. In Lawrence J. (ed.). Edible sea urchins: biology and ecology. Elsevier Science, Amsterdam. pp. 319–338.
+• Barker MF, Keogh JA, Lawrence JM and Lawrence AL. 1998. Feeding rate, absorption efficiencies, growth, and enhancement of gonad production in the New Zealand sea urchin Evechinus chloroticus Valenciennes (Echinoidea: Echinometridae) fed prepared and natural diets. Journal of Shellfish Research 17: 1583–1590.
+• Choat JH and Schiel DR. 1982. Patterns of distribution and abundance of large brown algae and invertebrate herbivores in subtidal regions of northern New Zealand. Journal Expimental Marine Biology and Ecology 60: 129–162.
+• Dix TG. 1969. Larval life span of the echinoid Evechinus chloroticus (VAL.). New Zealand Journal of Marine and Freshwater Research 3: 13–16.
+• Dix TG. 1970a. Biology of Evechinus chloroticus (Echinodermata: Echinometridae) from different localities. 1. General. New Zealand Journal of Marine and Freshwater Research 4: 91-116.
+•Dix TG. 1970b. Biology of Evechinus chloroticus (Echinodermata: Echinometridae) from different localities. 3. Reproduction. New Zealand Journal of Marine and Freshwater Research 4: 385–405.
+• Dix TG. 1972. Biology of Evechinus chloroticus (Echinoidia: Echinometridae) from different localities. New Zealand Journal of Marine and Freshwater Research 6(1): 48–68.
+• James P. 2010. Sea urchins: opportunities and lessons. New Zealand Aquaculture 36 (July/August): 12–13.
+• James P. 2003. Enhancing urchin roe value. Fisheries and Aquaculture Update No.7, NIWA. [1]
+• James P and Heath P. 2008. Long term roe enhancement of Evechinus chloroticus. Aquaculture 278: 89–96.
+• James P, Heath P and Unwin M. 2007. The effects of season, temperature and initial gonad condition on roe enhancement of the sea urchin Evechinus chloroticus. Aquaculture 270: 115–131.
+• Lamare MD. 1998. Origin and transport of larvae of the sea urchin Evechinus chloroticus (Echinodermata: Echinoidea) in a New Zealand fiord. Marine Ecology Progress Series 174: 107–121.
+• Lamare MD and Mladenov PV. 2000. Modelling somatic growth in the sea urchin Evechinus chloroticus (Echinoidea: Echinometridae). Journal of Experimental Marine Biology and Ecology 243: 17–43.
+• MacEdward L and Miner B. 2007. Echinoid larval ecology. In Lawrence J. (ed.). Edible sea urchins: biology and ecology. Elsevier Science, Amsterdam. pp. 71–93.
+• NIWA. 2005. News from NIWA: Award-winning kina research. Water and Atmosphere 13(3): 4. [2]
+• Villouta E, Chadderton WL, Pugsley CW, Hay CH. 2001. Effects of sea urchin (Evechinus chloroticus) grazing in Dusky Sound, Fiordland, New Zealand. New Zealand Journal of Marine and Freshwater Research 35: 1007–1024.
+• Walker MM. 1984. Larval life span, larval settlement, and early growth of Evechinus chloroticus (Valenciennes). New Zealand Journal of Marine and Freshwater Research 18: 393–397.
+
+
+== External links ==
+'Sea Urchins', from An Encyclopaedia of New Zealand, edited by A. H. McLintock, originally published in 1966.

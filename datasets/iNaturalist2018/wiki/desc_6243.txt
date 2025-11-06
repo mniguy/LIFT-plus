@@ -1,0 +1,73 @@
+Brassica oleracea is a plant species that includes many common foods as cultivars, including cabbage, broccoli, cauliflower, kale, Brussels sprouts, collard greens, Savoy cabbage, kohlrabi, and gai lan.
+In its uncultivated form, it is called wild cabbage, and is native to coastal southern and western Europe. A hardy plant in its uncultivated form, its high tolerance for salt and lime, and its intolerance of competition from other plants, typically restrict its natural occurrence to limestone sea cliffs, like the chalk cliffs on both sides of the English Channel, and the windswept coast on the western side of the Isle of Wight. Genetic analysis of nine wild populations on the French Atlantic coast indicated their common feral origin, deriving from domesticated plants escaped from fields and gardens.Wild B. oleracea is a tall biennial plant that forms a stout rosette of large leaves in the first year. The leaves are fleshier and thicker than other Brassica species—an adaptation that helps it store water and nutrients in its difficult growing environment. In its second year, it uses the stored nutrients to produce a flower spike 1 to 2 metres (3–7 ft) tall with numerous yellow flowers.
+Its specific epithet oleracea means "vegetable/herbal" in Latin and is a form of holeraceus (oleraceus).
+
+
+== Cultivation and uses ==
+
+B. oleracea has become established as an important human food crop plant, used because of its large food reserves, which are stored over the winter in its leaves. It is rich in essential nutrients including vitamin C. It has been bred into a wide range of cultivars, including cabbage, broccoli, cauliflower, brussels sprouts, collards, and kale, some of which are hardly recognizable as being members of the same genus, let alone species. The historical genus of Crucifera, meaning "cross-bearing" in reference to the four-petaled flowers, may be the only unifying feature beyond taste.
+Researchers believe it has been cultivated for several thousand years, but its history as a domesticated plant is not clear before Greek and Roman times, when it was a well-established garden vegetable. Theophrastus mentions three kinds of rhaphanos (ῤάφανος): a curly-leaved, a smooth-leaved, and a wild-type. He reports the antipathy of the cabbage and the grape vine, for the ancients believed cabbages grown near grapes would impart their flavour to the wine.
+A diet rich in cruciferous vegetables (e.g., cabbage, broccoli, cauliflower) is linked to a reduced risk of several human cancers.
+
+
+== Origins ==
+According to the Triangle of U theory, B. oleracea is very closely related to five other species of the genus Brassica.
+
+The cultivars of B. oleracea are grouped by developmental form into seven major cultivar groups, of which the Acephala ("non-heading") group remains most like the natural wild cabbage in appearance:
+
+Brassica oleracea Acephala group – kale
+Brassica oleracea Viridis group – collard greens
+Brassica oleracea Alboglabra group – kai-lan (Chinese broccoli)
+Brassica oleracea Botrytis group – cauliflower, Romanesco broccoli, and broccoflower
+Brassica oleracea Capitata group – cabbage
+Brassica oleracea Gemmifera group – Brussels sprouts
+Brassica oleracea Gongylodes group – kohlrabi
+Brassica oleracea Italica group – broccoliIn places such as the Channel Islands and Canary Islands, where the frost is minimal and plants are thus freed from seasonality, some cultivars, known as Jersey cabbages, can grow up to 3 metres (9.8 ft) tall. These "tree cabbages" yield fresh leaves throughout the year, are perennial, and do not need to be destroyed at harvest as with a normal cabbage. Their woody stalks are sometimes dried and made into walking sticks.
+
+
+== History ==
+
+With the advent of agriculture and the domestication of wild crop plants, the people of the northern  Mediterranean began cultivating wild cabbage. Through artificial selection for various phenotype traits, the emergence of variations of the plant with drastic differences in looks took only a few thousand years. Preference for leaves, terminal bud, lateral bud, stem, and inflorescence resulted in selection of varieties of wild cabbage into the many forms known today.
+
+
+=== Impact of preference ===
+The preference for the eating of the leaves led to the selection of plants with larger leaves being harvested and their seeds planted for the next growth. Around the fifth century BC, the formation of what is now known as kale had developed.
+Preference led to further artificial selection of kale plants with more tightly bunched leaves, or terminal bud. Somewhere around the first century AD emerged the phenotype variation of B. oleracea known as cabbage.
+Phenotype selection preferences in Germany resulted in a new variation from the kale cultivar. By selecting for fatter stems, the variant plant known as kohlrabi emerged around the first century AD.
+European preference emerged for eating immature buds, selection for inflorescence. Early records in 15th century AD, indicate that early cauliflower and broccoli heading types were found throughout southern Italy and Sicily, although these types may not have been resolved into distinct cultivars until about 100 years later.
+Further selection in Belgium in lateral bud led to Brussels sprouts in the 18th century.
+
+
+== Medicinal use ==
+The Lumbee tribe of North Carolina has traditionally used the leaves of B. oleracea in medicine that they believed to have cleansing qualities, as well as a mild laxative, an anti-inflammatory, and treatment for glaucoma and pneumonia.
+
+
+== Genetics in relation to taste ==
+The TAS2R38 gene encodes a G protein-coupled receptor that functions as a taste receptor, mediated by ligands such as PROP and phenylthiocarbamide that bind to the receptor and initiate signaling that confers various degrees of taste perception. Vegetables in the brassica family, such as collard greens, kale, broccoli, cabbage, and Brussels sprouts, contain glucosinolates and isothiocyanates, which resemble PROP, and therefore much of the perceived "bitterness" of these vegetables is mediated through TAS2R38. Bitter taste receptors in the TS2R family are also found in gut mucosal and pancreatic cells in humans and rodents. These receptors influence release of hormones involved in appetite regulation, such as peptide YY and glucagon-like peptide-1, and therefore may influence caloric intake and the development of obesity. Thus, bitter taste perception may affect dietary behaviors by influencing both taste preferences and metabolic hormonal regulation.Three variants in the TAS2R38 gene – rs713598, rs1726866, and rs10246939 – are in high linkage disequilibrium in most populations and result in amino acid coding changes that lead to a range of bitter taste perception phenotypes. The PAV haplotype is dominant; therefore, individuals with at least one copy of the PAV allele perceive molecules in vegetables that resemble PROP as tasting bitter, and consequently may develop an aversion to bitter vegetables. In contrast, individuals with two AVI haplotypes are bitter non-tasters. PAV and AVI haplotypes are the most common, though other haplotypes exist that confer intermediate bitter taste sensitivity (AAI, AAV, AVV, and PVI). This taste aversion may apply to vegetables in general.
+
+
+== Cultivars ==
+
+
+== References ==
+
+Beckett, Emma (2014). "Bitter Taste Genetics – the Relationship to Tasting, Liking, Consumption and Health". Food & Function. 5 (12): 3040–54. doi:10.1039/C4FO00539B. hdl:1959.13/1298053. PMID 25286017.
+Boxer, E.E.; Garneau, N.L. (2015). "Rare haplotypes of the gene TAS2R38 confer bitter taste sensitivity in humans". SpringerPlus. 4: 505. doi:10.1186/s40064-015-1277-z. PMC 4574037. PMID 26405625.
+Bufe, B. (2005). "The Molecular Basis of Individual Differences in Phenylthiocarbamide and Propylthiouracil Bitterness Perception". Current Biology. 15 (4): 322–7. doi:10.1016/j.cub.2005.01.047. PMC 1400547. PMID 15723792.
+Calancie, Larissa;  et al. (2018). "TAS2R38 Predisposition to Bitter Taste Associated with Differential Changes in Vegetable Intake in Response to a Community-Based Dietary Intervention". G3: Genes, Genomes, Genetics. 8 (6): 2107–2119. doi:10.1534/g3.118.300547. PMC 5982837. PMID 29686110.
+Duffy, V.B.;  et al. (2010). "Vegetable Intake in College-Aged Adults Is Explained by Oral Sensory Phenotypes and TAS2R38 Genotype". Chemosensory Perception. 3 (3–4): 137–148. doi:10.1007/s12078-010-9079-8. PMC 3000691. PMID 21157576.
+Wieczorek, Martyna.;  et al. (2018). "Bitter Taste of Brassica Vegetables: The Role of Genetic Factors, Receptors, Isothiocyanates, Glucosinolates, and Flavor Context". Critical Reviews in Food Science and Nutrition. 58 (18): 3130–3140. doi:10.1080/10408398.2017.1353478. PMID 28718657. S2CID 28896102.
+Rozengurt, E. "Taste Receptors in the Gastrointestinal Tract. I. Bitter taste receptors and α-gustducin in the mammalian gut". Am. J. Physiol. Gastrointest. Liver Physiol. 7: 171–177.
+Roura, Eugeni;  et al. (21 May 2015). "Variability in Human Bitter Taste Sensitivity to Chemically Diverse Compounds Can Be Accounted for by Differential TAS2R Activation". Chemical Senses. 40 (6): 427–35. doi:10.1093/chemse/bjv024. PMID 25999325.
+Risso, David;  et al. (27 June 2016). "Erratum: Corrigendum: Global Diversity in the TAS2R38 Bitter Taste Receptor: Revisiting a Classic Evolutionary PROPosal". Scientific Reports. 6: 28406. doi:10.1038/srep28406. PMC 4921822. PMID 27346370.
+Mennella, Vito;  et al. (20 February 2005). "Functionally Distinct Kinesin-13 Family Members Cooperate to Regulate Microtubule Dynamics during Interphase". Nature Cell Biology. 7 (3): 235–45. doi:10.1038/ncb1222. PMID 15723056. S2CID 6501199.
+Kim, U.K.;  et al. (2005). "Genetics of individual differences in bitter taste perception: lessons from the PTC gene". Clin. Genet. 67 (4): 275–80. doi:10.1111/j.1399-0004.2004.00361.x. PMID 15733260. S2CID 1639438.
+Kim, U.K.;  et al. (2004). "Genetics of Human Taste Perception". J. Dent. Res. 83 (6): 448–53. doi:10.1177/154405910408300603. PMID 15153450. S2CID 8801457.
+Khataan, Nora H.;  et al. (2009). "TAS2R38 Genotypes and Phenylthiocarbamide Bitter Taste Perception in a Population of Young Adults". Journal of Nutrigenetics and Nutrigenomics. 2 (4–5): 251–6. doi:10.1159/000297217. PMID 20484932. S2CID 45496712.
+Genick, U.K.;  et al. (2011). "Sensitivity of genome-wide-association signals to phenotyping strategy: the PROP-TAS2R38 taste association as a benchmark". PLOS ONE. 6 (11): e27745. Bibcode:2011PLoSO...627745G. doi:10.1371/journal.pone.0027745. PMC 3223210. PMID 22132133.</ref>
+
+
+== External links ==
+PROTAbase on Brassica oleracea (Brussels sprouts)
+PROTAbase on Brassica oleracea (cauliflower and broccoli)
+Video Overview of Brassica oleracea: from Untamed Science

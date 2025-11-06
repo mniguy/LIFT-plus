@@ -1,0 +1,38 @@
+Ophiognomonia clavigignenti-juglandacearum is a mitosporic fungus that causes the lethal disease of butternut trees (Juglans cinerea), butternut canker. It is also known to parasitize other members of the genus Juglans on occasion, and very rarely other related trees including hickories. The fungus is found throughout North America, occurring on up to 91% of butternut trees, and may be threatening the viability of butternut as a species.
+
+
+== Distribution ==
+Butternut, the primary host of S. clavigignenti-juglandacearum, is found in mixed hardwood forests throughout central North America, from New Brunswick to North Carolina.
+The pathogen was identified as an invasive species in 1967.  It was first discovered in Wisconsin, but has since spread to other states and into Canada, making the Butternut an endangered species in Ontario. Its native origin is unknown, but possibly in Asia given the resistance of Asian walnuts to the disease. The United States Forest Service found that 84% of all butternuts in Michigan as well as 58% of all trees from Wisconsin have been affected; later surveys by the Wisconsin Department of Natural Resources revealed that 91% of all living trees in Wisconsin were diseased or cankered.  In Virginia and North Carolina, the butternut population has been reduced from 7.5 million to 2.5 million.
+
+
+== Symptoms ==
+Broad dead areas known as cankers form on the main stem, branches, young twigs, and exposed roots. Most cankers are covered with bark cracks. The fungus forms a dark mat of branching mycelium below the bark, from which arise peg-like hypha that lift and rupture the bark.  In the later stages of infection, the bark above the canker is shredded.
+
+
+== Life cycle ==
+
+O. clavigignenti-juglandacearum produces its spores asexually; its sexual form of reproduction has never been observed.
+Pycnidiospores are released during rainy periods.  When the spores make contact with wounds or broken branches, they germinate and penetrate deep into the tree to produce cankers. Infection hyphae typically penetrates through the parenchyma phloem intracellularly but they can also penetrate intercellularly through uni and multicellate xylem ray cells and paranchyma cells.  Later, the fungus will produce mycelial mats of stroma and mycelial pegs.
+Stroma mats will produce uni- or multilocular pycnidia.  Inside the pycnidia are branched and unbranched conidiophores with two-celled pycniospores, which later are ejected from the pycnidial ostiole.
+Additionally, the stroma will produce a peg of interwoven mycelium.  These pegs put pressure on the outer peridium of the host bark, which exposes the pycnidia below.  These pegs also produce pycnidia that are smaller than the pycnidia in the stroma.  While different in size, the spores produced are identical.
+
+
+== Resistance ==
+Many species of tree show varying degrees of resistance, such as the heartnut, Butternut, and the Japanese, Black, and Persian Walnuts.  It is sometimes claimed that higher levels of resistance result from thicker bark; however, since the disease enters through "breaks" in the bark, it is unlikely that bark thickness influences resistance. Additionally, both trees produce phenolics immediately upon attack, later producing gums and tyloses to surround the pathogen.
+
+
+== Control ==
+Breeding for resistance is important for fighting butternut canker. While standard practice has been that infected trees should be removed to prevent further spread, there is a growing opinion that the time for this is past.  The disease has now been found in virtually all parts of the butternut range.  Additionally, it is suggested that "removing diseased trees" is a guarantee that infected, but not dying trees, i.e. those that are specifically "partially resistant" to the fungus, will be killed; eliminating any chance of increased resistance in progeny.  Instances are known of long-term survival of pure butternuts infected by the canker.
+Recent reports have shown that the fungus can be internally seed-borne, so seeds should be subjected to intense quarantine protocols; most especially if destined for plantings where the disease is not already established.
+
+
+== See also ==
+List of long species names
+
+
+== References ==
+
+
+== External links ==
+Species Profile – Butternut Canker (Sirococcus clavigignenti-juglandacearum), National Invasive Species Information Center, United States National Agricultural Library.

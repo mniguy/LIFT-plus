@@ -1,0 +1,71 @@
+A box office or ticket office is a place where tickets are sold to the public for admission to an event. Patrons may perform the transaction at a countertop, through a hole in a wall or window, or at a wicket. By extension, the term is frequently used, especially in the context of the film industry, as a synonym for the amount of business a particular production, such as a film or theatre show, receives.Box office business can be measured in the terms of the number of tickets sold or the amount of money raised by ticket sales (revenue). The projection and analysis of these earnings is very important for the creative industries and often a source of interest for fans. This is predominant in the Hollywood movie industry.
+To determine if a movie made a profit, it is not correct to directly compare the box office gross with the production budget, because the movie theater keeps nearly half of the gross on average. The split varies from movie to movie, and the percentage for the distributor is generally higher in early weeks. Usually the distributor gets a percentage of the revenue after first deducting a "house allowance" or "house nut". It is also common that the distributor gets either a percentage of the gross revenue, or a higher percentage of the revenue after deducting the nut, whichever is larger.
+The distributor's share of the box office gross is often referred to as the "distributor rentals", especially for box office reporting of older films.
+
+
+== Etymology ==
+The term is attested since 1786, presumably from sales of boxes (private seating areas in a theater). The sense of "total sales" is attested from 1904.A folk etymology is that this derives from Elizabethan theatre (i.e. late 16th century), where theater admission was collected in a box attached to a long stick, passed around the audience; comparable to "bottle" in Punch and Judy, where money was collected in a bottle. However, first attestation is about 200 years later, making this highly unlikely.
+
+
+== Related terminology ==
+The following is film industry specific terminology used by box office reporters such as Variety and Box Office Mojo. For films released in North America, box office figures are usually divided between domestic, meaning the United States and Canada, and foreign which includes all other countries. Weekly box office figures are now normally taken to be from Friday through Thursday to allow for the fact that most films are officially released in the United States on a Friday. With Variety being published for many years every Wednesday, most weekly box office figures they reported from the 1920s to the 1990s were for the week from Thursday to Wednesday. A large component of the weekly gross is the weekend box office. Historically, this was reported as the box office receipts around Friday through Sunday plus any public holidays close to the weekend, such as a 4-day Memorial Day weekend, however, with the increased regularity of reporting of box office figures, a comparable 3-day figure for the Friday to Sunday is now also used. In particular, the weekend box office for the initial week of release, or opening weekend, is often widely reported. (See List of biggest opening weekends.)
+Theaters is the number of theaters in which the movie is showing. Since a single theater may show a movie on multiple screens, the total number of screens or engagements is used as another measure. The theaters measure is used to classify whether a film is in wide release, meaning at least 600 theaters, or limited release which is less than 600 theaters. Occasionally, a film may achieve wide release after an initial limited release; Little Miss Sunshine is an example of this.
+Gross refers to gross earnings. On average, the movie's distributor receives a little more than half of the final gross (often referred to as the rentals) with the remainder going to the exhibitor (i.e., movie theater).
+Multiple is the ratio of a film's total gross to that of the opening weekend. A film that earns $20 million on its opening weekend and finishes with $80 million has a multiple of 4. From 2004 to 2014, films viewers graded as A+ on CinemaScore had a 4.8 multiple, while films graded as F had a 2.2 multiple.Admissions refers to the number of tickets sold at the box office. In countries such as France, box office reporting was historically reported in terms of admissions, with rules regulated by the government and fines issued if exhibitors failed to report the data. Other countries which historically reported box office figures in terms of admissions include European countries such as Germany, Italy, and Spain, the Soviet Union, and South Korea. Box Office Mojo estimates the North American ticket sales by dividing the domestic box office gross by the average ticket price (ATP) of a given year, a method that Box Office India uses to estimate Indian footfalls (ticket sales). See List of films by box office admissions for the films with the highest known estimated ticket sales.
+
+
+=== Box office lists ===
+For lists of films which are major box-office hits, see List of highest-grossing films, List of films by box office admissions and Lists of highest-grossing films. Films that are considered to have been very unsuccessful at the box office are called box office bombs or box office flops. For a list of these films, see List of box office bombs.
+
+
+== Box office reporting ==
+There are numerous websites that monitor box-office receipts, such as BoxOffice, Box Office Mojo, The Numbers, A Box Office, Box Office India, Koimoi and ShowBIZ Data. These sites provide box office information for hundreds of movies. Data for older movies is often incomplete due to the way box office reporting evolved, especially in the U.S., and the availability of information prior to the introduction of the internet.
+
+
+=== History ===
+
+
+==== Rise of Hollywood ====
+Variety started reporting box office results by theatre on March 3, 1922 to give exhibitors around the country information on a film's performance on Broadway, which was often where first run showings of a film were held. In addition to New York City, they also endeavoured to include all of the key cities in the U.S. in future and initially also reported results for 10 other cities including Chicago and Los Angeles.In 1929, the first issue of The Motion Picture Almanac was released and included a list of the top 104 grossing films for the past year. In 1932, Variety published the studios' top-grossing films of the year and has maintained this tradition annually since. In 1937, BoxOffice magazine began publishing box office reports. Beginning in the 1930s, BoxOffice magazine published a Barometer issue in January, which reported the performance of movies for the year expressed as percentages.
+
+
+==== Golden era of film ====
+In 1946, Variety started to publish a weekly National Box Office survey on page 3 indicating the performance of the week's hits and flops based on the box office results of 25 key U.S. cities.Later in 1946, Variety published a list of All-Time Top Grossers with a list of films that had achieved or gave promise of earning $4,000,000 or more in domestic (U.S. and Canada) theatrical rentals. This became a leading source of data for a film's performance. Variety would publish an updated all-time list annually for over 50 years, normally in their anniversary edition each January. The anniversary edition would also normally contain the list of the top performing films of the year.
+
+
+==== Dawn of modern film industry ====
+In the late 1960s, Variety used an IBM 360 computer to collate the grosses from their weekly reports of 22 to 24 U.S. cities from January 1, 1968. The data came from up to 800 theatres which represented around 5% of the U.S. cinema population at the time but around one-third of the total U.S. box office grosses. In 1969, Variety started to publish a list of the top 50 grossing films each week.  "The Love Bug" was the number one on the first chart published for the week ending April 16, 1969. The chart was discontinued in 1990.In 1974, Nat Fellman founded Exhibitor Relations Co., the first company set up to track box office grosses, which it collected from the studios. Two years later, Marcy Polier, an employee of the Mann theater chain, set up Centralized Grosses to collate U.S. daily box office data on a centralized basis from theaters rather than each theater chain collating their own numbers from other theater chains. The company later became National Gross Service then Entertainment Data, Inc. (EDI).Except for disclosures by the studios on very successful films, total domestic (U.S. and Canada) box office gross information for films was not readily available until National Gross Service started to collate this data around 1981. The collation of grosses led to wider reporting of domestic box office grosses for films. Arthur D. Murphy, a former U.S. Navy lieutenant at Variety was one of the first to organize and chart that information and report it in a meaningful form. During the 1980s, Daily Variety started to publish a weekly chart of the domestic box office grosses of films collated from the studios as compared to the Top 50 chart in Variety which was based on a sample of theatre grosses from key markets.
+Gradually the focus of a film's performance became its box office gross rather than the rentals that Variety continued to report annually. Prior to the tracking of these grosses, domestic or worldwide box office grosses is not available for many earlier films so the only domestic or worldwide data available is still often the rental figures.
+Murphy started to publish Art Murphy's Box Office Register annually from 1984 detailing U.S. box office grosses.In 1984, EDI started to report Canadian grosses as well and by 1985 was reporting data for 15,000 screens. In 1987, EDI set up a database of box office information which included data on certain films back to 1970. By 1991, all U.S. studios had agreed to share their complete data reports with EDI. In 1990, EDI opened an office in the UK, moved into Germany in 1993 and Spain in 1995 reporting box office data for those markets. EDI were acquired by ACNielsen Corporation in 1997 for $26 million and became Nielsen EDI.By the 1990s, Daily Variety started to report studio's weekend estimates from Sundays on Monday mornings which led to other media reporting the data earlier. When Entertainment Weekly was launched in 1990 it started to publish the top 10 box office weekend lists from Exhibitor Relations and the company was also supplying box office data to companies such as the Los Angeles Times, CNN and the Associated Press.In 1994, Variety published their first annual global box office chart showing the top 100 grossing films internationally for the prior year.On August 7, 1998, Box Office Mojo was launched by Brandon Gray and in 1999 he started posting the Friday grosses sourced from Exhibitor Relations so that they were publicly available for free online on Saturdays and posted the Sunday estimates on Sundays. In July 2008, Box Office Mojo was purchased by Amazon.com through its subsidiary, IMDb.
+
+
+==== Modern film industry ====
+Rentrak started tracking box office data from point of sale in 2001 and started to rival EDI in providing the studios with data. In December 2009, Rentrak acquired Nielsen EDI for $15 million, and became the sole provider of worldwide box office ticket sales revenue and attendance information which is used by many of the websites noted above.On October 23, 2019, Box Office Mojo unveiled a dramatic redesign resembling IMDb, and was rebranded as "Box Office Mojo by IMDbPro" with some of the content move to the subscription based IMDbPro.Box office reporting paused for the first time since its inception on March 19, 2020, as nearly all theaters nationwide were closed because of the coronavirus pandemic. Only drive-in theaters, which are typically not included in box office reporting, remained open.
+
+
+== Average ticket price ==
+The average ticket price (ATP) is the average cost to purchase a film ticket at the box office in any given year. According to the UNESCO Institute for Statistics, the ATP is "calculated as the total revenues generated from tickets sales divided by the number of feature film tickets sold during the year of reference."
+
+
+== Distributor rentals ==
+Box-office figures are reported in the form of either gross receipts or distributor rentals, the latter being especially true of older films. Commonly mistaken for home video revenue, the rentals are the distributor's share of the film's theatrical revenue i.e. the box office gross less the exhibitor's cut. Historically, the rental price averaged at 30–40% when the distributors owned the theater chains, equating to just over a third of the gross being paid to the distributor of the film. In the modern marketplace, rental fees can vary greatly—depending on a number of factors—although the films from the major studios average out at 43%.
+
+
+== See also ==
+
+Box office territory
+Box-office bomb
+Film industry
+List of films by box office admissions
+List of highest-grossing films
+List of highest-grossing non-English films
+Lists of box office number-one films
+Lists of highest-grossing films
+Will call
+
+
+== References ==
+
+
+== External links ==
+ Media related to Box offices at Wikimedia Commons

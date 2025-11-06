@@ -1,0 +1,42 @@
+Calliphora vicina is a member of the family Calliphoridae, which includes blow flies and bottle flies. These flies are important in the field of forensic entomology, being used to estimate the time of a person's death when a corpse is found and then examined. C. vicina is currently one of the most entomologically important fly species for this purpose because it arrives at and colonizes a body following death in consistent timeframes.
+
+
+== Taxonomy ==
+Calliphora vicina was described by the French entomologist Jean-Baptiste Robineau-Desvoidy in 1830. Its specific epithet is derived from the Latin vicinus 'neighbouring'.Calliphora vicina is closely related to Calliphora vomitoria, another species important in forensics.
+
+
+== Description ==
+
+Calliphora vicina is known as a blue bottle fly because of the metallic blue-gray coloration of its thorax and abdomen. It is distinguished from the commonly known C. vomitoria by its bright orange cheeks. The blue bottle fly is approximately 10–11 mm in length. The sclerites at the base of the coxa are yellow or orange. By chaetotaxy, the study of bristle arrangement, Calliphorids are characterized by having black bristles on the meron and two to three bristles on the notopleuron.
+The similarities between the different species of Calliphora can make identification of immature stages nearly impossible. From the first instar to the pupa stage C. vicina is identical to that of C. vomitoria.
+
+
+=== Lifecycle ===
+
+Calliphora vicina goes through five generations in a year at a threshold temperature of 27˚ C (81˚ F).  A female C. vicina can lay up to 300 eggs, on fresh carrion or on open wounds. The larvae go through three instar stages. The first instar hatches in approximately 24 hours after the eggs are laid. It goes through its second instar in 20 hours and its third instar in 48 hours. Under favorable conditions, the larvae feed for about three to four days. When the larvae complete their development, they disperse to find an adequate place to pupate. The C. vicina pupa stage last about 11 days. At 27˚ C, C. vicina’s life cycle lasts approximately 18 days.Climatic factors, such as temperature, are known to influence egg-laying and development of instar-larvae. In warmer weather the life cycle can last a little less, and in cooler temperatures the life cycle takes a little longer. Knowing the duration between the three instars and pupa stage and post-feeding larval dispersal can be useful to determine the post mortem interval in a criminal case.
+
+
+== Distribution ==
+Calliphora vicina are found throughout the U.S. in urban areas and are most abundant in early spring and fall where the temperatures are around 55-75˚F (13-24˚C).  The species predominates in Europe and the New World, but has found its way into other countries via harbors and airports.  It was first recorded in South Africa in 1965 when a specimen was collected near Johannesburg, but specimen collections have been few and sporadic since then. It also occurs as an exotic in Australia and New Zealand.
+
+
+== Post mortem interval estimation ==
+One of the key characteristics of using blow flies in developing a post mortem interval estimate is the succession of insects that colonize the body. Based on the insects present at the time, a reasonable time frame for death may be established. C. vicina has its own part in the succession of the corpse.
+Calliphora vicina plays a major role in corpse colonization during the winter months, with less of a presence during the warmer months when temperature is less of a constraint. This fly has a lower threshold temperature for flight activity than other blow-flies, allowing for greater prevalence during colder periods. This period of activity must be considered when evaluating the presence or absence of this fly.When using the age of maggots to determine the PMI, the time before arrival is an important factor. The succession of C. vicina involves the arrival of adults two days after death. Therefore, two days must be added to the maximum age determined for flies found on the body.
+
+
+== Behavior ==
+Calliphora vicina play an integral part in post mortem interval determination. Factors such as region, weather temperatures, time of day and conditions under which the body was found all contribute to determining a post mortem interval (PMI). To complete the calculation the entomologist must consider what is commonly known about C. vicina and integrate it with experimental data gathered from a crime scene. The entomologist must know how the blow-fly behaves specifically in the area where the body was discovered. This involves recording environment temperatures at the crime scene as well as retrieving a history of the climate in the region. C. vicina in particular is adapted to cooler temperatures, appearing most commonly in winter and less often in the summer months. This puts their flight activity threshold at above 55-60 °F (13-16 °C), a lower temperature than most other blow-flies. Knowing the threshold temperature allows the entomologist to calculate accumulated degree days, which in turn helps determine PMI.
+Some knowledge regarding C. vicina behavior is well known. Case studies have shown that it is not the first species in arrival, although it does appear one to two days before Phaenicia sericata. Determining PMI is an intricate process because there is still much that we do not know about C. vicina behavior. For instance, it is a long held belief that the species is not nocturnally active. However, it has recently been shown that C. vicina is indeed active at night under certain experimental conditions.
+
+
+== Future research ==
+As Calliphora vicina continues to be researched, more information about the behavior will be gained to allow for a more complete picture of the lifecycle, thereby leading to better estimates of time of colonization.  New knowledge, such as the activity of C. vicina at night, will provide forensic entomologists with a better tool for their PMI estimation development.
+
+
+== References ==
+
+
+== External links ==
+ Media related to Calliphora vicina at Wikimedia Commons
+ Data related to Calliphora vicina at Wikispecies

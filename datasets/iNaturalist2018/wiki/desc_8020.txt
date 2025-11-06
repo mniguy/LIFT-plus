@@ -1,0 +1,66 @@
+Asplenium rhizophyllum, the (American) walking fern, is a frequently-occurring fern native to North America. It is a close relative of Asplenium ruprechtii (syn: Camptosorus sibiricus) which is found in East Asia and also goes by the common name of "walking fern".
+
+
+== Description ==
+Asplenium rhizophyllum is a small fern whose undivided, evergreen leaves and long, narrow leaf tips, sometimes curving back and rooting, give it a highly distinctive appearance. It grows in tufts, often surrounded by child plants formed from the leaf tips. The leaves of younger plants tend to lie flat to the ground, while older plants have leaves more erect or arching.
+
+
+=== Roots and rhizomes ===
+It does not spread and form new plants via the roots. Its rhizomes (underground stems) are upright or nearly so, short, about 1 millimetre (0.04 in) in diameter, and generally unbranched. They bear dark brown or blackish, narrowly triangular or lance-shaped scales which are strongly clathrate (bearing a lattice-like pattern). The scales are 2 to 3 millimetres (0.08 to 0.1 in) long and 0.5 to 1 millimetre (0.02 to 0.04 in) wide (occasionally as narrow as 0.2 millimetres (0.008 in)) with untoothed margins.
+
+
+=== Leaves ===
+
+The stipe (the stalk of the leaf, below the blade) is 0.5 to 12 centimetres (0.20 to 4.7 in) long (occasionally up to 15 centimetres (5.9 in) long), and ranges from one-tenth to one and one-half times the length of the blade. The stipe is reddish-brown and sometimes shiny at the base, becoming green above, and narrowly winged. Scales like those of the rhizome are present at the stipe base, changing to tiny club-shaped hairs above.The leaf blades are not subdivided, as in most other ferns, but are narrowly triangular to linear or lance-shaped. Their shape can be quite variable, even on the same plant. They measure from 1 to 30 centimetres (0.4 to 10 in) long and from 0.5 to 5 centimetres (0.2 to 2 in) across and have a leathery texture with sparse hairs, more abundant below than above. The rachis (leaf axis) is dull green in color and almost devoid of hairs. On the underside of the blade, the veins are difficult to see and anastomose (split and rejoin each other), forming a series of areoles (the small areas enclosed by the veins) near the rachis. Fertile fronds are usually larger than sterile fronds, but their shape is otherwise the same. The base of the blade is typically heart-shaped (with the stipe protruding from the cleft); the bulges on either side of the cleft are frequently enlarged into auricles (rounded lobes), or occasionally into sharply-pointed, tapering lobes. The leaf tips may be rounded but are typically very long and attenuate (drawn out); the attenuate tips are capable of sprouting roots and growing into a new plant when the tip touches a surface suitable for growth. On rare occasions, the auricles at the leaf base will also take on an attenuate shape and form roots at the tip. The ability of the leaf tips to root and form a new plant at some distance from the parent gives the species its common name. The young leaves forming from a bud at the leaf tip are round to pointed at their apex, not yet having developed the long-attenuate shape.Specimens of A. rhizophyllum with forked blades have been found in Arkansas and Missouri. The fork usually occurs in the tip, perhaps due to growth after insect damage, but one specimen was found forking from the upper part of the stipe.
+
+
+=== Sori and spores ===
+Fertile fronds bear a large number of sori underneath, 1 to 4 millimetres (0.04 to 0.2 in) long, which are not arranged in any particular order. The sori are often fused where veins join, and may curve to follow the vein to which they are attached. The sori are covered by inconspicuous thin, white indusia with untoothed edges. Each sporangium in a sorus carries 64 spores. The diploid sporophyte has a chromosome number of 72.
+
+
+=== Similar species ===
+The leaf shape and proliferating tips easily distinguish A. rhizophyllum from most other ferns. Its hybrid descendants share the long-attenuate leaf tip, but are more deeply lobed. An artificial backcross between A. rhizophyllum and A. tutwilerae was closer to A. rhizophyllum in morphology, but still remained some lobes in the basal part of the blade, had a shallowly undulating, rather than smoothly curved, leaf edge in the apical part, showed a maroon color in the stipe up to the base of the leaf blade, and possessed the abortive spores of a sterile hybrid. A. ruprechtii, the Asian walking fern, also possesses attenuate, proliferating tips, but has a lanceolate leaf blade, which tapers to a wedge at the base rather than forming a heart shape. A. scolopendrium, the hart's-tongue fern, has larger, longer leaves that are glossy with a rounded tip.
+
+
+== Taxonomy ==
+This species is commonly known as North American walking fern or simply walking fern, because the growth of new plants at the leaf tip allows it to "walk" across surfaces over several generations. The specific epithet "rhizophyllum", meaning "root leaf", also reflects this characteristic.Linnaeus first gave the walking fern the binomial Asplenium rhizophyllum in his Species Plantarum of 1753. In 1833, J.H.F. Link placed the species in a segregate genus, Camptosorus, because of the irregular arrangement of its sori (in contrast to the rest of Asplenium, where the sori are confined to the edge of veins). John Smith did not feel that this character was sufficient to segregate it from the rest of Asplenium, but placed it in the genus Antigramma, another Asplenium segregate, on the basis of its reticulate venation, to the convolutions of which he attributed the soral arrangement. It was commonly placed either in Asplenium and Camptosorus by later authors, the latter genus including the similar Asian species A. ruprechtii but phylogenetic studies have shown that Camptosorus is nested within Asplenium and its species should be treated as part of that genus.The name Asplenium rhizophyllum has also been applied to two other species; in current botanical practice, these are illegitimate later homonyms of Linnaeus' name of 1753. The first of these homonyms was created by Linnaeus himself in 1763, when he accidentally used the name twice, applying it first to his original taxon and again to a species from the West Indies which also proliferates at the leaf tips. He had referred to the West Indian species as A. radicans in 1759, the name by which it is known today. In 1834, Gustav Kunze transferred the species Caenopteris rhizophylla to Asplenium without changing the epithet; George Proctor identified this species, based on a specimen from Dominica, with A. conquisitum, now synonymized with A. rutaceum.A global phylogeny of Asplenium published in 2020 divided the genus into eleven clades, which were given informal names pending further taxonomic study. A. rhizophyllum belongs to the "A. cordatum subclade" of the "Schaffneria clade". The Schaffneria clade has a worldwide distribution, and members vary widely in form and habitat. There is no clear morphological feature that unites the A. cordatum subclade; the sister species of A. rhizophyllum is A. ruprechtii, which shares an undivided leaf blade and a proliferating tip, while the other three species are scaly spleenworts of dry habitats in Africa and the Middle East.
+
+
+=== Hybrids ===
+Walking fern is one of the three parental species of the "Appalachian Asplenium complex", a group of Asplenium hybrids and their progenitors known from eastern North America. Hybridization between walking fern and mountain spleenwort (A. montanum) has given rise through chromosome doubling to a new, fertile, species, lobed spleenwort (A. pinnatifidum). The sterile hybrid between walking fern and ebony spleenwort (A. platyneuron), known as Scott's spleenwort (
+A. × ebenoides), may be found where the two parents are in contact; at one locality, in Havana Glen, Alabama, A. × ebenoides has undergone chromosome doubling to produce a fertile species, Tutwiler's spleenwort (A. tutwilerae).Much more rarely, walking fern hybridizes with two other common spleenworts of eastern North America. The hybrid between walking fern and wall-rue (A. ruta-muraria), known as unexpected spleenwort (A. × inexpectatum), is known from a single specimen collected on dolomite in Adams County, Ohio. The hybrid between walking fern and maidenhair spleenwort, (A. trichomanes ssp. trichomanes), Shawnee spleenwort (A. × shawneense), is known from one collection on sandstone in the Shawnee Hills of Illinois.A triploid hybrid between walking fern and Tutwiler's spleenwort was accidentally produced in culture. A similar plant collected from limestone in  Shepherdstown, West Virginia could have originated from the same parents, from an unreduced (diploid) gametophyte of Scott's spleenwort crossed with walking fern, or from an unreduced walking fern gametophyte crossed with ebony spleenwort.
+
+
+=== Infraspecific taxa ===
+In 1813, Henry Muhlenberg listed lobed spleenwort as Asplenium rhizophyllum var. pinnatifidum, although he did not provide a description distinguishing the variety from the typical species. It was described as the species A. pinnatifidum by Thomas Nuttall in 1818.A number of forms have been described, of limited taxonomic value. In 1883, J. C. Arthur described walking ferns from limestone cliffs in Muscatine County, Iowa that lacked auricles at the leaf base, with the blade abruptly tapering at the base instead. In this respect, the plants closely resembled A. ruprechtii, but the leaf shape of the Iowa plants was lanceolate (widest near the base) rather than ovate (widest in the middle), and the wide point of the leaf in the Iowa plants appeared slightly lobed. He named these plants Camptosorus rhizophyllus var. intermedius; the variety was subsequently given the status of a form by Willard N. Clute. In 1922, Ralph Hoffmann gave the name C. rhizophyllus f. auriculatus to specimens with proliferating auricles, based on material on limestone from New Marlborough, Massachusetts. In 1924, Frederick W. Gray described as C. rhizophyllus f. angustatus material from a sandstone boulder in Monroe County, West Virginia. These had a short stipe, less than 1 inch (3 cm) long, and narrow leaf blades, less than 0.375 inches (0.95 cm) wide, with the sori almost at the margins. He argued that as they were found along with normal material, they were not solely due to sun exposure. Finally, in 1935, Carl L. Wilson described C. rhizophyllus f. boycei based on material collected from the base of a limestone boulder in Highgate Springs, Vermont by Guy Boyce. These plants had deeply lobed auricles, and erose (jagged or indented) leaf margins with rounded edges.
+
+
+== Distribution ==
+
+The principal range of A. rhizophyllum is in the Appalachian Mountains and the Ozarks. It can be found from southern Quebec and Ontario along the Appalachians and Piedmont southwestward to Mississippi and Alabama, along the Ohio Valley and into the Ozarks west to Nebraska and Oklahoma, and along the Mississippi Valley north to Wisconsin and Minnesota. It has become extinct in Maine and Delaware. The distribution typically follows area of limy soil; sometimes said to be rare, it is better described as locally abundant where conditions favor it.
+
+
+== Ecology and conservation ==
+Walking fern grows on shaded boulders, ledges and in crevices, usually covered with moss. On rare occasions, it is found on fallen tree trunks, as an epiphyte, or on the ground. It is usually found on limestone or other alkaline rocks, rarely on sandstone or other acidic rocks.While globally secure, it is endangered in some states and provinces at the edge of its range. NatureServe considers it critically imperiled (S1) in Mississippi, New Hampshire and Rhode Island, imperiled (S2) in Michigan and South Carolina, and vulnerable (S3) in North Carolina and Quebec.
+
+
+== Cultivation ==
+It was introduced into cultivation in England in 1680. It prefers low to medium light levels, and a moist, basic potting mix, or soil with added lime chips.
+
+
+== Notes and references ==
+
+
+=== References ===
+
+
+=== Works cited ===
+
+
+== External links ==
+Michigan conservation plan
+Last report from Maine
+Report from sandstone in Michigan
+Hardy Fern Library
+Connecticut Botanical Society
+Flora of Pennsylvania

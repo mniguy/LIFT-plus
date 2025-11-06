@@ -1,0 +1,75 @@
+Lycopodium (from Greek lukos, wolf and podion, diminutive of pous, foot) is a genus of clubmosses, also known as ground pines or creeping cedars, in the family Lycopodiaceae. Two very different circumscriptions of the genus are in use. In the Pteridophyte Phylogeny Group classification of 2016 (PPG I), Lycopodium is one of nine genera in the subfamily Lycopodioideae, and has from 9 to 15 species. In other classifications, the genus is equivalent to the whole of the subfamily, since it includes all the other genera. More than 40 species are accepted.
+
+
+== Description ==
+They are flowerless, vascular, terrestrial or epiphytic plants, with widely branched, erect, prostrate, or creeping stems, with small, simple, needle-like or scale-like leaves that cover the stem and branches thickly. The leaves contain a single, unbranched vascular strand, and are microphylls by definition. The kidney-shaped (reniform) spore-cases (sporangia) contain spores of one kind only, (isosporous, homosporous), and are borne on the upper surface of the leaf blade of specialized leaves (sporophylls) arranged in a cone-like strobilus at the end of upright stems. The club-shaped appearance of these fertile stems gives the clubmosses their common name.
+Lycopods reproduce asexually by spores. The plants have an underground sexual phase that produces gametes, and this alternates in the lifecycle with the spore-producing plant. The prothallium developed from the spore is a subterranean mass of tissue of considerable size, and bears both the male and female organs (antheridia and archegonia).  They are more commonly distributed vegetatively, though, through above- or below-ground rhizomes.
+
+
+== Taxonomy ==
+The genus Lycopodium was first published by Carl Linnaeus in 1753. He placed it in the Musci (mosses) along with genera such as Sphagnum, and included species such as Lycopodium selaginoides, now placed in the genus Selaginella in a different order from Lycopodium. Different sources use substantially different circumscriptions of the genus. Traditionally, Lycopodium was considered to be the only extant genus in the family Lycopodiaceae, so includes all the species in the family, although sometimes excluding one placed in the monotypic genus Phylloglossum. Other sources divide Lycopodiaceae species into three broadly defined genera, Lycopodium, Huperzia (including Phylloglossum) and Lycopodiella. In this approach, Lycopodium sensu lato has about 40 species. In the Pteridophyte Phylogeny Group classification of 2016 (PPG I), the broadly defined genus is equivalent to the subfamily Lycopodioideae, and Lycopodium is one of 16 genera in the family Lycopodiaceae, with between 9 and 15 species.
+
+
+=== Species ===
+
+Using the narrow circumscription of Lycopodium, in which it is one of nine genera in the subfamily  Lycopodioideae, the Checklist of Ferns and Lycophytes of the World recognized the following species as of December 2019:
+Lycopodium clavatum L. – stag's-horn clubmoss; subcosmopolitan
+Lycopodium diaphanum (P.Beauv.) Sw. – Tristan da Cunha
+Lycopodium hygrophilum Alderw. – New Guinea
+Lycopodium japonicum Thunb. – eastern Asia (Japan west and south to India and Sri Lanka)
+Lycopodium lagopus (Laest. ex C.Hartm.) Zinserl. ex Kuzen. – circumpolar arctic and subarctic
+Lycopodium papuanum Nessel – New Guinea
+Lycopodium pullei Alderw. – New Guinea
+Lycopodium venustulum Gaudich. – Hawaii, Western Samoa, the Society Islands
+Lycopodium vestitum Desv. ex Poir. – northwest South America (Andes)Using the broader circumscription of the genus, Plants of the World Online recognized the following additional Lycopodium species as of December 2019. Using the narrow circumscription of the genus Lycopodium, the Checklist of Ferns and Lycophytes of the World divided them among eight other genera:
+Lycopodium alpinum L. = Diphasiastrum alpinum
+Lycopodium annotinum L. = Spinulum annotinum
+Lycopodium assurgens Fée = Austrolycopodium assurgens
+Lycopodium carolinum (Lawalrée) J.P.Roux = Diphasiastrum carolinum
+Lycopodium casuarinoides Spring = Lycopodiastrum casuarinoides
+Lycopodium complanatum L. = Diphasiastrum complanatum
+Lycopodium confertum Willd. = Austrolycopodium confertum
+Lycopodium dendroideum Michx. = Dendrolycopodium dendroideum
+Lycopodium deuterodensum Herter = Pseudolycopodium densum
+Lycopodium digitatum Dill. ex A.Braun = Diphasiastrum digitatum
+Lycopodium erectum Phil. = Austrolycopodium erectum
+Lycopodium fastigiatum R.Br. = Austrolycopodium fastigiatum
+Lycopodium fawcettii F.E.Lloyd & Underw. = Diphasiastrum fawcettii
+Lycopodium gayanum Brongn. = Diphasium gayanum
+Lycopodium habereri House = Diphasiastrum habereri
+Lycopodium hickeyi (Beitel & R.C.Moran) W.H.Wagner, Beitel & R.C.Moran = Dendrolycopodium hickeyi
+Lycopodium juniperoideum Sw. = Dendrolycopodium juniperoideum
+Lycopodium jussiaei Desv. = Diphasium jussiaei
+Lycopodium lawessonianum B.Øllg. = Diphasium lawessonianum
+Lycopodium madeirense J.H.Wilce = Diphasiastrum madeirense
+Lycopodium magellanicum (P.Beauv.) Sw. = Austrolycopodium magellanicum
+Lycopodium multispicatum J.H.Wilce = Diphasiastrum multispicatum
+Lycopodium nikoense Franch. & Sav. = Diphasiastrum nikoense
+Lycopodium obscurum L. = Dendrolycopodium obscurum
+Lycopodium oellgaardi (Stoor, Boudrie, Jérôme, K.Horn & Bennert) B.Bock = Diphasiastrum oellgaardii
+Lycopodium paniculatum Desv. = Austrolycopodium paniculatum
+Lycopodium platyrhizoma J.H.Wilce = Diphasiastrum platyrhizoma
+Lycopodium sabinifolium Willd. = Diphasiastrum sabinifolium
+Lycopodium scariosum G.Forst. = Diphasium scariosum
+Lycopodium sitchense Rupr. = Diphasiastrum sitchense
+Lycopodium spectabile Blume = Pseudodiphasium volubile
+Lycopodium subarcticum V.N.Vassil. = Spinulum annotinum ssp. alpestre
+Lycopodium thyoides Willd. = Diphasiastrum thyoides
+Lycopodium tristachyum Pursh = Diphasiastrum tristachyum
+Lycopodium volubile G.Forst. = Pseudodiphasium volubile
+Lycopodium yueshanense C.M.Kuo = Diphasiastrum yueshanense
+Lycopodium zanclophyllum J.H.Wilce = Diphasiastrum zanclophyllum
+Lycopodium × zeilleri (Rouy) Greuter & Burdet = Diphasiastrum zeilleri
+
+
+== Uses ==
+The spores of Lycopodium species are harvested and are sold as lycopodium powder.
+Lycopodium  sp. herb has been used in the traditional Austrian medicine internally as tea or externally as compresses for treatment of disorders of the locomotor system, skin, liver and bile, kidneys and urinary tract, infections, rheumatism, and gout, though claims of efficacy are unproven. It has also been used in some United States government chemical warfare test programs such as Operation Dew. Lycopodium powder was also used to determine the molecular size of oleic acid.
+
+
+== References ==
+
+
+== External links ==
+Species list (takes a broad view of the genus, including the species here separated in the genus Diphasiastrum)
+Burning Lycopodium Powder: Simulating a Grain Elevator Explosion by Kevin A. Boudreaux

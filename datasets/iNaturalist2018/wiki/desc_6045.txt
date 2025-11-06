@@ -1,0 +1,36 @@
+Petasites hybridus, the butterbur, is a herbaceous perennial flowering plant in the daisy family Asteraceae, native to Europe and northern Asia.
+
+
+== Description ==
+The species is dioecious, the male and female flowers being borne on separate plants. In Britain, the male flowers are widespread, but the female flowers have a restricted distribution in northern and central England.  The flowers are produced in the early spring, before the leaves appear. They are pale pink, with several inflorescences clustered on a 5–20 cm (2–8 in) stem. The leaves are large, on stout 80–120 cm (31–47 in) tall stems, round, with a diameter of 40–70 cm (16–28 in) with petioles up to 1.5 m (4 ft 11 in).
+It is also called bog rhubarb, Devil's hat, and pestilence wort. Synonyms include P. officinalis, P. ovatus, P. vulgaris, and Tussilago petasites L.It is native to central Europe, extending from the British Isles to the Caucasus, and from southern Italy north to southern Scandinavia. It is present as an introduced species in North America. In the British Isles, female plants are rarely found outside central and northern England, and the species may be naturalized as clonal populations outside this area, propagating via rhizome fragments. The preferred habitats are moist, fertile soils, often by rivers, streams and in wet meadows.
+
+
+== Potential medicinal uses ==
+Petasites hybridus leaves have been used in the traditional Austrian and Czech medicine internally (as tea or cold maceration in ethanol) and externally (as compresses or maceration in vinegar) for treatment of infections, fever, flu, colds, hay-fever, and allergies. Currently, butterbur extracts are used for migraine prevention, as well as alleviate allergic rhinitis
+
+
+=== Migraines ===
+Preliminary trials have shown a preparation of butterbur root to be possibly effective in reducing the frequency and severity of migraine attacks. In a three arm double blind study of migraine patients, subjects responded to P. hybridus root extract therapy positively with a dose of 75 mg versus a placebo, however the trial was unable to find statistical significance at a marginally lower dose of 50 mg. Other trials have tested doses as high as 150 mg per dose with limited success, showing only around a 15% reduction in migraine frequency rate, not accounting for possible environmental variables.
+
+
+=== Rhinitis ===
+A commercial extract Petasol butenoate complex (Ze 339) has data supporting its use for allergic rhinitis, further trials elucidate the possible method of action on mice models, showing possible efficacy against other airway diseases such as asthma and peritonitis. Although there is encouraging evidence supporting the usage of P. hybridus for this usage, more clinical trials are required for definitive conclusions.
+
+
+== Pharmacology ==
+P. hybridus is believed to contain the sesquiterpene esters petasin, isopetasin, and neopetasin, which are believed to help alleviate migraine symptoms. Petasin may inhibit inflammatory functions through regulation of phospholipase Cβ. Petasin has also been shown to block eosinophil cationic protein, an important step in the adaptive immune response system. Isopetasin operates by blocking intracellular signaling molecules in pathways involving Arachidonate 5-lipoxygenase in turn leading to the reduction of leukotriene synthesis.
+
+The anti-allergic effects of butterbur are believed to come from Bakkenolide B a terpinoid found in the leaves of the plant. Bakkenolide was shown to have efficacy in mast cell degranulation and inhibiting gene inductions of inducible nitric oxide synthase and cyclooxyrgenase 2. It is unclear if retail preparations of butterbur contain Bakkenolide due to non-standardization of preparation, and which parts of the plants are included.
+
+
+== Risks ==
+Butterbur extracts have been found to contain hepatotoxic pyrrolizidine alkaloids at the retail level before. These alkaloids have also been shown to cause cancer in animal models before and should be assumed to be carcinogenic for that reason. Germany has gone as far as to regulate these alkaloids, limiting intake to 1μg per day, for no more than 6 weeks per year. Furthermore, because of hepatotoxic concerns, these extracts are not recommended during pregnancy or breastfeeding.The adverse effects of butterbur reported in clinical trials include mainly gastrointestinal problems, such as nausea, flatulence, and belching. In 2015, the American Academy of Neurology withdrew its original endorsement of butterbur due to safety concerns. However, the Canadian Headache Society still recommends its use in migraine prevention for a selected number of patients based on their clinical features and co-existing disorders.
+Long-term health effects and interaction of butterbur with other drugs have not been well documented. However, it can theoretically interact with certain blood pressure and heart medications, as well as with drugs that can induce a liver enzyme called CYP3A4 (i.e. St. John's wort, carbamazepine, phenytoin, rifampin); this interaction can potentially lead to increased concentration of the toxic alkaloids. Prior cases of liver damage have been reported from patients who were taking butterbur with cases varying in adverse effects from cholestasis and inflammation, to liver failure resulting in transplantation
+
+
+== References ==
+
+
+== External links ==
+ Media related to Petasites hybridus at Wikimedia Commons

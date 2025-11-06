@@ -1,0 +1,213 @@
+The palm weevil Rhynchophorus ferrugineus is one of two species of snout beetle known as the red palm weevil, Asian palm weevil or sago palm weevil. The adult beetles are relatively large, ranging between 2 and 4 centimetres (1 and 1+1⁄2 inches) long, and are usually a rusty red colour—but many colour variants exist and have often been classified as different species (e.g., Rhynchophorus vulneratus). Weevil larvae can excavate holes in the trunks of palm trees up to 1 metre (3.3 ft) long, thereby weakening and eventually killing the host plant. As a result, the weevil is considered a major pest in palm plantations, including the coconut palm, date palm and oil palm.Originally from tropical Asia, the red palm weevil has spread to Africa and Europe, reaching the Mediterranean in the 1980s. It was first recorded in Spain in 1994, and in France in 2006. Additional infestations have been located in Malta, Italy (Tuscany, Sicily, Campania, Sardinia, Lazio, Marche, Puglia and Liguria), Croatia and Montenegro. It is also well established throughout most of Portugal, especially in the South. It also has established in Morocco, Tunisia, and other North African countries. The weevil was first reported in the Americas on Curaçao in January 2009 and sighted the same year in Aruba. It was reported in the United States at Laguna Beach, California late in 2010 but this was a misidentification of the closely related species, Rhynchophorus vulneratus, and it did not become established.Larvae of Rhynchophorus ferrugineus are considered a delicacy in Southeast Asian cuisine. In some regions, however, larvae farming is strictly prohibited to prevent the potential devastation of plantation crops.
+
+
+== Taxonomy ==
+Primarily due to the existence of numerous color forms across their ranges, the taxonomy and classification of red palm weevils has undergone a number of changes in understanding and circumscription. As such, the information in the literature should be viewed as a compilation of data which may apply to both species, depending primarily upon the biogeography; accordingly, the vast majority of publications presumably do refer to R. ferrugineus rather than vulneratus, as the former is by far the most widely invasive. The most recent genus-level revision in 1966 recognized two species of red palm weevil, ferrugineus and vulneratus, and for decades these were interpreted as separate taxa. A genetic study in 2004 concluded that vulneratus was not distinct from ferrugineus, and treated them as synonyms, a view that was accepted until 2013, when yet another genetic study came to the opposite conclusion, based on more comprehensive geographic sampling. Accordingly, the "red palm weevil" species that appeared in the US was vulneratus rather than ferrugineus, though the latter is the invading species in all of the other global introductions.
+
+
+== Distribution ==
+
+
+=== Range ===
+The native range of this species is considered to include Bangladesh, Cambodia, China, India, Japan, Laos, Pakistan, Philippines, Sri Lanka, Taiwan, and Vietnam; records from Indonesia, Malaysia, Myanmar, Singapore, and Thailand largely or exclusively refer to R. vulneratus. R. ferrugineus has now been reported and confirmed from Albania, Algeria, Aruba, Bahrain, Croatia, Curaçao, Cyprus, Egypt, France (incl. Corsica), Greece, Israel, Italy (incl. Sicily and Sardinia), Jordan, Kuwait, Libya, Malta, Monaco, Montenegro, Morocco, Oman, Palestine, Portugal (incl. Madeira), Qatar, Saudi Arabia, Slovenia, Spain (incl. the Balearic and Canary islands), Syria, Tunisia, Turkey, and United Arab Emirates. Records from Australia, Papua New Guinea, Samoa, the Solomon Islands, and Vanuatu have not been confirmed and are likely to be specimens of Rhynchophorus bilineatus, a closely related species indigenous to the region.
+
+
+==== CABI ISC range list ====
+
+
+===== Africa =====
+absent from Algeria
+Djibouti
+Egypt
+Libya
+Mauritania
+Morocco
+Tunisia
+
+
+===== Asia =====
+Bahrain
+Bangladesh
+Cambodia
+China since 1997, first detection in GuangdongFujian
+Guangdong since 1997
+Guangxi
+Hainan
+Jiangsu
+Tibet
+Yunnan
+Zhejiang
+Georgia
+Hong Kong
+India
+Andaman and Nicobar Islands
+Andhra Pradesh
+Assam
+Bihar
+Daman and Diu
+Goa
+Gujarat
+Karnataka
+Kerala
+Maharashtra
+Meghalaya
+Odisha
+Tamil Nadu
+Tripura
+Uttar Pradesh
+West Bengal
+absent from Indonesia
+Iran
+Iraq
+Israel
+Japan
+Honshu
+Kyushu
+Ryukyu Islands
+Jordan
+Kuwait
+Lebanon
+Laos
+absent from Malaysia
+Myanmar
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+absent from Singapore
+Sri Lanka
+Syria
+Taiwan
+Thailand
+Turkey
+United Arab Emirates
+Vietnam
+Yemen
+Socotra
+
+
+===== Europe =====
+Albania
+absent from Austria
+absent from Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+absent from Denmark
+absent from Finland
+France
+Corsica
+Greece
+Crete
+Italy
+Sardinia
+Sicily
+Malta
+Montenegro
+absent from the Netherlands
+absent from Poland
+Portugal
+Madeira
+Russia
+Southern Russia
+eradicated from Slovenia
+Spain
+Balearic Islands
+eradicated from the Canary Islands
+absent from Ukraine
+absent from the United Kingdom
+absent from England
+
+
+===== North America =====
+Aruba
+Curaçao
+Netherlands Antilles
+eradicated from the United States
+eradicated from California
+
+
+===== Oceania =====
+Australia unassessed
+absent from New South Wales
+absent from the Northern Territory
+Queensland unassessed
+absent from South Australia
+absent from Tasmania
+absent from Victoria
+absent from Western Australia
+absent from Papua New Guinea
+Samoa unassessed
+Solomon Islands unassessed
+Vanuatu unassessed
+
+
+=== Hosts ===
+This species of red palm weevil is reported to attack 19 palm species and is the worst such pest in the world. Although the weevil was first reported on coconut in Southeast Asia, it has gained a foothold on date palm over the last two decades in several Middle Eastern countries, and then expanded its range to Africa and Europe. This expansion has been due to the movement of infested planting material from contaminated to uninfected areas. In the Mediterranean region, the red palm weevil also severely damages Phoenix canariensis. Currently, the pest is reported in almost 15% of the global coconut-growing countries and in nearly 50% of the date palm-growing countries.The list of known hosts includes: Areca catechu, Arenga pinnata, Borassus flabellifer, Caryota maxima, C. cumingii, Cocos nucifera (coconut palm), Corypha gebanga, C. elata, Elaeis guineensis, Livistona decipiens, Metroxylon sagu, Oreodoxa regia, Phoenix canariensis, P. dactylifera (date palm), P. sylvestris, Sabal umbraculifera, Trachycarpus fortunei, Washingtonia spp. Lab studies have reared the insect on diets of Agave americana and Saccharum officinarum, but these findings have not been observed in the wild. There is evidence that the weevil prefers the 'Sukkary' cultivar of date palm to other cultivars.The palm species Washingtonia filifera and Chamaerops humilis may be resistant to the red palm weevil.All known hosts of R. ferrugineus as compiled from sources by CABI ISC are: Agave americana, Areca catechu, Arenga pinnata, Borassus flabellifer, Brahea armata, Brahea edulis, Butia capitata, Calamus merrillii, Caryota cumingii, Caryota maxima, Caryota urens, Chamaerops humilis, Cocos nucifera, Corypha umbraculifera, Corypha utan, Elaeis guineensis, Howea forsteriana, Jubaea chilensis, Livistona chinensis, Livistona decora, Metroxylon sagu, Phoenix canariensis, Phoenix dactylifera, Phoenix sylvestris, Roystonea regia, Sabal palmetto, Saccharum officinarum, Trachycarpus fortunei, Washingtonia filifera, Washingtonia robusta
+
+
+== Life cycle ==
+This weevil usually infests palms younger than twenty years. While the adult causes some damage through feeding, it is the burrowing of the larva into the heart of the palm that can cause the greatest mortality of trees. The adult female lays approximately two hundred eggs on new growth in the crown of the palm, at the base of young leaves, or in open lesions on the plant. The egg hatches into a white, legless larva. The larva will feed on the soft fibres and terminal buds, tunneling through the internal tissue of the tree for about a month. The larvae can occasionally grow to a length of 6 to 7 centimetres (2+1⁄2 to 3 in). At pupation, the larva will leave the tree and form a cocoon built of dry palm fibers in leaf litter at the base of the tree. The total life cycle takes about 7–10 weeks.
+
+
+=== Oviposition ===
+After fertilization, the adult female can lay between 300 and 500 eggs. They lay in holes they produced while searching for food, or take advantage of the cracks or wounds in a recently cut palm. At oviposition, females bend upward and the tarsi are anchored to the tissue with the spines of the third pair of legs to push the ovipositor into the tough palm tissue. After laying, the female protects and secures the eggs with a secretion that rapidly hardens around the eggs. On average, females produce 210 eggs per clutch, most of which hatch over a period of 3 days. The eggs are white, cylindrical, glossy, oval shaped, and measure 1 to 2.5 millimetres (3⁄64 to 3⁄32 in). The back of these eggs possess special 'gill cover' structures that provide the developing insect with oxygen.
+
+
+=== Larvae ===
+The neonate larvae are yellow-white, segmented, legless, and have a chitinous head capsule that is a darker brown than the rest of the body. They have powerful horizontal conical jaws which they use to burrow from the axils of the leaves to the crown, where they feed voraciously. Upon completion of larval development, the larva will sometimes emerge from the trunk of the tree, and build a pupal case of fiber extracted from the galleries inside the palm. The larva will then undergo metamorphosis into an adult. The larva will also weave a pupal case at the base of the palm fronds within the frond itself or at the centre of the base of the plant.
+
+
+=== Adult ===
+The adult insect is an excellent flier and is able to travel great distances. While they prefer to attack palms that are already infested or weakened by other stresses, they will colonize healthy palms.
+
+		
+		
+		
+
+
+== Predators, diseases, and parasites ==
+R. ferrugineus is predated by Chelisoches morio, infected by a cytoplasmic polyhedrosis virus and Metarhizium pingshaense, and parasitized by Heterorhabditis indicus, Hypoaspis spp., Praecocilenchus ferruginophorus, Scolia erratica, Steinernema carpocapsae, and Steinernema riobravis.
+
+
+== Behaviour ==
+
+The behaviour and bionomics of the red palm weevil have been investigated in the field. The biology and life history of the weevil have been investigated on five diets, including banana, sugarcane, squash fruit, apple, and palm crown. The rate of development showed great variation depending on the host used. Developmental time was shortest on palm crown, followed by banana, and then squash fruit and apple, and longest on sugarcane. Egg production was the highest on palm crown, being 338 ± 37.24 eggs/female followed by banana, squash fruit, and apple, and the lowest (117. ± 18.9 eggs/female) on sugarcane.Studies show that this insect is attracted by ethyl acetate, 2-methoxy.4.vinylphenol, gamma-nonanoic lactone, 4SSS-ferrugineol, 50H and 4me-9-5Kt.
+
+
+== Symptoms of infestation ==
+The infestation of the pest can result in yellowing and wilting of palms, that may lead to the death of the affected plant.
+The crown wilts first, and lower leaves will follow, due to damage to vascular tissue. Major symptoms such as crown loss or leaf wilt are usually only visible long after the palm has become infested. Secondary infections of opportunistic bacteria and fungi may occur within damaged tissues, accelerating decline. By the time these external symptoms are observed, the damage is usually sufficient to kill the tree, and the infestation may have been present for six months or longer. In high-density infestations, sounds of the larvae burrowing and chewing can be heard by placing one's ear to the trunk of the palm. Recent research has been conducted using electronic listening devices or dogs trained to recognize the scent of weevils or palm decay to detect infestations at low densities earlier in the process.
+
+		
+		
+		
+
+
+== Control ==
+The main control method is through the application of a systemic insecticide. Insecticide is usually applied through a funnel about 5 centimetres (2 in) above the infested area of the trunk. The red palm weevil can be monitored using pheromone lures and alternative forms of control use field sanitation and mass trapping with traps baited with pheromone and plant derived semiochemicals. New alternative technologies using semiochemicals and bioinsecticides are being developed to attract the weevils to a point source and kill them. Another management technique is to drench the base of palm fronds with the entomopathogenic fungus Metarhizium anisopliae, or Beauveria bassiana. An Italian company claims to have developed a microwave collar that can be used to sterilize individual trees. For early detection, bioacoustic analysis may be implemented by inserting a sensitive microphone into the tree and recording any produced sounds. These sounds are analyzed by digital signal processing and artificial intelligence to decide whether they are generated by palm weevils.
+
+
+== Prevention ==
+As the weevil prefers to lay its eggs in softer tissues, avoiding mechanical damage to plants can help to reduce infestation. Tarring wounds after pruning a plant of dead or old leaves can also reduce the probability of infestation. The movement of plant material such as husks, dead leaves, or untreated coir from infested to uninfested areas is not recommended.
+
+
+== Culinary uses ==
+The larval grub is considered a delicacy in Vietnam. In Vietnam, the larvae are usually eaten alive with fish sauce. Other methods of cooking include toasting and steaming. They are eaten with sticky rice and salad or cooked with porridge. The larvae are known in the Vietnamese language as đuông dừa ("coconut beetle-larva"). "Sago worms" reported from other countries (e.g., Malaysia, New Guinea) refer to different, related species of Rhynchophorus.
+
+
+== References ==
+
+Peng, Lu; Hou, Youming (2017). "13. Red Palm Weevil Rhynchophorus ferrugineus (Olivier)". Biological Invasions and Its Management in China. Dordrecht: Springer Netherlands. pp. 245–256. doi:10.1007/978-94-024-0948-2_13. ISBN 978-94-024-0946-8. S2CID 91164620.
+
+
+== Additional resources ==
+European Commission - Directorate-General for Health & Consumers (2011) The insect killing our palm trees. EU efforts to stop the Red Palm Weevil. ISBN 978-92-79-21268-0
+CISR: Red Palm Weevil Information
+Red Palm Weevil Home
+Red Palm Weevil Control & Tips
+Red Palm Weevil Research Chair, King Saud University, Riyadh
+Greek webpage dedicated to management
+USDA information page

@@ -1,0 +1,30 @@
+Galiella rufa, commonly known as the rubber cup, the rufous rubber cup, or the hairy rubber cup, is a species of fungus in the family Sarcosomataceae. The fungus produces cup-shaped fruit bodies that typically grow in clusters on branches and exposed portions of buried wood throughout eastern and Midwest North America and in Malaysia. The fruit bodies have the texture of tough, gelatinous rubber, and have a rough, blackish-brown, felt-like outer surface and a smooth reddish-brown inner surface. Although generally considered inedible by North American mushroom field guides, it is commonly consumed in Malaysia. The fungus produces several interesting natural products.
+
+
+== Taxonomy and naming ==
+The species was originally named Bulgaria rufa in 1832 by Lewis David de Schweinitz, based on material collected from Bethlehem, Pennsylvania. In 1913, Pier Andrea Saccardo transferred it to the genus Gloeocalyx as defined by George Edward Massee in 1901 (a genus now synonymous with Plectania) due to its hyaline (translucent) spores. Richard Korf made it the type species of his newly created Galiella in 1957, a genus that encompasses bulgarioid species (those with a morphology similar to those in Bulgaria) with spores that feature surface warts that are made of callose-pectic substances that stain with methyl blue dye.In 1906, Charles Horton Peck described the variety magna from material collected in North Elba, New York. Peck explained that the variety differed from the typical species in several ways: var. magna grew among fallen leaves under balsam fir trees, or among mosses on the ground, not on buried wood; it lacked a stem, and was instead broad and rounded underneath; its hymenium was more yellow-brown then the nominate variety; and, its spore were slightly longer.The specific epithet rufa means "rusty" or reddish-brown", and refers to the color of the hymenium. The species is commonly named the "rubber cup", the "rufous rubber cup", or the "hairy rubber cup". In Sabah, it is known as mata rusa (deer eyes), and in Sarawak, mata kerbau (buffalo eyes).
+
+
+== Description ==
+
+The fruit bodies of G. rufa are initially closed and roughly spherical to top-shaped, and resemble minute puffballs. They later open in the shape of a shallow cup, and reach diameters of 15–35 mm (0.6–1.4 in) wide. The cup margin is curved inwards and irregularly toothed; the teeth are a lighter color than the hymenium. The interior surface of the cup, which bears the spore-bearing surface (the hymenium) is reddish-brown to orange-brown. The exterior surface is blackish-brown, and covered with hairs that measure 7–8 μm long that give it a felt-like or hairy texture. The flesh of the fruit body lacks any distinctive taste or odor, and is grayish, translucent, gelatinous and rubbery. The fungus sometimes has a short stem that is up to 10 mm (0.4 in) long by 5 mm (0.2 in) wide, but it may be missing in some specimens. Dried fruit bodies become leathery and wrinkled.Although the fruit bodies are generally considered by North American field guides to be inedible, or of unknown edibility, in parts of Malaysia it is commonly eaten, and even "prized for its edibility".The spores are thin-walled, elliptical with narrowed ends, and covered with fine warts; they have dimensions of 10–22 by 8–10 μm. Both the spores and the asci (spore-bearing cells) are nonamyloid. The asci are narrow and typically 275–300 μm long. The paraphyses (sterile cells interspersed among the asci in the hymenium) are slender threadlike. Ultrastructural studies have demonstrated that the development of the spore wall in G. rufa is similar to the genus Discina (in the family Helvellaceae) and to the other Sarcosomataceae, especially Plectania nannfeldtii; both of these species have fine secondary wall spore ornaments.
+
+
+=== Similar species ===
+
+Galiella amurense is similar in appearance to G. rufa. It is found in north temperate Asia, where it grows on the rotting wood of Spruce trees. It has larger ascospores than G. rufa, typically 26–41 by 13–16 µm. Bulgaria inquinans is similar in shape and size, but has a shiny black hymenium. Sarcosoma globosum, another species found in eastern North American, is black, has a more liquid interior than G. rufa, and is larger—up to 100 mm (3.9 in) across. Wolfina aurantiopsis has a shallower, woodier fruit body with a yellowish inner surface.
+
+
+== Habitat and distribution ==
+Galiella rufa is a saprobic species, and can grow solitarily, but more usually in groups or in clusters on decaying hardwood branches and logs. The fungus fruits in late summer and autumn. The fungus has been noted to fruit readily on logs used for the cultivation of the shiitake mushroom. The fruit bodies are readily overlooked as they blend in with their surroundings.Galiella rufa is found in Midwest and eastern North America, and has been collected in areas between New York and Minnesota, Missouri and North Carolina. The species is also found in Malaysia.
+
+
+== Bioactive compounds ==
+Galiella rufa produces several structurally related hexaketide compounds that have attracted attention for their biological properties: pregaliellalactone, galiellalactone. The compounds have anti-nematodal activity, killing the nematodes Caenorhabditis elegans and Meloidogyne incognita. These compounds have been shown in laboratory tests to inhibit the early steps of the biosynthetic pathways induced by plant hormones known as gibberellic acids, and they also inhibit the germination of seeds of several plants. Galiellalactone is additionally a highly selective and potent inhibitor of interleukin-6 (IL-6) signaling in HepG2 cells. IL-6 is a multifunctional cytokine which is produced by a large variety of cells and functions as a regulator of immune response, acute phase reactions, and hematopoiesis. Researchers are interested in the potential of small-molecule inhibitors (such as the ones produced by G. rufa) to interfere with the IL-6 signaling cascade that leads to the expression of genes involved in disease.
+
+
+== References ==
+
+
+== External links ==
+Galiella rufa  in Index Fungorum

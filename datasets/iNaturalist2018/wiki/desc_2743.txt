@@ -1,0 +1,22 @@
+Botryllus schlosseri is a colonial ascidian tunicate.  It is commonly known as the star tunicate, but it also has several other common names, including star ascidian and golden star tunicate.  Colonies grow on slow-moving, submerged objects, plants, and animals in nearshore saltwater environments.
+
+
+== Description ==
+Individual zooids may grow to 3 millimetres (0.12 in) in size, with colonies reaching 50 millimetres (2.0 in) long .
+
+This species can be distinguished from Botrylloides sp. by the pattern of zooid growth. B. schlosseri zooids emanate from a center in the manner of the arms of a star. Also, there usually are fewer zooids per cluster (5–8 in B. schlosseri and 10 or more in Botrylloides). There are many colors in which this species can be found, ranging from orange, blue and grey. A colony can be easily be separated from the main body to form an independent colony usually referred to as a subclone. Two colonies may also fuse together if they share common alleles for historecognition.
+
+
+== Distribution ==
+The native range of Botryllus schlosseri is the north eastern Atlantic Ocean, the Mediterranean Sea and the North Sea. Its range has spread over the last 100 years to a nearly worldwide extent. Ranging in the western Atlantic Ocean from the Bay of Fundy to North Carolina, it is regarded as an invasive species and is "the most common colonial tunicate in North America."
+
+
+== Biology ==
+Botryllus schlosseri is used as a model organism. Clones have been maintained in continuous laboratory culture for several decades, with new adults developing from buds that form from the body wall of existing adults. Under typical culture conditions, asexual reproduction occurs on an approximately two week cycle, during which a new bud will grow and begin to actively feed, while the adult it emerged from regresses and is eventually re-absorbed.When sexually productive, these Botryllus are known to produce,"yellowish-white or pale orange tadpole larva" exhibiting an oval outline.Colonial tunicates are the only chordates that are able to reproduce both sexually and asexually.  B. schlosseri is a sequential (protogynous) hermaphrodite, and in a colony, eggs are ovulated about two days before the peak of sperm emission.  Thus self-fertilization is avoided, and cross-fertilization is favored.  Although avoided, self-fertilization is still possible in B. schlosseri.  Self-fertilized eggs develop with a substantially higher frequency of anomalies during cleavage than cross-fertilized eggs (23.1% vs. 1.6%).   Also a significantly lower percentage of larvae derived from self-fertilized eggs metamorphose (51.5% vs 87.2%), and the growth of the colonies derived from their metamorphosis is significantly slower.  These observations suggest that self-fertilization leads to inbreeding depression associated with developmental deficits likely arising from expression of deleterious recessive mutations.
+
+
+== Genome ==
+The genome has been sequenced. It is 580 megabases in length organised into 16 chromosomes. It contains nearly 14,000 intron containing predicted genes and 13,500 intron-less predicted genes. The data also confirmed that the Tunicata are the closest invertebrate relative of humans.
+
+
+== References ==

@@ -1,0 +1,51 @@
+Thermonectus marmoratus is a relatively colorful North American species of diving beetle known by the common names sunburst diving beetle and spotted diving beetle. The behavior of this diving beetle has been compared to a scuba diver, since it carries with it a bubble of air as it dives down into the water. The beetle has recently become notable when it was discovered that its aquatic larval stage is the first ever recorded use of bifocal technology in the animal world. The beetle uses in its principal eyes two retinas and two distinct focal planes that are substantially separated, in the manner of bifocals to switch their vision from up-close to distance, for easy and efficient capture of their prey.
+Because of their bright colors, they are often displayed in zoos, sometimes together with Abedus herberti (also found together in the wild) and other aquatic beetles.
+
+
+== Physical description ==
+
+The adult beetle has a length of 0.8–1.5 cm (0.31–0.59 in), with females slightly larger than males. The sunburst diving beetle has a black and streamlined carapace covered with bright yellow or golden spots. The male has a suction disk on each foreleg.
+
+
+== Diet ==
+Sunburst diving beetles are predators and scavengers of small animals, especially invertebrates such as other aquatic insects and snails, but also small vertebrates such as young fish and tadpoles. If available, they prefer to feed on small, already dead soft-bodied animals. These beetles are useful because they eat mosquito larvae and pupae. They have also been observed swarming a prey item and feeding en masse. In captivity, these beetles will feed on flake fish food and live crickets.
+
+
+== Behavior ==
+
+
+=== Swimming ===
+Sunburst diving beetles live in water and swim well. The diving beetle swims by thrusting its hind legs simultaneously, and can remain underwater for extended periods of time by storing an air bubble beneath its wings. They inhabit various slow-moving freshwater habitats, especially shallow, temporary or intermittent pools and creeks (arroyos) with little or no aquatic vegetation. When their water source dries up they will fly to a new one.
+
+
+=== Protection ===
+The sunburst diving beetle's distinctive yellow spots also serve as a warning sign to predators that the insect can release a foul tasting chemical. The milky appearing chemical is ejected from specialized glands found behind the insect's head, and has been found to be made primarily out of the steroid hormones cybisterone and mirasorvone. It has been further hypothesized that mirasorvone functions as a fish deterrent.
+
+
+== Distribution ==
+Sunburst diving beetles are found in extreme Southern California (mainly Peninsular Ranges), southern Utah, Arizona, New Mexico, Texas (where first recorded in 1996), and Mexico.
+
+
+== Development ==
+
+
+=== Early development ===
+Eggs that are laid by the mother are initially 3.5 to 4 mm in length and lack pigmentation or any special features – causing them to be white and opaque. As the embryo develops, it begins to appear more translucent. Around a third of the way into development, the eyes become externally visible, however, the head region will only become discernible nearly halfway into development.  The larvae of the organism have legs, a soft body, antennae, and are aquatic - preying primarily on mosquito larvae and other aquatic animals. The beetles pupate on land, and can develop from an egg to an adult in 28 days.
+
+
+== Visual system ==
+
+
+=== Multiple retinas ===
+Scientists have discovered the larval visual system of Thermonectus marmoratus have incredibly complex eyes that resemble a camera's bifocal capabilities. The beetle has a total of 12 eyes (six eyes on either side of its head), but a total of twenty eight retinas. Early in the organism's development, there are many conserved functions and cell lineages between the diving beetle and other insect species such as the fly (Drosophila). However, there are also some stark differences, including larger numbers of cells which will form the two retinas per eye, as well as a large scale reorganization of the eye tissues. This is especially observed with the migration of photoreceptors in later stages of development. The eyes are also not attached to any muscles, which restricts them from moving. Instead, the beetle scans its visual field by moving its head from side to side. The larvae eyes are mapped to six distinct neuropils (clusters of interwoven nerves) that function as the optic lobe. As the beetle reaches adulthood – these neurophils degenerate and are replaced with a mature optic lobe. Adult beetles develop compound eyes, similar to many other insects.
+
+
+=== Eye patch ===
+Along with the six eyes on either side of the head, larvae also have an eye patch. This eye patch does not have a lens, but is composed of retinal tissue. Scientists theorize that this functions in filling the gap in vision at the top of the head, and can alert the beetle larvae of a change in light – which may be indicative of an overhead predator.
+
+
+=== Bifocal lens ===
+The diving beetle has a unique bifocal lens which is asymmetric. The protein makeup of the middle of the lens is different from that along the edges. Scientists have found that this disparity in the lens goes hand-in-hand with the multiple retinas in each eye. The bifocal asymmetric lens allows for two images to be formed within the eye – each focusing on one of the retinas. The unfocused image is also shifted due to the asymmetry – causing only the focused image to be displayed on one retina – further enhancing resolution.
+
+
+== References ==

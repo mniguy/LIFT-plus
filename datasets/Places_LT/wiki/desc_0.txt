@@ -1,0 +1,62 @@
+An aerodrome (Commonwealth English) or airdrome (American English) is a location from which aircraft flight operations take place, regardless of whether they involve air cargo, passengers, or neither, and regardless of whether it is for public or private use. Aerodromes include small general aviation airfields, large commercial airports, and military air bases.
+The term airport may imply a certain stature (having satisfied certain certification criteria or regulatory requirements) that not all aerodromes may have achieved. That means that all airports are aerodromes, but not all aerodromes are airports. Usage of the term "aerodrome" remains more common in Ireland and Commonwealth nations, and is conversely almost unknown in American English, where the term "airport" is  applied almost exclusively.
+A water aerodrome is an area of open water used regularly by seaplanes, floatplanes or amphibious aircraft for landing and taking off.
+In formal terminology, as defined by the International Civil Aviation Organization (ICAO), an aerodrome is "a defined area on land or water (including any buildings, installations, and equipment) intended to be used either wholly or in part for the arrival, departure, and surface movement of aircraft."
+
+
+== Etymology ==
+The word aerodrome derives from Ancient Greek ἀήρ (aḗr), air, and δρόμος (drómos), road or course, literally meaning air course. An ancient linguistic parallel is hippodrome (a stadium for horse racing and chariot racing), derived from ἵππος (híppos), horse, and δρόμος (drómos), course. A modern linguistic parallel is velodrome, an arena for velocipedes. Αεροδρόμιο is the word for airport in Modern Greek, which transliterates as aerodromio.
+In British military usage, the Royal Flying Corps in the First World War, and the Royal Air Force in the First and Second World Wars, used the term—it had the advantage that their French allies, on whose soil they were often based, and with whom they co-operated, used the cognate term aérodrome.
+In Canada and Australia, aerodrome is a legal term of art for any area of land or water used for aircraft operation, regardless of facilities.
+International Civil Aviation Organization (ICAO) documents use the term aerodrome, for example, in the Annex to the ICAO Convention about aerodromes, their physical characteristics, and their operation. However, the terms airfield or airport mostly superseded use of aerodrome after the Second World War, in colloquial language.
+
+
+== History ==
+In the early days of aviation, when there were no paved runways and all landing fields were grass, a typical airfield might permit takeoffs and landings in only a couple of directions, much like today's airports, whereas an aerodrome was distinguished, by virtue of its much greater size, by its ability to handle landings and takeoffs in any direction. The ability to always take off and land directly into the wind, regardless of the wind's direction, was an important advantage in the earliest days of aviation when an airplane's performance in a crosswind takeoff or landing might be poor or even dangerous. The development of differential braking in aircraft, improved aircraft performance, utilization of paved runways, and the fact that a circular aerodrome required much more space than did the "L" or triangle shaped airfield, eventually made the early aerodromes obsolete.
+The unimproved airfield remains a phenomenon in military aspects. The DHC-4 Caribou served in the United States military in Vietnam (designated as the CV-2), landing on rough, unimproved airfields where the C-130 Hercules workhorse could not operate. Earlier, the Ju 52 and Fieseler Storch could do the same, one example of the latter taking off from the Führerbunker whilst completely surrounded by Russian troops.
+
+
+== Types ==
+
+
+=== Airport ===
+
+In colloquial use in certain environments, the terms airport and aerodrome are often interchanged. However, in general, the term airport may imply or confer a certain stature upon the aviation facility that other aerodromes may not have achieved. In some jurisdictions, airport is a legal term of art reserved exclusively for those aerodromes certified or licensed as airports by the relevant national aviation authority after meeting specified certification criteria or regulatory requirements.
+
+
+=== Air base ===
+
+An air base is an aerodrome with significant facilities to support aircraft and crew. The term is usually reserved for military bases, but also applies to civil seaplane bases.
+
+
+=== Airstrip ===
+
+An airstrip is a small aerodrome that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during Second World War. A few airstrips grew to become full-fledged airbases as strategic or economic importance of a region increased over time.
+An Advanced Landing Ground (ALG) was a temporary airstrip used by the Allies in the run-up to and during the invasion of Normandy, and these were built both in Britain, and on the continent.
+
+
+=== Water aerodrome ===
+
+A water aerodrome or seaplane base is an area of open water used regularly by seaplanes, floatplanes and amphibious aircraft for landing and taking off. It may (for example Yellowknife Water Aerodrome) have a terminal building on land and/or a place where the plane can come to shore and dock like a boat to load and unload. Some are co-located with a land based airport and are certified airports in their own right. These include Vancouver International Water Airport and Vancouver International Airport. Others, such as Vancouver Harbour Flight Centre have their own control tower, Vancouver Harbour Control Tower.
+
+
+== By country ==
+
+
+=== Canada ===
+The Canadian Aeronautical Information Manual (AIM) says "...for the most part, all of Canada can be an aerodrome", however there are also "registered aerodromes" and "certified airports".  To become a registered aerodrome the operator must maintain certain standards and keep the Minister of Transport informed of any changes.  To be certified as an airport the aerodrome, which usually supports commercial operations, must meet safety standards.  Nav Canada, the private company responsible for air traffic control services in Canada, publishes the Canada Flight Supplement (CFS), a directory of all registered Canadian land aerodromes, as well as the Canada Water Aerodrome Supplement (CWAS).
+
+
+=== Republic of Ireland ===
+Casement Aerodrome is the main military airport used by the Irish Air Corps. The term "aerodrome" is used for airports and airfields of lesser importance in Ireland, such as those at Abbeyshrule; Bantry; Birr; Inisheer; Inishmaan; Inishmore; Newcastle, County Wicklow; and Trim.
+
+
+== See also ==
+
+Spaceport
+
+
+== References ==
+
+
+== External links ==

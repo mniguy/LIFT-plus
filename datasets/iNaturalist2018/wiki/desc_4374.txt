@@ -1,0 +1,101 @@
+Anolis cristatellus is a small species of anole, belonging to the Dactyloidae family of reptiles, which is native to Puerto Rico and the U.S. and British Virgin Islands, with introduced populations in locations around the Caribbean. The males of A. cristatellus are easily recognizable by the fin running down the top of the tail, which is known as a "caudal crest". The females also have these crests, but these are smaller than those of the males. It is often quite common in many areas on Puerto Rico, where it can be seen during the day passing the time on the lower parts of tree trunks, or on fences and the walls of buildings in urban areas, sometimes venturing down onto the ground in order to lay eggs, have a snack, or do other cursorial activities. Like many anoles, this species displays the characteristic behaviour of doing push-ups as well as inflating a pizza-like flap of coloured skin on their throat, known as a dewlap, in order to show others how hip they are, and thus attract mates or intimidate rivals. The species is known locally as the lagartijo común, and in English it is sometimes called either the crested anole, the common Puerto Rican anole, or the Puerto Rican crested anole. There are two allopatric subspecies found in different geographical areas, with slightly different coloured dewlaps and crests.
+
+
+== Taxonomy ==
+This species was first scientifically described by André Marie Constant Duméril and Gabriel Bibron in 1837 using a number of specimens sent to Paris by Auguste Plée from Martinique. They also had an additional specimen supposedly from French Guiana, although these two authors doubted the veracity of this provenance, and a further female specimen found in the collection of the Musée National d'Histoire Naturelle, labelled by Nicolaus Michael Oppel as Anolis porphyreus, apparently a nomen nudum. Georges Cuvier had first examined the specimens sent by Plée, and dubbed the lizard le petit Anolis a crête in the second tome of his massive work, Le Règne Animal, a few years before, stating that the taxon Anders Sparrman had called Lacerta bimaculata was a synonym of this species. Duméril and Bibron were not in agreement with this observation, however, and described Sparrman's lizard as A. leachii.For the next century and a half the taxonomy remained stable and uncontroversial, until Craig Guyer and Jay M. Savage attempted to split the very large genus Anolis in 1986 based on skeletal, immunology and karyological datasets used together in a type of cladistics method called "successive weighted characters", thus moving most species into a new very large genus called Norops. Following Guyer and Savage, Albert Schwartz and Robert W. Henderson reclassified this species as Ctenonotus cristatellus in 1988. Because this splitting caused the new remaining genera to be paraphyletic, most herpetologists chose not to follow this taxonomic interpretation, and within a decade this new nomenclature was seen as a synonym. In 2012 the same authors, together with Kirsten Nicholson and Brian Crother, again tried moving the species to their new genus, this time using more molecular data in their cladistics analysis, but did so less than convincingly. They gave it another go in 2018.
+
+
+=== Subspecies ===
+As of 2020 there are two subspecies recognised:
+
+Anolis cristatellus cristatellus – Puerto Rico, including some off-shore islands; introduced elsewhere.
+Anolis cristatellus wileyae Grant, 1931 – Culebra and Vieques islands east of Puerto Rico and the U.S. and British Virgin Islands.In 1975 the authors Schwartz and Richard Thomas reported A. cristatellus cristatellus to be the subspecies present on many of the islands east of Puerto Rico, this was corrected by Heatwole in 1976 who classified these populations as A. cristatellus wileyae. "Hybrids" between the two subspecies were first found on the main island of Puerto Rico and Isleta Marina in the late 1970s and reported by Heatwole et al. in 1981 (this islet is now covered in giant apartment buildings), but by 1988 it appeared that many of the populations occurring on the islands in between the two taxa were intermediate between the two taxa. Schwartz and Henderson recorded such intermediate populations on the islands of Cayo Icacos, Cayo la Llave, Cayo Palominitos (offshore of Isla Palominos) and Isla Pineros. A larger island in this area, Culebra, may also have somewhat intermediate specimens.
+
+
+=== Type ===
+The syntypes for the nominate form, MNHN2353 and MNHN2447, are housed at the Musée National d'Histoire Naturelle. It was stated by Duméril and Bibron in 1837 to have been sent from Martinique, but the species does not occur on this island. The Reptile Database, however, records a holotype, MCZ8306 (also catalogued as MCZ2171), being kept at the Museum of Comparative Zoology.The subspecies wileyae has a holotype, UMMZ73648, kept at the University of Michigan Museum of Natural History along with a number of paratypes; although according to Schwartz and Henderson in 1991 the holotype is MCZ34792.
+
+
+== Common names ==
+In its native Puerto Rico the vernacular names lagartijo común or common anole are used. Another Spanish name is lagartija crestada.Other common names which have been recorded are the crested anole, which is often used in the Virgin Islands, and the common Puerto Rican anole, the Puerto Rican crested anole, which is 'recommended' by some people, or the somewhat incorrect chameleon.
+
+
+== Description ==
+Compared to many other anoles, it is a stocky, muscular and aggressive, although it is a small (compared to Central American anoles) to moderately-sized species (compared to insular Caribbean anoles). Measurements in 2015 found the animals to have a snout-vent length (SVL) which can reach to 75 mm (3.0 in) in males, and up to 73 mm (2.9 in) in females, although most females are much smaller.It is sexually dimorphic, with the males being prettier than the females. The juvenile lizards are also coloured differently than adults. The males of this species are easily recognizable by their permanently erect caudal crests -which is a high sail- or fin-like structure running down the top of their tails, which is supported anatomically by bony extensions of the vertebrae. The crest is very short along the animals back, and gets higher again on the nape of the neck. The tail is compressed in cross-section.The colour is variable; the head and body are bronze to greenish grey, with faint and irregular brownish spots, and the belly is greenish-yellow and the throat is whitish. The iris is dark brown. The male dewlaps is coloured mustard or greenish yellow, with a burnt-orange, reddish-orange to reddish-coloured band along the margin. Females have a well developed but smaller dewlap and a low caudal crest. The juveniles are transversely banded in brown, with some purplish-brown dots on the throat and the crotch (when preserved), and often have a light mid-dorsal stripe, which some females retain into adulthood.It can change its colour significantly from a very light grey to reddish-brown and dark black, and can shift colour in reaction to its behavioural state. They are thus often referred to as 'chameleons' in many places because of their ability to change colour, but they are not related to true chameleons.
+
+
+=== Similar species ===
+Many other anoles also have a crest on their tails, but this is one of the few species in which it is always erect, and where the tail is compressed. The pattern of the scales are also diagnostic, as shown by Schwartz and Henderson in 1991.
+
+
+== Distribution ==
+
+
+=== Anolis cristatellus cristatellus ===
+
+
+==== Native ====
+The nominate subspecies is native to and found throughout Puerto Rico, including some smaller and associated off-shore islands. It does not occur on Isla Mona, nor is it found at the highest elevations.In Puerto Rico it can be seen with regularity in the cities of San Juan, Mayagüez, Ponce and Arecibo, as well as in nature parks. It is found on the associated off-shore islands of Caja de Muertos, Cayo Algodones, Cayo Batata, Cayo Ratones (?, near Jobos), Cayo Santiago, Isla Cardona, Isla de Cabras, Isla de Ramos, Isla Magueyes, Long Island (?), Morrillito and Punta Salinas Beach.Schwartz (1988) and Heatwole (1981) disagree regarding on how the population on Isleta Marina should be classified. Note there is some confusion with Marina Cay in the British Virgin Islands.
+In 1939 Hobart Muir Smith described Anolis cozumelae as a likely endemic from the island of Cozumel off the eastern coast of the Yucatán Peninsula of Mexico, from a single specimen collected by Charles Frederick Millspaugh in 1899, which had been sitting in a flask of preservative in the Field Museum of Natural History until examined by Smith. This taxon was later seen as a synonym of A. cristatellus cristatellus which was then believed to be introduced to the island. However, as of 2017 Mexican herpetologists think all this is spurious, as the species does not occur in the Yucatán. It has also erroneously been ascribed as occurring in Brazil and Martinique.
+
+
+==== Introduced ====
+It has been introduced to Costa Rica, Trinidad, eastern Hispaniola (in the Dominican Republic since the 1910s) and southern Florida. It has most recently been introduced somehow to the Dutch part of the island of Sint Maarten, where it was first reported in 2009 as introduced in 2008 and is only found on the tiny Little Key islet in Simpson Bay Lagoon. Many of these introduced populations are still spreading, although it is not considered invasive anywhere.The population in Costa Rica was introduced by at least 1970, and was still in the process of expanding as of 2011; it is found on the eastern Caribbean coast, from as far south as Bribri near the Panamanian border, west to Siquirres, and north to Turrialba. It is known from a number of localities in Limón Province and one in Cartago Province.In southern Florida it has been documented west up to the Tampa Bay area and occurs on Key Biscayne, Dade County and in Miami. It was introduced sometime in the 1970s.It was first reported on the island of Dominica in 2003, thought to have been introduced around 2000, or between 1997 and 2002, and as of 2007 has established itself throughout the environs of the main city of Roseau. It is believed to have entered the island via imported goods, as its sites of original invasion are adjacent to a cargo airport and a sea port.
+
+
+=== Anolis cristatellus wileyae ===
+This subspecies is found on islands off the eastern coast of Puerto Rico, such as Culebra, Culebrita and Vieques, and also on the U.S. and British Virgin Islands. It is widespread on the British Virgin Islands and present on all the major islands and most cays, including Anegada, Beef Island, Fallen Jerusalem Island, Frenchman's Cay, Great Dog Island, Guana Island, Jost van Dyke, Little Thatch, Necker Island, Norman Island Peter Island, Prickly Pear Island, Tortola, Virgin Gorda and West Dog Island. In the U.S. Virgin Islands it occurs on Flanagan Island and Skipper Jacob Rock. This form is not spreading throughout the Caribbean like the other subspecies.One might question how such a lizard could be present on such a vast number of otherwise small and isolated islets, however, the modern distribution likely does not reflect an exceptional colonising ability of this species to sally forth over marine distances, or that Arawak peoples somehow spread these creatures over the various cays. Instead, what is now a collection of islands was previously connected, only eight to ten millennia ago, in a much larger island stretching from Puerto Rico to Anegada, and since the Eemian era remained such a large island throughout the last ice age. This is an example of vicariant distribution as opposed to overwater dispersal; the modern distribution consists of relict populations reflecting the former geography.
+
+
+== Ecology ==
+
+
+=== Habitat ===
+This anole is found in almost all habitats throughout Puerto Rico and the Virgin Islands, from open fields to rainforest, except some of the high altitude elfin forests in the mountainous regions of Puerto Rico. The species is found from sea level upwards, decreasing in abundance at higher elevations, with the animals having been found at maximum altitudes 
+of 2,800 ft (850 m) in the Reserva Forestal de Maricao as of 1988, and later 980 m (3,220 ft) in the Los Tres Picachos State Forest (2000).The introduced population in Costa Rica appears to prefer urban habitats, being mostly found on tree trunks or buildings in towns or cities, and rarely in more rural areas or in forests, and population on Dominica appears to have similar preferences. In general, introduced populations appear to strongly prefer, or be restricted to, urban and other disturbed areas. Anoles of this species found in the urban habitats of the cities of Puerto Rico are found to have lost and regrown their tails more often than those of the natural forests, this may be due to a higher density of urban predators such as house cats, or less places to escape predators, or might indicate urban predators are less accomplished at actually catching their prey. In some parks, such as Los Tres Picachos State Forest, it may be less common than species such as A. cuvieri, A. evermanni, A. gundlachi and A. stratulus.These lizards are "ground-trunk anoles", which is an "Anolis ecomorph", and means that they spend the majority of their time on the bottom two meters of tree trunks, but will go to the ground to forage and also to lay eggs.
+
+
+=== Behaviour ===
+It is oviparous (egg-laying). The lizards shed their skin as they grow, and eat their old skins when they do so, perhaps to conserve the nutrients. Compared to some other species of anoles, this species is not so vocal, although it can make some chirping sounds. As a defence against predators, they can autotomize (break off) their tails, and later grow a new replacement tail which gets longer each time they shed their skin. These new tails do not have the bony vertebrae of the original, and instead only have a rod of cartilage. This growth of cartilage does not have the ability to autotomise, so in order to do the same trick again, an individual lizard must loose more and more of its tail vertebrae. Because the regrown tails of urban lizards contain on average a similar amount of vertebrae as those of the forests, this indicates that individual lizards loose their tail just as often in either habitat.When looking for a mate or defending its territory, the males of many anole species may display their dewlap and perform "push-ups" to establish dominance. Males of many species may aggressively defend territories when mating, but only rarely does this result in physical combat. Like many anole species, this lizard can change colour from dark brown to tan -this is in response to emotions, rather than a method of camouflaging itself such as true chameleons.
+
+
+=== Diet ===
+In Puerto Rico this species has been photographed trying to gobble up quite large prey, such as the blindsnake Typhlops hypomethes, as well as other anoles, such as a juvenile A. krugi.
+
+
+=== Interactions with other species ===
+
+In some regions, such as El Yunque National Forest, A. cristatellus occurs together with up to seven other species of anole which are able to occur sympatrically with it because each species occupies a different ecological niche. In the Los Tres Picachos State Forest it occurs together with A. cuvieri, A. evermanni, A. gundlachi, A. krugi, A. occultus, A. pulchellus and A. stratulus. Besides A. pulchellus, these other seven anoles often occur together throughout Puerto Rico. It occurs together with A. cooki in Guánica State Forest, although it competes ecologically with this rare species.
+
+
+==== Predators ====
+Henderson and Robert Powell (2009) record that this species may be eaten by another anole, A. cuvieri, as well as the non-native mongoose, Herpestes javanicus and the bird Margarops fuscatus, a thrasher. In a 2008 study of the reptilian components of the diets of Caribbean birds, Powell and Henderson record the birds of prey Buteo jamaicensis and Falco sparverius feeding on this anole. Rios-Lopez et al. recorded in 2015 that the Puerto Rican endemic bird Todus mexicanus, a species of tody known locally as San Pedrito, eats this lizard.
+
+
+==== Parasites ====
+As parasites Goldberg et al. (1998) recorded the digenea flatworm Mesocoelium monas and the tapeworm Oochoristica maccoyi. These, and other later, researchers have also recorded the pinworm Parapharyngodon cubensis, which inhabits the large intestine. Henderson and Powell (2009) record the Acanthocephalan worm of the Plagiorhynchidae family, Lueheia inscripta. These are all larger-sized generalist parasites which can infect numerous more or less related hosts.
+In its native Puerto Rico, individuals of this species may sometimes contract a type of anole malaria, Plasmodium azurophilum, a unicellular eukaryotic parasite that infects both the white and red blood cells of its victims, and which is thought to be contracted from infected mosquitoes. The disease commonly afflicts another anole species which occurs in the same forests, A. gundlachi, with usually around 30% of that species being infected as opposed to under 1% for A. cristatellus.
+
+
+== Relationship to humans ==
+They are sold globally in the pet trade.
+
+
+== Conservation ==
+This is an extremely common species in Puerto Rico, and it is believed that it has likely become more common over the last few centuries as humans have converted much more of the island to the type of habitat that this species prefers.According to Malhotra et al. in 2007 its introduction to the island of Dominica threatens Anolis oculatus, an anole endemic to the island, because within a few years of being introduced it had begun to supplant A. oculatus in the dry and urban southwestern coastal area in the surrounds of the capital Roseau. Within this area the Dominican anole had become absent or rare, but it was thought that A. cristatellus might not spread into, or become so dominant, in the moist forests or mountainous areas in the rural areas elsewhere on the island. Elsewhere there is no recorded evidence of damaging effects on other Anolis species or native ecosystems.The IUCN has not evaluated this species' conservation status.It has been recorded as present in the following protected areas:
+
+Reserva Natural Caja de Muertos, Ponce, Puerto Rico, USA.
+Guánica State Forest, Puerto Rico, USA.
+Los Tres Picachos State Forest, Puerto Rico, USA.
+Luquillo Experimental Forest within El Yunque National Forest, Puerto Rico, USA.
+Reserva Forestal de Maricao, Puerto Rico, USA.
+Virgin Islands National Park, Saint John, United States Virgin Islands, USA.
+
+
+== See also ==
+List of amphibians and reptiles of Puerto Rico
+List of endemic fauna of Puerto Rico
+List of Anolis lizards
+
+
+== References ==

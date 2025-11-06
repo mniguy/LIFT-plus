@@ -1,0 +1,87 @@
+Heliconius charithonia, the zebra longwing or zebra heliconian, is a species of butterfly belonging to the subfamily Heliconiinae of the family Nymphalidae. It was first described by Carl Linnaeus in his 1767 12th edition of Systema Naturae. The boldly striped black and white wing pattern is aposematic, warning off predators.
+The species is distributed across South and Central America and as far north as southern Texas and peninsular Florida; there are migrations north into other American states in the warmer months.
+Zebra longwing adults roost communally at night in groups of up to 60 adults for safety from predators. The adult butterflies are unusual in feeding on pollen as well as on nectar; the pollen enables them to synthesize cyanogenic glycosides that make their bodies toxic to potential predators. Caterpillars feed on various species of passionflower, evading the plants' defensive trichomes by biting them off or laying silk mats over them.
+Mass spraying of naled has decimated the zebra longwing population in Miami-Dade County, Florida. There has been mass collapse of the colonies with impacts on the balance of the ecosystem. Further studies are needed to evaluate any potential for recolonization.
+
+
+== Description ==
+The caterpillars are white with black spots and have numerous black spikes along their body. Adult butterflies are monomorphic of medium size with long wings. On the dorsal side, the wings are black with narrow white and yellow stripes, with a similar pattern on the ventral side, but paler and with red spots. The wingspan ranges from 72 to 100 mm.
+
+
+== Distribution and habitat ==
+H. charithonia is found in South America, Central America, the West Indies, Mexico, south Texas and peninsular Florida. Adults sometimes migrate north to New Mexico, South Carolina, and Nebraska during the warmer months. The geographic distribution of H. charithonia overlaps with the ranges of other butterflies which sometimes leads to conflict. For example, the ranges of H. charithonia and the gulf fritillary overlap; in some cases, gulf fritillaries can sometimes be subjected to competition and fighting from Heliconius charithonia vazquezae when those species have breeding populations in similar areas and within the same geographic range. It was declared the official butterfly for the state of Florida in the United States in 1996. The species frequents tropical hammocks, moist forests, edges, or fields.
+
+
+== Subspecies ==
+H. c. charithonia, Ecuador
+H. c. simulator, Jamaica
+H. c. bassleri, Colombia
+H. c. churchi, Hispaniola
+H. c. tuckeri, Florida
+H. c. vazquezae, Mexico to Panama
+H. c. ramsdeni, Cuba
+H. c. antiquus, St. Kitts, Antigua
+		
+		
+		
+
+
+== Behavior ==
+
+
+=== Migration ===
+Although H. charithonia is to some extent static, maintaining a home range, adults do move between territories. Butterflies with Mexican origins migrate north into Texas, following the retracting temperature gradient. Rainfall has no effect on migration patterns. Arrival dates and duration of stay depend on the distance traveled: the longer the distance traveled, the shorter the duration of stay.
+
+
+=== Roosting to deter predators ===
+Adults roost in groups of up to 60 individuals on a nightly basis, returning to the same roost every night. These roosts provide protection to adults, the large groups deterring predators and retaining warmth. Solitary individuals, or very small roosts, avoid exhibiting proper warning signals so as not to attract predators. Pre-roosting interactions, which consist of sitting near one another, chasing each other briefly while fluttering, or basking, occur between butterflies from separate roosts, indicating that the butterflies are aware of other roosts in their home range. Despite this, the zebra longwing chooses to form smaller aggregations. The optimal roost size for predator deterrence is five individuals; roost size is also influenced by resource availability and foraging. H. charithonia roosts to display collective aposematism, deterring predators by conspicuously advertising their unpalatable taste.
+
+
+=== Conspecific recognition ===
+H. charithonia adults form communal roosts nightly. Communal roosting occurs when individuals aggregate at a particular site for more than a few hours. Roosting begins as early as three hours before sunset and usually ends within two hours after sunrise. Since roosting is at night, adults need to be able to see at low light levels to locate roost sites, either when looking for twigs, tendrils, and dry leaves to land on to start a roost, or when searching for conspecifics that are already roosting. Their eyes also help them to recognize color patterns in conspecifics. UV rhodopsins in the eye help them to distinguish between 3-OHK yellow pigments, or ultraviolet colors, and other yellow pigments, which to the human eye is indistinguishable. At shorter distances, the butterflies recognize conspecifics via chemical cues. These chemical cues include volatile and nonvolatile substances. The significance of this chemical communication remains largely unknown for Heliconius in general. However, in H. melpomene, (E)-?-ocimene was found to attract males and females in diurnal situations.
+
+
+== Life cycle ==
+
+		
+		
+		
+		
+
+
+=== Pollen feeding ===
+The adults are unusual among butterflies in that they eat pollen as well as sip nectar. This ability contributes to their longevity—they can live up to 3 months as adults in the wild and 4–5 months in the lab. The behavior facilitated the evolution of aposematism and mimicry among Heliconius species. Butterflies that feed on pollen are more distasteful to predators, more brightly colored, and show superior mimetic diversity to those that do not.Adult butterflies choose their home ranges based on collections of pollen plants. An adult collects pollen by inserting its proboscis into the flower while making particular movements to secure adhesion to the pollen grains. Digestion occurs immediately after ingestion when the pollen makes contact with saliva, and amino acids are dissolved. Optimal amino acid intake occurs through abundant saliva production and gentle and slow mastication. During the night, the butterflies digest pollen since optimal nutritional resources are obtained while resting or sleeping.Pollen feeding is correlated with higher overall fitness. Individuals that feed on pollen live longer than those that feed only on nectar or sugar water. Females carry more pollen than males since nutrients such as amino acids from pollen are needed for egg production. Oogenesis is greatly affected by pollen intake. When pollen is absent in the diet, oviposition rates decrease and lifetime fecundity, or the number of eggs produced, drops significantly.Pollen feeding also correlates with unpalatibility to predators. Amino acids from pollen are used as precursors to synthesize cyanogenic glycosides that are stored in larval and adult tissues, accounting for their toxicity. When pollen availability is low, adult butterflies recycle cyanogenic glycosides they synthesized previously. With less expectation of pollen quality, females reallocate their cyanogens to reproductive input, as larvae benefit the most from cyanogenesis; a lack of amino acids in adult diet does not necessarily correlate with reduced cyanogenic defense.The caterpillar feeds on yellow passionflower (Passiflora lutea), corky-stemmed passionflower (Passiflora suberosa), and two-flower passionflower (Passiflora biflora). Larvae regulate their nutritional input to an equal protein-carbohydrate ratio. They feed on the Passiflora plants on which their mother laid their eggs. Passiflora plants have trichomes, structures that reduce herbivore attack physically or chemically. H. charithonia larvae can avoid the effects of trichomes, being able to free themselves from the entrapment of a trichome by pulling their legs from the hold of the trichome hook, and laying silk mats on the trichomes, providing a surface to walk on more easily, and they remove the tips of the trichomes by biting them. Trichome tips are found in the faeces of these individuals. Larvae often try to avoid areas where trichome density is highest by staying on the under surface of the leaves.
+
+
+== Mating system ==
+
+
+=== Mating cues ===
+Male butterflies seek visual, olfactory, tactile, and auditory cues from females during mating. In H. charithonia, certain host plants provide these cues to males, thereby influencing the time and location of reproduction. This happens because as larvae damage the plant upon eating it, green-leaf volatiles, six carbon alcohols, aldehydes, and acetates, are released. They give olfactory cues to the male, thereby indicating the location of the pupae (mate). Since these pupae are camouflaged and lack strong sexual pheromones, males rely on the olfactory cue from the damaged plant to find mates. The odors also trigger the males to learn the location of the plant for future copulations. The butterfly's spatial memory is good enough to enable them to return regularly to roosts and mating sites.A common problem among all butterflies is to avoid mating with other butterfly species. Mistakes are rare as males can distinguish between the emissions produced when the larvae and other herbivores eat the plant. The larvae release volatiles similar chemically to those emitted by the plant. H. charithonia mating cues are controlled by multiple genes (they are pleiotropic), particularly in regards to Müllerian mimicry.
+
+
+=== Pupal mating ===
+Adults exhibit pupal mating in which males wait for a female to emerge from her pupa. Upon emergence, two or more males may fight to win a copulation. The winner mates with the females and prevents other males from doing so through a chemical transfer, passing a nutrient-rich spermatophore to the female that reduces her attractiveness to other potential mates.Pupal mating arose exactly once during the evolution of Heliconius, and these species form a clade on the evolutionary tree. Although pupal mating is observed quite frequently in insectaries, it is rarely seen in nature. Males perform precopulatory mate guarding behavior, in which males find and perch on pupae, followed by copulation with the female.Upon reaching the pupae, males often have to compete to copulate with the female, who is teneral (freshly emerged). Typically, a male visits the same pupa for at least a week, during which time he periodically swarms it, fighting with other males over positioning. Fights consist of males fending off other males that attempt to land on the same pupa by opening their wings. If this does not work, the male tries to throw the intruder off with the pressure of his head and antennae. If more males attempt to swarm the pupa, the two original males work together to fend off the others by simultaneously opening their wings, momentarily forgetting that they were originally competitors. Fights usually last one or two hours, but continue throughout the pupa's development.
+The act of pupal mating consists of the male inserting his abdomen into the pupa. If a second male appears, he fends off other males by opening his wings while he copulates, rather than attempting to mate with the female himself by inserting his abdomen. After two or three hours of mating, the female comes out, and copulation continues for another hour. During the process, females remain relatively still, except for spreading their wings and discharging meconium. As copulation proceeds, fewer males attempt to approach the female. However, if this does occur, the copulating male continues to fend them off by opening his wings. After copulation is done, the male and female sit side by side for some time. During this brief period, no other males attempt to mate with the female.
+
+
+=== Nuptial gifts in the form of the spermatophore ===
+Males transfer a protein-rich spermatophore to females upon mating. Spermatophores are nuptial gifts which serve different functions, one of which is to provide chemicals (cyanogens) that protect the mother and future offspring from predators. For females, this is beneficial because egg laying depletes her defensive chemicals. Among nine Heliconius species studied, H. chartihonia had the highest average cyanide concentration in its spermatophores.In most species of butterflies, pheromones play a role in courtship and mate recognition, and can play a role in deterring mates. Spermatophores contain anaphrodisiacs, pheromones that reduce the attractiveness of the females to subsequent males, indicating evolution driven by intrasexual selection between males. These reduce male harassment of mated females. Spermatophores contain nonfertile sperm (apyrene) to increase the anaphrodisiac effect. The transfer of anaphrodisiacs thus reduces female mating choice.Complete spermatophore degradation to an orange or yellow substance occurs in a two-week period. Pupal-mating butterflies like H. charatonia are thought to be monandrous; females rarely participate in more than one mating per lifetime.
+
+
+=== Sex ratio and distribution ===
+At eclosion, the ratio is highly female biased, but the rest of the year the sex ratio is overall male biased (68% males). This is because males typically stay near their natal sites to find a mate, while females move around to find oviposition or feeding sites on Passiflora plants. Because females are very mobile, males rarely mate with relatives, and inbreeding rates are very low.
+
+
+== See also ==
+False zebra longwing or Atthis longwing (Heliconius atthis)
+
+
+== References ==
+
+
+== External links ==
+Bartlett, Troy (November 18, 2016). "Species Heliconius charithonia - Zebra Longwing - Hodges#4418". BugGuide.Net. Retrieved May 16, 2018.
+Heliconius charitonia and other Heliconius butterfly photos
+Photo album of just Heliconius charitonia on WebShots
+Zebra longwing on the UF / IFAS Featured Creatures Web site

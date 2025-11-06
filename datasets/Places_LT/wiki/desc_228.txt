@@ -1,0 +1,49 @@
+A mezzanine (; or in Italian, a mezzanino) is, strictly speaking, an intermediate floor in a building which is partly open to the double-height ceilinged floor below, or which does not extend over the whole floorspace of the building. However, the term is often used loosely for the floor above the ground floor, especially where a very high-ceilinged original ground floor has been split horizontally into two floors.
+Mezzanines may serve a wide variety of functions. Industrial mezzanines, such as those used in warehouses, may be temporary or semi-permanent structures.
+In Royal Italian architecture, mezzanino also means a chamber created by partitioning that does not go up all the way to the arch vaulting or ceiling; these were historically common in Italy and France, for example in the palaces for the nobility at the Quirinal Palace.
+
+
+== Definition ==
+A mezzanine is an intermediate floor (or floors) in a building which is open to the floor below. It is placed halfway up the wall on a floor which has a ceiling at least twice as high as a floor with minimum height. A mezzanine does not count as one of the floors in a building, and generally does not count in determining maximum floorspace. The International Building Code permits a mezzanine to have as much as one-third of the floor space of the floor below. Local building codes may vary somewhat from this standard.  A space may have more than one mezzanine, as long as the sum total of floor space of all the mezzanines is not greater than one-third the floor space of the complete floor below.Mezzanines help to make a high-ceilinged space feel more personal and less vast, and can create additional floor space. Mezzanines, however, may have lower-than-normal ceilings due to their location. The term "mezzanine" does not imply any particular function; mezzanines can be used for a wide array of purposes.Mezzanines are commonly used in modern architecture, which places a heavy emphasis on light and space.
+
+
+== Industrial mezzanines ==
+In industrial settings, mezzanines may be installed (rather than built as part of the structure) in high-ceilinged spaces such as warehouses. These semi-permanent structures are usually free-standing, can be dismantled and relocated, and are sold commercially. Industrial mezzanine structures can be supported by structural steel columns and elements, or by racks or shelves. Depending on the span and the run of the mezzanine, different materials may be used for the mezzanine's deck like fibre cement boards. Some industrial mezzanines may also include enclosed, paneled office space on their upper levels. There are three basic types of industrial mezzanines: custom, standard or modular.
+A structural engineer is sometimes hired to help determine whether the floor of the building can support a mezzanine (and how heavy the mezzanine may be), and to design the appropriate mezzanine.
+
+
+=== Custom Mezzanines ===
+Custom Mezzanines are steel, raised industrial platform structures that are designed specifically to match the space and capacity needs of a given facility. It will, at a minimum, include a stairway for accessing the mezzanine. These structures typically are the strongest in terms of support capacity. 
+
+
+=== Standard Mezzanines ===
+Standard Mezzanines are steel, raised industrial platform structures that are completely self supporting and are sold in pre-determined sizes and shapes. These, off-the-shelf structures are usually strong in terms of support capacity, and less expensive than custom mezzanines.
+
+
+=== Modular Mezzanines ===
+Modular Mezzanines are a type of Industrial Mezzanine that can be assembled by bolting together standard-sized, self-supporting, independent raised platform structures.
+
+
+== Safety ==
+
+Employees in material handling and manufacturing are often at risk of falls when they are on the job. Recent figures show approximately 20,000 serious injuries and nearly 100 fatalities a year in industrial facilities. Falls of people and objects from mezzanines are of particular concern.In many industrial operations, openings are cut into the guardrail on mezzanines and elevated work platforms to allow picking of palletized material to be loaded and unloaded, often with a fork truck, to upper levels. The Occupational Safety and Health Administration (OSHA) and International Building Council (IBC) have published regulations for fall protection and The American National Standards Institute (ANSI) has published standards for securing pallet drop areas to protect workers that work on elevated platforms and are exposed to openings.
+In most cases, safety gates are used to secure these openings. OSHA requires openings 48 inches or taller to be secured with a fall protection system. Removable sections of railing or gates that swing or slide open would be used to open up the area and allow the transfer of material, and then close once the material is removed. However, current ANSI standards require dual-gate safety systems for fall protection.Dual-gate safety systems were created to secure these areas, allowing a barrier to be in place at all times, even while pallets are being loaded or removed. Dual-gate systems create a completely enclosed workstation providing protection for the worker during loading and off-loading operations. When the rear-side gate opens, the ledge gate automatically closes, ensuring there is always a gate between the operator and the ledge.
+
+
+== References ==
+
+
+== Bibliography ==
+Aghayere, Abi O.; Vigil, Jason (2007). Structural Wood Design: A Practice-Oriented Approach. Hoboken, N.J.: John Wiley. ISBN 978-0-470-05678-3.
+Allen, Edward; Iano, Joseph (2012). The Architect's Studio Companion: Rules of Thumb for Preliminary Design. Hoboken, N.J.: John Wiley & Sons. ISBN 978-0-470-64191-0.
+Coates, Michael; Brooker, Graeme; Stone, Sally (2008). The Visual Dictionary of Interior Architecture and Design. Lausanne: AVA Academia. ISBN 9782940373802.
+Drury, Jolyon; Falconer, Peter (2003). Buildings for Industrial Storage and Distribution. New York: Routledge. ISBN 0-7506-4819-8.
+Guo, Qinghua (2010). The Mingqi Pottery Buildings of Han Dynasty China, 206 BC-AD 220: Architectural Representations and Represented Architecture. Portland, Ore.: Sussex Academic Press. ISBN 978-1-84519-321-8.
+Habraken, N.J.; Teicher, Jonathan (1998). Structure of the Ordinary: Form and Control in the Built Environment. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-58195-0.
+Harris, Cyril M. (1983). Illustrated Dictionary of Historic Architecture. New York: Dover Publications. ISBN 978-0-486-24444-0.
+Materials Handling and Management Society (1993). The Professional Materials Handling Learning System: A Basic Reference Collection in Materials Handling. Volume 2. Charlotte, N.C.: Material Handling Education Foundation.
+
+
+== External links ==
+ The dictionary definition of mezzanine at Wiktionary
+Proper safeguarding for elevated work platforms (1:37 min. video)

@@ -1,0 +1,85 @@
+Digitalis purpurea, the foxglove or common foxglove, is a species of flowering plant in the plantain family Plantaginaceae, native to and widespread throughout most of temperate Europe. It has also naturalised in parts of North America and some other temperate regions. The plant is a popular garden subject, with many cultivars available. It is the original source of the heart medicine digoxin (also called digitalis or digitalin). This biennial plant grows as a rosette of leaves in the first year after sowing, before flowering and then dying in the second year (i.e. it is monocarpic). It generally produces enough seeds, however, so that new plants will continue to grow in a garden setting.
+
+
+== Description ==
+Digitalis purpurea is an herbaceous biennial or short-lived perennial plant. The leaves are spirally arranged, simple, 10–35 cm (3.9–13.8 in) long and 5–12 cm (2–5 in) broad, and are covered with gray-white pubescent and glandular hairs, imparting a woolly texture. The foliage forms a tight rosette at ground level in the first year.
+The flowering stem develops in the second year, typically 1–2 m (3.3–6.6 ft) tall, sometimes longer. The flowers are arranged in a showy, terminal, elongated cluster, and each flower is tubular and pendent. The flowers are typically purple, but some plants, especially those under cultivation, may be pink, rose, yellow, or white. The inside surface of the flower tube is heavily spotted. The flowering period is early summer, sometimes with additional flower stems developing later in the season. The plant is frequented by bees, which climb right inside the flower tube to gain the nectar within.
+The fruit is a capsule which splits open at maturity to release the numerous tiny 0.1-0.2 mm seeds.
+
+
+== Subspecies and hybrids ==
+Digitalis purpurea subsp. purpurea – most of Europe and Macaronesia and widely introduced to other parts of the world.
+Digitalis purpurea subsp. amandiana  (Samp.) P.A.Hinz – northern Portugal (specifically around the Douro Basin).
+Digitalis purpurea subsp. mauretanica  (Humbert & Maire) A.M.Romo – Morocco.
+Digitalis purpurea subsp. toletana (Font Quer) P.A.Hinz – central Spain.
+Digitalis × fulva Lindl. 1821 (hybrid formula: D. grandiflora × purpurea).
+Digitalis purpurea subsp. mariana is a synonym for D. mariana subsp. mariana, and D. purpurea subsp. heywoodii is a synonym for D. mariana subsp. heywoodii.D. dubia, a name used for populations of foxglove growing among calciferous rocks on shady cliff faces on the island of Majorca, is now considered a synonym of D. minor, but until recently it had been either considered to be a valid species (i.e. in the Flora Europaea (1976), and the Euro+Med Plantbase (2011)), as well as classified as D. purpurea subsp. dubia in 1922, or Digitalis purpurea f. dubia by Spanish taxonomists in 1983.
+
+
+== Ecology ==
+Digitalis purpurea grows in acidic soils, in partial sunlight to deep shade, in a range of habitats, including open woods, woodland clearings, moorland and heath margins, sea-cliffs, rocky mountain slopes and hedge banks. It is commonly found on sites where the ground has been disturbed, such as recently cleared woodland, or where the vegetation has been burnt.Larvae of the foxglove pug (Eupithecia pulchellata), a moth, consume the flowers of the common foxglove for food. The caterpillars of this moth crawl into the newly opening flowers, one caterpillar to a flower. It then spins a silken web over the mouth of the flower, sealing it, and then proceeds to feed on the stamens and developing seeds. When the other uninfected flowers fall off, the corolla of the infected flowers remain on the plant, and the caterpillar then pupates in the flower. The species is uncommon, it has been recorded in Britain, Germany, Switzerland and Austria. Other species of Lepidoptera have been recorded eating the leaves, including Mellicta athalia and Xestia ashworthii in Britain, Eurodryas aurinia in Romania, and Mellicta deione in Portugal.
+
+
+== Genetics ==
+
+The colours of the petals of the Digitalis purpurea are known to be determined by at least three genes that interact with each other.The M gene determines the production of a purple pigment, a type of anthocyanin. The m gene does not produce this pigment. The D gene is an enhancer of the M gene, and leads it to produce a big amount of the pigment. The d gene does not enhance the M gene, and only a small amount of pigment is produced. Lastly, the W gene makes the pigment be deposited only in some spots, while the w gene allows the pigment to be spread all over the flower.
+This combination leads to four phenotypes:
+
+M/_; W/_; _/_ = a white flower with purple spots;
+m/m; _/_; _/_ = an albino flower with yellow spots;
+M/_; w/w; d/d = a light purple flower;
+M/_; w/w; D/_ = a dark purple flower.
+
+
+== Cultivation ==
+The plant is a popular ornamental, providing height and colour in late spring and early summer. Cultivated forms often show flowers completely surrounding the central spike, in contrast to the wild form, where the flowers only appear on one side. Numerous cultivars have been developed with a range of colours. Seeds are frequently sold as a mixture (e.g. Excelsior hybrids, in shades of white, pink and purple). Some strains are easily grown by the novice gardener, while others are more challenging. They may also be purchased as potted plants in the spring. The following selections have gained the Royal Horticultural Society's Award of Garden Merit:
+
+Camelot Series:
+'Camelot Cream'
+'Camelot Lavender'
+'Camelot Rose'
+'Camelot White'
+Dalmatian Series:
+'Dalmatian Crème'
+'Dalmatian Peach'
+'Dalmatian White'
+D. × mertonensis (the strawberry foxglove)
+D. purpurea f. alba
+'Martina'
+'Pam's Choice'
+'The Shirley' (Gloxinioides group)Digitalis purpurea is hardy down to −15 °C (5 °F) (USDA zones 4–9).
+
+
+== Toxicity ==
+Due to the presence of the cardiac glycoside digitoxin, the leaves, flowers and seeds of this plant are all poisonous to humans and some animals and can be fatal if ingested.Extracted from the leaves, this same compound, whose clinical use was pioneered by William Withering, is used as a medication for heart failure. He recognized it "reduced dropsy", increased urine flow and had a powerful effect on the heart.The main toxins in Digitalis spp. are the two chemically similar cardiac glycosides: digitoxin and digoxin. Like other cardiac glycosides, these toxins exert their effects by inhibiting the ATPase activity of a complex of transmembrane proteins that form the sodium potassium ATPase pump, (Na+/K+-ATPase). Inhibition of the Na+/K+-ATPase in turn causes a rise not only in intracellular Na+, but also in calcium, which in turn results in increased force of myocardial muscle contractions. In other words, at precisely the right dosage, Digitalis toxin can cause the heart to beat more strongly. However, digitoxin, digoxin and several other cardiac glycosides, such as ouabain, are known to have steep dose-response curves, i.e., minute increases in the dosage of these drugs can make the difference between an ineffective dose and a fatal one.
+Symptoms of Digitalis poisoning include a low pulse rate, nausea, vomiting, and uncoordinated contractions of different parts of the heart, leading to cardiac arrest and finally death.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+== See also ==
+List of poisonous plants
+
+
+== References ==
+
+
+== Bibliography ==
+Flora Europaea: Digitalis purpurea
+Ecological flora of the British Isles: Digitalis purpurea
+Skye Flora: Digitalis purpurea
+Purple Foxglove USDA Invasive Plants of the US
+
+
+== External links ==
+Video footage of peloric Digitalis purpurea

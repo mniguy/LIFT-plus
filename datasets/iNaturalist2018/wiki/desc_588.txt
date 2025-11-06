@@ -1,0 +1,58 @@
+Polistes instabilis, a type of paper wasp, is a neotropical, eusocial wasp (family Vespidae) that can be found in tropical and subtropical areas such as Central America and South America. It can be easily identified with its characteristic yellow, brown, and reddish markings, and it builds nests made from chewing plant fibers and making them into paper.Colonies are usually initiated in the spring after the foundresses have emerged from the winter. Either one or a few queens found each colony by laying eggs, which develop into workers. Although there are no morphological differences between queens and workers, queens can be identified easily by their dominant interactions with workers. While queens are responsible for laying eggs, workers are responsible for gathering materials for the nest, tending to the young, and foraging for food. This species tends to feed on nectar as well as arthropods such as caterpillars.
+
+
+== Description and identification ==
+Polistes wasps, including Polistes instabilis, are large social wasps with yellow, brown and reddish markings. Body size ranges between 0.51–0.98 in (13–25 mm) with wings that are about 0.55 in (14 mm), which are folded longitudinally against the body. Male Polistes are typically smaller than females, have a yellow face, and hold their antenna curled at the tips, while females hold their antenna straight at the tips and have more dark markings on their faces.Nests are constructed with paper substance made by chewing up plant fibers, and they are typically connected a surface by a stalk. The cells of the nest are not covered as they are in some other wasp species.
+
+
+== Taxonomy and phylogeny ==
+The genus Polistes is one of the most widely distributed taxa of social wasps, and is known for morphological and behavioral similarities within the genus. The genus includes swarm-founding wasps and independent-founding wasps. Polistes instabilis was described by Saussure in 1853, and is an independent-founding wasp. This means that colonies are initiated by a single queen. Polistes instabilis shares many similarities with its Aphanilopterus relatives, especially Polistes versicolor. Both species are found to form facultative winter aggregations in high altitudes. The most closely related species to Polistes instabilis is Polistes exclamans exclamans.
+
+
+== Distribution and habitat ==
+Polistes instabilis can be found in tropical and subtropical areas. These include Central and South America, specifically Mexico, Belize, Guatemala, Honduras, Nicaragua and Costa Rica. Those found in Costa Rica tend to live in the lowlands, in dry forested areas. Once the rainy season ends in December, individuals migrate to higher elevation to wait out the winter.
+
+
+== Colony cycle ==
+Polistes instabilis colonies are usually initiated in the spring during the month of March. They are begun by one or few queens who have already mated called foundresses. The foundresses emerge from overwintering and begin building the nest. They do this by chewing up plant fibers and making them into paper, which is the main material for the nest. Once the nest is made, eggs are laid by one or multiple females, which then tend to the young. When the young develop, females become workers and continue to build the nest and tend to larvae. Male wasps’ sole purpose is mating, and after their purpose has been served, they either die or are killed by the females. Colonies are typically small, with large colonies housing less than 100 individuals.  Colonies are also strongly seasonal. Wasps usually leave the nest in October or November to overwinter, and new colonies are formed again the following March.
+
+
+== Behavior ==
+
+
+=== Dominance hierarchy ===
+Although female workers and reproductives are virtually identical in appearance and morphology, the queen can easily be identified by observing her actions. The queen is the most active and aggressive individual in the nest. She frequently attacks other subordinates, and is never attacked by others. She also has the most developed ovaries, indicating her reproductive superiority, and performs the most abdomen wagging. She preserves her role as the primary egg layer by fighting, threatening, and eating others’ eggs. When a queen is removed from the nest, an old and active worker with high dominance takes her place. This individual is likely to be the oldest of the subordinate workers. Size is not a factor in determining dominance in Polistes instabilis. Subordinates cannot nest alone or join a different colony, and thus must increase their fitness within their own colony. They accomplish this by performing dominance interactions to other workers such as gaster wagging, wing vibrating, and aggressive actions. This results in a hierarchy within the workers.
+
+
+=== Division of labor ===
+Workers obtain information about colony needs from the environment, and must respond to changes in colony structure. Activity in the colony seems to be decentralized, with the majority of interactions initiated by workers, not the queen. Workers that are more dominant tend to pressure subordinates to forage by dominance interactions, and thus subordinates do the majority of foraging. Those who are foragers must respond to intrinsic and extrinsic changes in colony need in order to maintain levels of food, water and building materials. The job of collecting water seems to belong to a small number of fixated foragers. When water foragers are removed from the nest, the remaining individuals will increase their search rate rather than recruit other workers to become water foragers. This indicates that foraging for water is a specialized job. Nectar collection, however, depends on a larger number of workers. When nectar foragers are removed from the nest, new individuals are recruited to replace them. This may be because the location of nectar is not always known, and nectar foragers are not able to increase their search rate to make up for lost workers.
+
+
+=== Communication ===
+Nest mates must communicate with each other in order to perform necessary tasks such as nest building and foraging. Some colonies have diffuse connections where each individual is just as likely to interact with any other. On the other hand, some colonies have very high connectedness between a subset of workers that send out communications to the rest of the colony. Polistes instabilis is an example of these types of colonies, where a few dominant workers seem to induce others to forage. This occurs by dominance interactions mentioned in previous sections. Individuals will do gaster wagging, wing vibrations, or other aggressions in order to assert their dominance and tell subordinates to forage. Therefore more dominant workers will tend to do tasks inside the nest.
+
+
+=== Reproductive suppression ===
+The opportunity to lay eggs in a colony is determined by dominance ranking. The queen is the most dominant individual and has the only power to mate and lay eggs. Female workers remain in the nest and do not mate with males. Ovary development in workers is suppressed by dominance interactions from the queen, as well as dominance interactions from the more dominant workers to the more subordinate workers. This results with more dominant workers having more developed ovaries, but still less developed than the queen’s. If the queen dies or is removed, then the most dominant worker will take her place as the new reproductive.
+
+
+=== Nest activity ===
+Nest activity is episodic and occurs in bursts rather than continuous activity throughout the day. Polistes instabilis spends roughly half of the daylight hours inactive and immobile. Periods of inactivity are broken when individuals initiate actions such as arriving, leaving, walking, antennating, gaster wagging, or fanning. These actions cause other workers to also begin working. 80% of activity is initiated by arriving or walking. Arriving triggers activity because when wasps arrive to the nest they bring materials to transfer to other workers. Walking is a first step taken in assessing needs of the colony, which can then be communicated to others. Queens do not differ from other workers in the initiation of active periods.
+
+
+== Interaction with other species ==
+
+
+=== Diet ===
+Polistes instabilis feeds on caterpillars as well as nectar. When hunting caterpillars, the workers chew up the caterpillars extensively before returning to the nest. They distribute the ingested liquid to larvae, and caterpillar remains to other workers. Foragers will take nectar from many different plants such as soapberry, sumacs, vauquelinia, and Apache plume.
+
+
+=== Nest defense ===
+When a Polistes instabilis nest is attacked, the wasps defend their nests by responding in two different ways: First they perform a threat response by wagging their gaster and vibrating their wings, and second, some wasps may attack by leaving the nest and physically touching the attacker. There seems to be no relationship between the amount of investment the wasps have put into their nest and the defense response. This suggests that there are a fixed number of wasps that are semi specialized for nest defense, and such defensive tasks may be assigned in the same way as other tasks such as foraging.
+
+
+=== Mutualism ===
+Polistes instabilis seem to have a mutualistic relationship with Croton suberosus, a neotropical shrub. The shrub produces nectar as a reward to pollinators. In return for pollinating, workers get to feed on the nectar. In addition, workers defend the shrub against herbivores such as caterpillars that are trying to feed on it. The workers also prey on the caterpillars, adding an extra benefit for defending the plant.
+
+
+== References ==

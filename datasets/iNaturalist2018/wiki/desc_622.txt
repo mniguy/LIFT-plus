@@ -1,0 +1,52 @@
+Diaphania indica, the cucumber moth or cotton caterpillar, is a widespread but mainly Old World moth species. It belongs to the grass moth family, and therein to the large subfamily Spilomelinae. This moth occurs in many tropical and subtropical regions outside the Americas, though it is native to southern Asia; it is occasionally a significant pest of cucurbits and some other plants.
+This species was originally described by William Wilson Saunders in 1851 under the misspelled name Eudioptes indica (properly:Eudioptis), using specimens from Java. His syntypes are in the Hope Entomological Collections of the Oxford University Museum of Natural History.
+
+
+== Description ==
+
+The wingspan is about 30 mm. Adults have translucent whitish wings with broad dark brown borders. The body is whitish below, and brown on top of head and thorax as well as the end of the abdomen. There is a tuft of light brown "hairs" on the tip of the abdomen, vestigial in the male but well developed in the female. It is formed by long scales which are carried in a pocket on each side of the 7th abdominal segment, from where they can be everted to form the tufts. Unfertilized females are often seen sitting around with the tuft fully spread, forming two flower-like clumps of scales, which move slowly to spread their pheromones. These have been identified as consisting mainly of (E,E)-10,12-hexadecadienal and (E)-11-hexadecenal.From its closest relatives, the cucumber moth is most reliably distinguished by microscopic examination of the genitals. In the male, the clasper's harpe is twice as long as it is wide, with the costa and sacculus running almost in parallel and being strongly sclerotized, and a rounded cucullus. From the center of the harpe, which is otherwise only weakly sclerotized, a thin spine extends. The uncus is covered in bristles and ends in a small tube; it is a bit longer than the tegumen which in turn is about as wide as it is long. The vinculum is almost quadratic, and the anellus forms a small triangular plate which is more strongly sclerotized. The aedeagus is almost straight, strongly sclerotized below, and has a flattened curved process at end.In the female genitals, the ostium is transverse and oval, and the antrum broadly sclerotized. The ductus seminalis insert from above, a bit before the forward edge of the antrum. The bursa copulatrix is long and slim, with the forward third particularly narrow; its wall is covered with many short spines, and the hind end almost seamlessly merges into a short and barely distinguishable ductus bursae.
+
+		
+		
+		
+		
+
+
+== Distribution and ecology ==
+The natural range of this moth seems to extend from South Asia to southern China and Taiwan, and south through Southeast Asia to the Maluku Islands of Indonesia; it does not seem to extend to the Philippines, but is widespread in Australia and is a pest of cucurbits in the northern part of the continent. It is possible that it was introduced by trade and transport of its host plants to oceanic islands, such as Fiji, Ponape in the Caroline Islands and the Marquesas Islands in different regions of the Pacific, and Mauritius in the western Indian Ocean. It has been reported from some localities in Africa, with occasional sightings in Narok, Kenya, but there it is probably introduced too.As implied by the common names, the caterpillar larvae of this moth are a frequent agricultural pests. It is perhaps most noticeable as a pest of cucumbers, but this seems more due to the widespread production of these than to the moth's preferences; D. indica is quite polyphagous and prefers other Cucurbitoideae (which are not as widely grown though) to cucumbers. Typically, the leaves of the food plants are eaten.Host plants are usually eurosids and include:
+Cucurbitaceae
+calabash (Lagenaria siceraria)
+angled luffa (Luffa acutangula)
+Egyptian luffa (Luffa aegyptiaca)
+pumpkins (Cucurbita)
+cucumber (Cucumis sativus)
+snake gourd (Trichosanthes cucumerina var. anguina)
+Trichosanthes tricuspidata
+Other families:
+Erythrina corallodendron (Fabaceae)
+Levant cotton (Gossypium herbaceum, Malvaceae)
+
+
+== Taxonomy ==
+Despite its characteristic appearance, the cucumber moth was described as a new species several times, leading to a number of junior synonyms. Achille Guenée described the species three times alone – two times of which on the very same page of the Histoire naturelle des Insectes –, using specimens from far-flung regions he believed to represent different taxa: from Java (for P. gazorialis), Réunion (for his Phakellura curcubitalis), and (presumably) the Levant (for P. zygaenalis). Actually, the moth's populations at the latter two locations, as well as the specimens from Limpopo and Orange Rivers from which Philipp Christoph Zeller described his Eudioptis capensis, seem to have been merely introduced there as pests in ships' stores.In 1859, the cucumber moth was moved to genus Phakellura by Francis Walker, and to Glyphodes by Edward Meyrick in 1895. It was placed in Margaronia by Thomas Bainbrigge Fletcher in 1917, and by subsequent authors variously assigned it to Diaphania and Glyphodes, at that time incorrectly believed to be subgenera of Margaronia. Finally, in 1931 Hudson, recognizing that Saunders and Walker were quite correct in their original assessments, but that Eudioptis and Phakellura were junior synonyms of Diaphania, placed the moth in its current genus. Shin et al. in 1983 sided with Fletcher and proposed to move the species to Palpita (the senior synonym of Margaronia), but subsequent authors have generally preferred Hudson's treatment."Botys hyalinalis" and "Margaronia hyalinata" refer to the cucumber moth, but they are based on misidentification of this species as melonworm moth (D. hyalinata).
+
+
+=== Synonyms ===
+The junior synonyms and some other invalid scientific names of D. indica are:
+
+
+== Footnotes ==
+
+
+== References ==
+Clarke, John Frederick Gates (1986): Pyralidae and Microlepidoptera of the Marquesas Archipelago. Smithsonian Contributions to Zoology 416: 1-485. PDF fulltext (214 MB!)
+Pherobase (2011): Semiochemicals of Palpita indica. Version of 7 October 2011. Retrieved 14 October 2011.
+Savela, Markku (2011): Lepidoptera and Some Other Life Forms – Diaphania indica. Version of 30 March 2011. Retrieved 14 October 2011.
+
+
+== External links ==
+ Media related to Diaphania indica at Wikimedia Commons
+
+Diaphania indica on the Australian Government / Department of Agriculture, Fisheries and Forestry Scientific Names Web site
+Herbison-Evans, Don & Crossley, Stella (13 April 2015). "Diaphania indica (Saunders, 1851) Cucumber Moth". Australian Caterpillars and their Butterflies and Moths. Retrieved 7 April 2018.
+Australian Faunal Directory

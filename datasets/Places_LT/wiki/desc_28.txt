@@ -1,0 +1,161 @@
+The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.  It is one of the world's largest industries by revenue. The automotive industry does not include industries dedicated to the maintenance of automobiles following delivery to the end-user, such as automobile repair shops and motor fuel filling stations.
+The word automotive comes from the Greek autos (self), and Latin motivus (of motion), referring to any form of self-powered vehicle. This term, as proposed by Elmer Sperry
+(1860-1930), first came into use with reference to automobiles in 1898.
+
+
+== History ==
+
+The automotive industry began in the 1860s with hundreds of manufacturers that pioneered the horseless carriage. For many decades, the United States led the world in total automobile production. In 1929, before the Great Depression, the world had 32,028,500 automobiles in use, and the U.S. automobile industry produced over 90% of them. At that time, the U.S. had one car per 4.87 persons. After 1945, the U.S. produced about 75 percent of world's auto production. In 1980, the U.S. was overtaken by Japan and then became world leader again in 1994. In 2006, Japan narrowly passed the U.S. in production and held this rank until 2009, when China took the top spot with 13.8 million units. With 19.3 million units manufactured in 2012, China almost doubled the U.S. production of 10.3 million units, while Japan was in third place with 9.9 million units. From 1970 (140 models) over 1998 (260 models) to 2012 (684 models), the number of automobile models in the U.S. has grown exponentially.Early car manufacturing involved manual assembly by a human worker. The process evolved from engineers working on a stationary car, to a conveyor belt system where the car passed through multiple stations of more specialised engineers. Starting in the 1960s, robotic equipment was introduced to the process, and today most cars are produced largely with automated machinary.
+
+
+== Safety ==
+
+Safety is a state that implies being protected from any risk, danger, damage, or cause of injury. In the automotive industry, safety means that users, operators, or manufacturers do not face any risk or danger coming from the motor vehicle or its spare parts. Safety for the automobiles themselves implies that there is no risk of damage.
+Safety in the automotive industry is particularly important and therefore highly regulated. Automobiles and other motor vehicles have to comply with a certain number of regulations, whether local or international, in order to be accepted on the market. The standard ISO 26262, is considered one of the best practice frameworks for achieving automotive functional safety.In case of safety issues, danger, product defect or faulty procedure during the manufacturing of the motor vehicle, the maker can request to return either a batch or the entire production run. This procedure is called product recall. Product recalls happen in every industry and can be production-related or stem from raw material.
+Product and operation tests and inspections at different stages of the value chain are made to avoid these product recalls by ensuring end-user security and safety and compliance with the automotive industry requirements. However, the automotive industry is still particularly concerned about product recalls, which cause considerable financial consequences.
+
+
+== Economy ==
+
+In 2007, there were about 806 million cars and light trucks on the road, consuming over 980 billion litres (980,000,000 m3) of gasoline and diesel fuel yearly. The automobile is a primary mode of transportation for many developed economies. The Detroit branch of Boston Consulting Group predicted that, by 2014, one-third of world demand would be in the four BRIC markets (Brazil, Russia, India and China). Meanwhile, in the developed countries, the automotive industry has slowed. It is also expected that this trend will continue, especially as the younger generations of people (in highly urbanized countries) no longer want to own a car anymore, and prefer other modes of transport. Other potentially powerful automotive markets are Iran and Indonesia.
+Emerging automobile markets already buy more cars than established markets. 
+According to a J.D. Power study, emerging markets accounted for 51 percent of the global light-vehicle sales in 2010. The study, performed in 2010 expected this trend to accelerate. However, more recent reports (2012) confirmed the opposite; namely that the automotive industry was slowing down even in BRIC countries. In the United States, vehicle sales peaked in 2000, at 17.8 million units.In July 2021, the European Commission released its "Fit for 55" legislation package, which contains important guidelines for the future of the automotive industry; all new cars on the European market must be zero-emission vehicles from 2035.
+
+
+== World motor vehicle production ==
+
+
+=== By year ===
+
+ from Harvard Atlas of Economic Complexity
+
+
+=== By country ===
+
+The OICA counts over 50 countries which assemble, manufacture or disseminate automobiles. Of that figure, only 14 countries (boldfaced in the list below) currently possess the capability to design original production automobiles from the ground up.
+
+
+=== By manufacturer ===
+
+These were the 15 largest manufacturers by production volume in 2017, according to OICA.
+
+
+== Other rankings ==
+This is the list of the 15 largest publicly-traded car manufacturers by market capitalisation as of 15 May 2021, according to CompaniesMarketCap.com.
+This is the list of the 10 largest publicly-traded car manufacturers by Revenue as of 15 May 2021, according to Companiesmarketcap.com
+
+
+== Notable company relationships ==
+
+
+=== Stake holding ===
+It is common for automobile manufacturers to hold stakes in other automobile manufacturers. These ownerships can be explored under the detail for the individual companies.
+Notable current relationships include:
+Daihatsu holds a 25% stake in Perodua.
+Daimler holds a 10.0% stake in KAMAZ.
+Daimler holds an 89.29% stake in Mitsubishi Fuso Truck and Bus Corporation.
+Daimler holds a 3.1% in the Renault-Nissan Alliance, while Renault-Nissan Alliance holds a 3.1% share in Daimler AG.
+Daimler holds a 12% stake in BAIC Group, while BAIC Group holds 5% stake in Daimler.
+Daimler holds an 85% stake in Master Motors.
+Dongfeng Motor holds a 12.23% stake and a 19.94% exercisable voting rights in PSA Groupe.
+FAW Group owns 49% of Haima Automobile.
+FCA holds a 10% stake in Ferrari.
+FCA holds a 67% stake in Fiat Automobili Srbija.
+FCA holds 37.8% of Tofaş with another 37.8% owned by Koç Holding.
+Fiat Automobili Srbija owns a 54% stake in Zastava Trucks.
+Fiat Industrial owns a 46% stake in Zastava Trucks.
+Fujian Motors Group holds a 15% stake in King Long. FMG, Beijing Automotive Group, China Motor, and Daimler has a joint venture called Fujian Benz. FMG, China Motor, and Mitsubishi Motors has a joint venture called Soueast, FMG holds a 50% stake, and both China Motor and Mitsubishi Motors holds an equal 25% stake.
+Geely Automobile holds a 23% stake in The London Taxi Company.
+Geely Automobile holds a 49.9% stake in PROTON Holdings and a 51% stake in Lotus Cars.
+Geely Holding Group holds a 9.69% stake in Daimler AG.
+Geely Holding Group holds an 8.3% stake and a 15.9% exercisable voting rights in Volvo.
+General Motors holds a 93% stake in GM India and SAIC Group holds a 7% stake.
+General Motors holds a 94% stake in GM Korea and SAIC Group holds a 6% stake.
+General Motors holds a 20% stake in Industries Mécaniques Maghrébines.
+Isuzu owns 10% of Industries Mécaniques Maghrébines.
+Mahindra & Mahindra holds a 70% stake in SsangYong Motor.
+MAN SE holds a 17.01% voting stake in Scania.
+Marcopolo owns 19% of New Flyer Industries.
+Mitsubishi Group holds 20% of Mitsubishi Motors.
+Nissan owns 34% of Mitsubishi Motors since October 2016, thus having the right to nominate the chairman of Mitsubishi Motors' board and a third of its directors.
+Nissan owns 43% of Nissan Shatai.
+Porsche Automobil Holding SE has a 50.74% voting stake in Volkswagen Group.  The Porsche automotive business is fully owned by the Volkswagen Group.
+Renault and Nissan Motors have an alliance (Renault-Nissan Alliance) involving two global companies linked by cross-shareholding, with Renault holding 43.4% of Nissan shares, and Nissan holding 15% of (non-voting) Renault shares.
+Renault holds a 25% stake in AvtoVAZ
+Renault holds an 80.1% stake in Renault Samsung.
+SAIPA holds a 51% stake in Pars Khodro.
+Tata Motors holds a 100% stake in Jaguar Land Rover.
+Toyota holds a 100% stake in Daihatsu.
+Toyota holds a 50.1% stake in Hino.
+Toyota holds a 5.9% stake in Isuzu.
+Toyota holds a 5.05% stake in Mazda, while Mazda holds 0.25% stake in Toyota.
+Toyota holds a 16.7% stake in Subaru Corporation, parent company of Subaru.
+Toyota holds a 4.94% stake in Suzuki, while Suzuki holds 0.2% stake in Toyota.
+Volkswagen Group holds a 99.55% stake in the Audi Group.
+Volkswagen Group holds a 37.73% stake in Scania (68.6% voting rights), a 53.7% stake in MAN SE (55.9% voting rights),  Volkswagen is integrating Scania, MAN and its own truck division into one division.
+Paccar has a 19% stake in Tatra.
+ZAP holds a 51% stake in Zhejiang Jonway.
+
+
+=== Joint ventures ===
+
+
+==== China joint venture ====
+Beijing Automotive Group has a joint venture with Daimler called Beijing Benz, both companies hold a 50-50% stake. both companies also have a joint venture called Beijing Foton Daimler Automobile.
+Beijing Automotive Group also has a joint venture with Hyundai called Beijing Hyundai, both companies hold a 50-50% stake.
+BMW and Brilliance have a joint venture called BMW Brilliance. BMW owns a 50% stake, Brilliance owns a 40.5% stake, and the Shenyang municipal government owns a 9.5% stake.
+Changan Automobile has a joint venture with Groupe PSA (Changan PSA ), both hold a 50-50% stake.
+Changan Automobile has a joint venture with Suzuki (Changan Suzuki ), both hold a 50-50% stake.
+Changan Automobile has a 50-50% joint venture with Mazda (Changan Mazda ).
+Changan Automobile and Ford have a 50-50% joint venture called Changan Ford.
+Changan Automobile and JMCG have a joint venture called Jiangling Motor Holding.
+Chery has a joint venture with Jaguar Land Rover called Chery Jaguar Land Rover, both companies hold a 50-50% stake.
+Chery and Israel Corporation has a joint venture called Qoros, both companies hold a 50-50% stake.
+Dongfeng Motor and Nissan have a 50-50% joint venture called Dongfeng Motor Company.
+Dongfeng Motor and PSA Group have a 50-50% joint venture called Dongfeng Peugeot-Citroën.
+Dongfeng Motor has a 50-50% joint venture with Honda called Dongfeng Honda.
+Dongfeng Motor has a joint venture with AB Volvo called Dongfeng Nissan-Diesel.
+Dongfeng Motor has a 50-50% joint venture with Renault named Dongfeng Renault in Wuhan, which was founded in the end of 2013
+FAW Group and General Motors has a 50-50 joint venture called FAW-GM.
+FAW Group has a 50-50 joint venture with Volkswagen Group called FAW-Volkswagen.
+FAW Group has a 50-50 joint venture with Toyota called Sichuan FAW Toyota Motor and both companies also have another joint venture called Ranz.
+General Motors and SAIC Motor, both have two joint ventures in SAIC-GM and SAIC-GM-Wuling.
+
+
+==== Outside China ====
+Daimler AG and BYD Auto have a joint venture called Denza, both companies hold a 50-50% stake.
+Daimler AG and Geely Holding Group have a joint venture called smart Automobile, both companies hold a 50-50% stake.
+Ford and Navistar International have a 50-50 joint venture called Blue Diamond Truck.
+Ford and Sollers JSC have a 50-50 joint venture called Ford Sollers.
+Ford and Koç Holding have a 50-50 joint venture called Ford Otosan.
+Ford and Lio Ho Group have a joint venture called Ford Lio Ho, Ford owns 70% and Lio Ho Group owns 30%.
+General Motors and UzAvtosanoat have a joint venture called GM Uzbekistan, UzAvtosanoat owns 75% and General Motors owns 25%.
+General Motors, AvtoVAZ, and EBRD have a joint venture called GM-AvtoVAZ, Both GM and AvtoVAZ owns 41.61% and EBRD owns 16.76%.
+Hyundai Motor Company and Kibar Holding has a joint venture called Hyundai Assan Otomotiv, Hyundai owns 70% and Kibar Holding owns 30%.
+Isuzu and Anadolu Group have a 50-50% joint venture called Anadolu Isuzu.
+Isuzu and General Motors has a 50-50% joint venture called Isuzu Truck South Africa.
+Isuzu, Sollers JSC, and Imperial Sojitz have a joint venture called Sollers-Isuzu, Sollers JSC owns 66%, Isuzu owns 29%, and Imperial Sojitz owns 5%.
+Mahindra & Mahindra and Navistar International have a joint venture called Mahindra Trucks and Buses Limited. Mahindra & Mahindra owns 51% and Navistar International owns 49%.
+MAN SE and UzAvtosanoat have a joint venture called MAN Auto-Uzbekistan, UzAvtosanoat owns 51% and MAN SE owns 49%.
+Navistar International and JAC has a joint venture called Anhui Jianghuai Navistar.
+PSA and Toyota have a 50-50% joint venture called Toyota Peugeot Citroën Automobile Czech.
+PSA and CK Birla Group (AVTEC) have a 50-50% joint venture called PSA AVTEC Powertrain Pvt. Ltd.
+Sollers JSC is involved in joint ventures with Ford (Ford Sollers ) and Mazda to produce cars.
+Tata Motors also formed a joint venture in India with Fiat and gained access to Fiat's diesel engine technology.
+Tata Motors and Marcopolo have a joint venture called Tata Marcopolo, where Tata owns 51% and Marcopolo owns 49%.
+Volvo Group and Eicher Motors has a 50-50% joint venture called VE Commercial Vehicles.
+
+
+== See also ==
+
+
+== Notes ==
+^a  These figures were before the merger of both Fiat Chrysler Automobiles	and Groupe PSA; the latter of which has merged into Stellantis as of January 2021.
+
+
+== References ==
+
+
+== External links ==
+ Media related to Automotive industry at Wikimedia Commons
+Alliance of Automobile Manufacturers Archived 12 September 2020 at the Wayback Machine

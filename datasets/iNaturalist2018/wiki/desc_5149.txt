@@ -1,0 +1,42 @@
+Phellinus pini (current name: Porodaedalea pini (Brot.) Murrill 1905) is a fungal plant pathogen that causes tree disease commonly known as "red ring rot" or "white speck". This disease, extremely common in the conifers of North America, decays tree trunks, rendering them useless for lumber.   It is a rot of the heartwood.  Signs of the fungus include shelf-shaped conks protruding from the trunks of trees.  Spores produced on these conks are blown by the wind and go on to infect other trees.  Formal management of this disease is limited, and the disease is controlled primarily by cultural practices. Red ring rot is an important forest disturbance agent and plays a key role in habitat formation for several forest animals.
+
+
+== Hosts and symptoms ==
+Red ring rot is common in North America.  The pathogen Phellinus pini is widely spread in the temperate zone in the Northern Hemisphere.  It infects a wide range of coniferous trees, including jack pine, lodgepole pine, Sitka and white spruce, Douglas-fir, balsam and true fir, western hemlock, and tamarack. It attacks both heartwood and sapwood and causes white pocket trunk rot.
+The basidiocarps (fruiting body), conks, are the most apparent signs on infected trees.  The conks are perennial, usually gregarious, imbricate, and shelve-shaped, about 3 inches wide. The tops of conks are reddish brown to blackish with concentric furrows; the underside is yellow-brown, while for growing conks, the undersurface and margin of growing conks is a bright yellowish-brown with large irregular pores.  White pockets usually develop where the conks develop, but the decay may extend 4 ft above and 5 ft below a conk. Decay tends to occur at the base of stem, but may also develop into large roots. In the early stage of decay, the affected wood becomes reddish to purplish in color. A cross section of the affected wood shows a well-defined ring. In advanced stages of decay, small, spindle-shaped white pockets are formed due to the degradation of lignin by P. pini. The white pockets are mostly hollow and delignified and contain white residual cellulose.
+
+
+=== On Engelmann spruce ===
+P. pini is the most common pathogen to Engelmann spruce (Picea engelmannii) and causes the largest decay columns.  There is red staining in the early stages and tends to develop along the annual rings. The decay can be identified with white pockets and punk knots (a slight swollen, resinous knot) and conks. Decay usually occurs mostly in the basal stem and may extend to roots.
+
+
+== Disease cycle ==
+As other Polypores, basidiospores are produced on the underside of the conks and are spread by wind. These wind-blown spores are the initial inoculums of the red ring rot. Once they land on a suitable small wound or twig stub, the spores may germinate and the mycelia grow into the inner wood and cause infection. P. pini produces only one type of spores, basidiospores, which is also a type of sexual spores and the fungus overwinters as mycelium in diseased trees or dead trees. When decay is sufficient to provide enough resources, a new conk may be produced. Time from infection to conk production may be 10–20 years or more. These conks are perennial and the disease cycle can be repeated with spores produced by the new conks. 
+
+
+== Environment ==
+There are several conditions that favor disease development and spread.  Heart rot fungi, including P. pini, enter trees as mycelium or basidiospores through branch stubs, tree stumps, damaged roots, dead branches, and wounds in general and go on to infect the heartwood of the tree.  Fire and cutting operations cause the most common points of entry for the fungus.  Moist environments also facilitate fungal growth. Spores blown by the wind land and germinate on wounds, so in managed forests, care should be taken to prevent any injury to trees during harvest or other activities.  This disease is most common in the Pacific Northwest, where cool wet weather greatly facilitates the pathogen.
+
+
+== Management ==
+In most cases, complete elimination of red ring rot is not an objective, and some control is achieved by cultural practices. Since red ring rot is generally only a significant loss factor in very old stands, damage can be limited by managing stands to younger ages.  Younger trees, if infected, are usually able to add new growth at a faster rate than that of decay. If a marketable tree is infected, it should be salvaged before disease progression significantly influences its value. Infected trees in public areas should be checked and removed if red ring rot disease has rendered them potentially dangerous (trees weakened due to heart rot are more likely to fall). Where timber management is the focus, infected trees should be removed.  A reduction in rotation age should be considered if decay is frequent to minimize losses.  Injuries to healthy trees should be avoided during logging to prevent new infections.During harvest, treating tree wounds and stumps with antagonistic fungi has led to considerable success in controlling decays and rot.  After tree harvest, further discoloration and decay is controlled by treating wood with a chlorophenate fungicide or organic mercuric, in addition to drying the wood.  Wood that may later be in contact with soil or other moist surfaces must be treated with a wood preservative.
+
+
+== Importance ==
+Red ring rot is one of the most common and destructive heart rot pathogens in the Western United States. In Engelmann spruce it is the most common type of fungal decay and causes the largest decay columns of all the fungal heart rots, rendering the tree useless for harvesting. It is a particularly important disease in lodgepole pine and subalpine fir as well.  Studies have shown that 64% of all defects in these three species were caused by Phellinus pini. It has been estimated that over three-fourths of the total 17% of decayed, overmature Douglas-fir is the Pacific Northwest were in decline due to red ring rot. Apart from the economic impacts of this disease, red ring rot decay may lead to mechanical failure of live trees, which may cause a potential hazard in recreational or public areas.It is also important to note the potentially positive ramifications of this fungus.  P. pini and other trunk rot fungi serve an important role in forest ecosystems as disturbance agents, and play a key role in accelerating stand development. P. pini and other forest pathogens have been shown to be instrumental in facilitating Douglas-fir growth in the western US. Additionally, decayed trees, rotting from the inside-out, serve as important habitat to cavity-nesting birds and mammals. In the southeastern United States, this fungus is important for the nesting of the red-cockaded woodpecker.The species is not edible.
+
+
+== Similar species ==
+Similar species include Phellinus ferruginosus, P. gilvus, P. igniarius, and P. tremulae.
+
+
+== References ==
+
+
+== External links ==
+Index Fungorum
+USDA ARS Fungal Database
+Common Defects
+Management Guide for Red Ring Rot
+Forest Disease Management Notes
+Red Ring Rot

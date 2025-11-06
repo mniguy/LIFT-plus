@@ -1,0 +1,76 @@
+An ice shelf is a large floating platform of ice that forms where a glacier or ice sheet flows down to a coastline and onto the ocean surface. Ice shelves are only found in Antarctica, Greenland, Northern Canada, and the Russian Arctic. The boundary between the floating ice shelf and the anchor ice (resting on bedrock) that feeds it is the grounding line. The thickness of ice shelves can range from about 100 m (330 ft) to 1,000 m (3,300 ft).
+In contrast, sea ice is formed on water, is much thinner (typically less than 3 m (9.8 ft)), and forms throughout the Arctic Ocean. It also is found in the Southern Ocean around the continent of Antarctica.
+The movement of ice shelves is principally driven by gravity-induced pressure from the grounded ice. That flow continually moves ice from the grounding line to the seaward front of the shelf. Formerly, the primary mechanism of mass loss from ice shelves was thought to have been iceberg calving, in which a chunk of ice breaks off from the seaward front of the shelf. A study by NASA and university researchers, published in the June 14, 2013 issue of Science, found however that ocean waters melting the undersides of Antarctic ice shelves are responsible for most of the continent's ice shelf mass loss.Typically, a shelf front will extend forward for years or decades between major calving events.  Snow accumulation on the upper surface and melting from the lower surface are also important to the mass balance of an ice shelf. Ice may also accrete onto the underside of the shelf.
+The density contrast between glacial ice and liquid water means that at least 1/9 of the floating ice is above the ocean surface, depending on how much pressurized air is contained in the bubbles within the glacial ice, stemming from compressed snow. The formula for the  denominators above is 
+  
+    
+      
+        1
+        
+          /
+        
+        [
+        (
+        
+          ρ
+          
+            seawater
+          
+        
+        −
+        
+          ρ
+          
+            glacial ice
+          
+        
+        )
+        
+          /
+        
+        
+          ρ
+          
+            seawater
+          
+        
+        ]
+      
+    
+    {\textstyle 1/[(\rho _{\text{seawater}}-\rho _{\text{glacial ice}})/\rho _{\text{seawater}}]}
+  , density of cold seawater is about 1028 kg/m3 and that of glacial ice from about 850 kg/m3 to well below 920 kg/m3, the limit for very cold ice without bubbles. The height of the shelf above the sea can be even larger, if there is much less dense firn and snow above the glacier ice.
+The world's largest ice shelves are the Ross Ice Shelf and the Filchner-Ronne Ice Shelf in Antarctica.
+The term captured ice shelf has been used for the ice over a subglacial lake, such as Lake Vostok.
+
+
+== Canadian ice shelves ==
+All Canadian ice shelves are attached to Ellesmere Island and lie north of 82°N. Ice shelves that are still in existence are the Alfred Ernest Ice Shelf, Ward Hunt Ice Shelf, Milne Ice Shelf and Smith Ice Shelf. The M'Clintock Ice Shelf broke up from 1963 to 1966; the Ayles Ice Shelf broke up in 2005; and the Markham Ice Shelf broke up in 2008. The remaining ice shelves have also lost a significant amount of their area over time, with the Milne Ice Shelf being the last to be affected with it breaking off in August 2020.
+
+
+== Antarctic ice shelves ==
+
+A large portion of the Antarctic coastline has ice shelves attached. Their aggregate area is over 1,550,000 km2.
+
+
+== Russian ice shelves ==
+The Matusevich Ice Shelf was a 222 km2 ice shelf located in Severnaya Zemlya being fed by some of the largest ice caps on October Revolution Island, the Karpinsky Ice Cap to the south and the Rusanov Ice Cap to the north. In 2012 it ceased to exist.
+
+
+== Ice shelf disruption ==
+
+In the last several decades, glaciologists have observed consistent decreases in ice shelf extent through melt, calving, and complete disintegration of some shelves.The Ellesmere ice shelf was reduced by 90 per cent in the twentieth century, leaving the separate Alfred Ernest, Ayles, Milne, Ward Hunt, and Markham ice shelves. A 1986 survey of Canadian ice shelves found that 48 km2. (3.3 cubic kilometres) of ice calved from the Milne and Ayles ice shelves between 1959 and 1974. The Ayles Ice Shelf calved entirely on August 13, 2005. The Ward Hunt Ice Shelf, the largest remaining section of thick (>10 m) landfast sea ice along the northern coastline of Ellesmere Island, lost 600 square km of ice in a massive calving in 1961–1962. It further decreased by 27% in thickness (13 m) between 1967 and 1999. In summer 2002, the Ward Ice Shelf experienced another major breakup, and other instances of note happened in 2008 and 2010 as well. The last remnant to remain mostly intact, the Milne Ice Shelf, also ultimately experienced a major breakup at the end of July 2020, losing over 40% of its area.Two sections of Antarctica's Larsen Ice Shelf broke apart into hundreds of unusually small fragments (hundreds of meters wide or less) in 1995 and 2002, Larsen C calved a huge ice island in 2017.The breakup events may be linked to the dramatic polar warming trends that are part of global warming. The leading ideas involve enhanced ice fracturing due to surface meltwater and enhanced bottom melting due to warmer ocean water circulating under the floating ice.
+The cold, fresh water produced by melting underneath the Ross and Flichner-Ronne ice shelves is a component of Antarctic Bottom Water.
+Although it is believed that the melting of floating ice shelves will not raise sea levels, technically, there is a small effect because sea water is ~2.6% more dense than fresh water combined with the fact that ice shelves are overwhelmingly "fresh" (having virtually no salinity); this causes the volume of the sea water needed to displace a floating ice shelf to be slightly less than the volume of the fresh water contained in the floating ice. Therefore, when a mass of floating ice melts, sea levels will increase; however, this effect is small enough that if all extant sea ice and floating ice shelves were to melt, the corresponding sea level rise is estimated to be ~4 cm.
+
+
+== See also ==
+Ice-sheet dynamics
+
+
+== References ==
+
+
+== External links ==
+Further information from the Australian Antarctic Division
+http://nsidc.org/quickfacts/iceshelves.html – from the U.S. National Snow and Ice Data Center
+https://web.archive.org/web/20170801182746/http://ice-glaces.ec.gc.ca/ – from the Canadian Ice Service

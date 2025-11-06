@@ -1,0 +1,51 @@
+Postelsia palmaeformis, also known as the sea palm (not to be confused with the southern sea palm) or palm seaweed, is a species of kelp and classified within brown algae.  The sea palm is found along the western coast of North America, on rocky shores with constant waves.  It is one of the few algae that can survive and remain erect out of the water; in fact, it spends most of its life cycle exposed to the air.  It is an annual, and edible, though harvesting of the alga is discouraged due to the species' sensitivity to overharvesting.
+
+
+== History ==
+
+The sea palm was known by the natives of California by the name of kakgunu-chale before any Europeans entered the region.  Postelsia was first scientifically described by Franz Josef Ruprecht (1814–1870) in 1852 from a specimen found near Bodega Bay in California. Ruprecht, an Austro-Hungarian who became curator of botany at the Academy of Sciences in St. Petersburg in 1839, studied seaweed specimens collected by botanist Ilya Vosnesensky, and published a paper describing one seagrass and five seaweeds, one of which was Postelsia. The sea palm has been used by several textbooks, such as the Campbell–Reece Biology textbook, as an example of multicellular protists, as well as an example of the class Phaeophyceae.
+
+
+== Etymology ==
+The generic name, Postelsia honors Alexander Philipov Postels, an Estonian-born geologist and artist who worked with Ruprecht, while the specific name, palmaeformis, describes the alga's superficial similarity in appearance to true palms.
+
+
+== Fossil record ==
+Fossils from Monte Bolca, a lagerstätte near Verona, were originally named Zoophycos caput-medusae and previously thought to be trace fossils, but were later found to be plants instead and given the name Algarum by French zoologist Henri Milne-Edwards in 1866.  The type specimen collected by Italian paleobotanist  Abramo Bartolommeo Massalongo before 1855 is at the Natural History Museum of Verona and was preserved in a lithographic limestone upper and lower slab.When Italian botanist Achille Forti (1878–1937) worked on the specimens in 1926, they were reinterpreted as close relatives of Postelsia, now known to be a brown algae, which had lived in the coastal waters of the Eocene sea. Forti renamed the species Postelsiopsis caput-medusae commemorating the fossils' extreme similarity to the extant Postelsia palmaeformis.  The appearance of the plant fossil is a holdfast on the bottom, with a stem-like stipe between there and the fronds which are about 5 centimetres (2.0 in) to 10 cm (3.9 in). In life, the fronds would have hung vertically whenever the plant was submerged during high tide, and would have flopped over the stipe when the plant was exposed during low tide in a habitus similar to that of the living sea palm.
+Other specimens from this deposit collected and described by Massalongo in 1855 were actually trace fossils, and they remain assigned to Zoophycos; only the specimens of Z. caput-medusae have been assigned to Postelsiopsis, as those are fossils of the original plant, and not trace fossils.
+
+
+== Morphology ==
+
+Postelsia has two distinct morphologies: one for its diploid, monoicous sporophyte stage, which is the dominant portion of the life cycle, and one for its smaller, haploid, dioecious gametophyte stage.  Like all seaweeds, the sporophyte stage of Postelsia consists of a thallus, which is made up of a stem-like stipe topped with possibly over 100 leaf-like blades, and rests on a root-like holdfast.  The holdfast anchors the organism to the rocks it lives on.  The sea palm has no vascular system; the stipe is only for support of the organism and holds the fronds up over other organisms so they can receive more light.  The stipe is merely a firm, hollow tube, able to withstand the open air of low tide conditions as well as the crashing waves of high tide.  The blades are grooved, with the sporangia held within these grooves.  The gametophyte stage is microscopic, consisting of only a few cells.  The gametophytes produce sperm and eggs to create new sporophytes.
+Like all phaeophytes, sea palms use the pigments chlorophyll a, chlorophyll c, fucoxanthin, and carotenes in photosynthesis.  Their cell walls are composed of alginate.  They use laminarin and mannitol for storage.
+
+
+== Life cycle and growth ==
+Like most brown algae, Postelsia goes through alternation of generations, and is an annual species. The diploid sporophyte produces, through meiosis, haploid spores, which drip down through the grooves in the blades onto the substrate, which may be mussels, barnacles, or bare rock. These spores develop, through mitosis, into small, multicellular haploid gametophytes, male and female. The male and female gametophytes create sperm and eggs, respectively. The sperm of the male reaches the female egg and fertilizes, resulting in a diploid zygote, which develops into a new sporophyte.Postelsia are green in color as juveniles, and change to a golden brown as they age, reaching a height of 50–75 cm (20–30 in).As a Postelsia alga grows, its stipe thickens in the same manner as a tree's trunk. The cells beneath the epidermis, called the meristoderm, divide rapidly to form rings of growth, again, like a tree. However, the greater flexibility of Postelsia's stipe over that of a woody tree makes for some distinct differences. Postelsia must be thicker than a tree of equal height in order to support itself. However, the stipe is very much more suited to the coastal habitat, as it allows the seaweed to bend with the constant wave action. Such an environment would cause the inflexible, woody tree to break.The blades of the new sporophyte grow from one or two initial blades by splitting. A tear forms in the middle of the blade at its base, which then continues along the entire length of the blade until it is split in two.
+
+
+== Habitat ==
+Sea palms are found on the rocky shores of western North America, from as far north as Vancouver Island, to the southern central coast of California.  They live in the middle to upper intertidal zones in very wavy areas.  High wave action may increase nutrient availability and moves the blades of the thallus, allowing more sunlight to reach the organism so that it can photosynthesize.  In addition, the constant wave action removes competitors, such as the California mussel.  Recent studies have shown that Postelsia grows in greater numbers when such competition exists. A control group with no competition produced fewer offspring than an experimental group with mussels; from this it is thought that the mussels provide protection for the developing gametophytes.  Alternatively, it is thought that the mussels may prevent the growth of competing algae such as Corallina or Halosaccion, allowing Postelsia to grow freely after wave action removes the mussels.
+ When Postelsia release their spores, they tend to fall within a few meters of the parent sporophyte for two reasons.  The first is that though spores are flagellated and can swim, they are often released at low tide and are deposited directly to the substrate below.  Secondly, Postelsia gametophytes need to be close to each other in order for fertilization to occur.  As such, sea palms tend to live very close to each other in large aggregations.  Some juvenile sporophytes will grow on competing organisms, like mussels or barnacles, and rip them from the rocks when the waves come, gripping them with holdfasts of incredible strength.
+
+
+== Epiphytes ==
+Two other, smaller brown algae, of the family Ectocarpaceae, Ectocarpus commensalis and Pylaiella gardneri, as well as the two red algae Microcladia borealis and Porphyra gardneri, are epiphytic on Postelsia.  Pylaiella gardneri is an obligate epiphyte to Postelsia.  As with all epiphytes, these algae are not harmful to Postelsia, and merely use the larger alga as a substrate to grow upon.
+
+
+== Edibility ==
+
+The blades (and less often, the stipes) of Postelsia are sometimes used in certain dishes, usually in California. Postelsia is a protected species, however, and harvesting it is illegal throughout much of its range, as clipping the blades too low, below the meristem, prevents reproduction. Postelsia can regenerate blades cut above the meristem, but removing the blades can limit a sporophyte's ability to produce spores and contribute to subsequent populations. Postelsia has also been in danger of overharvesting at some points. It is illegal to harvest Postelsia in British Columbia, Washington and Oregon. In California, Postelsia is a partially protected species: recreational harvesting is illegal, but commercial harvesting is legal.  Between 2000 and 2001, an estimated 2 to 3 tons of Postelsia were harvested in California.  The blades are eaten raw or are dried, and dried blades sell for up to US$45 per pound.  Commercial harvesters of Postelsia must purchase a $100 license, pay a royalty to the State of California ($24 per wet ton of algae harvested), and submit a monthly harvest log.An experiment done to try to prove or disprove the claims of Postelsia harvesters that their gathering methods are sustainable yielded results stating that recovery from collection depended greatly on the season of collection.
+
+
+== See also ==
+Algae
+Brown algae
+
+
+== References ==
+
+
+== External links ==
+Postelsia palmaeformis Ruprecht at AlgaeBase

@@ -1,0 +1,29 @@
+The purple sea urchin, Strongylocentrotus purpuratus, lives along the eastern edge of the Pacific Ocean extending from Ensenada, Mexico, to British Columbia, Canada.  This sea urchin species is deep purple in color, and lives in lower inter-tidal and nearshore sub-tidal communities. Its eggs are orange when secreted in water.  January, February, and March function as the typical active reproductive months for the species.  Sexual maturity is reached around two years.It normally grows to a diameter of about 10 cm (4 inches) and may live as long as 70 years.
+
+
+== Role in biomedical research ==
+While embryonic development is still a major part of the utilization of the sea urchin, studies on urchin's position as an evolutionary marvel have become increasingly frequent. Orthologs to human diseases have led scientists to investigate potential therapeutic uses for the sequences found in Strongylocentrotus purpuratus. For instance, in 2012, scientists at the University of St Andrews began investigating the "2A" viral region in the S. purpuratus genome which may be useful for Alzheimer's disease and cancer research. The study identified a sequence that can return cells to a 'stem-cell' like state, allowing for better treatment options. The species has also been a candidate in longevity studies, particularly because of its ability to regenerate damaged or aging tissue. Another study comparing 'young' vs. 'old' suggested that even in species with varying lifespans, the 'regenerative potential' was upheld in older specimens as they suffered no significant disadvantages compared to younger ones.
+
+
+== Genome ==
+The genome of the purple sea urchin was completely sequenced and annotated in 2006 by teams of scientists from over 70 institutions including the Kerckhoff Marine Laboratory at the California Institute of Technology as well as the Human Genome Sequencing Center  at the Baylor College of Medicine. A new improved version of the purple sea urchin, Strongylocentrotus purpuratus v5.0 is now available on Echinobase. S. purpuratus is one of several biomedical research model organisms in cell and developmental biology. The sea urchin is the first animal with a sequenced genome that (1) is a free-living, motile marine invertebrate; (2) has a bilaterally organized embryo but a radial adult body plan; (3) has the endoskeleton and water vascular system found only in echinoderms; and (4) has a nonadaptive immune system that is unique in the enormous complexity of its receptor repertoire.The sea urchin genome is estimated to encode about 23,500 genes. The S. purpuratus has 353 protein kinases, containing members of 97% of human kinase subfamilies. Many of these genes were previously thought to be vertebrate innovations or were only known from groups outside the deuterostomes. The team sequencing the species concluded that some genes are not vertebrate specific as thought previously, while other genes still were found in the urchin but not the chordate.
+The genome is largely non-redundant, making it very comparable to vertebrates, but without the complexity. For example, 200 to 700 chemosensory genes were found that lacked introns, a feature typical of vertebrates. Thus the sea urchin genome provides a comparison to our own and those of other deuterostomes, the larger group to which both echinoderms and humans belong. Sea urchins are also the closest living relative to chordates. Using the strictest measure, the purple sea urchin and humans share 7,700 genes. Many of these genes are involved in sensing the environment, a fact surprising for an animal lacking a head structure.
+The sea urchin also has a chemical 'defensome' that reacts when stress is sensed to eliminate potentially toxic chemicals. S. purpuratuses' immune systems contains innate pathogen receptors like Toll-like receptors and genes that encode for LRR . There were genes identified for Biomineralization that were not counterparts of the typical human vertebrate variety SCCPs, and encode for transmembrane proteins like P16. Many orthologs exist for genes associated with human diseases, such as Reelin (from Norman-Roberts lissencephaly syndrome) and many cytoskeletal proteins of the Usher syndrome network like usherin and VLGR1.Increasing carbon dioxide concentrations affect the epigenome, gene expression, and phenotype of the purple sea urchin. Carbon dioxide concentration also reduces the size of its larvae, which indicates that fitness of the larvae could be negatively impacted.
+
+
+== Ecology and economics ==
+The purple sea urchin, along with sea otters and abalones, is a prominent member of the kelp forest community. Sea urchins have been used for food by the indigenous peoples of California, who ate the yellow egg mass raw. The purple sea urchin also plays a key role in the disappearance of kelp forests that is currently occurring due to climate change.In California, the peak gonad growth season (and therefore peak of edibility) is September–October. Early in the season, the gonads are still growing and the yield will be smaller. From November onwards the gonads are developed, however harvesting stress can induce spawning, decreasing quality.
+
+
+== See also ==
+Arbacia punctulata, the Atlantic purple sea urchin
+
+
+== References ==
+
+
+== External links ==
+Strongylocentrotus purpuratus information
+Echinoderm Genome Information Web System
+The Strongylocentrotus purpuratus genome at the UCSC Genome Browser
+Photos of Strongylocentrotus purpuratus on Sealife Collection

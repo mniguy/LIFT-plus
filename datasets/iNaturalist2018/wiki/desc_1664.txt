@@ -1,0 +1,126 @@
+The diamondback moth (Plutella xylostella), sometimes called the cabbage moth, is a moth species of the family Plutellidae and genus Plutella. The small, grayish-brown moth sometimes has a cream-colored band that forms a diamond along its back.  The species may have originated in Europe, South Africa, or the Mediterranean region, but it has now spread worldwide.The moth has a short life cycle (14 days at 25 °C), is highly fecund, and is capable of migrating long distances. Diamondback moths are considered pests as they feed on the leaves of cruciferous crops and plants that produce glucosinolates. However, not all of these plants are equally useful as hosts to the moth. Because of this, studies have suggested using wintercress as a trap crop around agricultural fields because diamondback moths are highly attracted to that plant but their larvae fail to survive when eggs are laid on it.Originally, pesticides were used to kill the moths but diamondbacks have developed resistance to many of the common chemicals. For this reason, new biological and chemical controls, as well as different planting methods are being pursued to reduce the destruction caused by the moths.
+
+
+== Description ==
+This small moth is colored gray and brown. It can potentially identified by a cream-colored band that may be present in the shape of a diamond on its back. The diamondback moth has a wingspan of about 15 mm and a body length of 6 mm. The forewings are narrow, brownish gray and lighter along the anterior margin, with fine, dark speckles. A creamy-colored stripe with a wavy edge on the posterior margin is sometimes constricted to form one or more light-colored diamond shapes, which is the basis for the common name of this moth. The hindwings are narrow, pointed toward the apex, and light gray, with a wide fringe. The tips of the wings can be seen to turn upward slightly when viewed from the side. The antennae are pronounced.
+
+
+== Geographic range ==
+The diamondback moth has a global distribution and is found in Europe, Asia, Africa, the Americas, Australia, New Zealand, and the Hawaiian Islands. It is said by some experts to be the most widely distributed of all Lepidoptera, but despite tremendous interest in limiting the damage it causes, the actual available data is inadequate. It probably originated in Europe, South Africa, or the Mediterranean region, but the exact migration path is not known. However, in North America it was observed in Illinois in 1854, and then found in Florida and the Rocky Mountains by 1883. Although diamondback moths cannot overwinter effectively in cold climates, it was found in British Columbia by 1905 and is now present in several Canadian regions.
+
+
+== Parental care ==
+
+
+=== Oviposition ===
+Diamondback moths prefer the cabbage plant, from the plant species Brassica oleracea, as their host plant.  The females lay eggs only on the leaves of the cabbage and do not discriminate between young and more developed leaves. However, females are more likely to deposit their eggs on a host with larval infestation. It is not fully known why females do not choose the uninfested host, but it is thought that a specific, attractive odor is emitted by the infested host.Female diamondback moths use both gustatory and olfactory stimuli to determine where to lay their eggs. When both stimuli are available, more eggs are deposited. If gustatory stimuli or both gustatory and olfactory signals are absent, female moths will not lay their eggs.  However, if only olfactory signals are absent, oviposition will continue.
+
+
+== Host plant learning and selection for egg laying ==
+
+
+=== Host plants ===
+Host plant selection is crucial because diamondbacks spend the majority of their life near their host plant. The diamondback moth lays its eggs only on plants in the family Brassicaceae. Nearly all cruciferous vegetable crops are attacked, but some are favored over others.
+These include 
+
+ 
+Several wild species in the family also act as hosts, especially early in the season when cultivated crops are unavailable. The egg-laying females have been reported to recognize chemicals in the host plants, glucosinolates and isothiocyanates, that are characteristic of the family Brassicaceae (but also occur in some related families). These chemicals were found to stimulate oviposition, even when applied to a piece of paper. One plant species that contains the egg-laying cues is wintercress, Barbarea vulgaris. Indeed, diamondback moth females lay eggs on this plant species, but the newly hatched larvae die due to the effects of additional natural plant chemicals called saponins.
+
+
+=== Odor ===
+Different behaviors occur before a female diamondback moth deposits her eggs. While virgin and mated females both have the same sensitivity to a host plant's odor, pregnant diamondback females are more strongly drawn and sensitive to it because they are in search of a place to lay their eggs.Diamondbacks are nocturnal and use their olfactory system to discover the host plant odor. Additionally, in order to search for the host odor, they rotate their antennas. When the host odor is not present or in low concentrations the moth spends more time rotating its antennas. A moth has increased antennal rotation activity when it is near an uninfested host when compared to an infested host which indicates that the damaged host leaves emit a stronger odor.
+
+
+=== Taste and touch ===
+Antennation occurs when the moth hits its antennae on the leaf. This behavior is likely used to taste the host site. Only after antennation will the moth sweep its ovipositor across the site of deposition in order to gather more information about the host. Because the female moths lay their eggs one at a time and prefer crevices, they search for grooves on the leaves. The crevices may offer protection and easy access to food sources. However, grooves on leaves do not determine when oviposition occurs, but they may play a higher role in egg placement.
+
+
+== Life cycle ==
+
+
+=== Eggs ===
+The eggs are oval and flattened, measuring 0.44 mm long and 0.26 mm wide. They are yellow or pale green at first, but darken later. They are laid singly or in groups of two to eight eggs in depressions on the surface of leaves. Females may deposit up to 300 eggs in total, but average production is probably half that amount. The larvae emerge from the eggs in about six to seven days.
+
+
+=== Larvae ===
+The larvae have four instars, each with an average development time of about four days. The larval body form tapers at both ends. The larvae have a few short black hairs and are colorless in the first instar, but pale or emerald green with black heads in later instars. Of the five pairs of prolegs, one protrudes from the posterior end, forming a distinctive "V". The larvae are quite active, and when disturbed, may wriggle violently, move backward, and spin a strand of silk from which to dangle.The feeding habit of the first instar is leaf mining, although they are so small, the mines are difficult to detect. The larvae emerge from these mines to moult and subsequently feed on the lower surface of the leaf. Their chewing results in irregular patches of damage, though the upper leaf epidermis is often left intact. These irregular patches are called window panes.
+
+
+==== Sex pheromone effect on larvae ====
+When female diamondback moths lay their eggs, some of their sex pheromones are left behind on the leaves. Diamondback larvae are attracted to the major component of this species-specific pheromone, which is (Z)11-hexadecenal. For larvae, the sex pheromone is a foraging indicator, rather than a mating attractant so they use it to find a healthy source of food and avoid competition for food from other species on the host plant. After the fourth instar, larvae are no longer attracted to the sex pheromone for food sources.
+
+
+=== Pupa ===
+The yellowish pupae are about 8 mm long and are wrapped in a loose silk cocoon. They are usually found on the lower or outer leaves of the food plant, but on cauliflower and broccoli, pupation may occur in the florets. It is possible for a pupa to fall off of its host plant. The pupal stage lasts on average for about eight days, but ranges from five to fifteen days. Before emergence occurs, pupa will turn from a yellowish color to a browner color.
+
+
+=== Adult ===
+The lifespan averages three to four weeks for females, but less for males. These moths are weak fliers, seldom rising more than 2 m above the ground and not flying long distances. They are, however, passive migrants, being easily transferred by wind over long distances. Diamondback moths overwinter as adults among field debris of cruciferous crops, and active adults may be seen during warm periods at any time during the winter in temperate areas. They do not survive cold winters and reinvade colder areas each spring, being carried there by the wind. Moths are active usually at twilight and at night, feeding on flowers of cruciferous plants, but they also fly in the afternoon during mass outbreaks.
+
+
+== Enemies ==
+
+
+=== Predators and parasites ===
+The agriculture industry has been trying to find biological and natural ways to eliminate the diamondback moth especially since the moths have become resistant to pesticides. Common enemies of the moth include the parasitoids Trichogramma chilonis and Cotesia plutella and the predator Chrysoperla carnea, or lacewings.  Lacewings feed on eggs and young larvae, while the parasitoids only feed on the eggs. These organisms can recognize diamondback sex pheromones, larval frass odors, and green leaf volatiles emitted from cabbage. Cabbage odors in combination with the sex pheromone are particularly capable of attracting the predators and parasitoids, which will then consume the diamondback larvae and eggs.
+
+
+== Mating ==
+
+
+=== Pheromones ===
+Female diamondback moths secrete a sex hormone that attracts males who have developed an olfactory system that can detect female sex hormones from a long distance. Female sex pheromone emission, courtship, and mating occur near the host plant and may be enhanced due to host cues.Climate plays a role in the body size of the diamondback both. However, regardless of the climate, even a few days of high temperatures can lead to lower reproductive success in females. It is possible that high temperatures can decrease the concentration of sex pheromones released by female, thereby delaying the time for mating.
+
+
+=== Number of mates ===
+Multiple mating can be beneficial to certain species because it allows for increased reproduction and a variety of genes in offspring. In some cases, females prefer multiple matings because it increases their lifespan as they receive nutrients from males during copulation. It is possible for diamondback moths to mate multiple times, but monogamy seems to be more common. When males have more than one mate, they do not receive any benefit. In fact, their fitness and lifespan decreases along with the success rate of reproduction. Additionally, females who mate with multiple mated males, experience decreased longevity and fecundity. Copulation duration has also been shown to increase when males mate multiple times. A longer mating time is disadvantageous to diamondback moths as it leaves the diamondback moth open to predation and injury from copulation.While male diamondbacks can mate multiple times, females show a clear preference for mating once. One of the reasons may be that female diamondback moths only need one mating event to fertilize all of her eggs. The females do this by securing extra sperm from the single mating and creates a spermatophore. In addition, a female can deter disadvantageous multiple mating by forming a mating plug.
+
+
+== Interaction with humans ==
+
+
+=== Pest of crops ===
+DBM is the worst pest of Brassicas in the world, and an increasing problem in canola. Larvae damage leaves, buds, flowers, and seed buds of cultivated cruciferous plants. Although the larvae are small, they can be very numerous and cause complete removal of foliar tissue except for the leaf veins. This is damaging to young seedlings and may disrupt head formation in cabbage, broccoli, and cauliflower. The presence of larvae in florets can result in complete rejection of the produce. The diamondback moth is considered a pest in areas that do not experience very cold winters, as these help to reduce adult activity and kill off overwintering moths. It is considered an especially significant issue in China, as it has been argued that Chinese cabbage represents the country's most significant vegetable crop.
+
+
+==== Pesticide resistance ====
+The diamondback's lack of natural enemies, such as parasitoids, may be accounted for by the widespread use of insecticides in the 1950s. The diamondback was not recognized as DDT-resistant until 1953, and broad-spectrum use of insecticides did not begin until the late 1940s. By the 1980s, resistance to pyrethroids had developed. Limiting broad spectrum insecticide use and particularly elimination of pyrethroid use, can increase survival and propagation of diamondback parasitoids, Microplitis plutellae, Diadegma insulare, and Diadromus subtilicornis.The diamondback moth was the first insect found to have become resistant to biological control by the Bt toxin  (from Bacillus thuringiensis) in the field. Bt toxin is poisonous when ingested by insects but not mammals, so it was used to target low infestation levels of the moth. Research has shown that the diamondback moth has an autosomal ressessive gene that provides resistance to four specific types of B. thuringiensis (Cry1Aa, Cry1Ab, Cry1Ac, and Cry1F). Trichoplusia ni (cabbage looper) is the only other insect to have developed resistance to Bt toxin in agricultural systems, specifically in greenhouses.
+
+
+==== Other controls ====
+Rainfall and irrigation can kill larvae. The cultural practice of intercropping in China could serve to reduce the number of diamondback larvae on cruciferous plants. However, it does not always lead to a reduction of the damage. It has been suggested that sex pheromones and host odors could be manipulated to attract and trap diamondback moths as a means of chemical management.
+
+
+== Climate effects ==
+Seasonal temperature changes lead to differences in body size of the diamondback moths. Warmer temperatures lead to smaller bodies whereas colder temperatures lead to the development of larger bodies. The larger moths have a greater flight ability, longevity, and reproductive performance when compared to the smaller moths. Therefore, long-distance migration tends to occur in the spring rather than midsummer as a greater number of large moths are available and capable of flying.
+
+
+== Integrated pest control ==
+
+
+=== Potential cultural practices ===
+Firstly, inter-cropping is good for reducing pests. Because of the biological diversity, two or more crops can be planted in one field, which can reduce fertilization or pesticide use, making planting the most profitable, and producing higher quality cabbage or increasing yield. High and low growing Trifolium pratense was used to inter-plant cabbage and compared with cabbage alone. It was concluded that only inter-cropping with the high-growing red clover could reduce the number of eggs produced by the diamondback moth.Secondly, planting time can be considered, because pest populations are affected by seasonal factors. For example, during wet periods, the infection rate of the diamondback moth is very low. As a result, growing cruciferous plants during wet seasons can effectively reduce pesticide use. Thirdly, crop rotation could be used; cruciferous vegetables can be rotated with melons, fruits, onions and garlic resulting in a break in the food chain of the diamondback moth generations. In addition, maintaining clean cabbage field hygiene is a simple but important pest control and prevention measure. A clean growing environment can greatly reduce the likelihood of infection. Before farming, for example, the soil can be ploughed and exposed to the sun for at least a week. This helps to clear the diamondback moth and strengthen the quality of the soil.
+
+
+=== Potential physical and mechanical practices ===
+Blue-light traps can catch a lot of adult diamondback worms.[adult worms?  Clarify?] Setting up a trap on top of the cabbage can effectively slow the encroachment of the resistant diamondback moth.
+
+
+=== Potential biological control options ===
+1. Introduction of natural enemies which feed on the larvae, thereby reducing numbers. Although they usually only have a noticeable effect in the later stages of crop growth and can kill up to 70% of their prey. Wasps and spiders are considered common predators. The introduction of natural predators can be one of the most effective ways of both stabilizing ecosystems and managing pests.2. The homologous gene of Plutella xylostella was knocked out i.e. changed. This is a genetically-based approach that requires precise research to identify suitable genetic targets. Using the CRISPR/Cas9 system as a targeted gene to identify the abdominal segment, thus removing the harmful homologous gene (gene for cruciferous preference) in the diamondback moth. Field trials conducted by the UK biotechnology company Oxitec, released between 1,000 and 2,500 genetically modified males to a crop in New York state, during August and September 2017 on six occasions. When the male GM moths mated with wild females all the resulting female larvae died. Following pupation of the male larvae, the moths passed on their lethal gene to their offspring, with about half of GM males dying in each generation, resulting in the gene disappearing in a few years and not persisting in the wild.
+
+
+=== Potential chemical control options ===
+The method of chemical control is to use pesticides to prevent damage to cabbage fields when larva populations exceed economic thresholds. The pests are controlled during the germination period, and the crops ripen quickly, so the diamondback moth doesn't grow in large numbers. It is more effective to apply insecticide when larval population is high. Since pesticides are difficult to kill larvae and pupae, sufficient pesticides must be used. Make sure there is adequate coverage. The diamondback moth is most active at dusk or at night, when the insecticide is most effective. In addition, avoiding coverage of flowering crops can minimize damage to bees and other pollinated insects
+
+
+== References ==
+
+Furlong, Michael J.; Wright, Denis J.; Dosdall, Lloyd M. (2013-01-07). "Diamondback Moth Ecology and Management: Problems, Progress, and Prospects". Annual Review of Entomology. Annual Reviews. 58 (1): 517–541. doi:10.1146/annurev-ento-120811-153605. ISSN 0066-4170. PMID 23020617. S2CID 44687189.
+Furlong, Michael J.; Wright, Denis J.; Dosdall, Lloyd M. (2013-01-07). "Diamondback Moth Ecology and Management: Problems, Progress, and Prospects - Supplemental Material". Annual Review of Entomology. Annual Reviews. 58 (1): 1. ISSN 0066-4170.
+
+
+== External links ==
+diamondback moth on the UF / IFAS Featured Creatures Web site
+Plutella xylostella (Linnaeus, 1758) Diamond Back or Cabbage Moth Coffs Harbour Butterfly House, NSW, Australia. Updated January 2014
+R. Srinivasan; Anthony M. Shelton; Hilda L. Collins (1 April 2011), The Sixth International Workshop on Management of the Diamondback Moth and Other Crucifer Insect Pests. AVRDC-WorldVegetableCenter. ISBN 978-92-9058-190-1 Download link

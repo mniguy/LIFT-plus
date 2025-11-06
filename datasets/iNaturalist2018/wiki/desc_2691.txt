@@ -1,0 +1,65 @@
+The Cascades frog (Rana cascadae) is a species of frog in the family Ranidae found in the Pacific Northwest, mainly in the Cascade Range and Olympic Mountains.
+
+
+== Description ==
+
+
+=== Appearance ===
+The Cascades frog has a green to brown color on its back and a light yellow on its throat and belly. A range from a few to about 50 gray spots are located on its back. Depending on the situation, the spots may change color from the lighter gray/brown to a darker black spot. The colors on the frog's back are also used to attract mates. The shape of the frog's head is most commonly an oval with the mouth coming out to a slight specific point. Adult frogs range from 50 to 65 mm in length.
+
+
+=== Voice ===
+The advertisement call of the R. cascadae is a faint series of low, grating, clucking noises. Calls are produced at night and during the day from above and under the water.
+
+
+== Habitat ==
+The Cascade frog was first discovered in the Cascade Mountains in the California regions. It can be found throughout the Cascade Mountains from Washington through Oregon, and California. They concentrate heavily around the volcanic area of the peaks. Its natural habitats are temperate forests, temperate grassland, rivers, swamps, freshwater lakes, intermittent freshwater lakes, freshwater marshes generally between 665 and 2,450 m (2,182 and 8,038 ft) in elevation. The range may extend lower in Washington. They can be found in relatively small, permanent and temporary ponds also found along streams in summer. The adults generally stay close to water, particularly along sunny shores, under dry summer conditions, but can be found traversing uplands during high humidity.
+
+
+== Behavior ==
+
+
+=== Reproduction ===
+Cascades frogs lay their eggs May 20 through July 10, depending on when the snow melts and creates ponds in which the eggs are laid. First, egg masses are deposited in comparatively warm water along gradually sloping shorelines, often over soft substrates protected from severe wave action. Females can only breed once a year, but whether they skip years remains unknown. A single female will lay up to 425 eggs at a time, but very few tadpoles will live past their first year. The placement of clusters of egg masses in shallow water soon after the first thaw can make them susceptible to freezing and pathogen transmission between clusters. The eggs hatch within eight to 20 days. Their larval period lasts 80 to 95 days. Most frogs  reach their full size after three years, after which they become fertile and can begin mating. Adults appear to use the same breeding sites for several years.
+
+
+=== Diet ===
+Larvae are thought to be primarily benthic feeders, but specific preferences are not well known. The diets of the adult Cascades frogs are poorly known, as well, but they are thought to consume a variety of invertebrate prey and will occasionally consume other frogs and tadpoles.
+
+
+== Population ==
+
+Females have a higher mortality rate than the males, but both are believed to live over five years, sometime reaching up to seven.
+Recently, a decline in the Cascade frog species has occurred, but the declines are not too serious, and usually only occur in the southern part of this frog's range. Causes are not fully known, but introduced predators such as trout and bullfrogs, UV-B radiation, diseases, and loss of open meadow habitat due to fire suppression have been suggested. Fertilizers such as urea may also pose a threat to the Cascades frogs, because the juveniles were not capable of sensing and avoiding toxic levels in laboratory studies.
+
+
+=== Predation ===
+The main predators of the Cascades frogs are the raccoon, mink coyote, water bugs (Belostomatidae), garter snakes (Thamnophis sirtalis), and several bird species, such as the sharp shinned hawks, owls, Canada jays, and American robin. The long-toed salamander and adult R. cascadae frogs are predators to the eggs and tadpoles, as well.
+
+
+== Pharmacology ==
+To guard itself from other microorganisms that live in the environment, the Cascades frog produces high concentrations of antimicrobial peptides it secretes from its skin in response to infection or stress. According to Conlon, "frogs belonging to the genus Rana represent a particularly rich source of peptides with diverse structures and specificities against micro-organisms". He began testing the frog secretions to determine whether or not the peptides would have an effect on bacteria that attack human cells. He found the chemical ranatuerin-2CSa, which is produced by R. cascadae, impeded the growth of E. coli and S. aureus in humans. These anti-infective agents give the Cascades frogs “therapeutic potential for the future”, according to Conlon.
+A drawback of the R. cascadae peptide, however, is it acts as a blood thinner for humans and decreases the supply of oxygen in the bloodstream. A recently discovered chemical, D-lysine, was produced by adding amino acids to the peptides to help decrease the toxicity to the human cells. It is a substitute for ranatuerin-2CSa, which makes analogs of naturally occurring peptides that lack significant hemolytic activity. Since the strength of the blood thinning properties is greatly reduced, it is almost harmless to humans.
+
+
+== References ==
+Blaustein, A. R., T. S. Garcia, D. J. Paoletti. Correlated trait response: comparing amphibian defense strategies across a stress gradient. Canadian Journal of Zoology Vol. 87 Issue 1. (Jan 2009):41-49.
+Briggs, Jeffrey L. and Robert M. Storm. “Growth and Population Structure of the Cascade Frog, Rana cascadae Slater” Herpetologica, Vol. 26, No. 3 (Sep. 1970): 283-300
+Case, Susan M. “Biochemical Systematics of Members of the Genus Rana Native to Western North America” Systematic Zoology, Vol. 27, No. 3 (Sep., 1978): 299-311
+Conlon, J. Michael, Anusha P. Subasinghage, Chandralal M. Hewage. “Conformational analysis of the broad-spectrum antibacterial peptide, ranatuerin-2CSa: Identification of a full length helix–turn–helix motif”. Proteins & Proteomics. Vol. 1784 Issue 6 (June 2008):924-929
+Conlon, J. Michael, et al. “Peptide defenses of the Cascades frog Rana cascadae: implications for the evolutionary history of frogs of the Amerana species group”. Peptides Vol. 28 Issue 6. (June 2007):1268-1274
+Davidson, Carlos. Booklet to the CD Frog and Toad Calls of the Pacific Coast - Vanishing Voices. Cornell Laboratory of Ornithology, 1995.
+Hammerson, G.; Pearl, C. (2004). "Rana cascadae". IUCN Red List of Threatened Species. 2004: e.T19176A8847565. doi:10.2305/IUCN.UK.2004.RLTS.T19176A8847565.en.
+Hillis, D.M. & Wilcox, T.P. (2005): Phylogeny of the New World true frogs (Rana). Mol. Phylogenet. Evol. 34(2): 299–314. doi:10.1016/j.ympev.2004.10.007 PDF fulltext.
+Hillis, D. M. (2007) Constraints in naming parts of the Tree of Life. Mol. Phylogenet. Evol. 42: 331–338.
+2006 IUCN Red List of Threatened Species.  Downloaded on 23 July 2007.
+Kleiner, Kurt. “Multiple killers”. New Scientist. Vol. 165 Issue 2227 (2006): 16
+Rollins- Smith, Louise, et al. “Antimicrobial Peptide Defenses in Amphibian Skin.” Integrative and Comparative Biology.  45 (2005):137–142
+Slater, James R. “Description and Life-History of a New Rana from Washington. Herpetologica.Vol. 1, No. 6 (Mar. 30, 1939): 145-147+149
+
+
+== Footnotes ==
+
+
+== External links ==
+Western Soundscape Archive - Cascades Frog recordings Media related to the Cascades frog at Wikimedia Commons

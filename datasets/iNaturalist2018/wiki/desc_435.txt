@@ -1,0 +1,31 @@
+Icerya purchasi (common name: cottony cushion scale) is a scale insect that feeds on more than 80 families of woody plants, most notably on Citrus and Pittosporum. Originally described in 1878 from specimens collected in New Zealand as pests of kangaroo acacia and named by W.M. Maskell "after the Rev. Dr. Purchas who, [he] believe[d], first found it". It is now found worldwide where citrus crops are grown. The cottony cushion scale originates from Australia.
+
+
+== Life cycle ==
+
+This scale infests twigs and branches. The mature hermaphrodite is oval in shape, reddish-brown with black hairs, 5 mm long. When mature, the insect remains stationary, attaches itself to the plant by waxy secretions, and produces a white egg sac in grooves, by extrusion, in the body which encases hundreds of red eggs. The egg sac will grow to be two to three times as long as the body. Newly hatched nymphs are the primary dispersal stage, with dispersion known to occur by wind and by crawling. Early stage nymphs feed from the midrib veins of leaves and small twigs, and do the bulk of the damage. At each molt, they leave at the old feeding point the former skin and the waxy secretions in which they had covered themselves and from which their common name is derived. Unlike many other scale insects, they retain legs and a limited mobility in all life stages. Older nymphs migrate to larger twigs and eventually as adults to branches and the trunk. Their life cycle is highly temperature-dependent, as the length of time in each stage of life is longer in cold temperatures than high temperatures.
+In addition to the direct damage from sap sucking, the insects also secrete honeydew, on which sooty mold often grows and causes further damage to the host plant. Some ants will also consume this honeydew.
+
+
+=== Reproduction ===
+
+Males are rare in hermaphroditic species of Icerya. Males are haploid while females are diploid. Females have an ovitestis that is capable of producing both sperm and oocytes which fertilize internally to produce diploid offspring (females) through a form of hermaphroditism. The cells of the ovitestis are haploid and are derived from excess sperm during matings with males. This has been termed as 'parasitic tissue' and theoretical studies have examined this as a form of sexual conflict and have examined the possible fates and fitness consequences since females can produce daughters by mating with males or using their parasitic male cell lines. Females that lack ovitestes may preferentially invest in producing sons while females with parasitic tissue should prefer to pass on the genetic material through daughters.True males are uncommon to rare overall, and in many infestations are not present. Pure females are unknown. Self-fertilization by a hermaphrodite will produce only hermaphrodites. Matings of a male and hermaphrodite will produce both males and hermaphrodites.
+
+
+== Biological control ==
+
+Icerya purchasi is important as one of the first major successes of biological control. Importations of the vedalia ladybird (Novius cardinalis) in 1888-1889 by C. V. Riley, later head of the USDA's Division of Entomology, resulted in swift reductions of I. purchasi populations, saving the burgeoning Californian citrus industry from this destructive pest.
+A second biological control, the parasitic fly Cryptochetum iceryae has also been introduced to California as an additional control vector. Use of insecticides as a control is recommended only if no biological control species is present. Imidacloprid is especially contraindicated, since it has no effect on this species, but is very toxic to Rodolia cardinalis.
+
+
+== References ==
+
+GeneralHamon, A. B.; Fasulo, T. R. (2005). "Cottony cushion scale, Icerya purchasi Maskell". University of Florida. Retrieved 2008-07-16.
+"ARS Timeline: History of Research at the U.S. Department of Agriculture and Agricultural Research Service". USDA Agricultural Research Service. 2008-07-07. Archived from the original on 2007-07-14. Retrieved 2008-07-16. (originally published as 20th Century Insect Control in the July 1992 issue of Agricultural Research magazine)
+Baker, James R. (July 1994). "Cottony Cushion Scale". Ornamentals and Turf: Department of Entomology Insect Note. North Carolina State University. Archived from the original on 2008-05-15. Retrieved 2008-07-16.
+Fasulo, T. R.; Brooks, R. F. (June 2004) [October 1993]. "Scale Pests of Florida Citrus". Entomology and Nematology Department, Florida Cooperative Extension Service, Institute of Food and Agricultural Sciences, University of Florida. Archived from the original on 2000-05-12. Retrieved 2008-07-16.
+Grafton-Cardwell, E. E. (December 2003). "Cottony Cushion Scale". How to Manage Pests: Pests in Gardens and Landscapes. University of California Statewide Integrated Pest Management Program. Retrieved 2008-07-16.
+
+
+== External links ==
+"Life cycle stages of the Cottony Cushion Scale and Vedalia Beetle in high quality pictures" (PDF). Archived from the original (PDF) on 2009-05-09. Retrieved 2008-07-16.

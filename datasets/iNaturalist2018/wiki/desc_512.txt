@@ -1,0 +1,82 @@
+Trigona fulviventris, known by the common names "culo-de-vaca," "culo-de-señora," "mu'ul-kab," "culo-de-buey," and "culo-de-vieja," is a species of stingless bee found in neotropical regions of Central and South America. It is one of the largest and most widespread bees of its genus. They exhibit complex foraging behaviors by integrating spatio-temporal learning and flower scents. T. fulviventris has traditionally been observed to abstain from aggressive behavior with other species; however, more recent analyses have shown that T. fulviventris emit pheromones that act as attack signals particularly when related individuals are captured by predators.
+
+
+== Taxonomy and Phylogeny ==
+Trigona fulviventris was first described by Félix Édouard Guérin-Méneville in 1845. It is a member of the order Hymenoptera, which includes ants, bees, wasps, and sawflies and part of the family Apidae, which includes other bees such as bumble bees, honey bees, and orchid bees. It is further categorized in the genus Trigona, a genus of stingless bees.
+Two subspecies of T. fulviventris have been identified: T. f. fulviventris and T. f. guianae. These subspecies are distinguished by coloration; morphological studies have shown that the subspecies cannot be easily separated by strictly morphological analyses.
+
+
+== Description and identification ==
+Trigona fulviventris individuals are morphologically characterized by the expression of two projections, called tubercles on their labra as well as the presence of four mandibular teeth. The two identified subspecies of T. fulviventris, T. f. fulviventris and T. f. guianae, can be distinguished by differences in metasomal coloration. T. f. fulviventris metasoma are rust-colored with some differences in tone between individuals, while T. f. guianae metasoma and the rest of the body are black, sometimes expressing some reddish tones. T. fulviventris individuals are among the largest of their genus, ranging in size from 5 to 6.5 millimeters in length.
+
+
+=== Diet ===
+Trigona fulviventris feeds mostly on pollen and nectar. Known species of plant from which T. fulviventris feeds are Passiflora vitifolia, Pavonia dasypetala, Heliconia imbricata, Quassia amara, Dioclea, Lantana camara, Tabebuia, Asystasia, Insertia, Psychotria, Stromanthe, Justicia aurea, Heliconia tortuosa, Hibiscus rosa-sinensis, Impatiens walleriana, and Fuchsia. However, they have also been observed to forage opportunistically on fungi, dead animals, flesh, and fecal matter as well.
+
+
+=== Nests ===
+
+
+==== Exterior ====
+Trigona fulviventris nests are made in the ground, often near buttresses and roots of large trees, and have also been found in urban areas (particularly in crevices in walls of buildings). There is one entryway to each nest, which is made large enough for many individuals to pass through at once. Their nest cavities are enclosed by a thick resin bitumen. Nests are cylindrical in shape and very rigid, with no documented ornamentation.
+
+
+==== Interior ====
+Within the nest, storage pots for pollen and nectar are between 0.7 and 1.0 centimeters in diameter and are partially separated from each other. These storage pots are located to the sides of and underneath the brood. Brood cells are oval in shape and are organized in regular, horizontal combs; there are between twenty and thirty combs of brood cells in a nest on average. Brood cell construction in T. fulviventris is asynchronous.
+
+
+== Distribution and habitat ==
+Trigona fulviventris is one of the most widely distributed bees of the genus Trigona and is found in Mexico, Belize, Colombia, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama, and the Panama Canal Zone. It is more commonly found at low- and mid-altitudes and has been observed to withstand a wide range of humidities. Habitats in which T. fulviventris colonies make their homes include both tropical dry and tropical wet forests.
+
+
+== Colony cycle ==
+New T. fulviventris colonies are established in the spring every year when one or more workers from a previous colony leave their nest and begin scouting divots in tree trunks for a new nest location. These bees have been shown to mark these sites with pheromones, often leaving odor trails to lead to desirable nest locations. However, these pheromones can also attract rival T. fulviventris colonies, which can lead to aggressive encounters between the attracted workers and the new nest-initiation workers (further described in Nest Initiation Aggression below). Once it is determined which workers will inhabit the new area, gynes (reproductive females) will mate with a swarm of males mid-flight and enter the new nest to initiate a new colony.
+
+
+== Behavior ==
+
+
+=== Foraging ===
+
+
+==== Spatio-temporal learning ====
+Spatio-temporal (also called time-place) learning behavior, which is the ability of an individual to associate the time and place of an event especially in foraging, has been documented in T. fulviventris. This behavior has been observed in species only when it is beneficial for the species ecologically, and spatio-temporal learning is not observed in species where resources that individuals forage for are made continuously. The presence of spatio-temporal learning in foraging T. fulviventris bees suggests that it is an ecologically favorable behavior. T. fulviventris bees were observed to learn the locations and times of feeding events, and even arrive up to thirty minutes before the feeding event in anticipation of the food reward and stay in the location up to thirty minutes after the event. However, not all T. fulviventris workers have been observed to express this spatio-temporal learning behavior. This variation in the behavior can be attributed to differences in foraging strategies among workers in the same colony, which may suggest that differing foraging behaviors within a colony may be a more evolutionarily stable and efficient strategy.
+
+
+==== Flower constancy ====
+Individual T. fulviventris foragers were evaluated for their flower constancy with respect to floral scent and were shown to have definite and specific preferences for a single floral scent. In one study, between 78 and 87 percent of foragers were observed to visit flowers that had the same distinct floral scent during successive foraging events, suggesting that chemical cues are important to flower constancy. Furthermore, T. fulviventris foragers were more likely to favor the same floral scent as the first forager to return to the nest, indicating that T. fulviventris foragers carry and relay food odors to other foragers inside the nest. When presented with flowers of different coloration, foraging T. fulviventris individuals seemed to distinctly prefer one color to the others, indicating that visual components are also important to flower constancy.
+
+
+==== Scent marking ====
+Scent marking, in which bees mark flowers that have already been foraged from with a pheromone, increases foraging efficiency and has been documented in various bees including honey bees, bumblebees, and sweat bees. T. fulviventris individuals have been observed to scent-mark flowers they have already visited and reject flowers that have been visited in the preceding forty-five minutes. However, this behavior was not observed with every foraging situation; one study showed that scent-marking occurred when T. fulviventris workers visited Priva mexicana flowers, but not when they visited Crotalaria cajanifolia flowers. This indicates that scent-marking is not always the most favorable foraging strategy and is context-dependent. For instance, P. mexicana flowers are deep and require bees to climb inside the flower to reach the nectar, which is costly in terms of both time and energy; therefore, it is not worth expending energy and time on foraging on a P. mexicana flower that has already been visited. However, C. cajanifolia flowers are relatively easier to forage from, so visiting a C. cajanifolia flower that has already been visited is not as costly for a T. fulviventris worker.
+
+
+=== Defense and aggression ===
+Trigona fulviventris individuals have been observed to abstain from engaging in aggressive behaviors with individuals of other species, particularly larger species like humans. However, T. fulviventris engages in aggressive behavior with smaller arthropods as well as other T. fulviventris individuals, particularly those of other colonies, especially during nest initiation.
+
+
+==== Alarm signals ====
+The heads of T. fulviventris workers have been analyzed for the presence of chemicals that can act as pheromones and attack signals. These chemicals are stored in the individuals’ mandibular glands, and the most prominent chemicals expressed by T. fulviventris individuals are nerol (at a rate of about fifty percent) and octyl caproate (at a rate of about twenty percent). Nerol release has been shown to decrease the number of bees leaving the nest by nearly half, while increasing behaviors such as biting and wing vibration. These chemicals can also act as attraction chemicals, attracting members of the colony to an individual captured by a predator outside the nest.
+
+
+==== Attacking ====
+Many bees of the genus Trigona have been identified as expressing aggressive defense behaviors, such as biting and attacking, mediated by the release of attack pheromones from workers when intruders invade their nests. It has been widely reported that, even when large intruders invade T. fulviventris nests or nests are presented with a crushed T. fulviventris individual, there are no attacking or biting behaviors observed. However, later studies have shown that alarm responses do exist in T. fulviventris individuals, particularly in response to smaller arthropods capturing individuals outside the nest, although to a lesser extent than other, more aggressive Trigona species. These responses, which are mediated by pheromones, include leaving the nest to follow or swarm a predator that has captured an individual, as well as biting predators.
+
+
+==== Nest initiation aggression ====
+While T. fulviventris does not regularly engage in interspecific aggression, there have been many reports of aggression within the species, especially as it relates to nest initiation. As explained earlier, nest initiation occurs when one or more workers mark an attractive site with pheromones. These pheromones can attract workers from other colonies, which results in aggression between the two groups. If the two opposing colonies are represented by about the same number of workers, then the encounter results in a "stalemate" and neither group inhabits the marked site. If, however, one group is represented in much greater numbers, they are permitted to establish a new colony at the marked site. This pheromone-marking and aggression leads to the even distribution of T. fulviventris nests so as to minimize the amount of aggression between colonies (i.e. as a result of pheromone signals, no two nests are established in close proximity to lessen the likelihood of intraspecific aggression).
+
+
+=== Nestmate recognition ===
+Trigona fulviventris individuals are capable of distinguishing nestmates from non-nestmates through recognition of a range of compounds. These compounds include hydrocarbons and fatty acids that are present in T. fulviventris wax as well as locally available floral oils that are present in plant material used to construct nests.  These odor cues are important to judging which individuals are nestmates and which are not, which is necessary in determining which individuals to engage in aggressive encounters with. The amount of time that passes between the first encounter of two bees and the start of aggression between them, called mean latency, is negatively correlated with the occurrence of aggression. In other words, the longer it takes two bees to initiate aggressive behaviors, the less likely it will be that there will be aggression between them. This relationship could be a result of variations in the magnitudes of the differences in olfactory signals two bees put out. For instance, if one T. fulviventris bee has only a slightly different signal than another bee, it will take longer to analyze this difference and engage in an aggressive behavior. In contrast, a large difference in signal is more likely to be noticed immediately and aggressive behaviors can occur more quickly, decreasing the mean latency.
+
+
+=== Stinging ===
+Trigona fulviventris, like other Trigona bees, does not display stinging behavior. Some bees in the genus Trigona have been shown to harbor vestigial stinging accessories; these vestigial structures are largely absent in T. fulviventris individuals.
+
+
+== Human Importance ==
+The sticky resin used by T. fulviventris workers in building their nests has been prized by Colombian fisherman as an effective means of caulking fishing canoes that have sprung leaks.
+
+
+== References ==

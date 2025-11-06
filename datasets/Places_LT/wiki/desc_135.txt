@@ -1,0 +1,238 @@
+An escalator is a moving staircase which carries people between floors of a building or structure. It consists of a motor-driven chain of individually linked steps on a track which cycle on a pair of tracks which keep them horizontal.
+Escalators are often used around the world in places where lifts would be impractical, or they can be used in conjunction with them. Principal areas of usage include department stores, shopping malls, airports, transit systems (railway/railroad stations), convention centers, hotels, arenas, stadiums and public buildings.
+Escalators have the capacity to move large numbers of people. They can be placed in the same physical space as a staircase. They have no waiting interval (except during very heavy traffic). They can be used to guide people toward main exits or special exhibits. They may be weatherproofed for outdoor use. A nonfunctional escalator can function as a normal staircase, whereas many other methods of transport become useless when they break down or lose power.
+
+
+== Design, components, and operation ==
+
+
+=== Operation and layout ===
+
+Escalators typically rise at an angle of about 30 degrees from the ground. They move at 0.3–0.6 metres per second (1–2 ft/s) – like moving walkways – and may traverse vertical distances in excess of 18 metres (60 ft). Most modern escalators have single-piece aluminum or stainless steel steps that move on a system of tracks in a continuous loop.
+
+Different types of escalators include:
+
+parallel (up and down escalators adjacent or nearby, often seen in perpendicular areas, metro stations and multilevel movie theaters);
+multiple parallel (banks of more than one escalator going in the same direction parallel to banks going the other direction);
+crisscross (escalators going in one direction "stacked" with escalators going the opposite direction oriented adjacent but perpendicular, frequently used in department stores or shopping centers).Most countries require escalators to have moving handrails that keep pace with the movement of the steps as a safety measure. This helps riders steady themselves, especially when stepping onto the moving stairs. Occasionally a handrail moves at a slightly different speed from the steps, causing it to "creep" slowly forward or backward relative to the steps; it is only slippage and normal wear that causes such losses of synchronicity, and is not by design.The direction of escalator movement (up or down) can be permanently set, controlled manually depending on the predominant flow of the crowd, or controlled automatically. In some setups, the direction is controlled by whoever arrives first.
+
+
+=== Design and layout considerations ===
+Design factors include physical requirements, location, traffic patterns, safety considerations and aesthetics. Physical factors such as the distance to be spanned determine the length and pitch of the escalator, while factors such as the infrastructure's ability to provide support and power must be considered. How upward and downward traffic is separated and load/unload areas are other important considerations.
+Temporal traffic patterns must be anticipated. Some escalators need only to move people from one floor to another, but others may have specific requirements, such as funneling visitors towards exits or exhibits. The visibility and accessibility of the escalator to traffic is relevant. Designers need to account for the projected traffic volumes. For example, a single-width escalator traveling at about 0.5 metres per second (1+1⁄2 ft/s) can move about 2000 people per hour, assuming that passengers ride single file. The carrying capacity of an escalator system is typically matched to the expected peak traffic demand. For example, escalators at transit stations must be designed to cater for the peak traffic flow discharged from a train, without excessive bunching at the escalator entrance.
+In this regard, escalators help manage the flow of people. For example, at many airports an unpaired escalator delivers passengers to an exit, with no means for anyone entering at the exit to access the concourse.
+Escalators are often built next to or around staircases that allow alternative travel between the same two floors. Elevators are necessary for disability access to floors serviced by escalators.
+
+
+=== Components ===
+
+
+==== Landing platforms ====
+Landing platforms are the two platforms (at the two ends) that house the curved sections of the tracks, as well as the gears and motors that drive the stairs. The top platform usually contains the motor assembly and the main drive gear, while the bottom holds the return gear. These sections also anchor the ends of the escalator truss. Each platform also has a floor and a comb plate. The floor plate provides a place for the passengers to stand before they step onto the moving stairs, flush with the rest of the floor and usually hinged to allow easy maintenance access, while the comb plate lies between the stationary floor plate and the moving step, so named for the cleats on its edge which mesh with the matching cleats on each step (and resemble a comb). The interlocking cleats help to minimize the gap between the stairs and landing, preventing objects or persons from becoming caught in it.
+
+
+==== Truss ====
+The truss is the hollow metal structure that bridges the lower and upper landings, composed of two side sections joined together with cross braces across the bottom and just below the top. The ends of the truss are attached to the top and bottom landing platforms via steel or concrete supports. It carries all the straight track sections connecting the upper and lower sections.
+
+
+==== Balustrade ====
+The balustrade is composed of handrails, balustrade panels, and skirt panels:
+
+
+===== Handrail =====
+The handrail provides a handhold for passengers while they are riding the escalator. The handrail is pulled along its own track by a chain that is connected to the main drive gear by a series of pulleys, keeping it at the same speed as the steps. Four distinct sections make up the rail: at its center is a "slider", also known as a "glider ply", which is a layer of a cotton or synthetic textile that allows the rail to move smoothly along its track. The "tension member" lies on the slider and consists of either steel cable or flat steel tape, providing the handrail with tensile strength and flexibility. The inner components, on top of the tension member, are made of chemically treated rubber designed to prevent the layers from separating. Finally, the outer layer—the part that passengers see—is the cover, typically a blend of synthetic polymers and rubber. Covers are designed to resist degradation from environmental conditions, mechanical wear and tear and vandalism.
+In a factory, handrails are constructed by feeding rubber through an extrusion machine to produce layers of the required size and type in order to match specific orders. The component layers of fabric, rubber and steel are shaped by workers before being fed into the presses which fuse them together.
+In the mid-twentieth century, some handrail designs consisted of a rubber bellows, with rings of smooth metal cladding called "bracelets" between each coil. This gave the handrail a rigid yet flexible feel. Additionally, each bellows section was no more than around a metre long, so if part of the handrail was damaged, only the bad segment needed to be replaced. These forms of handrail have largely been replaced with fabric-and-rubber railings.
+
+
+===== Balustrade panel =====
+Being made of either metal, sandwich panel, or glass, the balustrade panel supports the handrails of the escalator. It also provides additional protection for the handrail and passengers. Some escalators have direction arrows on the ends of the balustrade. Escalators' on/off buttons are frequently located at the ends of the balustrade. Moving walkways often use balustrades in the same way.
+
+
+===== Skirt Panel =====
+The bottom of the balustrade is called a skirt panel. It is notorious in this art for being a frequent site of injuries and failures, due to the possible entrapment of materials (including body parts) in the machinery. Multiple solutions have been suggested for this issue, including coating with a low-friction material, employing bristles, and others.
+
+
+==== Tracks ====
+The track system is built into the truss to guide the step chain, which continuously pulls the steps from the bottom platform and back to the top in an endless loop. One track guides the front wheels of the steps (called the step-wheel track) and another guides the back wheels of the steps (called the trailer-wheel track). The relative positions of these tracks cause the steps to form a staircase as they move out from under the comb plate. Along the straight section of the truss the tracks are at their maximum distance apart. This configuration forces the back of one step to be at a 90-degree angle relative to the step behind it. This right angle forces the steps into a shape resembling a staircase. At the top and bottom of the escalator, the two tracks converge so that the front and back wheels of the steps are almost in a straight line. This causes the stairs to lay in a flat sheetlike arrangement, one after another, so they can easily travel around the bend in the curved section of track. The tracks carry the steps down along the underside of the truss until they reach the bottom landing, where they pass through another curved section of track before exiting the bottom landing. At this point, the tracks separate and the steps once again assume a staircase configuration. This cycle is repeated continually as the steps are pulled from bottom to top and back to the bottom again.
+
+
+==== Steps ====
+The steps themselves are solid, one piece, die-cast aluminium or steel. Yellow demarcation lines are sometimes added to indicate their edges. In most escalator models manufactured after 1950, both the riser and the tread of each step is cleated (given a ribbed appearance) with comb-like protrusions that mesh with the comb plates on the top and bottom platforms and the succeeding steps in the chain. Seeberger escalators featured flat treads and smooth risers; other escalator models have cleated treads and smooth risers. The steps are linked by a continuous metal chain that forms a closed loop. The front and back edges of the steps each have two wheels, the rear of which are set further apart and fit into the trailer-wheel track while the front set have narrower axles and fit the step-wheel track.
+
+
+== Safety ==
+
+Safety is a major concern in escalator design, as escalators are powerful machines that can become entangled with clothing and other items. Such entanglements can injure or kill riders. In India many women wear saris, increasing the likelihood of entangling the clothing's loose end (pallu). To prevent this, sari guards are built into most escalators in India.
+Children wearing footwear such as Crocs and flip-flops are especially at risk of being caught in escalator mechanisms. The softness of the shoe's material combined with the smaller size of children's feet makes this sort of accident especially common.Escalators sometimes include fire protection systems including automatic fire detection and suppression systems within the dust collection and engineer pit. To limit the danger caused by overheating, spaces that contain motors and gears typically include additional ventilation. Small, targeted clean agent automatic extinguishing systems are sometimes installed in these areas. Fire protection of an escalator floor opening is also sometimes provided by adding automatic sprinklers or fireproof shutters to the opening, or by installing the escalator in an enclosed fire-protected space.
+
+
+=== Accidents ===
+
+
+==== King's Cross fire ====
+
+The King's Cross fire of 1987 illustrated the demanding nature of escalator upkeep and the devices' propensity to collect "fluff" and other small debris when not properly maintained. The official inquiry determined that the fire started slowly, smoldering virtually undetected for a time, and then exploded into the ticket hall above in a previously-unrecognised phenomenon now known as the "trench effect". In the escalators' undercarriage, approximately 8,800 kilograms (19,400 lb) of accumulated detritus acted as a wick to a neglected buildup of interior lubricants; wood veneers, paper and plastic advertisements, solvent-based paint, plywood in the ticket hall, and melamine combustion added to the impact of the calamity.Following the report, older wooden escalators were removed from service in the London Underground. Additionally, sections of the London Underground that were actually below ground were made non-smoking; ultimately, the whole system became a smoke-free zone.
+
+
+==== Chongqing accident ====
+In October 2015 on a Thursday morning, a four-year-old boy suffocated and died in a Chinese train station in the city of Chongqing, China. The boy was playing with an escalator handrail when he fell and got stuck underneath it with his chest wedged between the bottom of the handrail and the ground.
+
+
+=== Litigation ===
+In the 1930s, at least one suit was filed against a department store, alleging that its escalators posed an attractive nuisance, responsible for a child's injury.
+
+
+=== Legislation ===
+
+
+==== United States ====
+Despite their considerable scope, the two Congressional Acts regarding accessibility (the Rehabilitation Act of 1973 and the Americans with Disabilities Act of 1990 (ADA)) did not directly affect escalators or their public installations. Since Section 504 of the Rehabilitation Act included public transportation systems, for a few years, the United States Department of Transportation considered designs to retrofit existing escalators for wheelchair access. Nonetheless, Foster-Miller Associates' 1980 plan, Escalator Modification for the Handicapped was ultimately ignored in favor of increased elevator installations in subway systems. Likewise, the ADA provided more accessibility options, but expressly excluded escalators as "accessible means of egress", advocating neither their removal nor their retention in public structures.
+
+
+=== Codes and regulation ===
+
+In the United States and Canada, new escalators must abide by ASME A17.1 standards, and old/historic escalators must conform to the safety guidelines of ASME A17.3. In Europe, the escalator safety code is EN 115.
+
+
+== History ==
+
+
+=== Inventors and manufacturers ===
+
+
+==== Nathan Ames ====
+
+Nathan Ames, a patent attorney from Saugus, Massachusetts, is credited with patenting the first "escalator" in 1859, despite the fact that no working model of his design was ever built. His invention, the "revolving stairs", is largely speculative and the patent specifications indicate that he had no preference for materials or potential use (he noted that steps could be upholstered or made of wood, and suggested that the units might benefit the infirm within a household use). The suggested motive power was either manual or hydraulic.
+
+
+==== Leamon Souder ====
+In 1889, Leamon Souder successfully patented the "stairway", an analogous device that featured a "series of steps and links jointed to each other". No model was ever built. This was the first of at least four escalator-style patents issued to Souder, including two for spiral designs.
+
+
+==== Jesse Wilford Reno, George A. Wheeler, and Charles Seeberger ====
+On March 15, 1892, Jesse W. Reno patented the "Endless Conveyor or Elevator." A few months after Reno's patent was approved, George A. Wheeler patented his ideas for a more recognizable moving staircase, though it was never built. Wheeler's patents were bought by Charles Seeberger; some features of Wheeler's designs were incorporated in Seeberger's prototype that was built by the Otis Elevator Company in 1899.
+Reno, a graduate of Lehigh University, produced the first working escalator (called the "inclined elevator") and installed it alongside the Old Iron Pier at Coney Island, New York City in 1896. This particular device was little more than an inclined belt with cast-iron slats or cleats on the surface for traction, and traveled along a 25 degree incline. A few months later, the same prototype was used for a month-long trial period on the Manhattan side of the Brooklyn Bridge. Reno eventually joined forces with Otis and retired once he had sold his patents. Some Reno-type escalators were still being used in the Boston subway until construction for the Big Dig (ca. 1991) precipitated their removal. The Smithsonian Institution considered re-assembling one of these historic units from 1914 in their collection of Americana, but "logistics and reassembly costs won out over nostalgia", and the project was discarded.Around May 1895, Charles Seeberger began drawings on a form of escalator similar to those patented by Wheeler in 1892. This device consisted of flat, moving stairs, not unlike the escalators of today, except for one important detail: the step surface was smooth, with no comb effect to safely guide the rider's feet off at the ends. Instead, the passenger had to step off sideways. To facilitate this, at the top or bottom of the escalator the steps continued moving horizontally beyond the end of the handrail (like a miniature moving sidewalk) until they disappeared under a triangular "divider" which guided the passenger to either side. Seeberger teamed with Otis in 1899, and together they produced the first commercial escalator. It won first prize at the 1900 Paris Exposition Universelle. Also on display at the Exposition were Reno's inclined elevator, a similar model by James M. Dodge and the Link Belt Machinery Co., and two different devices by the French manufacturers Hallé and Piat.
+
+
+==== Early European manufacturers: Hallé, Hocquardt and Piat ====
+Piat installed its "stepless" escalator in Harrods Knightsbridge store on Wednesday, November 16, 1898, though the company relinquished its patent rights to the department store. Noted by Bill Lancaster in The Department Store: a Social History, "customers unnerved by the experience were revived by shopmen dispensing free smelling salts and cognac." The Harrods unit was a continuous leather belt made of "224 pieces . . . strongly linked together traveling in an upward direction", and was the first "moving staircase" in England.Hocquardt received European patent rights for the Fahrtreppe in 1906. After the Exposition, Hallé continued to sell its escalator device in Europe but was eventually eclipsed in sales by other major manufacturers.
+
+
+==== American manufacturers and nomenclature ====
+In the first half of the twentieth century, several manufacturers developed their own escalator products, though they had to market their devices under different names, due to Otis’ hold on the trademark rights to the word "escalator." New York-based Peelle Company called their models the Motorstair, while Westinghouse called their model an Electric Stairway. The Toledo-based Haughton Elevator company referred to their product as simply Moving Stairs. The Otis trademark is no longer in effect.
+
+
+==== Mergers and buyouts: the playing field narrows ====
+Kone and Schindler introduced their first escalator models several decades after the Otis Elevator Co., but grew to dominate the field over time. Today, they, Mitsubishi, and ThyssenKrupp are Otis' primary rivals.
+Kone expanded internationally by acquisition in the 1970s, buying out Swedish elevator manufacturer Asea-Graham, and purchasing other minor French, German and Austrian elevator makers before assuming control of Westinghouse's European elevator business. As the last of the "big four" manufacturers to emerge onto the global market, Kone first acquired Montgomery Elevator company, then took control of Germany's Orenstein & Koppel Rolltreppen.In the twenty-first century Schindler became the largest maker of escalators and second largest maker of elevators in the world, though their first escalator installation did not occur until 1936. In 1979, the company entered the United States market by purchasing Haughton Elevator. A decade later, Schindler assumed control of the North American escalator/elevator operations of Westinghouse, forming Schindler's American division.
+
+
+=== Alternate designs ===
+
+
+==== Spiral/helical ====
+
+Jesse Reno also designed the first escalators installed in any underground subway system in the form of a helical escalator at Holloway Road tube station in London in 1906. The experimental device never saw public use and its remains are now in the London Transport Museum's depot in Acton.Although the first fully operational spiral escalator, Reno's design was nonetheless only one in a series of similar proposed contraptions. Souder patented two helical designs, while Wheeler drafted helical stairway plans in 1905. Seeberger devised at least two helical designs between 1906 and 1911 (including an unrealized arrangement for the London Underground), and Gilbert Luna obtained West German, Japanese, and United States patents for his version of a spiral escalator by 1973. When interviewed for the Los Angeles Times that year, Luna was in the process of soliciting major firms for the acquisition of his patents and company, but statistics are unclear on the outcome of these endeavors. Karl-Heinz Pahl received a European and a US patent for a spiral escalator in 1992.
+
+The Mitsubishi Electric Corporation was most successful in its development of spiral/helical escalators, and it alone has sold them since the mid-1980s. The world's first practical spiral escalator—a Mitsubishi model—was installed in Osaka, Japan, in 1985.Helixator, an experimental spiral/helical escalator design that currently exists as a prototype scale model, could further reduce floor space demands. Its design has several innovations that allow a continuous helix; driven by a linear motor instead of a chain system, it spreads force evenly along the escalator path, avoiding excessive force on the top chain links and hence avoiding the geometry, length, and height limits of standard escalators.Westfield San Francisco Centre, San Francisco, California, United States — is the first spiral escalator in the Western Hemisphere.
+
+
+==== Freeform ====
+Levytator, a design originating at City University in London, can move in straight lines or curves with or without rising or descending. The returning steps do not move underneath the in-use steps: rather, they provide steps for travel in the opposite direction, as in the Pahl spiral escalator patent.
+
+
+== Etymology ==
+Authors and historians have offered multiple interpretations of the source of the word “escalator”, and some degree of misinformation then proliferated. For reference, contradictory citations by seven separate individuals, including the Otis Elevator Company itself, are provided below.
+
+
+=== Name development and original intentions ===
+Seeberger trademarked the word "escalator" in 1900, to coincide with his device's debut at the Exposition universelle. According to his own account, in 1895, his legal counsel advised him to name his new invention, and he then set out to devise a title for it. As evidenced in Seeberger's handwritten documents, the inventor consulted "a Latin lexicon" and "adopted as the root of the new word, 'Scala'; as a prefix, 'E' and as a suffix, 'Tor.'" His own rough translation of the word thus created was "means of traversing from", and he intended for the word to be pronounced, "es‧ʹkæl‧ə‧tər" (es-CAL-a-tor). By 1906, Seeberger noted that the public had instead come to pronounce it "escə‧lāʹ‧tər" (es-ca-LĀ-tor)."Escalator" was not a combination of other French or Greek words, and was never a derivative of "elevator" in the original sense, which means "one who raises up, a deliverer" in Latin. Similarly, the root word "scala" does not mean "a flight of steps", but is the singular form of the plural noun "scalae", which can denote any of: "a flight of steps or stairs, a staircase; a ladder, [or] a scaling-ladder."The alleged intended capitalization of "escalator" is likewise a topic of debate. Seeberger's trademark application lists the word not only with the "E", but also with all of the letters capitalized (in two different instances), and he specifies that "any other form and character of type may be employed . . . without altering in any essential manner the character of [the] trade-mark." Otis Elevator Co. advertisements so frequently capitalized all of the letters in the word.
+
+
+=== Loss of trademark rights ===
+
+In 1950, the landmark case Haughton Elevator Co. v. Seeberger precipitated the end of Otis's exclusive reign over the word "escalator", and simultaneously created a cautionary study for companies and individuals interested in trademark retention. Confirming the contention of the Examiner of Trademark Interferences, Assistant Commissioner of Patents Murphy's decision rejected Otis’ appeal to keep their trademark intact, and noted that "the term 'escalator' is recognized by the general public as the name for a moving stairway and not the source thereof", observing that Otis had "used the term as a generic descriptive term . . . in a number of patents which [had] been issued to them and . . . in their advertising matter." All trademark protections were removed from the word "escalator", the term was officially genericized, and it fell into the public domain.
+
+
+== Extant historic escalator models ==
+
+Notable examples of historic escalators still in operation include:
+
+Europe
+St Anna Pedestrian Tunnel underneath the Scheldt river in Antwerp, Belgium, opened 1933.
+Maastunnel's bicycle/pedestrian tunnel, adjacent to its car tunnel in Rotterdam, The Netherlands, opened 1942.
+Tyne Cyclist and Pedestrian Tunnel, Tyne and Wear, England, constructed 1951.
+North America
+Macy's Herald Square department store upwards escalators, New York, U.S., opened 1920s.
+
+
+== Notable examples ==
+
+
+=== Longest systems ===
+Central–Mid-Levels escalator, 790 m (2,600 ft): in Hong Kong, tens of thousands of commuters travel each work day between Central and the Mid-Levels, a residential district over a hundred metres uphill, using this long-distance system of escalators and moving walkways. It is the world's longest outdoor escalator system (not a single escalator span). It goes only one way at a time; the direction reverses depending on rush hour traffic direction.
+A system of escalators connect Potenza, Italy, with its downhill neighbourhoods, the largest public escalator network in Europe. The longest escalator is approximately 500 m (1,600 ft) in length.
+In December 2011, a network of six escalators of 380 m (1,260 ft) length, equivalent to 28 stories high, was opened in Medellín, Colombia, offering the 12,000 residents of Comuna 13 a six-minute ride to the city center compared to the previous 35-minute climb on foot.
+Cascade, Yerevan: an escalator system of 236 m (774 ft) length and 118 m (387 ft) height.
+Ocean Park, Hong Kong: a long escalator system connecting two parts of the Park, with an overall length of 220 m (730 ft).
+
+
+=== Longest individual escalators ===
+
+
+==== World ====
+The longest escalators in the world are installed in deep underground stations of the Saint Petersburg Metro. The Ploshchad Lenina, Chernyshevskaya, and Admiralteyskaya stations have escalators up to 138 m (453 ft) long and 69 m (226 ft) high.
+The longest freestanding (supported only at the ends) escalator in the world is inside CNN Center’s atrium in Atlanta. It rises 8 stories and is 62 m (205 ft) long. Originally built as the entrance to the amusement park The World of Sid and Marty Krofft, the escalator is now used for CNN studio tours.
+
+
+==== Asia ====
+The Rustaveli station in the Tbilisi Metro has one of the world's longest escalators. It is 60 metres (197 ft) high and 120 metres (394 ft) long.
+One of the longest single escalators in Asia is Lianglukou Huangguan Escalator in Chongqing, China. It joins the Chongqing Rail Transit underground station Lianglukou with the overground railway station at Caiyuanba. The escalator is 112 m (367 ft) long and has a transit time of about 2 minutes 30 seconds. The ride costs 2 yuan. Due to the hilly nature of Chongqing, the underground railway station is at the top of the escalator while the overground station is at the bottom.
+The longest escalator in Bangkok, Thailand and Southeast Asia is in the MRT's Si Lom Station. It connects the concourse level with platform 1 which in turn connects to Hua Lam Phong. It is 43 m (141 ft) in length and 21.5 m (71 ft) in depth.
+
+
+==== Australia ====
+The longest set of single-span uninterrupted escalators in the Southern Hemisphere is at Parliament underground railway station in Melbourne. A set of four escalators run from the southern concourse down to platforms 1 and 2, with another set of three running from the northern concourse. Each are 30 metres (98 ft) long, taking about 1 minute and 25 seconds from top to bottom.
+When the Forrestfield-Airport Link is complete, the longest single-span uninterrupted escalator in the Southern Hemisphere will be a triple-wide escalator inside Airport Central railway station from the elevated Skybridge to concourse level. The escalator is 15 m high and 35 m long and was installed in June 2019 but is not yet operational.
+
+
+==== Europe ====
+Three stations in Saint Petersburg Metro have escalators up to 138 m (453 ft) long and 69 m (226 ft) high: Ploshchad Lenina, Chernyshevskaya, and Admiralteyskaya.
+In the Park Pobedy station of the Moscow Metro, the escalators are 126.8 m (416 ft) or 740 steps long, and 63.4 m (208 ft) high. It takes three minutes to transit.
+The longest escalator in Prague, and in the European Union, is at the Náměstí Míru station at 87 m (285 ft) long and 43.4 m (142+1⁄2 ft) high.
+The longest escalators in Western Europe are in the Elbphilharmonie in Hamburg with a length of 82 m (269 ft), in Helsinki Koivusaari Metro Station (76 m; 249 ft), in Helsinki Airport Railway Station (74 m; 243 ft), and at Stockholm Metro station Västra skogen (67 m; 220 ft). The new Stockholm Metro station in Nacka currently under construction will have en escalator with a length of 82 m (269 ft).
+The tallest escalator on the London Underground system is at Angel station on the Northern line with a length of 60 m (200 ft), and a vertical rise of 27 m (90 ft).
+The longest wooden escalators in the United Kingdom are at the Tyne Cyclist and Pedestrian Tunnel, with a length of 60 m (197 ft). (See above)
+The longest escalator of a European shopping mall is at MyZeil, Frankfurt, Germany, with a length of 45 m (150 ft).
+The largest "single truss escalator" is in the Bentall Centre in Kingston upon Thames in Greater London, UK. It connects the ground floor with the second floor with top and bottom supports.
+
+
+==== North and South America ====
+The longest set of single-span uninterrupted escalators in the Western Hemisphere is at Wheaton station on the Washington Metro Red Line. They are 70 m (230 ft) long with a vertical rise of 35 m (115 ft), and take nearly three-and-a-half minutes to ascend or descend without walking.
+The longest single-span escalator in a Canadian Transit system is expected to be in the Rideau station of the Confederation Line in Ottawa, currently under construction as of June 2019. The escalator will be 35.3 metres (116 ft) in length with a rise of 15.8 metres (52 ft) and 181 steps.
+
+
+=== Shortest examples ===
+According to Guinness, the shortest escalator in the world is the "Puchicalator" in the Okadaya Mores shopping mall in Kawasaki Japan. Its vertical rise is 832 mm (32+3⁄4 in) and it has 5 steps.
+
+Other short escalators include:
+
+Westfield Garden State Plaza, Paramus, New Jersey, United States — one of the shortest escalators in North America. This escalator led to the entrance of the JCPenney store. After the JCPenney closed in March 2018, the store and the escalator were walled up.
+
+
+== Etiquette ==
+
+In most major countries, the expectation is that escalator users wishing to stand keep to one side to allow others to climb past them on the other. Due to historical design purposes, riders in Canada, Germany, Hong Kong, Taiwan, the United Kingdom, France and the United States are expected to stand on the right and walk on the left. However, in Australia and New Zealand, the opposite is the case. Practice may differ from city to city within countries – in Osaka, riders stand on the right, whereas in Tokyo (and most other Japanese cities), riders stand on the left.In certain high-traffic systems, including the East Japan Railway Company and the Prague metro, escalator users are encouraged to stand on whichever side they choose, with the aim of preventing wear and tear and asymmetrical burdening. All Tokyo metro stations also have posters next to the escalators that ask users not to walk but instead to stand on either side.
+The practice of standing on one side and walking on the other may cause uneven wear on escalator mechanisms.Transport for London trialed standing on both sides (no walking) for a several month period in 2016. This increased capacity and eliminated queues approaching the escalator during peak travel times. A follow-up report was released several months later with no recommendation to continue the practice.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+A videoclip: escalators with transparent sides showing the mechanism in operation.
+Winchester, Clarence, ed. (1936), "How escalators work", Railway Wonders of the World, pp. 343–348 illustrated description of escalators on the London Underground and their advantages over lifts

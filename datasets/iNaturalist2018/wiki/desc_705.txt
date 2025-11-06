@@ -1,0 +1,779 @@
+North American moths represent about 12,000 types of moths. In comparison, there are about 825 species of North American butterflies. The moths (mostly nocturnal) and butterflies (mostly diurnal) together make up the taxonomic order Lepidoptera.
+This list is sorted on MONA number (MONA is short for Moths of America North of Mexico). A numbering system for North American moths introduced by Ronald W. Hodges, et al. in 1983 in the publication Check List of the Lepidoptera of America North of Mexico. The list has since been updated, but the placement in families is outdated for some species.
+This list covers America north of Mexico (effectively, the continental United States and Canada). For a list of moths and butterflies recorded from the state of Hawaii, see List of Lepidoptera of Hawaii.
+This is a partial list, covering moths with MONA numbers ranging from 7649 to 8321. For the rest of the list, see List of moths of North America.
+
+
+== Uraniidae and Sematuridae ==
+7649 - Epiplema incolorata
+7650 - Callizzia amorata, gray scoopwing moth
+7651 - Callizzia certiorara
+7652 - Antiplecta triangularis
+7653 - Calledapteryx dryopterata, brown scoopwing moth
+7654 - Philagraula slossoniae
+7655 - Erosia incendiata
+7656 - Schidax coronaria
+7657 - Anurapteryx crenulata
+7657.1 - Psamathia placidaria
+7657.2 - Trotorhombia metachromata
+7658 - Urania fulgens
+
+
+== Mimallonidae ==
+7659 - Lacosoma chiridota, scalloped sack-bearer moth
+7660 - Lacosoma arizonicum, southwestern sack-bearer moth
+7661 - Naniteta elassa
+7662 - Cicinnus melsheimeri, Melsheimer's sack-bearer moth
+
+
+== Bombycidae ==
+7663 - Apatelodes torrefacta, spotted apatelodes moth
+7664 - Apatelodes pudefacta
+7665 - Olceclostera angelica, angel moth
+7666 - Olceclostera indistincta, indistinct angel moth
+7667 - Olceclostera seraphica, seraph moth
+7668 - Bombyx mori, silkworm moth
+
+
+== Lasiocampidae ==
+7669 - Hypopacha grisea
+7670 - Tolype velleda, large tolype moth
+7671 - Tolype austella
+7672 - Tolype mayelisae
+7673 - Tolype laricis, larch tolype moth
+7674 - Tolype notialis, small tolype moth
+7675 - Tolype minta, southern tolype moth
+7676 - Tolype glenwoodii
+7677 - Tolype distincta
+7678 - Tolype nigricaria
+7679 - Tolype dayi
+7680 - Tolype lowriei
+7681 - Apotolype brevicrista
+7682 - Apotolype blanchardi
+7683 - Artace cribrarius, dot-lined white moth
+7684 - Artace colaria
+7685 - Heteropacha rileyana, Riley's lappet moth
+7686 - Phyllodesma occidentis, southern lappet moth
+7687 - Phyllodesma americana, lappet moth
+7688 - Phyllodesma coturnix
+7689 - Caloecia juvenalis
+7690 - Caloecia entima
+7691 - Quadrina diazoma
+7692 - Dicogaster coronada
+7693 - Gloveria howardi
+7694 - Gloveria medusa
+7695 - Gloveria gargamelle
+7696 - Gloveria arizonensis
+7697 - Gloveria sphingiformis
+7698 - Malacosoma disstria, forest tent caterpillar moth
+7699 - Malacosoma constricta, Pacific tent caterpillar moth
+7700 - Malacosoma tigris, Sonoran tent caterpillar moth
+7701 - Malacosoma americana, eastern tent caterpillar moth
+7702 - Malacosoma californica, western tent caterpillar moth
+7703 - Malacosoma incurva, southwestern tent caterpillar moth
+
+
+== Saturniidae ==
+7704 - Eacles imperialis, imperial moth
+7705 - Eacles oslari, Oslar's imperial moth
+7706 - Citheronia regalis, regal moth
+7707 - Citheronia splendens
+7708 - Citheronia sepulcralis, pine devil moth
+7709 - Sphingicampa bicolor, honey locust moth
+7710 - Sphingicampa heiligbrodti
+7711 - Sphingicampa hubbardi
+7712 - Sphingicampa bisecta, bisected honey locust moth
+7713 - Sphingicampa blanchardi
+7713.1 - Sphingicampa montana
+7714 - Sphingicampa albolineata
+7714.1 - Sphingicampa raspa
+7715 - Dryocampa rubicunda, rosy maple moth
+7716 - Anisota stigma, spiny oakworm moth
+7717 - Anisota manitobensis, Manitoba oakworm moth
+7718 - Anisota consularis, consular oakworm moth
+7719 - Anisota senatoria, orange-tipped oakworm moth
+7720 - Anisota peigleri, Peigler's oakworm moth
+7721 - Anisota finlaysoni, Finlayson's oakworm moth
+7722 - Anisota oslari, Oslar's oakworm moth
+7723 - Anisota virginiensis, pink-striped oakworm moth
+7723.1 - Anisota pellucida, clear oakworm moth
+7724 - Coloradia pandora, Pandora pinemoth
+7725 - Coloradia doris, Doris' pinemoth
+7726 - Coloradia luski, Lusk's pine moth
+7726.1 - Coloradia velda
+7727 - Hemileuca tricolor, tricolor buck moth
+7728 - Hemileuca hualapai, Hualapai buckmoth
+7729 - Hemileuca oliviae
+7730 - Hemileuca maia, buck moth
+7730.1 - Hemileuca species Port Arthur buck moth
+7731 - Hemileuca nevadensis, Nevada buck moth
+7731.1 - Hemileuca artemis
+7732 - Hemileuca lucina, New England buck moth
+7733 - Hemileuca grotei, Grote's buck moth
+7734 - Hemileuca diana
+7735 - Hemileuca juno, Juno buck moth
+7736 - Hemileuca electra
+7737 - Hemileuca burnsi
+7738 - Hemileuca neumoegeni
+7739 - Hemileuca chinatiensis
+7740 - Hemileuca griffini, Griffin's sheepmoth
+7741 - Hemileuca hera, Hera buckmoth
+7742 - Hemileuca magnifica
+7743 - Hemileuca nuttalli
+7744 - Hemileuca eglanterina, elegant sheepmoth
+7744.1 - Hemileuca conwayae
+7744.2 - Hemileuca lex
+7744.3 - Hemileuca peigleri
+7744.4 - Hemileuca slosseri
+7744.5 - Hemileuca stonei
+7745 - Automeris randa
+7746 - Automeris io, Io moth
+7747 - Automeris iris, iris-eyed silkmoth
+7748 - Automeris cecrops
+7749 - Automeris zephyria, zephyr-eyed silkmoth
+7749.1 - Automeris louisiana
+7749.2 - Automeris patagoniensis
+7750 - Hylesia coinopus
+7750.99 - Lonomia electra
+7751 - Saturnia mendocino
+7752 - Saturnia walterorum
+7753 - Saturnia albofasciata, white-streaked saturnia moth
+7754 - Agapema galbina, greasewood moth
+7754.1 - Agapema anona, Mexican agapema moth
+7755 - Agapema solita
+7756 - Agapema homogena
+7757 - Antheraea polyphemus, Polyphemus moth
+7757.1 - Antheraea oculea, western Polyphemus moth
+7758 - Actias luna, luna moth
+7759 - Samia cynthia, ailanthus silkmoth
+7760 - Rothschildia cinctus
+7761 - Rothschildia forbesi, Forbes' silkmoth
+7761.1 - Rothschildia lebeau, Lebeau's silkmoth
+7762 - Rothschildia orizaba, Orizaba silkmoth
+7763 - Eupackardia calleta, Calleta silkmoth
+7764 - Callosamia promethea, Promethea moth
+7765 - Callosamia angulifera, tulip-tree silkmoth
+7766 - Callosamia securifera, sweetbay silkmoth
+7767 - Hyalophora cecropia, cecropia moth
+7768 - Hyalophora columbia, Columbia silkmoth
+7769 - Hyalophora gloveri, Glover's silkmoth
+7770 - Hyalophora euryalus, ceanothus silkmoth
+
+
+== Sphingidae ==
+7771 - Agrius cingulata, pink-spotted hawk moth
+7772 - Cocytius antaeus, giant sphinx moth
+7773 - Cocytius duponchel, Duponchel's sphinx moth
+7774 - Neococytius cluentius
+7775 - Manduca sexta, Carolina sphinx moth
+7776 - Manduca quinquemaculatus, five-spotted hawk moth
+7777 - Manduca occulta, occult sphinx moth
+7778 - Manduca rustica, rustic sphinx moth
+7779 - Manduca albiplaga
+7780 - Manduca brontes cubensis, Cuban sphinx moth
+7781 - Manduca muscosa, muscosa sphinx moth
+7782 W - Manduca florestan
+7783 - Manduca jasminearum, ash sphinx moth
+7784 - Dolba hyloeus, pawpaw sphinx moth
+7785 - Dolbogene hartwegii
+7786 - Ceratomia amyntor, elm sphinx moth
+7787 - Ceratomia undulosa, waved sphinx moth
+7788 - Ceratomia sonorensis, Sonora sphinx moth
+7789 - Ceratomia catalpae, catalpa sphinx moth
+7790 - Ceratomia hageni, Hagen's sphinx moth
+7790.1 - Ceratomia igualana
+7791 - Isoparce cupressi, bald cypress sphinx moth
+7792 W - Sagenosoma elsa, Elsa sphinx moth
+7793 - Paratrea plebeja, plebeian sphinx moth
+7796 - Lintneria eremitus, hermit sphinx moth
+7797 - Lintneria eremitoides, sage sphinx moth
+7798 W - Lintneria separatus
+7799 W - Lintneria istar, Istar sphinx moth
+7799.1 W - Lintneria smithi
+7800 - Sphinx chisoya
+7801 - Sphinx leucophaeata
+7802 - Sphinx chersis, great ash sphinx moth
+7803 - Sphinx vashti, Vashti sphinx moth
+7804 - Sphinx libocedrus, incense cedar sphinx moth
+7805 W - Sphinx perelegans, elegant sphinx moth
+7806 W - Sphinx asellus
+7807 - Sphinx canadensis, Canadian sphinx moth
+7808 - Sphinx franckii, Franck's sphinx moth
+7809 - Sphinx kalmiae, laurel sphinx moth
+7810 - Sphinx gordius, apple sphinx moth
+7810.1 - Sphinx poecila, northern apple sphinx moth
+7811 - Sphinx luscitiosa, Clemens' sphinx moth
+7812 - Sphinx drupiferarum, wild cherry sphinx moth
+7813 - Sphinx dollii, Doll's sphinx moth
+7814 W - Sphinx sequoiae, sequoia sphinx moth
+7816 - Lapara coniferarum, southern pine sphinx moth
+7817 - Lapara bombycoides, northern pine sphinx moth
+7817.1 - Lapara phaeobrachycerous, Brou's sphinx moth
+7818 - Protambulyx strigilis, streaked sphinx moth
+7820 - Adhemarius blanchardorum, Blanchard's sphinx moth
+7821 - Smerinthus jamaicensis, twin-spotted sphinx moth
+7822 - Smerinthus cerisyi, one-eyed sphinx moth
+7823 W - Smerinthus saliceti, unidentified smerinthus moth
+7824 - Paonias excaecata, blind-eyed sphinx moth
+7825 - Paonias myops, small-eyed sphinx moth
+7826 - Paonias astylus, huckleberry sphinx moth
+7827 - Amorpha juglandis, walnut sphinx moth
+7828 - Pachysphinx modesta, big poplar sphinx moth
+7829 W - Pachysphinx occidentalis, western poplar sphinx moth
+7830 - Pseudosphinx tetrio, tetrio sphinx moth
+7831 - Isognathus rimosa
+7832 - Erinnyis alope, Alope sphinx moth
+7833 - Erinnyis lassauxii, Lassaux's sphinx moth
+7834 - Erinnyis ello, ello sphinx moth
+7835 - Erinnyis oenotrus, oleander sphinx moth
+7836 - Erinnyis crameri, Cramer's sphinx moth
+7837 - Erinnyis obscura, obscure sphinx moth
+7839 - Erinnyis guttularis
+7839.1 - Erinnyis yucatana
+7840 - Phryxus caicus, Caicus sphinx moth
+7841 - Pachylia ficus, fig sphinx moth
+7842 - Pachylioides resumens
+7843 - Madoryx pseudothyreus, false-windowed sphinx moth
+7845 - Callionima falcifera, falcifera sphinx moth
+7846 - Perigonia lusca, half-blind sphinx moth
+7846.1 - Eupyrrhoglossum sagra, Sagra sphinx moth
+7847 - Aellopos tantalus, Tantalus sphinx moth
+7848 - Aellopos clavipes, clavipes sphinx moth
+7849 - Aellopos titan, titan sphinx moth
+7850 - Aellopos fadus, fadus sphinx moth
+7851 - Enyo lugubris, mournful sphinx moth
+7852 - Enyo ocypete
+7853 - Hemaris thysbe, hummingbird clearwing moth
+7854 - Hemaris gracilis, slender clearwing moth
+7855 B - Hemaris diffinis, snowberry clearwing moth
+7855.1 W - Hemaris thetis
+7856 W - Hemaris senta
+7857 - Eumorpha anchemolus
+7858 - Eumorpha satellitia, satellite sphinx moth
+7859 - Eumorpha pandorus, Pandorus sphinx moth
+7860 - Eumorpha intermedia, intermediate sphinx moth
+7861 - Eumorpha achemon, Achemon sphinx moth
+7862 - Eumorpha megaeacus
+7863 W - Eumorpha typhon, Typhon sphinx moth
+7864 - Eumorpha vitis, vine sphinx moth
+7865 - Eumorpha fasciatus, banded sphinx moth
+7866 - Eumorpha labruscae, gaudy sphinx moth
+7867 - Cautethia grotei, Grote's sphinx moth
+7868 - Cautethia spuria, spurious sphinx moth
+7869 - Cautethia yucatana
+7870 - Sphecodina abbottii, Abbot's sphinx moth
+7871 - Deidamia inscriptum, lettered sphinx moth
+7872 W - Arctonotus lucidus, Pacific green sphinx moth
+7873 - Amphion floridensis, Nessus sphinx moth
+7874 - Proserpinus gaurae, proud sphinx moth
+7875 - Proserpinus juanita, Juanita sphinx moth
+7876 W - Proserpinus clarkiae, Clark's day sphinx moth
+7877 - Proserpinus flavofasciata, yellow-banded day sphinx moth
+7878 W - Proserpinus vega
+7879 - Proserpinus terlooii, Baron Terloo's sphinx moth
+7880 W - Euproserpinus phaeton, Phaeton primrose sphinx moth
+7881 W - Euproserpinus euterpe
+7882 W - Euproserpinus wiesti
+7884 - Darapsa versicolor, hydrangea sphinx moth
+7885 - Darapsa myron, Virginia creeper sphinx moth
+7886 - Darapsa choerilus, azalea sphinx moth
+7887 - Xylophanes pluto, Pluto sphinx moth
+7888 - Xylophanes porcus, porcu sphinx moth
+7889 W - Xylophanes falco, falcon sphinx moth
+7890 - Xylophanes tersa, tersa sphinx moth
+7891 - Xylophanes libya
+7891.1 - Xylophanes ceratomioides
+7892 - Hyles euphorbiae, leafy spurge hawk moth
+7893 - Hyles gallii, gallium sphinx moth
+7894 - Hyles lineata, white-lined sphinx moth
+7894.1 - Deilephila elpenor, elephant hawk moth
+
+
+== Notodontidae ==
+7895 - Clostera albosigma, sigmoid prominent moth
+7896 - Clostera inclusa, angle-lined prominent moth
+7897 - Clostera inornata
+7898 - Clostera strigosa, striped chocolate-tip moth
+7899 - Clostera paraphora
+7900 - Clostera brucei
+7901 - Clostera apicalis, apical prominent moth
+7902 - Datana ministra, yellow-necked caterpillar moth
+7903 - Datana angusii, Angus's datana moth
+7904 - Datana drexelii, Drexel's datana moth
+7905 - Datana major, major datana moth
+7906 - Datana contracta, contracted datana moth
+7907 - Datana integerrima, walnut caterpillar moth
+7908 - Datana perspicua, spotted datana moth
+7909 - Datana robusta
+7910 - Datana modesta
+7911 - Datana ranaeceps, post-burn datana moth
+7912 - Datana diffidens
+7913 - Datana neomexicana
+7914 - Datana chiriquensis
+7915 - Nadata gibbosa, white-dotted prominent moth
+7916 - Nadata oregonensis
+7917 - Hyperaeschra georgica, Georgian prominent moth
+7918 - Hyperaeschra tortuosa
+7919 - Peridea basitriens, oval-based prominent moth
+7920 - Peridea angulosa, angulose prominent moth
+7921 - Peridea ferruginea, chocolate prominent moth
+7922 - Pheosia rimosa, black-rimmed prominent moth
+7924 - Odontosia elegans, elegant prominent moth
+7925 - Odontosia grisea
+7926 - Notodonta scitipennis, finned-willow prominent moth
+7927 - Notodonta pacifica
+7928 - Notodonta torva, northern finned prominent moth
+7929 - Nerice bidentata, double-toothed prominent moth
+7930 - Ellida caniplaga, linden prominent moth
+7931 - Gluphisia septentrionis, common gluphisia moth
+7932 - Gluphisia wrightii
+7933 - Gluphisia avimacula, four-spotted gluphisia moth
+7934 - Gluphisia lintneri, Lintner's gluphisia moth
+7935 - Gluphisia severa
+7936 - Furcula borealis, white furcula moth
+7937 - Furcula cinerea, gray furcula moth
+7938 - Furcula nivea
+7939 - Furcula occidentalis, western furcula moth
+7940 - Furcula scolopendrina, zigzag furcula moth
+7941 - Furcula modesta, modest furcula moth
+7942 - Cerura scitiscripta, black-etched prominent moth
+7943 - Cerura candida
+7944 - Cerura rarata
+7945 - Nystalea indiana
+7946 - Nystalea collaris
+7947 - Nystalea eutalanta
+7948 - Elymiotis notodontoides
+7949 - Hippia packardii
+7950 - Hippia insularis
+7951 - Symmerista albifrons, white-headed prominent moth
+7952 - Symmerista canicosta, red-humped oakworm moth
+7953 - Symmerista leucitys, orange-humped mapleworm moth
+7954 - Symmerista sauvis
+7955 - Symmerista zacualpana
+7956 - Pentobesa valta
+7957 - Dasylophia anguina, black-spotted prominent moth
+7958 - Dasylophia thyatiroides, gray-patched prominent moth
+7959 - Dasylophia seriata
+7960 - Notela jaliscana
+7961 - Didugua argentilinea, silvered prominent moth
+7962 - Afilia oslari
+7963 - Scevesia angustiora
+7964 - Cargida pyrrha
+7965 - Rifargia bichorda
+7966 - Rifargia distinguenda
+7967 - Rifargia lineata
+7968 - Litodonta hydromeli
+7969 - Litodonta contrasta
+7970 - Litodonta wymola
+7971 - Litodonta aonides
+7972 - Litodonta gigantea
+7973 - Litodonta alpina
+7974 - Misogada unicolor, drab prominent moth
+7975 - Macrurocampa marthesia, mottled prominent moth
+7976 - Macrurocampa dorothea
+7977 - Heterocampa astarte
+7978 - Heterocampa astartoides
+7979 - Heterocampa simulans
+7980 - Heterocampa rufinans
+7981 - Heterocampa secessionis
+7982 - Heterocampa varia
+7983 - Heterocampa obliqua, oblique heterocampa moth
+7984 - Heterocampa cubana
+7985 - Heterocampa subrotata, small heterocampa moth
+7986 - Heterocampa ditta
+7987 - Heterocampa benitensis
+7988 - Heterocampa belfragei
+7989 - Heterocampa incongrua
+7990 - Heterocampa umbrata, white-blotched heterocampa moth
+7991 - Heterocampa averna
+7992 - Heterocampa amanda
+7993 - Heterocampa lunata
+7994 - Heterocampa guttivitta, saddled prominent moth
+7995 - Heterocampa biundata, wavy-lined heterocampa moth
+7996 - Heterocampa ruficornis
+7997 - Heterocampa zayasi
+7998 - Lochmaeus manteo, variable oakleaf caterpillar moth
+7999 - Lochmaeus bilineata, double-lined prominent moth
+7999.1 - Disphragis captiosa
+8000 - Theroa zethus
+8001 - Praeschausia zapata
+8002 - Ursia noctuiformis
+8003 - Ursia furtiva
+8004 - Schizura biedermani
+8005 - Schizura ipomoeae, morning-glory prominent moth
+8006 - Schizura badia, chestnut schizura moth
+8007 - Schizura unicornis, unicorn caterpillar moth
+8008 - Schizura errucata
+8009 - Schizura apicalis, plaine schizura moth
+8010 - Schizura concinna, red-humped caterpillar moth
+8011 - Schizura leptinoides, black-blotched schizura moth
+8012 - Oligocentria semirufescens, red-washed prominent moth
+8013 - Oligocentria alpica
+8014 - Oligocentria pallida, pale prominent moth
+8015 - Oligocentria coloradensis
+8016 - Oligocentria perangulata
+8017 - Oligocentria lignicolor, white-streaked prominent moth
+8018 - Oligocentria pinalensis
+8019 - Oligocentria paradisus
+8020 - Oligocentria delicata
+8021 - Euhyparpax rosea
+8022 - Hyparpax aurora, pink prominent moth
+8023 - Hyparpax venus
+8024 - Hyparpax minor
+8025 - Hyparpax aurostriata
+8026 - Hyparpax perophoroides
+8027 - Lirimiris truncata
+8028 - Crinodes biedermani
+8029 - Pseudhapigia brunnea
+8030 - Hemiceras cadmia
+8031 - Phryganidia californica, California oak moth
+8032 - Zunacetha annulata
+
+
+== Arctiidae ==
+no number yet - Aclytia heber
+8033 - Gnophaela clappiana
+8034 - Gnophaela latipennis
+8035 - Gnophaela aequinoctialis
+8036 - Gnophaela discreta
+8037 - Gnophaela vermiculata, police car moth
+8037.1 - Dysschema leucophaea
+8038 - Composia fidelissima, faithful beauty moth
+8038.1 - Hypocrita escuintla
+8039 - Phaloesia saucia, saucy beauty moth
+8040 - Dysschema howardi, northern giant flag moth
+8041 - Doa ampla
+8042 - Leuculodes lacteolaria
+8043 - Eilema bicolor, bicolored moth
+8045 - Crambidia lithosioides, dark gray lichen moth
+8045.1 - Crambidia pallida, pale lichen moth
+8046 - Crambidia uniformis, uniform lichen moth
+8047 - Crambidia dusca
+8048 - Crambidia myrlosea
+8049 - Crambidia suffusa
+8050 - Crambidia impura
+8051 - Crambidia casta, pearly-winged lichen moth
+8052 - Crambidia pura, pure lichen moth
+8053 - Crambidia cephalica, yellow-headed lichen moth
+8054 - Agylla septentrionalis
+8055 - Inopsis modulata
+8056 - Inopsis funerea
+8057 - Gnamptonychia ventralis
+8058 - Gardinia anopla
+8059 - Cisthene subrufa
+8060 - Cisthene unifascia
+8061 - Cisthene kentuckiensis, Kentucky lichen moth
+8062 - Cisthene liberomacula
+8063 - Cisthene deserta
+8064 - Cisthene faustinula
+8065 - Cisthene dorsimacula
+8066 - Cisthene tenuifascia, thin-banded lichen moth
+8067 - Cisthene plumbea, lead-colored lichen moth
+8068 - Cisthene striata, striated lichen moth
+8069 - Cisthene perrosea
+8070 - Cisthene angelus, angel lichen moth
+8071 - Cisthene subjecta, subject lichen moth
+8072 - Cisthene packardii, Packard's lichen moth
+8073 - Cisthene conjuncta
+8074 - Cisthene barnesii
+8075 - Cisthene picta
+8076 - Cisthene juanita
+8077 - Cisthene coronado
+8078 - Cisthene martini
+8079 - Ptychoglene coccinea
+8080 - Ptychoglene phrada
+8081 - Ptychoglene sanguineola
+8082 - Propyria schausi
+8083 - Lycomorpha grotei
+8084 - Lycomorpha regulus
+8085 - Lycomorpha fulgens
+8086 - Lycomorpha splendens
+8087 - Lycomorpha pholus, black-and-yellow lichen moth
+8088 - Lycomorpha desertus
+8089 - Hypoprepia miniata, scarlet-winged lichen moth
+8090 - Hypoprepia fucosa, painted lichen moth
+8091 - Hypoprepia cadaverosa
+8092 - Hypoprepia inculta
+8093 - Haematomis uniformis
+8093.1 - Rhabdatomis laudamia
+8093.2 - Lycomorphodes sordida
+8094 - Bruceia pulverina
+8095 - Bruceia hubbardi
+8096 - Eudesmia arida, arid eudesmia moth
+8097 - Eudesmia menea
+8098 - Clemensia albata, little white lichen moth
+8099 - Pagara simplex, mouse-colored lichen moth
+8100 - Trocodima fuscipes
+8101 - Neoplynes eudora
+8102 - Afrida ydatodes, Dyar's lichen moth
+8103 - Afrida minuta
+8103.1 - Afrida exegens
+8104 - Comachara cadburyi, Cadbury's lichen moth
+8104.1 - Acsala anomala
+8105 - Utetheisa ornatrix, ornate bella moth
+8107 - Haploa clymene, Clymene moth
+8108 - Haploa colona, colona moth
+8109 - Haploa reversa, reversed haploa moth
+8110 - Haploa contigua, neighbor moth
+8111 - Haploa lecontei, Leconte's haploa moth
+8112 - Haploa confusa, confused haploa moth
+8113 - Tyria jacobaeae, cinnabar moth
+8114 - Virbia laeta, joyful holomelina moth
+8115 - Virbia costata
+8116 - Virbia ostenta
+8118 - Virbia opella, tawny holomelina moth
+8118.1 - Virbia fergusoni
+8119 - Virbia nigricans
+8120 - Virbia lamae, bog holomelina moth
+8120.1 - Virbia rindgei
+8121 - Virbia aurantiaca, orange holomelina moth
+8121.2 - Virbia marginata
+8122 - Virbia rubicundaria, ruddy holomelina moth
+8123 - Virbia ferruginosa, rusty holomelina moth
+8124 - Virbia immaculata, immaculate holomelina moth
+8125 - Virbia fragilis
+8126 - Leptarctia californiae
+8127 - Parasemia plantaginis, wood tiger moth
+8128 - Dodia albertae
+8128.1 - Dodia kononenkoi
+8128.2 - Dodia verticalis
+8128.3 - Dodia tarandus
+8129 - Pyrrharctia isabella, Isabella tiger moth
+8130 - Seirarctia echo, echo moth
+8131 - Estigmene acrea, salt marsh moth
+8132 - Estigmene albida
+8133 - Spilosoma latipennis, pink-legged tiger moth
+8134 - Spilosoma congrua, agreeable tiger moth
+8135 - Spilosoma vestalis, Vestal tiger moth
+8136 - Spilosoma dubia, dubious tiger moth
+8137 - Spilosoma virginica, Virginian tiger moth
+8138 - Spilosoma vagans
+8139 - Spilosoma pteridis, brown tiger moth
+8139.1 - Spilosoma danbyi
+8140 - Hyphantria cunea, fall webworm moth
+8141 - Euerythra phasma, red-tailed specter moth
+8142 - Euerythra trimaculata, three-spotted specter moth
+8143 - Alexicles aspersa
+8144 - Hypercompe permaculata, many-spotted tiger moth
+8146 - Hypercompe scribonia, giant leopard moth
+8147 - Hypercompe caudata
+8148 - Hypercompe oslari
+8149 - Hypercompe suffusa
+8150 - Arachnis zuni
+8151 - Arachnis nedyma
+8151.1 - Arachnis citra
+8152 - Arachnis picta, painted tiger moth
+8155 - Arachnis aulaea, tiger moth
+8156 - Phragmatobia fuliginosa, ruby tiger moth
+8157 - Phragmatobia lineata, lined ruby tiger moth
+8158 - Phragmatobia assimilans, large ruby tiger moth
+8158.1 - Sonorarctia fervida
+8159 - Neoarctia brucei
+8160 - Neoarctia beanii
+8160.1 - Neoarctia lafontainei
+8161 - Holoarctia sordida
+8161.1 - Holoarctia puengeleri
+8162 - Platarctia parthenos, St. Lawrence tiger moth
+8163 - Platyprepia virginalis, ranchman's tiger moth
+8164 - Acerbia alpina
+8165 - Pararctia lapponica
+8165.1 - Pararctia subnebulosa
+8165.2 - Pararctia yarrowii
+8166 - Arctia caja, great tiger moth
+8166.1 - Arctia opulenta, tiger moth
+8166.2 - Arctia brachyptera
+8166.3 - Arctia olschwangi
+8167 - Kodiosoma fulvum
+8169 - Apantesis phalerata, harnessed tiger moth
+8170 - Apantesis vittata, banded tiger moth
+8171 - Apantesis nais, Nais tiger moth
+8171.1 - Apantesis carlotta, Carlotta's tiger moth
+8172 - Grammia quenseli
+8172.1 - Grammia margo
+8173 - Grammia cervinoides
+8174 - Holarctia obliterata
+8175 - Grammia virguncula, little virgin tiger moth
+8175.1 - Grammia speciosa
+8175.3 - Grammia philipiana
+8176 - Grammia anna, Anna tiger moth
+8177 - Grammia ornata
+8177.1 - Grammia edwardsii
+8177.2 - Grammia complicata
+8178 - Grammia hewletti
+8179 - Grammia nevadensis, Nevada tiger moth
+8179.1 - Grammia eureka
+8179.2 - Grammia bowmani
+8179.3 - Grammia behrii
+8179.4 - Grammia yukona
+8179.5 - Grammia brillians
+8179.6 - Grammia fergusoni
+8180 - Grammia incorrupta
+8181 - Notarctia proxima, Mexican tiger moth
+8181.1 - Notarctia arizoniensis
+8183 - Grammia bolanderi
+8184 - Grammia elongata
+8184.1 - Grammia yavapai
+8185 - Grammia blakei
+8186 - Grammia williamsii, Williams' tiger moth
+8186.1 - Grammia allectans
+8186.2 - Grammia ursina
+8187.1 - Grammia franconia
+8188 - Grammia figurata, figured tiger moth
+8189 - Grammia f-pallida
+8191 - Grammia placentia, Placentia tiger moth
+8193 - Grammia favorita
+8194 - Grammia phyllira, phyllira tiger moth
+8196 - Grammia parthenice, parthenice tiger moth
+8197 - Grammia virgo, virgin tiger moth
+8198 - Grammia doris, Doris tiger moth
+8199 - Grammia arge, Arge moth
+8200 - Hyperborea czekanowskii
+8201 - Hypocrisias minima
+8202 - Halysidota cinctipes, Florida tussock moth
+8203 - Halysidota tessellaris, banded tussock moth
+8204 - Halysidota harrisii, sycamore tussock moth
+8205 - Halysidota davisii, Davis' tussock moth
+8205.1 - Halysidota schausi, Schaus' tussock moth
+8206 - Lophocampa roseata
+8207 - Lophocampa significans
+8208 - Lophocampa ingens
+8209 - Lophocampa argentata, silver-spotted tiger moth
+8210 - Lophocampa sobrina
+8211 - Lophocampa caryae, hickory tussock moth
+8212 - Lophocampa mixta
+8213 - Lophocampa pura
+8214 - Lophocampa maculata, spotted tussock moth
+8215 - Lophocampa indistincta
+8216 - Lophocampa annulosa, Santa Ana tussock moth
+8217 - Leucanopsis longa, long-streaked tussock moth
+8217.1 - Leucanopsis perdentata
+8217.2 - Leucanopsis lurida
+8218 - Pseudohemihyalea ambigua
+8219 - Apocrisias thaumasta
+8220 - Pseudohemihyalea splendens
+8221 - Pseudohemihyalea labecula
+8222 - Pseudohemihyalea edwardsii, Edwards' glassy-wing moth
+8224 - Calidota laqueata, streaked calidota moth
+8225 - Opharus muricolor
+8226 - Carales arizonensis
+8227 - Pareuchaetes insulata, yellow-winged pareuchaetes moth
+8228 - Cycnia inopinatus, unexpected cycnia moth
+8229 - Cycnia collaris
+8229.1 - Cycnia tenerosa
+8230 - Cycnia tenera, delicate cycnia moth
+8231 - Cycnia oregonensis, Oregon cycnia moth
+8232 - Euchaetes zella
+8233 - Euchaetes perlevis
+8234 - Euchaetes fusca
+8235 - Euchaetes helena
+8236 - Euchaetes castalla
+8237 - Euchaetes elegans
+8238 - Euchaetes egle, milkweed tussock moth
+8239 - Euchaetes gigantea
+8240 - Euchaetes polingi
+8241 - Euchaetes bolteri
+8242 - Euchaetes antica
+8243 - Euchaetes albicosta
+8244 - Pygoctenucha terminalis
+8245 - Pygoctenucha pyrrhoura
+8246 - Lerina incarnata, crimson-bodied lichen moth
+8247 - Ectypia bivittata
+8248 - Ectypia mexicana
+8249 - Ectypia clio, Clio tiger moth
+8250 - Pygarctia murina
+8250.1 - Pygarctia pterygostigma
+8251 - Pygarctia neomexicana
+8252 - Pygarctia lorula
+8253 - Pygarctia roseicapitis
+8253.1 - Pygarctia flavidorsalis
+8254 - Pygarctia spraguei, Sprague's pygarctia moth
+8255 - Pygarctia abdominalis, yellow-edged pygarctia moth
+8256 - Pygarctia eglenensis
+8256.1 - Purius superpulverea
+8256.2 - Agaraea semivitrea
+8256.3 - Biturix venosata
+8257 - Eupseudosoma involuta, snowy eupseudosoma moth
+8258 - Bertholdia trigona, Grote's bertholdia moth
+8259 - Neritos prophaea
+8260 - Ctenucha venosa, veined ctenucha moth
+8261 - Ctenucha cressonana
+8262 - Ctenucha virginica, Virginia ctenucha moth
+8263 - Ctenucha multifaria
+8264 - Ctenucha rubroscapus
+8265 - Ctenucha brunnea, brown ctenucha moth
+8266 - Dahana atripennis, black-winged dahana moth
+8267 - Cisseps fulvicollis, yellow-collared scape moth
+8268 - Cisseps packardii
+8269 - Cisseps wrightii
+8269.1 - Phoenicoprocta lydia, Lydia tiger moth
+8270 - Lymire edwardsii, Edwards' wasp moth
+8270.1 - Eucereon myrina
+8270.2 - Eucereon erythrolepis
+8271 - Nelphe carolina, little Carol's wasp moth
+8271.1 - Nelphe relegatum
+8272 - Empyreuma pugione, spotted oleander caterpillar moth
+8273 - Macrocneme chrysitis, southern cyan tiger moth
+8274.1 - Apeplopoda mecrida
+8275 - Episcepsis inornata
+8276 - Psilopleura vittata
+8276.1 - Psilopleura polia
+8276.2 - Pseudosphex leovazquezae
+8277 - Myrmecopsis strigosa
+8278 - Cosmosoma festivum
+8279 - Cosmosoma teuthras
+8280 - Cosmosoma myrodora, scarlet-bodied wasp moth
+8281 - Didasys belae, double-tufted wasp moth
+8282 - Syntomeida ipomoeae, yellow-banded wasp moth
+8283 - Syntomeida melanthus, black-banded wasp moth
+8284 - Syntomeida epilais, polka-dot wasp moth
+8285 - Phoenicoprocta hampsonii
+8286 - Pseudocharis minima, lesser wasp moth
+8286.1 - Poliopastea clavipes
+8287 - Horama panthalon, Texas wasp moth
+8288 - Horama plumipes
+
+
+== Lymantriidae ==
+8290 - Gynaephora rossii
+8291 - Gynaephora groenlandica
+8292 - Dasychira tephra, tephra tussock moth
+8293 - Dasychira dorsipennata, sharp-lined tussock moth
+8294 - Dasychira vagans, variable tussock moth
+8295 - Dasychira mescalera
+8296 - Dasychira basiflava, yellow-based tussock moth
+8297 - Dasychira matheri
+8298 - Dasychira meridionalis, southern tussock moth
+8299 - Dasychira atrivenosa
+8300 - Dasychira cinnamomea, cinnamon tussock moth
+8301 - Dasychira leucophaea
+8302 - Dasychira obliquata, streaked tussock moth
+8303 - Dasychira dominickaria
+8304 - Dasychira plagiata, northern pine tussock moth
+8305 - Dasychira pinicola, pine tussock moth
+8306 - Dasychira grisefacta
+8307 - Dasychira manto, Manto tussock moth
+8308 - Orgyia antiqua, rusty tussock moth
+8309 - Orgyia vetusta, western tussock moth
+8310 - Orgyia magna
+8311 - Orgyia cana
+8312 - Orgyia pseudotsugata, Douglas fir tussock moth
+8313 - Orgyia detrita, fir tussock moth
+8314 - Orgyia definita, definite tussock moth
+8315 - Orgyia leuschneri
+8316 - Orgyia leucostigma, white-marked tussock moth
+8317 - Orgyia falcata
+8318 - Lymantria dispar, gypsy moth
+8319 - Leucoma salicis, satin moth
+8320 - Euproctis chrysorrhoea, browntail moth
+8321 - Euproctis similis
+
+
+== See also ==
+List of butterflies of North America
+List of Lepidoptera of Hawaii
+List of moths of Canada
+List of butterflies of Canada
+
+
+== External links ==
+Checklists of North American Moths

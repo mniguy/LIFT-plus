@@ -1,0 +1,52 @@
+Pelophylax is a genus of true frogs widespread in Eurasia, with a few species ranging into northern Africa. This genus was erected by Leopold Fitzinger in 1843 to accommodate the green frogs of the Old World, which he considered distinct from the brown pond frogs of Carl Linnaeus' genus Rana.
+They are also known as water frogs, as they spend much of the summer living in aquatic habitat; the pond frogs can be found more often, by comparison, on dry land, as long as there is sufficient humidity. Yet there are species of Eurasian green frogs – the Central Asian P. terentievi, or the Sahara frog (P. saharicus) – which inhabit waterholes in the desert.
+
+
+== Systematics and taxonomy ==
+Most authors throughout the 19th and 20th century disagreed with Fitzinger's assessment. The green frogs were included again with the brown frogs, in line with the tendency to place any frog similar in habitus to the common frog (R. temporaria) in Rana. That genus, in the loose circumscription, eventually became a sort of "wastebin taxon".
+Around 2000, with molecular phylogenetic studies becoming commonplace, it was discovered that Fitzinger's assessment was correct after all – not only is Pelophylax an independent genus, but it does in fact belong to a lineage of Raninae not particularly close to Rana. But it also turned out that these Eurasian green frogs might not form a monophyletic lineage. The sheer number of species involved in the group of Pelophylax and its closest relatives means that it will probably be some time until the definite circumscription of this genus is resolved.The Pelophylax frogs belong to a group of moderately advanced Raninae – possibly a clade – that also includes such genera as Babina, Glandirana, Hylarana, Pulchrana, Sanguirana, Sylvirana, as well as Hydrophylax which like Pelophylax is suspected of being not monophyletic. These genera were formerly also included in Rana by most authors, and several of them have only been established in the 1990s. And as regards the possible paraphyly of Pelophylax, it seems that some species assigned there are very close to Hylarana, and thus it might simply be a matter of moving them to that genus. But hybridogenic speciation is running rampant in the Old World green frogs, and this obfuscates the data gained from DNA sequence analyses.
+
+
+=== Species ===
+Including named klepta (hybridogenic species), Pelophylax sensu lato contains 25 species:
+
+Pelophylax bedriagae – Levant water frog
+Pelophylax bergeri – Italian pool frog
+Pelophylax caralitanus (Arikan, 1988) (formerly in P. bedriagae)
+Pelophylax cerigensis – Karpathos frog
+Pelophylax chosenicus – Seoul frog
+Pelophylax cretensis – Cretan frog
+Pelophylax cypriensis – Cyprus water frog
+Pelophylax demarchii (validity and taxonomic status unclear; klepton?)
+Pelophylax epeiroticus – Epirus water frog
+Pelophylax fukienensis (formerly in P. plancyi)
+Pelophylax hubeiensis (may belong in P. plancyi)
+Pelophylax kurtmuelleri – Balkan frog
+Pelophylax lessonae – pool frog
+Pelophylax nigromaculatus – dark-spotted frog (may include P. tenggerensis)
+Pelophylax perezi – Perez's frog
+Pelophylax plancyi – eastern golden frog (may include P. hubeiensis)
+Pelophylax porosus – Daruma pond frog
+Pelophylax ridibundus – marsh frog
+Pelophylax saharicus – Sahara frog
+Pelophylax shqipericus – Albanian water frog
+Pelophylax tenggerensis (may belong in P. nigromaculatus)
+Pelophylax terentievi (taxonomic status unclear; klepton?)Named klepta (hybridogenic species) of Pelophylax are:
+
+Pelophylax kl. esculentus – edible frog (P. lessonae × P. ridibundus)
+Pelophylax kl. grafi – Graf's hybrid frog (P. perezi × P. ridibundus)
+Pelophylax kl. hispanicus – Italian edible frog (P. bergeri × P. ridibundus / P. kl. esculentus)In addition, one species has been described that is sometimes assigned to Pelophylax, but must be considered a nomen oblitum:
+
+"Hyla" ranaeformis Laurenti, 1768 (= "Hyla gibbosa" Lacépède, 1788 (unavailable: published in non-binomial work) )
+
+
+== See also ==
+
+Hybridogenesis in water frogs
+
+
+== References ==
+
+
+== External links ==
+ Media related to Pelophylax at Wikimedia Commons

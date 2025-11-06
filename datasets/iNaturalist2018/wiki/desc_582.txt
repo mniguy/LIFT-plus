@@ -1,0 +1,74 @@
+Polistes bellicosus is a social paper wasp from the order Hymenoptera typically found within Texas, namely the Houston area. Like other paper wasps, Polistes bellicosus build nests by manipulating exposed fibers into paper to create cells. P. bellicosus often rebuild their nests at least once per colony season due to predation.
+
+
+== Taxonomy and phylogeny ==
+Polistes bellicosus belongs to the subfamily Polistinae, which consists of only social wasps. Polistinae is divided into four tribes: Polistini, Epiponini, Mischocyttarini and Ropalidiini. The tribe Polistini includes the genus Polistes and is the only tribe of Polistinae with a cosmopolitan distribution, i.e. it is the only tribe found in many different global habitats. Polistes bellicosus is most closely related to P. apaches based on a phylogenetic tree.
+
+
+== Description and identification ==
+
+
+=== Larvae ===
+Along with the genetic similarity, the phylogeny of the larva is also explained using morphological characteristics. Starting at the head, larvae are often dark brown. The body is widest at the anterior part of the abdomen and tapers towards the posterior end. The circular, slender mandible is weakly chitinized. From the mandible extend two or three pointed teeth. Polistes larval mandibles function in opening and closing the mouth for intaking food. Larval mandibles are both longer and narrower than the mandibles of Vespa larvae. Secreted saliva may aid in food-reception for the larvae. Compared to Vespinae, the pleural lobes of Polistinae are less conspicuous.
+
+
+=== Adult morphology ===
+
+Males and females have lemon-yellow abdominal segments. Females have a fine, central, longitudinal, black line along the mesothorax, which is transversely wrinkled. The mesothorax in males has two longitudinal lines on the side. Both sexes have yellow mandibles and narrow posterior orbits that are broader toward the bottom. Although caste separations are present in P. bellicosus, females in the colony are not morphologically different.
+
+
+=== Nest structure ===
+Paper wasps manufacture the paper for their nests from small fibers detached from exposed, weathered wood. The paper wasps use their mandibles to compress the wood fibers into thin sheets, which are used as cells for the nest and coverings—except in Polistes, where cells are not enclosed. The nests created in this fashion are structurally resilient and relatively weatherproof. Inside the nest, the cells along the perimeter are roughly circular while the inner cells are more hexagonal. The number of cells in a nest depends on the size of the colony. Typically, the nest is oriented so that opening is on or towards the bottom. Nests of Polistes and Polybia generally only contain one layer of cells.
+
+
+== Distribution and habitat ==
+P. bellicosus generally establish colonies within Texas, though the range has been observed to include North Carolina and Florida. Colonies naturally occur on Baccharis sp., Ilex vomitoria, and Rubus sp. in native prairies at Brazos Bend State Park, near Houston, Texas. Several other paper wasp species—including Polistes exclamans, P. dorsalis, P. metricus, and P. carolina—are found in Brazos Bend State Park due to the multiple types of habitats present, including native shortgrass prairie and oak forest.
+
+
+== Colony cycle ==
+The colony cycle of P. bellicosus is similar to many other species of Polistes. Colonies are initiated in March and the cycle lasts eight months. Overwintered females initiate colonies in low vegetation with open-celled nests made of paper fibers. In May, the first brood emerges—consisting of mostly females that usually become workers. The few males that emerge in the first brood mate with workers that eventually leave the original nest to become queens in new nests. The last eggs are laid in late August–September and these males and future overwintering females emerge in late September–October. After a few weeks, the wasps dissociate from the nest to seek shelter for the winter. Some mating may occur in these shelters.Females all look the same, but they can be divided into four general categories based on role and time of emergence: foundresses, workers, queens, and gynes. Females that have overwintered and then initiated a nest in spring are called foundresses. Foundresses then rear workers, which emerge in the spring and summer. Either foundresses or workers can become queens, which are the principal egg-layers within a nest. Nonworking females that emerge in autumn are gynes.
+
+
+== Behavior ==
+
+
+=== Dominance hierarchy ===
+In colonies initiated by several foundresses, it is common for these co-foundresses to cooperate and rear the young. When this occurs, there is a reproductive division of labor that is based upon a dominance hierarchy. Usually, the foundress that establishes dominance is either the largest or the first to arrive at the nesting site. Within a colony, there is a caste system based on behavioral roles and temporal period. Female roles are divided into queen, subordinate, worker, and gyne. The dominant foundress becomes queen of the nest and the rest of the foundresses become subordinates. A worker could potentially become queen if all of the original foundresses leave the nest and she mates with one of the males that emerged early in the season.
+
+
+=== Division of labor ===
+Once a dominance hierarchy is established within a new colony, the queen assumes the responsibility of most of the egg-laying, while the subordinates are responsible for caring for the young. The workers are also responsible for caring for the brood and enlarging the nest. The distinction between workers and gynes is that gynes are only produced late-season and workers emerge throughout the reproductive period. In addition, gynes are inactive in the nest. Gynes mate before overwintering and, if successful, become foundresses for the next season.
+
+
+=== Cooperation and helping ===
+Most workers in Polistes remain in their natal nests and function as helpers. In all but a few species of Polistes, females that emerge mid-season function as helpers until the queen is no longer present. Significant variation in helping is found in foundresses of different species of Polistes. Within a nest, cofoundresses are found to be more than 50% related. The degree of relatedness between the cofoundresses may explain the benefit of joining a nest as a subordinate rather than developing a separate nest with a lower chance of success. Subordinates contribute labor toward the care of the dominant foundress’s offspring and decrease the foundress' mortality by taking over the more dangerous foraging labors.
+
+
+=== Nest selection ===
+Foundresses attempt to establish new nests every spring. Paper wasps are often expected to select nest sites that were successful in previous seasons. When foundresses attempt to establish nests in new sites, there is the possibility that the site is disadvantageous to colony initiation. Foundresses who do not succeed in initiating a nesting site alone often, out of necessity, join another colony as a subordinate. The foundresses typically join the nests established their sisters. Foundresses that must join established nests enter as subordinates, but do not differ in size than successful foundresses.
+
+
+=== Foundress mortality ===
+The likelihood of foundress death increases at a constant rate the more time she spends away from the nest. Once the first workers emerge in late spring, the foundresses no longer leave the nests and the foundress death decreases significantly. This suggests that foundress death is associated with tasks that occur outside of the nest—such as foraging for food or other resources. In instances where the foundress dies outside the nest, likely due to predation, the brood is left defenseless and is observed to die of starvation. Furthermore, errors in nest site choice likely contribute to foundress mortality. Previously successful nest sites are typically better than new sites. As a result, foundresses that attempt to establish nests in new sites have a higher chance of mortality.
+
+
+== Kin selection ==
+
+
+=== Genetic relatedness within colonies ===
+Polistes bellicosus does not directly follow the Hymenopteran haplo-diploid genetic system where female workers are more related to their sisters (0.75 degree of relatedness) than to their own offspring (0.50). The relatively lower level of relatedness could be explained either by multiple mating—queens mating with more than one reproductive male—or by the presence of multiple egg-layers within a colony. Kin selection theory states that selection favors individuals who act altruistically when the ratio of the cost of the fitness of the giver to the benefit of the recipient is less than the degree of relatedness between the two individuals. In P. bellicosus, foundresses aid fairly close relatives instead of individuals that are unrelated, which explains variation in helping within species.
+
+
+=== Queen-subordinate conflict ===
+Like other species of the genus Polistes, the queen is the primary egg-layer and the subordinates typically do not lay many eggs. However, the subordinates are capable of egg-laying and do so only when the queen is absent. In many cases, potential queens join established nests and become workers and tend to the brood. Often these workers have to submit to aggressive attacks by the queen. If the queen is successful, the workers continue to serve their role and tend to the brood and do not lay eggs. Despite behavioral castes, all females are morphologically similar. Therefore, any female can produce eggs and has the potential to become a queen, regardless of caste level.
+
+
+== Predators ==
+Predators are known to knock down and remove entire nests to eat the larvae inside. In the case of ant predation, the ants overwhelm the nest and only frayed remnants are left. However, ant predation in P. bellicosus is observed to be much less common than predation by vertebrates. Among possible vertebrate predators are birds, raccoons, and opossums. Predators either remove the nest whole or in large, broken pieces. The long colony cycle—from spring to late autumn—along with the common predation often requires that the wasps create a new nest at least once during a season. In addition, the chances of a nest being removed or destroyed do not decrease with size of the colony. Thus, larger colonies are at equal risk of predation as smaller colonies.
+
+
+== References ==
+
+
+== External links ==
+Strassmann and Queller Lab

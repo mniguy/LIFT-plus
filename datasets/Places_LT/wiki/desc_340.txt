@@ -1,0 +1,51 @@
+A trench is a type of excavation or depression in the ground that is generally deeper than it is wide (as opposed to a wider gully, or ditch), and narrow compared with its length (as opposed to a simple hole or pit).In geology, trenches result from erosion by rivers or by geological movement of tectonic plates. In civil engineering, trenches are often created to install underground utilities such as gas, water, power and communication lines. In construction, trenches are dug for foundations of buildings, retaining walls and dams, and for cut-and-cover construction of tunnels. In archaeology, the "trench method" is used for searching and excavating ancient ruins or to dig into strata of sedimented material. In geotechnical engineering, trenches serve for locating faults and investigating deep soil properties. In trench warfare, soldiers occupy trenches to protect them against weapons fire. 
+Trenches are dug by use of manual tools such as shovels and pickaxes, or by heavy equipment such as backhoes, trenchers and excavators.
+For deep trenches, the instability of steep earthen walls requires engineering and safety techniques such as shoring. Trenches are usually considered temporary structures to be backfilled with soil after construction, or abandoned after use. Some trenches are stabilized using durable materials such as concrete to create open passages such as canals and sunken roadways.
+
+
+== Geology ==
+
+Some trenches are created as a result of erosion by running water or by glaciers (which may have long since disappeared). Others, such as rift valleys or oceanic trenches, are created by geological movement of tectonic plates. Some oceanic trenches include the Mariana Trench and the Aleutian Trench. The former geoform is relatively deep (approximately 10 kilometres (6.2 mi)), linear and narrow, and is formed by plate subduction when plates converge.
+
+
+== Civil engineering ==
+
+In the civil engineering fields of construction and maintenance of infrastructure, trenches play a major role. They are used for installation of underground infrastructure or utilities (such as gas mains, water mains, communication lines and pipelines) that would be obstructive or easily damaged if placed above ground. Trenches are needed later for access to these installations for service. They may be created to search for pipes and other infrastructure whose exact location is no longer known ("search trench" or "search slit"). Finally, trenches may be created as the first step of creating a foundation wall. Trench shoring is often used in trenchworks to protect workers and stabilise the steep walls.
+An alternative to digging trenches is to create a utility tunnel. Such a tunnel may be dug by boring or by using a trench for cut-and-cover construction. The advantages of utility tunnels are the reduction of maintenance manholes, one-time relocation, and less excavation and repair, compared with separate cable ducts for each service. When they are well mapped, they also allow rapid access to all utilities without having to dig access trenches or resort to confused and often inaccurate utility maps. 
+An important advantage to placing utilities underground is public safety. Underground power lines, whether in common or separate channels, prevent downed utility cables from blocking roads, thus speeding emergency access after natural disasters such as earthquakes, hurricanes, and tsunamis.In some cases, a large trench is dug and deliberately preserved (not filled in), often for transport purposes.  This is typically done to install depressed motorways, open railway cuttings, or canals. However, these large, permanent trenches are significant barriers to other forms of travel, and often become de facto boundaries between neighborhoods or other spaces.
+
+
+== Military engineering ==
+
+Trenches have often been dug for military purposes. In the pre-firearm era, they were mainly a type of hindrance to an attacker of a fortified location, such as the moat around a castle (this is technically called a ditch). An early example of this can be seen in the Battle of the Trench, a religious war, one of the early battles fought by Muhammad.With the advent of accurate firearms, trenches were used to shelter troops. Trench warfare and tactics evolved further in the Crimean War, the American Civil War and World War I, until systems of extensive main trenches, backup trenches (in case the first lines were overrun) and communication trenches often stretched dozens of kilometres along a front without interruption, and some kilometres further back from the front line. After WW1 had concluded, the trench became a symbol of WW1 and its horrors.
+
+
+=== Gallery ===
+
+		
+		
+
+
+== Archaeology ==
+
+Trenches are used for searching and excavating ancient ruins or to dig into strata of sedimented material to get a sideways (layered) view of the deposits – with a hope of being able to place found objects or materials in a chronological order. The advantage of this method is that it destroys only a small part of the site (those areas where the trenches, often arranged in a grid pattern, are located). However, this method also has the disadvantage of only revealing small slices of the whole volume, and modern archeological digs usually employ combination methods.
+
+
+== Safety ==
+Trenches that are deeper than about 1.5 m present safety risks arising from their steep walls and confined space. These risks are similar those from pits or any steep-walled excavations. The risks include falling, injury from cave-in (wall collapse), inability to escape the trench, drowning and asphyxiation.
+Falling into the trench. Mitigation methods include barriers such as railings or fencing.
+Injury from cave-in, meaning collapse of a steep wall. Mitigation includes construction of sloped walls (sloped trench) or stepped walls (benched trench). For vertical walls, trench shoring stabilizes the walls, and trench shielding provides a barrier against collapsed material. The risk of cave-in increases from surcharge load, which is any weight placed outside the trench near its edge. These loads include the spoil pile (soil excavated from the trench) or heavy equipment. These add extra stress to the walls of the trench.
+Inability to escape the trench because of steep and unstable walls, which may be difficult to climb. Ladders, stairs, or ramps allow exit. Cranes may assist rescue.
+Drowning in water or mud that has accumulated in the trench from rain, seepage, or leaking water pipes.
+Asphyxiation, poisoning, fire and explosion from gasses that are denser than air that have settled in a trench. These may come from nearby industrial processing of these gasses, intentional use within the trench, or leakage from nearby plumbing. These present an asphyxiation hazard and may also be toxic. Burnable gasses such as natural gas present a fire and explosion risk. Oxidizers such as pure oxygen increase the risk of fire from other fuels present in the trench. Gasses such as pure nitrogen and natural gas have densities similar to pure air but are denser when cold, for example when they have evaporated from liquid form, and may creep along the ground and fill the trench. Ventilation fans and ducts reduce the risk. Oxygen sensors and other gas sensors detect the danger; alarms from the sensors can warn the occupants.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Trenching and Excavation (a NIOSH Safety and Health Topic, Centers for Disease Control and Prevention)
+Trench Safety Awareness (a NIOSH Publication, Centers for Disease Control and Prevention)

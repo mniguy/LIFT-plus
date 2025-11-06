@@ -1,0 +1,2127 @@
+The list of marine crustaceans of South Africa is a list of saltwater species that form a part of the crustacean (Phylum Arthropoda, several classes) fauna of South Africa. This list does not include the freshwater and terrestrial crustaceans. The list follows the SANBI listing on iNaturalist, and does not always agree with WoRMS for distribution.
+Crustaceans (Crustacea ) form a large, diverse arthropod taxon which includes such animals as crabs, lobsters, crayfish, shrimps, prawns, krill, woodlice, and barnacles. The crustacean group can be treated as a subphylum under the clade Mandibulata; because of recent molecular studies it is now well accepted that the crustacean group is paraphyletic, and comprises all animals in the clade Pancrustacea other than hexapods. Some crustaceans (Remipedia, Cephalocarida, Malacostraca) are more closely related to insects and the other hexapods than they are to certain other crustaceans.
+The 67,000 described species range in size from Stygotantulus stocki at 0.1 mm (0.004 in), to the Japanese spider crab with a leg span of up to 3.8 m (12.5 ft) and a mass of 20 kg (44 lb).  Like other arthropods, crustaceans have an exoskeleton, which they moult to grow. They are distinguished from other groups of arthropods, such as insects, myriapods and chelicerates, by the possession of biramous (two-parted) limbs, and by their larval forms, such as the nauplius stage of branchiopods and copepods.
+Most crustaceans are free-living aquatic animals, but some are terrestrial (e.g. woodlice), some are parasitic (e.g. Rhizocephala, fish lice, tongue worms) and some are sessile (e.g. barnacles). The group has an extensive fossil record, reaching back to the Cambrian, and includes living fossils such as Triops cancriformis, which has existed apparently unchanged since the Triassic period. More than 7.9 million tons of crustaceans per year are produced by fishery or farming for human consumption, most of it being shrimp and prawns. Krill and copepods are not as widely fished, but may be the animals with the greatest biomass on the planet, and form a vital part of the food chain. The scientific study of crustaceans is known as carcinology (alternatively, malacostracology, crustaceology or crustalogy), and a scientist who works in carcinology is a carcinologist. (Full article...)
+
+
+== Class Branchiopoda, subclass Diplostraca, infraclass Cladoceromorpha ==
+
+
+=== Superorder Cladocera, order Ctenopoda ===
+
+
+==== family Sididae ====
+Penilia spp.
+
+
+=== Superorder Cladocera, order Onychopoda ===
+
+
+==== Family Podonidae ====
+Evadne spp.
+Podon spp.
+
+
+== Class Branchiopoda, subclass Sarsostraca ==
+
+
+=== Order Anostraca ===
+
+
+==== Family Artemiidae ====
+Artemiidae spp.
+
+
+== Superclass Multicrustacea, class Hexanauplia, subclass Copepoda, infraclass Neocopepoda ==
+
+
+=== Superorder Gymnoplea, order Calanoida ===
+
+
+==== Family Acartiidae ====
+Paracartia africana (Steuer, 1915)
+Acartia spp.
+
+
+==== Family Calanidae ====
+Calanoides carinatus (Krøyer, 1849)
+Calanus agulhensis De Decker, Kaczmaruk & Marska, 1991
+Calanus spp.
+
+
+==== Family Candaciidae ====
+Candacia bipinnata (Giesbrecht, 1889)
+Candacia spp.
+
+
+==== Family Centropagidae ====
+Centropages brachiatus (Dana, 1849) – Pelagic copepods
+Centropages spp.
+
+
+==== Family Clausocalanidae ====
+Clausocalanus furcatus (Brady, 1883)
+Clausocalanus ingens Frost & Fleminger, 1968
+Ctenocalanus vanus Giesbrecht, 1888
+
+
+==== Family Eucalanidae ====
+Eucalanus elongatus elongatus (Dana, 1848)
+Eucalanus spp.
+
+
+==== Family Euchaetidae ====
+Euchaeta marina (Prestandrea, 1833)
+Euchaeta spp.
+
+
+==== Family Metridinidae ====
+Metridia lucens Boeck, 1865
+Metridia spp.
+Pleuromamma abdominalis (Lubbock, 1856)
+Pleuromamma spp.
+
+
+==== Family Paracalanidae ====
+Paracalanus parvus parvus (Claus, 1863)
+Paracalanus spp.
+
+
+==== Family Rhincalanidae ====
+Rhincalanus nasutus Giesbrecht, 1888
+Rhincalanus spp.
+
+
+==== Family Subeucalanidae ====
+Subeucalanus mucronatus (Giesbrecht, 1888)
+
+
+=== Superorder Podoplea, order Harpacticoida ===
+
+
+==== Family Ectinosomatidae ====
+Microsetella spp. - Benthic copepods
+
+
+==== Family Porcellidiidae ====
+Porcellidium spp. – Benthic copepods
+
+
+=== Superorder Podoplea, order Cyclopoida ===
+
+
+==== Family Oithonidae ====
+Oithona spp.
+
+
+=== Superorder Podoplea, order Harpacticoida, suborder Poecilostomatoida ===
+
+
+==== Family Corycaeidae ====
+Corycaeus spp.
+
+
+==== Family Oncaeidae ====
+Oncaea spp.
+
+
+==== Family Sapphirinidae ====
+Sapphirina spp. – Glitter-bugs
+
+
+== Subclass Thecostraca, infraclass Cirripedia ==
+
+
+=== Superorder Thoracica, order Lepadiformes, suborder Lepadomorpha ===
+
+
+==== Family Lepadidae ====
+Conchoderma auritum (Linnaeus, 1767) – Rabbit ear barnacle
+Conchoderma virgatum Spengler, 1789
+Dosima fascicularis (Ellis & Solander, 1786) – Buoy barnacle
+Lepas (Anatifa) anatifera Linnaeus, 1758 – Yellow-rimmed goose barnacle
+Lepas (Anatifa) anserifera Linnaeus, 1767 – Goose barnacle
+Lepas (Anatifa) australis Darwin, 1851 – Goose barnacle
+Lepas (Anatifa) hillii Leach, 1818 – Goose barnacle
+Lepas (Anatifa) pectinata Spengler, 1793 – Goose barnacle
+Lepas (Anatifa) testudinata Aurivillius, 1892 – Goose barnacle
+
+
+==== Family Poecilasmatidae ====
+Megalasma minus Annandale, 1906
+Octolasmis cor (Aurivillius, 1892)
+Octolasmis neptuni (MacDonald, 1869)
+Octolasmis tridens
+Octolasmis warwickii Gray, 1825
+Octolasmis weberi (Hoek, 1907)
+Poecilasma aurantia Darwin, 1852 
+Poecilasma crassa (Gray, 1848) – Crab barnacle
+Poecilasma kaempferi Darwin, 1852
+
+
+=== Order Scalpelliformes ===
+
+
+==== Family Calanticidae ====
+Calantica pollicipedoides (Hoek, 1907)
+Smilium hypocrites Barnard, 1924
+
+
+==== Family Scalpellidae, subfamily Arcoscalpellinae ====
+Arcoscalpellum botellinae (Barnard, 1924)
+Arcoscalpellum michelottianum (Seguenza, 1876)
+Catherinum sinuatum (Pilsbry, 1907)
+Pilsbryiscalpellum capense (Barnard, 1924)
+Pilsbryiscalpellum subalatum (Barnard, 1824)
+Tarasovium brevicaulus (Barnard, 1924)
+Tarasovium eumitos (Barnard, 1924)
+Tarasovium natalense (Barnard, 1924)
+Tarasovium valvulifer (Annandale, 1910)
+Vertebroscalpellum micrum (Pilsbry, 1907)
+Verum agulhense (Barnard, 1924)
+Verum branchiumcancri (Weltner, 1922)
+Verum cancellatum (Barnard, 1924)
+Verum carinatum (Hoek, 1883)
+Verum porcellanum (Barnard, 1924)
+
+
+==== Subfamily Meroscalpellinae ====
+Annandaleum gruvelii subsp. gruvelii (Annandale, 1906)
+
+
+==== Subfamily Scalpellinae ====
+Compressoscalpellum faurei (Barnard, 1924)
+Ornatoscalpellum ornatum (Gray, 1848)
+
+
+==== Lithotryidae ====
+Lithotrya valentiana (Gray, 1825)
+
+
+=== Order Sessilia, suborder Balanomorpha ===
+
+
+==== Superfamily Balanoidea, family Archaeobalanidae, subfamily Acastinae ====
+Acasta alba Barnard, 1924
+Acasta cyathus Darwin, 1854
+Acasta spongites (Poli, 1791)
+Acasta sulcata Lamarck, 1818
+Archiacasta membranacea (Barnard, 1924)
+
+
+==== Subfamily Archaeobalaninae ====
+Chirona tenuis (Hoek, 1883)
+Membranobalanus orcutti (Pilsbry, 1907)
+Neoacasta fossata (Barnard, 1924)
+Pectinoacasta pectinipes (Pilsbry, 1912)
+Solidobalanus elizabethae (Barnard, 1924)	Biccard
+
+
+==== Family Balanidae, subfamily Balaninae ====
+Amphibalanus amphitrite  – Striped barnacle
+Amphibalanus poecilotheca (Krüger, 1911)	Biccard
+Amphibalanus venustus (Darwin, 1854) – Striped barnacle
+Balanus glandula Darwin, 1854 – Pacific barnacle
+Balanus scandens Pilsbry
+Balanus spongicola Brown, 1844
+Balanus trigonus Darwin, 1854
+Balanus venustus Darwin, 1854
+
+
+==== Subfamily Megabalaninae ====
+Austromegabalanus cylindricus (Gmelin, 1780) – Giant barnacle
+Megabalanus tintinnabulum (Linnaeus, 1758)
+Notomegabalanus algicola Pilsbry, 1916 – White dwarf barnacle
+
+
+==== Family Pyrgomatidae, subfamily Pyrgomatinae ====
+Cantellius sp.
+
+
+==== Superfamily Chthamaloidea, family Chthamalidae, subfamily Chthamalinae ====
+Chthamalus dentatus Krauss, 1848 – Toothed barnacle
+
+
+==== Subfamily Notochthamalinae ====
+Octomeris angulosa (Sowerby, 1825) – Eight shell barnacle
+
+
+==== Superfamily Coronuloidea, family Chelonibiidae, subfamily Chelonibiinae ====
+Chelonibia caretta (Spengler, 1790)
+Chelonibia testudinaria (Linnaeus, 1758)
+
+
+==== Family Coronulidae Subfamily Coronulinae ====
+Cetopirus complanatus (Mörch, 1852)
+Coronula diadema (Linnaeus, 1767) – Whale barnacle
+Coronula reginae Darwin, 1854
+Xenobalanus globicipitis Steenstrup, 1851
+
+
+==== Superfamily Tetraclitoidea, family Tetraclitidae, subfamily Tetraclitinae ====
+Tetraclita rufotincta (Bruguière, 1789) – Rosy volcano barnacle
+Tetraclita serrata Darwin, 1954 – Grey volcano barnacle
+
+
+== Class Malacostraca, subclass Eumalacostraca ==
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Amphilochida, parvorder Amphilochidira ===
+
+
+==== Superfamily Amphilochoidea, family Amphilochidae ====
+Amphilochus neapolitanus Della Valle, 1893
+Hourstonius pusilla (K.H. Barnard, 1916)
+Rostrogitanopsis mariae (Griffiths, 1973)
+
+
+==== Superfamily Amphilochoidea, family Bolttsiidae ====
+Bolttsia minuta Griffiths, 1976
+
+
+==== Superfamily Amphilochoidea, family Cyproideidae ====
+Cyproidea ornata Haswell, 1879 – Ornate amphipod
+Hoplopleon australis (K.H. Barnard, 1916)
+Hoplopleon medusarum K.H. Barnard, 1932
+Hoplopleon similis Schellenberg, 1953
+Unguja yaya Griffiths, 1976
+
+
+==== Superfamily Amphilochoidea, family Sebidae, subfamily Sebinae ====
+Seba saundersii Stebbing, 1875
+
+
+==== Superfamily Amphilochoidea, family Stenothoidae, subfamily Stenothoinae ====
+Knysmetopa grandimana (Griffiths, 1974)
+Probolisca ovata (Stebbing, 1888)
+Proboloides rotunda (Stebbing, 1917)
+Stenothoe adhaerens Stebbing, 1888
+Stenothoe dolichopous K.H. Barnard, 1916
+Stenothoe gallensis Walker, 1904
+Stenothoe valida Dana, 1852
+
+
+==== Superfamily Iphimedioidea, family Amathillopsidae, subfamily Cleonardopsinae ====
+Cleonardopsis carinata K.H. Barnard, 1916
+
+
+==== Superfamily Iphimedioidea, family Dikwidae ====
+Dikwa acrania Griffiths, 1974
+
+
+==== Superfamily Iphimedioidea, family Epimeriidae ====
+Epimeria cornigera (Fabricius, 1779)
+Epimeria longispinosa K.H. Barnard, 1916
+Epimeria semiarmata K.H. Barnard, 1916
+
+
+==== Superfamily Iphimedioidea, family Ochlesidae ====
+Ochlesis lenticulosus K.H. Barnard, 1940 – Ridgeback amphipod
+Ochlesis levetzowi Schellenberg, 1953
+
+
+==== Superfamily Iphimediidae, family Iphimediidae ====
+Iphimedia capicola K.H. Barnard, 1932
+Iphimedia excisa (K.H. Barnard, 1932)
+Iphimedia gibba (K.H. Barnard, 1955) – Hunchback amphipod
+Iphimedia stegosaura (Griffiths, 1975)
+
+
+==== Superfamily Leucothoidea, family Leucothoidae ====
+Leucothoe ctenochir K.H. Barnard, 1925
+Leucothoe dolichoceras K.H. Barnard, 1916
+Leucothoe euryonyx (Walker, 1901)
+Leucothoe richiardii Lesson, 1865
+Leucothoe spinicarpa (Abildgaard, 1789) – Sponge amphipod
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Amphilochida, parvorder Eusiridira ===
+
+
+==== Superfamily Eusiroidea, family Eusiridae ====
+Eusirus minutus Sars, 1895
+Rhachotropis grimaldi (Chevreux, 1887)
+Rhachotropis kergueleni Stebbing, 1888
+Rhachotropis paeneglaber K.H. Barnard, 1916
+Rhachotropis palporum Stebbing, 1908
+
+
+==== Superfamily Liljeborgioidea, family Liljeborgiidae, subfamily Idunellinae ====
+Idunella lindae (Griffiths, 1974)
+Idunella saldanha (Griffiths, 1975)
+Idunella sinuosa (Griffiths, 1974)
+
+
+==== Superfamily Liljeborgioidea, family Liljeborgiidae, Subfamily Liljeborgiinae ====
+Liljeborgia consanguinea Stebbing, 1888
+Liljeborgia epistomata K.H. Barnard, 1932
+Liljeborgia dubia (Haswell, 1880)
+Liljeborgia kinahani (Bate, 1862)
+Liljeborgia palmata Griffiths, 1974
+Liljeborgia proxima Chevreux, 1907
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Amphilochida, parvorder Oedicerotidira ===
+
+
+==== Superfamily Oedicerotoidea, family Oedicerotidae ====
+Halicreion ovalitelson K.H. Barnard, 1916
+Monoculodopsis longimana Ledoyer, 1973
+Oediceroides cinderella Stebbing, 1888
+Perioculodes longimanus (Bate & Westwood, 1868)
+Perioculodes pallidus Griffiths, 1975
+Synchelidium tenuimanum Norman, 1895
+Westwoodilla manta Griffiths, 1974
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Lysianassida, Parvorder Haustoriidira ===
+
+
+==== Superfamily Haustorioidea, family Phoxocephalidae, subfamily Brolginae ====
+Paraphoxus oculatus (Sars, 1879)
+
+
+==== Superfamily Haustorioidea, family Phoxocephalidae, subfamily Harpiniinae ====
+Basuto stimpsoni (Stebbing, 1908)
+Heterophoxus cephalodens Griffiths, 1975
+Heterophoxus opus Griffiths, 1975
+Pseudharpinia excavata (Chevreux, 1887)
+
+
+==== Superfamily Haustorioidea, family Phoxocephalidae, subfamily Pontharpiniinae ====
+Griffithsius latipes (Griffiths, 1976) – Spade-foot amphipod
+
+
+==== Superfamily Haustorioidea, family Platyischnopidae ====
+Indischnopus capensis (K.H. Barnard, 1926)
+
+
+==== Superfamily Haustorioidea, family Urothoidae ====
+Cunicus profundus Griffiths, 1974
+Urothoe coxalis Griffiths, 1974
+Urothoe elegans (Bate, 1857)
+Urothoe grimaldii Chevreux, 1895 – Burrowing amphipod
+Urothoe pinnata K.H. Barnard, 1955
+Urothoe platypoda Griffiths, 1974
+Urothoe pulchella (Costa, 1853)
+Urothoe serrulidactylus K.H Barnard, 1955
+Urothoe tumorosa Griffiths, 1974
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Lysianassida, Parvorder Lysianassidira ===
+
+
+==== Superfamily Aristioidea, family Aristiidae ====
+Aristias symbioticus K.H. Barnard, 1916
+
+
+==== Superfamily Aristioidea, family Izinkalidae ====
+Izinkala fihla Griffiths, 1977
+
+
+==== Superfamily Aristioidea, family Trischizostomatidae ====
+Trischizostoma paucispinosum K.H. Barnard, 1916
+Trischizostoma remipes Stebbing, 1908
+Trischizostoma serratum K.H. Barnard, 1925
+
+
+==== Superfamily Aristioidea, subfamily Wandinidae ====
+Pseudocyphocaris coxalis Ledoyer, 1986
+
+
+==== Superfamily Lysianassoidea, family Acidostomatidae ====
+Acidostoma obesum (Bate & Westwood, 1861)
+
+
+==== Superfamily Lysianassoidea, family Amaryllididae, subfamily Amaryllidinae ====
+Amaryllis macrophthalma Haswell, 1879 – Pocket amphipod
+
+
+==== Superfamily Lysianassoidea, family Amaryllididae, subfamily Vijayiinae ====
+Devo conocephala (K.H. Barnard, 1925)
+
+
+==== Superfamily Lysianassoidea, family Cyphocarididae ====
+Cyphocaris anonyx Boeck, 1871
+Cyphocaris challengeri Stebbing, 1888
+Cyphocaris faurei K.H. Barnard, 1916
+Cyphocaris richardi Chevreux, 1905
+
+
+==== Superfamily Lysianassoidea, family Eurytheneidae ====
+Eurythenes obesus (Chevreux, 1905)
+
+
+==== Superfamily Lysianassoidea, family Lysianassidae, subfamily Conicostomatinae ====
+Scolopostoma prionoplax (Monod, 1937)
+Stomacontion capense K.H. Barnard, 1916
+
+
+==== Superfamily Lysianassoidea, family Lysianassidae, subfamily Lysianassinae ====
+Lysianassa ceratina (Walker, 1889) – Compact amphipod
+Lysianassa minimus (Schellenberg 1953) Not in WoRMS
+Phoxostoma algoense K.H. Barnard, 1926
+Phoxostoma variegatus (Stimpson, 1856)
+Socarnes filicornis (Heller, 1866)
+Socarnes septimus Griffiths, 1975
+
+
+==== Superfamily Lysianassoidea, family Tryphosidae ====
+Hippomedon longimanus Stebbing, 1888
+Hippomedon normalis (K.H. Barnard, 1955)
+Hippomedon onconotus (Stebbing, 1908)
+Lepidepecreum clypeatum Chevreux, 1888
+Lepidepecreum clypodentatum J.L. Barnard, 1962
+Lepidepecreum twalae Griffiths, 1974
+Microlysias xenokeras Stebbing, 1918
+Orchomene plicatus (Schellenberg, 1926)
+Schisturella adversicola (K.H. Barnard, 1926)
+
+
+==== Superfamily Lysianassoidea, family Uristidae ====
+Euonyx conicurus K.H. Barnard, 1955
+Ichnopus macrobetomma Stebbing, 1917
+Ichnopus taurus Costa, 1853
+Stephonyx biscayensis (Chevreux, 1908)
+Uristes natalensis K.H. Barnard, 1916
+Uristes sulcus Griffiths, 1974
+
+
+==== Superfamily Stegocephaloidea, family Stegocephalidae ====
+Austrocephaloides australis (K.H. Barnard, 1916)
+
+
+==== Superfamily Stegocephaloidea, family Stegocephalidae, subfamily Parandaniinae ====
+Parandania boecki (Stebbing, 1888)
+
+
+==== Superfamily Stegocephaloidea, family Stegocephalidae, subfamily Stegocephalinae ====
+Stegocephaloides attingens Barnard, 1932
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Amphilochidea, infraorder Lysianassida, Parvorder Synopiidira ===
+
+
+==== Superfamily Dexaminoidea, family Atylidae, subfamily Nototropiinae ====
+Nototropis granulosus (Walker, 1904)
+Nototropis guttatus Costa, 1853
+Nototropis homochir (Haswell, 1885)
+Nototropis swammerdamei (Milne-Edwards, 1830)
+
+
+==== Superfamily Dexaminoidea, family Dexaminidae, subfamily Dexamininae ====
+Dexamine spiniventris (Costa, 1853)
+Paradexamine pacifica (Thomson, 1879)
+
+
+==== Superfamily Dexaminoidea, family Lepechinellidae ====
+Lepechinella occlo J.L. Barnard, 1973
+
+
+==== Superfamily Dexaminoidea, family Dexaminidae, subfamily Polycheriinae ====
+Polycheria atolli Walker, 1905 – Sea squirt amphipod
+
+
+==== Superfamily Dexaminoidea, family Dexaminidae, subfamily Prophliantinae ====
+Guernea (Guernea) rhomba Griffiths, 1974
+Guernea (Guernea) tumulosa Griffiths, 1976
+
+
+==== Superfamily Dexaminoidea, family Pardaliscidae ====
+Halicoides anacantha (K.H. Barnard, 1926)
+Nicippe tumida Bruzelius, 1859
+Nicippe spp.
+
+
+==== Superfamily Synopioidea, family Ampeliscidae ====
+Ampelisca acris Griffiths, 1974
+Ampelisca anisuropa (Stebbing, 1908)
+Ampelisca anomala Sars, 1883
+Ampelisca brachyceras Walker, 1904
+Ampelisca brevicornis (Costa, 1853)
+Ampelisca chiltoni Stebbing, 1888
+Ampelisca diadema (Costa, 1853)
+Ampelisca excavata K.H. Barnard, 1926
+Ampelisca fusca Stebbing, 1888
+Ampelisca insignis (K.H. Barnard, 1916)
+Ampelisca miops K.H. Barnard, 1916
+Ampelisca natalensis K.H. Barnard, 1916
+Ampelisca palmata K.H. Barnard, 1916 – Four-eyed amphipod
+Ampelisca spinimana Chevreux, 1900
+Byblis gaimardii (Kröyer, 1846)
+
+
+==== Superfamily Synopioidea, family Argissidae ====
+Argissa hamatipes (Norman, 1869)
+
+
+==== Superfamily Synopioidea, family Synopiidae ====
+Tiron australis Stebbing, 1908
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Colomastigidea, infraorder Colomastigida, parvorder Colomastigidira ===
+
+
+==== Superfamily Colomastigoidea, family Colomastigidae ====
+Colomastix armata Ledoyer, 1979
+Colomastix keiskama Griffiths, 1974
+Colomastix plumosa Ledoyer, 1979
+Colomastix pusilla Grube, 1861
+Yulumara improvisa Griffiths, 1976
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Hyperiidea, infraorder Physocephalata, parvorder Physocephalatidira ===
+
+
+==== Superfamily Phronimoidea, family Hyperiidae ====
+Themisto gaudichaudii Guérin, 1825 – Bubble-eyed amphipod
+
+
+==== Superfamily Phronimoidea, family Phronimidae ====
+Phronima sedentaria (Forskål, 1775) – Pram-bug isopod
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Bogidiellida, parvorder Bogidiellidira ===
+
+
+==== Superfamily Bogidielloidea, family Bogidiellidae ====
+Bollegidia capensis Ruffo, 1974
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Corophiida , parvorder Caprellidira ===
+
+
+=== Superfamily Caprelloidea, family Caprellidae, subfamily Caprellinae ===
+Caprella circur Mayer, 1903
+Caprella danilevski Czerniavskii, 1868
+Caprella equilibra Say, 1818Skeleton shrimp
+Caprella laevipes Mayer, 1903
+Caprella natalensis Mayer, 1903
+Caprella penantis Leach, 1814
+Caprella scaura Templeton, 1836
+Caprella triodos Stebbing, 1910
+Eupariambus fallax K.H. Barnard, 1957
+Hemiaegina minuta Mayer, 1890
+Metaprotella haswelliana (Mayer, 1882)
+Metaprotella macrodactylos Stebbing, 1910
+Monoliropus falcimanus Mayer, 1904
+Orthoprotella mayeri K.H. Barnard, 1916
+Paracaprella pusilla Mayer, 1890
+Paracaprella tenuis Mayer, 1903
+Paradeutella serrata Mayer, 1903
+Pseudaeginella tristanensis (Stebbing, 1888)
+Pseudoprotella phasma Montagu, 1804
+
+
+==== Superfamily Caprelloidea, family Caprellidae, subfamily Phtisicinae ====
+Caprellina longicollis Nicolet, 1849
+Caprellina spiniger K.H. Barnard, 1916
+Chaka leoni Griffiths, 1974
+Metaproto novaehollandiae (Haswell, 1880)
+Phtisica marina Slabber, 1769
+
+
+==== Superfamily Caprelloidea, family Cyamidae ====
+Cyamus balaenopterae K.H. Barnard, 1931
+Cyamus boopis Lütken, 1870Whale louse
+Cyamus erraticus Roussel de Vauzème, 1834
+Cyamus gracilis Roussel de Vauzème, 1834
+Cyamus ovalis Roussel de Vauzème, 1834
+Isocyamus delphinii (Guérin-Méneville, 1836)
+Neocyamus physeteris (Pouchet, 1888)
+Syncyamus aequus Lincoln & Hurley, 1981
+
+
+==== Superfamily Caprelloidea, family Podoceridae ====
+Laetmatophilus durbanensis K.H. Barnard, 1916
+Laetmatophilus purus Stebbing, 1888
+Laetmatophilus tridens Barnard, 1916
+Podocerus africanus K.H. Barnard, 1916
+Podocerus hystrix Stebbing, 1910
+Podocerus inconspicuus (Stebbing, 1888)
+Podocerus multispinis K.H. Barnard, 1926
+Podocerus pyurae Griffiths, 1975
+
+
+==== Superfamily Microprotopoidea, family Neomegamphopidae ====
+Pseudomegamphopus jassopsis (K.H. Barnard, 1951)
+
+
+==== Superfamily Photoidea, family Ischyroceridae, subfamily Ischyrocerinae, tribe Ischyrocerini ====
+Isaeopsis tenax K.H. Barnard, 1916
+Ischyrocerus anguipes Krøyer, 1838
+Ischyrocerus carinatus K.H. Barnard, 1916
+Ischyrocerus ctenophorus Schellenberg, 1953
+Ischyrocerus gorgoniae K.H. Barnard, 1940
+Jassa falcata (Montagu, 1808) – Hitchhiker amphipods
+Jassa marmorata Holmes, 1905 – Hitchhiker amphipods
+Jassa morinoi Conlan, 1990 – Hitchhiker amphipods
+Jassa slatteryi Conlan, 1990 – Hitchhiker amphipods
+Parajassa chikoa Griffiths, 1974
+Ventojassa frequens (Chilton, 1883)
+
+
+==== Superfamily Photoidea, family Ischyroceridae, subfamily Ischyrocerinae, tribe Siphonoecetini ====
+Africoecetes armatus (Griffiths, 1974)
+Cerapus tubularis Say, 1817
+Concholestes armatus Griffiths, 1974
+Ericthonius ledoyeri Barnard & Karaman, 1991
+Ericthonius punctatus (Bate, 1857)
+Notopoma africana Lowry & Berents, 1996
+Siphonoecetes (Centraloecetes) dellavallei Stebbing, 1899 – Jumping sand?
+Siphonoecetes (Orientoecetes) orientalis Walker, 1904 – Jumping sand?
+
+
+==== Superfamily Photoidea, family Kamakidae, subfamily Aorchinae ====
+Aorcho delgadus J.L. Barnard, 1961
+
+
+==== Superfamily Photoidea, family Kamakidae, subfamily Kamakinae ====
+Aorchoides crenatipalma (K.H. Barnard, 1916)
+
+
+==== Superfamily Photoidea, family Photidae ====
+Gammaropsis chelifera (Chevreux, 1901)
+Gammaropsis holmesi (Stebbing, 1908)
+Gammaropsis longicarpa Reid, 1951
+Gammaropsis palmoides (K.H. Barnard, 1932)
+Gammaropsis pseudodenticulata Ledoyer, 1979
+Gammaropsis scissimana (K.H. Barnard, 1926)
+Gammaropsis sophiae (Boeck, 1861)
+Latigammaropsis afra (Stebbing, 1888)
+Latigammaropsis atlantica (Stebbing, 1888)
+Photis dolichommata Stebbing, 1910
+Photis kapapa J.L. Barnard, 1970
+Photis longidactyla Griffiths, 1974
+Photis longimana Walker, 1904
+Photis uncinata K.H. Barnard, 1932
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Corophiida , parvorder Corophiidira ===
+
+
+==== Superfamily Aoroidea, family Aoridae ====
+Aora anomala Schellenberg, 1926
+Aora gibbula K.H. Barnard, 1932
+Aora inflata Griffiths, 1976
+Aora kergueleni Stebbing, 1888
+Autonoe hirsutipes (Stebbing, 1895)
+Bemlos teleporus (K.H. Barnard, 1955)
+Camacho bathyplous Stebbing, 1888
+Grandidierella bonnieroides Stephensen, 1947
+Grandidierella chelata K.H. Barnard, 1951
+Grandidierella lignorum K.H. Barnard, 1935
+Grandidierella lutosa K.H. Barnard, 1952
+Grandidierella nyala (Griffiths, 1974)
+Lemboides acanthiger K.H. Barnard, 1916
+Lemboides afer Stebbing, 1895
+Lembos hypacanthus K.H. Barnard, 1916
+Microdeutopus thumbellinus Griffiths, 1974
+Xenocheira leptocheira (Walker, 1909)
+
+
+==== Superfamily Aoroidea, family Unciolidae, subfamily, Unciolinae ====
+Janice spinidactyla Griffiths, 1973
+Unciolella foveolata Barnard, 1955
+Unciolella spinosa Griffiths, 1974
+
+
+==== Superfamily Cheluroidea, family Cheluridae ====
+Chelura terebrans Philippi, 1839
+
+
+==== Superfamily Chevalioidea, family Chevaliidae ====
+Chevalia aviculae Walker, 1904
+
+
+==== Superfamily Corophioidea, family Ampithoidae, subfamily Ampithoinae ====
+Ampithoe africana K.H. Barnard, 1926
+Amphithoe falsa (K.H. Barnard, 1932)
+Ampithoe kava Myers, 1985
+Ampithoe ramondi Audouin, 1826
+Cymadusa cavimana (Sivaprakasam, 1970)
+Cymadusa filosa Savigny, 1816 – Nesting amphipod
+Exampithoe (Exampithoe) natalensis K.H. Barnard, 1925
+Macropisthopus stebbingi K.H. Barnard, 1916
+Paragrubia vorax Chevreux, 1901
+Peramphithoe humeralis (Stimpson, 1864)
+
+
+==== Superfamily Corophioidea, family Corophiidae, subfamily Corophiinae, tribe Corophiini ====
+Americorophium triaeonyx (Stebbing, 1904)
+Monocorophium acherusicum (Costa, 1853) – Fat-feeler amphipod
+
+
+==== Superfamily Corophioidea, family Corophiidae, subfamily Protomedeiinae ====
+Cheiriphotis durbanensis K.H. Barnard, 1916
+Cheiriphotis megacheles (Giles, 1885)
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Gammarida, parvorder Crangonyctidira ===
+
+
+==== Superfamily Crangonyctoidea, family Paramelitidae ====
+Aquadulcaris andronyx (Stewart & Griffiths, 1992)
+Aquadulcaris auricularius (K.H. Barnard, 1916)
+Aquadulcaris crassicornis (K.H. Barnard, 1916)
+Aquadulcaris dentata (Stewart & Griffiths, 1992)
+Aquadulcaris marunuguis (Stewart & Griffiths, 1992)
+Aquadulcaris pheronyx (Stewart & Griffiths, 1992)
+Mathamelita aequidentata Stewart & Griffiths, 1995
+Paramelita aurantius (K.H. Barnard, 1927)
+Paramelita barnardi Thurston, 1973
+Paramelita capensis (K.H. Barnard, 1916)
+Paramelita flexa Griffiths, 1981
+Paramelita granulicornis (K.H. Barnard, 1927)
+Paramelita kogelensis (K.H. Barnard, 1927)
+Paramelita magna Stewart & Griffiths, 1992
+Paramelita magnicornis Stewart & Griffiths, 1992
+Paramelita nigroculus (K.H. Barnard, 1916)
+Paramelita odontophora Stewart, Snaddon & Griffiths, 1994
+Paramelita parva Stewart & Griffiths, 1992
+Paramelita pillicornis Stewart & Griffiths, 1992
+Paramelita pinnicornis Stewart & Griffiths, 1992
+Paramelita platypus Stewart & Griffiths, 1992
+Paramelita seticornis (K.H. Barnard, 1927)
+Paramelita spinicornis (K.H. Barnard, 1927)
+Paramelita triangula Griffiths & Stewart, 1996
+Paramelita tulbaghensis (K.H. Barnard, 1927)
+Paramelita validicornis Stewart & Griffiths, 1992
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Gammarida, parvorder Gammaridira ===
+
+
+==== Superfamily Gammaroidea, family Bathyporeiidae ====
+Bathyporeia cunctator d'Udekem d'Acoz & Vader, 2005
+Bathyporeia gladiura d'Udekem d'Acoz & Vader, 2005
+Bathyporeia griffithsi d'Udekem d'Acoz & Vader, 2005
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Hadziida, parvorder Hadziidira ===
+
+
+==== Superfamily Calliopioidea, family Calliopiidae ====
+Calliopiella michaelseni Schellenberg, 1925
+Membrilopus membrisetatus (J.L. Barnard, 1961)
+
+
+==== Superfamily Calliopioidea, family Cheirocratidae ====
+Incratella inermis (Ledoyer, 1967)
+
+
+==== Superfamily Calliopioidea, family Megaluropidae ====
+Megaluropus agilis Hoeck, 1889
+Megaluropus namaquaeensis Schellenberg, 1953
+
+
+==== Superfamily Calliopioidea, family Pontogeneiidae ====
+Dautzenbergia grandimana (Chevreux, 1900)
+Eusiroides monoculoides (Haswell, 1880)
+Paramoera bidentata K.H. Barnard, 1932
+Paramoera capensis (Dana, 1853) – Big-eyed amphipod
+Paramoerella interstitialis Ruffo, 1974
+
+
+==== Superfamily Hadzioidea, family Eriopisidae ====
+Eriopisella capensis (K.H. Barnard, 1916)
+Eriopisella epimera Griffiths, 1974
+Victoriopisa chilkensis (Chilton, 1921)
+Victoriopisa epistomata (Griffiths, 1974)
+
+
+==== Superfamily Hadzioidea, family Maeridae ====
+Austromaera bruzelii (Stebbing, 1888)
+Austromaera mastersii (Haswell, 1879)
+Ceradocus natalensis Griffiths, 1974
+Ceradocus (Denticeradocus) rubromaculatus (Stimpson, 1856) – Red-striped amphipod
+Elasmopoides chevreuxi Stebbing, 1908
+Elasmopus alalo Myers, 1986
+Elasmopus japonicus Stephensen, 1932
+Elasmopus pectenicrus (Bate, 1862)
+Elasmopus rapax Costa, 1853
+Hamimaera hamigera (Haswell, 1879)
+Jerbarnia mecochira Croker, 1971
+Linguimaera boecki (Haswell, 1879)
+Maera grossimana (Montagu, 1808)
+Maera hirondellei Chevreux, 1900
+Maera inaequipes (Costa, 1857)
+Maera vagans K.H. Barnard, 1940 – nomen dubium
+Mallacoota subcarinata (Haswell, 1879)
+Othomaera komma (Griffiths, 1975)
+Othomaera lobata (Griffiths, 1976)
+Othomaera thrixa (Griffiths, 1975)
+Parelasmopus suluensis (Dana, 1853)
+Quadrimaera pacifica (Schellenberg, 1938)
+Quadrimaera serrata (Schellenberg, 1938)
+Quadrivisio aviceps (K.H. Barnard, 1940)
+Zygomaera emarginata Griffiths, 1975
+
+
+==== Superfamily Hadzioidea, family Melitidae ====
+Abludomelita mucronata (Griffiths, 1975)
+Dulichiella appendiculata (Say, 1818)
+Ledoyeromelita excavata (Ledoyer, 1979)
+Melita machaera K.H. Barnard, 1955
+Melita orgasmos K.H. Barnard, 1940
+Melita zeylanica Stebbing, 1904 – Brack-water amphipod
+Verdeia subchelata (Schellenberg, 1925)
+
+
+==== Superfamily Hadzioidea, family Nuuanuidae ====
+Nuuanu castellana (Griffiths, 1977)
+
+
+=== Superorder Peracarida, order Amphipoda, suborder Senticaudata, infraorder Talitrida, parvorder Talitridira ===
+
+
+==== Superfamily Hyaloidea, family Dogielinotidae ====
+Parhyalella natalensis (Stebbing, 1917)
+
+
+==== Superfamily Hyaloidea, family Hyalidae, subfamily Hyalinae ====
+Hyale diastoma Barnard, 1916
+Hyale grandicornis Krøyer, 1845 – Seaweed amphipod
+Hyale hirtipalma (Dana, 1852)
+Hyale macrodactyla Stebbing, 1899
+Hyale saldanha Chilton, 1912
+Parhyale hawaiensis (Dana, 1853)
+Protohyale (Boreohyale) maroubrae (Stebbing, 1899)
+Ptilohyale plumulosus (Stimpson, 1857)
+
+
+==== Superfamily Hyaloidea, family Phliantidae ====
+Pereionotus alaniphlias (J.L. Barnard, 1970)
+Pereionotus natalensis (K.H. Barnard, 1940)
+
+
+==== Superfamily Hyaloidea, family Plioplateidae ====
+Plioplateia triquetra K.H. Barnard, 1916
+
+
+==== Superfamily Hyaloidea, family Temnophliantidae ====
+Hystriphlias hystrix (K.H. Barnard, 1954)
+Temnophlias capensis K.H. Barnard, 1916 – Louse amphipod
+
+
+==== Superfamily Talitroidea, family Talitridae ====
+Africorchestia quadrispinosa (K.H. Barnard, 1916)
+Cochinorchestia notabilis (K.H. Barnard, 1935)
+Eorchestia rectipalma (K.H. Barnard, 1940)
+Floresorchestia anomala (Chevreux, 1901)
+Floresorchestia ancheidos (K.H. Barnard, 1916)
+Orchestia dassenensis (K.H. Barnard, 1916)
+Orchestia gammarellus (Pallas, 1766)
+Platorchestia platensis (Krøyer, 1845)
+Talitriator africana (Bate, 1862)
+Talitriator calva (K.H. Barnard, 1940)
+Talitriator cylindripes (K.H. Barnard, 1940)
+Talitriator eastwoodae Methuen, 1913
+Talitriator setosa (K.H. Barnard, 1940)
+Talitroides alluaudi (Chevreux, 1896)
+Talitroides topitotum (Burt, 1934)
+Talorchestia australis K.H. Barnard, 1916
+Talorchestia capensis (Dana, 1853) – Beach hopper
+
+
+== Class Malacostraca, subclass Eumalacostraca temp break ==
+
+
+=== Superorder Peracarida, order Cumacea ===
+
+
+==== Family Bodotriidae, subfamily Vaunthompsoniinae ====
+Heterocuma africanum Zimmer, 1908 – Sandbank cumacean
+
+
+==== Family Gynodiastylidae ====
+Dicoides siphonatus Day, 1980
+Gynodiastylis sulcata Day, 1980
+Gynodiastylis curvirostris Day, 1980
+Gynodiastylis fulgidus Day, 1980
+Gynodiastylis lineata Day, 1980
+Gynodiastylis profunda Day, 1980
+Haliana eckloniae Day, 1980
+
+
+==== Family Diastylidae ====
+Dic calmani Stebbing, 1910
+Dic formosae Day, 1980
+Dic platytelson Day, 1980
+Diastylis algoae Zimmer, 1908
+Diastylis namibiae Day, 1980
+Diastylis hexaceros Zimmer, 1908
+Leptostylis attenuatus Day, 1980
+Leptostylis gilli Day, 1980
+Leptostylis faurei Day, 1980
+Leptostylis macruroides Stebbing, 1912
+Makrokylindrus (Adiastylis) acanthodes (Stebbing, 1912)
+Makrokylindrus (Adiastylis) aculeatus Day, 1980
+Makrokylindrus (Adiastylis) bicornis Day, 1980
+Makrokylindrus (Adiastylis) spinifer Day, 1980
+Makrokylindrus (Makrokylindrus) deinotelson Day, 1980
+Makrokylindrus (Makrokylindrus) fragilis Stebbing, 1912
+Makrokylindrus (Makrokylindrus) mundus Day, 1980
+Vemakylindrus stebbingi Day, 1980
+
+
+=== Superorder Eucarida, order Decapoda, suborder Dendrobranchiata ===
+
+
+==== Superfamily Penaeoidea, family Aristeidae ====
+Cerataspis spp.
+Aristaeopsis edwardsiana (Johnson, 1868)
+Aristaeomorpha foliacea (Risso, 1827)
+Austropenaeus nitidus (Barnard, 1947)
+
+
+==== Superfamily Penaeoidea, family Benthesicymidae ====
+Bentheogennema intermedia (Spence Bate, 1888)
+Gennadas bouvieri Kemp, 1909 	Kensley 1972
+Gennadas brevirostris Bouvier, 1905
+Gennadas capensis Calman, 1925
+Gennadas clavicarpus de Man, 1907
+Gennadas elegans (Smith, 1882)
+Gennadas gilchristi Calman, 1925
+Gennadas kempi Stebbing, 1914
+Gennadas incertus (Balss, 1927)
+Gennadas parvus Spence Bate, 1881
+Gennadas scutatus Bouvier, 1906
+Gennadas talismani Bouvier, 1906
+Gennadas tinayrei Bouvier, 1906
+Gennadas valens (Smith, 1884)
+
+
+==== Superfamily Penaeoidea, family Solenoceridae ====
+Gordonella villosa (Alcock & Anderson, 1894)
+Hymenopenaeus triarthrus (Stebbing, 1914)
+Solenocera africana Stebbing, 1917
+Solenocera algoensis Barnard, 1947
+Solenocera comata Stebbing, 1915
+Solenocera siphonoceros 
+
+
+==== Superfamily Penaeoidea, family Penaeidae ====
+Funchalia woodwardi Johnson, 1868
+Macropetasma africana (Balss, 1913) – Surf shrimp
+Metapenaeus monoceros (Fabricius, 1798) – Brown prawn
+Metapenaeus stebbingi Nobili, 1904 	Kensley 1972
+Metapenaeopsis andamanensis (Wood-Mason in Wood-Mason & Alcock, 1891)
+Metapenaeopsis mogiensis Rathbun, 1902
+Metapenaeopsis philippii (Spence Bate, 1881)
+Metapenaeopsis quinquedentata (de Man, 1907)
+Parapenaeopsis acclivirostris Alcock, 1905
+Parapenaeus fissurus (Spence Bate, 1881)
+Parapenaeus investigatoris Alcock & Anderson, 1899
+Penaeopsis rectacuta (Spence Bate, 1881)
+Penaeus canaliculatus (Olivier, 1811) – Striped prawn
+Penaeus indicus H. Milne Edwards, 1837 – White prawn
+Penaeus japonicus Spence Bate, 1888 – Bamboo prawn
+Penaeus latisulcatus Kishinouye, 1896
+Penaeus monodon Fabricius, 1798 – Tiger prawn
+Penaeus semisulcatus De Haan, 1844 [in De Haan, 1833-1850] – Zebra prawn
+
+
+==== Superfamily Penaeoidea, family Sicyoniidae ====
+Sicyonia lancifer (Olivier, 1811)
+Sicyonia longicauda Rathbun, 1906
+Sicyonia truncata (Kubo, 1949)
+
+
+==== Superfamily Sergestoidea, family Sergestidae ====
+Acetes erythraeus Nobili, 1905
+Acetes natalensis Barnard, 1955
+Allosergestes pectinatus (Sund, 1920)
+Allosergestes sargassi (Ortmann, 1893)
+Deosergestes corniculum (Krøyer, 1855)
+Deosergestes disjunctus (Burkenroad, 1940)
+Eusergestes arcticus (Krøyer, 1855)
+Neosergestes orientalis (Hansen, 1919)
+Parasergestes armatus (Krøyer, 1855)
+Petalidium foliaceum Spence Bate, 1881
+Sergestes atlanticus H. Milne Edwards, 1830
+Sergia grandis (Sund, 1920)
+Sergia laminata (Burkenroad, 1940)
+Sergia potens (Burkenroad, 1940)
+Sergia prehensilis (Spence Bate, 1881)
+Sergia regalis (Gordon, 1939)
+Sergia scintillans (Burkenroad, 1940)
+Sergia talismani (Barnard, 1947)
+
+
+==== Superfamily Sergestoidea, family Luciferidae ====
+Lucifer chacei Bowman, 1967
+Lucifer orientalis Hansen, 1919
+Lucifer penicillifer Hansen, 1919
+Lucifer typus H. Milne Edwards, 1837 [in H. Milne Edwards, 1834-1840]
+
+
+=== Superorder Eucarida, order Decapoda, suborder Pleocyemata, infraorder Achelata ===
+
+
+==== Family Palinuridae ====
+Jasus lalandii (H. Milne Edwards, 1837) - West coast rock lobster
+Palinurus delagoae Barnard, 1926 - South coast rock lobster
+Palinurus gilchristi Stebbing, 1900 - Natal deep-sea rock lobster
+Panulirus homarus (Linnaeus, 1758) - East coast rock lobster
+Panulirus longipes (A. Milne Edwards, 1868) - Longlegged spiny lobster
+Panulirus ornatus (Fabricius, 1798) - Ornate spiny lobster
+Panulirus penicillatus (Olivier, 1791) - Pencillate spiny lobster
+Panulirus versicolor (Latreille, 1804) - Painted spiny lobster
+
+
+==== Family Scyllaridae, subfamily Arctidinae ====
+Scyllarides elisabethae (Ortmann, 1894) - Shoveller crayfish
+
+
+=== Superorder Eucarida, order Decapoda, suborder Pleocyemata, infraorder Astacidea ===
+
+
+==== Superfamily Enoplometopoidea, family Enoplometopidae ====
+Enoplometopus holthuisi Gordon, 1968 – Reef lobster
+
+
+=== Superorder Eucarida, order Decapoda, suborder Pleocyemata, infraorder Anomura ===
+
+
+==== Superfamily Hippoidea, family Hippidae ====
+Emerita austroafricana Schmitt, 1937 - Mole crab
+Hippa adactyla Fabricius, 1787 - Mole crab
+
+
+==== Superfamily Galatheoidea, family Porcellanidae ====
+Neopetrolisthes maculatus (H. Milne Edwards, 1837) - Spotted porcelain crab
+Pachycheles natalensis (Krauss, 1843)
+Petrolisthes lamarckii (Leach, 1820) - Lamarck's porcelain crab
+Pisidia dehaanii (Krauss, 1843)
+
+
+==== Superfamily Paguroidea, family Coenobitidae ====
+Coenobita cavipes Stimpson, 1858 - Common land hermit crab
+
+
+==== Superfamily Paguroidea, family Diogenidae ====
+Aniculus aniculus (Fabricius, 1787) - Teddy bear hermit crabs
+Calcinus laevimanus (Randall, 1840) - Blue-eyed hermit crab
+Clibanarius longitarsus (De Haan, 1849) - Long-fingered hermit crab
+Clibanarius virescens (Krauss, 1843) - Yellow banded hermit crab
+Dardanus arrosor (Herbst, 1796) - Striated hermit
+Dardanus megistos (Herbst, 1804) - Giant spotted hermit crab
+Dardanus pedunculatus (Herbst, 1804) - Anemone hermit crab
+Diogenes brevirostris Stimpson, 1858 - Common sand hermit crab
+Diogenes costatus Henderson, 1893
+Diogenes extricatus Stebbing, 1910
+Diogenes senex Heller, 1865
+Paguristes gamianus (H. Milne Edwards, 1836) – Pink hermit crab
+
+
+==== Superfamily Paguroidea, family Paguridae ====
+Pagurus liochele (Barnard, 1947) - Blue-faced hermit crab; blue striped hermit crab
+
+
+==== Superfamily Paguroidea, family Parapaguridae ====
+Parapagurus pilosimanus Smith, 1879 - Hairy clawed hermit crab
+Sympagurus dimorphus (Studer, 1883) - Cloaked hermit crab
+
+
+=== Superorder Eucarida, order Decapoda, suborder Pleocyemata, infraorder Axiidea ===
+
+
+==== Family Callianassidae, subfamily Callichirinae ====
+Callichirus kraussi (Stebbing, 1900) - Common sandprawn
+
+
+==== Family Callianassidae, subfamily Callianassinae ====
+Pestarella rotundicaudata (Stebbing, 1902) – Round-tailed sandprawn
+
+
+=== Superorder Eucarida, order Decapoda, suborder Pleocyemata, infraorder Brachyura, section Eubrachyura, subsection Heterotremata ===
+
+
+==== Superfamily Calappoidea, family Calappidae ====
+Ashtoret lunaris (Forskål, 1775) – Moon crab
+Calappa hepatica (Linnaeus, 1758) – Reef box crab
+Mursia cristiata H. Milne Edwards, 1837 – Masked crab
+
+
+==== Superfamily Eriphioidea, family Eriphiidae ====
+Eriphia smithii MacLeay, 1838 – Smith's xanthid
+Eriphia sebana (Shaw & Nodder, 1803) – Red-eyed xanthid
+Eriphia scabricula Dana, 1852 – Hedgehog xanthid
+
+
+=== Superfamily Hexapodoidea, family Hexapodidae ===
+Spiroplax spiralis (Barnard, 1950) – Three-legged crab
+
+
+==== Superfamily Hymenosomatoidea, family Hymenosomatidae ====
+Hymenosoma orbiculare Desmarest, 1823 – Crown crab
+Neorhynchoplax bovis (Barnard, 1946) – Rhynchoplax bovis Barnard, 1946
+
+
+==== Superfamily Leucosioidea, family Leucosiidae, subfamily Ebaliinae ====
+Afrophila punctata (Bell, 1855) – Long-legged crab
+
+
+==== Superfamily Majoidea, family Epialtidae, subfamily Epialtinae ====
+Acanthonyx dentatus H. Milne Edwards, 1834 –
+Acanthonyx quadridentatus Krauss, 1843 – Four-toothed decorator crab
+Acanthonyx scutellatus MacLeay, 1838 – Shield decorator crab
+Acanthonyx undulatus Barnard, 1947 – Shield decorator crab
+Dehaanius dentatus (Milne Edwards) – Toothed decorator crab
+
+
+==== Superfamily Majoidea, family Inachidae ====
+Macropodia falcifera (Stimpson, 1857) – Cape long-legged spider crab
+Achaeopsis spinulosus Stimpson, 1857 – Hotlips spider crab
+
+
+==== Superfamily Majoidea, family Majidae, subfamily Majinae ====
+Maja capensis Ortmann, 1894 – Agulhas spider crab
+
+
+==== Superfamily Pilumnoidea, family Pilumnidae, subfamily Pilumninae ====
+Pilumnus minutus De Haan, 1835 – Pilumnus hirsutus
+Pilumnus vespertilio (Fabricius, 1793) – Shaggy xanthid
+Serenepilumnus pisifer (MacLeay, 1838)
+
+
+==== Superfamily, Portunoidea, family Portunidae, subfamily Caphyrinae ====
+Lissocarcinus laevis Miers, 1886
+Lissocarcinus orbicularis Dana, 1852 – Harlequin crab
+
+
+==== Superfamily, Portunoidea, family Portunidae, subfamily Portuninae ====
+Carcinus maenas (Linnaeus, 1758) – European shore crab
+Portunus (Portunus) pelagicus (Linnaeus, 1758) – Blue swimming crab
+Portunus (Portunus) sanguinolentus (Herbst, 1783) – Blood-spotted swimming crab
+Scylla serrata (Forskål, 1775) – Mud crab
+
+
+==== Superfamily, Portunoidea, family Portunidae, subfamily Thalamitinae ====
+Charybdis (Charybdis) hellerii (A. Milne-Edwards, 1867) – Heller's swimming crab
+Charybdis (Goniohellenus) smithii MacLeay, 1838 – Smith's swimming crab
+Thalamita admete (Herbst, 1803)
+Thalamita crenata Rüppell, 1830 – Scalloped swimming crab
+Thalamita woodmasoni Alcock, 1899
+
+
+==== Superfamily, Portunoidea, family Polybiidae ====
+Ovalipes trimaculatus (De Haan, 1833) – Three-spot swimming crab
+
+
+==== Superfamily, Portunoidea, family Thiidae, subfamily Nautilocorystinae ====
+Nautilocorystes ocellatus (Gray, 1831) – Masked crab
+
+
+==== Family Pseudozioidea, subfamily Pilumnoididae ====
+Pilumnoides rubus Guinot & Macpherson, 1987 – Kelp crabchecked to here
+
+
+==== Family Trapezioidea, subfamily Tetraliidae ====
+Tetralia glaberrima (Herbst, 1790) – Coral crab
+
+
+==== Family Trapeziidae, subfamily Trapeziinae ====
+Trapezia cymodoce (Herbst, 1801) – Coral crab
+Trapezia guttata Rüppell, 1830 – Coral crab
+Trapezia rufopunctata (Herbst, 1799) – Coral crab
+
+
+==== Superfamily Xanthoidea, family Xanthidae, subfamily Chlorodiellinae ====
+Cyclodius obscurus (Hombron & Jacquinot, 1846) – Nodular xanthid
+
+
+==== Subfamily Etisinae ====
+Etisus electra (Herbst, 1801)
+
+
+==== Subfamily Xanthinae ====
+Xantho hydrophilus (Herbst, 1790) – Variable xanthid
+
+
+==== Subfamily Zosiminae ====
+Atergatis laevigatus A. Milne-Edwards, 1865 – Chocolate crab
+
+
+=== Eubrachyura (section); Thoracotremata (subsection) ===
+
+
+==== Superfamily Grapsoidea, family Gecarcinidae ====
+Cardisoma carnifex (Herbst, 1796) – Giant land crab
+
+
+==== Family Grapsidae ====
+Grapsus fourmanoiri Crosnier, 1965 – Green rock crab
+Grapsus tenuicrustatus (Herbst, 1783) – Natal lightfoot crab
+Metopograpsus messor (Forskål, 1775) – Estuarine rock crab
+Metopograpsus thukuhar (Owen, 1839) – Estuarine rock crab
+Planes major (MacLeay, 1838) – Flotsam crab
+Planes minutus (Linnaeus, 1758) – Columbus' crab
+
+
+==== Family Percnidae ====
+Percnon planissimum (Herbst, 1804) – Flat-bodied crab
+
+
+==== Plagusiidae ====
+Guinusia chabrus (Linnaeus, 1758) – Cape rock crab
+Plagusia squamosa (Herbst, 1790) – Tuberculate crab
+
+
+==== Family Sesarmidae ====
+Chiromantes eulimene (de Man, in Weber, 1897) – Marsh crab
+Chiromantes ortmanni (Crosnier, 1965) – Marsh crab
+Neosarmatium meinerti (de Man, 1887) – Red-clawed mangrove crab
+Parasesarma catenatum (Ortmann, 1897) – Marsh crab
+Perisesarma guttatum (A. Milne-Edwards, 1869) – Red-clawed mangrove crab
+
+
+==== Family Varunidae, subfamily Cyclograpsinae ====
+Cyclograpsus punctatus H. Milne Edwards, 1837 – Shore crab
+
+
+==== Subfamily Varuninae ====
+Varuna litterata (Fabricius, 1798) – Swimming rock crab
+
+
+==== Superfamily Ocypodoidea, family Camptandriidae ====
+Danielita edwardsii (MacLeay, 1838) – Sandflat crab
+Paratylodiplax algoensis (Barnard, 1954)
+
+
+==== Family Dotillidae ====
+Dotilla fenestrata Hilgendorf, 1869Army crab
+
+
+==== Family Macrophthalmidae ====
+Macrophthalmus (Macrophthalmus) grandidieri Milne-Edwards, 1867
+Macrophthalmus (Mareotis) depressus Rüppell, 1830
+
+
+==== Family Ocypodidae, subfamily Ocypodinae ====
+Ocypode ceratophthalmus (Pallas, 1772) – Horn-eyed ghost crab
+Ocypode cursor (Linnaeus, 1758) – West coast ghost crab
+Ocypode madagascariensis Crosnier, 1965
+Ocypode ryderi Kingsley, 1880 – Pink ghost crab
+
+
+==== Subfamily Ucinae ====
+Uca (Austruca) annulipes (H. Milne Edwards, 1837) – Pink-clawed fiddler crab
+Uca (Paraleptuca) chlorophthalmus (H. Milne Edwards, 1837) – Green-eyed fiddler crab
+Uca (Cranuca) inversa (Hoffmann, 1874) – Tropical fiddler crab
+Uca (Tubuca) urvillei (H. Milne Edwards, 1852) – Urville's fiddler crab
+Uca (Gelasimus) vocans (Linnaeus, 1758)
+
+
+==== Superfamily Pinnotheroidea, family Pinnotheridae, subfamily Pinnotherinae ====
+Pinnotheres dofleini Lenz, 1914 – Pea crab
+
+
+=== Parvorder Podotremata ===
+
+
+==== Superfamily Dromioidea, Family Dromiidae,subfamily Dromiinae ====
+Dromidia aegibotus Barnard, 1947 – Sumo crab, scrubbing brush crab
+Dromidia hirsutissima (Lamarck, 1818) – Shaggy sponge crab
+Dromidia unidentata (Rüppell, 1830)
+Platydromia spongiosa (Stimpson, 1858) – Cryptic sponge crab
+Pseudodromia latens Stimpson, 1858 – Cloaked spomge crab, furred sponge crab
+
+
+=== Brachyura incertae sedis (section) ===
+Chaenostoma boscii (Audouin, 1826) – Squat long-eyed crab
+
+
+==== Superfamily Potamoidea, family Potamonautidae, subfamily Potamonautinae ====
+Potamonautes anchietae (Brito Capello, 1871)
+Potamonautes bayonianus (Brito Capello, 1864)
+Potamonautes brincki (Bott, 1960)
+Potamonautes calcaratus (Gordon, 1929)
+Potamonautes clarus Gouws, Stewart & Coke, 2000
+Potamonautes dentatus Stewart, Coke & Cook, 1995
+Potamonautes depressus (Krauss, 1843)
+Potamonautes dubius (Brito Capello, 1864)
+Potamonautes granularis Daniels, Stewart & Gibbons, 1998
+Potamonautes kensleyi Cumberlidge & Tavares, 2006
+Potamonautes lividus Gouws, Stewart & Reavell, 2001
+Potamonautes macrobrachii Bott, 1953
+Potamonautes mutandensis (Chace, 1953)
+Potamonautes obesus (A. Milne-Edwards, 1868)
+Potamonautes parvicorpus Daniels, Stewart & Burmeister, 2001
+Potamonautes parvispina Stewart, 1997
+Potamonautes perlatus (H. Milne Edwards, 1837)
+Potamonautes sidneyi (Rathbun, 1904)
+Potamonautes unispinus Stewart & Cook, 1998
+Potamonautes warreni (Calman, 1918)
+
+
+=== Infraorder Caridea ===
+
+
+==== Superfamily Alpheoidea, family Alpheidae ====
+Alpheus architectus de Man, 1897
+Alpheus bidens (Olivier, 1811)
+Alpheus bisincisus De Haan, 1849 [in De Haan, 1833-1850]
+Alpheus collumianus Stimpson, 1860
+Alpheus deuteropus Hilgendorf, 1879
+Alpheus diadema Dana, 1852
+Alpheus edwardsii (Audouin, 1826)
+Alpheus frontalis H. Milne Edwards, 1837 [in H. Milne Edwards, 1834-1840]
+Alpheus gracilipes Stimpson, 1860
+Alpheus lobidens De Haan, 1849 [in De Haan, 1833-1850] – Snapper shrimp
+Alpheus hippothoe de Man, 1888
+Alpheus longecarinatus Hilgendorf, 1879
+Alpheus lottini Guérin-Méneville, 1838 [in Guérin-Méneville, 1829-1838]
+Alpheus malabaricus (Fabricius, 1775)
+Alpheus nonalter Kensley, 1969
+Alpheus notabilis Stebbing, 1915
+Alpheus obesomanus Dana, 1852
+Alpheus parvirostris Dana, 1852
+Alpheus rapacida de Man, 1908
+Alpheus rapax Fabricius, 1798
+Alpheus strenuus strenuus Dana, 1852a
+Alpheus sulcatus Kingsley, 1878 – Cracker shrimp
+Alpheus villosus (Olivier, 1811)
+Alpheus waltervadi Kensley, 1969
+Athanas djiboutensis Coutière, 1897
+Athanas minikoensis Coutière, 1903
+Athanas nitescens (Leach, 1813 [in Leach, 1813-1814])
+Arete indicus Coutière, 1903
+Betaeus jucundus Barnard, 1947 – Commensal shrimp
+Racilius compressus Paul'son, 1875
+Salmoneus rostratus Barnard, 1962
+Synalpheus charon (Heller, 1861)
+Synalpheus digueti Coutière, 1909
+Synalpheus jedanensis de Man, 1909
+Synalpheus tumidomanus tumidomanus (Paul'son, 1875)
+
+
+==== Family Hippolytidae ====
+Alope orientalis (de Man, 1890) – Oriental shrimp
+Eualus cteniferus (Barnard, 1950)
+Eualus makrognathus  – Not in WoRMS
+Eualus pax (Stebbing, 1915)
+Exhippolysmata tugelae Stebbing, 1915
+Gelastocaris paronae (Nobili, 1905)
+Hippolyte catagrapha d'Udekem d'Acoz, 2007 – Feather-star shrimp; Crinoid shrimp
+Hippolyte kraussiana (Stimpson, 1860) – Broken backed shrimp
+Hippolyte palliola Kensley, 1970
+Hippolyte ventricosa H. Milne Edwards, 1837 [in H. Milne Edwards, 1834-1840]
+Latreutes mucronatus (Stimpson, 1860)
+Latreutes pymoeus Nobili, 1904
+Lebbeus saldanhae (Barnard, 1947)
+Leontocaris paulsoni Stebbing, 1905
+Lysmata amboinensis (de Man, 1888) – Skunk cleaner shrimp
+Lysmata debelius Bruce, 1983 – Blood shrimp
+Lysmata kuekenthali (de Man, 1902)
+Lysmata vittata (Stimpson, 1860)
+Merhippolyte agulhasensis Spence Bate, 1888
+Merhippolyte calmani Kemp & Sewell, 1912
+Saron marmoratus (Olivier, 1811)
+Thor amboinensis (de Man, 1888)
+Tozeuma armatum Paul'son, 1875
+
+
+==== Family Ogyrididae ====
+Ogyrides alphaerostris (Kingsley, 1880)
+Ogyrides saldanhae Barnard, 1947
+Ogyrides striaticauda Kemp, 1915
+
+
+==== Family Atyoidea, subfamily Atyidae ====
+Caridina africana Kingsley, 1883
+Caridina indistincta indistincta Calman, 1926
+Caridina nilotica (Roux, 1833)
+Caridina typus H. Milne Edwards, 1837 [in H. Milne Edwards, 1834-1840]
+
+
+==== Superfamily Crangonoidea , family Crangonidae ====
+Aegaeon cataphractus (Olivi, 1792)
+Aegaeon lacazei (Gourret, 1887)
+Crangon capensis Stimpson, 1860
+Metacrangon bellmarleyi (Stebbing, 1914)
+Parapontophilus gracilis gracilis (Smith, 1882
+Parapontophilus occidentalis (Faxon, 1893)
+Philocheras pilosus (Kemp, 1916)
+Philocheras sculptus (Bell, 1847 [in Bell, 1844-1853])
+Philocheras megalocheir Stebbing, 1915
+Philocheras hendersoni (Kemp, 1915)
+
+
+==== Family Glyphocrangonidae ====
+Glyphocrangon dentata Barnard, 1926
+Glyphocrangon longirostris (Smith, 1882)
+Glyphocrangon sculpta (Smith, 1882)
+
+
+==== Superfamily Nematocarcinoidea, family Rhynchocinetidae ====
+Cinetorhynchus sp.
+Rhynchocinetes durbanensis Gordon, 1936 – Camel shrimp
+
+
+==== Superfamily Oplophoroidea, family Acanthephyridae ====
+Acanthephyra acanthitelsonis Spence Bate, 1888
+Acanthephyra brevirostris Smith, 1885
+Acanthephyra corallina 
+Acanthephyra eximia Smith, 1884
+Acanthephyra pelagica (Risso, 1816)
+Acanthephyra quadrispinosa Kemp, 1939
+Acanthephyra stylorostratis (Spence Bate, 1888)
+Acanthephyra tenuipes (Spence Bate, 1888)
+Notostomus elegans A. Milne-Edwards, 1881
+Meningodora mollis Smith, 1882
+Hymenodora gracilis Smith, 1886
+
+
+==== Family Oplophoridae ====
+Janicella spinicauda (A. Milne-Edwards, 1883)
+Oplophorus gracilirostris A. Milne-Edwards, 1881
+Oplophorus novaezeelandiae (de Man, 1931)
+Oplophorus spinosus (Brullé, 1839)
+Systellaspis debilis (A.Milne-Edwards, 1881)
+
+
+==== Superfamily Palaemonoidea, family Hymenoceridae ====
+Hymenocera picta Dana, 1852 – Harlequin shrimp
+
+
+==== Family Gnathophyllidae ====
+Gnathophyllum americanum Guérin-Méneville, 1855 [in Guérin-Méneville, 1855-1856] – Zebra shrimp
+
+
+==== Family Palaemonidae, subfamily Palaemoninae ====
+Leander tenuicornis (Say, 1818)
+Macrobrachium equidens (Dana, 1852)
+Macrobrachium idea (Heller, 1862)
+Macrobrachium lepidactylus (Hilgendorf, 1879)
+Macrobrachium petersii (Hilgendorf, 1879)
+Macrobrachium rude (Heller, 1862)
+Macrobrachium scabriculum (Heller, 1862)
+Macrobrachium vollenhoveni (Herklots, 1857)
+Nematopalaemon tenuipes (Henderson, 1893)
+Palaemon capensis (de Man in Weber, 1897)
+Palaemon concinnus Dana, 1852
+Palaemon debilis Dana, 1852
+Palaemon elegans Rathke, 1837
+Palaemon maculatus (Thallwitz, 1892)
+Palaemon pacificus (Stimpson, 1860)
+Palaemon peringueyi (Stebbing, 1915) – Sand shrimp
+
+
+==== Subfamily Pontoniinae ====
+Anchistus custos (Forskål, 1775)
+Ancylomenes aesopius (Spence Bate, 1863)
+Ancylomenes luteomaculatus Okuno & Bruce, 2010
+Conchodytes tridacnae Peters, 1852
+Coralliocaris graminea (Dana, 1852)
+Cuapetes demani (Kemp, 1915)
+Cuapetes grandis (Stimpson, 1860)
+Cuapetes seychellensis (Borradaile, 1915)
+Harpiliopsis beaupresii (Audouin, 1826)
+Harpiliopsis depressa (Stimpson, 1860)
+Ischnopontonia lophos (Barnard, 1962)
+Jocaste lucina (Nobili, 1901)
+Lipkemenes lanipes (Kemp, 1922)
+Palaemonella rotumana (Borradaile, 1898)
+Periclimenaeus natalensis (Stebbing, 1915
+Periclimenaeus tridentatus (Miers, 1884)
+Periclimenaeus uropodialis Barnard, 1958
+Periclimenes brevicarpalis (Schenkel, 1902) – Snow-capped anemone shrimp
+Periclimenes commensalis Borradaile, 1915
+Periclimenes delagoae Barnard, 1958
+Periclimenes imperator Bruce, 1967
+Platycaris latirostris Holthuis, 1952
+
+
+==== Superfamily Pandaloidea, family Pandalidae ====
+Chlorotocus crassicornis (A. Costa, 1871)
+Heterocarpus dorsalis Spence Bate, 1888
+Heterocarpus laevigatus Spence Bate, 1888
+Heterocarpus tricarinatus Alcock & Anderson, 1894
+Heterocarpus woodmasoni Alcock, 1901
+Pandalina brevirostris (Rathke, 1843)
+Plesionika acanthonotus (Smith, 1882)
+Plesionika edwardsii (Brandt, 1851)
+Plesionika martia (A. Milne-Edwards, 1883)
+Stylopandalus richardi (Coutière, 1905)
+
+
+==== Superfamily Pasiphaeoidea family Pasiphaeidae ====
+Leptochela (Leptochela) pugnax de Man, 1916
+Leptochela (Leptochela) robusta Stimpson, 1860
+Parapasiphae sulcatifrons Smith, 1884
+Pasiphaea pacifica Rathbun, 1902
+Pasiphaea semispinosa Holthuis, 1951
+
+
+==== Superfamily Processoidea, family Processidae ====
+Nikoides danae Paul'son, 1875
+Processa aequimana (Paul'son, 1875)
+Processa austroafricana Barnard, 1947
+Processa compacta Crosnier, 1971
+Processa longipes 
+
+
+==== Superfamily Stylodactyloidea, family Stylodactylidae ====
+Parastylodactylus bimaxillaris (Spence Bate, 1888)
+Stylodactylus stebbingi Hayashi & Miyake, 1968
+
+
+=== Infraorder Gebiidea ===
+
+
+==== Family Upogebiidae ====
+Upogebia africana (Ortmann, 1894) – Estuarine mudprawn
+Upogebia capensis (Krauss, 1843) – Coastal mudprawn
+
+
+=== Infraorder Stenopodidea ===
+
+
+==== Family Stenopodidae ====
+Stenopus hispidus (Olivier, 1811) – Cleaner shrimp
+
+
+=== Order Euphausiacea ===
+
+
+==== Family Euphausiidae ====
+Euphausia americana Hansen, 1911
+Euphausia hanseni Zimmer, 1915
+Euphausia lucens Hansen, 1905 – Light euphausid
+Euphausia recurva Hansen, 1905
+Nematoscelis megalops G.O. Sars, 1883
+Nematoscelis microps G.O. Sars, 1883
+Nyctiphanes capensis Hansen, 1911
+Stylocheiron spp.
+Thysanoessa gregaria G.O. Sars, 1883
+Thysanopoda spp.
+
+
+=== Superorder Peracarida, order Isopoda, suborder Valvifera ===
+
+
+==== Family Antarcturidae ====
+Antarcturus kladophoros Stebbing, 1908
+Oxyarcturus beliaevei (Kussakin, 1967)
+Pleuroprion chuni (zur Strassen, 1902)
+Spinarcturus natalensis Kensley, 1978
+
+
+==== Family Arcturidae ====
+Astacilla brevipes (Barnard, 1920)
+Astacilla corniger (Stebbing, 1873)
+Astacilla lobulata (Barnard, 1925)
+Astacilla longipes (Barnard, 1920)
+Astacilla longispina (Kensley, 1978)
+Astacilla mediterranea Koehler, 1911
+Astacilla pustulata (Barnard, 1920)
+Astacilla tranquilla (Kensley, 1975)
+Arcturina hexagonalis Barnard, 1925
+Arcturina scutula Kensley, 1975
+Arcturina triangularis Barnard, 1957
+Arcturinoides sexpes Kensley, 1977
+Idarcturus platysoma Barnard, 1914
+Microarcturus oudops (Barnard 1914a)
+Microarcturus similis (Barnard 1925b)
+Neastacilla bacillus (Barnard, 1920)
+
+
+==== Family Holidoteidae ====
+Austroarcturus africanus Kensley, 1975
+Austroarcturus dayi (Kensley, 1977)
+Austroarcturus foveolatus Kensley, 1975
+Austroarcturus laevis (Kensley, 1975)
+Austroarcturus quadriconus (Kensley, 1975)
+Holidotea unicornis Barnard, 1920
+Neoarcturus ornatus (Kensley, 1975)
+Neoarcturus youngi (Kensley, 1978)
+
+
+==== Family Holognathidae ====
+Cleantioides natalensis (Barnard, 1925)
+
+
+==== Family Idoteidae ====
+Engidotea lobata (Miers, 1881)
+Euidotea peronii (Milne Edwards, 1840)
+Glyptidotea lichtensteini (Krauss, 1843) – Keeled isopod
+Idotea indica Milne Edwards, 1840
+Idotea metallica Bosc, 1802 – Metallic isopod
+Idotea ziczac Barnard, 1951
+Paridotea apposita Barnard, 1965
+Paridotea fucicola Barnard, 1914 – Brown weed-louse
+Paridotea reticulata Barnard, 1914 – Reticulate kelp louse
+Paridotea rubra Barnard, 1914 – Red weed-louse
+Paridotea ungulata (Pallas, 1772) – Green weed-louse
+Synidotea hirtipes (Milne Edwards, 1840)
+Synidotea setifer Barnard, 1914
+Synidotea variegata Collinge, 1917
+
+
+=== Suborder Cymothoida ===
+
+
+==== Superfamily Anthuroidea, family Anthuridae ====
+Amakusanthura africana (Barnard, 1914)
+Apanthura sandalensis Stebbing, 1900
+Cyathura estuaria Barnard, 1914
+Haliophasma austroafricanum Kensley, 1982
+Haliophasma coronicauda Barnard, 1925
+Haliophasma foveolata Barnard, 1940
+Haliophasma hermani Barnard, 1940
+Haliophasma macrurum (Barnard, 1914)
+Haliophasma pseudocarinata Barnard, 1940
+Haliophasma tricarinata Barnard, 1925
+Malacanthura linguicauda (Barnard, 1920)
+Malacanthura ornata (Barnard, 1957)
+Mesanthura catenula (Stimpson, 1855)
+Notanthura caeca (Kensley, 1975)
+Quantanthura serenasinus (Kensley, 1975)
+Quantanthura remipes (Barnard, 1914)
+
+
+==== Family Expanathuridae ====
+Expanathura amstelodami (Kensley, 1976)
+Panathura serricauda (Barnard, 1925)
+
+
+==== Family Hyssuridae ====
+Kupellonura capensis (Kensley, 1975)
+
+
+==== Family Leptanthuridae ====
+Accalathura indica (Nierstrasz, 1941)
+Accalathura laevitelson (Kensley, 1975)
+Leptanthura agulhasensis Kensley, 1975
+Leptanthura laevigata (Stimpson, 1855)
+Leptanthura urospinosa Kensley, 1975
+
+
+==== Family Paranthuridae ====
+Paranthura latipes Barnard, 1955
+Paranthura punctata (Stimpson, 1855)
+Pseudanthura lateralis Richardson, 1911
+
+
+==== Superfamily Cymothooidea, family Aegidae ====
+Aega monophthalma Johnston, 1834
+Aega monilis Barnard, 1914
+Aega semicarinata Miers, 1875
+Aega webbii (Guérin-Méneville, 1836)
+Aegapheles antillensis (Schioedte & Meinert, 1879)
+Aegiochus gracilipes (Hansen, 1895)
+Rocinela dumerilii (Lucas, 1849)
+Rocinela granulosa Barnard, 1914
+Rocinela orientalis Schioedte & Meinert, 1879
+Syscenus infelix Harger, 1880
+
+
+==== Family Cirolanidae ====
+Cirolana fluviatilis Stebbing, 1902 	2O
+Cirolana imposita Barnard, 1955
+Cirolana incisicauda Barnard, 1940
+Cirolana littoralis Barnard, 1920
+Cirolana luciae Barnard, 1940
+Cirolana meinerti Barnard, 1920
+Cirolana palifrons Barnard, 1920
+Cirolana parva Hansen, 1890
+Cirolana rugicauda Heller, 1861
+Cirolana saldanha Barnard, 1951
+Cirolana sulcata Hansen, 1890
+Cirolana theleceps Barnard, 1940
+Cirolana transcostata Barnard, 1959
+Cirolana undulata Barnard, 1914 – Crimped cirolanid
+Cirolana venusticauda Stebbing, 1902
+Conilorpheus Conilorpheus blandus	Barnard, 1955
+Conilorpheus scutifrons Stebbing, 1908
+Eurydice barnardi Bruce & Soares, 1996 	2O
+Eurydice kensleyi Bruce & Soares, 1996 	2O	Right-angled beach louse
+Eurydice longicornis (Studer, 1883)
+Excirolana latipes (Barnard, 1914)Wide-foot beach louse
+Excirolana natalensis (Vanhöffen, 1914)Natal beach louse
+Gnatholana mandibularis Barnard, 1920
+Metacirolana bicornis (Kensley, 1978)
+Natatolana borealis (Lilljeborg, 1851) Lilljeborg, 1851
+Natatolana hirtipes (H. Milne Edwards, 1840)Hairy legged cirolanid
+Natatolana natalensis (Barnard, 1940)
+Natatolana pilula (Barnard, 1955)
+Natatolana virilis (Barnard, 1940)
+Parabathynomus natalensis Barnard, 1924
+Politolana obtusispina (Kensley, 1975)
+
+
+==== family Corallanidae ====
+Corallana africana Barnard, 1914
+Corallana furcilla Barnard, 1955
+Lanocira gardineri Stebbing, 1904
+Lanocira latifrons Stebbing, 1910
+
+
+==== Family Cymothoidae ====
+Anilocra capensis Leach, 1818 – Fish louse
+Anilocra leptosoma Bleeker, 1857 	Kensley, 1978
+Cinusa tetrodontis Schioedte & Meinert, 1884
+Ceratothoa imbricata (Fabricius, 1775)
+Cymothoa borbonica Schioedte & Meinert, 1884 – Fish tongue louse
+Elthusa raynaudii (H. Milne Edwards, 1840)
+Mothocya melanosticta (Schioedte & Meinert, 1884)
+Nerocila orbignyi (Guérin-Méneville, 1832)
+Nerocila phaiopleura Bleeker, 1857
+Nerocila serra Schioedte & Meinert, 1881
+Nerocila trichiura (Miers, 1877)
+
+
+==== Family Gnathiidae ====
+Gnathia africana Barnard, 1914
+Gnathia cryptopais Barnard, 1925
+Gnathia disjuncta Barnard, 1920
+Gnathia spongicola Barnard, 1920
+
+
+=== Suborder Limnoriidea ===
+
+
+==== Superfamily Limnorioidea; family Limnoriidae ====
+Limnoria quadripunctata Holthuis, 1949
+
+
+=== Suborder Sphaeromatidea ===
+
+
+==== Superfamily Seroloidea, family Bathynataliidae ====
+Bathynatalia gilchristi Barnard, 1957
+
+
+==== Family Serolidae ====
+Caecoserolis brinki (Kensley, 1978)
+
+
+==== Superfamily Sphaeromatoidea, family Ancinidae ====
+Bathycopea typhlops Tattersall, 1905
+
+
+==== Family Sphaeromatidae ====
+Artopoles capensis Barnard, 1955
+Artopoles natalis Barnard, 1920
+Cassidias africana Barnard, 1920
+Cassidinidea monodi (Barnard, 1951)
+Cilicaea latreillei Leach, 1818
+Cymodoce acanthiger Barnard, 1914
+Cymodoce africana Barnard, 1914
+Cymodoce alia Kensley, 1975
+Cymodoce alis Barnard, 1955
+Cymodoce amplifrons (Stebbing, 1902)
+Cymodoce cavicola Barnard, 1920
+Cymodoce comans Barnard, 1914
+Cymodoce cryptodoma Barnard, 1920
+Cymodoce excavans Barnard, 1920
+Cymodoce falcata Barnard, 1920
+Cymodoce lis Barnard, 1955
+Cymodoce natalensis Barnard, 1920
+Cymodoce radiata Barnard, 1920
+Cymodoce setulosa (Stebbing, 1902)
+Cymodoce tetrahele Barnard, 1920
+Cymodoce tuberculata Costa in Hope, 1851
+Cymodoce umbonata Barnard, 1914
+Cymodoce uncinata Stebbing, 1902
+Cymodoce unguiculata Barnard, 1914
+Cymodoce valida (Stebbing, 1902) – Hump-tailed isopod
+Cymodoce velutina Kensley, 1975
+Cymodoce zanzibarensis Stebbing, 1910
+Cymodocella cancellata Barnard, 1920
+Cymodocella diateichos Barnard, 1959
+Cymodocella eutylos Barnard, 1954
+Cymodocella magna Barnard, 1954 – Tube-tail isopod
+Cymodocella pustulata Barnard 1914b
+Cymodocella sublevis Barnard, 1914
+Dynamenella dioxus Barnard, 1914
+Dynamenella huttoni (Thomson, 1879) Roll-tail isopod
+Dynamenella navicula Barnard, 1940
+Dynamenella taurus Barnard, 1940
+Dynoides serratisinus Barnard, 1914
+Exosphaeroma antikraussi Barnard, 1940
+Exosphaeroma brevitelson Barnard, 1914
+Exosphaeroma estuarium Barnard, 1951
+Exosphaeroma hylecoetes Barnard, 1940
+Exosphaeroma kraussi Tattersall, 1913
+Exosphaeroma laeviusculum (Heller, 1868)
+Exosphaeroma pallidum Barnard, 1940
+Exosphaeroma planum Barnard, 1914
+Exosphaeroma porrectum Barnard, 1914
+Exosphaeroma truncatitelson Barnard, 1940
+Exosphaeroma varicolor Barnard, 1914 – Variegated spherical isopod
+Ischyromene australis (Richardson, 1906)
+Ischyromene bicolor (Barnard, 1914)
+Ischyromene macrocephala (Krauss, 1843)
+Ischyromene ovalis (Barnard, 1914)
+Ischyromene scabricula (Heller, 1868)
+Isocladus mimetes Barnard, 1955
+Isocladus otion Barnard, 1955
+Isocladus tristense (Leach, 1818)
+Paracilicaea clavus Barnard, 1955
+Paracilicaea mossambica Barnard, 1914
+Paracilicaea teretron Barnard, 1955
+Parasphaeroma prominens Stebbing, 1902
+Parisocladus perforatus (H. Milne Edwards, 1840) – spike-back isopod
+Parisocladus stimpsoni (Heller, 1861)
+Pseudosphaeroma barnardi Monod, 1931
+Sphaeramene microtylotos Barnard, 1955
+Sphaeramene polytylotos Barnard, 1914 – Button isopod
+Sphaeroma annandalei Stebbing 1911
+Sphaeroma serratum (Fabricius, 1787)
+Sphaeroma terebrans Bate, 1866
+Sphaeroma walkeri Stebbing, 1905
+Stathmos coronatus Barnard, 1940
+Zuzara furcifer Barnard, 1920
+
+
+=== Suborder Asellota ===
+
+
+==== Superfamily Janiroidea, family Dendrotionidae ====
+Acanthomunna spinipes (Vanhöffen, 1914)
+
+
+==== Family Haploniscidae ====
+Antennuloniscus dimeroceras (Barnard, 1920)
+
+
+==== Family Ischnomesidae ====
+Ischnomesus bacillopsis (Barnard, 1920)
+
+
+==== Family Munnopsidae, subfamily Betamorphinae ====
+Betamorpha fusiformis (Barnard, 1920)
+
+
+==== Subfamily Eurycopinae ====
+Eurycope glabra Kensley, 1978
+Eurycope quadrata Barnard, 1920
+Munnopsurus mimus Barnard, 1914
+Tytthocope sulcifrons (Barnard, 1920)
+
+
+==== Subfamily Ilyarachninae ====
+Ilyarachna affinis Barnard, 1920
+Ilyarachna crassiceps Barnard, 1920
+Ilyarachna wolffi Kensley, 1978
+
+
+==== Subfamily Syneurycopinae ====
+Syneurycope capensis (Barnard, 1920)
+
+
+==== Family Santiidae ====
+Santia uncinata (Vanhöffen, 1914)
+Kuphomunna rostrata Barnard, 1914
+
+
+==== Family Joeropsididae ====
+Joeropsis beuroisi Kensley, 1975
+Joeropsis curvicornis (Nicolet, 1849)
+Joeropsis paulensis Vanhöffen, 1914
+Joeropsis stebbingi Kensley, 1975 – Stebbing's isopod
+Joeropsis waltervadi Kensley, 1975
+
+
+==== Family Janiridae ====
+Ectias angusta (Barnard, 1920)
+Iais pubescens (Dana, 1852)
+Ianiropsis palpalis Barnard, 1914
+Iathrippa bisbidens (Barnard, 1955)
+Iathrippa capensis (Barnard, 1914) – Hairy isopod
+Janira falcifera Barnard, 1962
+Neojaera pusilla (Barnard, 1925)
+Neojaera serrata (Barnard, 1914)
+
+
+==== Family Macrostylidae ====
+Macrostylis spiniceps Barnard, 1920
+
+
+==== Family Munnidae ====
+Munna concavifrons (Barnard, 1920)
+
+
+==== Family Munnopsidae, subfamily Munnopsinae ====
+Munnopsis beddardi (Tattersall, 1905)
+Munnopsis bispinosus Kensley, 1977
+Uromunna sheltoni (Kensley, 1977)
+
+
+==== Family Paramunnidae ====
+Paramunna capensis Vanhöffen, 1914
+Pleurosignum capensis Kensley, 1977
+
+
+==== Superfamily Janiroidea incertae sedis ====
+Tole extans (Barnard, 1914)
+
+
+=== Suborder Asellota ===
+
+
+==== Superfamily Stenetrioidea, family Pseudojaniridae ====
+Pseudojanira stenetrioides Barnard, 1925
+
+
+==== Family Stenetriidae ====
+Protallocoxa abyssale (Wolff, 1962)
+Stenetrium bartholomei Barnard, 1940
+Stenetrium crassimanus Barnard, 1914
+Stenetrium dagama Barnard, 1920
+Stenetrium dalmeida Barnard, 1920
+Stenetrium diazi Barnard, 1920
+Stenetrium saldanha Barnard, 1920
+Stenobermuda syzygus (Barnard, 1940)
+
+
+=== Suborder Cymothoida, infraorder Epicaridea ===
+
+
+==== Superfamily Bopyroidea, family Bopyridae, subfamily Argeiinae ====
+Argeiopsis inhacae Kensley, 1974
+
+
+==== Subfamily Athelginae ====
+Athelges caudalis Barnard, 1955
+Pseudostegias mossambica (Barnard, 1958)
+
+
+==== Subfamily Bopyrinae ====
+Parabopyrella hodgarti (Chopra, 1923)
+
+
+==== Subfamily Hemiarthrinae ====
+Hemiarthrus nematocarcini Stebbing, 1914
+Miophrixus latreutidis Barnard, 1955
+
+
+==== Subfamily Keponinae ====
+Scyracepon levis Barnard, 1940
+
+
+==== Subfamily Orbioninae ====
+Epipenaeon fissurae Kensley, 1974
+Parapenaeon japonica (Thielemann, 1910)
+
+
+==== Subfamily Pseudioninae ====
+Gigantione sagamiensis Shiino, 1958
+Nikione natalensis Kensley, 1974
+Paragigantione papillosa Barnard, 1920
+Pseudione affinis (Sars G.O., 1882)
+Pseudione crenulata G.O. Sars, 1898
+Pseudione elongata africana Kensley, 1968
+
+
+==== Superfamily Cryptoniscoidea, family Cabiropidae ====
+Aegoniscus gigas Barnard, 1925
+Clypeoniscus stenetrii Barnard, 1920
+
+
+==== Family Cyproniscidae ====
+Cyproniscus crossophori Stebbing, 1901
+
+
+=== Suborder Oniscidea ===
+
+
+==== Family Alloniscidae ====
+Alloniscus marinus Collinge, 1920
+
+
+==== Family Detonidae ====
+Deto echinata Guerin, 1836 – Horned isopod
+
+
+==== Family Ligiidae ====
+Ligia dilatata Brandt, 1833 – Sea slater
+Ligia exotica Roux, 1828 – Sea slater
+Ligia glabrata Brandt, 1833 – Sea slater
+Ligia natalensis Collinge, 1920 – Sea slater
+
+
+==== Family Scyphacidae ====
+Marioniscus spatulifrons Barnard, 1932
+
+
+==== Family Tylidae ====
+Tylos capensis Krauss, 1843 – Beach pill-bug
+Tylos granulatus Krauss, 1843 – Giant beach pill-bug
+
+
+=== Order Tanaidacea, suborder Tanaidomorpha ===
+
+
+==== Superfamily Tanaoidea, family Tanaidae, subfamily Pancolinae, tribe Anatanaini ====
+Zeuxo (Parazeuxo) phytalensis Sieg, 1980 – Slender tanaid	Anatanais gracilis
+
+
+=== Order Mysida ===
+
+
+==== Family Mysidae, subfamily Gastrosaccinae ====
+Gastrosaccus bispinosus Wooldridge, 1978
+Gastrosaccus longifissura Wooldridge, 1978
+Gastrosaccus namibensis Wooldridge & McLachlan, 1987
+Gastrosaccus psammodytes O. Tattersall, 1958 – Surf mysid
+
+
+==== Subfamily Mysinae ====
+Mesopodopsis africana O. Tattersall, 1952
+Mesopodopsis major  – Kelp mysid
+Mesopodopsis wooldridgei Wittmann, 1992
+
+
+== Subclass Phyllocarida ==
+
+
+=== Superorder Leptostraca, order Nebaliacea ===
+
+
+==== Family Nebaliidae ====
+Nebalia capensis Barnard, 1914 – Cape leaf shrimp
+
+
+== Subclass Hoplocarida ==
+
+
+=== Order Stomatopoda, suborder Unipeltata ===
+
+
+==== Superfamily Gonodactyloidea. family Gonodactylidae ====
+Gonodactylaceus falcatus (Forskål, 1775) – Sickle mantis shrimp
+Gonodactylellus lanchesteri (Manning, 1967)
+Gonodactylus chiragra (Fabricius, 1781)
+
+
+==== Family Odontodactylidae ====
+Odontodactylus scyllarus (Linnaeus, 1758) – Peacock mantis shrimp
+
+
+==== Superfamily Lysiosquilloidea, family Lysiosquillidae ====
+Lysiosquilla capensis Hansen, 1895
+
+
+==== Superfamily Squilloidea, family Squillidae ====
+Harpiosquilla harpax (de Haan, 1844)
+Pterygosquilla capensis Manning, 1969 – Cape mantis shrimp
+
+
+== Class Ostracoda ==
+Ostracoda spp, – Seed shrimps
+
+
+== Extras ==
+Pseudodiaptomus charteri  Grindley 1963
+Pseudodiaptomus hessei Mrázek 1894
+Pseudodiaptomus nudus Tanaka 1960
+
+
+== Notes ==
+
+
+== References ==

@@ -1,0 +1,100 @@
+Thomisus onustus is a crab spider belonging to the genus Thomisus. These spiders are found across Europe, North Africa, and parts of the Middle East and Asia. T. onustus reside in flowers in lowland vegetation. Females are distinguished by their larger size and ability to change color between white, yellow, and pink as a means of matching flower color. This cryptic mimicry allows them to both evade predators and enhance insect prey capture abilities. Males are smaller, more slender, and drab in coloration, usually green or brown. T. onustus is also distinguished from other relatives by its distinct life cycle patterns in which spiderlings emerge in either late summer or early spring. Furthermore, T. onustus have developed a mutualistic relationship with host plants where spiders feed on and/or deter harmful florivores while benefiting from the plant's supply of pollen and nectar, which T. onustus spiders are able to use as food sources, especially during periods of low insect prey abundance.
+
+
+== Description ==
+
+T. onustus is a medium-sized spider that exhibits sexual dimorphism, with females between lengths of 7–11 mm and smaller males ranging between lengths of 2–4 mm. Females are heavy-bodied and mostly stationary, whereas males are slender and more motile.  Females have a pink, yellow, or white prosoma and males are brown to green-yellow in color. Both sexes have a triangular opisthosoma. This species can be distinguished from its close relative Thomisus zyuzini by its long ventral tibial apophysis and retrolateral tibial apophysis, the arrangement of the basal tibia tubercle on the male palp, and the circular intromittent orifice, which is oriented anteriad in the epigynum.
+
+
+== Phylogeny ==
+T. onustus are members of the genus Thomisus, which includes around 150 described species, and is well supported as being monophyletic. It is relatively morphologically homogeneous genus, with synapomorphies that include circular scopula hairs (when viewed as a cross section), bulbuses that are subequal in length and width, disk shaped tegulums, sperm ducts that follow a circular peripheral course through the tegulum, and a lack of conductors and median apophyses. However, some subgroupings within Thomisus are not well supported. The family Thomisidae encompasses over 2000 species of crab spiders including the common close relative of T. onustus, Misumena vatia, Thomisus spectabilis.
+
+
+== Habitat and distribution ==
+T. onustus typically reside on shrubs and within lowland vegetation, preferring warmer areas. They inhabit a wide variety of flowers and herbs, usually staying at the flowering peaks. T. onustus is unique among crab spider species in that it prefers to situate itself in flower centers, which have unique spectral properties, over petals. T. onustus are distributed across Europe, North Africa, Turkey, Caucasus, Russia (from Europe to South Siberia), Israel, Central Asia, Iran, China, Korea, and Japan, preferring warm areas.
+
+
+== Diet ==
+
+
+=== Spiderling ===
+While overall size is smaller, in terms of prey to predator length ratio, juvenile spiders capture larger prey than late instar and adult females. Pollen feeding is particularly important for spiderlings, as it allows them to survive beyond what yolk reserves would otherwise allow. Due to the lack of amino acids, especially tyrosine, in pollen grains, spiderlings that feed exclusively on pollen are unable to molt versus spiderlings that feed on insect prey.
+
+
+=== Adult ===
+
+
+==== Predatory feeding ====
+T. onustus are summer-stenochronus spiders (summer reproductive season) and sit-and-wait predators. They stay in flower corollas and wait for insect prey including bees (Apoidea), butterflies (Lepidoptera), hoverflies (Syrphidae), diptera, hymenoptera, and other spiders. T. onustus are cursorial spiders and do not use silk for prey capture. Instead, they use their long raptorial forelegs to ambush nearby insects. They frequently prey on insects far larger than themselves, ranging from 1.25 to 16.00mm in length.  Males feed less and tend to prey on smaller insects.While some Australian crab spider species are able to use the reflection of UV light to generate a deceptive signal that attracts prey to host flower species, European species, including T. onustus, lack this ability. Honeybees attracted to the UV reflectance of Australian species, for example, are repelled by the presence of T. onustus.When T. onustus acts as an ambush predator, it influences the ways in which pollinators, such as honeybees and hoverflies, manage the trade-off between predation rate and resource intake. Honey bees, for example, will avoid resource (nectar) poor habitats as well as those with higher concentrations of crab spiders, preferring to frequent safer areas. However, honeybees are more susceptible to predation by crab spiders and competition is more intense in these areas. Hoverflies, on the other hand, prefer less competitive but riskier resource areas. While bumblebees, Bombus terrestris, avoid T. onustus, they do not learn from previous encounters with spider predators in order to enhance avoidance of heterospecific individuals.
+
+
+==== Non-predatory feeding ====
+During periods of insect food shortages (i.e. during inclement weather conditions), T. onustus is capable of using pollen and nectar as food sources for extended periods of time as a starvation survival strategy. Spiders will actively visit flowers of multiple species, such as those from Asteraceae and Asteroideae, for feeding. As Asteraceae species present pollen in an allotropic manner (pollen grains are exposed on the capitulum surface), spiders are able to acquire them easily. Since pollen grains are unable to pass through the cuticular platelets of spider pharynxes due to their relatively large size (> 1 μm), pollen is consumed via extra-intestinal digestion, with nutrients likely extracted through apertures in pollen grains.After thorough investigation, the average amount of days that this spider can survive without food was 21.4 days. There were also dietary factors, such as different types of pollen and nectar, that could potentially increase the survival rate of these spiderlings by 1.5-2 times. By extensively evaluating the sitting positions of the spider groups that were pollen-fed, it was discovered that these spiders are known to actively seek out visitations to flowers for pollen. Hence, this tendency is one of the hypotheses that may explain why they are able to survive longer without food in the Spring.T. onustus are able to subsist off pollen for over 40 days under laboratory conditions, further indicating the importance of pollen feeding in sustaining juvenile spiders that may lack sufficient fat reserves, especially during the spring season, as well as those with limited access to insect prey.
+
+
+== Reproduction and life cycle ==
+In the summer of their second year, toward the end of their lives, female spiders weave between two and four cocoons for egg-laying. Spiderlings from the first egg sac emerge during late summer. This gives them access to more abundant prey resources, allowing them to obtain sufficient energy reserves to hibernate in vegetation outside of the cocoon during winter months. Spiderlings from egg sacs woven later, on the other hand, remain in the egg sacs through winter and emerge in early spring of the following year when prey is far scarcer, necessitating the use of pollen feeding to supplement nutritional and energy needs.
+With two generations per year and the spring generation larger than the summer one, T. onustus females of both generations generally develop throughout the year whereas spring generation males grow faster, reaching maturity with second generation females from the prior year. Summer males, on the other hand, develop for a longer period, molting several times, and reach maturity in the summer of the next year with first-generation females. Developmental rates for both sexes are highly variable, with spiders at different developmental stages found throughout the year. Overall, the rate of development, duration of instars, number of molts, and molting times are all highly variable within the species.T. onustus usually attach egg sacs to leaves. Unlike some other cursorial species, females do not enclose themselves within the sac, but continue to catch prey during egg-guarding.
+
+
+=== Brood size ===
+The number of eggs laid varies widely for T. onustus, ranging from less than ten eggs to over 400 per cocoon. Cocoons laid in early spring consist of far more spiderlings than those laid in the late summer. Unlike the more variable developmental stages of T. onustus, the period of the cocoon, or the time between the laying of eggs and emergence of spiderlings, is generally around one month regardless of season. This can be attributed to the insulation provided by the cocoon, making eggs less susceptible to seasonal and/or temperature changes.
+
+
+=== Molting ===
+T. onustus typically molt at regular intervals up to the third and sixth instars provided they obtain adequate nutrition. After eclosion from the cocoon, spiderling sex differences are not yet visible. By the second molt, the swelling of pedipalp tips distinguishes males. Males typically reach maturity after between three and five molts. Unlike males, females molt far more, reaching maturity after six to nine molts. As such, males typically mature after two and a half months and females after over a year. Due to shorter male life spans, sibling mating is, therefore, impossible.
+
+
+=== Life span ===
+The maximum life expectancy of these spiders is 600 days for females, and female spiders have a greater life expectancy than males (several months versus several weeks).
+
+
+== Enemies ==
+T. onustus are primarily preyed upon by insectivorous birds. While their crypsis is imperfect, meaning that they do not perfectly match flower color, making them slightly detectable, T. onustus generally suffer little from bird predation. This is because it does not pay birds to specialize on crab spiders due to their uneven distributions and crypsis. T. onustus tend to prefer flowers with colors they can match (usually white or yellow), even when they could attain greater hunting success on other flowers. This is due to the increased predation risk of residing on flowers that would make them more conspicuous. While there are relatively few observations of specific predator species of T. onustus, mud-daubers and spider wasps do prey on the spider species.
+
+
+== Protective coloration and behavior ==
+
+T. onustus females are able to change their entire body color as a means of mimicking the color of flowers where they reside and capture prey. Possible colors include pink, shiny yellow, and white, sometimes with a bright medial stripe. Female color changes usually take several days in order to adjust to flower backgrounds. Males are usually yellow-green to brown in color and do not exhibit color changes. Female aggressive mimicry provides camouflage from predators and works to fool insect prey, usually pollinators of flowers on which spiders reside. Spiders are capable of mimicking chromatic contrast of different flower species, allowing them to be cryptic in the color-vision systems of both avian predators and hymenopteran prey. More specifically, they are able to mimic flower color in four cone types corresponding to UV-blue-green-red for birds and three cone types, UV-blue-green, for insects. When aiming to detect smaller targets and/or see over larger distances, birds and bees preferentially use achromatic vision (brightness) over color contrast. As such, T. onustus mimicry also applies to achromatic vision as they are able to modulate both their achromatic and chromatic contrast
+
+
+== Mutualism with plants ==
+
+T. onustus can deter certain pollinators, such as bees, and have had key impacts on floral trait evolution. Following florivore attack, plants are adapted to release floral volatile emissions that attract T. onustus, which consume and/or deter florivores. The compound β-ocimene, produced by plants in both floral and leaf tissues, acts as an attractive signal for both T. onustus and pollinators. This leads to overlapping floral preferences for both the spiders and their prey, providing a strong selective mechanism for sit-and-wait tactics of prey capture. Furthermore, β-ocimene is produced by 71% of plant families, explaining the broad range of flowers in which T. onustus might stay in. While T. onustus can harm plant fitness in the absence of florivores, they provide an overall benefit to plants threatened by florivores. As such, plants attract T. onustus only when florivores are present by inducing β-ocimene emission, making infested flowers more attractive to spiders. This mechanism generates strong selection pressure on plants to develop a mutualistic relationship with T. onustus and suggests a key role for the spiders in the evolution of floral traits.As Thomisus onustus act as ambush predators on flowers, they likely influence both the reproductive success of flower species but may also interfere with pollen flow within the immediate community due to their deterrence or consumption of pollinators, such as hoverflies and honeybees. However, reproductive success of plants will also depend on the phenotype, not only of the plant itself, but also that of surrounding plant species. Although T. onustus resides on a broad range of flower species, several host species include Erigeron annuus, Bellis perennis, Glebionis segetum, Malva sylvestris, and Chrysanthemum segetum.
+
+
+== Physiology ==
+
+
+=== Coloration ===
+Yellow coloration is likely due to the presence of ommochrome compounds and/or their precursors, such as xanthommatin and 3-hydroxykynurenine, deposited on hypodermal layers, which lie above specialized guanocyte cells full of guanine crystals, which lead to light scattering. Incident light is reflected from guanocytes back through pigment-containing hypodermal layers. White coloration is likely due to high concentrations of the transparent ommochrome precursor kynurenine and the reflection from guanine crystals. These explanations account for human-perceived white to yellow changes via differential pigment deposition in the hypodermis, but do not explain variations in UV reflectance. Color change abilities are due to contributions from both epithelial and cuticular layers, with epithelial cells modulating ‘human-visible’ changes. The cuticle of T. onustus is not equivalently transparent across the color spectrum, indicating a role in color variation. The cuticle limits the maximum reflectance that can be produced from the UV range and, as such, offers a barrier against potential UV photo-damage. Guanine crystals, present in the hypodermis, strongly reflect UV light, and, as the only UV-reflective element in crab spider color schemes, are the key determinant of UV-coloration. Guanine crystals are exposed through the partially UV-transmitting hypodermis and cuticle. While kynurenine is transparent to humans, it likely functions as a UV filtering pigment. UV reflectance may have evolved through a change in the metabolic pathway that allowed for guanine crystal exposure through partially UV-transmitting hypodermis and cuticle. As a whole, interactions between the cuticle, pigments, and/or crystals in the hypodermis that exist in variable oxidative stages, and guanocytes combine to produce changes in the observed reflectance spectrum of crab spiders.These color change mechanisms likely evolved from ancestral crab spiders with UV-reflective abdomens or, if pre-dated by UV-absorbent hypodermal pigments, evolved through the guanine crystal exposure through a clear hypodermis.Under direct sunlight exposure, color change in T. onustus is determined by the external factor of background color. Such background matching is common in many animals able to undergo reversible color changes (some fish, reptiles, amphibians, crustaceans and cephalopods). However, background matching in T. onustus is less present under non-natural light conditions, suggesting that factors other than background color may play a role in the process. Additionally, color changes from white to yellow occur between 1.43 and 2.14 times faster than changes from yellow to white. Furthermore, molting results in a slower rate of change from yellow to white, indicating a potential link between color change and development. These changes are likely mediated by the hormone 20-hydroxyecdysone. The endocrine system is thought to mediate the transduction of environmental cues into the physiological response of color change.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+== See also ==
+List of Thomisidae species
+
+
+== References ==
+
+
+== External links ==
+Fauna Europaea
+T. onustus
+Arkive
+Biolib
+Naturdata

@@ -1,0 +1,94 @@
+Apis dorsata, the giant honey bee, is a honey bee of South and Southeast Asia, found mainly in forested areas such as the Terai of Nepal. They are typically around 17–20 mm (0.7–0.8 in) long. Nests are mainly built in exposed places far off the ground, like on tree limbs, under cliff overhangs, and sometimes on buildings. These social bees are known for their aggressive defense strategies and vicious behavior when disturbed. Though not domesticating it, indigenous peoples have traditionally used this species as a source of honey and beeswax, a practice known as honey hunting.
+
+
+== Taxonomy and phylogeny ==
+Apis dorsata belongs to the family Apidae, which is in the class Insecta. This honeybee is most closely related to Apis mellifera, (the western honey bee) Apis cerana, and Apis florea. Apis dorsata belongs to the subgenus Megapis. There are a few hypotheses as to when Apis dorsata diverged from both Apis florea and Apis cerana, as it is unclear which divergence occurred first. Currently, the consensus hypothesis provides a family tree that claims that Apis dorsata diverged from both Apis cerana and Apis florea at the same time.
+
+
+=== Subspecies ===
+Michael S. Engel identified the following subspecies:
+A. d. dorsata; (Indian giant honey bee),  primarily from India
+A. d. binghami Cockerell; (Indonesian giant honey bee), from Malaysia and Indonesia
+A. d. breviligula Maa;  (Philippine giant honey bee), from the Philippines
+A. d. laboriosa Fabricius; (Himalayan giant honey bee), from India, Nepal, Bhutan, Myanmar, Laos, Vietnam and southern China.Recent research has removed laboriosa from inclusion within A. dorsata, as a separate species, with supporting evidence including a significant region of sympatry. A. laboriosa is hardly distinct morphologically from the nominate subspecies of dorsata (darker abdomen, longer thoracic hair) but has different housekeeping and swarming behavior, allowing it to survive at high altitudes. In addition, little gene flow has occurred between A. dorsata and A. laboriosa for millions of years; accordingly, some authors have previously classified it as a distinct species.Likewise, the southeastern taxon A. d. binghami seems also to be potentially distinct. The limits of their ranges in Indochina and the possible distinctness of the geographically distant Philippines population require more study. However, the use of the taxonomic rank of "subspecies" is typical for geographically discrete populations, so the difference in opinion here is whether to recognize the rank of subspecies or not (i.e., no one is disputing that they are distinct lineages, the dispute is over whether or not to call them "species").
+
+
+== Description ==
+
+
+=== Nests ===
+
+Apis dorsata differs from the other bees in its genus in terms of nest design. Each colony consists of a single vertical comb made of workers’ wax suspended from above, and the comb is typically covered by a dense mass of bees in several layers. The nests vary in size, reaching up to 1 meter. Each cell within the comb is hexagonal in shape. Apis dorsata store their honey in an upper corner of the nest. The same size and type of cells are used to rear larvae. Nests are constructed in the open and in elevated locations, such as on urban buildings or tall trees. These bees rarely build nests on old or weak buildings for safety concerns. Apis dorsata can form dense aggregations at one nesting site, sometimes with up to 200 colonies in one tree.Each colony can have up to 100,000 bees and is separated by only a few centimeters from the other colonies in an aggregation. Some colonies also exhibit patterns of nest recognition, in which they return to the same nesting sites post migration.
+
+
+== Distribution and habitat ==
+Apis dorsata is found from the Indian subcontinent to Southeast Asia. The greatest populations of Apis dorsata are found in China, Malaysia, Indonesia, India, Pakistan, and Sri Lanka. In the Philippines, which used to have one of the greatest populations of Apis dorsata, the populations have now become relatively rare due to deforestation and people's "mindsets" towards the bees. They mostly reside in tall trees in dense forests, but also build nests on urban buildings. These bees are tropical and in most places, they migrate seasonally. Individual colonies migrate between nesting sites during the transition from the rainy to dry seasons and occupy each nesting site for about 3–4 months at a time. Some recent evidence indicates these bees return to the same nest site, though most, if not all, of the original workers might be replaced in the process because workers usually live for less than two months. Furthermore, these bees build small combs that serve as temporary nests during their long migrations.
+In Bornean rainforests, Apis koschevnikovi and Apis dorsata are the only honeybees that appear frequently at flowering canopy trees or baits. Even though they share most of the same rain forest habitat, they are still able to coexist. Their difference in size and tongue length help separate their resource use.
+
+
+== Colony cycle ==
+
+
+=== Colony initiation ===
+
+There are two methods of reproductive swarming in which Apis dorsata initiates new colonies, which usually occurs in October or November. The most common occurs when a queen flies away from the original nest slowly and a swarm of workers follows her. This new cluster of bees can be temporary, or they can permanently move to a new nesting site. The distance these bees travel is unknown, but some have been observed to travel about 500 meters away from the original nest. The second, more rare method is referred to as “budding.” In budding, a group of workers leave the natal nest to form a new colony at a nesting site about 1 meter away from the original.
+A non-reproductive method of colony initiation is absconding. Absconding refers to when an entire colony moves to a new location. As a colony is formed, multiple curtains, essentially layers, of bees are formed around the developing nest.
+Colony initiation is related to the migratory patterns of these bees.
+
+
+=== Colony migration and decline ===
+As a colony is initiated, the migration depends on foraging resources and predation risks. These bees travel to different sites depending on the blooming season of flowers. There are about 100,000 members in each colony and each colony resides in one nesting site for about 3–4 months at a time. Colonies tend to decline when resources, such as food, honey, and pollen, are depleted. Colonies decline during the rainy and summer seasons because of the instability of foraging sources due to climate change.
+
+
+== Behavior ==
+
+
+=== Mating ===
+Some drones and the queen fly away from the nest and mate on the wing. This is called nuptial flight. The drone flights are comparatively shorter than those of other Asian honeybee species. The Apis dorsata flights occur around dusk for 13 minutes on average. Apis dorsata exhibit high degrees of polyandry, with many drones mating with the queen. In fact, Apis dorsata fabricius is known to have the highest levels of polyandry among all social insects. In general, this bee population experiences extreme multiple matings. This may be attributed to the short duration of flight times for mating. During mating, the drones fly to “drone congregation areas” (DCAs). There is sufficient evidence to conclude that each aggregation has its own DCA since there is more genetic relatedness within aggregations and because of the short duration and distance traveled during the mating flight.
+
+
+=== Communication ===
+Apis dorsata utilizes what is known as a dance language, also known as waggle dance, to communicate the location of food sources to other bees in the colony. The dance language indicates the distance, profitability, and direction of the food source. These social bees dance in the open and their dances produce sound signals of high intensity in the air. The orientation of the dancer’s body points in the direction of the food source and the frequency of the sound indicates the profitability of the food source. Apis dorsata produces silent dances, which usually involve visual cues during the day. They additionally produce sound with their dances in the nighttime, as they are the only bees of its genus that exhibit nocturnal foraging activity. Furthermore, there is some evidence that Apis dorsata dances for migration purposes as well. Bees that have returned from the new nesting site perform dances that alert the colony of information such as the direction of the new nesting site.
+
+
+=== Foraging ===
+A. dorsata foragers can travel farther than A. cerana and A. florea, which travel to a maximum of 500 meters; however, 72% of observed A. dorsata foragers traveled no more than 400 meters. 
+
+
+== Kin selection ==
+
+
+=== Worker policing ===
+Unlike the rearing patterns of other species of the genus Apis, the worker and drone brood of Apis dorsata are dispersed across in the same area and even share cells, and are not differentiated in separate locations of the nest. It would seem that worker policing makes mistakes often in correctly removing the drone brood since the drone brood are interspersed with worker brood, but every male raised comes from a queen-laid egg (not a worker-laid egg). This shows us that worker policing does indeed work within populations of these bees. In these instances, worker policing occurs through “egg-eating” or oophagy, but in the case of these bees, worker policing is directed at workers with ovaries since oophagy is hard to achieve, as worker-laid and queen-laid eggs are nearly identical in shape and size.
+
+
+=== Genetic relatedness within and between aggregations ===
+Since Apis dorsata is known for its highly polyandrous activity, these bees exhibit a large number of colonies in close proximity to each other. Although the colonies within an aggregation are near each other, these colonies are not closely related. The queens of the colonies in an aggregation are not closely related, but the aggregation itself is more genetically linked than is expected by chance. Higher than expected genetic links may exist among colonies because they migrate together during their long distance migratory routes to the same nesting sites in the new location. This may also be attributed to short distance reproductive swarming methods and brief mating periods as well. Since it has been observed that rarely any queen-daughter relationships exist within aggregations, the “budding” hypothesis of colony initiation rarely occurs. Due to their long distance migratory patterns, the bees cause enough gene flow to occur between the colonies of different aggregations. There is distinct genetic differentiation between aggregations. In turn, the genetic relatedness between colonies within a single aggregation decreases.
+
+
+=== Nest recognition and fidelity ===
+Apis dorsata is better than many of its relatives at avoiding drifting, an event when bees return to the wrong colonies after foraging. Apis dorsata tends to form dense aggregations, contributing to the high nest fidelity and recognition amongst these bees. These bees usually return to their natal nests because this behavior results in higher fitness. If drifting were common, robbing bees and parasites could spread quickly through colonies. The high fidelity to the natal nests also leads to the aggressive behavior of Apis dorsata bees. They aggressively attack workers from colonies that aren’t their own. If workers and queens do not return to the same colony, they have a high chance of getting killed because the other colony views them as potential robbers or carriers of disease. Some colonies even return to exactly the same nesting sites after their seasonal migrations.
+
+
+== Interactions with other species ==
+
+
+=== Parasites ===
+Similar to other honeybees, Apis dorsata is regularly afflicted by parasitic mites. The parasitic mite associated with Apis dorsata is Tropilaelaps clareae which needs brood to reproduce and is predominantly found in the male brood of the colony. Apis dorsata is thought to be the original host of this parasite. Since Apis dorsata engages in brood-less migration, as is true for all other Apis species, this reduces infestation by this parasitic mite. Although rarely seen, some experimental evidence has shown that Apis dorsata exhibits a specialized grooming behavior as a defense mechanism to remove parasites. The grooming behavior involves intense shaking of the body and auto-grooming with the legs.
+
+
+=== Defense against predators ===
+Since the nests of Apis dorsata are fairly exposed and accessible to predators, these giant honeybees exhibit strong and aggressive defense strategies. Their predators include wasps, hornets, birds, and human bee-hunters. Their defense strategies typically include physical contact, especially when they face attacks from wasps. These giant honeybees utilize a method called “heat balling,” in which they heat their thoraces to a temperature of 45 °C which is lethal to wasps.Another method Apis dorsata utilizes against wasps is referred to as “shimmering” behavior or "defense waving". Bees in the outer layer thrust their abdomens 90° in an upward direction and shake them in a synchronous way. This may be accompanied by stroking of the wings. The signal is transmitted to nearby workers that also adopt the posture, thus creating a visible — and audible — "ripple" effect across the face of the comb, in an almost identical manner to an audience wave at a crowded stadium. These wave-like patterns repel wasps that get too close to the nests of these bees and serve to confuse the wasp. In turn, the wasp cannot fixate on capturing one bee or getting food from the bees’ nest, so the wasp will seek to find easier prey and leave the nest alone. Shimmering appears to be an evolutionary successful behavior for group living amongst social bees.
+Studies have also provided evidence that these bee colonies aggregate in defense. If one part of the nest is directly threatened by a bird, a signal (still unknown as to how) gets relayed to the rest of the colony so that all of them help in the defense, even if they are not directly threatened.
+
+
+=== Human importance ===
+Since large amounts of honey (up to 45 kilograms) can be stored in the nests of Apis dorsata, many people frequently harvest their nests. Honey represents a livelihood for some of these people as it can provide them with an important source of income. However, deforestation, urbanization, pesticides, and honey hunting have threatened local populations of bees and their honey. These bees are known to be aggressive, and they have the potential to viciously sting humans. At least one fatal defensive attack on a human has been reported.
+
+
+==== Rafter beekeeping ====
+
+In some  Melaleuca forests of southern Vietnam, people use a traditional method of collecting honey and wax from A. dorsata colonies. This method of “rafter beekeeping” was first reported in 1902. A similar method is practiced in the Songkhla Province in Thailand.According to Vietnamese sociologists, in the early 19th century, honey hunting or raftering was the most important occupation of the people who lived in the Melaleuca forest swamp. At that time, people paid taxes to the government in exchange for living in the forest. Beeswax was used to pay the tax and for making candles, and was sold to visiting ships from Hainan, China.Between 1945 and 1975, the forests were devastated first by wars, and then by forest clearing for wood and agricultural purposes. As a consequence, rafter beekeeping dramatically decreased in the area. The technique is still used today at the state farm of Song Trem in U Minh District. According to a survey, about 96 beekeepers are in the area. In 1991, they harvested 16,608 litres of honey and 747 kg of wax.
+
+
+== References ==

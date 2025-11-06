@@ -1,0 +1,41 @@
+Fuligo septica is a species of slime mold, and a member of the class Myxomycetes. It is commonly known as the  scrambled egg slime, or flowers of tan because of its peculiar yellowish, bile-colored appearance. Also known as the dog vomit slime mold, it is common with a worldwide distribution, and it is often found on bark mulch in urban areas after heavy rain or excessive watering. Their spores are produced on or in aerial sporangia and are spread by wind.
+
+
+== History and taxonomy ==
+The first description of the species was provided by French botanist Jean Marchant in 1727, who referred to it as "fleur de tan" (bark flower); Marchant also classified it as "des éponges" (one of the sponges). Carl Linnaeus called it Mucor septicus in his 1763 Species Plantarum. The species was transferred to the genus Fuligo by German botanist Friedrich Heinrich Wiggers in 1780.
+
+
+== Description and habitat ==
+
+Like many slime molds, the cells of this species typically aggregate to form a plasmodium, a multinucleate mass of undifferentiated cells that may move in an ameboid-like fashion during the search for nutrients. F. septica's plasmodium may be anywhere from white to yellow-gray, typically 2.5–20 cm (1.0–7.9 in) in diameter, and 1–3 cm (0.4–1.2 in) thick. The plasmodium eventually transforms into a sponge-like aethalium, analogous to the spore-bearing fruiting body of a mushroom; which then degrades, darkening in color, and releases its dark-colored spores. F. septica produces the largest aethalium of any slime mold.  This species is known to have its spores dispersed by beetles (family Latridiidae).The spores have a two-layered wall, with a dense outer layer with spines, and a fibrous inner layer. During germination, the outer layer splits to create an opening, and more elastic inner layer ruptures later as protoplasm emerges. A remnant of the inner layer may be persistent and adhere to the protoplast after it has emerged from the spore. A peroxidase enzyme present in the inner cell wall plays a role in germination.Fuligo septica grows on rotten wood and plant debris, but can also grow on the leaves and stems of living plants.
+
+
+== Resistance to metal toxicity ==
+Slime molds have a high resistance to toxic levels of metals; one author was prompted to write "The levels of Zn in Fuligo septica were so high (4,000–20,000 ppm) that it is difficult to understand how a living organism can tolerate them." The resistance to extreme levels of zinc appears to be unique to F. septica. The mechanism of this metal resistance is now understood: F. septica produces a yellow pigment called fuligorubin A, which has been shown to chelate metals and convert them to inactive forms.
+
+
+== Bioactive compounds ==
+Extracts from F. septica show antibiotic activity against Bacillus subtilis and Candida albicans, and cytotoxic activity on KB cells (a cell line derived from a human carcinoma of the nasopharynx).Fuligo septica contains a yellow pigment called fuligorubin A that is thought to be involved in photoreception and in the process of energy conversion during its life cycle. In 2011 a Japanese research group reported isolating and characterizing a new chlorine-containing yellow pigment from a specific strain of the organism that they called dehydrofuligoic acid.
+
+
+== Relationship to humans ==
+
+
+=== Folklore ===
+In Scandinavian folklore, Fuligo septica is identified as the vomit of troll cats.In Finland, F. septica was believed to be used by witches to spoil their neighbors' milk.  This gives it the name paranvoi, meaning "butter of the familiar spirit". In Dutch, "heksenboter" refers to "witches' butter". In Latvian, the slime mold  (amongst other slime molds) is called "ragansviests" as "witches' butter" or "raganu spļāviens" as "witches' spit" but it is unclear about the origins of these names.
+
+
+=== Human pathogenicity ===
+The species is inedible and is known to trigger episodes of asthma and allergic rhinitis in susceptible people.
+It has also been reported in association with corticosteroids used for patients of SARS-CoV-2 virus infection. Cases have been recently reported from India.
+
+
+=== Model of RNA processing ===
+Introns are sections of DNA that must be properly cleaved, digested and processed prior to rendering functional mRNAs for protein synthesis. Because it has a large number of group I introns, F. septica is used as a model to understand the processing and evolution of RNA.
+
+
+== References ==
+
+
+== External links ==
+Tom Volk's Fungi of the Month, June 1999

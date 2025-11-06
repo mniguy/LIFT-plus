@@ -1,0 +1,78 @@
+Phalacrocorax is a genus of fish-eating birds in the cormorant family Phalacrocoracidae.
+
+
+== Taxonomy ==
+The genus Phalacrocorax was introduced by the French zoologist Mathurin Jacques Brisson in 1760 with the great cormorant (Phalacrocorax carbo) as the type species. Phalacrocorax is the Latin word for a "cormorant".
+
+
+=== Current taxonomy ===
+The genus contains 22 species including one species that became extinct in the 19th century.
+Red-legged cormorant or red-footed shag, Phalacrocorax gaimardi
+Flightless cormorant, Phalacrocorax harrisi
+Bank cormorant or Wahlberg's cormorant,  Phalacrocorax neglectus
+Spotted shag Phalacrocorax punctatus
+Pitt shag or Featherstone's shag  Phalacrocorax featherstoni
+†Spectacled cormorant or Pallas's cormorant, Phalacrocorax perspicillatus
+Brandt's cormorant, Phalacrocorax penicillatus
+Pelagic cormorant or Baird's cormorant, Phalacrocorax pelagicus
+Red-faced cormorant, Phalacrocorax urile
+Neotropic cormorant or olivaceous cormorant, Phalacrocorax brasilianus (or Phalacrocorax olivaceus)
+Double-crested cormorant or white-crested cormorant, Phalacrocorax auritus
+European shag or common shag, Phalacrocorax aristotelis
+Black-faced cormorant, Phalacrocorax fuscescens
+Indian cormorant, Phalacrocorax fuscicollis
+Little black cormorant, Phalacrocorax sulcirostris
+Australian pied cormorant or yellow-faced cormorant, Phalacrocorax varius
+Great cormorant or black shag, Phalacrocorax carbo
+White-breasted cormorant, Phalacrocorax lucidus
+Japanese cormorant or Temminck's cormorant, Phalacrocorax capillatus
+Cape cormorant, Phalacrocorax capensis
+Socotra cormorant, Phalacrocorax nigrogularisSpecies possibly closer to Leucocarbo:
+
+Rock shag, Phalacrocorax magellanicus
+Double-crested cormorant or white-crested cormorant, Phalacrocorax auritus
+Neotropic cormorant or olivaceous cormorant, Phalacrocorax brasilianus (or Phalacrocorax olivaceus)
+Flightless cormorant, Phalacrocorax harrisi
+European shag or common shag, Phalacrocorax aristotelis
+
+
+=== Alternative taxonomies ===
+
+
+==== IUCN / BirdLife taxonomy ====
+A molecular phylogenetic study published in 2014 found that the genus Phalacrocorax was non-monophyletic and that a group of five species currently placed in this genus were more closely related to members of Leucocarbo. This group contained the rock shag, the double-crested cormorant, the neotropic cormorant, the flightless cormorant and the European shag. Under this study, Phalacrocorax was split into multiple genera, and now contains only 12-15 species within itself:
+Genus Poikilocarbo:
+Red-legged cormorant or red-footed shag, Poikilocarbo gaimardi
+Genus Urile:
+†Spectacled cormorant or Pallas's cormorant, Urile perspicillatus
+Brandt's cormorant, Urile penicillatus
+Pelagic cormorant or Baird's cormorant, Urile pelagicus
+Red-faced cormorant, Urile urile
+Genus Phalacrocorax:
+Japanese cormorant or Temminck's cormorant, Phalacrocorax capillatus
+Great cormorant or black shag, Phalacrocorax carbo (paraphyletic; could represent up to 4 species when capillatus and lucidus are considered distinct)
+White-breasted cormorant, Phalacrocorax lucidus
+Cape cormorant, Phalacrocorax capensis
+Black-faced cormorant, Phalacrocorax fuscescens
+Australian pied cormorant or yellow-faced cormorant, Phalacrocorax varius
+Little black cormorant, Phalacrocorax sulcirostris
+Pitt shag or Featherstone's shag,  Phalacrocorax featherstoni
+Spotted shag, Phalacrocorax punctatus
+Indian cormorant, Phalacrocorax fuscicollis
+Socotra cormorant, Phalacrocorax nigrogularis
+Bank cormorant or Wahlberg's cormorant,  Phalacrocorax neglectus
+Genus Gulosus:
+European shag or common shag, Gulosus aristotelis
+Genus Nannopterum:
+Double-crested cormorant or white-crested cormorant, Nannopterum auritus
+Neotropic cormorant or olivaceous cormorant, Nannopterum brasilianus (or Nannopterum olivaceus)
+Flightless cormorant, Nannopterum harrisi
+Genus Leucocarbo:
+Rock shag, Leucocarbo magellanicus, along with the 15 other species previously classified into Leucocarbo.The study's findings were adopted by the IUCN Red List and BirdLife International. 
+
+
+==== Clements taxonomy ====
+The taxonomy adopted by the Clements Checklist classifies all cormorants aside from those already in Microcarbo into Phalacrocorax, leaving just two cormorant genera: Phalacrocorax and Microcarbo.
+
+
+== References ==

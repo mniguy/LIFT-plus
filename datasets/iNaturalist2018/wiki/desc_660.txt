@@ -1,0 +1,108 @@
+The European corn borer (Ostrinia nubilalis), also known as the European corn worm or European high-flyer, is a moth of the family Crambidae which includes other grass moths. It is a pest of grain, particularly corn (maize or Zea mays). The insect is native to Europe, originally infesting varieties of millet, including broom corn. The European corn borer was first reported in North America in 1917 in Massachusetts, but was probably introduced from Europe several years earlier. Since its initial discovery in the Americas, the insect has spread into Canada and westward across the United States to the Rocky Mountains.
+The adult European corn borer is about 25 millimetres (0.98 in) long with a 26–30 millimetres (1.0–1.2 in) wingspan. The female is light yellowish brown with dark, irregular, wavy bands across the wings. The male is slightly smaller and darker.
+European corn borer caterpillars damage corn by chewing tunnels through many parts of the plant. This decreases agricultural yield.
+
+
+== Geographic range ==
+The European corn borer is native to Europe and was introduced to North America in the early 20th century. This moth plagues corn crops in France, Spain, Italy, and Poland. In North America, the European corn borer is found in eastern Canada and every U.S. state east of the Rocky Mountains.
+
+
+== Life cycle ==
+The European corn borer progresses through four developmental stages. These are the egg, larva, pupa, and adult. The insect is referred to as a borer in its larval stage and as a moth in its adult stage. The adult moths lay their eggs on corn plants. Larva hatch from the eggs. Larvae have five instars or sub-stages of development. The larval stage is followed by a period of diapause or hibernation in a pupa. During the pupal stage, the borers progress through metamorphosis in a suspended chrysalis. Following this intense period of development, an adult moth emerges from the pupa. The length of the pupal stage is determined by environmental factors such as temperature, number of hours of light, and larval nutrition, in addition to genetics.The bivoltine populations of European corn borers undergo the pupal stage twice, first in May and June and then again in July and August. During the winter, the European corn borer stays in its larval stage. Temperatures exceeding 50 degrees Fahrenheit (10 °C) induce the other developmental stages. The North American corn crop grows during these warmer months and provides a food source for the borers.
+
+
+=== Adult ===
+The European corn borer is about 1 inch (2.5 cm) long with a 0.75- to 1-inch (1.9-2.5 cm) wingspan. The female is light yellowish brown with dark, irregular, wavy bands across the wings. The male is slightly smaller and darker. The tip of its abdomen protrudes beyond its closed wings. They are most active before dawn. The adults spend most of their time feeding and mating. Males and females of different strains have been found to produce differing sex pheromones. 
+
+
+=== Larva ===
+The fully grown larva is 0.75 to 1 inch (1.9-2.5 cm) in length. Larva vary in color from light brown to pinkish gray and have conspicuous small, round, brown spots on each segment along the body. As they grow they reach between 2 and 20 mm. The larva feed on the corn whorl and burrow into the stalk and ear. They have high mortality directly after emergence, but as soon as a feeding site is established, they have better survival rates. Total development before pupation lasts 50 days on average.
+
+
+=== Diapause ===
+Diapause, also known as hibernation, in European corn borers is induced by temperature and changes in daylight length. At higher temperatures, shorter photoperiods are sufficient to induce diapause. At 13.5 hours of light followed by 10.5 hours of dark, 100% of European corn borer larva entered diapause regardless of temperature with the range of 18 to 29 degrees Celsius. At high temperatures and long photoperiods, fewer larva enter diapause.
+
+
+=== Eggs ===
+Female corn borer moths lay clusters of eggs on corn leaves, usually on the undersides. The egg masses, or clusters, are laid in an overlapping configuration and are whitish yellow. As the larvae develop inside their eggs, the eggs become more and more transparent and the black heads of the immature caterpillars become visible. The caterpillars hatch by chewing their way out of the eggs.
+A female moth can lay two egg masses per night over 10 nights. The number of eggs per egg mass decreases each day. The female lays white eggs which become pale yellow and finally translucent before hatching. The eggs hatch within three to seven days of laying.
+
+
+== Mating ==
+
+
+=== Breeding cycle ===
+The original European corn borers introduced to North America in the early 20th century established a population in New York. This population produced one brood per year. A second population was introduced in Massachusetts and spread to Long Island and the Hudson River Valley. This second population produces two broods per year.
+
+
+=== Polyandry ===
+If presented with the opportunity, female European corn borers, like most moths, mate with multiple males in a reproductive strategy known as polyandry. Polyandry confers several benefits to the females.  For example,  multiple matings increase female fecundity and longevity, because female moths receive both nutritional resources and multiple spermatophores from males. Furthermore, mating with multiple males ensures that the female receives enough sperm to completely fertilize her eggs. Additionally, it increases the reproductive fitness of females, because it increases the genetic diversity of the female's offspring, and thus increasing the likelihood they will mate and pass on her genes.
+
+
+=== Sex pheromones ===
+Female calling behavior in European corn borers involves the extrusion of the pheromone gland and release of sex pheromones. This calling behavior is influenced by the moth's circadian rhythm and tends to occur at night. Higher humidity also induces the calling behavior, while desiccation, or drying out, decreases the calling behavior. Both male and female European corn borers produce sex pheromones.There are two strains of European corn borers that are defined by their sex pheromone communication variant. These are the Z and E strains, named after the stereochemistry of the predominant isomer of 11-tetradecenyl acetate that they produce. The E variant of pheromone has a trans- configuration of hydrogen molecules around its double bond, while the Z variant has a cis- configuration. The Z strain produces a 97:3 ratio of Z to E isomer pheromone while the E strain produces a 4:96 ratio of Z to E isomer pheromone. A mixture of isomers is much more efficient in attracting the moth than a single component. The Z and E strains can mate and produce intermediate variants.
+
+
+==== Genetics ====
+Production of the specific pheromone blend in females is controlled by a single autosomal factor. Heterozygous females produce more E isomer than Z. The response to these pheromones in the olfactory cells of male European corn borers is also controlled by a single autosomal factor with two alleles. Analysis of the electrophysiological signaling of olfactory cells showed that those with two E alleles responded strongly to the E isomer and weakly to the Z isomer. The opposite effect was found in homozygous Z males. Males heterozygous for this autosomal factor exhibited similar neurological responses to both isomers of pheromone. Finally, response to the pheromone is controlled by two factors, a sex-linked gene on the Z chromosome and another on an autosome. In species of Lepidoptea, sex is determined through the ZW sex-determination system where males are homozygous ZZ and females are heterozygous ZW.
+
+
+=== Sex selection ===
+Males also produce sex pheromones that are structurally similar to those released by females. Composition of male pheromones is essential to female acceptance. The composition of male pheromones varies with age. Females prefer the pheromones of older males. Divergence of the pheromone composition can result in reproductive isolation and eventual speciation. This evolution is thought to take place in a concerted way between males and females within a population.
+
+
+=== Egg laying ===
+During her adult life of 18 to 24 days, a female can lay a total of 400 to 600 eggs. The female European corn borer moth first lays eggs in June. The eggs are laid on the underside of corn plant leaves near the midvein. Around 90% of the eggs are laid on the leaf just below the primary ear leaf, and an equal number of eggs are laid above and below this leaf, with a slight bias towards the lower leaves. The egg masses are all laid within five leaves of the central ear leaf. Brood sizes range from 15 to 30 eggs and egg masses are about 6 mm in diameter. The period of egg laying is about 14 days with an average of 20 to 50 eggs per day.
+
+
+=== Male investment ===
+The male European corn borer produces a spermatophore ejaculate that contains spermatozoa to fertilize the female and protein to nourish the female, a nuptial gift. The cost of producing a spermatophore is relatively low compared to the female investment in oviposition. Males mate an average of 3.8 times during their life. The average refractory period between matings for the male is 1.6 days. With each successive mating, the volume of the spermatophore decreases. This decreased spermatophore volume is associated with a decrease in female fecundity and fertility. Females who mate with males that have already mated are less likely to deposit all of their eggs.
+
+
+== Host plants ==
+The European corn borer lives and feeds primarily on field corn, but also eats sweet corn, popcorn, and seed corn. The first generation of corn borers which develops during the late spring feeds on the leaves and stalks of corn plants. In addition, the second generation feeds on the ear of corn, the leaf sheath, and the ear shank. If a third generation is produced, it will feed on the ear, the leaf sheath, and the ear shank.When corn is not abundant or near the end of the harvest season, European corn borers will infest lima beans, peppers, potatoes, and snap peas. Rarely, these moths will live on other grains, soybeans, or flowers.
+
+
+== Pest of crop plants ==
+
+The European corn borer gets its name from its habit of boring holes into all components of the corn plant. The damage to the leaves reduces photosynthesis. Damage to the corn stalk decreases the amount of water and nutrients the plant can transport to the ear. European corn borers also eat the ear—which reduces crop yield—and the ear shank which often results in the ear falling to the ground, making it unharvestable.
+
+
+=== Biological control ===
+Biological control agents of corn borers include the hymenopteran parasitoid of the genus Trichogramma, the fungus Beauveria bassiana and the protozoa Nosema pyrausta.
+Bt corn, a variety of genetically modified corn, has had its genome modified to include a synthetic version of an insecticidal gene from the Bacillus thuringiensis kurstaki. As a result, the corn variety produces a protein that kills the larvae of Lepidoptera, the taxonomic order which includes the European corn borer.Immature corn shoots accumulate a powerful antibiotic substance, DIMBOA, that serves as a natural defense against a wide range of pests and is also responsible for the relative resistance of immature corn to the European corn borer.
+
+
+==== Refuge corn recommendations ====
+When planting Bt corn, farmers must plant an area of refuge corn. A refuge area is an area of crops that do not contain the insecticidal genes. This refuge area is necessary is to prevent the European corn borer and other pests from developing resistance to the Bt gene. Insects who feed on the non-Bt crops will not develop resistance, but will continue to mate with any moths that survive after eating the genetically-modified corn. It is rare for an insect to survive after eating Bt corn, but when these resistant individuals mate with moths from the refuge area, the offspring they produce will still be susceptible to the toxin. Studies on the dispersal of European corn borers found that planting refuge corn within a half-mile of Bt crops prevents resistance.
+
+
+== Mutualism ==
+The presence of European corn borers on corn crops and the damage caused by them increases the likelihood of stalk rot caused by the pathogen Fusarium graminearum. The tunneling done by European corn borers makes it easier for F. graminearum to infect corn stalks and increases the amount of necrotic stalk tissue. The presence of F. graminearum in corn infested by European corn borers also speeds the development of larva.
+
+
+== Climate change ==
+With the increase in temperature associated with climate change, it is predicted that the habitable region of the European corn borer will expand. Additionally, an increase in the number of generations is expected. The CLIMEX model, which models organisms' response to climate change, predicts that the area of arable land affected by the European corn borer in Europe will increase by 61%.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+
+
+== See also ==
+Pyralidae
+Mealworm
+
+
+== Notes ==
+
+
+== External links ==
+European corn-borer at UKMoths
+European corn borer on the UF / IFAS Featured Creatures Web site
+Lepiforum.de

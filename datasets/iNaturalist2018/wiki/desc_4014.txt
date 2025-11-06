@@ -1,0 +1,18 @@
+Pastinachus is a genus of stingrays in the family Dasyatidae. This genus was long held to be monotypic, containing only the cowtail stingray (P. sephen). Recent studies of Indo-Pacific stingrays have revealed that there are in fact a number of different species of Pastinachus, and that some former junior synonyms may need to be resurrected.
+
+
+== Species ==
+Pastinachus ater (W. J. Macleay, 1883) (Broad cowtail stingray)
+Pastinachus gracilicaudus Last & Manjaji-Matsumoto, 2010 (Narrow cowtail stingray)
+Pastinachus sephen (Forsskål, 1775) (Cowtail stingray)
+Pastinachus solocirostris Last, Manjaji & Yearsley, 2005 (Roughnose cowtail stingray)
+Pastinachus stellurostris Last, Fahmi & Naylor, 2010 (Starrynose cowtail stingray)
+
+
+== Phylogeny ==
+Combining the molecular genetic relationship analysis of the NADH2 DNA, which was used to assign Pastinachus stellurostris, and the analysis of the COI gene, which was used to evaluate Pastinachus gracilicaudus accordingly, results in approximately the following cladogram for the genus:
+link=https://de.wikipedia.org/wiki/Datei:Pastinachus_clade.svg|500x500px|Kladogramm der Gattung Pastinachus
+
+
+== References ==
+Froese, Rainer and Pauly, Daniel, eds. (2011). Species of Pastinachus in FishBase. February 2011 version.

@@ -1,0 +1,27 @@
+The ailanthus webworm (Atteva aurea) is an ermine moth now found commonly in the United States. It was formerly known under the scientific name Atteva punctella (see Taxonomy section). This small, very colorful moth resembles a true bug or beetle when not in flight, but in flight it resembles a wasp.
+
+
+== Host plants ==
+The ailanthus webworm is thought to be native to South Florida and the American tropics (south to Costa Rica), which were the habitat of its original larval host plants: the paradise tree (Simarouba glauca) and Simarouba amara.
+Another tree called tree-of-heaven (Ailanthus altissima), originally from China, has been widely introduced and naturalized, and Atteva aurea has been able to adapt to this new host plant, giving rise to its common name, the "ailanthus webworm".
+Ailanthus, common name "tree of heaven", is considered an invasive species, although it is still sold by nurseries as a yard plant, mainly because it is one of the species that will grow in polluted or otherwise difficult places. Atteva aurea can be a minor pest in nurseries, although it rarely does serious damage.
+
+
+== Climate ==
+This tropical moth is commonly seen in summer throughout the continental US, and occasionally eastern Canada (its northern limit is eastern Ontario and south-western Quebec beyond the host range). This species appears to be either adapting to colder areas, or staying further north due to changing climates.
+
+
+== Life cycle ==
+Larvae produce nests on the host plant by pulling two or more leaflets around a network of loose webbing. Then they consume the leaflets and bark. The caterpillars have a wide, light greenish-brown stripe down their backs and several thin, alternating white and olive-green stripes along their sides. The range of colors is from light brown to dark black. The adult moth visits flowers, is diurnal, and is a pollinator. The life cycle from egg to egg can happen in four weeks.  Due to this being a species from warmer areas, it lacks a diapause stage. Larvae can be found from mid-spring to a hard freeze. There may be many generations each summer with eggs being laid on the webs of other larvae. This can result in a communal web that has multiple generations - from eggs to various larva stages to pupae. Mating happens in the mornings with egg-laying apparently happening in the evening. Eggs are found individually, not in clusters, even though each web may contain many separate eggs.
+
+
+== Taxonomy ==
+
+		
+		
+		
+Wilson et al. (2010) discovered that morphologically similar Attevid moths were assigned two different names, Atteva ergatica in Costa Rica and Atteva punctella in North America, but had identical DNA barcodes. Combining DNA barcoding, morphology and food plant records also revealed a complex of two sympatric species that are diagnosable by their DNA barcodes and their facies in Costa Rica. However, neither of the names could be correctly applied to either species, as A. ergatica is a junior synonym and A. punctella a junior homonym. By linking the specimens to type material through morphology and DNA barcoding, they determined that the species distributed from Costa Rica to southern Quebec and Ontario, should be called A. aurea, whereas the similar and marginally sympatric species found in Central America should be called A. pustulella.The name Phalaena (Tinea) punctella was recognized as a junior homonym almost immediately after its description but has been retained through several major works. The two objective replacement names proposed were Tinea punctella (Fabricius, 1787) and Crameria subtilis (Hübner, 1822). The oldest valid name to replace Phalaena punctella is Tinea pustulella but this remained overlooked until recently. Over time seven more nominal taxa were synonymized under Atteva pustulella, being Deiopeia aurea (Fitch, 1857), Poeciloptera compta Clemens, 1861, Oeta compta floridana (Neumoegen, 1891), A. edithella (Busck, 1908), A. exquisita (Busck, 1912), A. ergatica (Walsingham, 1914) and A. microsticta (Walsingham, 1914).
+There were early suspicions that A. aurea and A. pustulella might represent different species, the former distributed in the United States, the latter in South America, but at the time there was insufficient material to support this view (Walsingham 1897). A recent taxonomic review of New World Atteva introduced several nomenclatural changes and recognized three separate species within the long-standing concept of A. pustulella: A. pustulella, A. aurea and A. floridana. The most recent treatment retains A. floridana as a synonym of Atteva aurea.
+
+
+== References ==

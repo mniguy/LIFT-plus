@@ -1,0 +1,58 @@
+Lycaena rubidus, the ruddy copper, is a butterfly of the family Lycaenidae. It is found in the western mountains of North America. Adults lay their eggs on plants of the genus Rumex, which later become the larval food plants. This butterfly gets its name from the brightly colored wings of the males, which are important in sexual selection. Its larvae exhibit mutualism with red ants, and are often raised in ant nests until they reach adulthood. Adults are on wing from mid-July to early August.
+
+
+== Distribution and habitat ==
+Lycaena rubidus is found in only North America, spanning from British Columbia and California to South Dakota, which is similar to the Blue copper. It has one flight either from mid-June through July at low latitudes or from mid-July through August for high latitudes.L. rubidus tends to live in dry habitats, such as prairies and fields. It prefers temperate regions and is found in scrub forest, grassland, and desert biomes.
+
+
+== Life cycle ==
+
+
+=== Larvae ===
+Caterpillars are brown with a red and yellow dorsal band. They have hunched backs, small legs, and their heads are obscured beneath the thorax. They  emerge from their eggs under proper conditions and immediately begin feeding on their host plant. Once they have eaten enough to survive the pupal stage, larvae are taken to a red ant nest to begin the chrysalis stage of their life cycle.L. rubidus larvae feed off on their host plants, which are polygonaceae from the genus Rumex. Specifically, they have been observed feeding on  R. hymenosepalus, R. salicifolius, R. triangularis, and R. venosus. Larvae tend to feed on the terminal leaves, petals, and bracts of flowers. Adult ruddy coppers feed on flower nectar.
+
+
+=== Pupa ===
+The chrysalis of the L. rubidus changes in appearance over the course of the pupal stage. While it is originally camouflaged to avoid predation, the chrysalis becomes transparent by the end of the cycle, and the colors of the butterfly can be seen through the membrane.
+
+
+=== Imago ===
+After mating, female L. rubidus  spend the rest of their lives (about two weeks) searching for the correct food plants and laying eggs. Males spend their adult lives competing for territory with other L. rubidus, but have no interest in males of other species. Male territories range from 1–3 m.
+
+
+== Oviposition ==
+Females spend most of their adult lives laying eggs. They use scent, as well as the receptors on the tips of their feet, abdomen, and antennae to ensure that they are laying their eggs on the correct plant. Usually females will lay a single egg per host plant, but L. rubidus have also been observed dropping eggs rather than laying them on a host plant. They do this several dozen times per day. Females are not territorial, and will not care for their young beyond laying them on a host plant that will be the larval food source once the eggs hatch.
+
+
+== Physiology ==
+
+
+=== Wings ===
+The ruddy copper has a small wingspan between 29 and 41mm. As the common name suggests, the males have bright copper colored upperwings. The upperwings of females range from dark orange to a dull brown color. This sexual dimorphism is best explained by the ruddy copper's mating system; females are duller colored to avoid predators and blend into the environment, but they choose the brightest colored males to mate with. Both sexes have pale underwings, and occasionally have small black spots on the hindwings.
+
+
+=== Color vision ===
+The ruddy copper's eyes, like their wings, are sexually dimorphic, and females can see a broader range of color than males. Females need to be able to see the color of males, so that they can determine if he is conspecific, as well as the color of their host plants, so that they can lay their eggs in the proper location. Males need to be able to see the color of other ruddy copper males, as they will only defend their territory against butterflies of the same species, but do not need to identify larval host plants. Like most Lepidoptera, the ruddy copper has compound eyes with a dorsal and ventral region. In most butterflies, the dorsal region of the eye looks at the sky during flight, while the ventral region observes the ground. Thus, the two regions may be used to see different colors, depending on what colors are evolutionarily beneficial to see in the sky and on the ground. The dorsal region on the female ruddy copper eye contains pigments P360, P437, and P568, which are sensitive to ultra-violet, blue, and red wavelengths respectively. It is common for butterflies to be able to see UV and blue wavelengths with their dorsal region, as they can help detect predators from above. Male dorsal regions, on the other hand, are dichromatic, containing P360 and P437, but lacking the red-absorbing P568 pigment. The ventral eye of both sexes lacks the blue-sensitive P437 pigment, but contains P360, P500 (green), and P568, all of which are colors that are important for ruddy coppers to see on the ground.
+
+
+== Mating ==
+Male L. rubidus are selectively territorial, and will defend perches around streams and meadows where they will wait for females. They can detect the females by pheromones released by females nearby. Females will select their mate, judging a conspecific male by his wing color. The dorsal region of female L. rubidus eyes are trichromatic, containing P568, which allows them to judge the red-orange of the male's wing color. Male eyes are dichromatic, and thus they cannot see the red color that females can see.
+
+
+== Mutualism ==
+The larvae and pupae of L. rubidus exhibit a mutualistic relationship with red ants. The caterpillars secrete a fluid through glands in the body wall that has a high sugar concentration, which attracts the red ants. The ants will carry the caterpillar to the nest, where they will defend it from predators in exchange for being able to feed on the fluid that the caterpillar secretes. L. rubidus will stay in the ant nest until it completes pupation and emerges from the chrysalis as a butterfly.
+
+
+== Conservation ==
+L. rubidus is not a threatened species, however it is becoming more rare, specifically at the edges of their range. Habitat loss and fragmentation may cause a decrease in the species in the future. It has a conservancy ranking of G-5.
+
+
+== Subspecies ==
+L. r. duofacies K. Johnson & Balogh, 1977
+L. r. perkinsorum K. Johnson & Balogh, 1977
+L. r. longi K. Johnson & Balogh, 1977
+L. r. sirius Edwards, 1871
+L. r. monachensis K. Johnson & Balogh, 1977
+
+
+== References ==

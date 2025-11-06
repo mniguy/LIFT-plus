@@ -1,0 +1,59 @@
+Spirodela polyrhiza (orth. var. S. polyrrhiza) is a species of duckweed known by the common names common duckmeat, greater duckweed, great duckmeat, common duckweed, and duckmeat. It can be found nearly worldwide in many types of freshwater habitat.
+
+
+== Description ==
+S. polyrhiza is a perennial aquatic plant usually growing in dense colonies, forming a mat on the water surface. Each plant is a smooth, round, flat disc 0.5 to 1.0 cm wide. Its upper surface is mostly green, sometimes red, while the lower surface is dark red. It produces several minute roots and a pouch containing male and female flowers. The top part dies in the fall and the plant often overwinters as a turion. The turion sinks to the bottom of the water body and stays in a dormant phase, until water temperature reaches 15 °C. The turions then germinate on the bottom of the water body and start a new life cycle. S. polyrhiza, living in ponds and slow-moving water bodies, differs developmentally from terrestrial plants in morphology and physiology. It undergoes mainly vegetative growth in spring and summer, forming new fronds. S. polyrhiza rarely flowers. In fall and winter it switches into a dormant phase represented by the turions due to nutrition starvation and freezing temperatures.S. polyrhiza is an ideal system for biofuels, bioremediation, and carbon cycling due to its aspects of fast-growing, direct contact with media, and small genome size (~150 Mb). A comprehensive genomic study of S. polyrhiza was published in February 2014. The results provide insights into how this organism is adapted to rapid growth and an aquatic lifestyle.
+
+
+=== Turion Induction by Abscisic acid ===
+Turions were induced by the plant hormone Abscisic acid (ABA) in the lab. Researchers reported that turions were rich in anthocyanin pigmentation and had a density that submerged them in liquid media. Transmission electron microscopy of turions showed in comparison to fronds shrunken vacuoles, smaller intercellular space, and abundant starch granules surrounded by thylakoid membranes. Turions accumulated more than 60% starch in dry mass after two weeks of ABA treatment.
+
+
+== Distribution ==
+S. polyrhiza is found worldwide, namely in North America, Asia, more rarely in Central and South America, but also in Central Europe. It grows in tropical and temperate climates. It is not prevalent in New Zealand and only rarely in Australia.
+
+
+== Cultivation ==
+Large scale cultivation is done in outdoor water tanks, mostly in connection with wastewater treatment. Tanks are fed with wastewater and the floating duckweed is harvested from the surface. It is then further used as a biofuel from industrial wastewater or as animal feed from agricultural wastewater treatment facilities.
+
+
+== Use ==
+S. polyrhiza can be used for bioremediation, removing toxic substances from aquatic environment as well as cleaning eutrophic waters, especially in wastewater treatment plants. Its uses as biofuel and animal feed are also gaining importance. It is hardly used for human nutrition.
+
+
+=== Bioremediation ===
+Because of its capability to hyperaccumulate heavy metals and its high uptake of nutrients from the water, S. polyrhiza is used for bioremediation. The main pollutants it can be used to remediate are Arsenic (As) and Mercury (Hg)  and common wastewater nutrients, like Sulphate (SO42-), Phosphate (PO43-) and Nitrate (NO3−).
+
+
+==== Arsenic ====
+Greater duckweed showed accumulation of arsenic in laboratory tests. Arsenic uptake was found to be negatively correlated with phosphate and positively correlated with iron uptake.  This indicates that phosphate and arsenic compete for uptake by S. polyrhiza, while arsenics’ absorption is facilitated by iron oxides, because it shows an affinity to the root surface of S. polyrhiza, where it is taken up. S. polyrhiza is thought to detoxify the Arsenic by reducing As (V) to the less toxic As (III). Difficulties arise with the management of the plants with high As contents. One possible use of the biomass containing As is production of charcoal and gas as a byproduct, which can be used as a fuel. The problems with this approach are low charcoal quality and high investments. Direct burning or burning of the coal is thought to release arsenic into the air, which would pollute the environment. Other options for fuel production would be hydrolysis and fermentation, which are economically not feasible. The biomass would have to be treated with strong acids and heat, which are both capital intensive. Briquetting is considered one of the best options, where the plants are dried and pressed into pellets of briquets. This raises the question of whether the arsenic is released back into the environment during the burning process. The production of biogas is also considered, but again, the redistribution of the As has to be avoided .
+
+
+==== Mercury ====
+S. polyrhiza was found to be an efficient bio accumulator of mercuric chloride (HgCl2) in labor settings. Its plant biomass showed a 1000 times higher mercuric chloride concentration than its aquatic environment. Spirodela polyrhiza showed the highes accumulation factor compared to Lemna gibba and Lemna minor, which were also investigated.
+
+
+=== Urban wastewater treatment ===
+S. polyrhiza has been used to remove common pollutants from wastewater. In a laboratory setting, S. polyrhiza showed a maximum of 90% removal efficiency of Nitrate, 99.6% of Phosphate and 69.8% Sulphate. All three nutrients together, the efficiency was 85.6%, which makes it an environmentally and economically viable bioremediatory for wastewater treatment.
+
+
+=== Biofuel ===
+S. polyrhiza has great potential in bioethanol production due to space-efficient starch production and good growth in animal wastewater. Despite environmental problems associated with production and competition from human and animal feed, corn is the main raw material for bioethanol. S. polyrhiza could produce up to 50% more bioethanol on the same area. At the same time the production of bioethanol from S. polyrhiza is not in competition with human food. The production of bioethanol from S. polyrhiza is still in the development phase.
+
+
+=== Animal Feed ===
+In small-scale agriculture S. polyrhiza is used as fish or poultry feed. Due to its fast growth and high protein content it is an interesting feedstuff. Because of sanitary problems and the risk of heavy metal accumulation, it is not yet used for feeding in larger animal husbandry systems. For rainbow trout, poorer growth rates were found when S. polyrhiza was added to the feed. For tilapia (Oreochromis niloticus L.) greater weight gains were found when 30% of the fish meal in the feed was replaced with S. polyrhiza. A review has also shown that duckweed can be used in cattle, pig and poultry diets. However, the problems of heavy metals and pathogen contamination occur.
+
+
+=== Human nutrition ===
+Although other duckweed species, such as Wolffia arrhiza, are consumed by people in rural areas, S.polyrhiza is not cultivated for human consumption. This is because of high concerns about heavy metal accumulation and possible contamination with Escherichia coli or Clostridium botulinum. In contrast to W. arrhiza, S. polyrhiza contains, like most duckweed species, calcium oxalate crystals who are known to cause kidney stones.
+
+
+== References ==
+
+
+== External links ==
+Spirodela polyrhiza genomics
+Jepson Manual Treatment
+Flora of North America
+Washington Burke Museum

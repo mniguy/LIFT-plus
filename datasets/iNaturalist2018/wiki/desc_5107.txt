@@ -1,0 +1,36 @@
+Myxarium nucleatum (common names crystal brain or granular jelly roll) is a jelly fungus in the family Hyaloriaceae. The sporocarps (fruit bodies) are watery white and gelatinous with small, white, mineral inclusions. It is a common, wood-rotting species in Europe and North America, typically growing on dead attached or fallen branches of broadleaf trees.
+
+
+== Taxonomy ==
+
+
+=== History ===
+The species was originally described by Karl Friedrich Wilhelm Wallroth in 1833, who found it growing on hawthorn in Germany. He placed it in his new genus Myxarium based on its visible white inclusions which he interpreted as spores. Wallroth noted its similarity to Naematelia nucleata, but nonetheless described Myxarium nucleatum as a new species, using the same epithet.Lewis David von Schweinitz had previously described Tremella nucleata from the United States, a species that was later transferred to the genus Exidia by Burt. Many subsequent publications, summarized by  Donk (1966) and Reid (1970), have discussed whether the European Myxarium nucleatum is conspecific with the American Exidia nucleata. The consensus now seems to be that they are the same species, but this is based on morphological similarity not on comparing DNA sequences.Donk preferred the name Myxarium hyalinum (based on Tremella hyalina Pers.) for this species, but most later authors have followed Reid in considering Tremella hyalina a nomen dubium (name of uncertain application) that might originally have referred to any whitish or transparent jelly fungus. Persoon had made no mention of white inclusions when originally describing the species.
+
+
+=== Current status ===
+The species is still frequently referred to the genus Exidia, but molecular research, based on cladistic analysis of DNA sequences, has indicated that it belongs in a Myxarium clade that is quite separate from the Exidia clade.
+
+
+=== English names ===
+Its recommended English name in the UK is "crystal brain"; in North America it has also been called "granular jelly roll".
+
+
+== Description ==
+Myxarium nucleatum forms scattered, pustular, gelatinous fruit bodies 0.2 to 1 cm (0.1 to 0.4 in) in diameter. These often coalesce, forming compound fruit bodies that may be irregularly cerebriform (brain-like) and up to 6 cm (2.5 in) across. Fruit bodies are hyaline (colourless) to whitish, occasionally with lilac or pinkish tints. Opaque, white, spherical, mineral inclusions are often evident and are made of calcium oxalate. The spore-bearing surface (hymenium) is smooth. With age, the fruit bodies may become brownish and eventually dry to a thin, varnish-like film. The spore print is white. The fungus does not have any distinct taste or smell; it is inedible.
+
+
+=== Microscopic characters ===
+The basidia are ellipsoid, longitudinally septate, and measure 11–16 x 9–10.5 µm, with a stalk cell up to 28 µm long that becomes enucleate on maturity. The spores are allantoid (sausage-shaped), measuring 8.5–14 x 3.5–5 µm. Hyphae are produced in a gelatinous matrix and are clamped, hyaline, and 1.5 to 2.5 µm wide.
+
+
+=== Similar species ===
+
+Fruit bodies of Exidia thuretiana are similarly coloured, but are typically more opaque and often appear pleated. They do not (or very rarely) contain white, granular inclusions. Microscopically, E. thuretiana can be distinguished by its sessile (not stalked) basidia. Fruit bodies of several gelatinous Tremella species may also appear similar, but never contain granular inclusions. All can be distinguished microscopically by their non-allantoid spores.
+
+
+== Habitat, distribution, and ecology ==
+Myxarium nucleatum is often found in association with old pyrenomycetes, but is presumed to be a wood-rotting species, typically found on dead attached or fallen branches. It was originally recorded on hawthorn, but is also known from many other broadleaf trees and shrubs, including beech, ash, sycamore, and ivy. Myxarium nucleatum typically fruits in autumn and winter. It is widely distributed in Europe, North, Central and South America, and New Zealand.The fruit bodies can serve as host to the auricularioid parasite Zygogloea gemellipara. This fungus grows thin thread-like hyphae—too small to be viewed with the naked eye—on the hymenium of its host. The hyphae of the parasite attach to the host hyphae through  twisting, tendril-like haustorial cells.
+
+
+== References ==

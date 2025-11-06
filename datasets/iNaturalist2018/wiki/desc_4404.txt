@@ -1,0 +1,50 @@
+Podarcis muralis (common wall lizard) is a species of lizard with a large distribution in Europe and well-established introduced populations in North America, where it is also called the European wall lizard. It can grow to about 20 cm (7.9 in) in total length.
+
+
+== Description ==
+The common wall lizard is a small, thin lizard whose small scales are highly variable in colour and pattern. Its coloration is generally brownish or greyish, and may occasionally be tinged with green. In some individuals, the row of spots along their backs may form a line, while others may have a reticulated pattern with dark spots on the side and scattered white spots that can be blue in the shoulder region. The tail is brown, grey or rust in colour, and may also have light bars on the sides. The belly region has six rows of larger rectangular scales that are generally reddish, pink, or orangish. Common wall lizards may also have dark markings on the throat. This lizard has six distinct morphological forms which are identified by the colouration of its throat and underbelly. Three of these are pure morphs consisting only of solid colours on their scales: white, red (orange) or yellow, and three other morphs are distinguished by a combination of colours: white-yellow, white-red and yellow-red.
+
+
+== Ecology ==
+The common wall lizard prefers rocky environments, including urban settings, where it can scurry between rock, rubble, debris and buildings. In the southern part of its range it tends to occur in humid or semi-humid habitats, compared to drier habitats in the north.
+
+
+== Chemical communication ==
+Common wall lizards rely both on visual and chemical signals to communicate with conspecifics. Male wall lizards are equipped with femoral glands, which produce a waxy secretion used for chemical signalling. Both the proteinic and lipophilic compounds in the secretions are known to carry socially relevant information.
+
+
+== Polymorphism ==
+The six morphs of this lizard are primarily identifiable by colour and can be distinguished with the naked eye. However, they are commonly confirmed by digital photo and colour analysis. Source of colouration comes from different pigments within the lizard, with yellow colouration originating from carotenoids, and the expression of red/orange colour from pteridines. This is indicative that a phenomenon such as multiple alleles or epistasis may have a role in determining morphology. Morphs also differ in aspects other than colouration: differences between morphs are seen with femoral gland secretion, immune competence and body size.  For males, colouration is visible on the underbelly, but in females of all the morphs there is less colouration seen in this region, indicating that sexual dimorphism occurs within this species.
+
+
+=== Variations between morphs ===
+Aside from differences in colour, the morphs vary by length, survival rate, and immune resistance/response to infection.
+
+Susceptibility to infection also varies between morphs, red and yellow-red morphs are the most susceptible to infection by the haemogregarine parasite, a common parasite for these lizards. White morphs are the most resistant to this parasite and the yellow morphs are at an intermediate value of immune resistance and intensity. Certain traits can also lead to a variation in snout-vent length in each of these morphs. For example, in orange morphs, sexual selection favours larger morphs which makes them, on average, larger than the other morphs.The femoral gland secretions of males differ in chemical composition according to each respective morph. Secretions are used by males for intra-species communication, such as marking of territories and attracting potential mates. Individuals share the same organics within the secretions, but the concentrations of certain key compounds differ. For example, α-tocopherol is present in higher concentrations in the secretions of red morphs. This molecule allows for scents to remain in the environment longer by reducing the rate of oxidation in humid environments. This indicates that red morphs tend to be more territorial and maintain territories for longer periods of time compared to other morphs. This phenomenon is also seen when it comes to the age of lizards. Similarly, older, more territorial lizards have higher levels of α-tocopherol compared to younger individuals who are more prone to roaming regardless of morph. Again, indicating that the composition of the secretions relate to the function. Furanones are found in higher concentrations in white morphs, followed by yellow, then red morphs.Among females, reproductive strategies differ by morph; yellow females are r strategists, producing many smaller eggs in their clutch which would allow for numerous offspring to be produced and proliferate in smaller populations with less competition. White females are K strategists, producing fewer, larger eggs which makes offspring more likely to survive in harsher, more competitive environments. Red females can be r or K strategists based on the environment they are in. The existence of alternate strategies points to how morphs have adapted to different environments and hints to the maintenance of colour polymorphism as with fluctuations in environments each morph will eventually be the fittest and as such will not be selected out of the population.
+The differences observed between morphs are unique evolutionary trade offs employed by each morph to promote survival within the different environments they face in light of limited ability to adapt perfectly to each pressure. Such a trade off is seen when comparing orange morphs to white morphs: morphs, on average, have larger body sizes compared to the white morphs but, in exchange, they are more prone to parasitic infection. In orange morphs, more emphasis is placed on being larger and having the ability to physically compete and ward of potential threats, but in white morphs, metabolic emphasis is placed on having a more hardy immune system to resist infection. Again, these trade offs can arise as there are selective differences in the environment each morph prefers. The differences in the relative proportions of the morphs with respect to location show that environmental pressures differ and some morphs' trade offs are more successful in specific environments than another's.
+
+
+== Distribution and status ==
+The natural range spans much of the mainland Europe except from the north and very south and extends to Turkey. It occurs as introduced populations in southern Britain, where one such population in the seaside town of Ventnor on the Isle of Wight has become somewhat famous, and also in North America. There has been some scientific debate as to whether the populations in Southern England represent the northern edge of their native range.
+
+
+=== North America ===
+Podarcis muralis has been introduced in the United States and is spreading throughout the Cincinnati metropolitan area. It is commonly observed living in limestone outcrops, rock walls, and rubble along the Ohio River basin.
+
+It is referred to locally in the Cincinnati/Northern Kentucky area as the "Lazarus lizard", as it was introduced to the area around 1950 by George Rau, a boy who was a member of the family who owned the Lazarus department store chain (now absorbed into Macy's). After he returned from a family vacation to northern Italy, he released about 10 of the reptiles near his Cincinnati home. This prolific lizard has reproduced exponentially; it continues to expand its distribution range annually, and has established itself so well in southwest Ohio, it is now considered a naturalized species by the Ohio Department of Natural Resources and is protected under state law (it is illegal to harm, capture, or possess this animal without a proper licence).Besides Ohio, P. muralis has also been introduced in other U.S. states. Populations occur in Kenton and Campbell counties in Kentucky, and in parts of Indiana. 
+The European wall lizard was also introduced to Vancouver Island, British Columbia, Canada in 1970, when a dozen individuals were released into the wild from a small private zoo.This lizard is also present in Los Angeles and San Diego counties in California and may exist elsewhere in California.
+
+
+== See also ==
+List of reptiles of Italy
+List of reptiles of Spain
+List of reptiles of Canada
+
+
+== References ==
+
+
+== External links ==
+ Media related to Podarcis muralis at Wikimedia Commons
+ Data related to Podarcis muralis at Wikispecies
+Wall lizard as introduced species in UK

@@ -1,0 +1,47 @@
+Arrenodes minutus, commonly known as the oak timberworm, is a species of primitive weevil in the family Brentidae (Order: Coleoptera). These beetles are pests of hardwoods in North America. Adult oak timberworms are shiny, elongate, and range 7 to 25 mm in length (Solomon, 1995). They are reddish-brown to brownish-black in coloration, with yellow spots on their elytra. Adults display strong sexual dimorphism; females have long, slender, straight mouthparts, while males possess flattened, broadened mouthparts with large mandibles. Males are known to be aggressive and use these large mandibles for combat (Sanborne, 1983). These mandibles are also used in courtship (Garcia-C., 1989). Larvae are elongate, cylindrical, white, and curved. They have 3 pairs of jointed legs on the thorax and 1 pair of prolegs near the end of the abdomen (Bragard et al., 2019).
+
+
+== Host trees ==
+Oak timberworms primarily attack oak (Quercus spp.), elm (Ulmus spp.), beech (Fagus spp.), and Populus species such as aspen and poplar (Bragard et al., 2019). They have also been documented on boxelder (Acer negundo) and honeylocust (Gleditsia triacanthos) (Solomon, 1995). Upland oak species such as black oak (Q. velutina) and scarlet oak (Q. coccinea) appear to be especially susceptible to attack by this insect (Solomon, 1995).
+
+
+== Geographic range ==
+The oak timberworm ranges from southern Ontario and Quebec through most of the eastern US to the Gulf of Mexico (Majka et al., 2008; Solomon, 1995). Isolated populations have also been reported in Montana and in Central America. This beetle has also been reported outside of its native range (Bragard et al., 2019; Majka et al., 2008). Oak timberworms were discovered in a shipment of wooden furniture from the US in Nova Scotia and are now established in the Maritime Provinces of Canada (Majka et al., 2008). An individual was also intercepted in France in 2005 in a shipment of oak wood products imported from the US; however, this species has not established in Europe (Bragard et al., 2019).
+
+
+== Damage to host trees ==
+The larvae of this species bore into the xylem of wounded trees, creating galleries throughout the wood (Majka et al., 2008; Solomon, 1995). Galleries made by this species are typically straight and horizontal and become progressively larger in diameter as the larvae develop and grow in size (Solomon, 1995). These larvae will often bore from the oviposition site nearly to the other side of the tree, then make a sharp “U-turn” and bore back in the direction of the entrance hole (Bragard et al., 2019; Solomon, 1995). Oak timberworms are secondary pests that attack recently felled logs and wounded, dying trees and therefore pose little threat to healthy, living trees (Solomon, 1995; Wisconsin Forest Health Protection Program, 2008).
+
+
+== Signs of infestation ==
+Signs of infestation by oak timberworms include straight or U-shaped galleries ranging from 0.2 to 4.0 mm in diameter in the xylem of the host tree (Solomon, 1995). Powdery, white frass and minute boring holes may also be seen on wounds with exposed sapwood (Bragard et al., 2019; Solomon, 1995). Boring dust and frass are pushed out of galleries by larvae and may be visible around entrance holes (Bragard et al., 2019). Adults can sometimes be found congregating under loose bark around wounds on host trees (Majka et al., 2008).
+
+
+== Life history ==
+Oak timberworm adults usually emerge sometime in May and are active until August (Solomon, 1995). Adults are attracted to fresh wounds on host trees, where they feed on sap oozing from these injured tree (Bragard et al., 2019; Solomon, 1995). Several adult beetles will often congregate under loose bark near the wound (Solomon, 1995).
+Once mating has occurred, females will bore a minute, hair-sized hole in the exposed sapwood and deposit a single egg in this cavity (Bragard et al., 2019). The female then covers this hole with frass and other bodily secretions (Solomon, 1995). During this process, the female’s mate will guard her and her egg from other males and predators (Majka et al., 2008; Sanborne, 1983; Thomas, 1996). These eggs are less than 1 mm in dimeter and may take anywhere from a few days to 3 weeks to fully develop (Solomon, 1995).
+After hatching, larvae bore directly into xylem and tunnel through the trunk until they nearly reach the other side of the tree (Bragard et al., 2019; Solomon, 1995). The larvae then make a “U-turn” and bore through the xylem in the direction of their original entry point (Solomon, 1995). This life stage is the most destructive to commercial forestry operations. Pupation occurs in the gallery and adults then emerge, typically through their respective entrance holes (Bragard et al., 2019). This life cycle takes 2 to 4 years (Solomon, 1995).
+
+
+== Associated pathogens ==
+The oak timberworm is a known vector of the destructive fungus Bretziella fagacearum, which causes oak wilt (Bragard et al., 2019). Oak wilt is major cause of oak mortality in some regions and has been detected in 24 US states (Juzwik et al., 2008). Oak wilt can cause rather sudden mortality in host trees due to the disruption of sap and water flow in the xylem (Dimond, 1970).
+
+
+== Significance ==
+The oak timberworm is an economic pest of oaks and other hardwoods in the eastern US (Thomas, 1996). The primary economic losses come from larval boring damage to live standing trees; however, this insect has been known to attack unseasoned lumber, stave bolts, and squared timber (Solomon, 1995). These larval galleries cause structural damage to lumber (Bragard et al., 2019). Lumber from heavily infested trees is often unfit for special uses, like flooring and barrel making. (Solomon, 1995). Larval feeding damage can also seriously reduce the value of factory grade lumber (Solomon, 1995). The oak timberworm is listed on the European Food Safety Authority’s Annex IAI, meaning that it has potential to become an introduced pest and its importation is banned (Bragard et al., 2019). There are concerns that it could become established in Europe and spread the destructive oak wilt fungus due to similar climatic conditions and an abundance of potential hosts (Bragard et al., 2019). The European Food Safety Administration, a division of the European Union, imposes strict regulations on oak and poplar products such as lumber, barrels, logs, solid wood packing materials, and wood chips imported from the US (Bragard et al., 2019).
+
+
+== Control and monitoring ==
+Direct control efforts like chemical or biological control are seldomly used to manage oak timberworms (Solomon, 1995). However, basic forest management practices can often prevent economic losses from this insect. Proper forest sanitation and quick removal of felled trees can  help prevent infestations oak timberworms and many other destructive forest pests (Solomon, 1995). Because this insect attacks wounds on hosts, trees should be protected against injuries, especially when harvesting (Solomon, 1995). Treating felled logs or processed wood through fumigation, autoclaving, steaming, or kiln drying or applying process additives, protective compounds, surface disinfectants, or pesticides can control this pest in harvested timber (Bragard et al., 2019). The European Food Safety has regulatory phytosanitary methods to detect and monitor the oak timberworm in imported oak and poplar lumber to detect this species (Bragard et al., 2019).
+
+
+== References ==
+Bragard, C., Dehnen-Schmutz, K., Serio, F. D., Gonthier, P., Jacques, M. A., Miret, J. A. J.,  & Milonas, P. (2019). Pest categorisation of Arrhenodes minutus. European Food Safety Authority Journal, 17(2), 1-26.
+Dimond, A. E. (1970). Biophysics and Biochemistry of the Vascular Wilt Syndrome. Annual Review of Phytopathology, 8, 301-322.
+Garcia-C., J. M. (1989). Courtship and Copulation in Arrhenodes sp. (Coleoptera: Brentidae). The Coleopterists Bulletin, 43(4), 313-314.
+Juzwik, J., Harrington, T. C., MacDonald, W. L., & Appel, D. N. (2008). The Origin of Ceratocystis fagacearum, the Oak Wilt Fungus. Annual Review of Phytopathology, 46, 13-26.
+Majka, C. G., Neil, K., & Webster, R. P. (2008). Arrenodes minutus (Drury, 1770) (Coleoptera: Brentidae) discovered in the Maritime Provinces of Canada. Journal of Acadian Entomology, 4, 32-35.
+Sanborne, M. (1983). Some Observations on the Behaviour of Arrhenodes minutus (Drury) (Coleoptera: Brentidae). The Coleopterists Bulletin, 37(2), 106-113.
+Solomon, J. D. (1995). Guide to Insect Borers in North American Broadleaf Trees and shrubs. Washington D.C.: Agriculture Handbook
+Thomas, M. C. (1996). The Primitive Weevils of Florida (Coleoptera: Brentidae: Brentinae) Florida
+Wisconsin Forest Health Protection Program (2008). Forest Health Highlights of Wisconsin. Wisconsin Department of Natural Resources, Wisconsin.

@@ -1,0 +1,53 @@
+The California sea hare (Aplysia californica) is a species of sea slug in the sea hare family, Aplysiidae. It is found in the Pacific Ocean, off the coast of California in the United States and northwestern Mexico.
+
+
+== Distribution ==
+A. californica is found along the coast of California, United States, and northwestern Mexico (including the Gulf of California). Aplysia species inhabit the photic zone to graze on algae, mainly the intertidal, usually not deeper than 18–20 m (59–66 ft).
+
+
+== Description ==
+The maximum length recorded for the California sea hare is 75 cm (30 in) when crawling, thus fully extended, although most adult specimens are half this size or smaller. Adult animals can weigh up to 7 kg (15 lb). A closely related species, Aplysia vaccaria, the black sea hare, can grow to be larger still.
+
+
+== Lifecycle ==
+Like all sea hares, the California sea hare is hermaphroditic, acting as male and female simultaneously during mating. A. californica is known to form mating chains with up to 20 animals. The eggs are yellow-green, and change after 8-9 days into a brown color before larvae hatch. Mating is most prominent during the summer  following the rise of the water temperature to 17°C.
+A. californica has a generation time of 19 weeks: Days 1-37 after hatching from the egg comprise the planktonic stage, days 34-37 are the metamorphic stage, and days 45-80 are the juvenile stage. Reproductive maturity is reached 85 days after hatching (133 days after deposition of the fertilized eggs). The development of the nervous system lasts for 140 days  The lifespan is assumed to be around a year, yet older animals have been found. Cooler temperatures delay spawning and has been shown to extend the lifespan.
+
+
+== Sexual reproduction ==
+At the base of the right anterior tentacle is the aperture from which the penis can protrude. The genital aperture lies at the anterior end of the mantle cavity, a seminal grove arises from it and runs forward to the penis, at the base of the anterior tentacle.
+Coupling lasts for hours or sometimes for days, although the actual passage of the sperm may take only a few minutes. Egg laying normally has to be triggered by copulation, but it occurs spontaneously in individuals kept in isolation for up to 3–4 months (typically these eggs are unfertilized). Copulation occurs most frequently in the early morning, and only rarely after 12:30 pm. An individual animal weighing 2,600g was recorded to have laid about 500 million eggs at 27 separate times during less than five months.
+
+
+== Feeding habits ==
+Like all Aplysia species, the California sea hare is herbivorous. Its diet consists primarily of red algae such as  Laurencia pacifica, Plocamium pacificum, and Ceramium eatonianum, which give the animal its typically reddish or pinkish coloration. A. californica resembles the food on which it grazes, and cannot be distinguished easily from the seaweed unless the animal is moving.
+
+
+== Predators ==
+
+Because of the toxins in its body that come from consuming algae, the California sea hare has very few predators. Predators include starfish, lobsters, and the ophistobranch Navanax inermis which will take juveniles.When it is considerably disturbed, the sea hare is capable of releasing two different kinds of ink from different locations within its mantle cavity, much in the way an octopus does. One ink is reddish-purple and comes from what is called the purple ink gland, while the other is milky white, comes from what is called the opaline gland, and contains the aversive chemical opaline.
+
+
+=== Protective mechanisms ===
+Inking provides protection from spiny lobsters, a major predator of sea hares, by means of three mechanisms: chemical deterrence, sensory disruption, and phagomimicry.
+The typical defence response of the sea hare to a predator is the release of chemicals such as free amino acids, ink from the ink gland, and opaline from the opaline gland. Chemical deterrence involves the release of toxic chemicals that are noxious to predators and rapidly dissuades them from feeding. Ink creates a dark, diffuse cloud in the water that disrupts the sensory perception of the predator by acting as a screen or decoy. The opaline, which affects the senses dealing with feeding, causes the predator to instinctively attack the cloud of chemicals as if it were indeed food.
+
+
+== Laboratory use ==
+A. californica has become a valuable laboratory animal, used in studies of the neurobiology of learning and memory, and is especially associated with the work of Nobel laureate Eric Kandel.Its ubiquity in synaptic plasticity studies can be attributed to its simple nervous system, consisting of just 20,000 large, easily identified neurons with cell bodies up to 1 mm in size. Despite its seemingly simple nervous system, though, A. californica is capable of a variety of nonassociative and associative learning tasks, including sensitization, habituation, and classical and operant conditioning. Study typically involves a reduced preparation of the gill and siphon withdrawal reflex.Sequencing of its whole genome was approved as a priority by National Human Genome Research Institute in March 2005.
+The draft genome is available on the UCSC Genome browser.
+
+
+== References ==
+
+Beeman R.D. (1963) Notes on the California species of Aplysia (Gastropoda: Opisthobranchia). The Veliger 5(4): 145–147.
+Bebbington A. (1977) Aplysiid species from Eastern Australia with notes on the Pacific Ocean Aplysiomorpha (Gastropoda, Opisthobranchia). Transactions of the Zoological Society of London 34: 87-147
+urgeon, D.; Quinn, J.F.; Bogan, A.E.; Coan, E.V.; Hochberg, F.G.; Lyons, W.G.; Mikkelsen, P.M.; Neves, R.J.; Roper, C.F.E.; Rosenberg, G.; Roth, B.; Scheltema, A.; Thompson, F.G.; Vecchione, M.; Williams, J.D. (1998). Common and scientific names of aquatic invertebrates from the United States and Canada: mollusks. 2nd ed. American Fisheries Society Special Publication, 26. American Fisheries Society: Bethesda, MD (USA). ISBN 1-888569-01-8. IX, 526 + cd-rom pp.
+NIH/University of Miami National Resource for Aplysia Facility
+
+
+== Further reading ==
+Cummins Scott F, Erpenbeck Dirk, Zou Zhihua, Claudianos Charles, Moroz Leonid L, Nagle Gregg T, Degnan Bernard M (2009). "Candidate chemoreceptor subfamilies differentially expressed in the chemosensory organs of the mollusc Aplysia". BMC Biology. 2009 (7): 28. doi:10.1186/1741-7007-7-28. PMC 2700072. PMID 19493360.CS1 maint: multiple names: authors list (link)
+ Moroz L. L., Ju J., Russo J. J., Puthanveetti S., Kohn A., Medina M., Walsh P. J., Birren B., Lander E. S. & Kandel E. R. (2004) "Sequencing the Aplysia Genome: a model for single cell, real-time and comparative genomics". National Human Genome Research Institute. online at http://www.genome.gov/Pages/Research/Sequencing/SeqProposals/AplysiaSeq.pdf Accessed 20 November 2009
+Proekt A., Wong J., Zhurov Y., Kozlova N., Weiss K. R., Brezina V. (2008). "Predicting Adaptive Behavior in the Environment from Central Nervous System Dynamics". PLoS ONE. 3 (11): e3678. doi:10.1371/journal.pone.0003678.CS1 maint: multiple names: authors list (link)
+Wayne N. L., Block G. D. (1992). "Effect of Photoperiod and Temperature on Egg-Laying Behavior in a Marine Mollusk, Aplysia californica". The Biological Bulletin. 182: 8–14. doi:10.2307/1542176.

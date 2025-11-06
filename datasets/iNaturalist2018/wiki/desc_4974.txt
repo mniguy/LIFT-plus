@@ -1,0 +1,50 @@
+Xanthoria parietina is a foliose, or leafy, lichen. It has wide distribution, and many common names such as common orange lichen, yellow scale, maritime sunburst lichen and shore lichen. It can be found near the shore on rocks or walls (hence the epithet parietina  meaning "on walls"), and also on inland rocks, walls, or tree bark. It was chosen as a model organism for genomic sequencing (planned in 2006) by the US Department of Energy Joint Genome Institute (JGI).
+
+
+== Taxonomy ==
+The species was first described by Carl Linnaeus in 1753, as Lichen parietinus.
+
+
+== Description ==
+The vegetative body of the lichen, the thallus, is foliose, and typically less than 8 centimetres (3.1 in) wide. The lobes of the thallus are 1–4 mm in diameter, and flattened down. The upper surface is some shade of yellow, orange, or greenish yellow, while the lower surface is white, with a cortex, and with sparse pale rhizines or hapters. The vegetative reproductive structures soredia and isidia are absent in this species, however, apothecia are usually present.The outer "skin" of the lichen, the cortex, is composed of closely packed fungal hyphae and serves to protect the thallus from water loss due to evaporation as well as harmful effects of high levels of irradiation. In Xanthoria parietina, the thickness of the thalli is known to vary depending on the habitat in which it grows. Thalli are much thinner in shady locations than in those exposed to full sunshine; this has the effect of protecting the algae that cannot tolerate high light intensities. The lichen pigment parietin gives this species a deep yellow or orange-red color.Xanthoria parietina prefers growing on bark and wood; it is found more rarely on rock. Nutrient enrichment by bird droppings enhances the ability of X. parietina to grow on rock.
+
+
+== Photobiont ==
+The photosynthetic symbionts, or photobionts, associated with X. parietina are from the green algal genus Trebouxia. Species that have been found include Trebouxia arboricola and T. irregularis. Both of these photobionts are known to occur free-living in nature, having been found on bark colonized by X. parietina as well as on bark not colonized by lichens.In one study, the photobiont was shown to occupy 7% of the volume of the thallus. The density of pigmentation of the upper cortex also varies and seems to control the amount of light reaching the algae.
+
+
+== Reproduction and dispersal ==
+A large number of lichens disperse very effectively by means of symbiotic vegetative propagules such as soredia, isidia and blastidia, and thallus fragmentation. However, X. parietina does not produce such vegetative propagules, but must establish the symbiotic state at each reproductive cycle. Two oribatid mite species, Trhypochtonius tectorum and Trichoribates trimaculatus, which are common inhabitants and consumers of X. parietina, are vectors of the photobiont cells. Faecal pellets of both species contain both viable ascospores and photobiont cells, and are suggested to be a common mode of short- and long-distance dispersal of this species.
+
+
+== Habitat and distribution ==
+Xanthoria parietina occurs in hardwood forests in broad, low-elevation valleys, as well as scattered on Populus and other hardwoods in riparian areas in agricultural and populated areas. It is often associated with high level of nitrogen and favored by eutrophication, and can be often found near farmland and around livestock. The lichen is used as a food source and shelter for the snail Balea perversa.The species is widespread, and has been reported from  Australia, Africa, Asia, North America and throughout much of Europe. In eastern North America and Europe, it is found more frequently near coastal locations. The increases in nitrate deposition as a result of industrial and agricultural developments in southern Ontario, Canada in the 20th century are thought to be responsible for the reappearance of this species in the local lichen flora.
+
+
+== Pollution tolerance ==
+Xanthoria parietina is a very pollution-tolerant species. In laboratory experiments, this species can tolerate exposure to air contaminants and bisulphite ions with little or no damaging effect. It is also tolerant of heavy metal contamination.For these reasons, this species has found use as a biomonitor for measuring levels of toxic elements.
+
+
+== Bioactive compounds ==
+
+Xanthoria parietina produces an orange colored anthraquinone pigment, parietin, that is deposited as tiny crystals in the top layer of the upper cortex. Parietin synthesis is enhanced by UV-B, and stimulated by photosynthates, such as those provided by the green algal Trebouxia symbiont. X. parietina also produces the metabolite 2-methoxy-4,5,7-trihydroxy-anthraquinone.
+
+
+== Medicinal properties ==
+The water extract of X. parietina has good antiviral activity in vitro, inhibiting the replication of human parainfluenza virus type 2. In the past it was used as a remedy for jaundice because of its yellow color.
+
+
+== Gallery ==
+
+		
+		
+
+
+== References ==
+
+
+== External links ==
+ Media related to Xanthoria parietina at Wikimedia Commons
+Radoslaw Walkowiak, Akira Takeuchi, Short Note of Xanthoria parietina, CTC PAPER 2020
+http://www.jgi.doe.gov/sequencing/why/CSP2006/Xparietina.html
+http://www.nhm.ac.uk/nature-online/species-of-the-day/biodiversity/climate-change/xanthoria-parietina/index.html

@@ -1,0 +1,21 @@
+Entomophthora muscae is a species of pathogenic fungus in the order Entomophthorales which causes a fatal disease in flies. It can cause epizootic outbreaks of disease in houseflies and has been investigated as a potential biological control agent.
+
+
+== Life cycle ==
+Soon after a fly dies from infection with this pathogenic fungus, large primary conidia are produced at the apex of a conidiophore which emerge from the intersegmental membranes. When the spores are mature they are forcibly ejected and may fall onto flies resting nearby. If no hosts are available for infection, a smaller secondary conidium may develop. Once on a fly, the conidia germinate within a few hours and a germ tube begins to penetrate the insect's cuticle. Once this reaches the haemocoel, the protoplast flows through the tube and into the fly's haemolymph. The mycelium of the fungus may grow into an area of the brain that controls the behaviour of the fly, forcing it to land on a surface and crawl upwards. The hyphae gradually grow through the whole of the body, digesting the guts, and the fly dies in about five to seven days. When it is critically ill, it tends to crawl to a high point, straighten its hind legs and open its wings, a behaviour that ensures that the fungal spores are dispersed as widely as possible. Some three hours later, conidiophores start to develop and a new shower of conidia is initiated.
+
+
+== Host range ==
+
+As well as the housefly, Musca domestica, infection has been observed in adult flies in the families Calliphoridae, Culicidae, Drosophilidae, Muscidae, Sarcophagidae, Scathophagidae, Syrphidae and Tachinidae.
+
+
+== Ecology ==
+Outbreaks of infection with Entomophthora muscae tend to occur in the spring and autumn. The fungus is found in most temperate regions and sporulation usually takes place in cool, humid conditions in areas where flies congregate and rest. In houses, the corpses of flies are frequently seen attached to windows or window frames, a place where other flies may easily become infected. In the open, they may be seen attached to the underneath of leaves, on fences and walls, in agricultural buildings and poultry houses.
+
+
+== Use in biological control ==
+There are technical difficulties in controlling flies with Entomophthora muscae. The fungus is sensitive to temperature and when the air temperature is high, the prevalence of the disease decreases to very low levels. Houseflies infected with E. muscae were able to rid themselves of the infection by resting at temperatures that inhibited the growth of the fungus. Storage of the organism in a viable state is difficult and it cannot be easily cultured in the laboratory. Captive colonies need to be maintained through direct transmission from fly to fly. There is no commercially available supply of the pathogen.
+
+
+== References ==

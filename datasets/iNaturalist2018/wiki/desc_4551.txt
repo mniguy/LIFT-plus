@@ -1,0 +1,40 @@
+The aggregating anemone (Anthopleura elegantissima), or clonal anemone,  is the most abundant species of sea anemone found on rocky, tide swept shores along the Pacific coast of North America. This cnidarian hosts endosymbiotic algae called zooxanthellae that contribute substantially to primary productivity in the intertidal zone. The aggregating anemone has become a model organism for the study of temperate cnidarian-algal symbioses.
+
+
+== Description ==
+
+The polyps of the aggregating anemone reach up to eight cm across the oral disk with approximately 100 tentacles in three or four rows around the margins of the oral disk. Most are olive to bright green (depending on the species of algal symbionts present) with tentacles tipped in pink. Individuals that live in microhabitats that are deficient in photosynthetically active radiation (PAR), such as under docks or in caves, lack symbionts and are pale yellow to white in color.
+
+
+== Range ==
+Pacific coast of North America from Alaska, United States to Baja California, Mexico.
+
+
+== Life history ==
+This species of anemone is capable of reproducing both sexually and asexually. As adults, aggregating anemones release gametes into the water that join to form genetically unique individuals that settle on intertidal rock. This genetically distinct individual can then proliferate through binary fission. Some argue that this is not true reproduction but actually a form of growth. Fission is often prompted in the autumn by a decrease in the abundance of food and follows sexual spawning in summer. Over time, a single individual can generate a large colony of genetically  identical polyps. Because of its ability to grow in this manner, the genetic entity of a colony is potentially immortal on an ecological time scale.
+
+
+== Natural history ==
+
+
+=== Photosynthetic symbiosis ===
+Aggregating anemones host endosymbiotic, photosynthetic algae in their tentacles, oral disk and column of the polyps.  In addition to a chlorophyte, two species of dinoflagellate Symbiodinium, S. muscatinei and S. californium are known to inhabit the anemone. These algae are generally referred to as zooxanthellae (dinoflagellates) and zoochlorellae (chlorophytes) and many polyps concurrently host more than one type of alga within their tissues. The rate of occurrence of each alga is determined by temperature and light regimes of anemone habitats.  Zoochlorellae are typically found at higher latitudes and in deeper intertidal habitats than zooxanthellae. Of the two species of zooxanthellae that inhabit the anemone, S. californium is restricted to southern California due to its intolerance of cold temperatures whereas S. muscatinei is tolerant of a broad range of temperature and irradiance levels.
+
+The mutualistic relationship of these organisms requires adaptations of each partner. The algal symbionts convert inorganic carbon into carbohydrates for use by each partner and release oxygen to the animal host in the process. To accommodate the algae, the anemone must provide concentrated carbon dioxide to their intracellular photosynthetic guests as well as photosynthetically active radiation (PAR) to fuel the photosynthetic process. This restricts the symbiotic organism to euphotic habitats and requires consistent exposure to high levels of ultraviolet radiation (UVR). To protect from potentially damaging UVR, the algae provide mycosporine-like amino acids (MAAs) that act as sunscreen for themselves and the host. The anemones, in turn, produce antioxidants called superoxide dismutases to protect against reactive oxygen that causes oxidative stress.
+
+
+=== Agonism between colonies ===
+
+The aggregating anemone is agonistic toward other individuals with different genetic disposition. When one colony of genetically identical polyps encounters a different genetic colony, the two will wage territorial battles. Aggregating anemones have specialized  tentacles called acrorhagi that are used solely to deter other colonies from encroaching on their space. When a polyp makes physical contact with a non-clonemate, it extends the acrorhagi to attack the competing anemone with stinging cells called nematocytes.  Acrorhagi of the attacking anemone leave behind a 'peel' of the ectoderm and nematocysts that causes tissue necrosis in the receiving animals.
+A study of two colonies on a boulder removed from the shore and brought into a laboratory revealed that hostilities between neighboring colonies follow the tides.  As water rushed into the tank, warrior polyps inflated their acrorhagi, tripled their body length and began reaching into an empty swath of rock between the colonies.  Occasionally, a polyp from one of the colonies would move into the spatial zone between the two colonies, acting as a scout, and would be attacked by the warrior polyps of the other clone. If the scout polyp received enough stings, it would be attacked by its clonemates upon return to its own colony. The return of an attacked scout to the clone with acrorhagial peel may serve to communicate the presence and identity of neighboring clones to the interior of the colony.
+
+
+== Predators ==
+The few known predators of the aggregating anemone include a species of nudibranch (Aeolidia papillosa), leather star, and mosshead sculpin.
+
+
+== Footnotes ==
+
+
+== External links ==
+ Media related to Anthopleura elegantissima at Wikimedia Commons

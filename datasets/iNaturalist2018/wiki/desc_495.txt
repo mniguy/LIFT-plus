@@ -1,0 +1,101 @@
+The tree bumblebee or new garden bumblebee (Bombus hypnorum) is a species of bumblebee common in the European continent and parts of Asia. Since the start of the twenty-first century, it has spread to the United Kingdom and Iceland. These bumblebees prefer habitats that others do not, allowing them to pollinate flowers in areas that many other species do not get to.
+
+
+== Description ==
+Bombus hypnorum has a short proboscis and a rounded head. The thorax is usually of a uniformly ginger color (but examples with a darker, or even black thorax occur), the abdomen is covered in black hair, and the tail is always white. In workers, the first tergite (abdominal segment) is black-haired, but a proportion of males may have ginger hairs intermixed with the black hair, both on the face and on the first abdominal tergum. On the European continent, individuals with extended yellow coloration exist. Workers are often (but not always) small, while drones are much bigger in comparison. The queens vary in size.
+
+
+== Taxonomy and phylogeny ==
+Bombus hypnorum is part of the genus Bombus. Its closest genetic relatives are B. jonellus and B. sichelli.
+
+
+== Distribution ==
+B. hypnorum is a common bumblebee species in continental Europe and northern Asia, from northern France to Kamchatka in the east, and from the Pyrenees to the mountains in northern Europe. In the Balkans it is found in northwestern Greece. It is not found, though, in the Mediterranean, or the steppes of eastern Europe, only in the mountains of the Iberian Peninsula and not south of Tuscany in Italy. The bumblebee was first observed in United Kingdom on 17 July 2001 close to the village of Landford in Wiltshire and has since been spreading widely. In August 2008, B. hypnorum was found in Iceland, and new queens have been found each year since. It is likely that it will continue to stay in Iceland and prosper in close living with humans near dense settlements, such as Reykjavík, but will most probably not venture into the more rural and colder parts of Iceland. In the U.K., it has now spread from England up to part of Scotland and Wales.
+
+
+== Habitat ==
+This bumblebee often lives near human settlements. It prefers to build its nest above ground and often inhabits bird boxes. B. hypnorum likes to live in forests, but in places where there are not as many trees, it favours human dwellings. It likes to live in holes and walls in the trees unlike other members of the Bombus species. B. hypnorum does not stay in areas where there is a high amount of rapeseed cover.
+
+
+=== Nest ===
+The nest is quite large, with 150 workers or more (according to some authorities up to 400). This species stores pollen in separate cells, and feeds each larva individually.  It visits an enormous range of flowering plants such as Rhododendron, cherry, grape hyacinth and, in the north, blueberry and Vaccinium. It is also an important visitor to raspberry (Rubus idaeus) and bramble (Rubus fruticosus agg.).
+
+
+=== Nest usurpation ===
+There have been dead queens around colonies that are established, so this may have been a result of one queen usurping another colony and keeping some of the workers of the original colony.
+
+
+== Colony cycle ==
+The tree bumblebee has a short breeding cycle. Nests are begun by single queens in March. These queens produce a brood of workers, then queens and males. The first cycle is completed from mid-May to early July (depending on the season). A smaller second generation is produced in late summer in favorable years. Larger colonies have heavier queens.
+
+
+=== Colony life ===
+Development of larvae into a queen or a worker is determined by the amount of food that was given to them. Workers have a shorter development time than the queens. The queens have a higher amount of juvenile hormone than the workers as larvae.
+
+
+==== Caste system ====
+Compared to Bombus terrestris, B. hypnorum has a weaker caste system in addition to a smaller overall colony. An important determinant in caste hierarchy is how much food the larva receive during its development. When they are older, they are seen to organize themselves by using the information they obtain from cues in odor pattern and arrange themselves into groups this way.
+
+
+==== Worker groups ====
+There are three worker groups in the colony. They are dominant workers, subordinate workers, and foragers. Dominant workers were aggressive towards other workers by attacking and sometimes even biting others. They can show this dominance without fighting by giving off a certain odor that is similar to the queen's.
+
+
+== Breeding ==
+Queens in this species can be polyandrous.  Multiple mating is not common in bumblebees. In this species it is related to short matings, possibly with little sperm transferred. Because of multiple mating, sisters in a colony may have different fathers.
+
+
+== Behaviour ==
+
+
+=== Mating behaviour ===
+There are two parts to mating: approach and copulation. First there is the approach part where the male checks out the female. The male would approach a queen and then hover in the air for a few seconds using his antennae to inspect the female. If this male is the same species, then he will land and continue inspection using his antennae.  The male mounts her by using his front legs on her abdomen and then mounts from the rear. Then he attempts to copulate with her. Females have a mandibular gland that releases a pheromone that the males react to so that they will know of their receptiveness. Males use their legs to tap on the abdomen of the female for a few seconds in ten second intervals. Males of B. hypnorum copulate for about 20-40 min.
+
+
+=== Mating frequency and duration ===
+Females in this species are unlike other species where they usually only mate once. B. hypnorum can mate 2-3 times in their lifetime; however, this is not always the case. It has been observed that a female can mate up to 6 times. When looking at the second mating, it does not seem to be shorter or longer than the first mating, but they are usually shorter than the females that have mated only once in their lifetime. This can be due to the fact that the mating plugs disappear relatively quickly, in 6–12 hours. However observed matings may not be the same as actual sperm transfer, though from this also, it is clear that multiple mating occurs in this species.
+
+
+=== Conflict ===
+
+
+==== Queen–worker conflict ====
+Social bees are of the order Hymenoptera. The female workers are more genetically related to each other than to their brothers because males are haploid, giving an identical set of chromosomes to their daughters.
+
+
+==== Worker–worker conflict ====
+There seems to be a hierarchy around the egg-laying workers in the nest. While the queen was alive, this bee would eat any other workers that were laying eggs in the nest. If this worker dies, the next in the hierarchy would start up this act as well and at the same time defend her own eggs.
+
+
+==== Genetic relatedness within colonies ====
+The relatedness from sister to sister is 75% and from sister to brother is 25%. This is because females are diploid and males are unfertilized haploid.  The Queen has equal genetic relatedness to both her sons and daughters so she wants to lay an equal ratio of children. Since B. hypnorum also can mate with more than one male, then the colony has groups of related females. In these colonies, the queen has sex ratio control so the offspring are equally male and female.
+
+
+== Interactions ==
+
+They maintain a symbiotic relationship with phoretic mites, which they transport, and which probably feed on mushrooms or nest parasites.
+
+
+=== Social parasite ===
+B. norvegicus is a social parasite that affects B. hypnorum. B. norvegicus can produce a repellant to combat invading workers. This is very strong on B. hypnorum workers that have not had food yet. The biggest component of this repellant, dodecyl acetate, together with other compounds, repels B. hypnorum which makes B. hypnorum take longer to get to food and slower to get there. This makes it harder for B. hypnorum to commit nest usurpation in their nests.
+
+
+=== Diet ===
+B. hypnorum has the biggest preference for the flowering trees Crateagus monogyna and Prunus spinosa compared to other types of bumble bees.  Also compared to other bees, B. hypnorum has less of a preference for Brassica naptus, Glechoma hederacea and Lamium album.
+
+
+=== Olfactory senses ===
+Workers and males have similar responses to chemical stimuli; however, the males are just slightly more responsive. Queens have the highest response overall.
+
+
+=== Humans ===
+The tree bumblebee is generally quite docile, but if disturbed, it can defend its nest proactively and it has been known to sting people whom it perceives as a threat.
+
+
+== References ==
+
+
+== External links ==
+Bombus hypnorum distribution map at DiscoverLife.org
+Bees, Wasps and Ants Recording Society: page on Bombus hypnorum
+Hymettus information sheet on tree bee

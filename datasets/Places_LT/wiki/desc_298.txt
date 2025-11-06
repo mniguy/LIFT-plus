@@ -1,0 +1,68 @@
+A server room is a room, usually air-conditioned, devoted to the continuous operation of computer servers. An entire building or station devoted to this purpose is a data center.
+The computers in server rooms are usually headless systems that can be operated remotely via KVM switch or remote administration software, such as Secure Shell, VNC, and remote desktop.Climate is one of the factors that affects the energy consumption and environmental impact of a server room. In areas where climate favours cooling and an abundance of renewable electricity, the environmental effects will be more moderate. Thus, countries with favourable conditions such as Canada, Finland, Sweden, and Switzerland are trying to attract companies to site server rooms there.
+
+
+== Design considerations ==
+Building a server or computer room requires detailed attention to six main design considerations:
+
+
+=== Location ===
+Computer or server room location is the first consideration, even before considering the layout of the room’s contents. Most designers agree that, where possible, the computer room should not be built where one of its walls is an exterior wall of the building. Exterior walls can often be quite damp and can contain water pipes that could burst and drench the equipment.
+Avoiding exterior windows means avoiding a security risk, and breakages. Avoiding both the top floors and basements means avoiding flooding, and leaks in the case of roofs. Lastly, server rooms should be centrally located because of the horizontal cabling involved which extends from this room to devices in other rooms. If a centralized computer room is not feasible, server closets on each floor may be an option. This is where computer, network and phone equipment are housed in closets and each closet is stacked above each other on the floor that they service.
+In addition to the hazards of exterior walls, designers need to evaluate any potential sources of interference in proximity to the computer room. Designing such a room means keeping clear of radio transmitters and electrical interference from power plants or lift rooms, etc.
+Other physical design considerations range from room size, door sizes and access ramps (to get equipment in and out) to cable organization, physical security and maintenance access.
+
+
+=== Air conditioning ===
+Computer equipment generates heat, and is sensitive to heat, humidity, and dust, but also the need for very high resilience and failover requirements. Maintaining a stable temperature and humidity within tight tolerances is critical to IT system reliability.
+In most server rooms "close control air conditioning" systems, also known as PAC (precision air conditioning) systems, are installed. These systems control temperature, humidity and particle filtration within tight tolerances 24 hours a day and can be remotely monitored. They can have built-in automatic alerts when conditions within the server room move outside defined tolerances. 
+Air conditioning designs for most computer or server rooms will vary depending on various design considerations, but they are generally one of two types: "up-flow" and "down-flow" configurations.
+
+
+==== Up-flow air conditioning ====
+This type of air conditioning draws air into the front of the air handler unit (AHU), cools the air over the heat exchanger, then distributes the cooled air out through the top or through duct work. This air conditioning configuration is well suited to retro-fitted computer rooms when raised floors are either of inadequate depth or do not exist at all.
+
+
+==== Down-flow air conditioning ====
+Typically, this type of air conditioning unit draws the air into the top of the air handling unit, cools the air over the heat exchanger, then distributes the air out of the bottom into the floor void. This conditioned air is then discharged into the server room via strategically placed floor grilles and onwards to equipment racks. These systems are well suited to new office buildings where the design can encompass raised floors suitable for ducting to computer racks.
+
+
+==== Hot aisle / cold aisle ====
+
+Hot aisle / cold aisle configurations switch the forward direction of every other row so that two rows face each other and have their backs to the next row.
+This avoids the hot exhaust of one row of racks being sucked into the cooling intake of an adjacent row. Air conditioning ducts or vents are located between the two fronts since most equipment vents front to rear. A drawback of unenclosed hot aisle / cold aisle configuration is that there is a significant amount of uncontrolled or bypass mixing of hot and cold air outside the equipment.
+
+
+==== Aisle containment ====
+In an aisle containment configuration one of the aisle is enclosed with walls, ceilings and access doors to create an enclosed space. Aisle containment does not allow bypass mixing of hot and cold air. This forces all cold to hot air transformation to happen inside the equipment. Careful attention is paid to avoid open rack slots or other air flow leaks to make the front of the rack a continuous wall of the contained aisle. 
+
+
+==== Liquid cooling and energy efficiency ====
+The adoption of liquid cooling technologies has allowed for highly efficient server room designs. When liquid cooling technologies are applied, server rooms don't rely on energy consuming air conditioning systems any more. Instead, all heat is captured in liquid, which can be rejected with a simple and efficient dry cooler.
+Another factor of using liquid is the potential for heat reuse. Server rooms are slowly becoming part of heating systems and integrated within the same rooms, or connected to the utility space of buildings through a water circuit. This allows the heating installation to utilise server heat before using alternate means of heating. Temperature chaining principles are slowly adopted to generate sufficient temperature levels for reuse scenarios.
+
+
+=== Fire protection ===
+The fire protection system's main goal should be to detect and alert of fire in the early stages, then bring fire under control without disrupting the flow of business and without threatening the personnel in the facility.
+Server room fire suppression technology has been around for as long as there have been server rooms. Traditionally, most computer rooms used Halon gas, but this has been shown to be environmentally unfriendly (ozone depleting) and unsafe for humans. Modern computer rooms use combinations of inert gases such as nitrogen, argon and carbon dioxide. Other solutions include clean chemical agents such as FM200 and also hypoxic air solutions that keep oxygen levels down. To prevent fires from spreading due to data cable and cord heat generation, organizations have also used plenum cable coated with FEP tubing. This plastic reduces heat generation and safeguards material metal efficiently.
+
+
+=== Future-proofing ===
+The demands of server rooms are constantly changing as organizations evolve and grow and as technology changes. An essential part of computer room design is future proofing so that new requirements can be accommodated with minimal effort.
+As computing requirements grow, so will a server room's power and cooling requirements. As a rough guide, for every additional 100 kW of equipment installed, a further 30 kW of power is required to cool it. As a result, air conditioning designs will need to have scalability designed in from the outset.
+The choice of racks in a server room is usually the prime factor when determining space. Many organisations use telco racks or enclosed cabinets to make the most of the space they have. Today, with servers that are one-rack-unit (1U) high and new blade servers, a single 19- or 23-inch rack can accommodate anywhere from 42 to hundreds of servers.
+
+
+=== Redundancy ===
+If the computer systems in a server room are mission critical, removing single points of failure and common-mode failures may be of high importance. The level of desired redundancy is determined by factors such as whether the organisation can tolerate interruption whilst failover systems are activated, or must they be seamless without any business impacts. Other than computer hardware redundancy, the main consideration here is the provisioning of failover power supplies and cooling.
+
+
+== See also ==
+Equipment room
+Facility management
+Server farm
+Micro datacenter
+Datacenter
+
+
+== References ==

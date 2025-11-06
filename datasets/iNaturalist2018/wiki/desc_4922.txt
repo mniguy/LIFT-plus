@@ -1,0 +1,35 @@
+Melanelixia is a genus of foliose lichens in the family Parmeliaceae. It contains 15 Northern Hemisphere species that grow on bark or on wood. The genus is characterized by a pored or fenestrate epicortex (a thin homogeneous polysaccharide layer on the surface of the cortex), and the production of lecanoric acid as the primary chemical constituent of the medulla. Melanelixia was circumscribed in 2004 as a segregate of the related genus Melanelia.
+
+
+== Taxonomy ==
+Melanelixia was circumscribed in 2004 as a segregate of the genus Melanelia. Melanelixia originally contained eight species, including the type, M. glabra. The genus name combines Melanelia with the name of lichenologist John A. Elix, "for his immense contributions to lichen systematics and chemistry, especially in Parmeliaceae."Several species distributed in the Southern Hemisphere were removed from Melanelixia and transferred to the new genus Austromelanelixia in 2017. This group of species, which forms a distinct clade in Melanelixia, produces gyrophoric acid rather than lecanoric acid in their medullae.
+
+
+== Description ==
+Melanelixia lichens are foliose and have a loosely to moderately adnate attachment to their substrata. The thallus is made of plane to concave lobes with rounded tips that measure 1–6 mm wide. The upper surface of the thallus ranges in colour from olive-green to dark brown, and has a smooth or wrinkled texture. Features that are variably present on the thallus include maculae (spots or stains), soredia, isidia, and cortical hairs. Pseudocyphellae are not present. Cell walls contain the α-glucan compound isolichenan. The apothecia of Melanelixia have an abundantly fenestrated or pored epicortex. Ascospores are ellipsoid to ovoid in shape, thin-walled, and measure 9–15 by 5–11.5 μm.Lichens in the genus Pleurosticita are similar in appearance, but are distinguished from Melanelixia by their broader lobes, pores on the epicortex that are reticulated, a pigment that reacts violet in K and HNO3, and the presence of depsidones in the medulla.
+
+
+== Habitat and distribution ==
+Found in the Northern Hemisphere, Melanelixia species grow on bark or wood.
+
+
+== Species ==
+
+Melanelixia ahtii S.D.Leav., Essl., Divakar, A.Crespo & Lumbsch (2016)
+Melanelixia albertana (Ahti) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia californica A.Crespo & Divakar (2010)
+Melanelixia epilosa (J.Steiner) A.Crespo, Divakar, Gasparyan, V.J.Rico, Essl., S.D.Leav. & Lumbsch (2016)
+Melanelixia fuliginosa (Fr. ex Duby) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia glabra (Schaer.) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia glabratula (Lamy) Sandler & Arup (2011)
+Melanelixia glabroides (Essl.) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia hawksworthii S.D.Leav., Essl., Divakar, A.Crespo & Lumbsch (2016)
+Melanelixia huei (Asahina) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia robertsoniorum S.D.Leav., Essl., Divakar, A.Crespo & Lumbsch (2016)
+Melanelixia subargentifera (Nyl.) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia subaurifera (Nyl.) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+Melanelixia subvillosella H.Y.Wang & J.C.Wei (2008) – China
+Melanelixia villosella (Essl.) O.Blanco, A.Crespo, Divakar, Essl., D.Hawksw. & Lumbsch (2004)
+
+
+== References ==

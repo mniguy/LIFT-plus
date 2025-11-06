@@ -1,0 +1,45 @@
+On a ship, the engine room (ER) is the compartment where the machinery for marine propulsion is located. To increase a vessel's safety and chances of surviving damage, the machinery necessary for the ship's operation may be segregated into various spaces. The engine room is generally the largest physical compartment of the machinery space. It houses the vessel's prime mover, usually some variations of a heat engine (diesel engine, gas or steam turbine). On some ships, there may be more than one engine room, such as forward and aft, or port or starboard engine rooms, or may be simply numbered.
+The engine room is usually located near the bottom, at the rear or aft end of the vessel, and comprises few compartments. This design maximizes the cargo carrying capacity of the vessel and situates the prime mover close to the propeller, minimizing equipment cost and problems posed from long shaft lines. On some ships, the engine room may be situated mid-ship, such as on vessels built from 1900 to the 1960s, or forward and even high, such as on diesel-electric vessels.
+
+
+== Equipment ==
+
+
+=== Engines ===
+The engine room of a motor vessel typically contains several engines for different purposes. Main, or propulsion, engines are used to turn the ship's propeller and move the ship through the water. They typically burn diesel oil or heavy fuel oil, and may be able to switch between the two. There are many propulsion arrangements for motor vessels, some including multiple engines, propellers, and gearboxes.Smaller, but still large engines drive electrical generators that provide power for the ship's electrical systems. Large ships typically have three or more synchronized generators to ensure smooth operation. The combined output of a ship's generators is well above the actual power requirement to accommodate maintenance or the loss of one generator.On a steamship, power for both electricity and propulsion is provided by one or more large boilers giving rise to the alternate name boiler room. High pressure steam from the boiler is used to drive reciprocating engines or turbines for propulsion, and also turbo generators for electricity. Besides propulsion and auxiliary engines, a typical engine room contains many smaller engines, including generators, air compressors, feed pumps, and fuel pumps. Today, these machines are usually powered by small diesel engines or electric motors, but may also use low-pressure steam.
+
+
+=== Engine cooling ===
+
+The engine(s) get required cooling from liquid-to-liquid heat exchangers connected to fresh seawater or divertible to recirculate through tanks of seawater in the engine room. Both supplies draw heat from the engines via the coolant and oil lines. Heat exchangers are plumbed in so that oil is represented by a yellow mark on the flange of the pipes, and relies on paper type gaskets to seal the mating faces of the pipes. Sea water, or brine, is represented by a green mark on the flanges and internal coolant is represented by blue marks on the flanges.
+
+
+=== Thrusters ===
+In addition to this array of equipment is the ship's thruster system (on modern vessels fitted with this equipment), typically operated by electric motors controlled from the bridge. These thrusters are laterally mounted propellers that can suck or blow water from port to starboard (i.e. left to right) or vice versa. They are normally used only in maneuvering, e.g. docking operations, and are often banned in tight confines, e.g. drydocks.Thrusters, like main propellers, are reversible by hydraulic operation. Small embedded hydraulic motors rotate the blades up to 180 degrees to reverse the direction of the thrust. A variant on this is the azipod, which are propellers mounted in a swiveling pod that can rotate to direct thrust in any direction, making fine steering easier, and allowing a ship to move sideways up to a dock, when used in conjunction with a bow thruster.
+
+
+== Safety ==
+
+
+=== Fire precautions ===
+Engine rooms are noisy, hot, usually dirty, and potentially dangerous.  The presence of flammable fuel, high voltage (HV) electrical equipment and internal combustion engines (ICE) means that a serious fire hazard exists in the engine room, which is monitored continuously by the ship's engine department and various monitoring systems.
+
+
+=== Ventilation ===
+
+If equipped with internal combustion or turbine engines, engine rooms employ some means of providing air for the operation of the engines and associated ventilation.  If individuals are normally present in these rooms, additional ventilation should be available to keep engine room temperatures to acceptable limits.  If personnel are not normally in the engine space, as in many pleasure boats, the ventilation need only be sufficient to supply the engines with intake air.   This would require an unrestricted hull opening of the same size as the intake area of the engine itself, assuming the hull opening is in the engine room itself.  Commonly, screens are placed over such openings and if this is done, airflow is reduced by approximately 50%, so the opening area is increased appropriately.  The requirement for general ventilation and the requirement for sufficient combustion air are quite different.  A typical arrangement might be to make the opening large enough to provide intake air plus 1000 Cubic Feet per Minute (CFM) for additional ventilation.  Engines pull sufficient air into the engine room for their own operation. However, additional airflow for ventilation usually requires intake and exhaust blowers.
+
+
+== History ==
+Engine rooms were separated from its associated fire room on fighting ships from the 1880s through the 1960s. If either experienced damage putting it out of action, the associated engine room could get steam from another fire room.
+
+
+== See also ==
+
+Engine department
+Marine propulsion
+Marine fuel management
+Mechanical room
+Electrical room
+Fire room
+Marine Engineers Network

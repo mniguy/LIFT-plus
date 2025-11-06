@@ -1,0 +1,67 @@
+Bombus vosnesenskii, the yellow-faced bumblebee, is a species of bumblebee native to the west coast of North America, where it is distributed from British Columbia to Baja California. It is the most abundant species of bee in this range, and can be found in both urban and agricultural areas. Additionally, B. vosnesenskii is utilized as an important pollinator in commercial agriculture, especially for greenhouse tomatoes. Though the species is not currently experiencing population decline, urbanization has affected its nesting densities, and early emergence of the B. vosnesenskii has been implicated in the increasing lack of bee diversity on the West coast.
+
+
+== Taxonomy and phylogeny ==
+The genus name Bombus – the bumblebee –  comes from the Latin word which means a buzzing or humming sound. There are 250 species split into 38 subgenera within the genus Bombus. These subgroups share similar morphologies, despite their varied habitats and behavioral patterns. However, many of the groups are monophyletic based on the distinct genitalia of the male bee. Genetic studies have revealed the bumblebee to be closely related to the sting-less bee and the honey bee.Bombus vosnesenskii falls into the Bombus subgenus Pyrobombus. Bombus subgenera contain two primary morphological categories, short-faced and long-faced. Pyrobombus is included in the short-faced clade.The subgenus Pyrobombus is both monophyletic and the largest of the subgenera.
+
+
+=== Description and identification ===
+
+Bombus vosnesenskii has a number of distinctive features. These include short, even hair, the rounded angle of the basitarsus, which is the middle leg, and a square face. Additionally, the fringed hair of its hind legs forms the corbicula, or pollen basket.Queens are between 18 and 21 mm long. Workers are between 8 and 17 mm while males are between 10 and 15 mm.  Queens, workers, and males all have medium length antennae and similarly shaped and sized eyes. They are patterned with black and yellow hairs. The queen and the female workers are almost always identical in coloring. They have almost entirely black thoraxes with stripes of yellow at the head and at the T4 segment of their thorax. The male drones mostly look similar to their female counterparts, but in some cases will have more yellow on their sides that extends farther up the back of the thorax.
+
+
+== Distribution and habitat ==
+Although historical data for insect distribution is sparse in western North America, it is clear that Bombus vosnesenskii is not experiencing a population decline; it is amongst the most common bee species on the West Coast of the United States, and the most common bumble bee from Oregon northward. The nesting distribution ranges from British Columbia to Baja California. Historically, Bombus occidentalis, the so-called "western bumble bee" was the most common species, with a distribution all the way from California to British Columbia and Alaska, but diseases introduced by commercial rearing operations in the eastern United States brought coastal populations of B. occidentallis to the brink of extinction, and B. vosnesenskii has filled the gap. B. vosnesenskii's success in the vacuum left by B. occidentalis has not been the perfect story of nature finding balance after disturbance, however; in the San Francisco area, the frequency of B. vosnesenskii appearances to inversely correlate with the species richness of bees in the area, indicating that B. vosnesenskii outcompetes other bee species for space and resources. This may be due to the species' early emergence during the season, allowing it to overtake and monopolize available nest spaces. The bee nests underground, primarily in colony sizes of about 200-300 workers. While it is not currently in population decline, studies have shown that the B. vosnesenskii experiences reduced nesting density in urbanized landscapes.
+
+
+=== Urban nesting density ===
+Studies have demonstrated that paved environments in human urban settings have reduced B. vosnesenskii nesting densities. It is likely that this is due to the subterranean nesting habits of this bee species, which is negatively effected by the expansion of impervious substances like pavement.
+
+
+== Behavior ==
+
+
+=== Colony cycle ===
+The overwintering queen first appears during spring and establishes underground colonies. She will then find an underground nest, typically some sort of rodent burrow or some other naturally available hole in wood or dirt. Upon discovering a nestable area, the queen will lay an egg brood and begin incubation. The fuel for their thermoregulation during incubation is derived from nectar, pollen, and honey between foraging trips. After about one month, the first worker generation will hatch. They will assist the queen in foraging and incubating the brood. The colony will grow for a year, as workers and male drones are reared. Soon afterwards, a new clutch of queens will be born. Upon maturation, they will  leave the nest to mate, and then will hibernate for the winter until it is their turn in the spring to begin a colony.
+
+
+=== Mating habits ===
+Reproductive bees are raised in the last portion of B. vosnesenskii life cycle. Upon maturation, the queens will leave the nest to seek mates. They will meet with reproductive males who have left their colonies. These male bees will patrol in circuits until they encounter a suitable mate.
+
+
+=== Kin recognition ===
+The queens of this species show no preference for incubating their own brood versus the broods of other queens within their own species. However, they are able to differentiate between their broods and the broods of other related bee species. These, they do not incubate. This behavioral pattern indicates some sort of species-specific chemical cue that initiates recognition and incubation of a brood clump, as opposed to individual body odor or pheromone signals.These cues, however, do not appear to be derived from the actual brood clump. Instead, it appears that during egg-laying, the queens deposit some sort of signal at the site of the nest. It is possible that they continuously deposit or "renew" the signal over time. The signal must be recognizable by the queen and by the workers bees who will eventually assist the queen in incubation and brood-rearing after the first generation is matured.
+
+
+=== Queen contribution ===
+The queen of this bee species has been known to contribute to foraging efforts. During the early season, when the queen is young, she primarily focuses on brood incubation. However, towards the end of the season as worker numbers decline, the queen becomes a significant contributor to foraging efforts. They go so far as to become the primary pollen and nectar providers for the colony. The mechanisms behind this behavioral change are not well understood, but significance has been attributed to careful risk-balancing behaviors. The queen's efforts are much more valuable in reproduction and brood-rearing when she is young, first to build the colony, then to preserve it. There is a high risk of injury or death in foraging, which the queen offsets by allowing the worker bees to do this dangerous task. However, towards the end of the colony cycle, when the worker population has begun to dwindle, the queen is best used as a forager, to provide sustenance for the next generation of reproductive bees.
+
+
+=== Thermoregulation in incubation ===
+This bee species has poikilothermic eggs – they are unable to regulate their own temperature independently of the ambient temperature. However, it has been observed that egg clumps undergoing incubation are able to maintain consistent temperatures. Egg incubation is accomplished by the queen extending her abdomen out to touch the brood and make full contact, while her legs wrap around and anchor her body to the brood clump. While this position is assumed, the abdominal temperature of the queen increases greatly, and metabolism, as measured by oxygen consumption, doubles.The incubating bees do not have a target temperature for their broods. They will continue to incubate broods despite the ambient temperature. At 30 °C, the queen will incubate the eggs, even though at 10 °C, she only raises the brood temperature to 26 °C. However, it has been observed that the amount of thermogeneration that occurs at the abdomen is reduced when the ambient temperatures are greater.Incubating bees do not continuously warm the brood. Because of the intense metabolic cost of warming the eggs, they must occasionally take breaks to feed, at which point the brood returns to ambient temperature. Broods will hatch whether or not they have been incubated consistently, and the new worker population will assist in incubation for the next generation.
+
+
+=== Thermoregulation in flight ===
+Yellow-faced bumblebees, like most bumblebees, use thermoregulation to maintain  stable body temperatures several degrees above the ambient temperature. At rest, bumblebees have temperatures close to ambient temperature. To generate power for flight, bumblebees need to raise the temperature of the flight muscles to above 30 °C (86 °F). In B. vosnesenskii, heat is transferred from the thorax to the abdomen by changes in hemolymph flow in the petiole, the narrow region between the abdomen and thorax. At low ambient temperature, the hemolymph flows from the thorax and abdomen simultaneously. As a result, the countercurrent exchange of heat in the petiole retains most of the energy in the thorax. When the ambient temperature is high, the countercurrent exchange is reduced such that heat is transferred from the thorax to the abdomen.
+
+
+== Diet and Pollination ==
+
+
+=== Diet ===
+This bee species prefers a select set of genera for foraging purposes. These include: Lupinus, Cirsium,  Eriogonum, Phacelia,  Clarkia, and Ericameria
+
+
+=== Pollination preferences ===
+This bee species shows pollination preferences based on location and landscape features, as opposed to colony membership. This indicates that competition between B. vosnesenskii colonies does not drive any selective pressure in their foraging behaviors.Additionally, the bee does not forage based on abundance or availability. There is little correlation between the most available, and the most foraged floral taxa for this species. There are some species, including the L. corniculatus, P. montana, and La. stoechas which are highly preferred by the bee despite their relatively lower abundances. Again, these ranked preferences are similar between bees that share regions, as opposed to individual bees and their colony-mates.The yellow-faced bumblebee appears to select its foraging locations based on the diversity of available flora in a given region, as opposed to floral density. This means that the bees are willing to travel longer distances to forage from patches that have wider varieties of available floral taxa. A possible explanation for this behavior is a necessity by the bee to increase the variety of nutrients it intakes by diversifying its nectar consumption. Additionally, bees which develop preferences for varied plant genera are likely to have more stable food resources over long periods of time.
+
+
+== Agricultural significance ==
+Bombus vosnesenskii is an extremely important pollinator for commercial agriculture. The genus Bombus is the primary pollinator for greenhouse tomatoes.While the mechanisms are not well understood, B. vosnesenskii pollinates greenhouse tomatoes more efficiently than human beings are capable of simulating by hand. On several measures, including fruit weight, height, minimum and maximum diameter, grade, and seed count, bee-pollinated fruits are of significantly higher quality. One theory suggests that bees are able to time their visits better than humans, who typically adhere to a set schedule which may not coincide with floral receptivity.
+
+
+== Parasites ==
+For the Bombus vosnesenskii, parasitic organisms include the phoretic mite species Kuzinia and the protozoan Crithidia bombi. Both of these parasites affect individual bees rather than colonies or nests, and have been discovered in relatively high abundance in the Californian B. vosnesenskii population. Both of these parasites have been discovered in several bees of the Bombus genus, and display a relatively low level of host specificity. Apicystis bombi has also been observed, but at low abundance. Alone, it is unlikely that these parasites can cause severe decline or extinctions in bee populations; however, compounded with other stresses, they can be implicated in the decline of species' health.
+
+
+== References ==

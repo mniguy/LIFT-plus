@@ -1,0 +1,109 @@
+Parnassius smintheus, the Rocky Mountain parnassian or Rocky Mountain apollo, is a high-altitude butterfly found in the Rocky Mountains throughout the United States and Canada. It is a member of the snow Apollo genus (Parnassius) of the swallowtail family (Papilionidae). The butterfly ranges in color from white to pale yellow-brown, with red and black markings that indicate to predators it is unpalatable.Parnassius smintheus primarily feeds on the leaves of the Sedum lanceolatum plant as larvae and on its nectar as adults. The butterfly tends to reside in meadows and avoids forests, because it strongly prefers light. The males of this species fly from meadow to meadow frequently to find females and food resources, whereas females are more likely to avoid flying. The males seem to have mate choice in this species, as they emerge from the pupae earlier than the females and patrol for females, heavily preferring newly emerged females that have not yet flown.Although the species is not yet endangered, the climate change and human activity over the last few decades have reduced its viable habitats, and this process is continuing.
+
+
+== Range and habitat ==
+
+The range of the butterfly is based primarily in the Rocky Mountains, which spans Canada and the United States. This includes the mountainous areas of Yukon, Alaska, and British Columbia in Canada, and as far south as New Mexico in the United States.P. smintheus can often be found in alpine and subalpine meadows. It was found that males of this species preferred meadows with a greater abundance of nectar flowers and a higher quantity of the host plant Sedum lanceolatum. They also preferred meadows with a greater number of females of their species. Males may sample two or more meadows to gain information on their relative quality. It has been suggested that this preference in males for meadows with more food resources may be due to their increased energy requirements, as they spend much more time flying than females. In contrast, the female butterflies showed no preference for meadows with more nectar flowers or host plants, or for greater numbers of males.
+
+
+== Food resources ==
+
+The primary larval host plant is Sedum lanceolatum, spearleaf stonecrop, a yellow-flowered perennial succulent common in rocky habitats in Western North America. Larval foodplants may less frequently include other stonecrop species, including S. divergens, S. oreganum, S. stenopetalum, and S. integrifolium. The foodplants tend to grow most abundantly on steep, well-drained, gravelly slopes. They can mostly be found 20–40 meters above the tree-line. Herbivores rarely feedon S. lanceolatum, because it produces a deterrent cyanoglycoside, sarmentosin, so there is little risk that larvae will be accidentally preyed upon as a result of the foodplant being ingested.
+The larvae also sequester sarmentosin from the plant in their bodies for their own defense. However, it has been found that if the S. lanceolatum plant becomes physically damaged by mechanical means, the larvae feeding on it have reduced growth rates, possibly due to an induced defense by the plant itself. While damage by insects does not cause plant defense, damage from feeding by the larvae does induce defense by the plant. Consequently, the larvae often hurry to feed, then switch to another host plant within the time window offering the highest nutritional quality. Larvae will typically feed and leave a plant in less than half an hour. From November to February, the leaves of their foodplant are fatally toxic to the larvae, but for the rest of the year, the larvae feed and develop normally. If the snow melts before March, the eggs hatch while the larval foodplant is still toxic, and the larvae perish.
+
+
+== Reproduction and life cycle ==
+
+
+=== Reproduction ===
+
+
+==== Mate searching behavior ====
+Males of this species often have poor visual discrimination, so they investigate all flying or sitting objects of the approximate size and color of the females of their species. They primarily identify females by their light color, so they are as likely to chase small blue lycaenids as they are to chase large white butterflies, but tend to ignore darker butterflies like fritillaries. The males emerge from their pupae before females do in order to patrol for newly emerged females over a large area. They patrol by flying over large areas then investigating any resting or flying females after spotting them. Males fly long distances continuously in search of females, stopping only to bask or feed.
+
+
+==== Mate choice ====
+Males mate with young females, preferring females that have not yet expanded their wings. The females only mate once, lay eggs only once, and mature their eggs throughout their life, so the youngest females have the greatest potential fitness, and are selected for by males. There is also evidence that females emit a pheromone produced during the pupal stage, but its effect diminishes with time. The window of opportunity for a female to mate appears to be rather short, limited to only about three days. The females of this species are not guaranteed to mate, and it has been estimated that around 14% of females never mate. Female mating success is correlated with population size, where reduced female mating success was observed at low population densities, and greater success at higher population densities. However, other studies have suggested that female mating success decreases as density increases, possibly due to male-male competition for mating.
+
+
+==== Mating behavior ====
+
+The species has no courtship. Rather, males simply dive on a female upon finding her and force her down to the ground if she is not already there, and forcibly attempt to mate. This is successful if she has not already mated, but usually unsuccessful if she has already mated, due to a mating plug, a small waxy plug deposited onto a female's abdomen by a male to prevent future copulation. Unsuccessful matings may last an hour or more before the female escapes. If a female is unreceptive to mating, she may close up  her wings tightly when a male approaches in an attempt to avoid being seen.
+
+
+==== Nuptial gifts ====
+After copulation, the male  deposits a waxy genital plug on the tip of the female's abdomen, a mating plug, to prevent the female from mating again. It contains sperm and nutrients for the female. This ensures that the male is the only one to fertilize the female's eggs. Occasionally, the mating plug is not properly deposited, which means a mated female may sometimes present with no plug, or a mated male may present with a plug retained in his claspers.
+However, no difference has been shown in the number of eggs laid by females with and females without a mating plug, indicating that male-donated nutrients play a negligible role in female fecundity. This suggests that in this species, the plug's primary role is to prevent the female butterfly from mating multiple times.
+
+
+=== Oviposition ===
+Oviposition, or the laying of eggs occurs around the host plant Sedum lanceolatum, but not on the host plant itself. Females tend to search for good-quality meadows that have S. lanceolatum, though high host plant density is not required. They will retain their eggs and travel greater distances to find suitable meadows before oviposition. It is likely that there is some chemical or physical cue from the larval host plant that stimulates the females to oviposit near them. It is not as well understood why oviposition occurs off of the host plant, but researchers have suggested that it may be to avoid exposure of eggs to predators associated with the host plant.
+
+
+=== Life cycle ===
+
+
+==== Egg ====
+The eggs are white and round, but flattened at the top and bottom. They exhibit a pebbled surface, while the micropylar area, or the area where the sperm fertilized the egg, is brown and sunken. The surface of the egg is generally more sculptured compared to the eggs of other butterflies, likely due to the thick chorion that has evolved to protect the overwintering egg from predators, parasitoids, and adverse environmental conditions. Around 75 eggs are produced per female. However, the eggshells are not consumed upon hatching, despite its high nutrient content. The eggs are generally laid on the underside of flower heads, leaves, sticks, stones, moss, clumps of dirt, and sometimes on the larval foodplant. The female may or may not oviposit on the foodplant itself, and may often lay her eggs over a meter away from the plant. The embryo develops into first instar larva within a month of oviposition but the egg does not hatch until the snow melts the next spring.
+
+
+==== Larva ====
+The larva completes five instars before pupating, developing over a period of around 10 to 12 weeks. The first instar larva has a black body with many hairs, and a dull black head. As the larva feeds on its host plant S. lanceolatum, it sequesters in its body sarmentosin from the plant, causing the larva to become distasteful to predators. Conspicuous yellow markings appear on the body after the second instar, warning off predators, as the larva stores higher levels of sarmentosin. The fifth instar larva is black, with many short fine black hairs littered over its body. It sports two lateral and two dorsal rows of bright yellow spots. It has small and pale yellow vestigial osmeteria, a special organ just behind the head that resemble feelers. Since they may not always hatch close to their foodplant, the larvae have a fast, directional search pattern. They tend to feed rapidly on their larval host plant, then move to a basking location on open ground up to a few meters away for thermoregulation. If disturbed, the larvae twitch violently, then drop to the ground to seek cover, and may discharge a bad-smelling brown chemical.
+
+
+==== Pupa ====
+The pupae  are dark yellow brown to red brown and are formed in the leaf litter, gravel, or rocks lying near the soil surface. The larvae do not spin a cocoon but rather gather some silk around them simply to attach themselves to the surroundings. When ready to emerge, newly developed butterflies have two tiny hooks to assist in emerging from where they were pupating.
+
+
+==== Adult ====
+
+Adults are generally translucent yellowish white with black, grey, and red markings, though they vary greatly in color. They have a wingspan ranging from 2 to 3 inches. The dorsal forewing exhibits a marginal grey band and a weakly developed pale grey submarginal band. The margin of the forewing usually has small triangles of black at each vein running through the wing, as well as some grey markings. The ventral hindwing may also have marginal and submarginal grey markings. The fringes of the wings are typically black at then ends of the veins. The hairs and scales on the heads, legs, and ventral abdomen are usually yellowish. Both sexes usually have bright red spots on the hindwings and forewings. Populations residing at higher elevations typically have darker females, and both males and females are smaller at low elevations. Adult butterflies of this species feed predominantly on the nectar of yellow-flowered species including Potentilla fruticosa, Solidago multiradiata, Senecio canus, and S. lanceolatum.
+
+
+== Local dispersal ==
+Immigration and emigration into different meadows increases when there is greater connectivity of the meadows. There is greater immigration to larger populations in general, while emigration from large populations tends to be low. This trend is probably related to mating opportunity, as the males search vigorously for young females. The species tends to avoid forest edges and shows lower migration rates into different meadows in a forest habitat. They also tend to fly less often and at lower rates in forests than in meadows, due to lower light levels. The total distance moved by both flying and crawling is significantly greater in meadows than in forests, though the distances moved by crawling were generally limited to less than 2 meters. Since the butterflies avoid forest edges, meadows surrounded by forest will experience lower immigration and emigration rates.
+
+
+== Predators ==
+The species faces predation in all life stages. The eggs largely face mortality by mammalian herbivores feeding on the host plant. The population on Dividend Mountain near Penticton, British Columbia, is about half the size that habitat is capable of supporting due to cattle that graze the area after oviposition has occurred. Birds are the most important predators of larvae and adult butterflies, as well as small mammals such as mice, chipmunks, and squirrels. Chipmunks will carry butterflies back to their feeding stations then chip the wings off to eat the body. Orb-weaving spiders are significant predators of adult  butterflies, as are a variety of other insect predators. Ants are "partial predators" of adults, as the ants will cut away the margins of the wings for food while the butterflies are resting.
+
+
+=== Antipredator adaptations ===
+The larvae sequester sarmentosin from their food plant to gain protection from predators; an individual butterfly contains around 460 ɥg of sarmentosin. The closely related P. apollo also sequesters sarmentosin, but the concentrations were found to be nearly three times higher in P. smintheus adults. The concentration of sarmentosin is highest in the wings of the butterfly, which helps fend off predators since the wings and its scales are the first thing to come in contact with any predators. As a result of sequestering the compound, the butterflies have a strong odor and excrete brown fluid from their anus that smells like their body when attacked. Their body fluid is a nasal irritant to humans. The exact defense mechanism of sarmentosin is not known, but it may be a very bitter compound, making predators unlikely to prey on them again. Their white wings with black and red markings warn of their unpalatability to birds, while their odor serves to warn rodents off. Males most likely have more distasteful compounds in them than females, because chipmunks tend to eat more females than males of this species.
+
+
+== Flight patterns ==
+The flight period  spans the first week of June in low elevations to late September in alpine tundra. The species is univoltine, or have only one brood of offspring a year. Male butterflies tend to be more apparent than females. Females of this species generally avoid flying, preferring to search for oviposition sites by crawling, whereas males more readily take flight. However, dispersal distances have been found to be similar for the two sexes. Most movement occurs through non-forested areas and little movement occurs across valleys. Typically, the greatest number of flights occur 20 meters into meadows while the fewest occur 20 meters into forests, and the mean flight distances were higher in the meadows than in the forests. Readiness to fly is correlated with light intensity.
+
+
+== Conservation ==
+P. smintheus is currently abundant in the Rocky Mountains, but the closely related species Parnassius apollo and Parnassius mnemosyne are threatened in Europe due to habitat loss and population isolation. These phenomena are beginning to endanger P. smintheus as well. Due to fire suppression and possibly global warming, the tree line has risen while the meadow areas have decreased by over 78% since 1952. There is likely to be less feeding grounds for the larvae of this species as the tree line continues to rise, since they prefer to feed further away from it. Conservation efforts would best be directed at conserving remaining habitat and promoting connectivity among existing populations. Connectivity may be maintained by preventing forest encroachment and maintaining unforested corridors among patches.Parnassius smintheus is vulnerable to changes in temperature as a result of climate change. In particular, warm Novembers as well as short-term cold and warm temperatures extremes in November are associated with the greatest declines in population. Short term warm weather in November could cause premature hatching of the eggs, the larvae of which would then die as normal winter temperatures resume.
+
+
+== Subspecies ==
+
+P. smintheus has the following subspecies:
+P. s. magnus Wright, 1905: Washington state
+P. s. olympiannus Burdick, 1941: Olympic Mountains, Vancouver Island
+P. s. pseudorotgeri Eisner, 1966: Colorado (San Juan Mountains)
+P. s. sayii Edwards, 1863
+P. s. smintheus Doubleday, 1847
+P. s. sternitzkyi McDunnough, 1936: North California (named for Robert F. Sternitzky)
+P. s. xanthus Ehrmann, 1918: Washington State
+P. s. yukonensis Eisner, 1969: South Yukon, British Columbia
+
+
+== Similar species ==
+P. smintheus is often misidentified as Parnassius phoebus, which is a closely related Holarctic species. Some researchers also tend to split the North American population of the butterfly into two or three species. Usually, the northernmost populations will be regarded as being part of P. phoebus, while the rest is considered to be P. smintheus. These regional species can be best distinguished by the location of where they are found.
+P. phoebus (Phoebus apollo)
+P. clodius (Clodius parnassia])
+P. eversmanni (Eversmann's parnassian)
+
+
+== References ==
+
+
+== External links ==
+Funet Taxonomy, distribution, images
+Butterflies of America images including types and habitats
+P. smintheus images at Consortium for the Barcode of Life

@@ -1,0 +1,85 @@
+The European hornet (Vespa crabro) is the largest eusocial wasp native to Europe. It is also the only true hornet (genus Vespa) found in North America, having been introduced by European settlers in the 1800s. V. crabro is usually regarded as a pest by those humans who come into contact with it. Vespines, like V. crabro, are known for making intricate paper-like nests out of surrounding plant materials and other fibers. Unlike most other vespines, reproductive suppression involves worker policing instead of queen pheromone control, as was previously thought.
+This species stings in response to being stepped on or grabbed, but generally avoids conflict. It is also defensive of its nest and can be aggressive around food sources. Care should be taken when they are found in these circumstances, as they may sting without warning. European hornets are largely carnivorous and hunt large insects such as beetles, wasps, large moths, dragonflies, and mantises. They also feed on fallen fruit and other sources of sugary food. Mutual predation between medium-sized hornets and robberflies (Asilidae) is often reported.
+
+
+== Taxonomy ==
+The European hornet is a true hornet (genus Vespa), a group characterized by eusocial species. The genus is in the subfamily Vespinae, members of which are known for chewing up their food to feed it to their young, as well as chewing up paper-like materials to make their nests. According to a recent phylogenetic study, its closest relative is Vespa dybowskii.
+
+The former subspecies of V. crabro (e.g.) are now considered to be geographic color forms; while there is a history of recognizing subspecies within many of the Vespa species, the most recent taxonomic revision of the genus treats all subspecific names in the genus Vespa as synonyms, effectively relegating them to no more than informal names for regional color forms.
+
+
+== Description ==
+The eyes of V. crabro are deeply indented and shaped like a "C". Its wings are reddish-orange, while the petiolate abdomen is striped with brown and yellow. It has hair on the thorax and abdomen, although the European hornet is not as hairy as most bees. Due to this coloration and abdomen pattern, V. crabro is often mistaken for the Asian giant hornet. Typical mass size for the European Hornet is 477.5±59.9 mg. Workers average around 25 mm (1.0 in) in length, while the larger queens can reach up to 35 mm (1.4 in) . This is significantly larger than most common wasps (such as Vespula vulgaris), but smaller than the Asian giant hornet. Females are typically larger than males in both size and mass. However, male abdomens have seven segments, whereas female abdomens have six.  There is a cerebral ganglion, two thoracic ganglia, and five abdominal ganglia. Only females possess an ovipositor (modified to form a stinger); males cannot sting. The antennae of males are slightly longer, with 13 segments compared to twelve segments in females.
+
+
+== Nests ==
+Individuals typically live in paper nests, which consist of a pedicle (a paper comb on the inside), an envelope, and a single entry hole on the outside. Materials such as twigs, branches, and other available plant resources are broken up, chewed, and shaped into a nest by the workers. These pieces are not uniform in shape, but are glued together very closely. Because social wasps generally prefer to build nests in the dark, envelopes are commonly found surrounding the nests to make them dark if the colony could not locate a dark crevice in which to build.
+
+
+=== Construction ===
+The nest is composed of a paper-pulp mixture created by female workers chewing up dead bark, trees, or plant matter from nearby surroundings and mixing it with their saliva. To build the actual comb, saliva is used as a cement to piece together organic and inorganic materials that are readily available to the colony. This cement not only holds together the comb, but also protects the comb from being damaged by water. It provides a protective barrier to help protect the colony from wind or other harsh weather conditions. Available resources, location, and amount of mastication affect the final nest's appearance, so much variation is seen among the nests of V. crabro.
+
+
+=== Physical and chemical composition ===
+Minerals such as titanium, iron, and zirconium are commonly found in the soil and they, too, become part of the comb walls. The average dry weight of the nest is about 80.87 grams (2.853 oz). Cells in the paper comb are typically 8–9 millimetres (0.31–0.35 in) long and 4–5 millimetres (0.16–0.20 in) in diameter. Analysis of the composition of nests in northern Turkey revealed oxygen, carbon, and nitrogen as the main elements, while trace amounts of silicon, calcium, iron, and potassium were found, although none of aluminium, magnesium, or sodium, providing evidence that European hornets use the surrounding soil as a resource in building their nests. The ratio of fibrous material to actual saliva affects the nest's ability to absorb water, and thus how well its inside stays dry. In the nests studied in Turkey, fiber content was 23%, with 77% hornet saliva. This combination resulted in optimal water absorption capacity.
+
+
+== Distribution ==
+As the name "European hornet" implies, V. crabro originated in Eurasia. Nests historically ranged from Japan to the United Kingdom. However, Saussure reported that V. crabro was introduced to North America in the mid-19th century, where it is now well established. In 2010, they were found as far south as Guatemala. The few nests in Guatemala were thought to be recent, accidental introductions, as they were the first to be documented.
+
+
+== Life cycle ==
+
+V. crabro prefers to build nests in dark places, usually hollow tree trunks. After the site has been chosen, the queen lays eggs in the combs inside the nest. The workers dispose of any eggs that are not laid by their queen; this behavior is called worker policing. Based on laboratory data, the average rate of egg-laying is 2.31 eggs per day. However, in this same nest, cell construction rate was only 1.63 cells per day.V. crabro colonies seasonally change strategies of obtaining food for both the larvae and adults. In April, when the queen normally lays her eggs, the workers actively go out and forage. Later, typically around the fall season, the foraging workers switch to scavengers. Instead of putting forth the effort to catch food sources, the workers try to take what is more easily available. For example, European hornets have been seen hovering around garbage cans and picnic areas in the fall.
+
+
+== Worker policing ==
+Very few workers lay eggs in healthy V. crabro colonies. While only queens mate and produce fertilized female eggs, workers are capable of laying haploid male eggs. Workers are generally more closely related to male offspring of other workers than to male offspring of the queen. Workers would have reproductive benefits from laying male eggs, but do not do so. This was originally thought to be caused by pheromone control by the queen. However, new evidence has shown that this is not the case. Workers enforce sterility on one another in a strategy known as worker policing. Workers either physically destroy worker-laid eggs or discriminate against those workers that attempt to lay eggs. Ensuring that only the queen reproduces is thought to be likely to benefit the organization and productivity of the colony as a whole, by reducing conflicts.
+
+
+== Alarm behavior ==
+Social hymenopteran species typically communicate with each other through behaviors or pheromones. In the European hornet, a typical alarm dance is performed outside of the nest and consists of consistent buzzing, darting in and out of the nest, and attacking or approaching the target of the alarm pheromone. The alarm pheromone is stored in, and secreted from, internal venom sacs. 2-Methyl-3-butene-2-ol is the main pheromone component which causes V. crabro to express this defensive behavior. Other pentenols and pentanols are contained within these venomous sacs, but their primary purpose is likely not to warn fellow hornets that danger is nearby, because these chemicals do not induce alarm behavior.
+
+
+== Kleptoparasitism ==
+European hornets have been observed to steal prey from spiders, which can be classified as an example of kleptoparasitism. This behavior was first documented in 2011 against a yellow garden spider, Argiope aurantia. A European hornet flew into the spider’s web and appeared entangled. The hornet cut free a captured insect (possibly a eumenine wasp), wrapped in silk, from the spider’s web. The spider did not attack or interfere with V. crabro while it was stealing its prey. This behavior follows the pattern of most vespines' changing their foraging techniques from hunting to scavenging, especially once the fall season begins.
+V. crabro has also been observed attacking Polistes nimpha nests.
+
+
+== Relationship with humans ==
+
+
+=== Endangered species and legal protection ===
+Unwarranted fear of V. crabro has often led to the destruction of nests. This has led to the decline of the species, which is often locally threatened or even endangered. European hornets benefit from legal protection in some countries, notably Germany, where killing a European hornet or nest has been illegal since January 1, 1987, with a fine up to €50,000.
+However, the highest reported fine levied in Germany for killing of wasps was 45 euros, and experts report that fines are rarely imposed.
+
+
+=== Problems associated ===
+European hornets hunt many species of insects to feed their larvae. While many of these insects are considered to be garden pests, European hornets also predate western honey bees (Apis mellifera). However, they do not typically pose a  threat to healthy western honey bee colonies, unlike the Asian hornet or Asian giant hornet which are invasive in some parts of the world. European hornets tend to girdle branches, which results in dead branches.
+
+
+=== Stings: case study ===
+Most cases of stings from V. crabro do not require medical attention, but rarely can be serious. A documented case requiring treatment displayed symptoms including tingling at the site of the sting, as well as headaches and shortness of breath. In the hospital, the victim was found to have a fast, irregular heartbeat with a blood pressure of 111/63. A subsequent ECG demonstrated atrial fibrillation with a rapid ventricular response. V. crabro venom contains neurotransmitters such as dopamine, serotonin, and noradrenalineneurotoxin apamin, as well as enzymes phospholipase A and hyaluronidase, the compound histamine, and proteins melittin and bradykinin. These compounds have been shown to cause episodes of tachycardia in smaller animals. The mechanism of the described attack is still undetermined, but the victim was possibly abnormally susceptible to vespine stings. Currently, the two most effective treatments for reactions are electrical cardioversion or propafenone. The victim in this case study was given an oral dose of propafenone (150 mg) and his atrial fibrillation resolved.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+
+
+== See also ==
+Hornet stings
+Vespidae
+
+
+== Notes ==
+
+
+== External links ==
+European hornet protection site
+European Hornet - Penn State Entomology Department Fact Sheet
+"The European hornets and oak sap"

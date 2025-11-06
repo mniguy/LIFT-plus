@@ -1,0 +1,156 @@
+Polygonia c-album, the comma, is a food generalist (polyphagous) butterfly species belonging to the family Nymphalidae. The angular notches on the edges of the forewings are characteristic of the genus Polygonia, which is why species in the genus are commonly referred to as anglewing butterflies. Comma butterflies can be identified by their prominent orange and dark brown/black dorsal wings.
+To reduce predation, both the larval and adult stages exhibit protective camouflage, mimicking bird droppings and fallen leaves, respectively. During the later stage of development, the larvae also develop strong spines along their backs. The species is commonly found in Europe, North Africa, and Asia, and contains several subspecies. Although the species is not migratory, the butterflies are strong fliers, resulting in an open population structure with high gene flow and increased genetic variation.
+
+
+== Description ==
+The outer margins of the wings are strongly and irregularly dentate, excavated and angulated.
+The upper side of the wings has a bright orange ground colour, decorated with brown marks and light spots on the edge. The reverse is marbled with brown. Folded, the butterfly looks like a dead leaf. The hindwings have on the reverse side a white spot usually in the shape of C.
+The sexual dimorphism is slight and concerns the intensity of the coloration, the silhouette and the size, the male having a wingspan of 22 to 24 mm. and the female of 25 to 26 mm. 
+The seasonal dimorphism is more marked: the first generation ( hutchinsoni form,  May-June) has the upperside fawn orange and the underside  brown-gold and the hindwing bears distally a broad dark red-brown area in which is situated a row of light brown hastate spots, the underside is dark, being either unicolorous or prominently marmorated. , while the second generation (form c-album (July, in autumn and spring after overwintering) has a more reddish upper and dark brown underside (ground-colour is less bright). In the summer-form the wings are less dentate, and the hindwing has a narrow dark submarginal band, near which stands a row of light lunules proximally bordered by a band of brown arcs; the underside is of a paler colour, being less distinctly — sometimes, however, very prominently — marmorated and shaded. 
+
+
+== Taxonomy and phylogeny ==
+The comma belongs to the family Nymphalidae, the largest family of butterflies with 13 subfamilies. Within the genus Polygonia, a sister-group relationship between P. c-album and P. faunus is strongly supported by larval development analysis and synapomorphies. In both species, the adults and larvae have similar polyphagous habits. The genus Polygonia is also closely related to the genera Kanisha and Roddia, each containing a single species: K. canace and R. l-album.
+
+
+== Geographic range and habitat ==
+The comma inhabits areas including Europe, North Africa, and Asia. It is primarily a woodland butterfly, living in low-density forests with sunshine and moist soil. Specifically, the species is commonly found in the woodland, country lanes, and garden areas of Norway, Sweden, and Great Britain. As a food generalist, or polyphagous species, comma butterflies can feed upon a variety of host plants, leading to widespread ranges across continents. In response to climate change, they are also undergoing range expansion.
+
+
+=== Subspecies ===
+
+The following subspecies are found in the indicated parts of the comma's range:
+
+P. c. c-album Europe
+P. c. imperfecta (Blachier, 1908) North Africa
+P. c. extensa (Leech, 1892) western China, central China
+P. c. kultukensis (Kleinschmidt, 1929) Transbaikalia
+P. c. hamigera (Butler, 1877) Ussuri (type locality Edo, Japan)
+P. c. koreana (Bryk, 1946) Korea
+P. c. sachalinensis (Matsumura, 1915) Sakhalin
+P. c. asakurai (Nakahara, 1920) Taiwan
+P. c. agnicula (Moore, 1872) Nepal [4]
+
+
+== Food resources ==
+
+
+=== Larval host plant preferences and selection ===
+For comma butterflies, food resources consumed during development are the primary source of nitrogen and protein during adulthood. Because they feed exclusively on plants, making them a phytophagous species, the quality of plants upon which the larvae feed is strongly correlated with their future fitness. The larval form is often divided into five developmental stages known as instars. Although during the first three instars larvae are observed to remain almost entirely upon the underside of leaves, the fourth and fifth instar larvae are more active in obtaining food resources. The later instar larvae are specialized feeders and favor several host plants during the larval stage: Urtica dioica, Ulmus glabra, Salix caprea, R. uva-crispa, and Betula pubescens. While pupal weight and overall larval survival rates are similar among larvae regardless of host plant, the larval development times differ significantly. As a result, larvae prefer feeding on plants that allow them to develop in the shortest amount of time. Larvae reared on U. dioica demand the shortest development time and is thus favored over other plants. On the other hand, B. pubescens is at the bottom of the host plant preference hierarchy. Favoring plants in the family Urticaceae is speculated to have originated from the species’ ancestors, providing an explanation for larval preference for U. dioica. Within the U. dioica plant, larvae are not shown to differentiate between high quality (fresher) and low quality (wilting) nettles, a pattern expected of a polyphagous species.
+
+		
+		
+
+
+== Reproduction and life history ==
+
+
+=== Mating ===
+
+
+==== Mating system ====
+Comma butterflies have a polyandrous mating system where females mate with multiple males to receive the necessary amount of sperm to fertilize their eggs. The polyandrous female distributes her matings equally over her lifetime, so males' mating success increases proportionally to their lifespan. The mating success of both sexes is correlated to the duration of an individual's life, so no difference in mortality rates is observed between males and females.
+
+
+==== Female mate choice ====
+Females exercise mate choice before, during, and after mating and can distinguish between males who were reared on high-quality versus low-quality host plants. The ability to recognize adults reared on higher quality host plants is selected for because males fed better plants during development provide superior nuptial gifts. In comma butterflies, nuptial gifts are edible spermatophores containing spermatozoa and nutrients. When comparing the two common host plants U. dioica and S. caprea, females preferentially choose to mate with males reared on U. dioica, because these males have higher protein content and increased spermatophore production.Females preferentially mate with males which provide larger investments, in the form of nuptial gifts. When females mated with males with higher-quality nuptial gifts, they not only allocate more resources to egg production but also use the resources to improve their own reproductive success. The investments can be used to increase female life expectancy, female maintenance, and future reproduction. During each mating, males allocate a constant amount of investment towards each nuptial gift, indicating that male mate choice does not play a role in allocation of resources.
+
+
+=== Oviposition ===
+Females recognize and select a host plant carefully before laying their eggs upon it, generally favoring host plants where larval development time is minimized. Akin to the preferred host plants for larvae, females prefer plants in the order Urticales. Despite the overall preference for plants leading to short larval development, host plant preference variation between females exists. Although the partiality for certain plant species appears to be inherited across populations, the pattern is not significant within a single population. This pattern of deviation results from the open population structure with high gene flow.
+
+
+=== Parent-offspring conflict ===
+In theory, females would prefer host plants where their offspring performance is maximized, and the larvae would benefit from being able to feed on the best resources nearby their hatch site. However, this is not always observed in nature due to external factors such as predators, parasites, and pathogens. Instead, there is a trade-off between female host plant preference and larval fitness in many species of butterfly. In P. c-album, instead of accepting the host plant that the female selected, first instar larvae leave their hatch site in search of alternative food sources. Larvae that stay on the inferior host are not only smaller, but also have lower survival and growth rates.
+
+
+=== Egg mass ===
+Unlike female host plant preference, egg mass is not shown to be sex-linked. Instead, egg mass is most likely controlled by additive autosomal genes, where the egg sizes of offspring are intermediate compared to its parents. The type of host plant chosen during the larval stage is not correlated with their offspring's egg mass, indicating that egg size is not related to fitness.
+
+
+=== Life history ===
+
+
+==== Egg ====
+Females lay their eggs on a variety of host plants, preferring those that minimize larval development time. Unlike some butterflies who lay their eggs in batches, comma females often lay their eggs singly. After each egg is laid, the female scouts out other possible host plants before determining the site of her next egg. The eggs are green when first laid, and gradually turn yellow and ultimately grey before hatching,[2] which generally takes four to five days. Although the female can allocate more resources into egg production based on the nuptial gifts received by mates, the total number of eggs laid or the mass of the eggs are altered based on the host plant. A lack of correlation suggests that neither egg quantity nor egg mass indicate future fitness for the offspring.
+
+
+==== Larva ====
+
+The larval period is separated into five distinct stages or instars. During the first three instars, the comma larvae have a cryptic appearance to avoid detection while they primarily stay on the underside of leaves. Fourth and fifth instar larvae search for food more actively. However, the beginning of the fourth instar also marks the development of black, white, and orange patterns. To avoid predation despite its conspicuous appearance, the larva develops strong spines along its body. The larvae have a continuous white marking along their backs to mimic bird droppings. In its final instar, the white colouration disappears but the spines persist.Three possibilities describing why spines may develop during later instars are as follows: smaller larvae cannot sustain the spines, larger larvae benefit more from spines as their predators shift from invertebrates to vertebrates, or because an effective spine pattern cannot be achieved upon the surface area of the smaller larvae.Aside from the formation of spines, no other defence against predators appears to be present. While fourth and fifth instar larvae are rarely preyed upon by the same predator, removal of the spines leads to repeated predation, indicating that no chemical defence mechanism exists to deter enemies.
+
+
+==== Pupa ====
+
+P. c-album adults undergo one of two morphs: the directly developing morph or the diapausing (delayed development) morph. For both males and females, directly developing adults have a shorter pupal time of around 10 days, whereas the diapausing adults spend over 11 days pupating. Additionally, the pupae whose adult stage would enter the directly developing morph had larger pupal weights, consistent with the notion that the lighter morph allocates more resources towards maturation and reproduction.
+
+
+==== Adult ====
+Full-grown comma butterflies have a wingspan of about 45 mm or 1.8 inches. The name comma butterfly derives from the small white 'C'-shaped marking resembling a comma on the underside of its wings. Commas can exhibit both mimicking and polyphenism, a phenomenon where multiple morphs exist in a population. Due to their orange and dark brown/black appearance, the butterflies resemble fallen leaves when their wings are closed. Adults can also undergo one of two morphs: the directly developing morph or the diapausing morph. During the directly developing morph, the butterflies mature sexually at a rapid rate. Females undergoing this morph oviposit in the summer, leading the phase to also be referred to as the summer morph. Butterflies portraying the summer morph have light coloured undersides. The diapausing morph, also known as the spring or winter morph, occurs when the female enters a reproductive diapause, a time when sexual maturity is postponed, and hibernates before ovipositing in the spring instead. During the diapausing morph, the undersides of the wings are much darker.
+
+		
+		
+		
+
+
+== Predators, parasites, and diseases ==
+
+
+=== Predators ===
+Because of their wide distribution around the world, comma butterflies have a variety of vertebrate and invertebrate predators, including blue tits, chickens, and other birds.
+
+
+=== Parasites ===
+The two main parasites that have been known to affect comma butterflies are Glypta erratica, a type of stem borer in Eupatorium, and Pteromalus vanessae. P. vanessae often oviposit in the larvae of butterflies such as P. c-album and Nymphalis antiopa.
+
+
+=== Diseases ===
+P. c-album are known to be infected by cytoplasmic virus diseases. The disease infection usually starts in the cytoplasm of the midgut and progresses throughout the foregut and hindgut as well.
+
+
+=== Antipredator adaptations ===
+
+
+==== Larva ====
+The first three larval instars are camouflaged, the dark colours making the larvae less vulnerable to detection. In the fourth instar, the appearance of the larval body is relatively more colourful with white, black, and orange aposematic patterns. A white stripe along its back mimics the pattern of bird droppings, further displaying protective colouration of the species. During the transition between the third and fourth instars, the larvae also develop strong spines along their backs. Decreased predation by birds on P. c-album third-instar larvae has been shown compared to other larval stages, indicating that the spines increase defence. However, this appears to provide limited protection as some birds were able to consume the larvae despite the appearance of spikes.
+
+
+==== Adult ====
+Adults also make use of camouflage. The underside of adult wings mimic the patterns of a fallen leaf. The similarity is further exaggerated by the irregular wing edges, not resembling a typical butterfly, that are characteristic of the genus Polygonia. The butterflies can also undergo one of two morphs: directly developing (summer) or diapausing (spring/winter). The diapausing morph is triggered when resources are allocated to survival, resulting in a less conspicuous, darker appearance of adults to avoid predation.
+
+
+== Physiology ==
+
+
+=== Diapause ===
+Under cold winter conditions, adults can undergo diapause, a period of delayed sexual maturation to maximize survival. The diapause morph is based upon the length of the day that the larvae experienced during the development stage of the life cycle. The diapausing morph is more commonly observed in P. c-album butterflies inhabiting south Europe, North Africa, and Asia. The threshold for the photoperiod triggering diapause is primarily due to autosomal genes but may also be influenced by sex-linked genes and/or parental effects. Females tend to enter a diapause based on a photoperiod that is intermediate to the parents, and males are more likely to enter diapause than females. This indicates that males and females have evolved different optimal lifecycles. Females profit from larger body size, because it is correlated with fecundity whereas male fitness is not related to size.
+
+
+=== Thermoregulation ===
+Although dark appearances such as the early instars and the diapause morph are commonly seen in species as a means of thermoregulation, the behaviour of commas makes the theory unlikely for this species. During the first three instars, the cryptically coloured larvae spend most of their time under leaves, limiting their exposure to the sun. Although the later instar larvae are more dispersive in search of food resources, basking is very rarely observed. Thus, their body temperatures do not elevate dramatically in the presence of sunshine, decreasing the effect that dark exteriors customarily have on biological processes such as metabolism and development rate. However, P. c-album larvae are observed basking during the two later instars. This may be explained by the resemblance that the later instar larvae have to bird droppings, which would limit predation despite increasing exposure to predators. Thermoregulatory behaviours may have a much more pronounced effect on later instar larvae but do not appear to affect the first three larval stages.
+
+
+=== Polyphenism ===
+Comma adults are dimorphic. The two phases are the directly developing morph (summer morph) and the diapausing morph (winter/spring morph). The two morphs are determined by autosomal genes, which determine which phase the adults will undergo based on the length of the day experienced during the larval stage. During winter, the length of the day is short, and butterfly survival rate is lower. To allow the adults to survive through the cold winter and oviposit during the spring, the adults go through the diapausing morph which feature darker wings for greater protective colouration during hibernation. When the photoperiods are longer during summertime, the adults go through the directly developing phase with a lighter appearance. The lighter appearance is attributed to fewer resources allocated to producing a protective appearance and more resources used to assist reproduction.
+
+
+== Interactions with humans ==
+
+
+=== Climate change ===
+Climate change has dramatically affected the habitat ranges of the comma, encouraging range expansion and feeding upon a wider variety of host plants. In Britain, comma butterflies have shown the greatest shift in habitat and feeding resources, altering its preferred host plant from H. lupulus to U. glabra and U. dioica. The movement of the distribution appears to be following a change in climate. Although not a migrating butterfly species, the butterflies at the edges of the range show much higher dispersal tendencies than those living within the range.
+
+
+=== Population change ===
+In the 19th century, the British population of the comma crashed, possibly as a result of reduced hop (H. lupulus) farming. From about 1930 the population recovered, and the comma is now one of the more familiar butterflies in Southern England. It is also found in Scotland and in North Wales. Since the 1970s in Britain, specialist butterflies have decreased in population as their preferred habitat and host plants area becomes smaller. On the other hand, generalist species such as P. c-album have started to expand their range. In particular, comma butterflies have expanded along the northern edge of their range.
+
+
+== References ==
+
+
+== Further reading ==
+Tolman, Tom; Lewington, Richard (2009). Collins Butterfly Guide: The Most Complete Field Guide to the Butterflies of Britain and Europe. Harper Collins. ISBN 978-0-00-727977-7.
+
+
+== External links ==
+Polygonia c-album at Fauna Europaea
