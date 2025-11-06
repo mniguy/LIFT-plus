@@ -10,7 +10,10 @@ from utils.logger import setup_logger
 from trainer import Trainer
 
 
-def main(args):
+def setup_cfg(args):
+    """
+    args를 기반으로 config 파일을 로드하고 병합하여 cfg 객체를 반환합니다.
+    """
     cfg_data_file = os.path.join("./configs/data", args.data + ".yaml")
     cfg_backbone_file = os.path.join("./configs/backbone", args.backbone + ".yaml")
     cfg_method_file = os.path.join("./configs/method", args.method + ".yaml")
@@ -20,6 +23,36 @@ def main(args):
     cfg.merge_from_file(cfg_backbone_file)
     cfg.merge_from_file(cfg_method_file)
     cfg.merge_from_list(args.opts)
+    
+    # 이 함수는 수정된 cfg 객체를 반환할 필요는 없지만, 명시적으로 반환하는 것이 좋은 습관입니다.
+    # _C as cfg로 import 했기 때문에, 전역적으로 cfg가 수정됩니다.
+    return cfg
+
+def main(args):
+
+    setup_cfg(args)
+
+    """
+    cfg_data_file = os.path.join("./configs/data", args.data + ".yaml")
+    cfg_backbone_file = os.path.join("./configs/backbone", args.backbone + ".yaml")
+    cfg_method_file = os.path.join("./configs/method", args.method + ".yaml")
+
+    cfg.defrost()
+    cfg.merge_from_file(cfg_data_file)
+    cfg.merge_from_file(cfg_backbone_file)
+    cfg.merge_from_file(cfg_method_file)
+    cfg.merge_from_list(args.opts)
+    """
+
+    print("======================================================")
+    print("!!! FINAL BACKBONE CONFIG BEING USED:", cfg.backbone)
+    print("======================================================")
+
+    if args.weights_path:
+        # yacs cfg 객체를 수정 가능하도록 잠시 defrost
+        cfg.defrost()
+        # argparse로 받은 값을 cfg에 대문자 WEIGHTS_PATH로 업데이트
+        cfg.WEIGHTS_PATH = args.weights_path
     # cfg.freeze()
 
     if cfg.output_dir is None:
@@ -77,7 +110,8 @@ def main(args):
     if cfg.zero_shot:
         trainer.test()
         return
-
+    
+    
     trainer.train()
     trainer.test()
 
@@ -87,6 +121,8 @@ if __name__ == "__main__":
     parser.add_argument("--data", "-d", type=str, default="", help="data config file")
     parser.add_argument("--backbone", "-b", type=str, default="", help="backbone config file")
     parser.add_argument("--method", "-m", type=str, default="", help="fine-tuning method config file")
+    parser.add_argument("--weights-path", type=str, default=None,
+                        help="Path to the pre-computed classifier weights pt file.")
     parser.add_argument("opts", default=None, nargs=argparse.REMAINDER,
                         help="modify config options using the command-line")
     args = parser.parse_args()

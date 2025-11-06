@@ -1,2 +1,2 @@
 dataset: "ImageNet_LT" 
-root: "Path/To/Dataset"
+root: "workspace/LIFT-plus/data/imagenet"

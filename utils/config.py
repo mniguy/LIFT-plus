@@ -66,6 +66,15 @@ _C.v.aft_ratio = None  # Fine-tuning ratio.
 _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "mlp" / "all".
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
+# Mixture with Default Prompt
+_C.HYBRID_ALPHA = 0.3  # null/float
+_C.ADAPTIVE_ALPHA = False  # True/False
+_C.HYBRID_CAPTION_SOURCE = "json"
+
+# Cosine Filtering
+_C.HYBRID_BETA = 0.0
+
+_C.WEIGHTS_PATH = ""
 _C.l = CN()
 _C.l.fft = False
 _C.l.fft_layers = None
