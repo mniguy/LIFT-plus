@@ -444,8 +444,7 @@ class Trainer:
     @torch.no_grad()
     def _compute_caption_features(self):
         cfg = self.cfg
-        top_k = cfg.HYBRID_TOPK # 💡 오타 수정: HYBRID_TOPK
-        alpha = cfg.HYBRID_ALPHA
+        top_k = cfg.HYBRID_TOPK
         device = self.device
 
         # 💡 --- >> 수정 1: 3가지 Alpha 값을 모두 로드 << --- 💡
