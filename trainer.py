@@ -216,7 +216,7 @@ class Trainer:
         else:
             raise ValueError
     
-    def _clean_wiki_text(txt: str) -> str:
+    def _clean_wiki_text(self, txt: str) -> str:
         txt = txt.replace("\ufeff", "")
         txt = re.sub(r"==.*?==", " ", txt)
         txt = re.sub(r"\[[0-9]+\]", "", txt)
@@ -224,7 +224,7 @@ class Trainer:
 
         return txt.strip()
 
-    def _split_sentences(txt: str) -> List[str]:
+    def _split_sentences(self, txt: str) -> List[str]:
         sents = re.split(r"(?<=[.!?])\s+", txt)
 
         return [s.strip() for s in sents if len(s.strip()) > 0] 
