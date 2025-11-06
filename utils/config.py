@@ -68,6 +68,11 @@ _C.v.aft_seed = 0  # Manual seed for generating mask.
 
 # Mixture with Default Prompt
 _C.HYBRID_ALPHA = 0.3
+
+_C.ALPHA_MANY = 0.3
+_C.ALPHA_MED = 0.3
+_C.ALPHA_FEW = 0.3
+
 _C.HYBRID_TOPK = 8
 _C.HYBRID_CAPTION_SOURCE = "wiki"
 
