@@ -561,7 +561,7 @@ class Trainer:
         if not hasattr(self, "adaptive_alpha_params"):
             self.adaptive_alpha_params = nn.Parameter(torch.zeros(3, device=self.device))
             self.adaptive_alpha_params.requires_grad = True
-            print("-> Added adaptive alpha parameters (a0..a3).")
+            print("-> Added adaptive alpha parameters (a0...a3).")
 
         a0, a1, a2 = self.adaptive_alpha_params
 
