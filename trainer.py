@@ -430,7 +430,7 @@ class Trainer:
         # 💡 --- >> 수정 1: 경로를 동적으로 생성 << --- 💡
         # cfg.wiki_caption_dir 대신, cfg.root와 cfg.dataset을 조합하여 경로를 만듭니다.
         # 예: ./datasets/ImageNet_LT/wiki
-        caption_dir = os.path.join(self.cfg.root, self.cfg.dataset, 'wiki')
+        caption_dir = os.path.join("datasets", self.cfg.dataset, 'wiki')
         
         print(f"[Wiki] Building corpus from {caption_dir} ...")
         
