@@ -218,7 +218,7 @@ class Trainer:
         else:
             raise ValueError
     
-    def _clean_wiki_text(txt: str) -> str:
+    def _clean_wiki_text(self, txt: str) -> str:
         """불필요한 위키 섹션 헤더, 각주, 공백 제거"""
         txt = txt.replace("\ufeff", "")
         txt = re.sub(r"==.*?==", " ", txt)
@@ -226,12 +226,13 @@ class Trainer:
         txt = re.sub(r"\s+", " ", txt)
         return txt.strip()
 
-    def _split_sentences(txt: str) -> List[str]:
+    def _split_sentences(self, txt: str) -> List[str]:
         """간단한 문장 분리기"""
         sents = re.split(r"(?<=[.!?])\s+", txt)
         return [s.strip() for s in sents if len(s.strip()) > 0]
 
     def build_wiki_corpus(
+        self,
         caption_dir: str,
         classnames: List[str],
         max_sentences: int = 0,
@@ -241,8 +242,8 @@ class Trainer:
         각 클래스별 wiki 텍스트를 문장 단위 리스트로 반환.
         {class_idx: [문장1, 문장2, ...]} 형태.
         """
-        corpus = {}
-        for i, cname in enumerate(classnames):
+        corpus: Dict[int, List[str]] = {}
+        for i, _ in enumerate(classnames):
             cand_paths = [
                 os.path.join(caption_dir, f"desc_{i}.txt"),
                 os.path.join(caption_dir, f"imagenet_{i}.txt"),
@@ -252,14 +253,16 @@ class Trainer:
             raw = None
             for p in cand_paths:
                 if os.path.exists(p):
-                    raw = open(p, encoding="utf-8").read()
+                    with open(p, encoding="utf-8") as f:
+                        raw = f.read()
                     break
-            sents = []
+
+            sents: List[str] = []
             if raw:
                 if max_chars > 0:
                     raw = raw[:max_chars]
-                txt = _clean_wiki_text(raw)
-                sents = _split_sentences(txt)
+                txt = self._clean_wiki_text(raw)
+                sents = self._split_sentences(txt)
                 if max_sentences > 0 and len(sents) > max_sentences:
                     sents = sents[:max_sentences]
             corpus[i] = sents

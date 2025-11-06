@@ -69,10 +69,16 @@ _C.v.aft_seed = 0  # Manual seed for generating mask.
 # Mixture with Default Prompt
 _C.HYBRID_ALPHA = 0.3  # null/float
 _C.ADAPTIVE_ALPHA = False  # True/False
-_C.HYBRID_CAPTION_SOURCE = "json"
+_C.HYBRID_CAPTION_SOURCE = "wiki"
+
+# ===== Wiki Caption options =====
+_C.num_classes = 1000        # Number of classes
+_C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"  # default (dataset yaml에서 override 가능)
+_C.WIKI_MAX_SENTENCES = 0    # 0이면 전체 문장 사용
+_C.WIKI_MAX_CHARS = 0        # 0이면 글자 수 제한 없음
 
 # Cosine Filtering
-_C.HYBRID_BETA = 0.0
+_C.HYBRID_TOPK = 8
 
 _C.WEIGHTS_PATH = ""
 _C.l = CN()
