@@ -592,27 +592,24 @@ class Trainer:
     def _compute_adaptive_alpha(self, w_prompts_raw, w_captions_raw):
         """
         Compute class-wise adaptive alpha values:
-        alpha_c = sigmoid(a0 + a1 * kappa_c + a2 * log(1 + n_c) + a3 * sim_pc)
+        alpha_c = sigmoid(a0 + 1 * log(1 + n_c) + a2 * sim_pc)
         """
         cls_num_list = torch.tensor(self.cls_num_list, device=self.device, dtype=torch.float32)
 
         # (1) Class-wise similarity between prompt and caption
         sim_pc = F.cosine_similarity(w_prompts_raw, w_captions_raw, dim=-1)  # [C]
 
-        # (2) Class compactness or intra-class variance proxy kappa_c (여기선 단순히 sim_pc로 대체 가능)
-        kappa_c = sim_pc.clone()
-
-        # (3) Learnable parameters a0...a3
+        # (3) Learnable parameters a0....a2
         # 초기에는 0~0.1 정도로 초기화, meta-step으로 학습 가능하도록 register_parameter
         if not hasattr(self, "adaptive_alpha_params"):
-            self.adaptive_alpha_params = nn.Parameter(torch.zeros(4, device=self.device))
+            self.adaptive_alpha_params = nn.Parameter(torch.zeros(3, device=self.device))
             self.adaptive_alpha_params.requires_grad = True
             print("-> Added adaptive alpha parameters (a0..a3).")
 
-        a0, a1, a2, a3 = self.adaptive_alpha_params
+        a0, a1, a2 = self.adaptive_alpha_params
 
         # alpha 계산 계산
-        alpha_c = torch.sigmoid(a0 + a1 * kappa_c + a2 * torch.log1p(cls_num_list) + a3 * sim_pc)
+        alpha_c = torch.sigmoid(a0 + a1 * torch.log1p(cls_num_list) + a2 * sim_pc)
 
         return alpha_c  # [C]
 
