@@ -11,7 +11,7 @@ from functools import partial
 from tqdm import tqdm
 from collections import defaultdict, Counter
 from sklearn.cluster import DBSCAN
-import json
+import json, re
 from typing import Dict, List
 
 import torch
@@ -215,6 +215,19 @@ class Trainer:
             self.criterion = LADELoss(cls_num_list=cls_num_list)
         else:
             raise ValueError
+    
+    def _clean_wiki_text(txt: str) -> str:
+        txt = txt.replace("\ufeff", "")
+        txt = re.sub(r"==.*?==", " ", txt)
+        txt = re.sub(r"\[[0-9]+\]", "", txt)
+        txt = re.sub(r"\s+", " ", txt)
+
+        return txt.strip()
+
+    def _split_sentences(txt: str) -> List[str]:
+        sents = re.split(r"(?<=[.!?])\s+", txt)
+
+        return [s.strip() for s in sents if len(s.strip()) > 0] 
     
     def build_wiki_corpus(
         self,
