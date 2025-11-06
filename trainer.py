@@ -477,7 +477,7 @@ class Trainer:
             sent_feats = []
             for i in range(0, len(sents), 128):
                 batch = sents[i:i+128]
-                tokens = clip.tokenize(batch).to(device)
+                tokens = clip.tokenize(batch, truncate=True).to(device)
                 feats = F.normalize(self.model.text_encoder(tokens), dim=-1)
                 sent_feats.append(feats)
             sent_feats = torch.cat(sent_feats, dim=0)
