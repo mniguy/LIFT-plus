@@ -216,71 +216,6 @@ class Trainer:
         else:
             raise ValueError
     
-    def _load_and_organize_captions(self):
-        source = self.cfg.HYBRID_CAPTION_SOURCE
-        print("Loading and organizing captions for hybrid initialization...")
-
-        name_to_class_id = {}
-        captions_per_class_id = defaultdict(list)
-
-        # --- 분기 1: 기존 JSON 파일 사용 ---
-        if source == "json":
-            captions_path = './datasets/lt_captions.json'
-            class_id_map_path = './datasets/id_to_name.json'
-
-            with open(captions_path, 'r') as f:
-                captions_list = json.load(f)
-            with open(class_id_map_path, 'r') as f:
-                class_id_to_name = json.load(f)
-
-            name_to_class_id = {v: k for k, v in class_id_to_name.items()}
-
-            for item in captions_list:
-                class_id = item.get("wnid")
-                if not class_id: continue
-                title = item.get("title", "")
-                tags = item.get("tags", [])
-                desc = item.get("description", "")
-                caption_parts = [title] + tags + [desc]
-                caption = " ".join(p for p in caption_parts if p and isinstance(p, str)).strip()
-                if caption:
-                    captions_per_class_id[class_id].append(caption)
-
-        # --- 분기 2: 새로운 Wiki 폴더 사용 ---
-        elif source == "wiki":
-            labels_path = './datasets/labels.txt'
-            captions_folder = './datasets/wiki'
-            
-            index_to_info = {}
-            with open(labels_path, 'r') as f:
-                for line in f:
-                    parts = line.strip().split()
-                    if len(parts) >= 3:
-                        wnid, index, class_name = parts[0], int(parts[1]), parts[2]
-                        index_to_info[index] = {'wnid': wnid, 'name': class_name}
-
-            for i in range(len(index_to_info)):
-                if i not in index_to_info: continue
-
-                info = index_to_info[i]
-                wnid, class_name = info['wnid'], info['name']
-                name_to_class_id[class_name] = wnid
-                
-                caption_file_path = os.path.join(captions_folder, f"desc_{i}.txt")
-                try:
-                    with open(caption_file_path, 'r', encoding='utf-8') as f:
-                        caption = f.read().strip()
-                        if caption:
-                            captions_per_class_id[wnid].append(caption)
-                except FileNotFoundError:
-                    pass
-        
-        else:
-            raise ValueError(f"Unknown HYBRID_CAPTION_SOURCE: '{source}'. Must be 'json' or 'wiki'.")
-
-        print(f"    (INFO) Loaded captions for {len(captions_per_class_id)} classes.")
-        return captions_per_class_id, name_to_class_id
-    
     def build_wiki_corpus(
         self,
         caption_dir: str,
@@ -485,69 +420,6 @@ class Trainer:
         for name, param in self.tuner.named_parameters():
             print(f"├─{name}: {param.numel()}")
 
-    def _compute_caption_features1(self):
-        """코사인 유사도 임계값 이상만 사용
-        """
-        cfg = self.cfg
-        beta = cfg.HYBRID_BETA # config에서 beta 값 가져오기
-        
-        print(f"Computing mean caption features with similarity threshold beta={beta}...")
-
-        # 캡션 데이터 로드 및 정리 (이 함수는 변경 없음)
-        captions_per_class_id, name_to_class_id = self._load_and_organize_captions()
-        
-        all_caption_features_raw = []
-        with torch.no_grad():
-            for class_name in tqdm(self.classnames, desc="Computing mean caption features"):
-                # 1. 기준이 될 프롬프트의 'raw' 특징(w_prompt_raw) 생성
-                prompt = f"a photo of a {class_name.replace('_', ' ')}"
-                text_inputs = clip.tokenize([prompt], truncate=True).to(self.device)
-                w_prompt_raw = self.model.text_encoder(text_inputs).squeeze()
-                
-                class_id = name_to_class_id.get(class_name)
-                w_caption_raw = None
-                
-                if class_id and class_id in captions_per_class_id:
-                    captions = captions_per_class_id[class_id]
-                    if captions:
-                        # 2. 해당 클래스의 모든 캡션에 대한 'raw' 특징 계산
-                        batch_embeddings_raw = []
-                        for i in range(0, len(captions), 512):
-                            batch_captions = captions[i:i+512]
-                            text_inputs_cap = clip.tokenize(batch_captions, truncate=True).to(self.device)
-                            batch_emb_raw = self.model.text_encoder(text_inputs_cap)
-                            batch_embeddings_raw.append(batch_emb_raw)
-                        
-                        if batch_embeddings_raw:
-                            caption_embeddings_raw = torch.cat(batch_embeddings_raw, dim=0)
-
-                            # 3. 코사인 유사도 계산 및 필터링
-                            # 모든 벡터를 정규화하여 유사도 계산 준비
-                            norm_prompt = F.normalize(w_prompt_raw, p=2, dim=-1)
-                            norm_captions = F.normalize(caption_embeddings_raw, p=2, dim=-1)
-                            
-                            # 유사도 계산
-                            similarities = norm_captions @ norm_prompt
-                            
-                            # 유사도가 beta보다 큰 캡션의 인덱스를 찾음
-                            indices_to_keep = similarities > beta
-                            
-                            # 해당 인덱스의 캡션 특징들만 선택
-                            filtered_embeddings_raw = caption_embeddings_raw[indices_to_keep]
-
-                            # 4. 필터링된 특징들의 평균 계산
-                            if filtered_embeddings_raw.shape[0] > 0:
-                                w_caption_raw = filtered_embeddings_raw.mean(dim=0)
-
-                # 캡션이 없거나, 필터링 후 남은 것이 없으면 제로 벡터로 Fallback
-                if w_caption_raw is None:
-                    embed_dim = self.model.text_encoder.embed_dim
-                    w_caption_raw = torch.zeros(embed_dim, dtype=self.model.dtype, device=self.device)
-                
-                all_caption_features_raw.append(w_caption_raw)
-            
-        return torch.stack(all_caption_features_raw, dim=0)
-    
     @torch.no_grad()
     def _compute_caption_features(self):
         """
@@ -556,12 +428,20 @@ class Trainer:
         VL-LTR 논문 방식과 동일
         """
         cfg = self.cfg
-        top_k = cfg.HYBRID_TOPK
+        top_k = cfg.HYBID_TOPK # 💡 오타 수정: HYBRID_TOPK
         alpha = cfg.HYBRID_ALPHA
         device = self.device
 
-        caption_dir = cfg.wiki_caption_dir
+        # 💡 --- >> 수정 1: 경로를 동적으로 생성 << --- 💡
+        # cfg.wiki_caption_dir 대신, cfg.root와 cfg.dataset을 조합하여 경로를 만듭니다.
+        # 예: ./datasets/ImageNet_LT/wiki
+        caption_dir = os.path.join(self.cfg.root, self.cfg.dataset, 'wiki')
+        
         print(f"[Wiki] Building corpus from {caption_dir} ...")
+        
+        # 캡션 디렉토리가 존재하는지 확인
+        assert os.path.exists(caption_dir), f"Wiki caption directory not found at: {caption_dir}"
+
         corpus = self.build_wiki_corpus(
             caption_dir=caption_dir,
             classnames=self.classnames,
@@ -611,6 +491,10 @@ class Trainer:
         # 6️⃣ 최종 classifier weight로 사용
         self.class_features = torch.stack(all_caption_features, dim=0)
         print(f"[Wiki] Done: computed features for {len(self.classnames)} classes (top-{top_k}, alpha={alpha}).")
+        
+        # 💡 --- >> 수정 2: 계산된 특징을 반환(return) << --- 💡
+        # build_tuner 함수가 이 값을 받아 classifier를 초기화할 수 있도록 반환합니다.
+        return self.class_features
     
     def build_optimizer(self):
         cfg = self.cfg
