@@ -422,13 +422,8 @@ class Trainer:
 
     @torch.no_grad()
     def _compute_caption_features(self):
-        """
-        Wiki + prompt 기반 caption feature 계산
-        (adaptive alpha 없이, 고정 alpha = cfg.HYBRID_ALPHA)
-        VL-LTR 논문 방식과 동일
-        """
         cfg = self.cfg
-        top_k = cfg.HYBID_TOPK # 💡 오타 수정: HYBRID_TOPK
+        top_k = cfg.HYBRID_TOPK # 💡 오타 수정: HYBRID_TOPK
         alpha = cfg.HYBRID_ALPHA
         device = self.device
 
