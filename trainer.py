@@ -240,32 +240,32 @@ class Trainer:
     ) -> Dict[int, List[str]]:
         """
         각 클래스별 wiki 텍스트를 문장 단위 리스트로 반환.
-        {class_idx: [문장1, 문장2, ...]} 형태.
+        파일 구조 예시:
+            datasets/{DatasetName}/wiki/desc_0.txt
+            datasets/{DatasetName}/wiki/desc_1.txt
+            ...
+        반환 형태:
+            {class_idx: [문장1, 문장2, ...]}
         """
         corpus: Dict[int, List[str]] = {}
+
         for i, _ in enumerate(classnames):
-            cand_paths = [
-                os.path.join(caption_dir, f"desc_{i}.txt"),
-                os.path.join(caption_dir, f"imagenet_{i}.txt"),
-                os.path.join(caption_dir, f"places_{i}.txt"),
-                os.path.join(caption_dir, f"inat_{i}.txt"),
-            ]
-            raw = None
-            for p in cand_paths:
-                if os.path.exists(p):
-                    with open(p, encoding="utf-8") as f:
-                        raw = f.read()
-                    break
+            caption_path = os.path.join(caption_dir, f"desc_{i}.txt")
 
             sents: List[str] = []
-            if raw:
+            if os.path.exists(caption_path):
+                with open(caption_path, "r", encoding="utf-8") as f:
+                    raw = f.read()
+
                 if max_chars > 0:
                     raw = raw[:max_chars]
                 txt = self._clean_wiki_text(raw)
                 sents = self._split_sentences(txt)
                 if max_sentences > 0 and len(sents) > max_sentences:
                     sents = sents[:max_sentences]
+
             corpus[i] = sents
+
         return corpus
     
     def build_tuner(self):
