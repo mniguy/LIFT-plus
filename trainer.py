@@ -483,49 +483,6 @@ class Trainer:
         for name, param in self.tuner.named_parameters():
             print(f"├─{name}: {param.numel()}")
 
-    def _compute_caption_features1(self):
-        """클래스별로 캡션을 평균화하여 raw feature 텐서를 생성"""
-        # 캡션 데이터 로드 및 정리
-        captions_per_class_id, name_to_class_id = self._load_and_organize_captions()
-        
-        all_caption_features_raw = []
-
-        debug_counter = 0
-
-        for class_name in tqdm(self.classnames, desc="Computing mean caption features"):
-            class_id = name_to_class_id.get(class_name)
-            w_caption_raw = None
-            
-            found_captions = False # 캡션 찾았는지 확인용 플래그
-            if class_id and class_id in captions_per_class_id:
-                captions = captions_per_class_id[class_id]
-                batch_embeddings_raw = []
-                if captions:
-                    found_captions = True
-                    for i in range(0, len(captions), 512):
-                        batch_captions = captions[i:i+512]
-                        text_inputs = clip.tokenize(batch_captions, truncate=True).to(self.device)
-                        # self.model.text_encoder를 사용하여 raw feature 추출
-                        batch_emb_raw = self.model.text_encoder(text_inputs)
-                        batch_embeddings_raw.append(batch_emb_raw)
-                    
-                    if batch_embeddings_raw:
-                        w_caption_raw = torch.cat(batch_embeddings_raw, dim=0).mean(dim=0)
-
-            # 캡션이 없는 클래스는 0으로 채워진 텐서를 추가
-            if w_caption_raw is None:
-                # text_encoder의 출력 차원(embed_dim)에 맞는 제로 벡터 생성
-                embed_dim = self.model.text_encoder.embed_dim
-                w_caption_raw = torch.zeros(embed_dim, dtype=self.model.dtype, device=self.device)
-            
-            if debug_counter < 3: # 처음 3개 클래스에 대해서만 출력
-                print(f"    (DEBUG) For class '{class_name}', found captions: {found_captions}")
-                debug_counter += 1
-            
-            all_caption_features_raw.append(w_caption_raw)
-            
-        return torch.stack(all_caption_features_raw, dim=0)
-
     def _compute_caption_features(self):
         """코사인 유사도 임계값 이상만 사용
         """
