@@ -1,2 +1,5 @@
 dataset: "ImageNet_LT" 
-root: "workspace/LIFT-plus/data/imagenet"
+root: "/workspace/LIFT-plus/data/imagenet"
+
+num_classes: 1000
+wiki_caption_dir: "/datasets/ImageNet_LT/wiki"

@@ -1,2 +1,5 @@
 dataset: "iNaturalist2018" 
-root: "Path/To/Dataset"
+root: "/workspace/LIFT-plus/data/inat"
+
+num_classes: 8142
+wiki_caption_dir: /datasets/iNaturalist2018/wiki
