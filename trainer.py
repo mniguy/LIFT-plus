@@ -174,6 +174,14 @@ class Trainer:
         self.med_classes = ((torch.tensor(self.cls_num_list) >= 20) & (torch.tensor(self.cls_num_list) <= 100)).nonzero().squeeze()
         self.few_classes = (torch.tensor(self.cls_num_list) < 20).nonzero().squeeze()
 
+        # 💡 --- >> 수정된 부분 시작 << --- 💡
+        # 각 클래스 인덱스별로 Alpha를 빠르게 조회하기 위한 불리언 마스크를 생성합니다.
+        print("Creating class-specific masks for dynamic alpha...")
+        self.many_mask = (torch.tensor(self.cls_num_list) > 100)
+        self.med_mask = ((torch.tensor(self.cls_num_list) >= 20) & (torch.tensor(self.cls_num_list) <= 100))
+        self.few_mask = (torch.tensor(self.cls_num_list) < 20)
+        # 💡 --- >> 수정된 부분 끝 << --- 💡
+
         assert cfg.batch_size % cfg.accum_step == 0, "batch_size must be divisible by accum_step"
         micro_batch_size = cfg.batch_size // cfg.accum_step
 
