@@ -67,8 +67,8 @@ _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
 # Mixture with Default Prompt
-_C.HYBRID_ALPHA = 0.3  # null/float
-_C.ADAPTIVE_ALPHA = False  # True/False
+_C.HYBRID_ALPHA = 0.3
+_C.HYBRID_TOPK = 8
 _C.HYBRID_CAPTION_SOURCE = "wiki"
 
 # ===== Wiki Caption options =====
