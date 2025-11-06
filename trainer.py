@@ -444,7 +444,7 @@ class Trainer:
             max_chars=getattr(cfg, "WIKI_MAX_CHARS", 0),
         )
 
-        print(f"[Wiki] Computing caption features (top-{top_k}, α={alpha}) for dataset={cfg.dataset} ...")
+        print(f"[Wiki] Computing caption features (top-{top_k}, alpha={alpha}) for dataset={cfg.dataset} ...")
 
         # 1️⃣ prompt 기반 feature
         prompts = self.generate_class_prompts()
