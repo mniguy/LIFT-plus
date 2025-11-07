@@ -447,6 +447,7 @@ class Trainer:
         top_k = cfg.HYBRID_TOPK
         device = self.device
 
+        word_chunk_size = cfg.CHUNK_SIZE
         sim_threshold = cfg.SIM_THRESHOLD
 
         caption_dir = os.path.join("datasets", self.cfg.dataset, 'wiki')
@@ -495,7 +496,6 @@ class Trainer:
                 batch_sents = sents[i:i+128] # 현재 배치(128개)의 문장들
                 chunked_batch_sents = [] # 잘라낸 텍스트 조각들
                 sent_indices = []        # 각 조각이 원래 몇 번째 문장 소속인지 (0~127)
-                word_chunk_size = 40     # 77토큰 제한을 넘지 않기 위한 휴리스틱 (약 40단어)
 
                 for sent_idx, sent_text in enumerate(batch_sents):
                     words = sent_text.split()
