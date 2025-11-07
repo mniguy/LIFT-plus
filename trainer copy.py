@@ -570,18 +570,11 @@ class Trainer:
                 alpha = 1.0
                 w_final = w_prompt_raw
             else:
-                # 캡션 특징 생성
                 w_caption_raw = F.normalize(selected.mean(0), dim=-1)
-                
-                # 5️⃣ 캡션 신뢰도(유사도) 기반 동적 Alpha 계산
-                # (w_prompt_raw와 w_caption_raw는 이미 정규화됨)
-                trust_score = (w_prompt_raw * w_caption_raw).sum().item()
-                
-                # 신뢰도가 높으면 alpha가 낮아짐 (캡션 비중 증가)
-                # 신뢰도가 낮으면 alpha가 높아짐 (프롬프트 비중 증가)
+                raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
+                trust_score = raw_trust_score.clamp(min=0.0).item()
                 alpha = 1.0 - trust_score
                 
-                # 6️⃣ 동적으로 계산된 alpha 비율로 혼합
                 w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
 
             all_caption_features.append(w_final)
