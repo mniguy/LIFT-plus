@@ -492,7 +492,8 @@ class Trainer:
             if len(sents) == 0:
                 all_caption_features.append(w_prompt_raw)
                 continue
-
+            
+            """ 기존 truncate 방법 -> 뒷부분은 아예 잘려서 성능 하락 원인일수도
             sent_feats = []
             for i in range(0, len(sents), 128):
                 batch = sents[i:i+128]
@@ -500,6 +501,70 @@ class Trainer:
                 feats = F.normalize(self.model.text_encoder(tokens), dim=-1)
                 sent_feats.append(feats)
             sent_feats = torch.cat(sent_feats, dim=0)
+            """
+
+            # 💡 --- >> 수정된 청킹(Chunking) 로직 시작 << --- 💡
+            sent_feats_list = []
+            
+            # 128개씩 배치 처리하는 것은 유지 (메모리 관리)
+            for i in range(0, len(sents), 128):
+                batch_sents = sents[i:i+128] # 현재 배치(128개)의 문장들
+
+                chunked_batch_sents = [] # 잘라낸 텍스트 조각들
+                sent_indices = []        # 각 조각이 원래 몇 번째 문장 소속인지 (0~127)
+                word_chunk_size = 40     # 77토큰 제한을 넘지 않기 위한 휴리스틱 (약 40단어)
+
+                for sent_idx, sent_text in enumerate(batch_sents):
+                    words = sent_text.split()
+                    if not words:
+                        continue # 빈 문장이면 건너뜀
+
+                    if len(words) <= word_chunk_size:
+                        # 40단어 이하면 그냥 통째로 사용
+                        chunked_batch_sents.append(sent_text)
+                        sent_indices.append(sent_idx)
+                    else:
+                        # 40단어 초과 시, 단어 단위로 잘라서 청크 생성
+                        for j in range(0, len(words), word_chunk_size):
+                            chunk_text = " ".join(words[j : j + word_chunk_size])
+                            chunked_batch_sents.append(chunk_text)
+                            sent_indices.append(sent_idx) # 원본 문장 인덱스 저장
+                
+                if not chunked_batch_sents:
+                    continue # 이번 배치의 모든 문장이 비어있었음
+
+                # 2. 모든 텍스트 조각(chunk)들을 한 번에 토큰화 및 인코딩
+                tokens = clip.tokenize(chunked_batch_sents, truncate=True).to(device)
+                chunk_feats = F.normalize(self.model.text_encoder(tokens), dim=-1) # [N_chunks, 512]
+                
+                # 3. 조각(chunk)들을 다시 원래 문장(sentence) 단위로 평균화
+                sent_indices = torch.tensor(sent_indices, device=device)
+                
+                # [128, 512] 크기의 0 벡터 생성 (배치 크기만큼)
+                batch_sent_feats = torch.zeros(len(batch_sents), chunk_feats.shape[1], 
+                                               device=device, dtype=chunk_feats.dtype)
+                
+                # scatter_add_를 사용해 동일한 인덱스(문장)에 속한 조각(chunk) 벡터들을 모두 더함
+                batch_sent_feats.scatter_add_(0, sent_indices.unsqueeze(1).expand_as(chunk_feats), chunk_feats)
+                
+                # 각 문장별로 몇 개의 조각이 더해졌는지 카운트
+                counts = torch.zeros(len(batch_sents), device=device, dtype=torch.float32)
+                counts.scatter_add_(0, sent_indices, torch.ones_like(sent_indices, dtype=torch.float32))
+                counts = counts.clamp(min=1.0).unsqueeze(1) # 0으로 나누기 방지
+                
+                # 더해진 벡터를 카운트로 나누어 "평균 문장 벡터" 계산
+                avg_feats = batch_sent_feats / counts
+                
+                # 평균화 후 다시 정규화
+                avg_feats_norm = F.normalize(avg_feats, dim=-1)
+                sent_feats_list.append(avg_feats_norm)
+            
+            if not sent_feats_list: # 클래스에 유효한 문장이 하나도 없었음
+                all_caption_features.append(w_prompt_raw)
+                continue
+            
+            sent_feats = torch.cat(sent_feats_list, dim=0) # [N_sents, 512]
+            # 💡 --- >> 청킹 로직 끝 << --- 💡
 
             # 3️⃣ prompt–caption 유사도 top-K 선택
             sims = sent_feats @ w_prompt_raw
