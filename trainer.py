@@ -444,13 +444,14 @@ class Trainer:
     @torch.no_grad()
     def _compute_caption_features(self):
         cfg = self.cfg
-        top_k = cfg.HYBRID_TOPK # 💡 오타 수정: HYBRID_TOPK
-        alpha = cfg.HYBRID_ALPHA
+        top_k = cfg.HYBRID_TOPK
         device = self.device
 
-        # 💡 --- >> 수정 1: 경로를 동적으로 생성 << --- 💡
-        # cfg.wiki_caption_dir 대신, cfg.root와 cfg.dataset을 조합하여 경로를 만듭니다.
-        # 예: ./datasets/ImageNet_LT/wiki
+        # 💡 --- >> 수정 1: 3가지 Alpha 값을 모두 로드 << --- 💡
+        alpha_many = cfg.ALPHA_MANY
+        alpha_med = cfg.ALPHA_MED
+        alpha_few = cfg.ALPHA_FEW
+
         caption_dir = os.path.join("datasets", self.cfg.dataset, 'wiki')
         
         print(f"[Wiki] Building corpus from {caption_dir} ...")
@@ -465,7 +466,9 @@ class Trainer:
             max_chars=getattr(cfg, "WIKI_MAX_CHARS", 0),
         )
 
-        print(f"[Wiki] Computing caption features (top-{top_k}, alpha={alpha}) for dataset={cfg.dataset} ...")
+        # 💡 --- >> 수정 2: 로그 메시지 변경 (동적 alpha 사용 명시) << --- 💡
+        print(f"[Wiki] Computing caption features (top-{top_k}, dynamic alpha) for dataset={cfg.dataset} ...")
+        print(f"    (Alpha Config: Many={alpha_many}, Med={alpha_med}, Few={alpha_few})")
 
         # 1️⃣ prompt 기반 feature
         prompts = self.generate_class_prompts()
@@ -475,6 +478,14 @@ class Trainer:
         all_caption_features = []
         for idx, cname in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
             w_prompt_raw = w_prompts_raw[idx]
+
+            # 💡 --- >> 수정 3: 현재 클래스(idx)에 맞는 alpha 선택 << --- 💡
+            if self.many_mask[idx]:
+                alpha = alpha_many
+            elif self.med_mask[idx]:
+                alpha = alpha_med
+            else: # self.few_mask[idx]
+                alpha = alpha_few
 
             # 2️⃣ wiki 문장 feature
             sents = corpus.get(idx, [])
