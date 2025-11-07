@@ -249,7 +249,7 @@ class Trainer:
             caption_path = os.path.join(caption_dir, f"desc_{i}.txt")
             sents = []
             if os.path.exists(caption_path):
-                with open(caption_path, "r", encoding="utf-8") as f:
+                with open(caption_path, "r", encoding="utf-8", errors='replace') as f:
                     raw = f.read()
                 if max_chars > 0:
                     raw = raw[:max_chars]
