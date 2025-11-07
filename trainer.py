@@ -447,16 +447,12 @@ class Trainer:
         top_k = cfg.HYBRID_TOPK
         device = self.device
 
-        # 💡 --- >> 수정 1: 3가지 Alpha 값을 모두 로드 << --- 💡
-        alpha_many = cfg.ALPHA_MANY
-        alpha_med = cfg.ALPHA_MED
-        alpha_few = cfg.ALPHA_FEW
+        word_chunk_size = cfg.CHUNK_SIZE
+        sim_threshold = cfg.SIM_THRESHOLD
 
         caption_dir = os.path.join("datasets", self.cfg.dataset, 'wiki')
         
         print(f"[Wiki] Building corpus from {caption_dir} ...")
-        
-        # 캡션 디렉토리가 존재하는지 확인
         assert os.path.exists(caption_dir), f"Wiki caption directory not found at: {caption_dir}"
 
         corpus = self.build_wiki_corpus(
@@ -466,11 +462,8 @@ class Trainer:
             max_chars=getattr(cfg, "WIKI_MAX_CHARS", 0),
         )
 
-        # 💡 --- >> 수정 2: 로그 메시지 변경 (동적 alpha 사용 명시) << --- 💡
-        print(f"[Wiki] Computing caption features (top-{top_k}, dynamic alpha) for dataset={cfg.dataset} ...")
-        print(f"    (Alpha Config: Many={alpha_many}, Med={alpha_med}, Few={alpha_few})")
+        print(f"[Wiki] Computing features (top-{top_k}, thresh>{sim_threshold}, dynamic_alpha, chunked) for dataset={cfg.dataset} ...")
 
-        # 1️⃣ prompt 기반 feature
         prompts = self.generate_class_prompts()
         w_prompts_raw = self.compute_class_features(prompts)
         w_prompts_raw = F.normalize(w_prompts_raw, dim=-1)
@@ -478,14 +471,6 @@ class Trainer:
         all_caption_features = []
         for idx, cname in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
             w_prompt_raw = w_prompts_raw[idx]
-
-            # 💡 --- >> 수정 3: 현재 클래스(idx)에 맞는 alpha 선택 << --- 💡
-            if self.many_mask[idx]:
-                alpha = alpha_many
-            elif self.med_mask[idx]:
-                alpha = alpha_med
-            else: # self.few_mask[idx]
-                alpha = alpha_few
 
             # 2️⃣ wiki 문장 feature
             sents = corpus.get(idx, [])
@@ -509,10 +494,8 @@ class Trainer:
             # 128개씩 배치 처리하는 것은 유지 (메모리 관리)
             for i in range(0, len(sents), 128):
                 batch_sents = sents[i:i+128] # 현재 배치(128개)의 문장들
-
                 chunked_batch_sents = [] # 잘라낸 텍스트 조각들
                 sent_indices = []        # 각 조각이 원래 몇 번째 문장 소속인지 (0~127)
-                word_chunk_size = 40     # 77토큰 제한을 넘지 않기 위한 휴리스틱 (약 40단어)
 
                 for sent_idx, sent_text in enumerate(batch_sents):
                     words = sent_text.split()
@@ -566,26 +549,40 @@ class Trainer:
             sent_feats = torch.cat(sent_feats_list, dim=0) # [N_sents, 512]
             # 💡 --- >> 청킹 로직 끝 << --- 💡
 
-            # 3️⃣ prompt–caption 유사도 top-K 선택
-            sims = sent_feats @ w_prompt_raw
+            # 💡 --- >> 수정 5: 방법 2 (Hard Threshold) 적용 << --- 💡
+            sims = sent_feats @ w_prompt_raw # [N_sents]
             k = min(top_k, sims.size(0))
-            top_idx = torch.topk(sims, k=k, largest=True).indices
-            selected = sent_feats[top_idx]
+            
+            # top-k의 유사도 값과 인덱스를 모두 가져옴
+            top_sims, top_idx = torch.topk(sims, k=k, largest=True)
+            
+            # Hard Threshold 적용: top-k 중에서도 sim_threshold를 넘는 것만 선택
+            threshold_mask = top_sims > sim_threshold
+            final_indices = top_idx[threshold_mask]
+            
+            selected = sent_feats[final_indices] # [N_selected, 512]
 
-            # 4️⃣ caption feature 평균
-            w_caption_raw = F.normalize(selected.mean(0), dim=-1)
-
-            # 5️⃣ alpha 비율로 혼합
-            w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
+            # 💡 --- >> 수정 6: 방법 1 (Dynamic Alpha) 적용 << --- 💡
+            
+            # 4️⃣ caption feature 평균 (및 Fallback 로직)
+            if selected.shape[0] == 0:
+                # 캡션이 없거나, top-k가 모두 threshold 미달이면 프롬프트만 사용
+                alpha = 1.0
+                w_final = w_prompt_raw
+            else:
+                w_caption_raw = F.normalize(selected.mean(0), dim=-1)
+                raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
+                trust_score = raw_trust_score.clamp(min=0.0).item()
+                alpha = 1.0 - trust_score
+                
+                w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
 
             all_caption_features.append(w_final)
 
-        # 6️⃣ 최종 classifier weight로 사용
+        # 7️⃣ 최종 classifier weight로 사용
         self.class_features = torch.stack(all_caption_features, dim=0)
-        print(f"[Wiki] Done: computed features for {len(self.classnames)} classes (top-{top_k}, alpha={alpha}).")
+        print(f"[Wiki] Done: computed features for {len(self.classnames)} classes (top-{top_k}, thresh>{sim_threshold}, dynamic_alpha, chunked).")
         
-        # 💡 --- >> 수정 2: 계산된 특징을 반환(return) << --- 💡
-        # build_tuner 함수가 이 값을 받아 classifier를 초기화할 수 있도록 반환합니다.
         return self.class_features
     
     def build_optimizer(self):
