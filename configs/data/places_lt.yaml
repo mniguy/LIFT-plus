@@ -1,5 +1,5 @@
 dataset: "Places_LT" 
-root: "/workspace/LIFT-plus/data/places365"
+root: "/data/places365"
 
 num_classes: 365
 wiki_caption_dir: /datasets/Places_LT/wiki
