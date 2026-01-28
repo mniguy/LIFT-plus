@@ -66,6 +66,12 @@ _C.v.aft_ratio = None  # Fine-tuning ratio.
 _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "mlp" / "all".
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
+_C.ALPHA_MODE = "piecewise_clamp0"   # ["linear_noclamp", "sigmoid_temp", "power_trust", "piecewise_clamp0", "sigmoid_calib"]
+_C.ALPHA_TEMP = 0.2                 # sigmoid_temp에서 사용 (작을수록 hard)
+_C.ALPHA_GAMMA = 2.0                # power_trust에서 사용
+_C.ALPHA_CALIB_B = 5.0              # sigmoid_calib에서 사용 (클수록 cos에 민감)
+_C.ALPHA_CALIB_A = 0.0              # sigmoid_calib에서 사용
+
 # Mixture with Default Prompt
 _C.HYBRID_ALPHA = 0.3
 
