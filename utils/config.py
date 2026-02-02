@@ -38,7 +38,7 @@ _C.proj_tuning = False  # Fine-tuning the image and text projections.
 _C.clip_adapter = False  # Add CLIP adapters.
 _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
-_C.classifier_scale = 25  # Logit scale for classifier.
+_C.classifier_scale = 30  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
 
 _C.v = CN()
@@ -66,21 +66,15 @@ _C.v.aft_ratio = None  # Fine-tuning ratio.
 _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "mlp" / "all".
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
-_C.ALPHA_MODE = "piecewise_clamp0"   # ["linear_noclamp", "sigmoid_temp", "power_trust", "piecewise_clamp0", "sigmoid_calib"]
-_C.ALPHA_TEMP = 0.2                 # sigmoid_temp에서 사용 (작을수록 hard)
-_C.ALPHA_GAMMA = 2.0                # power_trust에서 사용
-_C.ALPHA_CALIB_B = 5.0              # sigmoid_calib에서 사용 (클수록 cos에 민감)
-_C.ALPHA_CALIB_A = 0.0              # sigmoid_calib에서 사용
-
 # Mixture with Default Prompt
-_C.HYBRID_ALPHA = 0.3
+# _C.HYBRID_ALPHA = 0.3
 
-_C.ALPHA_MANY = 0.3
-_C.ALPHA_MED = 0.3
-_C.ALPHA_FEW = 0.3
+# _C.ALPHA_MANY = 0.3
+# _C.ALPHA_MED = 0.3
+# _C.ALPHA_FEW = 0.3
 
-_C.SIM_THRESHOLD = 0.2
-_C.CHUNK_SIZE = 40
+_C.SIM_THRESHOLD = 0.6
+_C.CHUNK_SIZE = 50
 
 _C.HYBRID_TOPK = 8
 _C.HYBRID_CAPTION_SOURCE = "wiki"

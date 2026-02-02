@@ -392,7 +392,6 @@ class Trainer:
                         class_features = self.compute_class_features(self.generate_class_prompts())
                     self.model.init_classifier_weight(class_features, feature_modality="text")
                 
-
                 elif classifier_init == "hybrid":
                     print("Using real-time hybrid initialization.")
                     with torch.no_grad():
@@ -465,10 +464,9 @@ class Trainer:
         w_prompts_raw = F.normalize(w_prompts_raw, dim=-1)
 
         all_caption_features = []
-        for idx, cname in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
+        for idx, _ in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
             w_prompt_raw = w_prompts_raw[idx]
 
-            # 2️⃣ wiki 문장 feature
             sents = corpus.get(idx, [])
             if len(sents) == 0:
                 all_caption_features.append(w_prompt_raw)
@@ -484,7 +482,6 @@ class Trainer:
             sent_feats = torch.cat(sent_feats, dim=0)
             """
 
-            # 💡 --- >> 수정된 청킹(Chunking) 로직 시작 << --- 💡
             sent_feats_list = []
             
             # 128개씩 배치 처리하는 것은 유지 (메모리 관리)
@@ -557,62 +554,15 @@ class Trainer:
             final_indices = top_idx[threshold_mask]
             
             selected = sent_feats[final_indices] # [N_selected, 512]
-
-            # --- helper: alpha mapping ---
-            def _alpha_from_cosine(s: torch.Tensor, cfg) -> torch.Tensor:
-                """
-                s: cosine similarity scalar tensor in [-1, 1]
-                returns alpha (prompt weight) in [0, 1]
-                """
-                mode = getattr(cfg, "ALPHA_MODE", "piecewise_clamp0")
-
-                if mode == "linear_noclamp":
-                    # alpha = 1 - s  (then clamp for safety)
-                    alpha = 1.0 - s
-
-                elif mode == "sigmoid_temp":
-                    # trust = sigmoid(s / T), alpha = 1 - trust
-                    T = float(getattr(cfg, "ALPHA_TEMP", 0.2))
-                    T = max(T, 1e-6)
-                    trust = torch.sigmoid(s / T)
-                    alpha = 1.0 - trust
-
-                elif mode == "power_trust":
-                    # trust = max(0, s)^gamma, alpha = 1 - trust
-                    gamma = float(getattr(cfg, "ALPHA_GAMMA", 2.0))
-                    trust = s.clamp(min=0.0).pow(gamma)
-                    alpha = 1.0 - trust
-
-                elif mode == "piecewise_clamp0":
-                    # 네 현재 방식: trust = max(0, s), alpha = 1 - trust
-                    trust = s.clamp(min=0.0)
-                    alpha = 1.0 - trust
-
-                elif mode == "sigmoid_calib":
-                    # trust = sigmoid(a + b*s), alpha = 1 - trust
-                    # (학습형이 아니라 cfg로 고정해서 sweeping/튜닝)
-                    a = float(getattr(cfg, "ALPHA_CALIB_A", 0.0))
-                    b = float(getattr(cfg, "ALPHA_CALIB_B", 5.0))
-                    trust = torch.sigmoid(s * b + a)
-                    alpha = 1.0 - trust
-
-                else:
-                    raise ValueError(f"Unknown ALPHA_MODE: {mode}")
-
-                # 항상 [0,1]로 안전하게 보정
-                return alpha.clamp(0.0, 1.0)
             
             # caption feature 평균
             if selected.shape[0] == 0:
                 w_final = w_prompt_raw
             else:
                 w_caption_raw = F.normalize(selected.mean(0), dim=-1)
-                # raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
-                # trust_score = raw_trust_score.clamp(min=0.0).item()
-                # alpha = 1.0 - trust_score
-
-                s = (w_prompt_raw * w_caption_raw).sum()
-                alpha = _alpha_from_cosine(s, cfg)
+                raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
+                trust_score = raw_trust_score.clamp(min=0.0).item()
+                alpha = 1.0 - trust_score
                 
                 w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
 
