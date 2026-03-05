@@ -219,6 +219,23 @@ class Trainer:
             self.criterion = LADELoss(cls_num_list=cls_num_list)
         else:
             raise ValueError
+        
+        # ---- Text regularizer (Logit KD) ----
+        self.text_reg_lambda = float(getattr(cfg, "TEXT_REG_LAMBDA", 0.0))
+        
+        if self.text_reg_lambda > 0:
+            self.kd_criterion = LogitKDLoss(T=float(getattr(cfg, "TEXT_REG_T", 1.0)))
+        else:
+            self.kd_criterion = None
+
+        # ---- InfoNCE ---
+        self.infonce_lambda = float(getattr(cfg, "INFONCE_LAMBDA", 0.0))
+        self.infonce_T      = float(getattr(cfg, "INFONCE_T", 0.1))
+
+        if self.infonce_lambda > 0:
+            self.infonce_criterion = InfoNCELoss(T=self.infonce_T, reduction="mean")
+        else: 
+            self.infonce_criterion = None
     
     def _clean_wiki_text(self, txt: str) -> str:
         txt = txt.replace("\ufeff", "")
@@ -390,12 +407,16 @@ class Trainer:
                     print("Using semantic-aware initialization.")
                     with torch.no_grad():
                         class_features = self.compute_class_features(self.generate_class_prompts())
+                    # store fixed textual prior for optional training-time regularization
+                    self.text_prior_weight = F.normalize(class_features, dim=-1).detach()
                     self.model.init_classifier_weight(class_features, feature_modality="text")
                 
                 elif classifier_init == "hybrid":
                     print("Using real-time hybrid initialization.")
                     with torch.no_grad():
                         class_features = self._compute_caption_features()
+                    # store fixed textual prior for optional training-time regularization
+                    self.text_prior_weight = class_features.detach()
                     self.model.init_classifier_weight(class_features, feature_modality="text")
                 
                 elif classifier_init == "class_mean":
@@ -591,6 +612,65 @@ class Trainer:
         self.sched = torch.optim.lr_scheduler.CosineAnnealingLR(self.optim, cfg.num_epochs)
         self.scaler = torch.GradScaler("cuda") if cfg.prec_train == "amp" else None
 
+    # -------------------------
+    # Textual-prior regularizer
+    # -------------------------
+    def _get_clip_visual_proj(self):
+        """Try to find CLIP ViT visual projection matrix (typically [D_img, D_txt])."""
+        candidates = [
+            ("image_proj",),
+            ("visual", "proj"),
+            ("model", "visual", "proj"),
+            ("backbone", "visual", "proj"),
+        ]
+        for path in candidates:
+            obj = self.model
+            ok = True
+            for key in path:
+                if not hasattr(obj, key):
+                    ok = False
+                    break
+                obj = getattr(obj, key)
+            if ok and obj is not None:
+                return obj
+        return None
+
+    @torch.no_grad()
+    def _compute_text_prior_logits(self, image):
+        """
+        Teacher logits from a fixed textual prior (prompt/caption features):
+            z = normalize(f_img)      (projected to text dim if needed)
+            W_text = normalize(text_prior_weight)
+            logits_text = s * (z @ W_text^T)
+        """
+        assert hasattr(self, "text_prior_weight"), "text_prior_weight not found; did you run classifier_init with text?"
+        feat = self.model(image=image, return_feature=True)  # [B, D_img]
+        W = self.text_prior_weight.to(device=feat.device)
+
+        # dtype alignment
+        target_dtype = feat.dtype
+        W = W.to(dtype=target_dtype)
+
+        # project image features if needed (e.g., ViT-B/16: 768 -> 512)
+        if feat.size(-1) != W.size(-1):
+            proj = self._get_clip_visual_proj()
+            if proj is None:
+                raise RuntimeError(
+                    f"Feature dim mismatch: feat={feat.size(-1)} vs W_text={W.size(-1)}. "
+                    "Could not find CLIP visual.proj to project features."
+                )
+            proj = proj.to(device=feat.device, dtype=target_dtype)
+            feat = feat @ proj  # [B, D_txt]
+
+        feat = F.normalize(feat, dim=-1)
+        W = F.normalize(W, dim=-1)
+
+        logits = feat @ W.t()
+        # match cosine-classifier scale if used
+        if hasattr(self.cfg, "classifier_scale") and self.cfg.classifier_scale is not None:
+            logits = logits * float(self.cfg.classifier_scale)
+        return logits
+
     def generate_class_prompts(self):
         prompts = [self.template.format(name.replace("_", " ")) for name in self.classnames]
         prompts = clip.tokenize(prompts)  # [n_cls, seq_len]
@@ -628,16 +708,38 @@ class Trainer:
         # class_means = torch.stack([x.mean(dim=0) for x in torch.split(all_features, label_counts.tolist())])
         # return class_means
 
+    def _compute_text_prior_feat(self, image):
+        """
+        Return image features projected to text embedding dim (if needed), WITHOUT detaching.
+        Used for feature-level InfoNCE so gradients can flow to the tuner.
+        Output: [B, D_text]
+        """
+        feat = self.model(image=image, return_feature=True)  # [B, D_img]
+
+        # text prior prototype shape for dim check
+        W = self.text_prior_weight.to(device=feat.device, dtype=feat.dtype)  # [C, D_text]
+
+        # project if needed (e.g., ViT-B/16: 768 -> 512)
+        if feat.size(-1) != W.size(-1):
+            proj = self._get_clip_visual_proj()
+            if proj is None:
+                raise RuntimeError(
+                    f"Feature dim mismatch: feat={feat.size(-1)} vs W_text={W.size(-1)}. "
+                    "Could not find CLIP visual.proj to project features."
+                )
+            proj = proj.to(device=feat.device, dtype=feat.dtype)
+            feat = feat @ proj  # [B, D_text]
+
+        return feat
+    
     def train(self):
         cfg = self.cfg
 
-        # Initialize tensorboard summary writer
         writer_dir = os.path.join(cfg.output_dir, "tensorboard")
         os.makedirs(writer_dir, exist_ok=True)
         print(f"Initialize tensorboard (log_dir={writer_dir})")
         tb_writer = SummaryWriter(log_dir=writer_dir)
-        
-        # Initialize average meters
+
         batch_time = AverageMeter()
         loss_meter = AverageMeter(ema=True)
         acc_meter = AverageMeter(ema=True)
@@ -649,9 +751,38 @@ class Trainer:
             print("Generating class prompts.")
             text = self.generate_class_prompts()
             model_args = {"text": text, "is_text_feature": False}
-        
+
+        # Textual Prior (KL)
+        self.text_reg_lambda = float(getattr(cfg, "TEXT_REG_LAMBDA", 0.0))
+        self.text_reg_T = float(getattr(cfg, "TEXT_REG_T", 1.0))
+
+        # InfoNCE
+        self.infonce_lambda = float(getattr(cfg, "INFONCE_LAMBDA", 0.0))
+        self.infonce_T = float(getattr(cfg, "INFONCE_T", 0.1))
+
+        # Validate text prior availability
+        if (self.text_reg_lambda > 0) or (self.infonce_lambda > 0):
+            if not hasattr(self, "text_prior_weight"):
+                print("⚠️ Text prior losses enabled but no text_prior_weight found. Disable KD/InfoNCE.")
+                self.text_reg_lambda = 0.0
+                self.infonce_lambda = 0.0
+
+        # Build loss modules
+        if self.text_reg_lambda > 0:
+            if not hasattr(self, "text_reg_loss"):
+                self.text_reg_loss = LogitKDLoss(T=self.text_reg_T)
+            else:
+                self.text_reg_loss.T = self.text_reg_T
+            print(f"→ Using textual prior KL(KD): lambda={self.text_reg_lambda}, T={self.text_reg_T}")
+
+        if self.infonce_lambda > 0:
+            if not hasattr(self, "infonce_loss"):
+                self.infonce_loss = InfoNCELoss(T=self.infonce_T, reduction="mean")
+            else:
+                self.infonce_loss.T = self.infonce_T
+            print(f"→ Using feature-level InfoNCE: lambda={self.infonce_lambda}, T={self.infonce_T}")
+
         print("Start training")
-        # Record the starting time (for computing the elapsed time)
         time_start = time.time()
 
         num_epochs = cfg.num_epochs
@@ -664,28 +795,64 @@ class Trainer:
                 image = image.to(self.device)
                 label = label.to(self.device)
 
+                kd_loss = None
+                nce_loss = None
+
                 if cfg.prec_train == "amp":
                     with torch.autocast(device_type="cuda"):
                         logit = self.model(image=image, **model_args)
-                        loss = self.criterion(logit, label)
+                        ce_loss = self.criterion(logit, label)
+
+                        loss = ce_loss
+
+                        # (A) textual prior KL (teacher logits)
+                        if self.text_reg_lambda > 0:
+                            with torch.no_grad():
+                                text_logit = self._compute_text_prior_logits(image)
+                            kd_loss = self.text_reg_loss(logit, text_logit)
+                            loss = loss + self.text_reg_lambda * kd_loss
+
+                        # (B) feature-level InfoNCE vs fixed text prototypes
+                        if self.infonce_lambda > 0:
+                            # IMPORTANT: this keeps grad (no no_grad)
+                            feat_txt = self._compute_text_prior_feat(image)  # [B, D_text]
+                            nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
+                            loss = loss + self.infonce_lambda * nce_loss
+
                     self.scaler.scale(loss / cfg.accum_step).backward()
                     if ((batch_idx + 1) % cfg.accum_step == 0) or (batch_idx + 1 == num_batches):
                         self.scaler.step(self.optim)
                         self.scaler.update()
                         self.optim.zero_grad()
+
                 else:
                     logit = self.model(image=image, **model_args)
-                    loss = self.criterion(logit, label)
+                    ce_loss = self.criterion(logit, label)
+
+                    loss = ce_loss
+
+                    if self.text_reg_lambda > 0:
+                        with torch.no_grad():
+                            text_logit = self._compute_text_prior_logits(image)
+                        kd_loss = self.text_reg_loss(logit, text_logit)
+                        loss = loss + self.text_reg_lambda * kd_loss
+
+                    if self.infonce_lambda > 0:
+                        feat_txt = self._compute_text_prior_feat(image)
+                        nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
+                        loss = loss + self.infonce_lambda * nce_loss
+
                     (loss / cfg.accum_step).backward()
                     if ((batch_idx + 1) % cfg.accum_step == 0) or (batch_idx + 1 == num_batches):
                         self.optim.step()
                         self.optim.zero_grad()
 
+                # metrics
                 with torch.no_grad():
                     pred = logit.argmax(dim=1)
                     correct = pred.eq(label)
                     acc = correct.float().mean().mul_(100.0)
-                
+
                 current_lr = self.optim.param_groups[0]["lr"]
                 loss_meter.update(loss.item())
                 acc_meter.update(acc.item())
@@ -697,20 +864,16 @@ class Trainer:
 
                 mean_acc = torch.mean(torch.Tensor(cls_accs))
                 many_acc = torch.mean(torch.Tensor(cls_accs)[self.many_classes])
-                med_acc = torch.mean(torch.Tensor(cls_accs)[self.med_classes])
-                few_acc = torch.mean(torch.Tensor(cls_accs)[self.few_classes])
-                
+                med_acc  = torch.mean(torch.Tensor(cls_accs)[self.med_classes])
+                few_acc  = torch.mean(torch.Tensor(cls_accs)[self.few_classes])
+
                 meet_freq = (batch_idx + 1) % cfg.print_freq == 0
                 only_few_batches = num_batches < cfg.print_freq
                 if meet_freq or only_few_batches:
-                    nb_remain = 0
-                    nb_remain += num_batches - batch_idx - 1
-                    nb_remain += (
-                        num_epochs - epoch_idx - 1
-                    ) * num_batches
+                    nb_remain = (num_batches - batch_idx - 1) + (num_epochs - epoch_idx - 1) * num_batches
                     eta_seconds = batch_time.avg * nb_remain
                     eta = str(datetime.timedelta(seconds=int(eta_seconds)))
-                    
+
                     info = []
                     info += [f"epoch [{epoch_idx + 1}/{num_epochs}]"]
                     info += [f"batch [{batch_idx + 1}/{num_batches}]"]
@@ -718,6 +881,10 @@ class Trainer:
                     info += [f"loss {loss_meter.val:.4f} ({loss_meter.avg:.4f})"]
                     info += [f"acc {acc_meter.val:.2f} ({acc_meter.avg:.2f})"]
                     info += [f"(mean {mean_acc:.2f} many {many_acc:.2f} med {med_acc:.2f} few {few_acc:.2f})"]
+                    if kd_loss is not None:
+                        info += [f"kd {kd_loss.item():.4f}"]
+                    if nce_loss is not None:
+                        info += [f"nce {nce_loss.item():.4f}"]
                     info += [f"lr {current_lr:.4e}"]
                     info += [f"eta {eta}"]
                     print(" ".join(info))
@@ -733,25 +900,25 @@ class Trainer:
                 tb_writer.add_scalar("train/many_acc", many_acc, iter_idx)
                 tb_writer.add_scalar("train/med_acc", med_acc, iter_idx)
                 tb_writer.add_scalar("train/few_acc", few_acc, iter_idx)
+                tb_writer.add_scalar("train/ce_loss", ce_loss.item(), iter_idx)
+                if kd_loss is not None:
+                    tb_writer.add_scalar("train/kd_loss", kd_loss.item(), iter_idx)
+                if nce_loss is not None:
+                    tb_writer.add_scalar("train/nce_loss", nce_loss.item(), iter_idx)
 
                 end = time.time()
-            
+
             self.sched.step()
             for t in self.train_loader.dataset.transform.transforms:
                 if isinstance(t, MinimalistRandomResizedCrop):
                     t.step()
-            # torch.cuda.empty_cache()
-        
+
         print("Finish training")
-        # show elapsed time
         elapsed = round(time.time() - time_start)
         elapsed = str(datetime.timedelta(seconds=elapsed))
         print(f"Time elapsed: {elapsed}")
-        
-        # save model
-        self.save_model(cfg.output_dir)
 
-        # close writer
+        self.save_model(cfg.output_dir)
         tb_writer.close()
 
     def test(self):

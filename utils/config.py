@@ -66,22 +66,27 @@ _C.v.aft_ratio = None  # Fine-tuning ratio.
 _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "mlp" / "all".
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
-# Mixture with Default Prompt
-# _C.HYBRID_ALPHA = 0.3
+# Textual Prior
+_C.TEXT_REG_T            = 0.01
+_C.TEXT_REG_LAMBDA       = 0.001
 
-# _C.ALPHA_MANY = 0.3
-# _C.ALPHA_MED = 0.3
-# _C.ALPHA_FEW = 0.3
+_C.TEXT_REG_LAMBDA_TAIL  = 0.0
+_C.TEXT_REG_LAMBDA_OTHER = 0.0
 
+# InfoNCE
+_C.INFONCE_LAMBDA        = 0.001
+_C.INFONCE_T             = 0.1
+
+# Hybrid Caption
 _C.SIM_THRESHOLD = 0.6
 _C.CHUNK_SIZE = 50
 
 _C.HYBRID_TOPK = 8
 _C.HYBRID_CAPTION_SOURCE = "wiki"
 
-# ===== Wiki Caption options =====
-_C.num_classes = 1000        # Number of classes
-_C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"  # default (dataset yaml에서 override 가능)
+# Wiki Caption options 
+_C.num_classes = 1000        
+_C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"
 _C.WIKI_MAX_SENTENCES = 0    # 0이면 전체 문장 사용
 _C.WIKI_MAX_CHARS = 0        # 0이면 글자 수 제한 없음
 

@@ -104,7 +104,73 @@ class LogitAdjustedLoss(nn.Module):
     def forward(self, logit, label, **kwargs):
         logit_adjusted = logit + self.tau * self.log_cls_num.unsqueeze(0)
         return F.cross_entropy(logit_adjusted, label, **kwargs)
+    
+    
+# class LogitKDLoss(nn.Module):
+#     """
+#     Knowledge-distillation style KL regularizer between teacher logits and student logits.
+#     loss = KL( softmax(teacher/T) || softmax(student/T) ) * T^2
+#     """
+#     def __init__(self, T=1.0, reduction="batchmean"):
+#         super().__init__()
+#         self.T = float(T)
+#         self.reduction = reduction
 
+#     def forward(self, student_logits, teacher_logits):
+#         T = self.T
+#         # teacher는 고정 prior이므로 detach가 안전
+#         p_t = F.softmax(teacher_logits / T, dim=1).detach()
+#         log_p_s = F.log_softmax(student_logits / T, dim=1)
+#         return F.kl_div(log_p_s, p_t, reduction=self.reduction) * (T * T)
+
+
+class LogitKDLoss(nn.Module):
+    """
+    Knowledge-distillation style KL regularizer between teacher logits and student logits.
+    L_KD = KL( softmax(z_t/T) || softmax(z_s/T) ) * T^2
+
+    - reduction="none" 지원: per-sample KL([B]) 반환 → sample-wise λ 적용 가능
+    """
+    def __init__(self, T=1.0, reduction="batchmean"):
+        super().__init__()
+        self.T = float(T)
+        self.reduction = reduction
+
+    def forward(self, student_logits, teacher_logits, reduction=None):
+        T = self.T
+        red = self.reduction if reduction is None else reduction
+
+        # ✅ AMP 안정성: KD는 fp32로 계산
+        s = student_logits.float()
+        t = teacher_logits.float()
+
+        p_t = F.softmax(t / T, dim=1).detach()
+        log_p_s = F.log_softmax(s / T, dim=1)
+
+        if red == "none":
+            kl_mat = F.kl_div(log_p_s, p_t, reduction="none")  # [B, C]
+            return kl_mat.sum(dim=1) * (T * T)                 # [B]
+
+        return F.kl_div(log_p_s, p_t, reduction=red) * (T * T)
+
+class InfoNCELoss(nn.Module):
+    """
+    InfoNCE (softmax contrastive) over class logits.
+    L_i = -log softmax(logits_i / T)[y_i]
+
+    - reduction="none" 지원: per-sample loss [B]
+    """
+    def __init__(self, T=0.1, reduction="mean"):
+        super().__init__()
+        self.T = float(T)
+        self.reduction = reduction
+
+    def forward(self, feat, text_proto, label):
+        f      = F.normalize(feat.float(), dim=-1)        # fp32
+        W      = F.normalize(text_proto.float(), dim=-1)  # fp32
+        logits = (f @ W.t()) / self.T                     # [B, C]
+        
+        return F.cross_entropy(logits, label, reduction=self.reduction)
 
 class LADELoss(nn.Module):
     """ https://arxiv.org/abs/2012.00321
