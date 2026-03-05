@@ -93,6 +93,21 @@ _C.WARMUP_TEXT_REG_T      = 1.0
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
 
+# ---- Bottleneck scaling ablation ----
+_C.v.lora_dim_scale = 1.0
+_C.v.adapter_dim_scale = 1.0
+_C.v.adaptformer_dim_scale = 1.0
+_C.v.keep_bottleneck_pow2 = True  # 기본: 2^k 형태 유지
+
+# ---- Optional: last-layers overwrite (heterogeneous r) ----
+_C.v.lora_layers_last = None
+_C.v.lora_dim_last = None
+_C.v.lora_dim_last_scale = 1.0
+
+_C.v.adaptformer_layers_last = None
+_C.v.adaptformer_dim_last = None
+_C.v.adaptformer_dim_last_scale = 1.0
+
 # Hybrid Caption
 _C.SIM_THRESHOLD          = 0.6
 _C.CHUNK_SIZE             = 50
