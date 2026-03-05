@@ -111,6 +111,8 @@ def main(args):
         trainer.test()
         return
     
+    if getattr(cfg, "PEFT_WARMUP", False):
+        trainer.warmup_peft()
     
     trainer.train()
     trainer.test()

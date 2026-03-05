@@ -67,22 +67,38 @@ _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
 # Textual Prior
-_C.TEXT_REG_T            = 0.01
-_C.TEXT_REG_LAMBDA       = 0.001
+_C.TEXT_REG_T             = 0.01
+_C.TEXT_REG_LAMBDA        = 0.001
 
-_C.TEXT_REG_LAMBDA_TAIL  = 0.0
-_C.TEXT_REG_LAMBDA_OTHER = 0.0
+_C.TEXT_REG_LAMBDA_TAIL   = 0.0
+_C.TEXT_REG_LAMBDA_OTHER  = 0.0
 
 # InfoNCE
-_C.INFONCE_LAMBDA        = 0.001
-_C.INFONCE_T             = 0.1
+_C.INFONCE_LAMBDA         = 0.001
+_C.INFONCE_T              = 0.1
+
+# Warmup
+_C.PEFT_WARMUP            = False
+_C.PEFT_WARMUP_EPOCHS     = 1
+_C.PEFT_WARMUP_STEPS      = -1
+_C.PEFT_WARMUP_LR         = 5e-4
+
+_C.PEFT_WARMUP_IMAGE      = True
+_C.PEFT_WARMUP_TEXT       = False
+_C.PEFT_WARMUP_PROJ       = False
+_C.PEFT_WARMUP_CLASSIFIER = False
+
+_C.WARMUP_TEXT_REG_LAMBDA = 0.0
+_C.WARMUP_TEXT_REG_T      = 1.0
+_C.WARMUP_INFONCE_LAMBDA  = 0.0
+_C.WARMUP_INFONCE_T       = 0.1
 
 # Hybrid Caption
-_C.SIM_THRESHOLD = 0.6
-_C.CHUNK_SIZE = 50
+_C.SIM_THRESHOLD          = 0.6
+_C.CHUNK_SIZE             = 50
 
-_C.HYBRID_TOPK = 8
-_C.HYBRID_CAPTION_SOURCE = "wiki"
+_C.HYBRID_TOPK            = 8
+_C.HYBRID_CAPTION_SOURCE  = "wiki"
 
 # Wiki Caption options 
 _C.num_classes = 1000        
