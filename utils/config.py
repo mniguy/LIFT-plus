@@ -74,8 +74,8 @@ _C.TEXT_REG_LAMBDA_TAIL   = 0.0
 _C.TEXT_REG_LAMBDA_OTHER  = 0.0
 
 # InfoNCE
-_C.INFONCE_LAMBDA         = 0.001
-_C.INFONCE_T              = 0.1
+_C.INFONCE_LAMBDA         = 0.005
+_C.INFONCE_T              = 0.08
 
 # Warmup
 _C.PEFT_WARMUP            = False
@@ -99,7 +99,6 @@ _C.v.adapter_dim_scale = 1.0
 _C.v.adaptformer_dim_scale = 1.0
 _C.v.keep_bottleneck_pow2 = True  # 기본: 2^k 형태 유지
 
-# ---- Optional: last-layers overwrite (heterogeneous r) ----
 _C.v.lora_layers_last = None
 _C.v.lora_dim_last = None
 _C.v.lora_dim_last_scale = 1.0

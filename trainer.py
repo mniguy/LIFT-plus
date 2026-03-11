@@ -732,8 +732,225 @@ class Trainer:
 
         return feat
     
+    # -------------------------
+    # PEFT Warm-start (Stage 0)
+    # -------------------------
+    def _warmup_select_params(self):
+        """
+        Default: only warm up image_encoder tuner params (PEFT modules),
+        exclude classifier/text_encoder unless user enables them.
+        """
+        cfg = self.cfg
+
+        # 어떤 tuner를 warmup할지 (기본: image만)
+        warm_image = bool(getattr(cfg, "PEFT_WARMUP_IMAGE", True))
+        warm_text  = bool(getattr(cfg, "PEFT_WARMUP_TEXT", False))
+
+        params = []
+
+        # NOTE: self.tuner is nn.ParameterDict from PEFT_Model.tuner
+        if warm_image and ("image_encoder" in self.tuner):
+            params += list(self.tuner["image_encoder"].parameters())
+
+        if warm_text and ("text_encoder" in self.tuner):
+            params += list(self.tuner["text_encoder"].parameters())
+
+        # (선택) projection까지 warmup하고 싶으면 켜기
+        if bool(getattr(cfg, "PEFT_WARMUP_PROJ", False)):
+            if "image_proj" in self.tuner:
+                params += list(self.tuner["image_proj"].parameters())
+            if "text_proj" in self.tuner:
+                params += list(self.tuner["text_proj"].parameters())
+
+        # classifier는 warm-start에서 기본적으로 제외 (원하면 stage1에서 학습)
+        if bool(getattr(cfg, "PEFT_WARMUP_CLASSIFIER", False)) and ("classifier" in self.tuner):
+            params += list(self.tuner["classifier"].parameters())
+
+        # 중복 제거
+        seen = set()
+        uniq = []
+        for p in params:
+            if id(p) not in seen:
+                uniq.append(p)
+                seen.add(id(p))
+        return uniq
+
+    def warmup_peft(self):
+        """
+        Stage0: warm up PEFT modules only with (optional) KD + InfoNCE,
+        without CE. After warmup, rebuild optimizer for normal training.
+        """
+        cfg = self.cfg
+
+        # 이미 했으면 스킵
+        if getattr(self, "_peft_warmup_done", False):
+            return
+
+        # enable flag
+        if not bool(getattr(cfg, "PEFT_WARMUP", False)):
+            return
+
+        # text prior 필요 (KD/InfoNCE 모두 text_prior_weight를 씀)
+        if not hasattr(self, "text_prior_weight"):
+            print("⚠️ [Warmup] text_prior_weight not found. "
+                  "Set classifier_init=semantic/hybrid to build it. Skip warmup.")
+            self._peft_warmup_done = True
+            return
+
+        # warmup step/epoch 설정
+        warm_epochs = int(getattr(cfg, "PEFT_WARMUP_EPOCHS", 1))
+        warm_steps  = int(getattr(cfg, "PEFT_WARMUP_STEPS", -1))  # >0이면 steps 우선
+        warm_lr     = float(getattr(cfg, "PEFT_WARMUP_LR", cfg.lr))
+
+        # warmup에서 쓸 KD/InfoNCE 하이퍼 (없으면 stage1 값 재사용)
+        text_reg_lambda = float(getattr(cfg, "WARMUP_TEXT_REG_LAMBDA", getattr(cfg, "TEXT_REG_LAMBDA", 0.0)))
+        text_reg_T      = float(getattr(cfg, "WARMUP_TEXT_REG_T",      getattr(cfg, "TEXT_REG_T", 1.0)))
+        infonce_lambda  = float(getattr(cfg, "WARMUP_INFONCE_LAMBDA",   getattr(cfg, "INFONCE_LAMBDA", 0.0)))
+        infonce_T       = float(getattr(cfg, "WARMUP_INFONCE_T",        getattr(cfg, "INFONCE_T", 0.1)))
+
+        if (text_reg_lambda <= 0) and (infonce_lambda <= 0):
+            print("⚠️ [Warmup] Both KD/InfoNCE lambdas are 0. Skip warmup.")
+            self._peft_warmup_done = True
+            return
+
+        # KD는 student logits가 필요 -> classifier 모드에서만 가능
+        if text_reg_lambda > 0 and (not cfg.classifier):
+            print("⚠️ [Warmup] KD enabled but cfg.classifier=False. Disable KD for warmup.")
+            text_reg_lambda = 0.0
+
+        # loss modules 준비
+        warm_kd_loss = None
+        warm_nce_loss = None
+        if text_reg_lambda > 0:
+            warm_kd_loss = LogitKDLoss(T=text_reg_T)
+            print(f"→ [Warmup] KD enabled: lambda={text_reg_lambda}, T={text_reg_T}")
+        if infonce_lambda > 0:
+            warm_nce_loss = InfoNCELoss(T=infonce_T, reduction="mean")
+            print(f"→ [Warmup] InfoNCE enabled: lambda={infonce_lambda}, T={infonce_T}")
+
+        # -------------------------
+        # requires_grad 제어: 기본은 모두 off 후, warmup params만 on
+        # -------------------------
+        for p in self.model.parameters():
+            p.requires_grad_(False)
+        for p in self.tuner.parameters():
+            p.requires_grad_(False)
+
+        warm_params = self._warmup_select_params()
+        if len(warm_params) == 0:
+            print("⚠️ [Warmup] No warmup params selected. Skip.")
+            self._peft_warmup_done = True
+            return
+
+        for p in warm_params:
+            p.requires_grad_(True)
+
+        # warmup optimizer (짧은 예열이라 AdamW가 안정적)
+        optim_w = torch.optim.AdamW(warm_params, lr=warm_lr, weight_decay=cfg.weight_decay)
+
+        # model forward args
+        if cfg.classifier:
+            model_args = {"use_classifier": True}
+        else:
+            # warmup에서 classifier 없으면 KD는 꺼졌고, InfoNCE만 가능
+            text = self.generate_class_prompts()
+            model_args = {"text": text, "is_text_feature": False}
+
+        self.tuner.train()
+        print("==============================================================")
+        print(f"[Warmup] Start: lr={warm_lr}, epochs={warm_epochs}, steps={warm_steps}, "
+              f"params={sum(p.numel() for p in warm_params)}")
+        print("==============================================================")
+
+        num_batches = len(self.train_loader)
+        total_steps = warm_steps if warm_steps > 0 else warm_epochs * num_batches
+        step = 0
+
+        # amp scaler는 build_optimizer에서 만들어져 있을 수 있음
+        scaler = self.scaler if cfg.prec_train == "amp" else None
+
+        for epoch in range(10**9):  # steps 기반이면 epoch 수 의미 없음
+            for batch_idx, (image, label) in enumerate(self.train_loader):
+                image = image.to(self.device)
+                label = label.to(self.device)
+
+                if cfg.prec_train == "amp":
+                    with torch.autocast(device_type="cuda"):
+                        # student logits (KD에만 필요)
+                        logit = None
+                        if warm_kd_loss is not None:
+                            logit = self.model(image=image, **model_args)
+
+                        loss = 0.0
+
+                        # KD
+                        if warm_kd_loss is not None:
+                            with torch.no_grad():
+                                text_logit = self._compute_text_prior_logits(image)
+                            kd = warm_kd_loss(logit, text_logit)
+                            loss = loss + text_reg_lambda * kd
+
+                        # InfoNCE
+                        if warm_nce_loss is not None:
+                            feat_txt = self._compute_text_prior_feat(image)
+                            nce = warm_nce_loss(feat_txt, self.text_prior_weight, label)
+                            loss = loss + infonce_lambda * nce
+
+                    scaler.scale(loss / cfg.accum_step).backward()
+                    if ((step + 1) % cfg.accum_step == 0):
+                        scaler.step(optim_w)
+                        scaler.update()
+                        optim_w.zero_grad()
+
+                else:
+                    logit = None
+                    if warm_kd_loss is not None:
+                        logit = self.model(image=image, **model_args)
+
+                    loss = 0.0
+
+                    if warm_kd_loss is not None:
+                        with torch.no_grad():
+                            text_logit = self._compute_text_prior_logits(image)
+                        kd = warm_kd_loss(logit, text_logit)
+                        loss = loss + text_reg_lambda * kd
+
+                    if warm_nce_loss is not None:
+                        feat_txt = self._compute_text_prior_feat(image)
+                        nce = warm_nce_loss(feat_txt, self.text_prior_weight, label)
+                        loss = loss + infonce_lambda * nce
+
+                    (loss / cfg.accum_step).backward()
+                    if ((step + 1) % cfg.accum_step == 0):
+                        optim_w.step()
+                        optim_w.zero_grad()
+
+                # logging (간단히)
+                if ((step + 1) % cfg.print_freq == 0) or (step == 0):
+                    msg = [f"[Warmup] step {step+1}/{total_steps} loss={float(loss):.4f}"]
+                    print(" ".join(msg))
+                    sys.stdout.flush()
+
+                step += 1
+                if step >= total_steps:
+                    break
+            if step >= total_steps:
+                break
+
+        print("[Warmup] Done. Rebuild optimizer for normal training.")
+
+        # Stage1을 위해 원래 로직 복구: tuner 전체 학습 + SGD/cosine 등
+        self.build_optimizer()
+
+        self._peft_warmup_done = True
+    
     def train(self):
         cfg = self.cfg
+
+        # ---- PEFT warm-start (Stage 0) ----
+        if bool(getattr(cfg, "PEFT_WARMUP", False)) and (not getattr(self, "_peft_warmup_done", False)):
+            self.warmup_peft()
+        # -----------------------------------
 
         writer_dir = os.path.join(cfg.output_dir, "tensorboard")
         os.makedirs(writer_dir, exist_ok=True)
