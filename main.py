@@ -7,7 +7,7 @@ import torch
 from utils.config import _C as cfg
 from utils.logger import setup_logger
 
-from trainer_peft_rank import Trainer
+from trainer import Trainer
 
 
 def setup_cfg(args):
