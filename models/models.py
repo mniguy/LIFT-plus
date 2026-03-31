@@ -71,11 +71,24 @@ class PEFT_Attention(nn.Module):
     def device(self):
         return self.in_proj.weight.device
     
-    def add_lora(self, bottle_dim):
+    def add_lora(self, bottle_dim, scale_init=1.0, learnable_scale=False,
+                 scale_q=None, scale_v=None):
         self.tuner["lora"] = nn.ModuleDict({
             "q": LoRA(self.embed_dim, bottle_dim, dtype=self.dtype, device=self.device),
             "v": LoRA(self.embed_dim, bottle_dim, dtype=self.dtype, device=self.device),
         })  # to be optimized
+        q_scale = float(scale_init if scale_q is None else scale_q)
+        v_scale = float(scale_init if scale_v is None else scale_v)
+        if learnable_scale:
+            self.tuner["lora_scale"] = nn.ParameterDict({
+                "q": nn.Parameter(torch.tensor(q_scale, dtype=self.dtype, device=self.device)),
+                "v": nn.Parameter(torch.tensor(v_scale, dtype=self.dtype, device=self.device)),
+            })
+        else:
+            self.tuner["lora_scale"] = nn.ParameterDict({
+                "q": nn.Parameter(torch.tensor(q_scale, dtype=self.dtype, device=self.device), requires_grad=False),
+                "v": nn.Parameter(torch.tensor(v_scale, dtype=self.dtype, device=self.device), requires_grad=False),
+            })
     
     def add_ssf(self):
         self.tuner["ssf"] = nn.ParameterDict({
@@ -102,11 +115,20 @@ class PEFT_Attention(nn.Module):
         q, k, v = qkv.chunk(3, dim=-1)
 
         if hasattr(self.tuner, "lora") and hasattr(self.tuner.lora, "q"):
-            q = q + self.tuner.lora.q(x)
+            lora_q = self.tuner.lora.q(x)
+            if hasattr(self.tuner, "lora_scale") and hasattr(self.tuner.lora_scale, "q"):
+                lora_q = lora_q * self.tuner.lora_scale.q
+            q = q + lora_q
         if hasattr(self.tuner, "lora") and hasattr(self.tuner.lora, "k"):
-            k = k + self.tuner.lora.k(x)
+            lora_k = self.tuner.lora.k(x)
+            if hasattr(self.tuner, "lora_scale") and hasattr(self.tuner.lora_scale, "k"):
+                lora_k = lora_k * self.tuner.lora_scale.k
+            k = k + lora_k
         if hasattr(self.tuner, "lora") and hasattr(self.tuner.lora, "v"):
-            v = v + self.tuner.lora.v(x)
+            lora_v = self.tuner.lora.v(x)
+            if hasattr(self.tuner, "lora_scale") and hasattr(self.tuner.lora_scale, "v"):
+                lora_v = lora_v * self.tuner.lora_scale.v
+            v = v + lora_v
         
         if hasattr(self.tuner, "ssf") and hasattr(self.tuner.ssf, "in_proj"):
             qkv = torch.cat([q, k, v], dim=-1)
@@ -270,8 +292,15 @@ class PEFT_Block(nn.Module):
     def add_adapter(self, bottle_dim):
         self.mlp.add_adapter(bottle_dim)
     
-    def add_adaptformer(self, bottle_dim):
-        self.tuner["adaptformer"] = AdaptFormer(self.embed_dim, bottle_dim, dtype=self.dtype, device=self.device)  # to be optimized
+    def add_adaptformer(self, bottle_dim, scale_init=1.0, learnable_scale=True):
+        self.tuner["adaptformer"] = AdaptFormer(
+            self.embed_dim,
+            bottle_dim,
+            dtype=self.dtype,
+            device=self.device,
+            scale_init=scale_init,
+            learnable_scale=learnable_scale,
+        )  # to be optimized
 
     def add_ssf(self):
         self.attn.add_ssf()

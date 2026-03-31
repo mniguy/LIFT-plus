@@ -65,9 +65,14 @@ class Adapter(nn.Module):
 
 
 class AdaptFormer(Adapter):
-    def __init__(self, in_dim, bottle_dim, out_dim=None, dtype=None, device=None):
+    def __init__(self, in_dim, bottle_dim, out_dim=None, dtype=None, device=None,
+                 scale_init=1.0, learnable_scale=True):
         super().__init__(in_dim, bottle_dim, out_dim=out_dim, dtype=dtype, device=device)
-        self.scale = nn.Parameter(torch.ones([], dtype=dtype, device=device))
+        scale_tensor = torch.tensor(float(scale_init), dtype=dtype, device=device)
+        if learnable_scale:
+            self.scale = nn.Parameter(scale_tensor)
+        else:
+            self.register_buffer("scale", scale_tensor, persistent=True)
 
     def forward(self, x):
         x = super().forward(x)

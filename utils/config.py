@@ -88,8 +88,10 @@ _C.PEFT_WARMUP_TEXT       = False
 _C.PEFT_WARMUP_PROJ       = False
 _C.PEFT_WARMUP_CLASSIFIER = False
 
-_C.WARMUP_TEXT_REG_LAMBDA = 0.0
-_C.WARMUP_TEXT_REG_T      = 1.0
+_C.PEFT_WARMUP_LAYERS     = 12
+
+_C.WARMUP_TEXT_REG_LAMBDA = 0.0001
+_C.WARMUP_TEXT_REG_T      = 0.01
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
 
@@ -99,13 +101,27 @@ _C.v.adapter_dim_scale = 1.0
 _C.v.adaptformer_dim_scale = 1.0
 _C.v.keep_bottleneck_pow2 = True  # 기본: 2^k 형태 유지
 
-_C.v.lora_layers_last = None
+_C.v.lora_layers_last = 2
 _C.v.lora_dim_last = None
-_C.v.lora_dim_last_scale = 1.0
+_C.v.lora_dim_last_scale = 16.0
+_C.v.lora_gate_scale = 1.0
+_C.v.lora_gate_scale_q = None
+_C.v.lora_gate_scale_v = None
+_C.v.lora_gate_learnable = False
 
 _C.v.adaptformer_layers_last = None
 _C.v.adaptformer_dim_last = None
 _C.v.adaptformer_dim_last_scale = 1.0
+_C.v.adaptformer_gate_scale = 1.0
+_C.v.adaptformer_gate_learnable = True
+
+_C.v.hybrid_mix_mode = "parallel"  # "parallel" / "head_tail" / "sequential"
+_C.v.hybrid_head_layers = None     # number of early layers for LoRA when mix_mode=head_tail
+_C.v.hybrid_tail_layers = None     # number of late layers for AdaptFormer when mix_mode=head_tail
+_C.v.sequential_first = "lora"     # "lora" / "adaptformer"
+_C.v.sequential_first_epochs = 0
+_C.v.sequential_second_epochs = 0
+_C.v.sequential_joint_epochs = 0
 
 # Hybrid Caption
 _C.SIM_THRESHOLD          = 0.6
