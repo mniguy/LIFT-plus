@@ -1,0 +1,740 @@
+** Config **
+CHUNK_SIZE: 50
+HYBRID_CAPTION_SOURCE: wiki
+HYBRID_TOPK: 8
+INFONCE_LAMBDA: 0.0
+INFONCE_T: 0.0
+PEFT_WARMUP: False
+PEFT_WARMUP_CLASSIFIER: False
+PEFT_WARMUP_EPOCHS: 1
+PEFT_WARMUP_IMAGE: True
+PEFT_WARMUP_LR: 0.0005
+PEFT_WARMUP_PROJ: False
+PEFT_WARMUP_STEPS: -1
+PEFT_WARMUP_TEXT: False
+SIM_THRESHOLD: 0.6
+TEXT_REG_LAMBDA: 0.001
+TEXT_REG_LAMBDA_OTHER: 0.0
+TEXT_REG_LAMBDA_TAIL: 0.0
+TEXT_REG_T: 0.01
+WARMUP_INFONCE_LAMBDA: 0.0
+WARMUP_INFONCE_T: 0.1
+WARMUP_TEXT_REG_LAMBDA: 0.0
+WARMUP_TEXT_REG_T: 1.0
+WEIGHTS_PATH: 
+WIKI_MAX_CHARS: 0
+WIKI_MAX_SENTENCES: 0
+accum_step: 1
+backbone: CLIP-ViT-B/16
+batch_size: 128
+classifier: CosineClassifier
+classifier_init: hybrid
+classifier_scale: 30
+clip_adapter: False
+clip_adapter_dim: 4
+coop: False
+coop_cls_pos: end
+coop_ctx_len: 4
+coop_init: None
+dataset: ImageNet_LT
+deterministic: True
+expand: None
+gpu: 0
+l:
+  adapter: False
+  adapter_dim: 4
+  adapter_layers: None
+  adaptformer: False
+  adaptformer_dim: 4
+  adaptformer_layers: None
+  aft: False
+  aft_layers: None
+  aft_loc: all
+  aft_ratio: None
+  aft_seed: 0
+  bitfit: False
+  bitfit_layers: None
+  fft: False
+  fft_layers: None
+  lora: False
+  lora_dim: 4
+  lora_layers: None
+  pt: False
+  pt_layers: deep
+  pt_len: 2
+  ssf: False
+  ssf_layers: None
+loss_type: LA
+lr: 0.02
+mda: True
+mda_func: convex
+mean: (0.48145466, 0.4578275, 0.40821073)
+model_dir: None
+momentum: 0.9
+num_classes: 1000
+num_epochs: 5
+num_workers: 10
+output_dir: ./output/scale_lora/layer1_scale4.0
+prec_test: fp16
+prec_train: amp
+print_freq: 10
+proj_tuning: False
+resolution: 224
+root: /data/ImageNet
+seed: 0
+std: (0.26862954, 0.26130258, 0.27577711)
+test_only: False
+tte: True
+v:
+  adapter: False
+  adapter_dim: None
+  adapter_dim_scale: 1.0
+  adapter_layers: None
+  adaptformer: True
+  adaptformer_dim: None
+  adaptformer_dim_last: None
+  adaptformer_dim_last_scale: 1.0
+  adaptformer_dim_scale: 1.0
+  adaptformer_layers: None
+  adaptformer_layers_last: None
+  aft: False
+  aft_layers: None
+  aft_loc: all
+  aft_ratio: None
+  aft_seed: 0
+  bitfit: False
+  bitfit_layers: None
+  fft: False
+  fft_layers: None
+  keep_bottleneck_pow2: True
+  lora: True
+  lora_dim: 0
+  lora_dim_last: None
+  lora_dim_last_scale: 4.0
+  lora_dim_scale: 1.0
+  lora_layers: None
+  lora_layers_last: 1
+  pt: False
+  pt_layers: None
+  pt_len: None
+  ssf: False
+  ssf_layers: None
+weight_decay: 0.0005
+wiki_caption_dir: /datasets/ImageNet_LT/wiki
+zero_shot: False
+************
+Setting fixed seed: 0
+Setting deterministic operations.
+Building model
+Loading CLIP (backbone: ViT-B/16)
+Model params: 149620737
+Building data
+Creating class-specific masks for dynamic alpha...
+Total training points: 115846
+Class frequencies: [50, 250, 516, 352, 143, 92, 47, 45, 150, 50, 34, 55, 25, 35, 121, 7, 232, 13, 392, 157, 87, 181, 177, 171, 114, 56, 134, 56, 279, 248, 287, 83, 65, 56, 118, 43, 68, 39, 14, 96, 80, 15, 236, 103, 64, 54, 346, 32, 201, 29, 376, 27, 189, 96, 69, 157, 16, 173, 5, 34, 34, 150, 57, 78, 31, 8, 44, 297, 349, 72, 35, 36, 428, 10, 137, 58, 80, 44, 30, 15, 126, 93, 34, 135, 226, 281, 1280, 19, 38, 502, 186, 81, 61, 222, 15, 28, 55, 819, 74, 24, 10, 93, 14, 111, 61, 32, 116, 133, 128, 66, 35, 50, 393, 47, 179, 124, 79, 604, 72, 240, 22, 148, 26, 64, 20, 23, 246, 11, 79, 161, 78, 370, 197, 155, 285, 59, 59, 178, 43, 75, 11, 23, 16, 74, 27, 87, 86, 105, 189, 37, 126, 53, 10, 30, 77, 5, 245, 30, 100, 37, 69, 119, 26, 47, 81, 100, 25, 35, 112, 35, 7, 35, 272, 469, 150, 100, 199, 137, 69, 42, 10, 20, 367, 49, 73, 38, 56, 75, 89, 24, 35, 244, 305, 23, 106, 77, 10, 59, 90, 33, 26, 214, 43, 50, 18, 125, 110, 119, 85, 43, 11, 11, 114, 171, 24, 54, 87, 39, 86, 496, 91, 52, 56, 11, 117, 48, 62, 100, 41, 138, 22, 7, 50, 51, 6, 281, 29, 13, 36, 75, 126, 127, 59, 56, 172, 119, 90, 163, 17, 53, 181, 81, 63, 167, 45, 37, 39, 282, 71, 32, 12, 137, 102, 97, 60, 14, 66, 14, 6, 132, 303, 81, 167, 28, 15, 72, 187, 20, 310, 137, 241, 123, 27, 19, 186, 12, 12, 42, 71, 96, 71, 53, 53, 19, 62, 43, 330, 41, 11, 42, 43, 22, 208, 18, 566, 46, 19, 10, 58, 306, 67, 119, 50, 51, 87, 143, 37, 16, 611, 290, 170, 114, 19, 79, 81, 128, 77, 332, 8, 446, 42, 122, 86, 1121, 48, 109, 133, 7, 174, 17, 283, 140, 27, 15, 30, 134, 167, 198, 149, 16, 122, 23, 194, 149, 23, 156, 5, 127, 11, 31, 49, 143, 145, 169, 20, 158, 87, 128, 96, 65, 49, 391, 349, 83, 123, 232, 12, 51, 137, 31, 73, 32, 41, 65, 6, 6, 85, 231, 171, 28, 108, 96, 101, 32, 122, 26, 165, 10, 372, 34, 31, 63, 679, 34, 257, 27, 83, 23, 275, 13, 22, 47, 118, 411, 159, 124, 45, 1053, 111, 184, 68, 52, 41, 150, 10, 47, 109, 32, 69, 34, 38, 10, 30, 82, 16, 157, 14, 141, 10, 58, 25, 152, 165, 112, 480, 91, 43, 113, 22, 236, 48, 137, 48, 147, 511, 17, 86, 33, 44, 36, 333, 19, 48, 15, 224, 108, 152, 16, 186, 114, 31, 82, 125, 155, 59, 186, 188, 134, 25, 121, 288, 39, 8, 32, 41, 346, 127, 232, 123, 81, 652, 6, 154, 203, 48, 66, 178, 45, 6, 22, 85, 102, 44, 105, 44, 54, 42, 20, 122, 220, 82, 44, 43, 75, 8, 142, 82, 38, 231, 619, 162, 62, 134, 8, 71, 41, 86, 55, 116, 35, 94, 100, 330, 54, 87, 143, 110, 191, 6, 48, 153, 84, 16, 55, 10, 422, 92, 25, 507, 168, 104, 83, 70, 47, 382, 148, 10, 164, 30, 310, 381, 174, 92, 87, 268, 202, 1173, 110, 8, 125, 51, 340, 37, 209, 71, 14, 14, 46, 252, 14, 239, 58, 22, 112, 22, 101, 130, 278, 18, 220, 21, 253, 39, 292, 317, 179, 36, 305, 32, 65, 169, 683, 98, 376, 125, 39, 8, 28, 298, 132, 43, 69, 80, 413, 19, 25, 354, 120, 72, 86, 50, 76, 72, 102, 310, 21, 26, 119, 140, 75, 63, 57, 10, 10, 31, 106, 54, 100, 90, 64, 88, 34, 90, 36, 85, 82, 6, 64, 86, 29, 6, 30, 204, 27, 209, 115, 24, 72, 253, 55, 10, 33, 104, 38, 46, 296, 26, 128, 170, 15, 66, 130, 138, 28, 1246, 107, 63, 75, 108, 167, 61, 26, 83, 77, 42, 113, 103, 264, 59, 16, 49, 29, 33, 33, 481, 29, 45, 24, 38, 165, 82, 36, 15, 60, 62, 72, 73, 25, 8, 182, 99, 283, 101, 297, 28, 194, 26, 141, 14, 78, 13, 67, 82, 63, 103, 454, 6, 22, 66, 93, 8, 11, 131, 137, 40, 66, 25, 472, 9, 183, 32, 14, 43, 299, 56, 40, 392, 5, 20, 31, 32, 83, 194, 81, 80, 787, 7, 137, 50, 9, 133, 34, 174, 315, 35, 290, 9, 263, 164, 86, 129, 20, 53, 175, 43, 775, 11, 54, 12, 137, 31, 87, 32, 229, 96, 161, 126, 271, 221, 27, 28, 36, 14, 85, 197, 82, 76, 15, 63, 130, 11, 85, 134, 211, 21, 328, 302, 205, 21, 53, 102, 93, 111, 19, 41, 17, 218, 128, 242, 188, 166, 105, 46, 7, 189, 20, 73, 247, 229, 35, 343, 95, 146, 57, 285, 43, 60, 84, 64, 28, 17, 44, 18, 39, 175, 25, 60, 134, 8, 54, 46, 31, 17, 10, 9, 143, 114, 101, 157, 70, 6, 75, 192, 64, 65, 5, 8, 9, 31, 15, 642, 31, 107, 11, 69, 459, 238, 19, 31, 134, 252, 25, 456, 15, 80, 102, 274, 6, 32, 50, 140, 104, 112, 133, 28, 182, 170, 76, 173, 272, 20, 102, 30, 138, 150, 116, 110, 216, 42, 39, 116, 16, 13, 215, 85, 155, 19, 7, 36, 66, 323, 22, 284, 172, 398, 110, 56, 25, 53, 534, 43, 38, 26, 418, 141, 7, 36, 55, 20, 63, 45, 18, 80, 67, 151, 94, 103, 284, 180, 23, 175, 472, 133, 99, 71, 67, 80, 32, 113, 17, 57, 172, 17, 19, 93, 124, 23, 55, 258, 108, 72, 33, 165, 95, 52, 45, 625, 73, 217, 98, 45, 34, 41, 39, 714, 143, 141, 233, 119, 63, 236, 150, 19, 15, 35, 167, 19, 25, 21, 21]
+Building tuner
+Use template 'a photo of a {}.' for prompt generation.
+Add LoRA with bottle dimension 16 (base=16) to layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].
+Override LoRA dim 64 on last layers [11].
+[AdaptFormer] base layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], base_dim=32, scale=1.0 -> bottle_dim=32
+Add classifier on top of the vision model.
+Using real-time hybrid initialization.
+[Wiki] Building corpus from datasets/ImageNet_LT/wiki ...
+[Wiki] Computing features (top-8, thresh>0.6, dynamic_alpha, chunked) for dataset=ImageNet_LT ...
+[Wiki] Done: computed features for 1000 classes (top-8, thresh>0.6, dynamic_alpha, chunked).
+Tuned params: 2123148
+├─image_encoder.blocks.0.attn.lora.q.down: 12288
+├─image_encoder.blocks.0.attn.lora.q.up: 12288
+├─image_encoder.blocks.0.attn.lora.v.down: 12288
+├─image_encoder.blocks.0.attn.lora.v.up: 12288
+├─image_encoder.blocks.0.adaptformer.scale: 1
+├─image_encoder.blocks.0.adaptformer.norm.weight: 768
+├─image_encoder.blocks.0.adaptformer.norm.bias: 768
+├─image_encoder.blocks.0.adaptformer.down.weight: 24576
+├─image_encoder.blocks.0.adaptformer.down.bias: 32
+├─image_encoder.blocks.0.adaptformer.up.weight: 24576
+├─image_encoder.blocks.0.adaptformer.up.bias: 768
+├─image_encoder.blocks.1.attn.lora.q.down: 12288
+├─image_encoder.blocks.1.attn.lora.q.up: 12288
+├─image_encoder.blocks.1.attn.lora.v.down: 12288
+├─image_encoder.blocks.1.attn.lora.v.up: 12288
+├─image_encoder.blocks.1.adaptformer.scale: 1
+├─image_encoder.blocks.1.adaptformer.norm.weight: 768
+├─image_encoder.blocks.1.adaptformer.norm.bias: 768
+├─image_encoder.blocks.1.adaptformer.down.weight: 24576
+├─image_encoder.blocks.1.adaptformer.down.bias: 32
+├─image_encoder.blocks.1.adaptformer.up.weight: 24576
+├─image_encoder.blocks.1.adaptformer.up.bias: 768
+├─image_encoder.blocks.2.attn.lora.q.down: 12288
+├─image_encoder.blocks.2.attn.lora.q.up: 12288
+├─image_encoder.blocks.2.attn.lora.v.down: 12288
+├─image_encoder.blocks.2.attn.lora.v.up: 12288
+├─image_encoder.blocks.2.adaptformer.scale: 1
+├─image_encoder.blocks.2.adaptformer.norm.weight: 768
+├─image_encoder.blocks.2.adaptformer.norm.bias: 768
+├─image_encoder.blocks.2.adaptformer.down.weight: 24576
+├─image_encoder.blocks.2.adaptformer.down.bias: 32
+├─image_encoder.blocks.2.adaptformer.up.weight: 24576
+├─image_encoder.blocks.2.adaptformer.up.bias: 768
+├─image_encoder.blocks.3.attn.lora.q.down: 12288
+├─image_encoder.blocks.3.attn.lora.q.up: 12288
+├─image_encoder.blocks.3.attn.lora.v.down: 12288
+├─image_encoder.blocks.3.attn.lora.v.up: 12288
+├─image_encoder.blocks.3.adaptformer.scale: 1
+├─image_encoder.blocks.3.adaptformer.norm.weight: 768
+├─image_encoder.blocks.3.adaptformer.norm.bias: 768
+├─image_encoder.blocks.3.adaptformer.down.weight: 24576
+├─image_encoder.blocks.3.adaptformer.down.bias: 32
+├─image_encoder.blocks.3.adaptformer.up.weight: 24576
+├─image_encoder.blocks.3.adaptformer.up.bias: 768
+├─image_encoder.blocks.4.attn.lora.q.down: 12288
+├─image_encoder.blocks.4.attn.lora.q.up: 12288
+├─image_encoder.blocks.4.attn.lora.v.down: 12288
+├─image_encoder.blocks.4.attn.lora.v.up: 12288
+├─image_encoder.blocks.4.adaptformer.scale: 1
+├─image_encoder.blocks.4.adaptformer.norm.weight: 768
+├─image_encoder.blocks.4.adaptformer.norm.bias: 768
+├─image_encoder.blocks.4.adaptformer.down.weight: 24576
+├─image_encoder.blocks.4.adaptformer.down.bias: 32
+├─image_encoder.blocks.4.adaptformer.up.weight: 24576
+├─image_encoder.blocks.4.adaptformer.up.bias: 768
+├─image_encoder.blocks.5.attn.lora.q.down: 12288
+├─image_encoder.blocks.5.attn.lora.q.up: 12288
+├─image_encoder.blocks.5.attn.lora.v.down: 12288
+├─image_encoder.blocks.5.attn.lora.v.up: 12288
+├─image_encoder.blocks.5.adaptformer.scale: 1
+├─image_encoder.blocks.5.adaptformer.norm.weight: 768
+├─image_encoder.blocks.5.adaptformer.norm.bias: 768
+├─image_encoder.blocks.5.adaptformer.down.weight: 24576
+├─image_encoder.blocks.5.adaptformer.down.bias: 32
+├─image_encoder.blocks.5.adaptformer.up.weight: 24576
+├─image_encoder.blocks.5.adaptformer.up.bias: 768
+├─image_encoder.blocks.6.attn.lora.q.down: 12288
+├─image_encoder.blocks.6.attn.lora.q.up: 12288
+├─image_encoder.blocks.6.attn.lora.v.down: 12288
+├─image_encoder.blocks.6.attn.lora.v.up: 12288
+├─image_encoder.blocks.6.adaptformer.scale: 1
+├─image_encoder.blocks.6.adaptformer.norm.weight: 768
+├─image_encoder.blocks.6.adaptformer.norm.bias: 768
+├─image_encoder.blocks.6.adaptformer.down.weight: 24576
+├─image_encoder.blocks.6.adaptformer.down.bias: 32
+├─image_encoder.blocks.6.adaptformer.up.weight: 24576
+├─image_encoder.blocks.6.adaptformer.up.bias: 768
+├─image_encoder.blocks.7.attn.lora.q.down: 12288
+├─image_encoder.blocks.7.attn.lora.q.up: 12288
+├─image_encoder.blocks.7.attn.lora.v.down: 12288
+├─image_encoder.blocks.7.attn.lora.v.up: 12288
+├─image_encoder.blocks.7.adaptformer.scale: 1
+├─image_encoder.blocks.7.adaptformer.norm.weight: 768
+├─image_encoder.blocks.7.adaptformer.norm.bias: 768
+├─image_encoder.blocks.7.adaptformer.down.weight: 24576
+├─image_encoder.blocks.7.adaptformer.down.bias: 32
+├─image_encoder.blocks.7.adaptformer.up.weight: 24576
+├─image_encoder.blocks.7.adaptformer.up.bias: 768
+├─image_encoder.blocks.8.attn.lora.q.down: 12288
+├─image_encoder.blocks.8.attn.lora.q.up: 12288
+├─image_encoder.blocks.8.attn.lora.v.down: 12288
+├─image_encoder.blocks.8.attn.lora.v.up: 12288
+├─image_encoder.blocks.8.adaptformer.scale: 1
+├─image_encoder.blocks.8.adaptformer.norm.weight: 768
+├─image_encoder.blocks.8.adaptformer.norm.bias: 768
+├─image_encoder.blocks.8.adaptformer.down.weight: 24576
+├─image_encoder.blocks.8.adaptformer.down.bias: 32
+├─image_encoder.blocks.8.adaptformer.up.weight: 24576
+├─image_encoder.blocks.8.adaptformer.up.bias: 768
+├─image_encoder.blocks.9.attn.lora.q.down: 12288
+├─image_encoder.blocks.9.attn.lora.q.up: 12288
+├─image_encoder.blocks.9.attn.lora.v.down: 12288
+├─image_encoder.blocks.9.attn.lora.v.up: 12288
+├─image_encoder.blocks.9.adaptformer.scale: 1
+├─image_encoder.blocks.9.adaptformer.norm.weight: 768
+├─image_encoder.blocks.9.adaptformer.norm.bias: 768
+├─image_encoder.blocks.9.adaptformer.down.weight: 24576
+├─image_encoder.blocks.9.adaptformer.down.bias: 32
+├─image_encoder.blocks.9.adaptformer.up.weight: 24576
+├─image_encoder.blocks.9.adaptformer.up.bias: 768
+├─image_encoder.blocks.10.attn.lora.q.down: 12288
+├─image_encoder.blocks.10.attn.lora.q.up: 12288
+├─image_encoder.blocks.10.attn.lora.v.down: 12288
+├─image_encoder.blocks.10.attn.lora.v.up: 12288
+├─image_encoder.blocks.10.adaptformer.scale: 1
+├─image_encoder.blocks.10.adaptformer.norm.weight: 768
+├─image_encoder.blocks.10.adaptformer.norm.bias: 768
+├─image_encoder.blocks.10.adaptformer.down.weight: 24576
+├─image_encoder.blocks.10.adaptformer.down.bias: 32
+├─image_encoder.blocks.10.adaptformer.up.weight: 24576
+├─image_encoder.blocks.10.adaptformer.up.bias: 768
+├─image_encoder.blocks.11.attn.lora.q.down: 49152
+├─image_encoder.blocks.11.attn.lora.q.up: 49152
+├─image_encoder.blocks.11.attn.lora.v.down: 49152
+├─image_encoder.blocks.11.attn.lora.v.up: 49152
+├─image_encoder.blocks.11.adaptformer.scale: 1
+├─image_encoder.blocks.11.adaptformer.norm.weight: 768
+├─image_encoder.blocks.11.adaptformer.norm.bias: 768
+├─image_encoder.blocks.11.adaptformer.down.weight: 24576
+├─image_encoder.blocks.11.adaptformer.down.bias: 32
+├─image_encoder.blocks.11.adaptformer.up.weight: 24576
+├─image_encoder.blocks.11.adaptformer.up.bias: 768
+├─classifier.weight: 768000
+Turning off gradients in the model.
+Turning on gradients in the tuner.
+Initialize tensorboard (log_dir=./output/scale_lora/layer1_scale4.0/tensorboard)
+→ Using textual prior KL(KD): lambda=0.001, T=0.01
+Start training
+epoch [1/5] batch [10/906] time 0.460 (0.764) loss 2.3482 (2.6106) acc 55.47 (54.95) (mean 28.83 many 43.78 med 22.94 few 7.28) kd 0.0647 lr 2.0000e-02 eta 0:57:32
+epoch [1/5] batch [20/906] time 0.461 (0.612) loss 1.8807 (2.1601) acc 56.25 (56.81) (mean 37.59 many 50.60 med 34.27 few 12.50) kd 0.0777 lr 2.0000e-02 eta 0:46:00
+epoch [1/5] batch [30/906] time 0.462 (0.562) loss 1.8402 (1.9250) acc 60.16 (58.86) (mean 41.58 many 53.51 med 39.20 few 16.18) kd 0.0810 lr 2.0000e-02 eta 0:42:08
+epoch [1/5] batch [40/906] time 0.460 (0.537) loss 1.7023 (1.7019) acc 57.03 (59.69) (mean 43.91 many 55.15 med 41.73 few 19.79) kd 0.0861 lr 2.0000e-02 eta 0:40:10
+epoch [1/5] batch [50/906] time 0.464 (0.522) loss 1.3475 (1.6587) acc 65.62 (59.43) (mean 44.87 many 55.54 med 42.95 few 21.40) kd 0.0865 lr 2.0000e-02 eta 0:38:59
+epoch [1/5] batch [60/906] time 0.463 (0.512) loss 1.7639 (1.6415) acc 61.72 (60.35) (mean 47.02 many 56.99 med 44.58 few 27.36) kd 0.0865 lr 2.0000e-02 eta 0:38:10
+epoch [1/5] batch [70/906] time 0.466 (0.505) loss 1.3207 (1.5625) acc 67.19 (60.62) (mean 48.07 many 57.84 med 45.42 few 29.71) kd 0.0945 lr 2.0000e-02 eta 0:37:34
+epoch [1/5] batch [80/906] time 0.466 (0.500) loss 1.3634 (1.4753) acc 65.62 (61.88) (mean 49.21 many 59.29 med 46.49 few 30.23) kd 0.0943 lr 2.0000e-02 eta 0:37:06
+epoch [1/5] batch [90/906] time 0.465 (0.496) loss 1.5698 (1.4876) acc 62.50 (62.85) (mean 50.08 many 60.31 med 46.88 few 32.45) kd 0.0883 lr 2.0000e-02 eta 0:36:44
+epoch [1/5] batch [100/906] time 0.462 (0.493) loss 1.5970 (1.4628) acc 60.94 (64.10) (mean 50.97 many 60.95 med 47.70 few 34.23) kd 0.0943 lr 2.0000e-02 eta 0:36:25
+epoch [1/5] batch [110/906] time 0.465 (0.491) loss 1.5956 (1.3959) acc 63.28 (65.17) (mean 52.08 many 62.08 med 48.42 few 36.64) kd 0.0946 lr 2.0000e-02 eta 0:36:09
+epoch [1/5] batch [120/906] time 0.464 (0.489) loss 1.1189 (1.3307) acc 69.53 (67.82) (mean 53.22 many 63.81 med 49.22 few 37.31) kd 0.0968 lr 2.0000e-02 eta 0:35:55
+epoch [1/5] batch [130/906] time 0.467 (0.487) loss 1.4111 (1.3031) acc 60.16 (67.27) (mean 53.87 many 64.55 med 49.59 few 38.70) kd 0.0953 lr 2.0000e-02 eta 0:35:42
+epoch [1/5] batch [140/906] time 0.466 (0.486) loss 1.2258 (1.2727) acc 65.62 (66.63) (mean 54.48 many 65.29 med 50.09 few 39.35) kd 0.0993 lr 2.0000e-02 eta 0:35:31
+epoch [1/5] batch [150/906] time 0.466 (0.484) loss 1.3479 (1.2812) acc 67.19 (66.93) (mean 54.92 many 65.75 med 50.47 few 39.93) kd 0.0940 lr 2.0000e-02 eta 0:35:21
+epoch [1/5] batch [160/906] time 0.466 (0.483) loss 1.3967 (1.2869) acc 62.50 (67.33) (mean 55.36 many 66.33 med 50.87 few 40.11) kd 0.0960 lr 2.0000e-02 eta 0:35:11
+epoch [1/5] batch [170/906] time 0.469 (0.482) loss 1.2683 (1.3290) acc 64.06 (66.12) (mean 55.53 many 66.07 med 51.27 few 40.69) kd 0.1002 lr 2.0000e-02 eta 0:35:03
+epoch [1/5] batch [180/906] time 0.468 (0.482) loss 1.2491 (1.2688) acc 70.31 (68.04) (mean 56.09 many 66.66 med 51.96 few 40.73) kd 0.0987 lr 2.0000e-02 eta 0:34:54
+epoch [1/5] batch [190/906] time 0.468 (0.481) loss 1.6484 (1.3194) acc 57.03 (65.99) (mean 56.34 many 66.59 med 52.32 few 41.46) kd 0.0976 lr 2.0000e-02 eta 0:34:46
+epoch [1/5] batch [200/906] time 0.468 (0.480) loss 1.3641 (1.2961) acc 66.41 (66.82) (mean 56.60 many 66.80 med 52.63 few 41.75) kd 0.1000 lr 2.0000e-02 eta 0:34:39
+epoch [1/5] batch [210/906] time 0.468 (0.480) loss 1.2775 (1.3157) acc 65.62 (65.92) (mean 56.62 many 66.72 med 52.71 few 41.78) kd 0.0983 lr 2.0000e-02 eta 0:34:31
+epoch [1/5] batch [220/906] time 0.468 (0.479) loss 1.4287 (1.2687) acc 61.72 (66.82) (mean 57.03 many 67.29 med 53.11 few 41.80) kd 0.0962 lr 2.0000e-02 eta 0:34:24
+epoch [1/5] batch [230/906] time 0.468 (0.479) loss 1.0874 (1.2082) acc 61.72 (66.97) (mean 57.28 many 67.27 med 53.63 few 41.87) kd 0.1014 lr 2.0000e-02 eta 0:34:17
+epoch [1/5] batch [240/906] time 0.469 (0.478) loss 1.1359 (1.1918) acc 72.66 (68.80) (mean 57.79 many 67.61 med 54.14 few 42.83) kd 0.1013 lr 2.0000e-02 eta 0:34:11
+epoch [1/5] batch [250/906] time 0.468 (0.478) loss 1.2848 (1.2059) acc 64.06 (67.72) (mean 58.05 many 67.67 med 54.61 few 42.96) kd 0.1002 lr 2.0000e-02 eta 0:34:04
+epoch [1/5] batch [260/906] time 0.467 (0.477) loss 1.2025 (1.1416) acc 64.84 (67.85) (mean 58.34 many 67.60 med 55.23 few 43.09) kd 0.1008 lr 2.0000e-02 eta 0:33:58
+epoch [1/5] batch [270/906] time 0.469 (0.477) loss 1.1343 (1.1917) acc 67.19 (67.88) (mean 58.62 many 67.86 med 55.61 few 43.07) kd 0.1054 lr 2.0000e-02 eta 0:33:52
+epoch [1/5] batch [280/906] time 0.470 (0.477) loss 1.3190 (1.2104) acc 68.75 (67.37) (mean 58.71 many 67.67 med 55.93 few 43.16) kd 0.1006 lr 2.0000e-02 eta 0:33:45
+epoch [1/5] batch [290/906] time 0.469 (0.476) loss 1.1253 (1.1665) acc 67.97 (68.68) (mean 59.07 many 68.13 med 56.38 few 42.94) kd 0.1032 lr 2.0000e-02 eta 0:33:40
+epoch [1/5] batch [300/906] time 0.467 (0.476) loss 1.0258 (1.1583) acc 71.88 (68.11) (mean 59.19 many 68.13 med 56.70 few 42.66) kd 0.1040 lr 2.0000e-02 eta 0:33:34
+epoch [1/5] batch [310/906] time 0.470 (0.476) loss 1.1780 (1.1886) acc 63.28 (67.98) (mean 59.45 many 68.40 med 56.94 few 42.95) kd 0.1003 lr 2.0000e-02 eta 0:33:28
+epoch [1/5] batch [320/906] time 0.470 (0.476) loss 1.1555 (1.1557) acc 68.75 (69.24) (mean 59.84 many 68.99 med 57.28 few 42.99) kd 0.0964 lr 2.0000e-02 eta 0:33:22
+epoch [1/5] batch [330/906] time 0.468 (0.476) loss 1.0468 (1.2158) acc 75.78 (68.90) (mean 60.15 many 69.53 med 57.49 few 42.96) kd 0.1006 lr 2.0000e-02 eta 0:33:17
+epoch [1/5] batch [340/906] time 0.468 (0.475) loss 1.1800 (1.2095) acc 64.84 (66.85) (mean 59.99 many 68.84 med 57.74 few 42.92) kd 0.1003 lr 2.0000e-02 eta 0:33:11
+epoch [1/5] batch [350/906] time 0.466 (0.475) loss 1.0346 (1.1776) acc 70.31 (68.26) (mean 60.34 many 69.08 med 58.26 few 42.96) kd 0.0983 lr 2.0000e-02 eta 0:33:06
+epoch [1/5] batch [360/906] time 0.467 (0.475) loss 1.5063 (1.2722) acc 60.94 (66.52) (mean 60.44 many 69.13 med 58.28 few 43.47) kd 0.1030 lr 2.0000e-02 eta 0:33:00
+epoch [1/5] batch [370/906] time 0.468 (0.475) loss 1.2787 (1.2249) acc 67.19 (67.04) (mean 60.68 many 69.31 med 58.47 few 44.04) kd 0.1044 lr 2.0000e-02 eta 0:32:55
+epoch [1/5] batch [380/906] time 0.469 (0.475) loss 1.3572 (1.2120) acc 70.31 (67.93) (mean 60.94 many 69.64 med 58.72 few 44.13) kd 0.0986 lr 2.0000e-02 eta 0:32:49
+epoch [1/5] batch [390/906] time 0.468 (0.474) loss 1.0358 (1.1631) acc 67.97 (68.43) (mean 61.07 many 69.46 med 59.16 few 44.06) kd 0.1037 lr 2.0000e-02 eta 0:32:44
+epoch [1/5] batch [400/906] time 0.469 (0.474) loss 1.1298 (1.1235) acc 63.28 (68.98) (mean 61.22 many 69.55 med 59.32 few 44.30) kd 0.1055 lr 2.0000e-02 eta 0:32:38
+epoch [1/5] batch [410/906] time 0.468 (0.474) loss 1.0657 (1.1007) acc 68.75 (69.12) (mean 61.49 many 69.74 med 59.74 few 44.30) kd 0.1054 lr 2.0000e-02 eta 0:32:33
+epoch [1/5] batch [420/906] time 0.469 (0.474) loss 1.1764 (1.0412) acc 69.53 (71.62) (mean 61.95 many 70.57 med 59.99 few 44.43) kd 0.1016 lr 2.0000e-02 eta 0:32:28
+epoch [1/5] batch [430/906] time 0.470 (0.474) loss 1.2914 (1.1236) acc 64.84 (70.62) (mean 62.15 many 70.80 med 60.24 few 44.39) kd 0.1014 lr 2.0000e-02 eta 0:32:22
+epoch [1/5] batch [440/906] time 0.467 (0.474) loss 0.9444 (1.0944) acc 75.78 (70.15) (mean 62.31 many 70.97 med 60.39 few 44.61) kd 0.1053 lr 2.0000e-02 eta 0:32:17
+epoch [1/5] batch [450/906] time 0.469 (0.474) loss 0.8360 (1.0849) acc 77.34 (69.84) (mean 62.29 many 70.62 med 60.50 few 45.03) kd 0.1094 lr 2.0000e-02 eta 0:32:12
+epoch [1/5] batch [460/906] time 0.468 (0.474) loss 0.9860 (1.0684) acc 71.09 (69.82) (mean 62.41 many 70.58 med 60.80 few 44.99) kd 0.1066 lr 2.0000e-02 eta 0:32:07
+epoch [1/5] batch [470/906] time 0.469 (0.473) loss 0.8710 (1.0849) acc 78.12 (70.28) (mean 62.59 many 70.80 med 60.93 few 45.21) kd 0.1089 lr 2.0000e-02 eta 0:32:02
+epoch [1/5] batch [480/906] time 0.467 (0.473) loss 1.0462 (1.1089) acc 75.78 (69.88) (mean 62.58 many 70.72 med 60.92 few 45.41) kd 0.1069 lr 2.0000e-02 eta 0:31:57
+epoch [1/5] batch [490/906] time 0.470 (0.473) loss 1.2407 (1.1326) acc 66.41 (69.02) (mean 62.55 many 70.72 med 60.84 few 45.48) kd 0.1016 lr 2.0000e-02 eta 0:31:51
+epoch [1/5] batch [500/906] time 0.471 (0.473) loss 1.1954 (1.1631) acc 70.31 (68.06) (mean 62.45 many 70.35 med 60.89 few 45.57) kd 0.1059 lr 2.0000e-02 eta 0:31:46
+epoch [1/5] batch [510/906] time 0.471 (0.473) loss 1.2364 (1.1707) acc 67.97 (68.57) (mean 62.55 many 70.39 med 60.99 few 45.87) kd 0.1042 lr 2.0000e-02 eta 0:31:41
+epoch [1/5] batch [520/906] time 0.469 (0.473) loss 1.0521 (1.0897) acc 64.06 (69.58) (mean 62.74 many 70.61 med 61.22 few 45.85) kd 0.1096 lr 2.0000e-02 eta 0:31:36
+epoch [1/5] batch [530/906] time 0.467 (0.473) loss 1.2107 (1.1190) acc 69.53 (69.01) (mean 62.80 many 70.59 med 61.33 few 45.87) kd 0.1063 lr 2.0000e-02 eta 0:31:31
+epoch [1/5] batch [540/906] time 0.471 (0.473) loss 1.0989 (1.1367) acc 74.22 (69.40) (mean 62.97 many 71.07 med 61.26 few 46.05) kd 0.1035 lr 2.0000e-02 eta 0:31:26
+epoch [1/5] batch [550/906] time 0.472 (0.473) loss 0.9946 (1.0800) acc 76.56 (71.02) (mean 63.23 many 71.45 med 61.52 few 45.98) kd 0.1100 lr 2.0000e-02 eta 0:31:21
+epoch [1/5] batch [560/906] time 0.469 (0.473) loss 1.0931 (1.0549) acc 70.31 (70.69) (mean 63.29 many 71.16 med 61.82 few 46.16) kd 0.1068 lr 2.0000e-02 eta 0:31:17
+epoch [1/5] batch [570/906] time 0.470 (0.473) loss 0.9478 (1.0255) acc 77.34 (70.91) (mean 63.52 many 71.27 med 62.19 few 46.23) kd 0.1100 lr 2.0000e-02 eta 0:31:12
+epoch [1/5] batch [580/906] time 0.470 (0.473) loss 1.1345 (1.0546) acc 71.88 (70.76) (mean 63.66 many 71.35 med 62.42 few 46.26) kd 0.1053 lr 2.0000e-02 eta 0:31:07
+epoch [1/5] batch [590/906] time 0.469 (0.473) loss 1.1635 (1.0747) acc 73.44 (71.40) (mean 63.90 many 71.31 med 62.89 few 46.52) kd 0.1071 lr 2.0000e-02 eta 0:31:02
+epoch [1/5] batch [600/906] time 0.469 (0.473) loss 1.0088 (1.0747) acc 70.31 (70.41) (mean 63.87 many 71.33 med 62.86 few 46.28) kd 0.1038 lr 2.0000e-02 eta 0:30:57
+epoch [1/5] batch [610/906] time 0.469 (0.473) loss 0.9398 (1.1035) acc 73.44 (70.42) (mean 63.93 many 71.36 med 62.97 few 46.29) kd 0.1065 lr 2.0000e-02 eta 0:30:52
+epoch [1/5] batch [620/906] time 0.469 (0.473) loss 1.1251 (1.0796) acc 71.09 (70.58) (mean 64.08 many 71.40 med 63.22 few 46.40) kd 0.1079 lr 2.0000e-02 eta 0:30:47
+epoch [1/5] batch [630/906] time 0.469 (0.473) loss 0.9923 (1.0267) acc 71.09 (71.05) (mean 64.20 many 71.28 med 63.59 few 46.33) kd 0.1096 lr 2.0000e-02 eta 0:30:42
+epoch [1/5] batch [640/906] time 0.468 (0.473) loss 1.1774 (1.0624) acc 67.97 (70.99) (mean 64.31 many 71.35 med 63.74 few 46.38) kd 0.1063 lr 2.0000e-02 eta 0:30:38
+epoch [1/5] batch [650/906] time 0.470 (0.472) loss 1.2600 (1.1109) acc 69.53 (70.16) (mean 64.16 many 71.30 med 63.49 few 46.30) kd 0.1041 lr 2.0000e-02 eta 0:30:33
+epoch [1/5] batch [660/906] time 0.472 (0.472) loss 0.9351 (1.0506) acc 74.22 (70.25) (mean 64.14 many 71.16 med 63.43 few 46.74) kd 0.1082 lr 2.0000e-02 eta 0:30:28
+epoch [1/5] batch [670/906] time 0.472 (0.472) loss 1.1467 (1.0392) acc 67.19 (70.86) (mean 64.25 many 71.13 med 63.67 few 46.79) kd 0.1032 lr 2.0000e-02 eta 0:30:23
+epoch [1/5] batch [680/906] time 0.469 (0.472) loss 0.9169 (1.0071) acc 72.66 (70.44) (mean 64.25 many 70.89 med 63.84 few 46.86) kd 0.1103 lr 2.0000e-02 eta 0:30:18
+epoch [1/5] batch [690/906] time 0.472 (0.472) loss 1.0969 (1.0501) acc 67.97 (69.70) (mean 64.24 many 70.76 med 63.87 few 47.07) kd 0.1078 lr 2.0000e-02 eta 0:30:13
+epoch [1/5] batch [700/906] time 0.470 (0.472) loss 1.2506 (1.1548) acc 69.53 (68.21) (mean 64.08 many 70.48 med 63.71 few 47.31) kd 0.1028 lr 2.0000e-02 eta 0:30:09
+epoch [1/5] batch [710/906] time 0.471 (0.472) loss 0.9026 (1.0550) acc 76.56 (70.97) (mean 64.40 many 71.19 med 63.83 few 47.20) kd 0.1162 lr 2.0000e-02 eta 0:30:04
+epoch [1/5] batch [720/906] time 0.470 (0.472) loss 1.4012 (1.1139) acc 64.06 (70.13) (mean 64.39 many 71.20 med 63.72 few 47.44) kd 0.1091 lr 2.0000e-02 eta 0:29:59
+epoch [1/5] batch [730/906] time 0.472 (0.472) loss 0.9866 (1.0848) acc 74.22 (71.15) (mean 64.56 many 71.98 med 63.49 few 47.37) kd 0.1086 lr 2.0000e-02 eta 0:29:54
+epoch [1/5] batch [740/906] time 0.471 (0.472) loss 0.9393 (1.0447) acc 73.44 (70.93) (mean 64.66 many 71.93 med 63.64 few 47.62) kd 0.1042 lr 2.0000e-02 eta 0:29:49
+epoch [1/5] batch [750/906] time 0.472 (0.472) loss 1.0762 (1.0232) acc 71.09 (71.49) (mean 64.64 many 71.81 med 63.68 few 47.71) kd 0.1135 lr 2.0000e-02 eta 0:29:45
+epoch [1/5] batch [760/906] time 0.471 (0.472) loss 0.9268 (1.0383) acc 71.09 (70.21) (mean 64.60 many 71.49 med 63.82 few 47.83) kd 0.1124 lr 2.0000e-02 eta 0:29:40
+epoch [1/5] batch [770/906] time 0.470 (0.472) loss 1.0235 (1.0776) acc 70.31 (69.08) (mean 64.44 many 70.85 med 63.99 few 47.89) kd 0.1088 lr 2.0000e-02 eta 0:29:35
+epoch [1/5] batch [780/906] time 0.472 (0.472) loss 1.2956 (1.1180) acc 65.62 (69.55) (mean 64.46 many 70.71 med 64.09 few 48.07) kd 0.1108 lr 2.0000e-02 eta 0:29:30
+epoch [1/5] batch [790/906] time 0.469 (0.472) loss 1.0059 (1.0714) acc 68.75 (70.01) (mean 64.67 many 71.01 med 64.25 few 48.21) kd 0.1104 lr 2.0000e-02 eta 0:29:26
+epoch [1/5] batch [800/906] time 0.471 (0.472) loss 1.0199 (1.0495) acc 69.53 (70.21) (mean 64.83 many 71.45 med 64.23 few 48.21) kd 0.1053 lr 2.0000e-02 eta 0:29:21
+epoch [1/5] batch [810/906] time 0.471 (0.472) loss 0.9438 (1.0362) acc 68.75 (70.41) (mean 64.82 many 71.23 med 64.36 few 48.30) kd 0.1113 lr 2.0000e-02 eta 0:29:16
+epoch [1/5] batch [820/906] time 0.470 (0.472) loss 1.0233 (1.0101) acc 72.66 (71.72) (mean 65.08 many 71.68 med 64.56 few 48.24) kd 0.1138 lr 2.0000e-02 eta 0:29:11
+epoch [1/5] batch [830/906] time 0.473 (0.472) loss 1.1251 (1.0204) acc 64.84 (70.76) (mean 65.17 many 71.79 med 64.69 few 48.11) kd 0.1057 lr 2.0000e-02 eta 0:29:06
+epoch [1/5] batch [840/906] time 0.471 (0.472) loss 1.0803 (1.0799) acc 71.09 (69.68) (mean 64.99 many 71.35 med 64.73 few 47.94) kd 0.1006 lr 2.0000e-02 eta 0:29:02
+epoch [1/5] batch [850/906] time 0.471 (0.472) loss 1.0953 (1.0246) acc 64.84 (69.65) (mean 64.94 many 71.25 med 64.67 few 48.04) kd 0.1110 lr 2.0000e-02 eta 0:28:57
+epoch [1/5] batch [860/906] time 0.471 (0.472) loss 1.0846 (1.0266) acc 72.66 (70.89) (mean 65.12 many 71.68 med 64.66 few 48.20) kd 0.1126 lr 2.0000e-02 eta 0:28:52
+epoch [1/5] batch [870/906] time 0.471 (0.472) loss 1.0733 (1.0764) acc 68.75 (70.01) (mean 64.87 many 71.20 med 64.48 few 48.28) kd 0.1098 lr 2.0000e-02 eta 0:28:47
+epoch [1/5] batch [880/906] time 0.472 (0.472) loss 0.8855 (1.0187) acc 75.78 (69.91) (mean 64.88 many 70.82 med 64.76 few 48.52) kd 0.1151 lr 2.0000e-02 eta 0:28:43
+epoch [1/5] batch [890/906] time 0.470 (0.472) loss 0.9850 (1.0182) acc 68.75 (71.67) (mean 65.21 many 71.19 med 65.09 few 48.67) kd 0.1147 lr 2.0000e-02 eta 0:28:38
+epoch [1/5] batch [900/906] time 0.471 (0.472) loss 1.1305 (1.0207) acc 64.84 (70.79) (mean 65.25 many 71.25 med 65.08 few 48.88) kd 0.1078 lr 2.0000e-02 eta 0:28:33
+epoch [2/5] batch [10/906] time 0.467 (0.473) loss 0.7751 (0.8715) acc 78.12 (74.75) (mean 65.85 many 72.00 med 65.57 few 49.39) kd 0.1123 lr 1.8090e-02 eta 0:28:27
+epoch [2/5] batch [20/906] time 0.469 (0.473) loss 0.9424 (0.8805) acc 72.66 (74.53) (mean 66.37 many 72.86 med 65.87 few 49.76) kd 0.1066 lr 1.8090e-02 eta 0:28:23
+epoch [2/5] batch [30/906] time 0.468 (0.473) loss 0.8788 (0.8992) acc 72.66 (73.40) (mean 66.43 many 72.66 med 66.14 few 49.78) kd 0.1108 lr 1.8090e-02 eta 0:28:18
+epoch [2/5] batch [40/906] time 0.468 (0.472) loss 0.8952 (0.8644) acc 79.69 (74.70) (mean 66.90 many 72.84 med 66.91 few 50.05) kd 0.1164 lr 1.8090e-02 eta 0:28:13
+epoch [2/5] batch [50/906] time 0.470 (0.472) loss 0.8752 (0.8479) acc 72.66 (74.86) (mean 67.32 many 73.39 med 67.25 few 50.41) kd 0.1116 lr 1.8090e-02 eta 0:28:08
+epoch [2/5] batch [60/906] time 0.467 (0.472) loss 0.8656 (0.8532) acc 77.34 (75.39) (mean 67.66 many 73.89 med 67.51 few 50.56) kd 0.1130 lr 1.8090e-02 eta 0:28:03
+epoch [2/5] batch [70/906] time 0.468 (0.472) loss 0.8748 (0.8445) acc 76.56 (75.81) (mean 68.03 many 74.34 med 67.85 few 50.79) kd 0.1163 lr 1.8090e-02 eta 0:27:58
+epoch [2/5] batch [80/906] time 0.470 (0.472) loss 0.7072 (0.8153) acc 80.47 (75.43) (mean 68.29 many 74.49 med 68.16 few 51.16) kd 0.1172 lr 1.8090e-02 eta 0:27:53
+epoch [2/5] batch [90/906] time 0.469 (0.472) loss 0.8973 (0.8516) acc 75.78 (75.40) (mean 68.56 many 74.94 med 68.24 few 51.62) kd 0.1143 lr 1.8090e-02 eta 0:27:49
+epoch [2/5] batch [100/906] time 0.467 (0.472) loss 0.8659 (0.8758) acc 75.00 (75.20) (mean 68.59 many 74.66 med 68.44 few 51.92) kd 0.1106 lr 1.8090e-02 eta 0:27:44
+epoch [2/5] batch [110/906] time 0.470 (0.472) loss 0.9452 (0.8709) acc 69.53 (73.91) (mean 68.57 many 74.26 med 68.64 few 52.17) kd 0.1131 lr 1.8090e-02 eta 0:27:39
+epoch [2/5] batch [120/906] time 0.468 (0.472) loss 1.3067 (0.9382) acc 67.97 (72.75) (mean 68.61 many 74.04 med 68.82 few 52.49) kd 0.1078 lr 1.8090e-02 eta 0:27:34
+epoch [2/5] batch [130/906] time 0.470 (0.472) loss 1.1092 (0.9508) acc 71.09 (72.92) (mean 68.62 many 74.00 med 68.84 few 52.61) kd 0.1143 lr 1.8090e-02 eta 0:27:29
+epoch [2/5] batch [140/906] time 0.470 (0.472) loss 0.9470 (0.8412) acc 73.44 (75.48) (mean 69.00 many 74.67 med 69.03 few 52.80) kd 0.1110 lr 1.8090e-02 eta 0:27:25
+epoch [2/5] batch [150/906] time 0.471 (0.472) loss 0.7267 (0.8464) acc 75.00 (74.67) (mean 68.96 many 74.54 med 69.03 few 52.89) kd 0.1214 lr 1.8090e-02 eta 0:27:20
+epoch [2/5] batch [160/906] time 0.469 (0.472) loss 0.9196 (0.8807) acc 75.00 (74.83) (mean 69.07 many 74.48 med 69.23 few 53.16) kd 0.1162 lr 1.8090e-02 eta 0:27:15
+epoch [2/5] batch [170/906] time 0.470 (0.472) loss 0.5675 (0.8214) acc 82.03 (75.23) (mean 69.23 many 74.45 med 69.57 few 53.26) kd 0.1172 lr 1.8090e-02 eta 0:27:10
+epoch [2/5] batch [180/906] time 0.470 (0.472) loss 0.7993 (0.8053) acc 72.66 (74.42) (mean 69.27 many 74.26 med 69.78 few 53.33) kd 0.1186 lr 1.8090e-02 eta 0:27:05
+epoch [2/5] batch [190/906] time 0.469 (0.472) loss 0.7586 (0.8313) acc 75.00 (75.35) (mean 69.56 many 74.78 med 70.01 few 53.25) kd 0.1147 lr 1.8090e-02 eta 0:27:00
+epoch [2/5] batch [200/906] time 0.469 (0.472) loss 0.9884 (0.8618) acc 67.19 (74.13) (mean 69.52 many 74.50 med 70.18 few 53.12) kd 0.1157 lr 1.8090e-02 eta 0:26:56
+epoch [2/5] batch [210/906] time 0.468 (0.472) loss 0.9626 (0.8762) acc 73.44 (73.88) (mean 69.48 many 74.32 med 70.20 few 53.23) kd 0.1145 lr 1.8090e-02 eta 0:26:51
+epoch [2/5] batch [220/906] time 0.470 (0.472) loss 0.8436 (0.8500) acc 75.00 (75.74) (mean 69.83 many 74.97 med 70.31 few 53.56) kd 0.1185 lr 1.8090e-02 eta 0:26:46
+epoch [2/5] batch [230/906] time 0.470 (0.472) loss 0.7042 (0.8186) acc 78.12 (76.17) (mean 69.95 many 75.13 med 70.39 few 53.76) kd 0.1166 lr 1.8090e-02 eta 0:26:41
+epoch [2/5] batch [240/906] time 0.471 (0.472) loss 0.8263 (0.8788) acc 75.00 (75.20) (mean 70.01 many 75.37 med 70.31 few 53.76) kd 0.1165 lr 1.8090e-02 eta 0:26:37
+epoch [2/5] batch [250/906] time 0.469 (0.472) loss 0.8626 (0.8580) acc 71.09 (74.31) (mean 70.01 many 75.17 med 70.39 few 54.09) kd 0.1144 lr 1.8090e-02 eta 0:26:32
+epoch [2/5] batch [260/906] time 0.468 (0.472) loss 0.7291 (0.9080) acc 76.56 (73.15) (mean 69.85 many 74.28 med 70.66 few 54.44) kd 0.1172 lr 1.8090e-02 eta 0:26:27
+epoch [2/5] batch [270/906] time 0.468 (0.472) loss 1.0092 (0.8144) acc 64.84 (73.98) (mean 70.07 many 74.51 med 70.90 few 54.58) kd 0.1116 lr 1.8090e-02 eta 0:26:22
+epoch [2/5] batch [280/906] time 0.471 (0.472) loss 0.8889 (0.8622) acc 73.44 (73.60) (mean 70.00 many 74.08 med 71.10 few 54.58) kd 0.1089 lr 1.8090e-02 eta 0:26:17
+epoch [2/5] batch [290/906] time 0.469 (0.472) loss 0.8945 (0.8532) acc 70.31 (75.43) (mean 70.39 many 74.99 med 71.16 few 54.68) kd 0.1157 lr 1.8090e-02 eta 0:26:13
+epoch [2/5] batch [300/906] time 0.471 (0.472) loss 0.6829 (0.8781) acc 78.12 (74.40) (mean 70.44 many 74.86 med 71.33 few 54.75) kd 0.1185 lr 1.8090e-02 eta 0:26:08
+epoch [2/5] batch [310/906] time 0.470 (0.472) loss 0.7819 (0.8448) acc 75.00 (76.13) (mean 70.82 many 75.38 med 71.62 few 55.07) kd 0.1151 lr 1.8090e-02 eta 0:26:03
+epoch [2/5] batch [320/906] time 0.470 (0.472) loss 0.8522 (0.8690) acc 76.56 (74.20) (mean 70.59 many 74.41 med 71.89 few 55.19) kd 0.1159 lr 1.8090e-02 eta 0:25:58
+epoch [2/5] batch [330/906] time 0.472 (0.472) loss 0.9661 (0.8554) acc 72.66 (73.23) (mean 70.43 many 74.08 med 71.75 few 55.45) kd 0.1110 lr 1.8090e-02 eta 0:25:54
+epoch [2/5] batch [340/906] time 0.469 (0.472) loss 1.1421 (0.9237) acc 70.31 (73.67) (mean 70.47 many 73.84 med 71.99 few 55.58) kd 0.1122 lr 1.8090e-02 eta 0:25:49
+epoch [2/5] batch [350/906] time 0.466 (0.472) loss 0.8887 (0.8522) acc 75.78 (74.91) (mean 70.61 many 74.33 med 71.83 few 55.77) kd 0.1160 lr 1.8090e-02 eta 0:25:44
+epoch [2/5] batch [360/906] time 0.469 (0.472) loss 0.9314 (0.8430) acc 69.53 (75.13) (mean 70.73 many 74.44 med 71.95 few 55.98) kd 0.1124 lr 1.8090e-02 eta 0:25:39
+epoch [2/5] batch [370/906] time 0.470 (0.472) loss 1.0895 (0.8960) acc 68.75 (73.74) (mean 70.64 many 74.17 med 71.93 few 56.12) kd 0.1082 lr 1.8090e-02 eta 0:25:34
+epoch [2/5] batch [380/906] time 0.469 (0.472) loss 0.8959 (0.8672) acc 70.31 (73.86) (mean 70.59 many 73.84 med 72.06 few 56.17) kd 0.1123 lr 1.8090e-02 eta 0:25:30
+epoch [2/5] batch [390/906] time 0.470 (0.472) loss 0.7866 (0.8646) acc 76.56 (72.86) (mean 70.44 many 73.52 med 72.04 few 56.07) kd 0.1168 lr 1.8090e-02 eta 0:25:25
+epoch [2/5] batch [400/906] time 0.470 (0.472) loss 0.8112 (0.8497) acc 78.12 (73.96) (mean 70.48 many 73.60 med 72.04 few 56.16) kd 0.1156 lr 1.8090e-02 eta 0:25:20
+epoch [2/5] batch [410/906] time 0.470 (0.472) loss 0.7768 (0.8203) acc 76.56 (75.20) (mean 70.82 many 74.15 med 72.30 few 56.23) kd 0.1174 lr 1.8090e-02 eta 0:25:15
+epoch [2/5] batch [420/906] time 0.470 (0.472) loss 0.8328 (0.8561) acc 78.12 (74.78) (mean 70.93 many 74.51 med 72.17 few 56.42) kd 0.1139 lr 1.8090e-02 eta 0:25:11
+epoch [2/5] batch [430/906] time 0.469 (0.472) loss 0.7567 (0.8058) acc 76.56 (75.58) (mean 71.04 many 74.66 med 72.22 few 56.64) kd 0.1175 lr 1.8090e-02 eta 0:25:06
+epoch [2/5] batch [440/906] time 0.469 (0.472) loss 0.9358 (0.8494) acc 64.84 (73.39) (mean 70.89 many 74.47 med 72.03 few 56.73) kd 0.1120 lr 1.8090e-02 eta 0:25:01
+epoch [2/5] batch [450/906] time 0.468 (0.472) loss 0.7338 (0.8293) acc 76.56 (74.55) (mean 71.02 many 74.80 med 72.00 few 56.86) kd 0.1144 lr 1.8090e-02 eta 0:24:56
+epoch [2/5] batch [460/906] time 0.468 (0.472) loss 1.0096 (0.8714) acc 72.66 (74.58) (mean 71.26 many 75.31 med 71.99 few 57.21) kd 0.1106 lr 1.8090e-02 eta 0:24:52
+epoch [2/5] batch [470/906] time 0.469 (0.472) loss 0.8770 (0.8706) acc 78.12 (74.73) (mean 71.23 many 74.92 med 72.21 few 57.30) kd 0.1188 lr 1.8090e-02 eta 0:24:47
+epoch [2/5] batch [480/906] time 0.471 (0.472) loss 0.7625 (0.8660) acc 78.91 (74.70) (mean 71.24 many 75.06 med 72.09 few 57.40) kd 0.1169 lr 1.8090e-02 eta 0:24:42
+epoch [2/5] batch [490/906] time 0.471 (0.472) loss 0.9408 (0.8611) acc 71.88 (74.19) (mean 71.19 many 74.80 med 72.16 few 57.57) kd 0.1148 lr 1.8090e-02 eta 0:24:37
+epoch [2/5] batch [500/906] time 0.469 (0.472) loss 1.1872 (0.9266) acc 69.53 (72.74) (mean 71.01 many 74.58 med 71.94 few 57.61) kd 0.1144 lr 1.8090e-02 eta 0:24:33
+epoch [2/5] batch [510/906] time 0.468 (0.472) loss 0.8850 (0.9115) acc 77.34 (73.80) (mean 70.95 many 74.36 med 71.97 few 57.70) kd 0.1191 lr 1.8090e-02 eta 0:24:28
+epoch [2/5] batch [520/906] time 0.470 (0.471) loss 0.7688 (0.9008) acc 79.69 (74.45) (mean 71.06 many 74.66 med 71.92 few 57.82) kd 0.1158 lr 1.8090e-02 eta 0:24:23
+epoch [2/5] batch [530/906] time 0.470 (0.471) loss 0.6104 (0.8434) acc 76.56 (74.21) (mean 71.01 many 74.43 med 71.92 few 58.10) kd 0.1160 lr 1.8090e-02 eta 0:24:18
+epoch [2/5] batch [540/906] time 0.467 (0.471) loss 0.9335 (0.9056) acc 75.78 (72.68) (mean 70.73 many 73.89 med 71.76 few 58.15) kd 0.1167 lr 1.8090e-02 eta 0:24:14
+epoch [2/5] batch [550/906] time 0.471 (0.471) loss 0.7262 (0.8393) acc 78.12 (74.46) (mean 70.86 many 74.24 med 71.74 few 58.18) kd 0.1184 lr 1.8090e-02 eta 0:24:09
+epoch [2/5] batch [560/906] time 0.468 (0.471) loss 0.8116 (0.7962) acc 78.91 (75.43) (mean 71.08 many 74.80 med 71.66 few 58.53) kd 0.1196 lr 1.8090e-02 eta 0:24:04
+epoch [2/5] batch [570/906] time 0.467 (0.471) loss 0.6673 (0.8600) acc 75.78 (74.70) (mean 71.06 many 74.96 med 71.44 few 58.66) kd 0.1166 lr 1.8090e-02 eta 0:23:59
+epoch [2/5] batch [580/906] time 0.471 (0.471) loss 0.7192 (0.8973) acc 71.88 (73.71) (mean 70.97 many 74.64 med 71.45 few 58.84) kd 0.1152 lr 1.8090e-02 eta 0:23:54
+epoch [2/5] batch [590/906] time 0.471 (0.471) loss 0.8974 (0.8329) acc 75.00 (74.65) (mean 71.03 many 74.72 med 71.48 few 59.05) kd 0.1174 lr 1.8090e-02 eta 0:23:50
+epoch [2/5] batch [600/906] time 0.470 (0.471) loss 0.8803 (0.8734) acc 78.12 (74.39) (mean 71.07 many 75.03 med 71.31 few 58.99) kd 0.1183 lr 1.8090e-02 eta 0:23:45
+epoch [2/5] batch [610/906] time 0.469 (0.471) loss 0.6972 (0.8452) acc 75.00 (74.85) (mean 71.14 many 75.28 med 71.19 few 59.27) kd 0.1182 lr 1.8090e-02 eta 0:23:40
+epoch [2/5] batch [620/906] time 0.471 (0.471) loss 0.8938 (0.8282) acc 73.44 (75.22) (mean 71.37 many 75.35 med 71.52 few 59.55) kd 0.1150 lr 1.8090e-02 eta 0:23:35
+epoch [2/5] batch [630/906] time 0.471 (0.471) loss 0.9693 (0.8522) acc 69.53 (74.91) (mean 71.54 many 75.52 med 71.71 few 59.69) kd 0.1106 lr 1.8090e-02 eta 0:23:31
+epoch [2/5] batch [640/906] time 0.470 (0.471) loss 0.7937 (0.8476) acc 71.09 (74.19) (mean 71.46 many 75.26 med 71.72 few 59.83) kd 0.1175 lr 1.8090e-02 eta 0:23:26
+epoch [2/5] batch [650/906] time 0.469 (0.471) loss 0.8577 (0.8061) acc 71.09 (73.98) (mean 71.37 many 74.92 med 71.79 few 59.86) kd 0.1160 lr 1.8090e-02 eta 0:23:21
+epoch [2/5] batch [660/906] time 0.469 (0.471) loss 0.8470 (0.8491) acc 70.31 (73.37) (mean 71.36 many 74.72 med 71.91 few 59.92) kd 0.1160 lr 1.8090e-02 eta 0:23:16
+epoch [2/5] batch [670/906] time 0.468 (0.471) loss 0.9036 (0.8942) acc 78.12 (73.89) (mean 71.40 many 74.82 med 71.86 few 60.12) kd 0.1135 lr 1.8090e-02 eta 0:23:12
+epoch [2/5] batch [680/906] time 0.469 (0.471) loss 0.9777 (0.8522) acc 67.19 (74.57) (mean 71.55 many 74.91 med 71.99 few 60.48) kd 0.1117 lr 1.8090e-02 eta 0:23:07
+epoch [2/5] batch [690/906] time 0.470 (0.471) loss 0.9208 (0.8910) acc 72.66 (73.45) (mean 71.31 many 74.57 med 71.67 few 60.79) kd 0.1142 lr 1.8090e-02 eta 0:23:02
+epoch [2/5] batch [700/906] time 0.470 (0.471) loss 1.0143 (0.8951) acc 72.66 (73.18) (mean 71.14 many 74.15 med 71.63 few 60.89) kd 0.1102 lr 1.8090e-02 eta 0:22:57
+epoch [2/5] batch [710/906] time 0.468 (0.471) loss 0.5600 (0.8537) acc 82.81 (73.89) (mean 71.26 many 74.47 med 71.52 few 61.23) kd 0.1204 lr 1.8090e-02 eta 0:22:53
+epoch [2/5] batch [720/906] time 0.469 (0.471) loss 1.0858 (0.8706) acc 61.72 (71.91) (mean 71.05 many 73.89 med 71.50 few 61.39) kd 0.1129 lr 1.8090e-02 eta 0:22:48
+epoch [2/5] batch [730/906] time 0.467 (0.471) loss 0.7757 (0.8481) acc 71.09 (73.40) (mean 71.23 many 74.28 med 71.59 few 61.32) kd 0.1160 lr 1.8090e-02 eta 0:22:43
+epoch [2/5] batch [740/906] time 0.471 (0.471) loss 0.7866 (0.8421) acc 72.66 (74.44) (mean 71.31 many 74.53 med 71.53 few 61.42) kd 0.1164 lr 1.8090e-02 eta 0:22:38
+epoch [2/5] batch [750/906] time 0.469 (0.471) loss 1.0752 (0.8868) acc 63.28 (73.24) (mean 71.22 many 74.31 med 71.57 few 61.23) kd 0.1146 lr 1.8090e-02 eta 0:22:34
+epoch [2/5] batch [760/906] time 0.467 (0.471) loss 0.5828 (0.8611) acc 79.69 (75.03) (mean 71.36 many 74.48 med 71.71 few 61.29) kd 0.1173 lr 1.8090e-02 eta 0:22:29
+epoch [2/5] batch [770/906] time 0.469 (0.471) loss 0.8312 (0.8499) acc 75.00 (74.06) (mean 71.24 many 74.18 med 71.70 few 61.32) kd 0.1146 lr 1.8090e-02 eta 0:22:24
+epoch [2/5] batch [780/906] time 0.469 (0.471) loss 0.7531 (0.8653) acc 77.34 (74.67) (mean 71.31 many 74.25 med 71.77 few 61.41) kd 0.1173 lr 1.8090e-02 eta 0:22:19
+epoch [2/5] batch [790/906] time 0.469 (0.471) loss 0.9199 (0.8621) acc 68.75 (73.61) (mean 71.31 many 74.23 med 71.77 few 61.41) kd 0.1138 lr 1.8090e-02 eta 0:22:15
+epoch [2/5] batch [800/906] time 0.468 (0.471) loss 1.0809 (0.8809) acc 73.44 (73.69) (mean 71.27 many 74.24 med 71.67 few 61.47) kd 0.1199 lr 1.8090e-02 eta 0:22:10
+epoch [2/5] batch [810/906] time 0.468 (0.471) loss 0.9657 (0.8887) acc 76.56 (73.36) (mean 71.20 many 74.22 med 71.52 few 61.55) kd 0.1140 lr 1.8090e-02 eta 0:22:05
+epoch [2/5] batch [820/906] time 0.533 (0.471) loss 0.9730 (0.8417) acc 72.66 (74.35) (mean 71.28 many 74.46 med 71.45 few 61.68) kd 0.1152 lr 1.8090e-02 eta 0:22:01
+epoch [2/5] batch [830/906] time 0.471 (0.471) loss 0.8941 (0.8429) acc 75.78 (74.69) (mean 71.35 many 74.77 med 71.31 few 61.80) kd 0.1194 lr 1.8090e-02 eta 0:21:56
+epoch [2/5] batch [840/906] time 0.469 (0.471) loss 0.7244 (0.8506) acc 76.56 (75.53) (mean 71.46 many 75.30 med 71.11 few 61.84) kd 0.1148 lr 1.8090e-02 eta 0:21:51
+epoch [2/5] batch [850/906] time 0.469 (0.471) loss 1.0288 (0.9060) acc 71.88 (73.04) (mean 71.22 many 74.44 med 71.23 few 62.02) kd 0.1153 lr 1.8090e-02 eta 0:21:46
+epoch [2/5] batch [860/906] time 0.469 (0.471) loss 0.7500 (0.8914) acc 75.00 (73.64) (mean 71.21 many 74.29 med 71.28 few 62.25) kd 0.1150 lr 1.8090e-02 eta 0:21:42
+epoch [2/5] batch [870/906] time 0.470 (0.471) loss 1.0816 (0.8604) acc 71.09 (74.37) (mean 71.21 many 74.47 med 71.13 few 62.30) kd 0.1220 lr 1.8090e-02 eta 0:21:37
+epoch [2/5] batch [880/906] time 0.472 (0.471) loss 1.0543 (0.8763) acc 73.44 (74.49) (mean 71.30 many 74.59 med 71.23 few 62.22) kd 0.1149 lr 1.8090e-02 eta 0:21:32
+epoch [2/5] batch [890/906] time 0.469 (0.471) loss 0.6921 (0.8225) acc 78.12 (75.17) (mean 71.38 many 74.43 med 71.49 few 62.32) kd 0.1182 lr 1.8090e-02 eta 0:21:27
+epoch [2/5] batch [900/906] time 0.471 (0.471) loss 0.8238 (0.8598) acc 72.66 (73.29) (mean 71.20 many 74.09 med 71.41 few 62.31) kd 0.1184 lr 1.8090e-02 eta 0:21:23
+epoch [3/5] batch [10/906] time 0.467 (0.471) loss 0.6872 (0.7355) acc 80.47 (76.31) (mean 71.83 many 75.02 med 71.94 few 62.46) kd 0.1197 lr 1.3090e-02 eta 0:21:16
+epoch [3/5] batch [20/906] time 0.470 (0.471) loss 0.6666 (0.6245) acc 78.91 (79.64) (mean 72.56 many 76.25 med 72.38 few 62.77) kd 0.1211 lr 1.3090e-02 eta 0:21:11
+epoch [3/5] batch [30/906] time 0.469 (0.471) loss 0.5897 (0.6434) acc 82.03 (79.55) (mean 72.99 many 76.85 med 72.79 few 62.77) kd 0.1238 lr 1.3090e-02 eta 0:21:06
+epoch [3/5] batch [40/906] time 0.469 (0.471) loss 0.6579 (0.6558) acc 83.59 (80.52) (mean 73.44 many 77.45 med 73.17 few 63.03) kd 0.1207 lr 1.3090e-02 eta 0:21:02
+epoch [3/5] batch [50/906] time 0.468 (0.471) loss 0.5588 (0.6094) acc 85.16 (81.65) (mean 74.01 many 78.53 med 73.49 few 63.08) kd 0.1251 lr 1.3090e-02 eta 0:20:57
+epoch [3/5] batch [60/906] time 0.470 (0.471) loss 0.5084 (0.6227) acc 84.38 (80.90) (mean 74.33 many 78.55 med 74.02 few 63.45) kd 0.1222 lr 1.3090e-02 eta 0:20:52
+epoch [3/5] batch [70/906] time 0.470 (0.471) loss 0.6924 (0.6150) acc 82.81 (81.33) (mean 74.82 many 79.12 med 74.47 few 63.85) kd 0.1201 lr 1.3090e-02 eta 0:20:47
+epoch [3/5] batch [80/906] time 0.471 (0.471) loss 0.6145 (0.5845) acc 80.47 (81.57) (mean 75.20 many 79.34 med 74.98 few 64.23) kd 0.1189 lr 1.3090e-02 eta 0:20:43
+epoch [3/5] batch [90/906] time 0.469 (0.471) loss 0.5611 (0.6099) acc 81.25 (80.67) (mean 75.37 many 79.31 med 75.33 few 64.37) kd 0.1195 lr 1.3090e-02 eta 0:20:38
+epoch [3/5] batch [100/906] time 0.469 (0.471) loss 0.6561 (0.6256) acc 78.91 (80.70) (mean 75.64 many 79.70 med 75.49 few 64.70) kd 0.1212 lr 1.3090e-02 eta 0:20:33
+epoch [3/5] batch [110/906] time 0.470 (0.471) loss 0.7876 (0.6536) acc 73.44 (79.46) (mean 75.63 many 79.52 med 75.53 few 64.95) kd 0.1181 lr 1.3090e-02 eta 0:20:28
+epoch [3/5] batch [120/906] time 0.472 (0.471) loss 0.5876 (0.5880) acc 78.91 (81.55) (mean 76.05 many 79.98 med 75.96 few 65.21) kd 0.1253 lr 1.3090e-02 eta 0:20:24
+epoch [3/5] batch [130/906] time 0.469 (0.471) loss 0.9632 (0.6226) acc 75.78 (81.29) (mean 76.19 many 80.39 med 75.94 few 65.18) kd 0.1169 lr 1.3090e-02 eta 0:20:19
+epoch [3/5] batch [140/906] time 0.473 (0.471) loss 0.5576 (0.6052) acc 82.81 (80.66) (mean 76.31 many 80.30 med 76.23 few 65.26) kd 0.1178 lr 1.3090e-02 eta 0:20:14
+epoch [3/5] batch [150/906] time 0.472 (0.471) loss 0.5852 (0.6406) acc 85.16 (79.81) (mean 76.27 many 79.93 med 76.36 few 65.54) kd 0.1228 lr 1.3090e-02 eta 0:20:10
+epoch [3/5] batch [160/906] time 0.470 (0.471) loss 0.6649 (0.6290) acc 81.25 (79.58) (mean 76.23 many 79.69 med 76.44 few 65.69) kd 0.1198 lr 1.3090e-02 eta 0:20:05
+epoch [3/5] batch [170/906] time 0.470 (0.471) loss 0.5418 (0.6299) acc 77.34 (78.63) (mean 76.20 many 79.49 med 76.48 few 65.92) kd 0.1185 lr 1.3090e-02 eta 0:20:00
+epoch [3/5] batch [180/906] time 0.473 (0.471) loss 0.4927 (0.5972) acc 82.81 (80.28) (mean 76.46 many 79.96 med 76.59 few 66.11) kd 0.1257 lr 1.3090e-02 eta 0:19:55
+epoch [3/5] batch [190/906] time 0.473 (0.471) loss 0.6820 (0.6615) acc 77.34 (78.50) (mean 76.37 many 79.36 med 76.83 few 66.27) kd 0.1245 lr 1.3090e-02 eta 0:19:51
+epoch [3/5] batch [200/906] time 0.471 (0.471) loss 0.5516 (0.6019) acc 82.81 (79.82) (mean 76.46 many 79.61 med 76.86 few 66.12) kd 0.1228 lr 1.3090e-02 eta 0:19:46
+epoch [3/5] batch [210/906] time 0.470 (0.471) loss 0.8421 (0.6365) acc 72.66 (78.65) (mean 76.28 many 79.19 med 76.78 few 66.26) kd 0.1220 lr 1.3090e-02 eta 0:19:41
+epoch [3/5] batch [220/906] time 0.470 (0.471) loss 0.6716 (0.6173) acc 78.12 (80.24) (mean 76.58 many 79.80 med 76.87 few 66.46) kd 0.1195 lr 1.3090e-02 eta 0:19:37
+epoch [3/5] batch [230/906] time 0.470 (0.471) loss 0.7314 (0.6319) acc 77.34 (79.88) (mean 76.60 many 79.83 med 76.83 few 66.65) kd 0.1211 lr 1.3090e-02 eta 0:19:32
+epoch [3/5] batch [240/906] time 0.471 (0.471) loss 0.7427 (0.6681) acc 73.44 (79.22) (mean 76.61 many 79.61 med 76.97 few 66.88) kd 0.1148 lr 1.3090e-02 eta 0:19:27
+epoch [3/5] batch [250/906] time 0.473 (0.471) loss 0.5314 (0.6252) acc 82.03 (79.71) (mean 76.67 many 79.71 med 76.94 few 67.13) kd 0.1272 lr 1.3090e-02 eta 0:19:23
+epoch [3/5] batch [260/906] time 0.471 (0.471) loss 0.5207 (0.5893) acc 84.38 (81.01) (mean 76.91 many 80.01 med 77.13 few 67.36) kd 0.1218 lr 1.3090e-02 eta 0:19:18
+epoch [3/5] batch [270/906] time 0.472 (0.471) loss 0.8731 (0.6285) acc 75.78 (80.20) (mean 76.97 many 79.93 med 77.32 few 67.36) kd 0.1224 lr 1.3090e-02 eta 0:19:13
+epoch [3/5] batch [280/906] time 0.471 (0.471) loss 0.7521 (0.6548) acc 75.00 (79.48) (mean 76.92 many 79.75 med 77.36 few 67.40) kd 0.1226 lr 1.3090e-02 eta 0:19:08
+epoch [3/5] batch [290/906] time 0.472 (0.471) loss 0.7942 (0.6493) acc 70.31 (79.15) (mean 76.99 many 79.44 med 77.65 few 67.71) kd 0.1223 lr 1.3090e-02 eta 0:19:04
+epoch [3/5] batch [300/906] time 0.472 (0.471) loss 0.6613 (0.6316) acc 80.47 (80.63) (mean 77.12 many 79.74 med 77.68 few 67.76) kd 0.1180 lr 1.3090e-02 eta 0:18:59
+epoch [3/5] batch [310/906] time 0.474 (0.471) loss 0.7346 (0.6335) acc 80.47 (80.09) (mean 77.06 many 79.38 med 77.83 few 67.76) kd 0.1209 lr 1.3090e-02 eta 0:18:54
+epoch [3/5] batch [320/906] time 0.473 (0.471) loss 0.7198 (0.6766) acc 78.91 (79.91) (mean 77.21 many 79.56 med 78.00 few 67.80) kd 0.1154 lr 1.3090e-02 eta 0:18:50
+epoch [3/5] batch [330/906] time 0.472 (0.471) loss 0.4228 (0.6041) acc 85.16 (80.36) (mean 77.33 many 79.99 med 77.88 few 67.84) kd 0.1215 lr 1.3090e-02 eta 0:18:45
+epoch [3/5] batch [340/906] time 0.470 (0.471) loss 0.6198 (0.6217) acc 78.12 (79.83) (mean 77.38 many 79.93 med 77.98 few 68.02) kd 0.1205 lr 1.3090e-02 eta 0:18:40
+epoch [3/5] batch [350/906] time 0.471 (0.471) loss 0.6283 (0.6309) acc 77.34 (79.04) (mean 77.36 many 80.00 med 77.82 few 68.24) kd 0.1166 lr 1.3090e-02 eta 0:18:35
+epoch [3/5] batch [360/906] time 0.473 (0.471) loss 0.8212 (0.6900) acc 78.91 (78.47) (mean 77.29 many 79.73 med 77.81 few 68.56) kd 0.1204 lr 1.3090e-02 eta 0:18:31
+epoch [3/5] batch [370/906] time 0.471 (0.471) loss 0.7101 (0.6751) acc 77.34 (78.63) (mean 77.20 many 79.40 med 77.89 few 68.56) kd 0.1203 lr 1.3090e-02 eta 0:18:26
+epoch [3/5] batch [380/906] time 0.472 (0.471) loss 0.7358 (0.6128) acc 78.12 (80.20) (mean 77.49 many 79.97 med 78.00 few 68.67) kd 0.1188 lr 1.3090e-02 eta 0:18:21
+epoch [3/5] batch [390/906] time 0.470 (0.471) loss 0.6887 (0.6259) acc 78.12 (79.61) (mean 77.50 many 79.87 med 78.06 few 68.85) kd 0.1197 lr 1.3090e-02 eta 0:18:17
+epoch [3/5] batch [400/906] time 0.472 (0.471) loss 0.4788 (0.5955) acc 87.50 (80.68) (mean 77.69 many 80.09 med 78.25 few 68.93) kd 0.1237 lr 1.3090e-02 eta 0:18:12
+epoch [3/5] batch [410/906] time 0.471 (0.471) loss 0.5498 (0.6143) acc 82.81 (80.47) (mean 77.79 many 80.52 med 78.12 few 68.89) kd 0.1284 lr 1.3090e-02 eta 0:18:07
+epoch [3/5] batch [420/906] time 0.470 (0.471) loss 0.4385 (0.6235) acc 86.72 (80.07) (mean 77.71 many 80.09 med 78.28 few 68.94) kd 0.1310 lr 1.3090e-02 eta 0:18:02
+epoch [3/5] batch [430/906] time 0.473 (0.471) loss 0.6228 (0.6297) acc 80.47 (79.55) (mean 77.68 many 79.89 med 78.34 few 69.10) kd 0.1198 lr 1.3090e-02 eta 0:17:58
+epoch [3/5] batch [440/906] time 0.471 (0.471) loss 0.6365 (0.6089) acc 72.66 (79.23) (mean 77.68 many 79.83 med 78.40 few 69.11) kd 0.1162 lr 1.3090e-02 eta 0:17:53
+epoch [3/5] batch [450/906] time 0.471 (0.471) loss 0.6239 (0.6226) acc 81.25 (79.37) (mean 77.77 many 80.07 med 78.34 few 69.24) kd 0.1263 lr 1.3090e-02 eta 0:17:48
+epoch [3/5] batch [460/906] time 0.469 (0.471) loss 0.4928 (0.6282) acc 86.72 (80.01) (mean 77.84 many 80.09 med 78.49 few 69.18) kd 0.1222 lr 1.3090e-02 eta 0:17:44
+epoch [3/5] batch [470/906] time 0.471 (0.471) loss 0.5937 (0.6194) acc 78.12 (79.31) (mean 77.80 many 79.78 med 78.63 few 69.29) kd 0.1256 lr 1.3090e-02 eta 0:17:39
+epoch [3/5] batch [480/906] time 0.468 (0.471) loss 0.7530 (0.6213) acc 78.91 (79.88) (mean 77.82 many 79.69 med 78.70 few 69.42) kd 0.1236 lr 1.3090e-02 eta 0:17:34
+epoch [3/5] batch [490/906] time 0.470 (0.471) loss 0.7213 (0.6443) acc 72.66 (79.10) (mean 77.78 many 79.62 med 78.65 few 69.51) kd 0.1223 lr 1.3090e-02 eta 0:17:29
+epoch [3/5] batch [500/906] time 0.471 (0.471) loss 0.4512 (0.5945) acc 78.91 (80.11) (mean 77.93 many 79.77 med 78.80 few 69.68) kd 0.1232 lr 1.3090e-02 eta 0:17:25
+epoch [3/5] batch [510/906] time 0.470 (0.471) loss 0.4746 (0.6128) acc 81.25 (80.49) (mean 78.06 many 79.97 med 78.87 few 69.78) kd 0.1268 lr 1.3090e-02 eta 0:17:20
+epoch [3/5] batch [520/906] time 0.472 (0.471) loss 0.5277 (0.5983) acc 82.81 (80.73) (mean 78.25 many 80.37 med 78.94 few 69.81) kd 0.1253 lr 1.3090e-02 eta 0:17:15
+epoch [3/5] batch [530/906] time 0.472 (0.471) loss 0.6002 (0.6107) acc 82.81 (80.04) (mean 78.15 many 79.96 med 79.04 few 69.91) kd 0.1228 lr 1.3090e-02 eta 0:17:10
+epoch [3/5] batch [540/906] time 0.471 (0.471) loss 0.7777 (0.6278) acc 75.00 (79.83) (mean 78.19 many 79.86 med 79.19 few 69.95) kd 0.1206 lr 1.3090e-02 eta 0:17:06
+epoch [3/5] batch [550/906] time 0.470 (0.471) loss 0.7857 (0.6607) acc 73.44 (78.92) (mean 78.09 many 79.70 med 79.08 few 70.02) kd 0.1172 lr 1.3090e-02 eta 0:17:01
+epoch [3/5] batch [560/906] time 0.472 (0.471) loss 0.6732 (0.6392) acc 75.00 (78.92) (mean 77.95 many 79.21 med 79.14 few 70.15) kd 0.1227 lr 1.3090e-02 eta 0:16:56
+epoch [3/5] batch [570/906] time 0.472 (0.471) loss 0.6521 (0.6229) acc 80.47 (78.53) (mean 77.88 many 79.00 med 79.09 few 70.45) kd 0.1231 lr 1.3090e-02 eta 0:16:52
+epoch [3/5] batch [580/906] time 0.471 (0.471) loss 0.6682 (0.6030) acc 75.00 (79.37) (mean 78.00 many 79.64 med 78.86 few 70.34) kd 0.1197 lr 1.3090e-02 eta 0:16:47
+epoch [3/5] batch [590/906] time 0.471 (0.471) loss 0.5626 (0.6464) acc 77.34 (77.42) (mean 77.67 many 78.94 med 78.69 few 70.48) kd 0.1226 lr 1.3090e-02 eta 0:16:42
+epoch [3/5] batch [600/906] time 0.471 (0.471) loss 0.9780 (0.7212) acc 70.31 (77.15) (mean 77.53 many 78.74 med 78.49 few 70.70) kd 0.1216 lr 1.3090e-02 eta 0:16:37
+epoch [3/5] batch [610/906] time 0.473 (0.471) loss 0.7029 (0.6697) acc 82.03 (79.58) (mean 77.69 many 79.14 med 78.49 few 70.80) kd 0.1199 lr 1.3090e-02 eta 0:16:33
+epoch [3/5] batch [620/906] time 0.472 (0.471) loss 0.7622 (0.6430) acc 75.00 (79.93) (mean 77.87 many 79.42 med 78.62 few 70.82) kd 0.1239 lr 1.3090e-02 eta 0:16:28
+epoch [3/5] batch [630/906] time 0.472 (0.471) loss 0.3898 (0.6081) acc 85.16 (79.83) (mean 77.97 many 79.48 med 78.77 few 70.88) kd 0.1269 lr 1.3090e-02 eta 0:16:23
+epoch [3/5] batch [640/906] time 0.470 (0.471) loss 0.5171 (0.6361) acc 81.25 (79.02) (mean 77.89 many 79.04 med 78.92 few 71.01) kd 0.1230 lr 1.3090e-02 eta 0:16:19
+epoch [3/5] batch [650/906] time 0.473 (0.471) loss 0.5882 (0.6552) acc 87.50 (79.93) (mean 78.03 many 79.45 med 78.91 few 70.94) kd 0.1223 lr 1.3090e-02 eta 0:16:14
+epoch [3/5] batch [660/906] time 0.471 (0.471) loss 0.8887 (0.6723) acc 73.44 (79.59) (mean 78.08 many 79.51 med 78.92 few 71.05) kd 0.1163 lr 1.3090e-02 eta 0:16:09
+epoch [3/5] batch [670/906] time 0.473 (0.471) loss 0.5387 (0.6449) acc 79.69 (79.63) (mean 78.13 many 79.67 med 78.84 few 71.30) kd 0.1262 lr 1.3090e-02 eta 0:16:04
+epoch [3/5] batch [680/906] time 0.473 (0.471) loss 0.5369 (0.6532) acc 78.91 (78.80) (mean 78.05 many 79.49 med 78.82 few 71.28) kd 0.1235 lr 1.3090e-02 eta 0:16:00
+epoch [3/5] batch [690/906] time 0.471 (0.471) loss 0.6565 (0.6541) acc 82.81 (79.39) (mean 78.03 many 79.59 med 78.70 few 71.26) kd 0.1198 lr 1.3090e-02 eta 0:15:55
+epoch [3/5] batch [700/906] time 0.473 (0.471) loss 0.4325 (0.6021) acc 85.94 (80.43) (mean 78.14 many 79.86 med 78.65 few 71.45) kd 0.1233 lr 1.3090e-02 eta 0:15:51
+epoch [3/5] batch [710/906] time 0.468 (0.471) loss 0.8496 (0.6294) acc 72.66 (79.61) (mean 78.11 many 79.59 med 78.76 few 71.65) kd 0.1222 lr 1.3090e-02 eta 0:15:46
+epoch [3/5] batch [720/906] time 0.469 (0.471) loss 0.5905 (0.6286) acc 83.59 (79.83) (mean 78.20 many 79.61 med 78.91 few 71.67) kd 0.1223 lr 1.3090e-02 eta 0:15:41
+epoch [3/5] batch [730/906] time 0.472 (0.471) loss 0.6115 (0.6274) acc 82.81 (79.98) (mean 78.31 many 79.79 med 79.00 few 71.67) kd 0.1205 lr 1.3090e-02 eta 0:15:36
+epoch [3/5] batch [740/906] time 0.469 (0.471) loss 0.6697 (0.6291) acc 78.12 (79.75) (mean 78.26 many 79.53 med 79.02 few 71.98) kd 0.1241 lr 1.3090e-02 eta 0:15:32
+epoch [3/5] batch [750/906] time 0.473 (0.471) loss 0.8587 (0.6668) acc 72.66 (78.02) (mean 78.04 many 78.96 med 78.94 few 72.26) kd 0.1201 lr 1.3090e-02 eta 0:15:27
+epoch [3/5] batch [760/906] time 0.468 (0.471) loss 0.7030 (0.6291) acc 82.03 (80.22) (mean 78.29 many 79.67 med 78.92 few 72.13) kd 0.1259 lr 1.3090e-02 eta 0:15:22
+epoch [3/5] batch [770/906] time 0.470 (0.471) loss 0.6714 (0.6220) acc 80.47 (80.18) (mean 78.30 many 79.56 med 79.00 few 72.29) kd 0.1208 lr 1.3090e-02 eta 0:15:18
+epoch [3/5] batch [780/906] time 0.474 (0.471) loss 0.5520 (0.6296) acc 83.59 (80.58) (mean 78.40 many 79.72 med 79.05 few 72.36) kd 0.1229 lr 1.3090e-02 eta 0:15:13
+epoch [3/5] batch [790/906] time 0.469 (0.471) loss 0.5852 (0.6877) acc 83.59 (79.03) (mean 78.18 many 79.49 med 78.75 few 72.47) kd 0.1219 lr 1.3090e-02 eta 0:15:08
+epoch [3/5] batch [800/906] time 0.472 (0.471) loss 0.5670 (0.6700) acc 80.47 (78.68) (mean 78.05 many 79.30 med 78.59 few 72.62) kd 0.1222 lr 1.3090e-02 eta 0:15:03
+epoch [3/5] batch [810/906] time 0.468 (0.471) loss 0.5663 (0.6216) acc 81.25 (78.99) (mean 78.05 many 79.11 med 78.67 few 72.85) kd 0.1297 lr 1.3090e-02 eta 0:14:59
+epoch [3/5] batch [820/906] time 0.471 (0.471) loss 0.7940 (0.6166) acc 78.12 (79.77) (mean 78.21 many 79.36 med 78.85 few 72.67) kd 0.1243 lr 1.3090e-02 eta 0:14:54
+epoch [3/5] batch [830/906] time 0.469 (0.471) loss 0.6564 (0.6080) acc 82.03 (80.82) (mean 78.44 many 79.83 med 78.96 few 72.67) kd 0.1237 lr 1.3090e-02 eta 0:14:49
+epoch [3/5] batch [840/906] time 0.470 (0.471) loss 0.7906 (0.6541) acc 77.34 (79.73) (mean 78.45 many 79.96 med 78.80 few 72.92) kd 0.1242 lr 1.3090e-02 eta 0:14:44
+epoch [3/5] batch [850/906] time 0.470 (0.471) loss 0.6875 (0.6302) acc 79.69 (79.96) (mean 78.50 many 79.84 med 78.99 few 72.95) kd 0.1218 lr 1.3090e-02 eta 0:14:40
+epoch [3/5] batch [860/906] time 0.470 (0.471) loss 0.5725 (0.6307) acc 82.81 (78.50) (mean 78.23 many 79.16 med 78.97 few 72.99) kd 0.1213 lr 1.3090e-02 eta 0:14:35
+epoch [3/5] batch [870/906] time 0.470 (0.471) loss 0.4996 (0.5953) acc 82.03 (79.72) (mean 78.39 many 79.46 med 79.02 few 73.11) kd 0.1245 lr 1.3090e-02 eta 0:14:30
+epoch [3/5] batch [880/906] time 0.471 (0.471) loss 0.5138 (0.5773) acc 82.03 (80.73) (mean 78.53 many 79.87 med 78.99 few 73.11) kd 0.1247 lr 1.3090e-02 eta 0:14:26
+epoch [3/5] batch [890/906] time 0.469 (0.471) loss 0.5317 (0.5981) acc 79.69 (80.44) (mean 78.61 many 79.80 med 79.14 few 73.39) kd 0.1220 lr 1.3090e-02 eta 0:14:21
+epoch [3/5] batch [900/906] time 0.469 (0.471) loss 0.5623 (0.6253) acc 80.47 (79.83) (mean 78.51 many 79.58 med 79.05 few 73.52) kd 0.1208 lr 1.3090e-02 eta 0:14:16
+epoch [4/5] batch [10/906] time 0.468 (0.471) loss 0.3983 (0.5060) acc 85.16 (83.42) (mean 78.87 many 80.24 med 79.30 few 73.46) kd 0.1250 lr 6.9098e-03 eta 0:14:09
+epoch [4/5] batch [20/906] time 0.467 (0.471) loss 0.3243 (0.4781) acc 92.19 (83.77) (mean 79.29 many 80.83 med 79.60 few 73.81) kd 0.1313 lr 6.9098e-03 eta 0:14:04
+epoch [4/5] batch [30/906] time 0.469 (0.471) loss 0.5173 (0.4440) acc 82.03 (84.99) (mean 79.77 many 81.47 med 80.04 few 74.00) kd 0.1272 lr 6.9098e-03 eta 0:14:00
+epoch [4/5] batch [40/906] time 0.469 (0.471) loss 0.4491 (0.4400) acc 87.50 (85.71) (mean 80.27 many 82.03 med 80.57 few 74.22) kd 0.1273 lr 6.9098e-03 eta 0:13:55
+epoch [4/5] batch [50/906] time 0.470 (0.471) loss 0.3278 (0.4164) acc 87.50 (85.58) (mean 80.71 many 82.90 med 80.77 few 74.28) kd 0.1282 lr 6.9098e-03 eta 0:13:50
+epoch [4/5] batch [60/906] time 0.469 (0.471) loss 0.3121 (0.4311) acc 87.50 (84.86) (mean 80.92 many 83.17 med 80.92 few 74.56) kd 0.1258 lr 6.9098e-03 eta 0:13:45
+epoch [4/5] batch [70/906] time 0.470 (0.471) loss 0.3976 (0.4376) acc 87.50 (84.99) (mean 81.13 many 83.41 med 81.16 few 74.58) kd 0.1260 lr 6.9098e-03 eta 0:13:41
+epoch [4/5] batch [80/906] time 0.471 (0.471) loss 0.3978 (0.4378) acc 85.16 (86.24) (mean 81.53 many 83.93 med 81.56 few 74.63) kd 0.1238 lr 6.9098e-03 eta 0:13:36
+epoch [4/5] batch [90/906] time 0.471 (0.471) loss 0.4234 (0.4316) acc 85.16 (85.91) (mean 81.73 many 84.14 med 81.78 few 74.71) kd 0.1245 lr 6.9098e-03 eta 0:13:31
+epoch [4/5] batch [100/906] time 0.467 (0.471) loss 0.4024 (0.4485) acc 86.72 (84.43) (mean 81.78 many 83.98 med 81.97 few 74.89) kd 0.1249 lr 6.9098e-03 eta 0:13:27
+epoch [4/5] batch [110/906] time 0.468 (0.471) loss 0.6255 (0.4376) acc 85.16 (85.67) (mean 82.02 many 84.27 med 82.18 few 75.06) kd 0.1258 lr 6.9098e-03 eta 0:13:22
+epoch [4/5] batch [120/906] time 0.469 (0.471) loss 0.2513 (0.3979) acc 92.19 (86.40) (mean 82.37 many 84.69 med 82.54 few 75.25) kd 0.1274 lr 6.9098e-03 eta 0:13:17
+epoch [4/5] batch [130/906] time 0.471 (0.471) loss 0.4899 (0.4397) acc 84.38 (84.97) (mean 82.47 many 84.79 med 82.64 few 75.27) kd 0.1258 lr 6.9098e-03 eta 0:13:12
+epoch [4/5] batch [140/906] time 0.472 (0.471) loss 0.5224 (0.4983) acc 84.38 (83.95) (mean 82.48 many 84.65 med 82.75 few 75.43) kd 0.1243 lr 6.9098e-03 eta 0:13:08
+epoch [4/5] batch [150/906] time 0.470 (0.471) loss 0.4305 (0.4592) acc 85.94 (83.77) (mean 82.52 many 84.44 med 82.93 few 75.60) kd 0.1260 lr 6.9098e-03 eta 0:13:03
+epoch [4/5] batch [160/906] time 0.469 (0.471) loss 0.5229 (0.4744) acc 85.16 (83.69) (mean 82.66 many 84.54 med 83.12 few 75.73) kd 0.1250 lr 6.9098e-03 eta 0:12:58
+epoch [4/5] batch [170/906] time 0.469 (0.471) loss 0.3608 (0.4421) acc 89.84 (85.01) (mean 82.87 many 84.78 med 83.32 few 75.85) kd 0.1287 lr 6.9098e-03 eta 0:12:54
+epoch [4/5] batch [180/906] time 0.470 (0.471) loss 0.4521 (0.4473) acc 85.16 (84.92) (mean 83.00 many 84.92 med 83.46 few 75.99) kd 0.1272 lr 6.9098e-03 eta 0:12:49
+epoch [4/5] batch [190/906] time 0.472 (0.471) loss 0.4356 (0.4494) acc 76.56 (83.63) (mean 82.83 many 84.33 med 83.53 few 76.13) kd 0.1257 lr 6.9098e-03 eta 0:12:44
+epoch [4/5] batch [200/906] time 0.472 (0.471) loss 0.4621 (0.4582) acc 84.38 (83.12) (mean 82.78 many 84.03 med 83.68 few 76.07) kd 0.1260 lr 6.9098e-03 eta 0:12:39
+epoch [4/5] batch [210/906] time 0.473 (0.471) loss 0.4498 (0.4591) acc 82.81 (83.41) (mean 82.74 many 83.80 med 83.72 few 76.30) kd 0.1283 lr 6.9098e-03 eta 0:12:35
+epoch [4/5] batch [220/906] time 0.470 (0.471) loss 0.3551 (0.4436) acc 85.16 (84.21) (mean 82.84 many 84.04 med 83.68 few 76.50) kd 0.1255 lr 6.9098e-03 eta 0:12:30
+epoch [4/5] batch [230/906] time 0.473 (0.471) loss 0.4852 (0.4489) acc 85.16 (84.62) (mean 83.03 many 84.25 med 83.86 few 76.65) kd 0.1284 lr 6.9098e-03 eta 0:12:25
+epoch [4/5] batch [240/906] time 0.469 (0.471) loss 0.3411 (0.4386) acc 86.72 (84.31) (mean 83.05 many 84.26 med 83.88 few 76.69) kd 0.1268 lr 6.9098e-03 eta 0:12:20
+epoch [4/5] batch [250/906] time 0.472 (0.471) loss 0.6062 (0.4208) acc 80.47 (85.62) (mean 83.37 many 84.94 med 83.98 few 76.74) kd 0.1282 lr 6.9098e-03 eta 0:12:16
+epoch [4/5] batch [260/906] time 0.469 (0.471) loss 0.4877 (0.4521) acc 88.28 (85.66) (mean 83.51 many 84.78 med 84.35 few 76.99) kd 0.1279 lr 6.9098e-03 eta 0:12:11
+epoch [4/5] batch [270/906] time 0.471 (0.471) loss 0.4148 (0.4576) acc 84.38 (85.10) (mean 83.57 many 84.77 med 84.44 few 77.07) kd 0.1261 lr 6.9098e-03 eta 0:12:06
+epoch [4/5] batch [280/906] time 0.473 (0.471) loss 0.4107 (0.4179) acc 89.06 (86.16) (mean 83.75 many 84.89 med 84.71 few 77.15) kd 0.1245 lr 6.9098e-03 eta 0:12:02
+epoch [4/5] batch [290/906] time 0.467 (0.471) loss 0.3948 (0.4143) acc 82.03 (85.47) (mean 83.84 many 84.94 med 84.82 few 77.26) kd 0.1266 lr 6.9098e-03 eta 0:11:57
+epoch [4/5] batch [300/906] time 0.469 (0.471) loss 0.3690 (0.4086) acc 85.16 (85.26) (mean 83.90 many 84.84 med 84.99 few 77.39) kd 0.1292 lr 6.9098e-03 eta 0:11:52
+epoch [4/5] batch [310/906] time 0.471 (0.471) loss 0.4338 (0.4400) acc 83.59 (84.17) (mean 83.81 many 84.63 med 84.96 few 77.48) kd 0.1282 lr 6.9098e-03 eta 0:11:47
+epoch [4/5] batch [320/906] time 0.465 (0.471) loss 0.4697 (0.4417) acc 84.38 (84.36) (mean 83.87 many 84.78 med 84.94 few 77.50) kd 0.1266 lr 6.9098e-03 eta 0:11:43
+epoch [4/5] batch [330/906] time 0.470 (0.471) loss 0.5641 (0.4480) acc 78.12 (84.59) (mean 83.92 many 84.71 med 85.08 few 77.59) kd 0.1250 lr 6.9098e-03 eta 0:11:38
+epoch [4/5] batch [340/906] time 0.470 (0.471) loss 0.3726 (0.4362) acc 85.16 (84.58) (mean 83.83 many 84.45 med 85.13 few 77.44) kd 0.1293 lr 6.9098e-03 eta 0:11:33
+epoch [4/5] batch [350/906] time 0.470 (0.471) loss 0.4328 (0.4703) acc 86.72 (83.32) (mean 83.63 many 84.08 med 84.95 few 77.74) kd 0.1262 lr 6.9098e-03 eta 0:11:29
+epoch [4/5] batch [360/906] time 0.469 (0.471) loss 0.4822 (0.4402) acc 81.25 (84.39) (mean 83.71 many 84.02 med 85.09 few 78.00) kd 0.1258 lr 6.9098e-03 eta 0:11:24
+epoch [4/5] batch [370/906] time 0.472 (0.471) loss 0.4111 (0.4353) acc 88.28 (86.03) (mean 83.96 many 84.38 med 85.29 few 78.08) kd 0.1305 lr 6.9098e-03 eta 0:11:19
+epoch [4/5] batch [380/906] time 0.469 (0.471) loss 0.3909 (0.4403) acc 85.94 (85.74) (mean 84.10 many 84.62 med 85.33 few 78.29) kd 0.1261 lr 6.9098e-03 eta 0:11:14
+epoch [4/5] batch [390/906] time 0.471 (0.471) loss 0.4664 (0.4597) acc 85.94 (85.49) (mean 84.17 many 84.69 med 85.34 few 78.57) kd 0.1267 lr 6.9098e-03 eta 0:11:10
+epoch [4/5] batch [400/906] time 0.470 (0.471) loss 0.5329 (0.4447) acc 85.16 (85.76) (mean 84.29 many 84.91 med 85.36 few 78.74) kd 0.1245 lr 6.9098e-03 eta 0:11:05
+epoch [4/5] batch [410/906] time 0.472 (0.471) loss 0.6101 (0.4619) acc 79.69 (84.52) (mean 84.22 many 84.68 med 85.39 few 78.80) kd 0.1315 lr 6.9098e-03 eta 0:11:00
+epoch [4/5] batch [420/906] time 0.469 (0.471) loss 0.3857 (0.4262) acc 89.06 (85.39) (mean 84.32 many 84.92 med 85.41 few 78.77) kd 0.1267 lr 6.9098e-03 eta 0:10:56
+epoch [4/5] batch [430/906] time 0.468 (0.471) loss 0.4136 (0.4270) acc 87.50 (85.21) (mean 84.29 many 84.87 med 85.33 few 79.03) kd 0.1289 lr 6.9098e-03 eta 0:10:51
+epoch [4/5] batch [440/906] time 0.470 (0.471) loss 0.4199 (0.4471) acc 82.03 (85.23) (mean 84.31 many 84.80 med 85.36 few 79.21) kd 0.1293 lr 6.9098e-03 eta 0:10:46
+epoch [4/5] batch [450/906] time 0.473 (0.471) loss 0.3918 (0.4194) acc 84.38 (84.70) (mean 84.25 many 84.68 med 85.29 few 79.33) kd 0.1263 lr 6.9098e-03 eta 0:10:41
+epoch [4/5] batch [460/906] time 0.471 (0.471) loss 0.3904 (0.4447) acc 83.59 (84.51) (mean 84.20 many 84.56 med 85.28 few 79.42) kd 0.1280 lr 6.9098e-03 eta 0:10:37
+epoch [4/5] batch [470/906] time 0.472 (0.471) loss 0.3964 (0.4351) acc 83.59 (85.33) (mean 84.41 many 84.64 med 85.61 few 79.48) kd 0.1280 lr 6.9098e-03 eta 0:10:32
+epoch [4/5] batch [480/906] time 0.472 (0.471) loss 0.3801 (0.4486) acc 84.38 (84.94) (mean 84.38 many 84.55 med 85.64 few 79.46) kd 0.1296 lr 6.9098e-03 eta 0:10:27
+epoch [4/5] batch [490/906] time 0.469 (0.471) loss 0.4897 (0.4530) acc 82.03 (84.25) (mean 84.40 many 84.30 med 85.84 few 79.64) kd 0.1287 lr 6.9098e-03 eta 0:10:23
+epoch [4/5] batch [500/906] time 0.472 (0.471) loss 0.3991 (0.4528) acc 82.03 (83.87) (mean 84.40 many 84.26 med 85.81 few 79.84) kd 0.1249 lr 6.9098e-03 eta 0:10:18
+epoch [4/5] batch [510/906] time 0.473 (0.471) loss 0.4736 (0.3997) acc 83.59 (85.34) (mean 84.65 many 84.76 med 85.88 few 80.01) kd 0.1310 lr 6.9098e-03 eta 0:10:13
+epoch [4/5] batch [520/906] time 0.470 (0.471) loss 0.4640 (0.4342) acc 83.59 (84.80) (mean 84.61 many 84.73 med 85.75 few 80.23) kd 0.1237 lr 6.9098e-03 eta 0:10:08
+epoch [4/5] batch [530/906] time 0.471 (0.471) loss 0.5001 (0.4426) acc 81.25 (84.09) (mean 84.56 many 84.76 med 85.62 few 80.29) kd 0.1258 lr 6.9098e-03 eta 0:10:04
+epoch [4/5] batch [540/906] time 0.473 (0.471) loss 0.3803 (0.4445) acc 85.16 (84.09) (mean 84.50 many 84.66 med 85.58 few 80.27) kd 0.1282 lr 6.9098e-03 eta 0:09:59
+epoch [4/5] batch [550/906] time 0.472 (0.471) loss 0.4618 (0.4491) acc 82.81 (83.94) (mean 84.37 many 84.19 med 85.65 few 80.34) kd 0.1295 lr 6.9098e-03 eta 0:09:54
+epoch [4/5] batch [560/906] time 0.472 (0.471) loss 0.6206 (0.4962) acc 79.69 (83.22) (mean 84.15 many 83.81 med 85.49 few 80.38) kd 0.1264 lr 6.9098e-03 eta 0:09:50
+epoch [4/5] batch [570/906] time 0.473 (0.471) loss 0.3493 (0.4398) acc 86.72 (84.71) (mean 84.27 many 84.08 med 85.48 few 80.53) kd 0.1306 lr 6.9098e-03 eta 0:09:45
+epoch [4/5] batch [580/906] time 0.471 (0.471) loss 0.3789 (0.4665) acc 86.72 (84.79) (mean 84.26 many 84.13 med 85.38 few 80.68) kd 0.1270 lr 6.9098e-03 eta 0:09:40
+epoch [4/5] batch [590/906] time 0.473 (0.471) loss 0.6595 (0.4614) acc 80.47 (84.24) (mean 84.24 many 84.09 med 85.33 few 80.85) kd 0.1248 lr 6.9098e-03 eta 0:09:35
+epoch [4/5] batch [600/906] time 0.473 (0.471) loss 0.3848 (0.4547) acc 87.50 (84.90) (mean 84.33 many 84.00 med 85.56 few 80.96) kd 0.1260 lr 6.9098e-03 eta 0:09:31
+epoch [4/5] batch [610/906] time 0.473 (0.471) loss 0.4352 (0.4697) acc 83.59 (84.29) (mean 84.27 many 83.87 med 85.51 few 81.03) kd 0.1227 lr 6.9098e-03 eta 0:09:26
+epoch [4/5] batch [620/906] time 0.473 (0.471) loss 0.5488 (0.4609) acc 82.81 (85.16) (mean 84.42 many 84.15 med 85.57 few 81.15) kd 0.1233 lr 6.9098e-03 eta 0:09:21
+epoch [4/5] batch [630/906] time 0.472 (0.471) loss 0.3321 (0.4363) acc 88.28 (85.55) (mean 84.48 many 84.24 med 85.55 few 81.37) kd 0.1322 lr 6.9098e-03 eta 0:09:17
+epoch [4/5] batch [640/906] time 0.473 (0.471) loss 0.3318 (0.4337) acc 87.50 (84.91) (mean 84.43 many 84.09 med 85.54 few 81.47) kd 0.1277 lr 6.9098e-03 eta 0:09:12
+epoch [4/5] batch [650/906] time 0.473 (0.471) loss 0.5047 (0.4604) acc 85.94 (85.52) (mean 84.52 many 84.27 med 85.51 few 81.74) kd 0.1282 lr 6.9098e-03 eta 0:09:07
+epoch [4/5] batch [660/906] time 0.473 (0.471) loss 0.4668 (0.4437) acc 86.72 (85.10) (mean 84.54 many 84.41 med 85.43 few 81.80) kd 0.1308 lr 6.9098e-03 eta 0:09:02
+epoch [4/5] batch [670/906] time 0.473 (0.471) loss 0.3643 (0.4691) acc 85.94 (83.62) (mean 84.39 many 84.13 med 85.31 few 81.90) kd 0.1256 lr 6.9098e-03 eta 0:08:58
+epoch [4/5] batch [680/906] time 0.473 (0.471) loss 0.5586 (0.4466) acc 81.25 (84.24) (mean 84.46 many 84.23 med 85.32 few 82.06) kd 0.1247 lr 6.9098e-03 eta 0:08:53
+epoch [4/5] batch [690/906] time 0.471 (0.471) loss 0.4333 (0.4685) acc 79.69 (83.15) (mean 84.33 many 83.97 med 85.29 few 81.96) kd 0.1291 lr 6.9098e-03 eta 0:08:48
+epoch [4/5] batch [700/906] time 0.471 (0.471) loss 0.4281 (0.4403) acc 82.03 (84.93) (mean 84.52 many 84.56 med 85.18 few 82.06) kd 0.1270 lr 6.9098e-03 eta 0:08:44
+epoch [4/5] batch [710/906] time 0.471 (0.471) loss 0.5328 (0.4783) acc 77.34 (83.86) (mean 84.43 many 84.50 med 85.06 few 81.99) kd 0.1207 lr 6.9098e-03 eta 0:08:39
+epoch [4/5] batch [720/906] time 0.471 (0.471) loss 0.3154 (0.4198) acc 83.59 (84.59) (mean 84.51 many 84.58 med 85.11 few 82.18) kd 0.1287 lr 6.9098e-03 eta 0:08:34
+epoch [4/5] batch [730/906] time 0.473 (0.471) loss 0.4024 (0.4098) acc 84.38 (85.27) (mean 84.65 many 84.70 med 85.30 few 82.22) kd 0.1241 lr 6.9098e-03 eta 0:08:29
+epoch [4/5] batch [740/906] time 0.472 (0.471) loss 0.3267 (0.4326) acc 89.84 (85.55) (mean 84.69 many 84.59 med 85.48 few 82.17) kd 0.1250 lr 6.9098e-03 eta 0:08:25
+epoch [4/5] batch [750/906] time 0.470 (0.471) loss 0.4292 (0.4574) acc 82.81 (85.03) (mean 84.71 many 84.63 med 85.47 few 82.29) kd 0.1259 lr 6.9098e-03 eta 0:08:20
+epoch [4/5] batch [760/906] time 0.471 (0.471) loss 0.3649 (0.4683) acc 82.03 (84.74) (mean 84.75 many 84.55 med 85.56 few 82.45) kd 0.1278 lr 6.9098e-03 eta 0:08:15
+epoch [4/5] batch [770/906] time 0.472 (0.471) loss 0.4045 (0.4488) acc 84.38 (84.64) (mean 84.84 many 84.73 med 85.59 few 82.54) kd 0.1300 lr 6.9098e-03 eta 0:08:11
+epoch [4/5] batch [780/906] time 0.472 (0.471) loss 0.5053 (0.4691) acc 81.25 (83.84) (mean 84.77 many 84.40 med 85.68 few 82.58) kd 0.1265 lr 6.9098e-03 eta 0:08:06
+epoch [4/5] batch [790/906] time 0.472 (0.471) loss 0.4872 (0.4557) acc 84.38 (84.42) (mean 84.86 many 84.56 med 85.73 few 82.64) kd 0.1304 lr 6.9098e-03 eta 0:08:01
+epoch [4/5] batch [800/906] time 0.472 (0.471) loss 0.4240 (0.4492) acc 85.94 (84.67) (mean 84.86 many 85.02 med 85.33 few 82.78) kd 0.1308 lr 6.9098e-03 eta 0:07:56
+epoch [4/5] batch [810/906] time 0.473 (0.471) loss 0.4011 (0.4551) acc 84.38 (85.10) (mean 84.90 many 84.92 med 85.44 few 82.95) kd 0.1267 lr 6.9098e-03 eta 0:07:52
+epoch [4/5] batch [820/906] time 0.471 (0.471) loss 0.3602 (0.4113) acc 88.28 (86.31) (mean 85.10 many 85.44 med 85.40 few 83.05) kd 0.1301 lr 6.9098e-03 eta 0:07:47
+epoch [4/5] batch [830/906] time 0.472 (0.471) loss 0.5125 (0.4480) acc 84.38 (84.86) (mean 84.91 many 85.40 med 85.05 few 83.00) kd 0.1207 lr 6.9098e-03 eta 0:07:42
+epoch [4/5] batch [840/906] time 0.471 (0.471) loss 0.4268 (0.4477) acc 84.38 (84.62) (mean 84.85 many 85.28 med 84.98 few 83.21) kd 0.1275 lr 6.9098e-03 eta 0:07:38
+epoch [4/5] batch [850/906] time 0.471 (0.471) loss 0.4146 (0.4573) acc 85.94 (84.99) (mean 84.84 many 85.07 med 85.11 few 83.24) kd 0.1256 lr 6.9098e-03 eta 0:07:33
+epoch [4/5] batch [860/906] time 0.470 (0.471) loss 0.4679 (0.4526) acc 83.59 (84.79) (mean 84.84 many 85.05 med 85.10 few 83.33) kd 0.1274 lr 6.9098e-03 eta 0:07:28
+epoch [4/5] batch [870/906] time 0.470 (0.471) loss 0.3697 (0.4285) acc 89.06 (86.25) (mean 85.08 many 85.31 med 85.34 few 83.51) kd 0.1268 lr 6.9098e-03 eta 0:07:23
+epoch [4/5] batch [880/906] time 0.472 (0.471) loss 0.4913 (0.4877) acc 81.25 (83.78) (mean 84.83 many 84.83 med 85.20 few 83.52) kd 0.1274 lr 6.9098e-03 eta 0:07:19
+epoch [4/5] batch [890/906] time 0.473 (0.471) loss 0.3183 (0.4530) acc 85.16 (83.92) (mean 84.80 many 84.86 med 85.11 few 83.51) kd 0.1253 lr 6.9098e-03 eta 0:07:14
+epoch [4/5] batch [900/906] time 0.470 (0.471) loss 0.4929 (0.4618) acc 82.81 (83.97) (mean 84.77 many 84.94 med 85.01 few 83.45) kd 0.1254 lr 6.9098e-03 eta 0:07:09
+epoch [5/5] batch [10/906] time 0.468 (0.471) loss 0.5028 (0.3881) acc 83.59 (87.72) (mean 85.31 many 85.82 med 85.39 few 83.55) kd 0.1290 lr 1.9098e-03 eta 0:07:02
+epoch [5/5] batch [20/906] time 0.470 (0.471) loss 0.3631 (0.3692) acc 85.94 (87.85) (mean 85.64 many 86.22 med 85.72 few 83.70) kd 0.1264 lr 1.9098e-03 eta 0:06:57
+epoch [5/5] batch [30/906] time 0.471 (0.471) loss 0.3801 (0.3637) acc 89.84 (87.44) (mean 85.79 many 86.23 med 85.97 few 83.91) kd 0.1267 lr 1.9098e-03 eta 0:06:53
+epoch [5/5] batch [40/906] time 0.472 (0.471) loss 0.3440 (0.3487) acc 88.28 (88.03) (mean 86.07 many 86.54 med 86.26 few 84.11) kd 0.1316 lr 1.9098e-03 eta 0:06:48
+epoch [5/5] batch [50/906] time 0.471 (0.471) loss 0.3883 (0.3596) acc 85.94 (87.30) (mean 86.18 many 86.49 med 86.47 few 84.25) kd 0.1294 lr 1.9098e-03 eta 0:06:43
+epoch [5/5] batch [60/906] time 0.470 (0.471) loss 0.4547 (0.3848) acc 83.59 (87.01) (mean 86.19 many 86.31 med 86.59 few 84.41) kd 0.1307 lr 1.9098e-03 eta 0:06:38
+epoch [5/5] batch [70/906] time 0.472 (0.471) loss 0.3600 (0.3830) acc 86.72 (86.68) (mean 86.23 many 86.34 med 86.66 few 84.37) kd 0.1277 lr 1.9098e-03 eta 0:06:34
+epoch [5/5] batch [80/906] time 0.471 (0.471) loss 0.3191 (0.3587) acc 91.41 (87.99) (mean 86.41 many 86.58 med 86.81 few 84.50) kd 0.1312 lr 1.9098e-03 eta 0:06:29
+epoch [5/5] batch [90/906] time 0.470 (0.471) loss 0.4083 (0.3414) acc 89.06 (89.17) (mean 86.78 many 87.23 med 87.01 few 84.70) kd 0.1262 lr 1.9098e-03 eta 0:06:24
+epoch [5/5] batch [100/906] time 0.472 (0.471) loss 0.3507 (0.3396) acc 88.28 (89.23) (mean 86.95 many 87.60 med 87.05 few 84.78) kd 0.1295 lr 1.9098e-03 eta 0:06:19
+epoch [5/5] batch [110/906] time 0.472 (0.471) loss 0.3415 (0.3476) acc 87.50 (87.37) (mean 86.78 many 87.00 med 87.17 few 84.80) kd 0.1274 lr 1.9098e-03 eta 0:06:15
+epoch [5/5] batch [120/906] time 0.470 (0.471) loss 0.3508 (0.3711) acc 87.50 (86.69) (mean 86.80 many 86.89 med 87.27 few 84.92) kd 0.1301 lr 1.9098e-03 eta 0:06:10
+epoch [5/5] batch [130/906] time 0.473 (0.471) loss 0.3862 (0.3595) acc 85.94 (86.98) (mean 86.86 many 86.74 med 87.48 few 85.00) kd 0.1266 lr 1.9098e-03 eta 0:06:05
+epoch [5/5] batch [140/906] time 0.471 (0.471) loss 0.2874 (0.3324) acc 88.28 (87.18) (mean 86.95 many 86.91 med 87.53 few 85.04) kd 0.1324 lr 1.9098e-03 eta 0:06:01
+epoch [5/5] batch [150/906] time 0.469 (0.471) loss 0.4083 (0.3485) acc 81.25 (86.36) (mean 86.92 many 86.63 med 87.65 few 85.18) kd 0.1320 lr 1.9098e-03 eta 0:05:56
+epoch [5/5] batch [160/906] time 0.471 (0.471) loss 0.2847 (0.3308) acc 87.50 (87.50) (mean 87.07 many 87.02 med 87.67 few 85.11) kd 0.1304 lr 1.9098e-03 eta 0:05:51
+epoch [5/5] batch [170/906] time 0.472 (0.471) loss 0.4276 (0.3521) acc 87.50 (87.67) (mean 87.24 many 87.39 med 87.68 few 85.30) kd 0.1287 lr 1.9098e-03 eta 0:05:46
+epoch [5/5] batch [180/906] time 0.471 (0.471) loss 0.2730 (0.3215) acc 88.28 (88.40) (mean 87.29 many 87.40 med 87.73 few 85.43) kd 0.1336 lr 1.9098e-03 eta 0:05:42
+epoch [5/5] batch [190/906] time 0.473 (0.471) loss 0.3221 (0.3411) acc 84.38 (86.80) (mean 87.18 many 87.08 med 87.70 few 85.63) kd 0.1260 lr 1.9098e-03 eta 0:05:37
+epoch [5/5] batch [200/906] time 0.519 (0.471) loss 0.3437 (0.3318) acc 85.94 (87.80) (mean 87.38 many 87.45 med 87.78 few 85.73) kd 0.1254 lr 1.9098e-03 eta 0:05:32
+epoch [5/5] batch [210/906] time 0.471 (0.471) loss 0.2961 (0.3485) acc 90.62 (88.38) (mean 87.53 many 87.66 med 87.96 few 85.66) kd 0.1279 lr 1.9098e-03 eta 0:05:28
+epoch [5/5] batch [220/906] time 0.470 (0.471) loss 0.3911 (0.3680) acc 82.81 (86.57) (mean 87.43 many 87.35 med 87.97 few 85.72) kd 0.1257 lr 1.9098e-03 eta 0:05:23
+epoch [5/5] batch [230/906] time 0.471 (0.471) loss 0.2959 (0.3617) acc 88.28 (86.75) (mean 87.36 many 86.99 med 88.10 few 85.80) kd 0.1307 lr 1.9098e-03 eta 0:05:18
+epoch [5/5] batch [240/906] time 0.471 (0.471) loss 0.3494 (0.3802) acc 86.72 (87.01) (mean 87.40 many 87.21 med 88.00 few 85.82) kd 0.1259 lr 1.9098e-03 eta 0:05:13
+epoch [5/5] batch [250/906] time 0.472 (0.471) loss 0.4609 (0.3577) acc 82.81 (87.49) (mean 87.50 many 87.23 med 88.16 few 85.96) kd 0.1270 lr 1.9098e-03 eta 0:05:09
+epoch [5/5] batch [260/906] time 0.469 (0.472) loss 0.4406 (0.3569) acc 85.94 (87.32) (mean 87.54 many 87.30 med 88.18 few 86.00) kd 0.1231 lr 1.9098e-03 eta 0:05:04
+epoch [5/5] batch [270/906] time 0.472 (0.472) loss 0.4208 (0.3571) acc 83.59 (87.18) (mean 87.61 many 87.30 med 88.27 few 86.17) kd 0.1270 lr 1.9098e-03 eta 0:04:59
+epoch [5/5] batch [280/906] time 0.469 (0.472) loss 0.4193 (0.3630) acc 88.28 (87.55) (mean 87.67 many 87.47 med 88.31 few 86.00) kd 0.1253 lr 1.9098e-03 eta 0:04:55
+epoch [5/5] batch [290/906] time 0.472 (0.472) loss 0.2577 (0.3632) acc 92.97 (87.57) (mean 87.73 many 87.48 med 88.42 few 85.97) kd 0.1312 lr 1.9098e-03 eta 0:04:50
+epoch [5/5] batch [300/906] time 0.471 (0.472) loss 0.2486 (0.3708) acc 90.62 (87.61) (mean 87.66 many 87.27 med 88.42 few 86.07) kd 0.1313 lr 1.9098e-03 eta 0:04:45
+epoch [5/5] batch [310/906] time 0.469 (0.472) loss 0.3265 (0.3353) acc 89.84 (88.18) (mean 87.73 many 87.46 med 88.41 few 86.14) kd 0.1286 lr 1.9098e-03 eta 0:04:41
+epoch [5/5] batch [320/906] time 0.471 (0.471) loss 0.3917 (0.3628) acc 81.25 (86.99) (mean 87.63 many 87.21 med 88.37 few 86.18) kd 0.1291 lr 1.9098e-03 eta 0:04:36
+epoch [5/5] batch [330/906] time 0.468 (0.471) loss 0.4036 (0.3725) acc 85.16 (87.07) (mean 87.63 many 87.14 med 88.42 few 86.25) kd 0.1297 lr 1.9098e-03 eta 0:04:31
+epoch [5/5] batch [340/906] time 0.469 (0.471) loss 0.5003 (0.3722) acc 84.38 (87.31) (mean 87.80 many 87.50 med 88.44 few 86.36) kd 0.1288 lr 1.9098e-03 eta 0:04:26
+epoch [5/5] batch [350/906] time 0.472 (0.471) loss 0.5746 (0.4023) acc 82.81 (85.92) (mean 87.77 many 87.18 med 88.65 few 86.33) kd 0.1239 lr 1.9098e-03 eta 0:04:22
+epoch [5/5] batch [360/906] time 0.466 (0.471) loss 0.4079 (0.3806) acc 86.72 (86.58) (mean 87.80 many 87.22 med 88.69 few 86.32) kd 0.1227 lr 1.9098e-03 eta 0:04:17
+epoch [5/5] batch [370/906] time 0.470 (0.471) loss 0.2843 (0.3567) acc 90.62 (87.93) (mean 87.98 many 87.44 med 88.84 few 86.44) kd 0.1281 lr 1.9098e-03 eta 0:04:12
+epoch [5/5] batch [380/906] time 0.471 (0.471) loss 0.3405 (0.3749) acc 90.62 (87.18) (mean 87.94 many 87.56 med 88.64 few 86.52) kd 0.1278 lr 1.9098e-03 eta 0:04:08
+epoch [5/5] batch [390/906] time 0.472 (0.471) loss 0.3562 (0.3584) acc 88.28 (87.62) (mean 87.94 many 87.47 med 88.71 few 86.58) kd 0.1269 lr 1.9098e-03 eta 0:04:03
+epoch [5/5] batch [400/906] time 0.569 (0.472) loss 0.4552 (0.3599) acc 89.06 (88.38) (mean 88.09 many 87.70 med 88.79 few 86.71) kd 0.1284 lr 1.9098e-03 eta 0:03:58
+epoch [5/5] batch [410/906] time 0.472 (0.472) loss 0.3482 (0.3492) acc 87.50 (88.56) (mean 88.22 many 87.59 med 89.13 few 86.78) kd 0.1294 lr 1.9098e-03 eta 0:03:53
+epoch [5/5] batch [420/906] time 0.471 (0.472) loss 0.4033 (0.3754) acc 86.72 (87.75) (mean 88.16 many 87.47 med 89.15 few 86.59) kd 0.1268 lr 1.9098e-03 eta 0:03:49
+epoch [5/5] batch [430/906] time 0.471 (0.471) loss 0.2287 (0.3518) acc 89.06 (87.99) (mean 88.25 many 87.65 med 89.20 few 86.62) kd 0.1293 lr 1.9098e-03 eta 0:03:44
+epoch [5/5] batch [440/906] time 0.471 (0.471) loss 0.2891 (0.3380) acc 89.06 (88.48) (mean 88.41 many 88.00 med 89.23 few 86.71) kd 0.1271 lr 1.9098e-03 eta 0:03:39
+epoch [5/5] batch [450/906] time 0.471 (0.471) loss 0.3195 (0.3503) acc 90.62 (87.33) (mean 88.18 many 87.45 med 89.17 few 86.74) kd 0.1268 lr 1.9098e-03 eta 0:03:35
+epoch [5/5] batch [460/906] time 0.471 (0.471) loss 0.4039 (0.3555) acc 87.50 (87.55) (mean 88.15 many 87.58 med 89.03 few 86.64) kd 0.1279 lr 1.9098e-03 eta 0:03:30
+epoch [5/5] batch [470/906] time 0.471 (0.471) loss 0.2985 (0.3626) acc 90.62 (87.57) (mean 88.12 many 87.43 med 89.07 few 86.69) kd 0.1292 lr 1.9098e-03 eta 0:03:25
+epoch [5/5] batch [480/906] time 0.468 (0.471) loss 0.3883 (0.3639) acc 88.28 (87.86) (mean 88.14 many 87.36 med 89.10 few 86.92) kd 0.1306 lr 1.9098e-03 eta 0:03:20
+epoch [5/5] batch [490/906] time 0.473 (0.471) loss 0.3187 (0.3240) acc 89.84 (88.77) (mean 88.34 many 87.79 med 89.15 few 87.03) kd 0.1281 lr 1.9098e-03 eta 0:03:16
+epoch [5/5] batch [500/906] time 0.469 (0.471) loss 0.3581 (0.3374) acc 87.50 (87.19) (mean 88.15 many 87.20 med 89.22 few 87.05) kd 0.1279 lr 1.9098e-03 eta 0:03:11
+epoch [5/5] batch [510/906] time 0.470 (0.471) loss 0.3356 (0.3329) acc 86.72 (87.73) (mean 88.33 many 87.53 med 89.31 few 87.15) kd 0.1274 lr 1.9098e-03 eta 0:03:06
+epoch [5/5] batch [520/906] time 0.472 (0.471) loss 0.3302 (0.3700) acc 89.06 (87.29) (mean 88.21 many 87.37 med 89.17 few 87.21) kd 0.1298 lr 1.9098e-03 eta 0:03:01
+epoch [5/5] batch [530/906] time 0.469 (0.471) loss 0.4042 (0.3656) acc 85.94 (87.42) (mean 88.26 many 87.68 med 88.98 few 87.31) kd 0.1301 lr 1.9098e-03 eta 0:02:57
+epoch [5/5] batch [540/906] time 0.470 (0.471) loss 0.4488 (0.3762) acc 84.38 (86.80) (mean 88.21 many 87.49 med 89.03 few 87.38) kd 0.1270 lr 1.9098e-03 eta 0:02:52
+epoch [5/5] batch [550/906] time 0.470 (0.471) loss 0.3502 (0.3560) acc 86.72 (87.17) (mean 88.20 many 87.57 med 88.90 few 87.49) kd 0.1295 lr 1.9098e-03 eta 0:02:47
+epoch [5/5] batch [560/906] time 0.471 (0.471) loss 0.4086 (0.3860) acc 86.72 (87.28) (mean 88.14 many 87.51 med 88.82 few 87.51) kd 0.1293 lr 1.9098e-03 eta 0:02:43
+epoch [5/5] batch [570/906] time 0.471 (0.471) loss 0.2541 (0.3510) acc 90.62 (87.96) (mean 88.17 many 87.66 med 88.77 few 87.50) kd 0.1303 lr 1.9098e-03 eta 0:02:38
+epoch [5/5] batch [580/906] time 0.470 (0.471) loss 0.2745 (0.3576) acc 87.50 (87.83) (mean 88.17 many 87.42 med 88.95 few 87.60) kd 0.1309 lr 1.9098e-03 eta 0:02:33
+epoch [5/5] batch [590/906] time 0.469 (0.471) loss 0.3472 (0.3384) acc 89.84 (88.91) (mean 88.37 many 87.80 med 89.01 few 87.70) kd 0.1305 lr 1.9098e-03 eta 0:02:28
+epoch [5/5] batch [600/906] time 0.470 (0.471) loss 0.3841 (0.3513) acc 87.50 (88.47) (mean 88.42 many 88.01 med 88.96 few 87.72) kd 0.1280 lr 1.9098e-03 eta 0:02:24
+epoch [5/5] batch [610/906] time 0.469 (0.471) loss 0.2436 (0.3422) acc 88.28 (87.19) (mean 88.33 many 87.82 med 88.89 few 87.80) kd 0.1337 lr 1.9098e-03 eta 0:02:19
+epoch [5/5] batch [620/906] time 0.470 (0.471) loss 0.3467 (0.3615) acc 87.50 (86.84) (mean 88.22 many 87.49 med 88.88 few 87.96) kd 0.1305 lr 1.9098e-03 eta 0:02:14
+epoch [5/5] batch [630/906] time 0.472 (0.471) loss 0.2836 (0.3585) acc 89.84 (87.51) (mean 88.30 many 87.73 med 88.87 few 87.92) kd 0.1246 lr 1.9098e-03 eta 0:02:10
+epoch [5/5] batch [640/906] time 0.470 (0.471) loss 0.4074 (0.3690) acc 86.72 (87.23) (mean 88.22 many 87.61 med 88.83 few 87.83) kd 0.1265 lr 1.9098e-03 eta 0:02:05
+epoch [5/5] batch [650/906] time 0.472 (0.471) loss 0.4051 (0.3770) acc 86.72 (85.99) (mean 87.99 many 87.21 med 88.66 few 87.87) kd 0.1325 lr 1.9098e-03 eta 0:02:00
+epoch [5/5] batch [660/906] time 0.472 (0.471) loss 0.4076 (0.3760) acc 86.72 (86.94) (mean 87.97 many 87.05 med 88.72 few 87.93) kd 0.1271 lr 1.9098e-03 eta 0:01:55
+epoch [5/5] batch [670/906] time 0.470 (0.471) loss 0.3787 (0.3334) acc 86.72 (87.05) (mean 87.95 many 86.92 med 88.82 few 87.83) kd 0.1322 lr 1.9098e-03 eta 0:01:51
+epoch [5/5] batch [680/906] time 0.469 (0.471) loss 0.4458 (0.3572) acc 85.94 (87.11) (mean 87.90 many 86.86 med 88.76 few 87.86) kd 0.1301 lr 1.9098e-03 eta 0:01:46
+epoch [5/5] batch [690/906] time 0.470 (0.471) loss 0.4089 (0.3482) acc 89.84 (88.42) (mean 88.11 many 87.26 med 88.82 few 87.99) kd 0.1274 lr 1.9098e-03 eta 0:01:41
+epoch [5/5] batch [700/906] time 0.472 (0.471) loss 0.4837 (0.3580) acc 85.16 (88.28) (mean 88.25 many 87.55 med 88.89 few 87.96) kd 0.1277 lr 1.9098e-03 eta 0:01:37
+epoch [5/5] batch [710/906] time 0.471 (0.471) loss 0.3297 (0.3602) acc 85.94 (87.78) (mean 88.19 many 87.40 med 88.89 few 87.96) kd 0.1257 lr 1.9098e-03 eta 0:01:32
+epoch [5/5] batch [720/906] time 0.471 (0.471) loss 0.2700 (0.3409) acc 90.62 (87.55) (mean 88.08 many 86.98 med 88.96 few 88.07) kd 0.1250 lr 1.9098e-03 eta 0:01:27
+epoch [5/5] batch [730/906] time 0.469 (0.471) loss 0.3731 (0.3365) acc 85.94 (88.27) (mean 88.23 many 87.12 med 89.16 few 88.14) kd 0.1293 lr 1.9098e-03 eta 0:01:22
+epoch [5/5] batch [740/906] time 0.469 (0.471) loss 0.4692 (0.3467) acc 82.03 (87.82) (mean 88.25 many 87.06 med 89.20 few 88.32) kd 0.1268 lr 1.9098e-03 eta 0:01:18
+epoch [5/5] batch [750/906] time 0.471 (0.471) loss 0.2806 (0.3666) acc 92.97 (88.17) (mean 88.33 many 87.37 med 89.12 few 88.25) kd 0.1289 lr 1.9098e-03 eta 0:01:13
+epoch [5/5] batch [760/906] time 0.473 (0.471) loss 0.3679 (0.3704) acc 89.06 (87.07) (mean 88.22 many 87.47 med 88.82 few 88.23) kd 0.1302 lr 1.9098e-03 eta 0:01:08
+epoch [5/5] batch [770/906] time 0.468 (0.471) loss 0.3368 (0.3509) acc 85.94 (87.43) (mean 88.26 many 87.49 med 88.90 few 88.21) kd 0.1305 lr 1.9098e-03 eta 0:01:04
+epoch [5/5] batch [780/906] time 0.471 (0.471) loss 0.4377 (0.3549) acc 82.81 (87.90) (mean 88.37 many 87.88 med 88.83 few 88.15) kd 0.1295 lr 1.9098e-03 eta 0:00:59
+epoch [5/5] batch [790/906] time 0.472 (0.471) loss 0.3164 (0.3451) acc 90.62 (89.16) (mean 88.58 many 88.25 med 88.93 few 88.24) kd 0.1298 lr 1.9098e-03 eta 0:00:54
+epoch [5/5] batch [800/906] time 0.470 (0.471) loss 0.2788 (0.3284) acc 89.84 (88.71) (mean 88.67 many 88.39 med 88.99 few 88.33) kd 0.1280 lr 1.9098e-03 eta 0:00:49
+epoch [5/5] batch [810/906] time 0.471 (0.471) loss 0.2741 (0.3708) acc 88.28 (87.58) (mean 88.48 many 88.12 med 88.77 few 88.44) kd 0.1275 lr 1.9098e-03 eta 0:00:45
+epoch [5/5] batch [820/906] time 0.474 (0.471) loss 0.3006 (0.3563) acc 89.84 (87.75) (mean 88.43 many 87.91 med 88.81 few 88.56) kd 0.1278 lr 1.9098e-03 eta 0:00:40
+epoch [5/5] batch [830/906] time 0.469 (0.471) loss 0.3505 (0.3505) acc 86.72 (87.97) (mean 88.48 many 88.00 med 88.86 few 88.50) kd 0.1319 lr 1.9098e-03 eta 0:00:35
+epoch [5/5] batch [840/906] time 0.471 (0.471) loss 0.3397 (0.3818) acc 89.84 (86.51) (mean 88.32 many 87.56 med 88.88 few 88.54) kd 0.1295 lr 1.9098e-03 eta 0:00:31
+epoch [5/5] batch [850/906] time 0.469 (0.471) loss 0.2443 (0.3552) acc 89.06 (87.68) (mean 88.51 many 87.62 med 89.20 few 88.60) kd 0.1286 lr 1.9098e-03 eta 0:00:26
+epoch [5/5] batch [860/906] time 0.470 (0.471) loss 0.2875 (0.3623) acc 89.84 (87.24) (mean 88.42 many 87.45 med 89.14 few 88.59) kd 0.1294 lr 1.9098e-03 eta 0:00:21
+epoch [5/5] batch [870/906] time 0.472 (0.471) loss 0.3304 (0.3435) acc 89.84 (87.74) (mean 88.55 many 87.59 med 89.32 few 88.53) kd 0.1243 lr 1.9098e-03 eta 0:00:16
+epoch [5/5] batch [880/906] time 0.470 (0.471) loss 0.4649 (0.3663) acc 84.38 (87.12) (mean 88.47 many 87.35 med 89.36 few 88.51) kd 0.1285 lr 1.9098e-03 eta 0:00:12
+epoch [5/5] batch [890/906] time 0.469 (0.471) loss 0.3513 (0.3440) acc 85.16 (87.61) (mean 88.57 many 87.54 med 89.38 few 88.61) kd 0.1228 lr 1.9098e-03 eta 0:00:07
+epoch [5/5] batch [900/906] time 0.474 (0.471) loss 0.3472 (0.3260) acc 86.72 (87.94) (mean 88.59 many 87.55 med 89.42 few 88.63) kd 0.1257 lr 1.9098e-03 eta 0:00:02
+Finish training
+Time elapsed: 0:35:54
+Checkpoint saved to ./output/scale_lora/layer1_scale4.0/checkpoint.pth.tar
+Evaluate on the test set
+* Overall accuracy: 78.41%
+* Mean class accuracy: 78.41%
+* Many: 81.26%  Med: 77.39%  Few: 73.90%

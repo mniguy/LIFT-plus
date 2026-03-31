@@ -115,9 +115,10 @@ _C.v.adaptformer_dim_last_scale = 1.0
 _C.v.adaptformer_gate_scale = 1.0
 _C.v.adaptformer_gate_learnable = True
 
-_C.v.hybrid_mix_mode = "parallel"  # "parallel" / "head_tail" / "sequential"
+_C.v.hybrid_mix_mode = "parallel"  # "parallel" / "head_tail" / "sequential" / "gated_parallel"
 _C.v.hybrid_head_layers = None     # number of early layers for LoRA when mix_mode=head_tail
 _C.v.hybrid_tail_layers = None     # number of late layers for AdaptFormer when mix_mode=head_tail
+_C.v.hybrid_head_tail_order = "lora_first"  # "lora_first": early=LoRA, late=AF / "af_first": early=AF, late=LoRA
 _C.v.sequential_first = "lora"     # "lora" / "adaptformer"
 _C.v.sequential_first_epochs = 0
 _C.v.sequential_second_epochs = 0
@@ -138,6 +139,19 @@ _C.WIKI_MAX_CHARS = 0        # 0이면 글자 수 제한 없음
 
 # Cosine Filtering
 _C.HYBRID_TOPK = 8
+
+# Block-level FFN LoRA bypass (for gated_parallel or standalone)
+# Enables: h = Wx + α·LoRA(x) + β·AdaptFormer(x) at each block
+_C.v.ffn_lora = False              # Block-level LoRA bypass at FFN stage
+_C.v.ffn_lora_dim = None           # Bottleneck dim (defaults to lora_dim)
+_C.v.ffn_lora_gate_scale = 1.0    # Initial scale (α)
+_C.v.ffn_lora_gate_learnable = True  # Learnable α gate
+
+# Class-adaptive training: route LoRA→head classes, AdaptFormer→tail classes
+# Two extra forward passes per batch with each adapter selectively disabled
+_C.CLASS_ADAPTIVE_LOSS = False
+_C.CLASS_ADAPTIVE_HEAD_LAMBDA = 1.0   # extra CE weight for head-class LoRA pass
+_C.CLASS_ADAPTIVE_TAIL_LAMBDA = 1.0   # extra CE weight for tail-class AF pass
 
 _C.WEIGHTS_PATH = ""
 _C.l = CN()

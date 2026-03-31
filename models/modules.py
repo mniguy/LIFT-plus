@@ -35,6 +35,8 @@ class LoRA(nn.Module):
         nn.init.zeros_(self.up)
 
     def forward(self, x):
+        if getattr(self, '_disabled', False):
+            return torch.zeros_like(x)
         x = x @ self.down
         x = x @ self.up
         x = x * self.scale
@@ -75,6 +77,8 @@ class AdaptFormer(Adapter):
             self.register_buffer("scale", scale_tensor, persistent=True)
 
     def forward(self, x):
+        if getattr(self, '_disabled', False):
+            return torch.zeros_like(x)
         x = super().forward(x)
         x = x * self.scale
         return x

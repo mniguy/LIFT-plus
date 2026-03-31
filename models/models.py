@@ -302,6 +302,18 @@ class PEFT_Block(nn.Module):
             learnable_scale=learnable_scale,
         )  # to be optimized
 
+    def add_ffn_lora(self, bottle_dim, scale_init=1.0, learnable_scale=True):
+        """Block-level LoRA bypass parallel to FFN (and AdaptFormer if present).
+        Enables: output = identity + FFN(x) + β·AdaptFormer(identity) + α·FFN_LoRA(identity)
+        i.e., h = Wx + α·LoRA(x) + β·AdaptFormer(x)
+        """
+        self.tuner["ffn_lora"] = LoRA(self.embed_dim, bottle_dim, dtype=self.dtype, device=self.device)
+        scale_tensor = torch.tensor(float(scale_init), dtype=torch.float32, device=self.device)
+        if learnable_scale:
+            self.tuner["ffn_lora_scale"] = nn.Parameter(scale_tensor)
+        else:
+            self.tuner["ffn_lora_scale"] = nn.Parameter(scale_tensor, requires_grad=False)
+
     def add_ssf(self):
         self.attn.add_ssf()
         self.mlp.add_ssf()
@@ -349,6 +361,12 @@ class PEFT_Block(nn.Module):
         
         if hasattr(self.tuner, "adaptformer"):
             x = x + self.tuner.adaptformer(identity)
+
+        if hasattr(self.tuner, "ffn_lora"):
+            ffn_lora_out = self.tuner.ffn_lora(identity)
+            if hasattr(self.tuner, "ffn_lora_scale"):
+                ffn_lora_out = ffn_lora_out * self.tuner.ffn_lora_scale
+            x = x + ffn_lora_out
 
         x = identity + x
 
@@ -407,6 +425,10 @@ class PEFT_Transformer(nn.Module):
     def add_aft(self, layers=None, **kwargs):
         for i in layers:
             self.blocks[i].add_aft(**kwargs)
+
+    def add_ffn_lora(self, layers=None, **kwargs):
+        for i in layers:
+            self.blocks[i].add_ffn_lora(**kwargs)
     
     def forward(self, x, **kwargs):
         raw_input_shape = torch.tensor(x.shape)
