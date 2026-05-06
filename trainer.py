@@ -498,7 +498,9 @@ class Trainer:
                 torch.cuda.empty_cache()
 
         self.tuner = self.model.tuner
-        
+
+        self._init_adaptformer_text_pca()
+
         # print parameters
         tuned_params = sum(p.numel() for p in self.tuner.parameters())
         print(f"Tuned params: {tuned_params}")
@@ -783,10 +785,60 @@ class Trainer:
         # -------------------------
     # PEFT Warm-start (Stage 0)
     # -------------------------
-    def _warmup_select_params(self):
+    # ------------------------------------------------------------------
+    # Method 1 (SVD) + Method 1b (PCA): text-prototype init for AdaptFormer
+    # ------------------------------------------------------------------
+    def _init_adaptformer_text_pca(self):
+        """Initialize AdaptFormer down projection from text prototype SVD/PCA.
+
+        "text_svd": top-k right singular vectors of raw W_text (uncentered).
+            Captures the dominant directions in the text embedding space.
+        "text_pca": top-k right singular vectors of centered W_text (W - mean).
+            Removes the global mean first, so it captures class-discriminative
+            variance rather than the overall embedding location.
+
+        In both cases down.weight ← Vh[:k] and up.weight stays zero, so the
+        adapter output starts at zero (identity residual preserved) while the
+        compression basis is text-informed from step 0.
         """
-        Default: only warm up image_encoder tuner params (PEFT modules),
-        exclude classifier/text_encoder unless user enables them.
+        init_mode = getattr(self.cfg.v, "adaptformer_init", "random")
+        if init_mode not in ("text_svd", "text_pca"):
+            return
+        if not hasattr(self, "text_prior_weight"):
+            print(f"⚠️ [AdaptFormer {init_mode}] text_prior_weight not found. "
+                  "Use classifier_init=semantic/hybrid. Skip.")
+            return
+
+        W = self.text_prior_weight.float()          # (C, d)
+        if init_mode == "text_pca":
+            W = W - W.mean(dim=0, keepdim=True)     # center for PCA
+        _, _, Vh = torch.linalg.svd(W, full_matrices=False)  # Vh: (min(C,d), d)
+
+        n_inited = 0
+        for block in self.model.image_encoder.blocks:
+            if "adaptformer" not in block.tuner:
+                continue
+            af = block.tuner["adaptformer"]
+            k = af.down.weight.shape[0]             # bottle_dim
+            init_w = Vh[:k].to(dtype=af.down.weight.dtype,
+                                device=af.down.weight.device)
+            with torch.no_grad():
+                af.down.weight.copy_(init_w)
+            n_inited += 1
+
+        print(f"[AdaptFormer {init_mode}] Initialized {n_inited} blocks from "
+              f"top-{k} text prototype singular vectors.")
+
+    # ------------------------------------------------------------------
+    # Warmup helper
+    # ------------------------------------------------------------------
+    def _warmup_select_params(self, active_layer_indices=None):
+        """Return warmup-eligible parameters.
+
+        Args:
+            active_layer_indices: if given, restrict image_encoder params
+                to AdaptFormer modules in these ViT block indices only
+                (used by Method 3 progressive warmup).
         """
         cfg = self.cfg
 
@@ -798,7 +850,14 @@ class Trainer:
 
         # NOTE: self.tuner is nn.ParameterDict from PEFT_Model.tuner
         if warm_image and ("image_encoder" in self.tuner):
-            params += list(self.tuner["image_encoder"].parameters())
+            if active_layer_indices is None:
+                params += list(self.tuner["image_encoder"].parameters())
+            else:
+                # Method 3: only collect params from specified block indices
+                for idx in active_layer_indices:
+                    block_tuner = self.model.image_encoder.blocks[idx].tuner
+                    if "adaptformer" in block_tuner:
+                        params += list(block_tuner["adaptformer"].parameters())
 
         if warm_text and ("text_encoder" in self.tuner):
             params += list(self.tuner["text_encoder"].parameters())
@@ -827,6 +886,11 @@ class Trainer:
         """
         Stage0: warm up PEFT modules only with (optional) KD + InfoNCE,
         without CE. After warmup, rebuild optimizer for normal training.
+
+        Supports three optional extensions (all off by default):
+          Method 1: Text-PCA init (handled in build_tuner, not here)
+          Method 2: Tail-weighted InfoNCE  (WARMUP_TAIL_WEIGHTED=True)
+          Method 3: Layer-progressive warmup (PEFT_WARMUP_PROGRESSIVE=True)
         """
         cfg = self.cfg
 
@@ -873,117 +937,168 @@ class Trainer:
             warm_kd_loss = LogitKDLoss(T=text_reg_T)
             print(f"→ [Warmup] KD enabled: lambda={text_reg_lambda}, T={text_reg_T}")
         if infonce_lambda > 0:
-            warm_nce_loss = InfoNCELoss(T=infonce_T, reduction="mean")
-            print(f"→ [Warmup] InfoNCE enabled: lambda={infonce_lambda}, T={infonce_T}")
+            # Method 2: tail-weighted needs per-sample loss
+            tail_weighted = bool(getattr(cfg, "WARMUP_TAIL_WEIGHTED", False))
+            nce_reduction = "none" if tail_weighted else "mean"
+            warm_nce_loss = InfoNCELoss(T=infonce_T, reduction=nce_reduction)
+            print(f"→ [Warmup] InfoNCE enabled: lambda={infonce_lambda}, T={infonce_T}, "
+                  f"tail_weighted={tail_weighted}")
+        else:
+            tail_weighted = False
+
+        # Method 2: precompute per-class weights  w_c ∝ 1 / n_c^power
+        if tail_weighted:
+            tail_power = float(getattr(cfg, "WARMUP_TAIL_WEIGHT_POWER", 0.5))
+            cls_counts = torch.tensor(self.cls_num_list, dtype=torch.float32, device=self.device)
+            inv_freq   = 1.0 / (cls_counts ** tail_power)
+            # normalize so mean weight == 1 (keeps the lambda scale consistent)
+            class_weights = inv_freq / inv_freq.mean()
+            print(f"→ [Warmup] Tail-weighted: power={tail_power}, "
+                  f"weight range [{class_weights.min():.2f}, {class_weights.max():.2f}]")
+
+        # Method 3: layer-progressive warmup
+        progressive = bool(getattr(cfg, "PEFT_WARMUP_PROGRESSIVE", False))
+        if progressive:
+            n_blocks = len(self.model.image_encoder.blocks)
+            prog_start = int(getattr(cfg, "PEFT_WARMUP_PROGRESSIVE_START", 3))
+            prog_start = min(prog_start, n_blocks)
+            print(f"→ [Warmup] Progressive: start with last {prog_start} layers, "
+                  f"expand by 1 each epoch over {warm_epochs} epochs.")
 
         # -------------------------
-        # requires_grad 제어: 기본은 모두 off 후, warmup params만 on
+        # requires_grad 제어: 모두 off 후 warmup params만 on
         # -------------------------
         for p in self.model.parameters():
             p.requires_grad_(False)
         for p in self.tuner.parameters():
             p.requires_grad_(False)
 
-        warm_params = self._warmup_select_params()
-        if len(warm_params) == 0:
-            print("⚠️ [Warmup] No warmup params selected. Skip.")
-            self._peft_warmup_done = True
-            return
-
-        for p in warm_params:
-            p.requires_grad_(True)
-
-        # warmup optimizer (짧은 예열이라 AdamW가 안정적)
-        optim_w = torch.optim.AdamW(warm_params, lr=warm_lr, weight_decay=cfg.weight_decay)
-
         # model forward args
         if cfg.classifier:
             model_args = {"use_classifier": True}
         else:
-            # warmup에서 classifier 없으면 KD는 꺼졌고, InfoNCE만 가능
             text = self.generate_class_prompts()
             model_args = {"text": text, "is_text_feature": False}
 
         self.tuner.train()
-        print("==============================================================")
-        print(f"[Warmup] Start: lr={warm_lr}, epochs={warm_epochs}, steps={warm_steps}, "
-              f"params={sum(p.numel() for p in warm_params)}")
-        print("==============================================================")
-
-        num_batches = len(self.train_loader)
-        total_steps = warm_steps if warm_steps > 0 else warm_epochs * num_batches
-        step = 0
-
-        # amp scaler는 build_optimizer에서 만들어져 있을 수 있음
         scaler = self.scaler if cfg.prec_train == "amp" else None
+        num_batches = len(self.train_loader)
 
-        for epoch in range(10**9):  # steps 기반이면 epoch 수 의미 없음
-            for batch_idx, (image, label) in enumerate(self.train_loader):
-                image = image.to(self.device)
-                label = label.to(self.device)
+        def _run_one_step(image, label, optim_w, step, total_steps):
+            """Run a single warmup gradient step. Returns scalar loss."""
+            def _compute_loss():
+                logit = None
+                if warm_kd_loss is not None:
+                    logit = self.model(image=image, **model_args)
 
-                if cfg.prec_train == "amp":
-                    with torch.autocast(device_type="cuda"):
-                        # student logits (KD에만 필요)
-                        logit = None
-                        if warm_kd_loss is not None:
-                            logit = self.model(image=image, **model_args)
+                loss = 0.0
 
-                        loss = 0.0
+                if warm_kd_loss is not None:
+                    with torch.no_grad():
+                        text_logit = self._compute_text_prior_logits(image)
+                    loss = loss + text_reg_lambda * warm_kd_loss(logit, text_logit)
 
-                        # KD
-                        if warm_kd_loss is not None:
-                            with torch.no_grad():
-                                text_logit = self._compute_text_prior_logits(image)
-                            kd = warm_kd_loss(logit, text_logit)
-                            loss = loss + text_reg_lambda * kd
+                if warm_nce_loss is not None:
+                    feat_txt = self._compute_text_prior_feat(image)
+                    nce = warm_nce_loss(feat_txt, self.text_prior_weight, label)
+                    if tail_weighted:
+                        # Method 2: weight per-sample loss by inverse class frequency
+                        nce = (nce * class_weights[label]).mean()
+                    loss = loss + infonce_lambda * nce
 
-                        # InfoNCE
-                        if warm_nce_loss is not None:
-                            feat_txt = self._compute_text_prior_feat(image)
-                            nce = warm_nce_loss(feat_txt, self.text_prior_weight, label)
-                            loss = loss + infonce_lambda * nce
+                return loss
 
-                    scaler.scale(loss / cfg.accum_step).backward()
-                    if ((step + 1) % cfg.accum_step == 0):
-                        scaler.step(optim_w)
-                        scaler.update()
-                        optim_w.zero_grad()
+            if cfg.prec_train == "amp":
+                with torch.autocast(device_type="cuda"):
+                    loss = _compute_loss()
+                scaler.scale(loss / cfg.accum_step).backward()
+                if (step + 1) % cfg.accum_step == 0:
+                    scaler.step(optim_w)
+                    scaler.update()
+                    optim_w.zero_grad()
+            else:
+                loss = _compute_loss()
+                (loss / cfg.accum_step).backward()
+                if (step + 1) % cfg.accum_step == 0:
+                    optim_w.step()
+                    optim_w.zero_grad()
 
-                else:
-                    logit = None
-                    if warm_kd_loss is not None:
-                        logit = self.model(image=image, **model_args)
+            return float(loss)
 
-                    loss = 0.0
+        # ------------------------------------------------------------------
+        # Method 3: progressive mode — epoch loop, rebuild optimizer each epoch
+        # ------------------------------------------------------------------
+        if progressive:
+            step = 0
+            for epoch in range(warm_epochs):
+                # expand active layers: start with last prog_start, +1 each epoch
+                active_from = max(0, n_blocks - prog_start - epoch)
+                active_layers = list(range(active_from, n_blocks))
 
-                    if warm_kd_loss is not None:
-                        with torch.no_grad():
-                            text_logit = self._compute_text_prior_logits(image)
-                        kd = warm_kd_loss(logit, text_logit)
-                        loss = loss + text_reg_lambda * kd
+                warm_params = self._warmup_select_params(active_layer_indices=active_layers)
+                if len(warm_params) == 0:
+                    print(f"⚠️ [Warmup/Progressive] epoch {epoch}: no params. Skip.")
+                    continue
 
-                    if warm_nce_loss is not None:
-                        feat_txt = self._compute_text_prior_feat(image)
-                        nce = warm_nce_loss(feat_txt, self.text_prior_weight, label)
-                        loss = loss + infonce_lambda * nce
+                for p in self.tuner.parameters():
+                    p.requires_grad_(False)
+                for p in warm_params:
+                    p.requires_grad_(True)
 
-                    (loss / cfg.accum_step).backward()
-                    if ((step + 1) % cfg.accum_step == 0):
-                        optim_w.step()
-                        optim_w.zero_grad()
+                optim_w = torch.optim.AdamW(warm_params, lr=warm_lr,
+                                            weight_decay=cfg.weight_decay)
+                print("==============================================================")
+                print(f"[Warmup/Progressive] epoch {epoch+1}/{warm_epochs}, "
+                      f"active layers {active_layers}, "
+                      f"params={sum(p.numel() for p in warm_params)}")
+                print("==============================================================")
 
-                # logging (간단히)
-                if ((step + 1) % cfg.print_freq == 0) or (step == 0):
-                    msg = [f"[Warmup] step {step+1}/{total_steps} loss={float(loss):.4f}"]
-                    print(" ".join(msg))
-                    sys.stdout.flush()
+                for batch_idx, (image, label) in enumerate(self.train_loader):
+                    image = image.to(self.device)
+                    label = label.to(self.device)
+                    loss_val = _run_one_step(image, label, optim_w, step, -1)
+                    if (step + 1) % cfg.print_freq == 0 or step == 0:
+                        print(f"[Warmup] step {step+1} (ep {epoch+1}) loss={loss_val:.4f}")
+                        sys.stdout.flush()
+                    step += 1
 
-                step += 1
+        # ------------------------------------------------------------------
+        # Standard mode (original + optional Method 2 tail-weighting)
+        # ------------------------------------------------------------------
+        else:
+            warm_params = self._warmup_select_params()
+            if len(warm_params) == 0:
+                print("⚠️ [Warmup] No warmup params selected. Skip.")
+                self._peft_warmup_done = True
+                return
+
+            for p in warm_params:
+                p.requires_grad_(True)
+
+            optim_w = torch.optim.AdamW(warm_params, lr=warm_lr,
+                                        weight_decay=cfg.weight_decay)
+
+            total_steps = warm_steps if warm_steps > 0 else warm_epochs * num_batches
+            step = 0
+
+            print("==============================================================")
+            print(f"[Warmup] Start: lr={warm_lr}, epochs={warm_epochs}, steps={warm_steps}, "
+                  f"params={sum(p.numel() for p in warm_params)}")
+            print("==============================================================")
+
+            for epoch in range(10**9):
+                for batch_idx, (image, label) in enumerate(self.train_loader):
+                    image = image.to(self.device)
+                    label = label.to(self.device)
+                    loss_val = _run_one_step(image, label, optim_w, step, total_steps)
+                    if (step + 1) % cfg.print_freq == 0 or step == 0:
+                        print(f"[Warmup] step {step+1}/{total_steps} loss={loss_val:.4f}")
+                        sys.stdout.flush()
+                    step += 1
+                    if step >= total_steps:
+                        break
                 if step >= total_steps:
                     break
-            if step >= total_steps:
-                break
 
         print("[Warmup] Done. Rebuild optimizer for normal training.")
 

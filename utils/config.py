@@ -95,6 +95,22 @@ _C.WARMUP_TEXT_REG_T      = 0.01
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
 
+# AdaptFormer down projection initialization
+# "random"   : default kaiming (original behavior)
+# "text_svd" : top-k right singular vectors of raw W_text  (uncentered SVD)
+# "text_pca" : top-k right singular vectors of centered W_text (PCA = centered SVD)
+_C.v.adaptformer_init = "random"
+
+# Method 2: Tail-weighted InfoNCE during warmup
+# Weights per-sample InfoNCE loss by inverse class frequency^power
+_C.WARMUP_TAIL_WEIGHTED    = False
+_C.WARMUP_TAIL_WEIGHT_POWER = 0.5  # 0.5 = 1/sqrt(n), 1.0 = 1/n
+
+# Method 3: Layer-progressive warmup
+# Start with last N layers, extend one layer earlier each epoch
+_C.PEFT_WARMUP_PROGRESSIVE       = False
+_C.PEFT_WARMUP_PROGRESSIVE_START = 3  # number of layers to activate at epoch 0
+
 # ---- Bottleneck scaling ablation ----
 _C.v.lora_dim_scale = 1.0
 _C.v.adapter_dim_scale = 1.0
@@ -117,7 +133,7 @@ _C.v.adaptformer_gate_learnable = True
 
 _C.v.hybrid_mix_mode = "parallel"  # "parallel" / "head_tail" / "sequential" / "gated_parallel"
 _C.v.hybrid_head_layers = None     # number of early layers for LoRA when mix_mode=head_tail
-_C.v.hybrid_tail_layers = None     # number of late layers for AdaptFormer when mix_mode=head_tail
+_C.v.hybrid_tail_layers = None     # number of late layers for AdaptFormer when mix_mod e=head_tail
 _C.v.hybrid_head_tail_order = "lora_first"  # "lora_first": early=LoRA, late=AF / "af_first": early=AF, late=LoRA
 _C.v.sequential_first = "lora"     # "lora" / "adaptformer"
 _C.v.sequential_first_epochs = 0
