@@ -21,6 +21,8 @@
 # -----------------------------------------------------------------------
 # Shared warmup hypers — update BEST_EP / BEST_LR / BEST_TEXT after group 1-2
 # -----------------------------------------------------------------------
+GPU_ID=0
+
 BEST_EP=1
 BEST_LR=5e-4
 BEST_TEXT=0.0001
@@ -31,7 +33,7 @@ BEST_TEXT=0.0001
 echo "=== [1] Warmup epoch ablation ==="
 
 for EP in 1 2 3 5; do
-    python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
         PEFT_WARMUP True \
         PEFT_WARMUP_EPOCHS ${EP} \
         PEFT_WARMUP_LR     5e-4 \
@@ -45,7 +47,7 @@ done
 echo "=== [2] Warmup LR ablation ==="
 
 for LR in 1e-4 5e-4 1e-3 2e-3; do
-    python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
         PEFT_WARMUP True \
         PEFT_WARMUP_EPOCHS 1 \
         PEFT_WARMUP_LR     ${LR} \
@@ -61,19 +63,19 @@ done
 echo "=== [3] Init ablation (SVD / PCA) ==="
 
 # SVD init only (no warmup)
-python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     PEFT_WARMUP False \
     v.adaptformer_init text_svd \
     output_dir init/svd
 
 # PCA init only (no warmup)
-python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     PEFT_WARMUP False \
     v.adaptformer_init text_pca \
     output_dir init/pca
 
 # SVD init + warmup
-python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     PEFT_WARMUP True \
     PEFT_WARMUP_EPOCHS ${BEST_EP}  PEFT_WARMUP_LR ${BEST_LR} \
     WARMUP_TEXT_REG_LAMBDA ${BEST_TEXT} \
@@ -81,7 +83,7 @@ python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     output_dir init/svd_warm
 
 # PCA init + warmup
-python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     PEFT_WARMUP True \
     PEFT_WARMUP_EPOCHS ${BEST_EP}  PEFT_WARMUP_LR ${BEST_LR} \
     WARMUP_TEXT_REG_LAMBDA ${BEST_TEXT} \
@@ -95,7 +97,7 @@ python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
 echo "=== [4] Layer-progressive warmup ==="
 
 for START in 2 3 6; do
-    python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
         PEFT_WARMUP True \
         PEFT_WARMUP_EPOCHS ${BEST_EP} \
         PEFT_WARMUP_LR ${BEST_LR} \
@@ -106,7 +108,7 @@ for START in 2 3 6; do
 done
 
 # more epochs to fully traverse all layers
-python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
     PEFT_WARMUP True \
     PEFT_WARMUP_EPOCHS 6 \
     PEFT_WARMUP_LR ${BEST_LR} \
@@ -124,7 +126,7 @@ python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
 echo "=== [5] Tail-weighted InfoNCE warmup ==="
 
 for POWER in 0.25 0.5 1.0; do
-    python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py -d imagenet_lt -b clip_vit_b16 -m lift+ \
         PEFT_WARMUP True \
         PEFT_WARMUP_EPOCHS ${BEST_EP}  PEFT_WARMUP_LR ${BEST_LR} \
         WARMUP_TEXT_REG_LAMBDA ${BEST_TEXT} \
