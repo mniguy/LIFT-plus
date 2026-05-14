@@ -955,6 +955,14 @@ class Trainer:
 
         print("[Warmup] Done. Rebuild optimizer for normal training.")
 
+        # Release warmup optimizer (AdamW m/v states) before building the new one
+        del optim_w
+        if warm_kd_loss is not None:
+            del warm_kd_loss
+        if warm_nce_loss is not None:
+            del warm_nce_loss
+        torch.cuda.empty_cache()
+
         # Stage1을 위해 원래 로직 복구: tuner 전체 학습 + SGD/cosine 등
         self.build_optimizer()
 
