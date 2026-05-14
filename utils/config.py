@@ -70,9 +70,6 @@ _C.v.aft_seed = 0  # Manual seed for generating mask.
 _C.TEXT_REG_T             = 0.01
 _C.TEXT_REG_LAMBDA        = 0.001
 
-_C.TEXT_REG_LAMBDA_TAIL   = 0.0
-_C.TEXT_REG_LAMBDA_OTHER  = 0.0
-
 # InfoNCE
 _C.INFONCE_LAMBDA         = 0.005
 _C.INFONCE_T              = 0.08
@@ -88,28 +85,10 @@ _C.PEFT_WARMUP_TEXT       = False
 _C.PEFT_WARMUP_PROJ       = False
 _C.PEFT_WARMUP_CLASSIFIER = False
 
-_C.PEFT_WARMUP_LAYERS     = 12
-
 _C.WARMUP_TEXT_REG_LAMBDA = 0.0001
 _C.WARMUP_TEXT_REG_T      = 0.01
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
-
-# AdaptFormer down projection initialization
-# "random"   : default kaiming (original behavior)
-# "text_svd" : top-k right singular vectors of raw W_text  (uncentered SVD)
-# "text_pca" : top-k right singular vectors of centered W_text (PCA = centered SVD)
-_C.v.adaptformer_init = "random"
-
-# Method 2: Tail-weighted InfoNCE during warmup
-# Weights per-sample InfoNCE loss by inverse class frequency^power
-_C.WARMUP_TAIL_WEIGHTED    = False
-_C.WARMUP_TAIL_WEIGHT_POWER = 0.5  # 0.5 = 1/sqrt(n), 1.0 = 1/n
-
-# Method 3: Layer-progressive warmup
-# Start with last N layers, extend one layer earlier each epoch
-_C.PEFT_WARMUP_PROGRESSIVE       = False
-_C.PEFT_WARMUP_PROGRESSIVE_START = 3  # number of layers to activate at epoch 0
 
 # ---- Bottleneck scaling ablation ----
 _C.v.lora_dim_scale = 1.0
@@ -121,8 +100,6 @@ _C.v.lora_layers_last = 2
 _C.v.lora_dim_last = None
 _C.v.lora_dim_last_scale = 16.0
 _C.v.lora_gate_scale = 1.0
-_C.v.lora_gate_scale_q = None
-_C.v.lora_gate_scale_v = None
 _C.v.lora_gate_learnable = False
 
 _C.v.adaptformer_layers_last = None
@@ -131,15 +108,6 @@ _C.v.adaptformer_dim_last_scale = 1.0
 _C.v.adaptformer_gate_scale = 1.0
 _C.v.adaptformer_gate_learnable = True
 
-_C.v.hybrid_mix_mode = "parallel"  # "parallel" / "head_tail" / "sequential" / "gated_parallel"
-_C.v.hybrid_head_layers = None     # number of early layers for LoRA when mix_mode=head_tail
-_C.v.hybrid_tail_layers = None     # number of late layers for AdaptFormer when mix_mod e=head_tail
-_C.v.hybrid_head_tail_order = "lora_first"  # "lora_first": early=LoRA, late=AF / "af_first": early=AF, late=LoRA
-_C.v.sequential_first = "lora"     # "lora" / "adaptformer"
-_C.v.sequential_first_epochs = 0
-_C.v.sequential_second_epochs = 0
-_C.v.sequential_joint_epochs = 0
-
 # Hybrid Caption
 _C.SIM_THRESHOLD          = 0.6
 _C.CHUNK_SIZE             = 50
@@ -147,27 +115,10 @@ _C.CHUNK_SIZE             = 50
 _C.HYBRID_TOPK            = 8
 _C.HYBRID_CAPTION_SOURCE  = "wiki"
 
-# Wiki Caption options 
-_C.num_classes = 1000        
+_C.num_classes = 1000
 _C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"
 _C.WIKI_MAX_SENTENCES = 0    # 0이면 전체 문장 사용
 _C.WIKI_MAX_CHARS = 0        # 0이면 글자 수 제한 없음
-
-# Cosine Filtering
-_C.HYBRID_TOPK = 8
-
-# Block-level FFN LoRA bypass (for gated_parallel or standalone)
-# Enables: h = Wx + α·LoRA(x) + β·AdaptFormer(x) at each block
-_C.v.ffn_lora = False              # Block-level LoRA bypass at FFN stage
-_C.v.ffn_lora_dim = None           # Bottleneck dim (defaults to lora_dim)
-_C.v.ffn_lora_gate_scale = 1.0    # Initial scale (α)
-_C.v.ffn_lora_gate_learnable = True  # Learnable α gate
-
-# Class-adaptive training: route LoRA→head classes, AdaptFormer→tail classes
-# Two extra forward passes per batch with each adapter selectively disabled
-_C.CLASS_ADAPTIVE_LOSS = False
-_C.CLASS_ADAPTIVE_HEAD_LAMBDA = 1.0   # extra CE weight for head-class LoRA pass
-_C.CLASS_ADAPTIVE_TAIL_LAMBDA = 1.0   # extra CE weight for tail-class AF pass
 
 _C.WEIGHTS_PATH = ""
 _C.l = CN()
