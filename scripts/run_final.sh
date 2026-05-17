@@ -1,20 +1,4 @@
 #!/bin/bash
-# Single-module + scaling + warmup (all 5 methods)
-#
-# Motivation: best result so far (74.60% few) used dual-module (AdaptFormer + LoRA)
-# with last-2-layer scaling + warmup. Goal: match or close that gap with one module.
-#
-# Unexplored combinations:
-#   A) AdaptFormer + last-layer scaling + warmup (1+2+3+4+5)
-#   B) LoRA        + last-layer scaling + warmup (1+2+3+4+5)
-#
-# Reference baselines:
-#   scale/layer2_scale8.0          : adaptformer-only, 1+2+4        → overall=78.67  few=73.71
-#   scale_lora/layer2_scale16.0    : lora-only,        1+2+4        → overall=78.51  few=74.15
-#   warmup/ep3                     : adaptformer-only, 1+2+3+5      → overall=77.23  few=72.69
-#   hybrid_AdaptFormer_scaling/    : dual-module,      1+2+3+4+5    → overall=78.58  few=74.26 (best)
-#
-# Output: output/single_module/adaptformer_* and output/single_module/lora_*
 
 GPU_ID=0
 
@@ -29,48 +13,31 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
     v.lora True \
     PEFT_WARMUP True \
     WARMUP_TEXT_REG_T 0.001 \
-    output_dir final/verify_best
+    output_dir final_tte/verify_best
 
 # Warmup hypers
 WARMUP_LR=5e-4
 
 # -----------------------------------------------------------------------
-# A. AdaptFormer-only + last-layer scaling + warmup
+# A. Re-run warmup ablation winners with TTE
+#    AdaptFormer-only, no scaling — just warmup variation
 # -----------------------------------------------------------------------
-echo "=== [A] AdaptFormer + scaling + warmup ==="
+echo "=== [C] Warmup ablation + TTE ==="
 
-for LAYERS in 1 2; do
-    for SCALE in 8.0 16.0; do
-        TAG="adaptformer_layer${LAYERS}_scale${SCALE}"
-        CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
-            -d imagenet_lt -b clip_vit_b16 -m lift+ \
-            tte True \
-            v.adaptformer_layers_last ${LAYERS} \
-            v.adaptformer_dim_last_scale ${SCALE} \
-            PEFT_WARMUP True \
-            PEFT_WARMUP_LR ${WARMUP_LR} \
-            output_dir final/${TAG}
-    done
-done
+# ep2: warmup epochs=2, lr=5e-4
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
+    -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    tte True \
+    PEFT_WARMUP True \
+    PEFT_WARMUP_EPOCHS 2 \
+    PEFT_WARMUP_LR 5e-4 \
+    output_dir final_tte/warmup/ep2
 
-# -----------------------------------------------------------------------
-# B. LoRA-only + last-layer scaling + warmup
-#    lift+.yaml has adaptformer=True by default — must disable it
-# -----------------------------------------------------------------------
-echo "=== [B] LoRA + scaling + warmup ==="
-
-for LAYERS in 1 2; do
-    for SCALE in 8.0 16.0; do
-        TAG="lora_layer${LAYERS}_scale${SCALE}"
-        CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
-            -d imagenet_lt -b clip_vit_b16 -m lift+ \
-            tte True \
-            v.adaptformer False \
-            v.lora True \
-            v.lora_layers_last ${LAYERS} \
-            v.lora_dim_last_scale ${SCALE} \
-            PEFT_WARMUP True \
-            PEFT_WARMUP_LR ${WARMUP_LR} \
-            output_dir final/${TAG}
-    done
-done
+# lr_1e-4: warmup epochs=1, lr=1e-4
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
+    -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    tte True \
+    PEFT_WARMUP True \
+    PEFT_WARMUP_EPOCHS 1 \
+    PEFT_WARMUP_LR 1e-4 \
+    output_dir final_tte/warmup/lr_1e-4
