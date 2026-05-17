@@ -271,12 +271,6 @@ class Trainer:
 
         print("Building tuner")
 
-        def _scale_dim(base_dim: int, scale: float, keep_pow2: bool, max_dim: int):
-            x = max(1, int(round(base_dim * float(scale))))
-            if keep_pow2:
-                x = 2 ** max(0, int(round(math.log2(x))))
-            return min(x, max_dim)
-
         if cfg.coop:
             if cfg.coop_init is None:
                 ctx_len = cfg.coop_ctx_len
@@ -345,64 +339,23 @@ class Trainer:
                 print("Add learnable prompt with length {} to layers {}.".format(prompt_len, layers))
                 _encoder.add_learnable_prompt(layers=layers, prompt_len=prompt_len)
             
-            # LoRA 부분 교체
             if _cfg.lora:
                 layers = parse_layers(_cfg.lora_layers)
-                base_dim = _cfg.lora_dim or 2 ** max(0, int(math.log2(self.num_classes / (len(layers) * 4))))
-                bottle_dim = _scale_dim(base_dim, getattr(_cfg, "lora_dim_scale", 1.0),
-                                        getattr(_cfg, "keep_bottleneck_pow2", True),
-                                        _encoder.embed_dim)
-                print(f"Add LoRA with bottle dimension {bottle_dim} (base={base_dim}) to layers {layers}.")
+                bottle_dim = _cfg.lora_dim or 2 ** max(0, int(math.log2(self.num_classes / (len(layers) * 4))))
+                print("Add LoRA with bottle dimension {} to layers {}.".format(bottle_dim, layers))
                 _encoder.add_lora(layers=layers, bottle_dim=bottle_dim)
-
-                # --- last-layers overwrite ---
-                if getattr(_cfg, "lora_layers_last", None) is not None:
-                    layers_last = parse_layers(_cfg.lora_layers_last)
-                    base_last = _cfg.lora_dim_last or base_dim
-                    bottle_last = _scale_dim(base_last, getattr(_cfg, "lora_dim_last_scale", 1.0),
-                                            getattr(_cfg, "keep_bottleneck_pow2", True),
-                                            _encoder.embed_dim)
-                    print(f"Override LoRA dim {bottle_last} on last layers {layers_last}.")
-                    _encoder.add_lora(layers=layers_last, bottle_dim=bottle_last)  # 해당 블록만 overwrite
 
             if _cfg.adapter:
                 layers = parse_layers(_cfg.adapter_layers)
                 bottle_dim = _cfg.adapter_dim or 2 ** max(0, int(math.log2(self.num_classes / (len(layers) * 2))))
                 print("Add Adapter with bottle dimension {} to layers {}.".format(bottle_dim, layers))
                 _encoder.add_adapter(layers=layers, bottle_dim=bottle_dim)
-            
-            # AdaptFormer 교체
+
             if _cfg.adaptformer:
-                def _round_pow2(x: int) -> int:
-                    x = max(1, int(x))
-                    return 2 ** max(0, int(round(math.log2(x))))
-
-                # base layers
                 layers = parse_layers(_cfg.adaptformer_layers)
-                base_dim = _cfg.adaptformer_dim or 2 ** max(
-                    0, int(math.log2(self.num_classes / (len(layers) * 2)))
-                )
-
-                dim_scale = float(getattr(_cfg, "adaptformer_dim_scale", 1.0))
-                bottle_dim = _round_pow2(base_dim * dim_scale)
-
-                print(f"[AdaptFormer] base layers={layers}, base_dim={base_dim}, "
-                    f"scale={dim_scale} -> bottle_dim={bottle_dim}")
+                bottle_dim = _cfg.adaptformer_dim or 2 ** max(0, int(math.log2(self.num_classes / (len(layers) * 2))))
+                print("Add AdaptFormer with bottle dimension {} to layers {}.".format(bottle_dim, layers))
                 _encoder.add_adaptformer(layers=layers, bottle_dim=bottle_dim)
-
-                # last-k override
-                layers_last = getattr(_cfg, "adaptformer_layers_last", None)
-                if layers_last is not None:
-                    last_layers = parse_layers(layers_last)
-                    base_last = getattr(_cfg, "adaptformer_dim_last", None)
-                    if base_last is None:
-                        base_last = base_dim
-                    last_scale = float(getattr(_cfg, "adaptformer_dim_last_scale", 1.0))
-                    bottle_last = _round_pow2(base_last * last_scale)
-
-                    print(f"[AdaptFormer] OVERRIDE last layers={last_layers}, "
-                        f"base_last={base_last}, last_scale={last_scale} -> bottle_last={bottle_last}")
-                    _encoder.add_adaptformer(layers=last_layers, bottle_dim=bottle_last)
             
             if _cfg.ssf:
                 layers = parse_layers(_cfg.ssf_layers)

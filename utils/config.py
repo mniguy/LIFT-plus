@@ -90,24 +90,6 @@ _C.WARMUP_TEXT_REG_T      = 0.001
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
 
-# ---- Bottleneck scaling ablation ----
-_C.v.lora_dim_scale = 1.0
-_C.v.adapter_dim_scale = 1.0
-_C.v.adaptformer_dim_scale = 1.0
-_C.v.keep_bottleneck_pow2 = True  # 기본: 2^k 형태 유지
-
-_C.v.lora_layers_last = 2
-_C.v.lora_dim_last = None
-_C.v.lora_dim_last_scale = 16.0
-_C.v.lora_gate_scale = 1.0
-_C.v.lora_gate_learnable = False
-
-_C.v.adaptformer_layers_last = None
-_C.v.adaptformer_dim_last = None
-_C.v.adaptformer_dim_last_scale = 1.0
-_C.v.adaptformer_gate_scale = 1.0
-_C.v.adaptformer_gate_learnable = True
-
 # Hybrid Caption
 _C.SIM_THRESHOLD          = 0.6
 _C.CHUNK_SIZE             = 50
