@@ -67,8 +67,8 @@ _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
 # Textual Prior
-_C.TEXT_REG_T             = 0.01
 _C.TEXT_REG_LAMBDA        = 0.001
+_C.TEXT_REG_T             = 0.01
 
 # InfoNCE
 _C.INFONCE_LAMBDA         = 0.005
@@ -86,7 +86,7 @@ _C.PEFT_WARMUP_PROJ       = False
 _C.PEFT_WARMUP_CLASSIFIER = False
 
 _C.WARMUP_TEXT_REG_LAMBDA = 0.0001
-_C.WARMUP_TEXT_REG_T      = 0.01
+_C.WARMUP_TEXT_REG_T      = 0.001
 _C.WARMUP_INFONCE_LAMBDA  = 0.0
 _C.WARMUP_INFONCE_T       = 0.1
 
