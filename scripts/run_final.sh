@@ -22,7 +22,7 @@ WARMUP_LR=5e-4
 # A. Re-run warmup ablation winners with TTE
 #    AdaptFormer-only, no scaling — just warmup variation
 # -----------------------------------------------------------------------
-echo "=== [C] Warmup ablation + TTE ==="
+echo "=== [1] Warmup ablation + TTE ==="
 
 # ep2: warmup epochs=2, lr=5e-4
 CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
