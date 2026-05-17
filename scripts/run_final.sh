@@ -2,6 +2,15 @@
 
 GPU_ID=0
 
+echo "=== [0] LIFT+ baseline ==="
+
+CUDA_VISIBLE_DEVICES=${GPU_ID} python main.py \
+    -d imagenet_lt -b clip_vit_b16 -m lift+ \
+    classifier_init semantic \
+    TEXT_REG_LAMBDA 0 \
+    INFONCE_LAMBDA 0 \
+    output_dir baseline_lift
+
 # -----------------------------------------------------------------------
 # A. Re-run warmup ablation winners with TTE
 #    AdaptFormer-only, no scaling — just warmup variation

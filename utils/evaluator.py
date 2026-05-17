@@ -45,3 +45,5 @@ class Evaluator:
             med_acc = torch.mean(cls_accs[med_classes])
             few_acc = torch.mean(cls_accs[few_classes])
             print(f"* Many: {many_acc:.2f}%  Med: {med_acc:.2f}%  Few: {few_acc:.2f}%")
+
+        return cls_accs

@@ -916,13 +916,23 @@ class Trainer:
             del warm_nce_loss
         torch.cuda.empty_cache()
 
+        # Save warmup-end checkpoint for visualization
+        warm_dir = os.path.join(cfg.output_dir, "ckpts", "after_warmup")
+        os.makedirs(warm_dir, exist_ok=True)
+        self.save_model(warm_dir)
+
         # Stage1을 위해 원래 로직 복구: tuner 전체 학습 + SGD/cosine 등
         self.build_optimizer()
 
         self._peft_warmup_done = True
-    
+
     def train(self):
         cfg = self.cfg
+
+        # Save initial (pre-training) checkpoint for visualization
+        init_dir = os.path.join(cfg.output_dir, "ckpts", "init")
+        os.makedirs(init_dir, exist_ok=True)
+        self.save_model(init_dir)
 
         # ---- PEFT warm-start (Stage 0) ----
         if bool(getattr(cfg, "PEFT_WARMUP", False)) and (not getattr(self, "_peft_warmup_done", False)):
@@ -1152,7 +1162,12 @@ class Trainer:
 
             evaluator.process(logit, label)
 
-        evaluator.evaluate(self.many_classes, self.med_classes, self.few_classes)
+        cls_accs = evaluator.evaluate(self.many_classes, self.med_classes, self.few_classes)
+
+        # Save per-class accuracy for visualization
+        import numpy as np
+        np.save(os.path.join(cfg.output_dir, "cls_accs.npy"), cls_accs.numpy())
+        np.save(os.path.join(cfg.output_dir, "cls_num_list.npy"), np.asarray(self.cls_num_list))
 
     def save_model(self, directory):
         tuner_dict = self.tuner.state_dict()
