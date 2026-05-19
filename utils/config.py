@@ -76,9 +76,9 @@ _C.INFONCE_T              = 0.08
 
 # Warmup
 _C.PEFT_WARMUP            = False
-_C.PEFT_WARMUP_EPOCHS     = 1
+_C.PEFT_WARMUP_EPOCHS     = 2
 _C.PEFT_WARMUP_STEPS      = -1
-_C.PEFT_WARMUP_LR         = 5e-4
+_C.PEFT_WARMUP_LR         = 1e-4
 
 _C.PEFT_WARMUP_IMAGE      = True
 _C.PEFT_WARMUP_TEXT       = False
