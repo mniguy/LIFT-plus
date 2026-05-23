@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs / outputs
+*.txt
+*.tar
+*.tar.gz
+events.out.tfevents.*
+
+# Keep dataset split / caption files
+!datasets/**/*.txt
