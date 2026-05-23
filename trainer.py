@@ -870,7 +870,7 @@ class Trainer:
                     optim_w.step()
                     optim_w.zero_grad()
 
-            return float(loss)
+            return float(loss.detach())
 
         warm_params = self._warmup_select_params()
         if len(warm_params) == 0:
