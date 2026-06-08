@@ -794,16 +794,75 @@ class Trainer:
 
         means = sums / counts.clamp(min=1.0).unsqueeze(1)
         means = F.normalize(means, dim=-1)
-        gate = (means * text_prior).sum(dim=1).clamp(min=0.0, max=1.0)
+        sim = (means * text_prior).sum(dim=1)  # raw per-class cosine, geometry-dependent scale
+        valid = counts > 0
+
+        # The raw cosine has a tiny, embedding-geometry-dependent dynamic range
+        # (observed mean ~0.01), which silently nullifies the gated loss. What
+        # matters for gating is the *relative* trust across classes, so rescale
+        # the raw similarity to a usable [0, 1] range over the valid classes.
+        norm_mode = getattr(cfg, "PRIOR_GATE_NORM", "minmax")
+        gate = self._normalize_gate(sim, valid, norm_mode)
+        invert = bool(getattr(cfg, "PRIOR_GATE_INVERT", False))
+        if invert:
+            # low-similarity classes get the stronger prior (inject prior where
+            # visual and prototype disagree, rather than only where they align).
+            gate = torch.where(valid, 1.0 - gate, gate)
         gate = gate.pow(float(getattr(cfg, "PRIOR_GATE_POWER", 1.0)))
-        gate = torch.where(counts > 0, gate, torch.zeros_like(gate))
+        gate = torch.where(valid, gate, torch.zeros_like(gate))
 
         self.prior_gate = gate.detach()
+        sv = sim[valid]
         print(
-            "[PriorGate] Done: min={:.4f} mean={:.4f} max={:.4f}".format(
-                gate.min().item(), gate.mean().item(), gate.max().item()
+            "[PriorGate] raw cos: min={:.4f} mean={:.4f} max={:.4f} | "
+            "norm={} invert={} gate: min={:.4f} mean={:.4f} max={:.4f}".format(
+                sv.min().item(), sv.mean().item(), sv.max().item(),
+                norm_mode, invert, gate.min().item(), gate.mean().item(), gate.max().item(),
             )
         )
+
+    @staticmethod
+    def _normalize_gate(sim, valid, mode):
+        """Map raw per-class similarity to a [0, 1] gate over the valid classes."""
+        gate = torch.zeros_like(sim)
+        if valid.sum() == 0:
+            return gate
+        sv = sim[valid]
+        if mode == "none":
+            gate[valid] = sv.clamp(min=0.0, max=1.0)
+        elif mode == "minmax":
+            lo, hi = sv.min(), sv.max()
+            gate[valid] = ((sv - lo) / (hi - lo).clamp(min=1e-8)).clamp(0.0, 1.0)
+        elif mode == "rank":
+            # rank in [0, 1]: lowest-similarity class -> 0, highest -> 1
+            order = torch.argsort(torch.argsort(sv)).float()
+            denom = max(sv.numel() - 1, 1)
+            gate[valid] = order / denom
+        else:
+            raise ValueError(f"Unknown PRIOR_GATE_NORM: {mode}")
+        return gate
+
+    def _reg_anneal_scale(self, epoch_idx, num_epochs):
+        """Scale factor in [REG_ANNEAL_END, 1.0] applied to the KD/InfoNCE lambdas.
+
+        Strong (1.0) early to stabilize the text-prior-based init, decaying to
+        REG_ANNEAL_END late so LA can fit the classifier to the visual boundary.
+        """
+        cfg = self.cfg
+        mode = getattr(cfg, "REG_ANNEAL", "none")
+        if mode == "none":
+            return 1.0
+        end = float(getattr(cfg, "REG_ANNEAL_END", 0.0))
+        start = int(getattr(cfg, "REG_ANNEAL_START_EPOCH", 0))
+        if epoch_idx < start:
+            return 1.0
+        denom = max(num_epochs - 1 - start, 1)
+        p = (epoch_idx - start) / denom  # 0 -> 1 across the decay window
+        if mode == "linear":
+            return 1.0 - (1.0 - end) * p
+        if mode == "cosine":
+            return end + (1.0 - end) * 0.5 * (1.0 + math.cos(math.pi * p))
+        raise ValueError(f"Unknown REG_ANNEAL: {mode}")
 
     def apply_prior_gate(self, per_sample_loss, label):
         if getattr(self.cfg, "PRIOR_REG_MODE", "fixed") == "fixed":
@@ -1088,6 +1147,11 @@ class Trainer:
             self.tuner.train()
             end = time.time()
 
+            # KD/InfoNCE annealing: scale the reg lambdas for this epoch.
+            reg_scale = self._reg_anneal_scale(epoch_idx, num_epochs)
+            if getattr(cfg, "REG_ANNEAL", "none") != "none":
+                print(f"[RegAnneal] epoch {epoch_idx + 1}/{num_epochs} reg_scale={reg_scale:.4f}")
+
             num_batches = len(self.train_loader)
             for batch_idx, (image, label) in enumerate(self.train_loader):
                 image = image.to(self.device)
@@ -1112,7 +1176,7 @@ class Trainer:
                                 kd_loss = self.apply_prior_gate(kd_per_sample, label)
                             else:
                                 kd_loss = self.text_reg_loss(logit, text_logit)
-                            loss = loss + self.text_reg_lambda * kd_loss
+                            loss = loss + (self.text_reg_lambda * reg_scale) * kd_loss
 
                         # (B) feature-level InfoNCE vs fixed text prototypes
                         if self.infonce_lambda > 0:
@@ -1123,7 +1187,7 @@ class Trainer:
                                 nce_loss = self.apply_prior_gate(nce_per_sample, label)
                             else:
                                 nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
-                            loss = loss + self.infonce_lambda * nce_loss
+                            loss = loss + (self.infonce_lambda * reg_scale) * nce_loss
 
                     self.scaler.scale(loss / cfg.accum_step).backward()
                     if ((batch_idx + 1) % cfg.accum_step == 0) or (batch_idx + 1 == num_batches):
@@ -1145,7 +1209,7 @@ class Trainer:
                             kd_loss = self.apply_prior_gate(kd_per_sample, label)
                         else:
                             kd_loss = self.text_reg_loss(logit, text_logit)
-                        loss = loss + self.text_reg_lambda * kd_loss
+                        loss = loss + (self.text_reg_lambda * reg_scale) * kd_loss
 
                     if self.infonce_lambda > 0:
                         feat_txt = self._compute_text_prior_feat(image)
@@ -1154,7 +1218,7 @@ class Trainer:
                             nce_loss = self.apply_prior_gate(nce_per_sample, label)
                         else:
                             nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
-                        loss = loss + self.infonce_lambda * nce_loss
+                        loss = loss + (self.infonce_lambda * reg_scale) * nce_loss
 
                     (loss / cfg.accum_step).backward()
                     if ((batch_idx + 1) % cfg.accum_step == 0) or (batch_idx + 1 == num_batches):
@@ -1277,6 +1341,9 @@ class Trainer:
         import numpy as np
         np.save(os.path.join(cfg.output_dir, "cls_accs.npy"), cls_accs.numpy())
         np.save(os.path.join(cfg.output_dir, "cls_num_list.npy"), np.asarray(self.cls_num_list))
+        # Dump raw predictions/labels so confusion (e.g. which shot-group med leaks into) can be analyzed offline.
+        np.save(os.path.join(cfg.output_dir, "y_true.npy"), np.asarray(evaluator._y_true))
+        np.save(os.path.join(cfg.output_dir, "y_pred.npy"), np.asarray(evaluator._y_pred))
         if hasattr(self, "prior_gate"):
             np.save(os.path.join(cfg.output_dir, "prior_gate.npy"), self.prior_gate.float().cpu().numpy())
 

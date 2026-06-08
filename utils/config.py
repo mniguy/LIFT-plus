@@ -38,7 +38,7 @@ _C.proj_tuning = False  # Fine-tuning the image and text projections.
 _C.clip_adapter = False  # Add CLIP adapters.
 _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
-_C.classifier_scale = 30  # Logit scale for classifier. (default=25)
+_C.classifier_scale = 25  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
 
 _C.v = CN()
@@ -78,7 +78,7 @@ _C.INFONCE_T              = 0.08
 _C.PEFT_WARMUP            = False
 _C.PEFT_WARMUP_EPOCHS     = 2
 _C.PEFT_WARMUP_STEPS      = -1
-_C.PEFT_WARMUP_LR         = 1e-4
+_C.PEFT_WARMUP_LR         = 5e-4
 
 _C.PEFT_WARMUP_IMAGE      = True
 _C.PEFT_WARMUP_TEXT       = False
@@ -102,6 +102,14 @@ _C.PROMPT_MODE            = "default"  # default / places_scene / places_place /
 _C.PRIOR_REG_MODE         = "fixed"    # fixed / class_gate
 _C.PRIOR_GATE_SOURCE      = "image_text"
 _C.PRIOR_GATE_POWER       = 1.0
+_C.PRIOR_GATE_NORM        = "minmax"   # none / minmax / rank — rescale raw per-class similarity to a usable [0,1] range
+_C.PRIOR_GATE_INVERT      = False      # False: high-sim classes get stronger reg. True: low-sim classes get stronger reg (1-gate).
+
+# Regularization (KD / InfoNCE) annealing over the main training loop:
+# strong early (stabilize init), weak late (let LA fit the visual boundary).
+_C.REG_ANNEAL             = "none"     # none / linear / cosine
+_C.REG_ANNEAL_END         = 0.0        # final scale (fraction of base lambda) at the last epoch
+_C.REG_ANNEAL_START_EPOCH = 0          # keep scale=1.0 before this epoch, then decay
 
 _C.num_classes = 1000
 _C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"
