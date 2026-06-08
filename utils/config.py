@@ -97,6 +97,12 @@ _C.CHUNK_SIZE             = 50
 _C.HYBRID_TOPK            = 8
 _C.HYBRID_CAPTION_SOURCE  = "wiki"
 
+# Dataset-aware text prior
+_C.PROMPT_MODE            = "default"  # default / places_scene / places_place / places_ensemble
+_C.PRIOR_REG_MODE         = "fixed"    # fixed / class_gate
+_C.PRIOR_GATE_SOURCE      = "image_text"
+_C.PRIOR_GATE_POWER       = 1.0
+
 _C.num_classes = 1000
 _C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"
 _C.WIKI_MAX_SENTENCES = 0    # 0이면 전체 문장 사용

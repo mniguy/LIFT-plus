@@ -165,12 +165,13 @@ class InfoNCELoss(nn.Module):
         self.T = float(T)
         self.reduction = reduction
 
-    def forward(self, feat, text_proto, label):
+    def forward(self, feat, text_proto, label, reduction=None):
         f      = F.normalize(feat.float(), dim=-1)        # fp32
         W      = F.normalize(text_proto.float(), dim=-1)  # fp32
         logits = (f @ W.t()) / self.T                     # [B, C]
         
-        return F.cross_entropy(logits, label, reduction=self.reduction)
+        red = self.reduction if reduction is None else reduction
+        return F.cross_entropy(logits, label, reduction=red)
 
 class LADELoss(nn.Module):
     """ https://arxiv.org/abs/2012.00321

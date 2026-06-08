@@ -241,6 +241,25 @@ class Trainer:
         sents = re.split(r"(?<=[.!?])\s+", txt)
 
         return [s.strip() for s in sents if len(s.strip()) > 0] 
+
+    def _get_prompt_templates(self) -> List[str]:
+        prompt_mode = getattr(self.cfg, "PROMPT_MODE", "default")
+
+        if prompt_mode == "default":
+            return ["a photo of a {}."]
+        if prompt_mode == "places_scene":
+            return ["a photo of a {} scene."]
+        if prompt_mode == "places_place":
+            return ["a photo of a place called {}."]
+        if prompt_mode == "places_ensemble":
+            return [
+                "a photo of a {}.",
+                "a photo of a {} scene.",
+                "a photo of a place called {}.",
+                "a photo of the inside or outside of a {}.",
+            ]
+
+        raise ValueError(f"Unknown PROMPT_MODE: {prompt_mode}")
     
     def build_wiki_corpus(
         self,
@@ -305,8 +324,13 @@ class Trainer:
                       "The context length is {}, and `ctx_len` will be deprecated.".format(len(ctx_loc)))
                 self.model.text_encoder.add_learnable_context(ctx_loc=ctx_loc, init_text=self.template)
         else:
-            self.template = "a photo of a {}."
-            print("Use template '{}' for prompt generation.".format(self.template))
+            templates = self._get_prompt_templates()
+            self.template = templates[0]
+            prompt_mode = getattr(cfg, "PROMPT_MODE", "default")
+            if len(templates) == 1:
+                print("Use template '{}' for prompt generation.".format(self.template))
+            else:
+                print("Use prompt mode '{}' with templates: {}".format(prompt_mode, templates))
 
         for _name, _cfg in (("image_encoder", cfg.v), ("text_encoder", cfg.l)):
             if not hasattr(self.model, _name):
@@ -399,7 +423,7 @@ class Trainer:
                 if classifier_init == "semantic":
                     print("Using semantic-aware initialization.")
                     with torch.no_grad():
-                        class_features = self.compute_class_features(self.generate_class_prompts())
+                        class_features = self.compute_prompt_class_features()
                     # store fixed textual prior for optional training-time regularization
                     self.text_prior_weight = F.normalize(class_features, dim=-1).detach()
                     self.model.init_classifier_weight(class_features, feature_modality="text")
@@ -442,6 +466,9 @@ class Trainer:
                 
                 torch.cuda.empty_cache()
 
+        if hasattr(self, "text_prior_weight") and getattr(cfg, "PRIOR_REG_MODE", "fixed") == "class_gate":
+            self.build_prior_gate()
+
         self.tuner = self.model.tuner
 
         # print parameters
@@ -473,8 +500,7 @@ class Trainer:
 
         print(f"[Wiki] Computing features (top-{top_k}, thresh>{sim_threshold}, dynamic_alpha, chunked) for dataset={cfg.dataset} ...")
 
-        prompts = self.generate_class_prompts()
-        w_prompts_raw = self.compute_class_features(prompts)
+        w_prompts_raw = self.compute_prompt_class_features()
         w_prompts_raw = F.normalize(w_prompts_raw, dim=-1)
 
         all_caption_features = []
@@ -670,6 +696,12 @@ class Trainer:
         prompts = prompts.to(self.device)
         return prompts
 
+    def generate_class_prompts_with_template(self, template: str):
+        prompts = [template.format(name.replace("_", " ")) for name in self.classnames]
+        prompts = clip.tokenize(prompts)
+        prompts = prompts.to(self.device)
+        return prompts
+
     def compute_class_features(self, prompts):
         if len(prompts) <= 1000:
             class_features = self.model.text_encoder(prompts)
@@ -678,6 +710,19 @@ class Trainer:
             prompt_splits = torch.split(prompts, 1000)
             class_features = torch.cat([self.model.text_encoder(x) for x in prompt_splits])
         return class_features
+
+    def compute_prompt_class_features(self):
+        templates = self._get_prompt_templates()
+        if len(templates) == 1:
+            return self.compute_class_features(self.generate_class_prompts_with_template(templates[0]))
+
+        class_features = []
+        for template in templates:
+            prompts = self.generate_class_prompts_with_template(template)
+            features = self.compute_class_features(prompts)
+            class_features.append(F.normalize(features, dim=-1))
+
+        return F.normalize(torch.stack(class_features, dim=0).mean(dim=0), dim=-1)
     
     def compute_train_features(self):
         all_features = torch.Tensor([]).to(self.device)
@@ -724,6 +769,53 @@ class Trainer:
             feat = feat @ proj  # [B, D_text]
 
         return feat
+
+    @torch.no_grad()
+    def build_prior_gate(self):
+        cfg = self.cfg
+        source = getattr(cfg, "PRIOR_GATE_SOURCE", "image_text")
+        if source != "image_text":
+            raise ValueError(f"Unknown PRIOR_GATE_SOURCE: {source}")
+        if not hasattr(self, "text_prior_weight"):
+            raise RuntimeError("text_prior_weight is required to build PRIOR_REG_MODE=class_gate.")
+
+        print("[PriorGate] Building class gate from train image means and text prior.")
+        text_prior = F.normalize(self.text_prior_weight.float(), dim=-1)
+        feat_dim = text_prior.size(1)
+        sums = torch.zeros(self.num_classes, feat_dim, device=self.device, dtype=torch.float32)
+        counts = torch.zeros(self.num_classes, device=self.device, dtype=torch.float32)
+
+        for image, label in tqdm(self.init_loader, ascii=True, desc="Prior gate"):
+            image = image.to(self.device)
+            label = label.to(self.device)
+            feat = F.normalize(self._compute_text_prior_feat(image).float(), dim=-1)
+            sums.index_add_(0, label, feat)
+            counts.index_add_(0, label, torch.ones_like(label, dtype=torch.float32))
+
+        means = sums / counts.clamp(min=1.0).unsqueeze(1)
+        means = F.normalize(means, dim=-1)
+        gate = (means * text_prior).sum(dim=1).clamp(min=0.0, max=1.0)
+        gate = gate.pow(float(getattr(cfg, "PRIOR_GATE_POWER", 1.0)))
+        gate = torch.where(counts > 0, gate, torch.zeros_like(gate))
+
+        self.prior_gate = gate.detach()
+        print(
+            "[PriorGate] Done: min={:.4f} mean={:.4f} max={:.4f}".format(
+                gate.min().item(), gate.mean().item(), gate.max().item()
+            )
+        )
+
+    def apply_prior_gate(self, per_sample_loss, label):
+        if getattr(self.cfg, "PRIOR_REG_MODE", "fixed") == "fixed":
+            return per_sample_loss.mean()
+        if getattr(self.cfg, "PRIOR_REG_MODE", "fixed") != "class_gate":
+            raise ValueError(f"Unknown PRIOR_REG_MODE: {self.cfg.PRIOR_REG_MODE}")
+
+        if not hasattr(self, "prior_gate"):
+            self.build_prior_gate()
+
+        weights = self.prior_gate.to(device=per_sample_loss.device, dtype=per_sample_loss.dtype)[label]
+        return (weights * per_sample_loss).mean()
 
     # ------------------------------------------------------------------
     # Warmup helper
@@ -827,8 +919,9 @@ class Trainer:
         if cfg.classifier:
             model_args = {"use_classifier": True}
         else:
-            text = self.generate_class_prompts()
-            model_args = {"text": text, "is_text_feature": False}
+            with torch.no_grad():
+                text = self.compute_prompt_class_features()
+            model_args = {"text": text, "is_text_feature": True}
 
         self.tuner.train()
         scaler = self.scaler if cfg.prec_train == "amp" else None
@@ -952,9 +1045,10 @@ class Trainer:
         if cfg.classifier:
             model_args = {"use_classifier": True}
         else:
-            print("Generating class prompts.")
-            text = self.generate_class_prompts()
-            model_args = {"text": text, "is_text_feature": False}
+            print("Pre-computing class prompt features.")
+            with torch.no_grad():
+                text = self.compute_prompt_class_features()
+            model_args = {"text": text, "is_text_feature": True}
 
         # Textual Prior (KL)
         self.text_reg_lambda = float(getattr(cfg, "TEXT_REG_LAMBDA", 0.0))
@@ -1013,14 +1107,22 @@ class Trainer:
                         if self.text_reg_lambda > 0:
                             with torch.no_grad():
                                 text_logit = self._compute_text_prior_logits(image)
-                            kd_loss = self.text_reg_loss(logit, text_logit)
+                            if getattr(cfg, "PRIOR_REG_MODE", "fixed") == "class_gate":
+                                kd_per_sample = self.text_reg_loss(logit, text_logit, reduction="none")
+                                kd_loss = self.apply_prior_gate(kd_per_sample, label)
+                            else:
+                                kd_loss = self.text_reg_loss(logit, text_logit)
                             loss = loss + self.text_reg_lambda * kd_loss
 
                         # (B) feature-level InfoNCE vs fixed text prototypes
                         if self.infonce_lambda > 0:
                             # IMPORTANT: this keeps grad (no no_grad)
                             feat_txt = self._compute_text_prior_feat(image)  # [B, D_text]
-                            nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
+                            if getattr(cfg, "PRIOR_REG_MODE", "fixed") == "class_gate":
+                                nce_per_sample = self.infonce_loss(feat_txt, self.text_prior_weight, label, reduction="none")
+                                nce_loss = self.apply_prior_gate(nce_per_sample, label)
+                            else:
+                                nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
                             loss = loss + self.infonce_lambda * nce_loss
 
                     self.scaler.scale(loss / cfg.accum_step).backward()
@@ -1038,12 +1140,20 @@ class Trainer:
                     if self.text_reg_lambda > 0:
                         with torch.no_grad():
                             text_logit = self._compute_text_prior_logits(image)
-                        kd_loss = self.text_reg_loss(logit, text_logit)
+                        if getattr(cfg, "PRIOR_REG_MODE", "fixed") == "class_gate":
+                            kd_per_sample = self.text_reg_loss(logit, text_logit, reduction="none")
+                            kd_loss = self.apply_prior_gate(kd_per_sample, label)
+                        else:
+                            kd_loss = self.text_reg_loss(logit, text_logit)
                         loss = loss + self.text_reg_lambda * kd_loss
 
                     if self.infonce_lambda > 0:
                         feat_txt = self._compute_text_prior_feat(image)
-                        nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
+                        if getattr(cfg, "PRIOR_REG_MODE", "fixed") == "class_gate":
+                            nce_per_sample = self.infonce_loss(feat_txt, self.text_prior_weight, label, reduction="none")
+                            nce_loss = self.apply_prior_gate(nce_per_sample, label)
+                        else:
+                            nce_loss = self.infonce_loss(feat_txt, self.text_prior_weight, label)
                         loss = loss + self.infonce_lambda * nce_loss
 
                     (loss / cfg.accum_step).backward()
@@ -1145,9 +1255,8 @@ class Trainer:
             model_args = {"use_classifier": True}
         else:
             print("Pre-computing class features for testing.")
-            text = self.generate_class_prompts()
             with torch.no_grad():
-                text = self.compute_class_features(text)
+                text = self.compute_prompt_class_features()
             model_args = {"text": text, "is_text_feature": True}
         
         for image, label in tqdm(self.test_loader, ascii=True, desc="Testing"):
@@ -1168,6 +1277,8 @@ class Trainer:
         import numpy as np
         np.save(os.path.join(cfg.output_dir, "cls_accs.npy"), cls_accs.numpy())
         np.save(os.path.join(cfg.output_dir, "cls_num_list.npy"), np.asarray(self.cls_num_list))
+        if hasattr(self, "prior_gate"):
+            np.save(os.path.join(cfg.output_dir, "prior_gate.npy"), self.prior_gate.float().cpu().numpy())
 
     def save_model(self, directory):
         tuner_dict = self.tuner.state_dict()
