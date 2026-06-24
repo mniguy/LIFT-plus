@@ -38,7 +38,7 @@ _C.proj_tuning = False  # Fine-tuning the image and text projections.
 _C.clip_adapter = False  # Add CLIP adapters.
 _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
-_C.classifier_scale = 25  # Logit scale for classifier. (default=25)
+_C.classifier_scale = 30  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
 
 _C.v = CN()
