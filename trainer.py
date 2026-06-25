@@ -774,52 +774,76 @@ class Trainer:
     def build_prior_gate(self):
         cfg = self.cfg
         source = getattr(cfg, "PRIOR_GATE_SOURCE", "image_text")
-        if source != "image_text":
-            raise ValueError(f"Unknown PRIOR_GATE_SOURCE: {source}")
-        if not hasattr(self, "text_prior_weight"):
-            raise RuntimeError("text_prior_weight is required to build PRIOR_REG_MODE=class_gate.")
+        sim, valid = self._compute_gate_signal(source)
 
-        print("[PriorGate] Building class gate from train image means and text prior.")
-        text_prior = F.normalize(self.text_prior_weight.float(), dim=-1)
-        feat_dim = text_prior.size(1)
-        sums = torch.zeros(self.num_classes, feat_dim, device=self.device, dtype=torch.float32)
-        counts = torch.zeros(self.num_classes, device=self.device, dtype=torch.float32)
-
-        for image, label in tqdm(self.init_loader, ascii=True, desc="Prior gate"):
-            image = image.to(self.device)
-            label = label.to(self.device)
-            feat = F.normalize(self._compute_text_prior_feat(image).float(), dim=-1)
-            sums.index_add_(0, label, feat)
-            counts.index_add_(0, label, torch.ones_like(label, dtype=torch.float32))
-
-        means = sums / counts.clamp(min=1.0).unsqueeze(1)
-        means = F.normalize(means, dim=-1)
-        sim = (means * text_prior).sum(dim=1)  # raw per-class cosine, geometry-dependent scale
-        valid = counts > 0
-
-        # The raw cosine has a tiny, embedding-geometry-dependent dynamic range
-        # (observed mean ~0.01), which silently nullifies the gated loss. What
-        # matters for gating is the *relative* trust across classes, so rescale
-        # the raw similarity to a usable [0, 1] range over the valid classes.
+        # The raw signal (e.g. cosine) has a tiny, geometry-dependent dynamic range
+        # that would silently nullify the gated loss. What matters is the *relative*
+        # trust across classes, so rescale to a usable [0, 1] over valid classes.
         norm_mode = getattr(cfg, "PRIOR_GATE_NORM", "minmax")
         gate = self._normalize_gate(sim, valid, norm_mode)
         invert = bool(getattr(cfg, "PRIOR_GATE_INVERT", False))
         if invert:
-            # low-similarity classes get the stronger prior (inject prior where
-            # visual and prototype disagree, rather than only where they align).
+            # flip direction: low-signal classes get the stronger prior.
             gate = torch.where(valid, 1.0 - gate, gate)
         gate = gate.pow(float(getattr(cfg, "PRIOR_GATE_POWER", 1.0)))
         gate = torch.where(valid, gate, torch.zeros_like(gate))
 
+        if source == "shuffled":
+            # Negative control: keep the exact gate VALUE distribution but destroy
+            # the class<->weight mapping. If the agreement SIGNAL (not merely having
+            # a non-uniform gate) is what matters, this should NOT recover the gain.
+            gate = self._shuffle_gate(gate, valid)
+
         self.prior_gate = gate.detach()
-        sv = sim[valid]
+        sv, gv = sim[valid], gate[valid]
         print(
-            "[PriorGate] raw cos: min={:.4f} mean={:.4f} max={:.4f} | "
+            "[PriorGate] source={} signal: min={:.4f} mean={:.4f} max={:.4f} | "
             "norm={} invert={} gate: min={:.4f} mean={:.4f} max={:.4f}".format(
-                sv.min().item(), sv.mean().item(), sv.max().item(),
-                norm_mode, invert, gate.min().item(), gate.mean().item(), gate.max().item(),
+                source, sv.min().item(), sv.mean().item(), sv.max().item(),
+                norm_mode, invert, gv.min().item(), gv.mean().item(), gv.max().item(),
             )
         )
+
+    def _compute_gate_signal(self, source):
+        """Return (raw per-class signal, valid mask) that drives the class gate."""
+        if source in ("image_text", "shuffled"):
+            if not hasattr(self, "text_prior_weight"):
+                raise RuntimeError(
+                    "text_prior_weight is required for PRIOR_GATE_SOURCE=image_text/shuffled.")
+            print(f"[PriorGate] signal = cos(train image-mean, text prior)  [source={source}]")
+            text_prior = F.normalize(self.text_prior_weight.float(), dim=-1)
+            feat_dim = text_prior.size(1)
+            sums = torch.zeros(self.num_classes, feat_dim, device=self.device, dtype=torch.float32)
+            counts = torch.zeros(self.num_classes, device=self.device, dtype=torch.float32)
+            for image, label in tqdm(self.init_loader, ascii=True, desc="Prior gate"):
+                image = image.to(self.device)
+                label = label.to(self.device)
+                feat = F.normalize(self._compute_text_prior_feat(image).float(), dim=-1)
+                sums.index_add_(0, label, feat)
+                counts.index_add_(0, label, torch.ones_like(label, dtype=torch.float32))
+            means = F.normalize(sums / counts.clamp(min=1.0).unsqueeze(1), dim=-1)
+            sim = (means * text_prior).sum(dim=1)  # raw per-class cosine
+            return sim, counts > 0
+
+        if source == "frequency":
+            # Alternative axis / control: gate by class train frequency, NOT
+            # image-text agreement. Tests "is the agreement gate just frequency?"
+            print("[PriorGate] signal = per-class train frequency")
+            sim = torch.tensor(self.cls_num_list, device=self.device, dtype=torch.float32)
+            return sim, sim > 0
+
+        raise ValueError(f"Unknown PRIOR_GATE_SOURCE: {source}")
+
+    def _shuffle_gate(self, gate, valid):
+        """Permute gate values among valid classes (deterministic w.r.t. cfg.seed)."""
+        seed = int(getattr(self.cfg, "seed", 0) or 0)
+        g = torch.Generator().manual_seed(seed)
+        gate_cpu = gate.detach().cpu()
+        idx = torch.where(valid.cpu())[0]
+        perm = idx[torch.randperm(idx.numel(), generator=g)]
+        out = gate_cpu.clone()
+        out[idx] = gate_cpu[perm]
+        return out.to(gate.device)
 
     @staticmethod
     def _normalize_gate(sim, valid, mode):
