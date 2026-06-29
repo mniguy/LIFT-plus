@@ -28,13 +28,24 @@ def main():
     ap.add_argument("--root", required=True)
     ap.add_argument("--baseline", default="fixed")
     ap.add_argument("--order", nargs="*", default=None)
+    ap.add_argument("--seed", default=None,
+                    help="if set, keep only dirs ending in _seed<N> and strip that suffix")
     args = ap.parse_args()
 
-    variants = {os.path.basename(d): d
-                for d in sorted(glob.glob(os.path.join(args.root, "*")))
-                if os.path.isdir(d) and os.path.exists(os.path.join(d, "cls_accs.npy"))}
+    suffix = f"_seed{args.seed}" if args.seed is not None else None
+    variants = {}
+    for d in sorted(glob.glob(os.path.join(args.root, "*"))):
+        if not (os.path.isdir(d) and os.path.exists(os.path.join(d, "cls_accs.npy"))):
+            continue
+        name = os.path.basename(d)
+        if suffix is not None:
+            if not name.endswith(suffix):
+                continue
+            name = name[:-len(suffix)]
+        variants[name] = d
     if not variants:
-        sys.exit(f"no variants (with cls_accs.npy) under {args.root}")
+        sys.exit(f"no variants (with cls_accs.npy) under {args.root}"
+                 + (f" matching {suffix}" if suffix else ""))
 
     num = np.load(os.path.join(next(iter(variants.values())), "cls_num_list.npy"))
     h, m, fw = splits(num)
