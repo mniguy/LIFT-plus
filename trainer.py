@@ -1347,19 +1347,29 @@ class Trainer:
                 text = self.compute_prompt_class_features()
             model_args = {"text": text, "is_text_feature": True}
         
+        save_logits = bool(getattr(cfg, "SAVE_LOGITS", False))
+        all_logits = [] if save_logits else None
+
         for image, label in tqdm(self.test_loader, ascii=True, desc="Testing"):
             image = image.to(self.device)
             label = label.to(self.device)
 
             with torch.no_grad():
-                if cfg.tte:  # [bsz, ncrops, C, H, W] 
+                if cfg.tte:  # [bsz, ncrops, C, H, W]
                     logit = torch.stack([self.model(image=x, **model_args) for x in image.unbind(dim=1)]).mean(dim=0)
                 else:
                     logit = self.model(image=image, **model_args)
 
             evaluator.process(logit, label)
+            if all_logits is not None:
+                all_logits.append(logit.float().cpu())
 
         cls_accs = evaluator.evaluate(self.many_classes, self.med_classes, self.few_classes)
+
+        if all_logits is not None:
+            import numpy as np
+            np.save(os.path.join(cfg.output_dir, "logits.npy"),
+                    torch.cat(all_logits).half().numpy())
 
         # Save per-class accuracy for visualization
         import numpy as np

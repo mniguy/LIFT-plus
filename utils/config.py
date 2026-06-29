@@ -27,6 +27,7 @@ _C.loss_type = "LA"  # Loss type (in utils/losses.py).
 _C.mda = True  # Minimalist data augmentation.
 _C.mda_func = "convex"  # "min" / "convex" / "linear" / "concave" / "max".
 _C.tte = False  # Test-time ensembling.
+_C.SAVE_LOGITS = False  # If True, test() dumps raw logits.npy (float16) for test-agnostic / prior-shift analysis.
 _C.expand = None  # Test-time expanded size.
 
 _C.zero_shot = False  # Zero-shot CLIP.
