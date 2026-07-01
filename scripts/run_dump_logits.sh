@@ -16,24 +16,22 @@ PYTHON=${PYTHON:-python}
 # same as every other script -- no 'root' override needed.
 COMMON="classifier_init semantic TEXT_REG_LAMBDA 0 INFONCE_LAMBDA 0 PRIOR_REG_MODE fixed tte True SAVE_LOGITS True"
 
-# ---------- (1) multi-seed: reuse the existing trained LIFT+ checkpoints (cheap, test-only) ----------
+# ---------- (1) multi-seed on ImageNet-LT + Places-LT: train LIFT+ fresh at 3 seeds ----------
+# Each run trains AND (via SAVE_LOGITS) dumps logits.npy into output_dir; the trained
+# checkpoint.pth.tar is saved there too, so all 3 seeds share one identical pipeline
+# (homogeneous provenance -> clean std). Re-running overwrites any earlier partial dumps.
 for ds in imagenet_lt places_lt; do
   for SEED in 0 1 2; do
-    CKPT=output/method_ablation/${ds}/lift+_seed${SEED}
-    echo "=== [${ds} seed${SEED}] test-only dump from ${CKPT} ==="
+    echo "=== [${ds} seed${SEED}] train LIFT+ + dump logits ==="
     CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d ${ds} -b clip_vit_b16 -m lift+ \
       ${COMMON} seed ${SEED} \
-      test_only True model_dir ${CKPT} \
       output_dir test_agnostic_ms/${ds}/seed${SEED}
   done
 done
-# SANITY: the dumped seed0 All accuracy must match output/test_agnostic/${ds}/lift+ (~78.4 / 52.0).
-# If it does NOT, the saved ckpt config differs -> train fresh instead:
-#   for SEED in 1 2; do CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d <ds> -b clip_vit_b16 \
-#     -m lift+ ${COMMON} seed ${SEED} output_dir test_agnostic_ms/<ds>/seed${SEED}; done
+# SANITY: dumped seed0 All should be ~78.4 (ImageNet) / ~52.0 (Places).
 
-# ---------- (2) generality: iNat2018 (8142-cls; grouping should help most) + CIFAR-100-LT ----------
-for ds in inat2018 cifar100_ir100; do
+# ---------- (2) generality: iNat2018 (8142-cls; grouping should help most) ----------
+for ds in inat2018; do
   echo "=== [${ds}] train LIFT+ + dump logits ==="
   CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d ${ds} -b clip_vit_b16 -m lift+ \
     ${COMMON} seed 0 output_dir test_agnostic/${ds}/lift+
@@ -47,11 +45,10 @@ Next (any machine, no GPU):
   python scripts/make_beta_tables.py \
     ImageNet-LT:output/test_agnostic_ms/imagenet_lt/seed0,output/test_agnostic_ms/imagenet_lt/seed1,output/test_agnostic_ms/imagenet_lt/seed2 \
     Places-LT:output/test_agnostic_ms/places_lt/seed0,output/test_agnostic_ms/places_lt/seed1,output/test_agnostic_ms/places_lt/seed2 \
-    iNat2018:output/test_agnostic/inat2018/lift+ \
-    CIFAR100-LT:output/test_agnostic/cifar100_ir100/lift+
+    iNat2018:output/test_agnostic/inat2018/lift+
 
   # per-dataset frontier figure:
-  for d in imagenet_lt places_lt inat2018 cifar100_ir100; do
+  for d in imagenet_lt places_lt inat2018; do
     python scripts/plot_beta_frontier.py --root output/test_agnostic/$d/lift+ --title $d \
       --out output/paper/fig_frontier_$d.pdf
   done
