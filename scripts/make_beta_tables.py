@@ -67,7 +67,13 @@ def main():
     ap.add_argument("--total", type=int, default=15000)
     ap.add_argument("--group-mode", default="quantile")
     ap.add_argument("--n-groups", type=int, default=5)
+    ap.add_argument("--no-bbse", action="store_true",
+                    help="drop BBSE (impractical at very large C, e.g. iNat 8142)")
     args = ap.parse_args()
+
+    global METHODS
+    if args.no_bbse:
+        METHODS = [m for m in METHODS if m != "bbse"]
 
     datasets = []
     for spec in args.specs:
@@ -100,8 +106,8 @@ def main():
     for n, _ in datasets:
         for m in ["em_shrink", "em_group", "em_group_shrink"]:
             row = [n if m == "em_shrink" else "", PRETTY[m]]
-            row += [("$" + ("+" if np.mean(results[n][1][m][s]) >= 0 else "") +
-                     fmt(results[n][1][m][s]) + "$") for s in SPLITS]
+            row += [(("+" if np.mean(results[n][1][m][s]) >= 0 else "") +
+                     fmt(results[n][1][m][s])) for s in SPLITS]  # fmt already math-safe (\tiny$\pm$)
             L.append(" & ".join(row) + "\\\\")
         L.append("\\midrule")
     L[-1] = "\\bottomrule\\end{tabular}"
