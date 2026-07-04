@@ -18,7 +18,7 @@ set -euo pipefail
 GPU_ID=${GPU_ID:-0}
 PYTHON=${PYTHON:-python}
 SEEDS=${SEEDS:-"0 1 2"}
-COMMON="classifier_init semantic TEXT_REG_LAMBDA 0 INFONCE_LAMBDA 0 PRIOR_REG_MODE fixed tte True SAVE_LOGITS True"
+COMMON="classifier_init semantic TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0 PRIOR_REG_MODE fixed tte True SAVE_LOGITS True"
 
 [ -f main.py ] || { echo "ERROR: run from repo root (main.py not found)"; exit 1; }
 
@@ -28,7 +28,10 @@ for SEED in ${SEEDS}; do
     ${COMMON} seed ${SEED} \
     output_dir test_agnostic_ms/inat2018/seed${SEED}
 done
-# SANITY: dumped seed0 All should be ~76.1 (matches output/test_agnostic/inat2018/lift+).
+# SANITY: seed0's training log should print "* Overall accuracy: ~77.3%" (native uniform
+# test), matching output/test_agnostic/inat2018/lift+ (77.31%). NOTE: the post-hoc no-adapt
+# "All" in compare_baselines is ~76.1 -- a DIFFERENT number (mean over resampled
+# forward/uniform/backward priors), not the native test accuracy; don't confuse the two.
 
 cat <<'EOF'
 
