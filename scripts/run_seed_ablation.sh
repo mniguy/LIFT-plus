@@ -13,10 +13,11 @@
 # A single-seed method sweep cannot separate a real gain from the ~0.8 run-noise
 # band, so by default we ALSO run the paired baseline (semantic, no-warmup) at the
 # SAME seeds. The paired mean+-std on Few is the number that decides salvage-or-drop.
-# Set RUN_BASELINE=0 to skip it.
+# Set RUN_BASELINE=0 to run the method only, or RUN_METHOD=0 to run the baseline only.
 #
 #   bash scripts/run_seed_ablation.sh
 #   SEEDS="0 1 2" DATASETS=imagenet_lt bash scripts/run_seed_ablation.sh
+#   RUN_METHOD=0 bash scripts/run_seed_ablation.sh   # baseline only
 #   python scripts/agg_seed_ablation.py            # aggregate when done
 set -euo pipefail
 
@@ -24,7 +25,8 @@ GPU_ID=${GPU_ID:-0}
 PYTHON=${PYTHON:-python}
 SEEDS=${SEEDS:-"0 1 2 3 4 5 6 7 8 9 10"}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-RUN_BASELINE=${RUN_BASELINE:-1}
+RUN_METHOD=${RUN_METHOD:-1}      # set 0 to run only the baseline
+RUN_BASELINE=${RUN_BASELINE:-1}  # set 0 to run only the method
 OUT_ROOT=${OUT_ROOT:-"final_tte/seed_ablation"}
 
 [ -f main.py ] || { echo "ERROR: run from the repo root (main.py not found)"; exit 1; }
@@ -74,8 +76,10 @@ run_one () {
 
 for data in ${DATASETS}; do
   for s in ${SEEDS}; do
-    echo "=== [${data}] seed=${s} : method (warmup) ==="
-    run_one "${data}" "${OUT_ROOT}/${data}/method_seed${s}" "${METHOD_ARGS[@]}" seed "${s}"
+    if [ "${RUN_METHOD}" = "1" ]; then
+      echo "=== [${data}] seed=${s} : method (warmup) ==="
+      run_one "${data}" "${OUT_ROOT}/${data}/method_seed${s}" "${METHOD_ARGS[@]}" seed "${s}"
+    fi
     if [ "${RUN_BASELINE}" = "1" ]; then
       echo "=== [${data}] seed=${s} : baseline (LIFT+) ==="
       run_one "${data}" "${OUT_ROOT}/${data}/baseline_seed${s}" "${BASELINE_ARGS[@]}" seed "${s}"
