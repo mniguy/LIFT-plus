@@ -503,12 +503,19 @@ class Trainer:
         w_prompts_raw = self.compute_prompt_class_features()
         w_prompts_raw = F.normalize(w_prompts_raw, dim=-1)
 
+        # Optional: dump which caption sentences get selected per class (inspection).
+        _dump_path = os.environ.get("DUMP_CAPTIONS")
+        _dump = [] if _dump_path else None
+
         all_caption_features = []
         for idx, _ in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
             w_prompt_raw = w_prompts_raw[idx]
 
             sents = corpus.get(idx, [])
             if len(sents) == 0:
+                if _dump is not None:
+                    _dump.append({"idx": idx, "class": self.classnames[idx],
+                                  "status": "no_corpus", "selected": []})
                 all_caption_features.append(w_prompt_raw)
                 continue
             
@@ -576,6 +583,9 @@ class Trainer:
                 sent_feats_list.append(avg_feats_norm)
             
             if not sent_feats_list: # 클래스에 유효한 문장이 하나도 없었음
+                if _dump is not None:
+                    _dump.append({"idx": idx, "class": self.classnames[idx],
+                                  "status": "no_valid_sents", "selected": []})
                 all_caption_features.append(w_prompt_raw)
                 continue
             
@@ -594,24 +604,46 @@ class Trainer:
             final_indices = top_idx[threshold_mask]
             
             selected = sent_feats[final_indices] # [N_selected, 512]
-            
+
             # caption feature 평균
             if selected.shape[0] == 0:
                 w_final = w_prompt_raw
+                if _dump is not None:
+                    # nothing passed the threshold: show the top-k that just missed
+                    _dump.append({"idx": idx, "class": self.classnames[idx],
+                                  "status": "below_threshold", "alpha": 1.0, "n_selected": 0,
+                                  "top_missed": [{"sim": round(s, 4), "sent": sents[j]}
+                                                 for s, j in zip(top_sims.tolist(), top_idx.tolist())]})
             else:
                 w_caption_raw = F.normalize(selected.mean(0), dim=-1)
                 raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
                 trust_score = raw_trust_score.clamp(min=0.0).item()
                 alpha = 1.0 - trust_score
-                
+
                 w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
+                if _dump is not None:
+                    sel_sims = top_sims[threshold_mask].tolist()
+                    _dump.append({"idx": idx, "class": self.classnames[idx], "status": "ok",
+                                  "alpha": round(alpha, 4), "trust": round(trust_score, 4),
+                                  "n_selected": int(selected.shape[0]),
+                                  "selected": [{"sim": round(sm, 4), "sent": sents[j]}
+                                               for j, sm in zip(final_indices.tolist(), sel_sims)]})
 
             all_caption_features.append(w_final)
 
         # 7️⃣ 최종 classifier weight로 사용
         self.class_features = torch.stack(all_caption_features, dim=0)
         print(f"[Wiki] Done: computed features for {len(self.classnames)} classes (top-{top_k}, thresh>{sim_threshold}, dynamic_alpha, chunked).")
-        
+
+        if _dump is not None:
+            import json
+            with open(_dump_path, "w", encoding="utf-8") as f:
+                json.dump(_dump, f, ensure_ascii=False, indent=2)
+            n_ok = sum(1 for d in _dump if d["status"] == "ok")
+            print(f"[Wiki] Dumped caption selection to {_dump_path} "
+                  f"({n_ok}/{len(_dump)} classes selected >=1 caption). Exiting (inspection mode).")
+            sys.exit(0)
+
         return self.class_features
     
     def build_optimizer(self):
@@ -624,7 +656,13 @@ class Trainer:
         for param in self.tuner.parameters():
             param.requires_grad_(True)
 
-        self.optim = torch.optim.SGD(self.tuner.parameters(),
+        if getattr(cfg, "FREEZE_CLASSIFIER", False) and "classifier" in self.tuner:
+            print("Freezing classifier: kept at init value, not trained.")
+            for param in self.tuner["classifier"].parameters():
+                param.requires_grad_(False)
+
+        self.optim = torch.optim.SGD(
+            [p for p in self.tuner.parameters() if p.requires_grad],
             lr=cfg.lr, weight_decay=cfg.weight_decay, momentum=cfg.momentum)
         self.optim.zero_grad()
         

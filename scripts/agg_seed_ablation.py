@@ -64,9 +64,9 @@ def fmt_row(label, r):
     )
 
 
-def report(root, dataset):
+def report(root, dataset, baseline_root=None):
     method = collect(root, dataset, "method")
-    base = collect(root, dataset, "baseline")
+    base = collect(baseline_root or root, dataset, "baseline")
     seeds = sorted(method)
     print("\n" + "=" * 78)
     print("%s   method seeds=%s%s" % (
@@ -108,10 +108,13 @@ def report(root, dataset):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default="output/final_tte/seed_ablation")
+    ap.add_argument("--baseline-root", default=None,
+                    help="read baseline_seed* from here instead of --root "
+                         "(e.g. reuse output/seed_ablation baselines for the gate variant)")
     ap.add_argument("--datasets", nargs="+", default=["imagenet_lt", "places_lt"])
     args = ap.parse_args()
     for ds in args.datasets:
-        report(args.root, ds)
+        report(args.root, ds, baseline_root=args.baseline_root)
 
 
 if __name__ == "__main__":

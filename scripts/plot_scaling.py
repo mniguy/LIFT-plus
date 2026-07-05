@@ -12,10 +12,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-# (dataset, #classes, LSC delta, GPA-S delta) -- All vs no-adapt (from lsc_baseline.py)
-DATA = [("Places-LT", 365, 2.72, 3.64),
-        ("ImageNet-LT", 1000, -0.10, 1.57),
-        ("iNat2018", 8142, -6.49, 2.24)]
+# (dataset, #classes, LSC delta, GPA-S delta) -- All vs no-adapt, 3-seed (compare_baselines.py)
+DATA = [("Places-LT", 365, 2.30, 3.74),
+        ("ImageNet-LT", 1000, -0.49, 1.40),
+        ("iNat2018", 8142, -6.27, 2.30)]
 
 labels = [f"{n}\n(C={c})" for n, c, _, _ in DATA]
 em = [d[2] for d in DATA]
@@ -32,7 +32,7 @@ for b in list(b1) + list(b2):
                 ha="center", va="bottom" if h >= 0 else "top",
                 fontsize=8, xytext=(0, 2 if h >= 0 else -2), textcoords="offset points")
 # highlight the divergence at scale
-ax.annotate("gap +8.7", (x[2], 2.24), xytext=(x[2]-0.15, 4.4), fontsize=9,
+ax.annotate("gap +8.6", (x[2], 2.30), xytext=(x[2]-0.15, 4.4), fontsize=9,
             color="tab:blue", ha="center",
             arrowprops=dict(arrowstyle="->", color="gray", lw=0.8))
 ax.set_xticks(x); ax.set_xticklabels(labels)

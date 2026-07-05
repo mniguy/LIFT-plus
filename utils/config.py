@@ -41,6 +41,7 @@ _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
 _C.classifier_scale = 25  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
+_C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (do not train it).
 
 _C.v = CN()
 _C.v.fft = False  # Full fine-tuning (FFT).
