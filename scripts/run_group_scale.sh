@@ -3,16 +3,16 @@
 # #1: per-frequency-group FIXED cosine scale. Tests the analysis that tail classes
 # need a larger effective scale (smaller required margin vs the LA freq penalty).
 # Clean isolation: plain LIFT+ (semantic init, no KD/InfoNCE, no warmup), TTE.
-# head scale fixed at 30 (the good baseline); sweep the TAIL scale upward.
-# TAIL==HEAD (30) reproduces the plain scale-30 baseline (sanity anchor).
+# head=25 (softer for the abundant head classes), tail=30 (sharper -> smaller required
+# margin for rare classes). One config per dataset. Override with S_HEAD / TAILS.
 #
 #   bash scripts/run_group_scale.sh
 #   python scripts/agg_runs.py output/group_scale --sort few
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-S_HEAD=${S_HEAD:-30}
-TAILS=${TAILS:-"30 34 38 42"}
+S_HEAD=${S_HEAD:-25}
+TAILS=${TAILS:-"30"}
 OUT_ROOT=${OUT_ROOT:-"group_scale"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
