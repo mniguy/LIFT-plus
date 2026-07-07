@@ -266,11 +266,13 @@ class Trainer:
         caption_dir: str,
         classnames: List[str],
         max_sentences: int = 0,
-        max_chars: int = 0
+        max_chars: int = 0,
+        index_map: Dict[int, int] = None,
     ) -> Dict[int, List[str]]:
         corpus = {}
         for i, _ in enumerate(classnames):
-            caption_path = os.path.join(caption_dir, f"desc_{i}.txt")
+            file_id = index_map.get(i, i) if index_map is not None else i
+            caption_path = os.path.join(caption_dir, f"desc_{file_id}.txt")
             sents = []
             if os.path.exists(caption_path):
                 with open(caption_path, "r", encoding="utf-8", errors='replace') as f:
@@ -283,7 +285,37 @@ class Trainer:
                     sents = sents[:max_sentences]
             corpus[i] = sents
         return corpus
-    
+
+    def _wiki_index_map(self):
+        """Map class label -> desc_{id}.txt file id.
+
+        iNat's desc files are numbered by categories.json RAW order, but classnames
+        are sorted(set(names)); reading desc_{label} loads the wrong species. If a
+        categories.json exists (iNat only), remap label -> raw id so the correct
+        article is read. Returns None (identity) for ImageNet/Places (no categories.json,
+        already aligned). Keeps the raw desc files untouched -- no data swap needed.
+        """
+        cats_path = os.path.join("datasets", self.cfg.dataset, "categories.json")
+        if not os.path.exists(cats_path):
+            return None
+        import json
+        try:
+            cats = json.load(open(cats_path))
+            names = [c["name"] for c in cats]
+        except (ValueError, TypeError, KeyError):
+            return None
+        name2raw = {}
+        for raw_id, nm in enumerate(names):
+            name2raw.setdefault(nm, raw_id)
+        idx_map = {label: name2raw[cn] for label, cn in enumerate(self.classnames) if cn in name2raw}
+        if not idx_map or all(k == v for k, v in idx_map.items()):
+            return None  # already identity-aligned
+        n_remap = sum(1 for k, v in idx_map.items() if k != v)
+        print(f"[Wiki] Remapping desc index via {cats_path}: "
+              f"{len(idx_map)}/{len(self.classnames)} classes matched, {n_remap} remapped "
+              f"(categories raw-order -> sorted label).")
+        return idx_map
+
     def build_tuner(self):
     
         cfg = self.cfg
@@ -508,6 +540,7 @@ class Trainer:
             classnames=self.classnames,
             max_sentences=getattr(cfg, "WIKI_MAX_SENTENCES", 0),
             max_chars=getattr(cfg, "WIKI_MAX_CHARS", 0),
+            index_map=self._wiki_index_map(),
         )
 
         print(f"[Wiki] Computing features (top-{top_k}, thresh>{sim_threshold}, dynamic_alpha, chunked) for dataset={cfg.dataset} ...")
