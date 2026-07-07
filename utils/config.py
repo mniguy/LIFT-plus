@@ -43,6 +43,20 @@ _C.classifier_scale = 25  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
 _C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (do not train it).
 
+# --- #1: per-frequency-group FIXED cosine scale (classifier=CosineClassifierGroupScale) ---
+# tail classes need a larger effective scale (smaller required margin vs the LA freq penalty).
+_C.GROUP_SCALE_HEAD = 30  # scale for the most-frequent class (int, like classifier_scale)
+_C.GROUP_SCALE_TAIL = 30  # scale for the rarest class (set > head to help tail; == head is plain cosine)
+
+# --- #3: hybrid-caption geometry (reduce averaging dilution / tail noise) ---
+_C.CAPTION_CENTER = False   # subtract the global prompt centroid before averaging captions
+_C.CAPTION_BLEND = "convex" # convex (current) | residual (add only caption comp. orthogonal to prompt)
+_C.CAPTION_SHRINK = False   # down-weight the caption when few captions were selected (tail-noise shrinkage)
+
+# --- #4: WHERE to apply the caption blend (need vs reliability) ---
+_C.CAPTION_APPLY = "all"    # all | tail | headmed | reliable
+_C.CAPTION_RELIABLE_MIN = 2 # for CAPTION_APPLY=reliable: min #selected captions to trust the blend
+
 _C.v = CN()
 _C.v.fft = False  # Full fine-tuning (FFT).
 _C.v.fft_layers = None  # None (all layers) / int (the last k layers) / expression (e.g. "[1, 2]", "range(3)", etc).

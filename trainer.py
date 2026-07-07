@@ -417,6 +417,18 @@ class Trainer:
             print("Add classifier on top of the vision model.")
             self.model.add_classifier(cfg.classifier, self.num_classes, scale=cfg.classifier_scale)
 
+            if cfg.classifier == "CosineClassifierGroupScale":
+                # #1: fixed per-class scale from frequency (rarest -> GROUP_SCALE_TAIL, most-frequent -> GROUP_SCALE_HEAD)
+                cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32)
+                rank = torch.argsort(torch.argsort(cn)).float()      # 0 = rarest ... N-1 = most frequent
+                rarity = 1.0 - rank / max(len(cn) - 1, 1)            # rarest -> 1, most frequent -> 0
+                s_head = float(getattr(cfg, "GROUP_SCALE_HEAD", cfg.classifier_scale))
+                s_tail = float(getattr(cfg, "GROUP_SCALE_TAIL", cfg.classifier_scale))
+                scale_vec = s_head + (s_tail - s_head) * rarity
+                self.model.tuner["classifier"].set_scale_vector(scale_vec)
+                print(f"[GroupScale] s_head={s_head} s_tail={s_tail} -> per-class scale "
+                      f"[{scale_vec.min().item():.1f}, {scale_vec.max().item():.1f}]")
+
             if not (cfg.zero_shot or cfg.test_only) and cfg.classifier_init is not None:
                 classifier_init = cfg.classifier_init
                 
@@ -506,6 +518,17 @@ class Trainer:
         # Optional: dump which caption sentences get selected per class (inspection).
         _dump_path = os.environ.get("DUMP_CAPTIONS")
         _dump = [] if _dump_path else None
+
+        # --- experimental caption knobs (#3 geometry, #4 placement); defaults = current behavior ---
+        caption_center = bool(getattr(cfg, "CAPTION_CENTER", False))
+        caption_blend = getattr(cfg, "CAPTION_BLEND", "convex")
+        caption_shrink = bool(getattr(cfg, "CAPTION_SHRINK", False))
+        caption_apply = getattr(cfg, "CAPTION_APPLY", "all")
+        reliable_min = int(getattr(cfg, "CAPTION_RELIABLE_MIN", 2))
+        global_mu = w_prompts_raw.mean(0)  # common "generic" direction, for CAPTION_CENTER
+        few_set = set(torch.as_tensor(self.few_classes).flatten().tolist())
+        headmed_set = (set(torch.as_tensor(self.many_classes).flatten().tolist())
+                       | set(torch.as_tensor(self.med_classes).flatten().tolist()))
 
         all_caption_features = []
         for idx, _ in enumerate(tqdm(self.classnames, desc="Wiki caption encoding")):
@@ -615,19 +638,36 @@ class Trainer:
                                   "top_missed": [{"sim": round(s, 4), "sent": sents[j]}
                                                  for s, j in zip(top_sims.tolist(), top_idx.tolist())]})
             else:
-                w_caption_raw = F.normalize(selected.mean(0), dim=-1)
+                cap_mean = selected.mean(0)
+                if caption_center:                        # #3: remove the common "generic" direction
+                    cap_mean = cap_mean - global_mu
+                w_caption_raw = F.normalize(cap_mean, dim=-1)
                 raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
                 trust_score = raw_trust_score.clamp(min=0.0).item()
-                alpha = 1.0 - trust_score
-
-                w_final = F.normalize(alpha * w_prompt_raw + (1 - alpha) * w_caption_raw, dim=-1)
+                cap_w = trust_score                       # caption weight (= 1 - alpha)
+                n_sel = int(selected.shape[0])
+                if caption_shrink:                        # #3: down-weight caption when few selected (tail noise)
+                    cap_w = cap_w * n_sel / (n_sel + 1.0)
+                if caption_blend == "residual":           # #3: add only caption comp. orthogonal to prompt
+                    perp = w_caption_raw - (w_caption_raw * w_prompt_raw).sum() * w_prompt_raw
+                    w_final = F.normalize(w_prompt_raw + cap_w * perp, dim=-1)
+                else:                                     # convex (current default)
+                    w_final = F.normalize((1.0 - cap_w) * w_prompt_raw + cap_w * w_caption_raw, dim=-1)
                 if _dump is not None:
                     sel_sims = top_sims[threshold_mask].tolist()
                     _dump.append({"idx": idx, "class": self.classnames[idx], "status": "ok",
-                                  "alpha": round(alpha, 4), "trust": round(trust_score, 4),
-                                  "n_selected": int(selected.shape[0]),
+                                  "alpha": round(1.0 - cap_w, 4), "trust": round(trust_score, 4),
+                                  "n_selected": n_sel,
                                   "selected": [{"sim": round(sm, 4), "sent": sents[j]}
                                                for j, sm in zip(final_indices.tolist(), sel_sims)]})
+
+            # #4: does this class actually USE the caption blend? (else keep prompt-only)
+            if caption_apply != "all":
+                use_cap = ((caption_apply == "tail" and idx in few_set)
+                           or (caption_apply == "headmed" and idx in headmed_set)
+                           or (caption_apply == "reliable" and int(selected.shape[0]) >= reliable_min))
+                if not use_cap:
+                    w_final = w_prompt_raw
 
             all_caption_features.append(w_final)
 

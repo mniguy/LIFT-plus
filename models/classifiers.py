@@ -45,10 +45,37 @@ class CosineClassifierPCT(LinearClassifier):
         return logit
 
 
+class CosineClassifierGroupScale(LinearClassifier):
+    """Cosine classifier with a FIXED (non-learned) per-class logit scale s_c.
+
+    Tests the analysis that tail classes need a LARGER effective scale: with LA the
+    logit is s_c*cos(f,w_c) + tau*log(pi_c), so the cosine margin a class must reach
+    to beat its frequency penalty is |log pi_c|/s_c -- larger s_c => smaller required
+    margin => easier for rare classes. The trainer sets s_c from class frequency via
+    set_scale_vector(); until then it is the scalar `scale` for every class.
+    """
+    def __init__(self, feat_dim, num_classes, scale=30, bias=False, dtype=None, device=None, **kwargs):
+        super().__init__(feat_dim, num_classes, bias, dtype=dtype, device=device)
+        self.register_buffer(
+            "scale_vec",
+            torch.full((num_classes,), float(scale), dtype=self.weight.dtype, device=self.weight.device),
+        )
+
+    def set_scale_vector(self, scale_vec):
+        self.scale_vec.copy_(scale_vec.to(self.scale_vec.dtype).to(self.scale_vec.device))
+
+    def forward(self, x):
+        cos = F.linear(F.normalize(x), F.normalize(self.weight))  # [B, C] cosine similarity
+        logit = cos * self.scale_vec.unsqueeze(0)                 # per-class fixed scale
+        if self.bias is not None:
+            logit = logit + self.bias
+        return logit
+
+
 class L2NormClassifier(LinearClassifier):
     def __init__(self, feat_dim, num_classes, bias=False, dtype=None, device=None, **kwargs):
         super().__init__(feat_dim, num_classes, bias, dtype=dtype, device=device)
-    
+
     def forward(self, x):
         return F.linear(x, F.normalize(self.weight), self.bias)
 
