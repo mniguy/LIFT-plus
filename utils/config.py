@@ -48,6 +48,14 @@ _C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (
 _C.GROUP_SCALE_HEAD = 30  # scale for the most-frequent class (int, like classifier_scale)
 _C.GROUP_SCALE_TAIL = 30  # scale for the rarest class (set > head to help tail; == head is plain cosine)
 
+# --- control + #3: caption-free prototype centering / de-anisotropization ---
+_C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes (no captions)
+_C.PROMPT_CENTER_MODE = "global"  # global | group (head centroid) | tail (inv-freq scaled) | std | whiten
+
+# --- #2: how the caption/prompt agreement weight (cap_w) is gated ---
+_C.CAPTION_GATE = "soft"    # soft (continuous, current) | hard (0/1) | freq (tail-scaled)
+_C.CAPTION_GATE_TAU = 0.0   # agreement threshold for CAPTION_GATE=hard
+
 # --- #3: hybrid-caption geometry (reduce averaging dilution / tail noise) ---
 _C.CAPTION_CENTER = False   # subtract the global prompt centroid before averaging captions
 _C.CAPTION_BLEND = "convex" # convex (current) | residual (add only caption comp. orthogonal to prompt)

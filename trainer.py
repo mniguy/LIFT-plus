@@ -468,6 +468,10 @@ class Trainer:
                     print("Using semantic-aware initialization.")
                     with torch.no_grad():
                         class_features = self.compute_prompt_class_features()
+                        if getattr(cfg, "PROMPT_CENTER", False):  # control + #3: caption-free centering
+                            class_features = self._center_prototypes(class_features)
+                            print(f"[PROMPT_CENTER] mode={getattr(cfg, 'PROMPT_CENTER_MODE', 'global')} "
+                                  f"applied to prototypes.")
                     # store fixed textual prior for optional training-time regularization
                     self.text_prior_weight = F.normalize(class_features, dim=-1).detach()
                     self.model.init_classifier_weight(class_features, feature_modality="text")
@@ -559,6 +563,12 @@ class Trainer:
         caption_apply = getattr(cfg, "CAPTION_APPLY", "all")
         reliable_min = int(getattr(cfg, "CAPTION_RELIABLE_MIN", 2))
         global_mu = w_prompts_raw.mean(0)  # common "generic" direction, for CAPTION_CENTER
+        # --- #2: how cap_w (caption/prompt agreement weight) is gated ---
+        caption_gate = getattr(cfg, "CAPTION_GATE", "soft")   # soft (current) | hard (0/1) | freq (tail-scaled)
+        gate_tau = float(getattr(cfg, "CAPTION_GATE_TAU", 0.0))
+        _cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32)
+        _rank = torch.argsort(torch.argsort(_cn)).float()     # 0 = rarest ... N-1 = most frequent
+        rarity = 1.0 - _rank / max(len(_cn) - 1, 1)           # rarest -> 1, most frequent -> 0
         few_set = set(torch.as_tensor(self.few_classes).flatten().tolist())
         headmed_set = (set(torch.as_tensor(self.many_classes).flatten().tolist())
                        | set(torch.as_tensor(self.med_classes).flatten().tolist()))
@@ -678,6 +688,10 @@ class Trainer:
                 raw_trust_score = (w_prompt_raw * w_caption_raw).sum() # [-1, 1] 범위의 코사인 유사도
                 trust_score = raw_trust_score.clamp(min=0.0).item()
                 cap_w = trust_score                       # caption weight (= 1 - alpha)
+                if caption_gate == "hard":                # #2: binary agreement gate
+                    cap_w = 1.0 if trust_score > gate_tau else 0.0
+                elif caption_gate == "freq":              # #2: scale caption by tail-ness (rarest -> full)
+                    cap_w = trust_score * float(rarity[idx])
                 n_sel = int(selected.shape[0])
                 if caption_shrink:                        # #3: down-weight caption when few selected (tail noise)
                     cap_w = cap_w * n_sel / (n_sel + 1.0)
@@ -834,6 +848,33 @@ class Trainer:
             class_features.append(F.normalize(features, dim=-1))
 
         return F.normalize(torch.stack(class_features, dim=0).mean(dim=0), dim=-1)
+
+    def _center_prototypes(self, feats):
+        """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
+        mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
+        orig_dtype = feats.dtype
+        X = feats.float()
+        if mode == "global":                     # subtract the global prompt centroid
+            out = X - X.mean(0)
+        elif mode == "group":                    # subtract the head(many)-group centroid
+            head = torch.as_tensor(self.many_classes).flatten().to(X.device)
+            out = X - X[head].mean(0)
+        elif mode == "tail":                     # per-class strength ~ inverse frequency (rarest strongest)
+            cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=X.device)
+            rank = torch.argsort(torch.argsort(cn)).float()
+            rarity = (1.0 - rank / max(len(cn) - 1, 1)).unsqueeze(1)   # [C,1] rarest->1, head->0
+            out = X - rarity * X.mean(0)
+        elif mode == "std":                      # diagonal whitening (standardize each dim)
+            out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)
+        elif mode == "whiten":                   # ZCA whitening (decorrelate + unit variance)
+            Xc = X - X.mean(0)
+            cov = (Xc.T @ Xc) / Xc.shape[0] + 1e-4 * torch.eye(X.shape[1], device=X.device)
+            evals, evecs = torch.linalg.eigh(cov)
+            W = evecs @ torch.diag(evals.clamp_min(1e-6).rsqrt()) @ evecs.T
+            out = Xc @ W
+        else:
+            raise ValueError(f"unknown PROMPT_CENTER_MODE: {mode}")
+        return F.normalize(out, dim=-1).to(orig_dtype)
     
     def compute_train_features(self):
         all_features = torch.Tensor([]).to(self.device)
