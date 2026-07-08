@@ -872,6 +872,31 @@ class Trainer:
             evals, evecs = torch.linalg.eigh(cov)
             W = evecs @ torch.diag(evals.clamp_min(1e-6).rsqrt()) @ evecs.T
             out = Xc @ W
+        elif mode == "pca":                      # All-but-the-Top: mean-center + remove top-k principal comps
+            k = int(getattr(self.cfg, "PROMPT_CENTER_PCA_K", 1))
+            Xc = X - X.mean(0)                    # k=0 == global (mean only); k up to whiten-like collapse
+            if k > 0:
+                cov = (Xc.T @ Xc) / Xc.shape[0]
+                _, evecs = torch.linalg.eigh(cov)  # ascending eigenvalues
+                V = evecs[:, -k:]                  # top-k principal directions
+                Xc = Xc - (Xc @ V) @ V.T           # project them out
+            out = Xc
+        # --- J negative controls: look like centering but do NOT remove the shared direction ---
+        elif mode == "randdir":                  # subtract a RANDOM direction of matched norm (is it really mu?)
+            gen = torch.Generator(device=X.device).manual_seed(int(getattr(self.cfg, "seed", 0)))
+            u = F.normalize(torch.randn(X.shape[1], generator=gen, device=X.device), dim=0)
+            out = X - X.mean(0).norm() * u
+        elif mode == "headonly":                 # center head+med only, leave Few raw (must we touch tail?)
+            mu = X.mean(0)
+            sel = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
+            sel[torch.as_tensor(self.many_classes).flatten().to(X.device)] = True
+            sel[torch.as_tensor(self.med_classes).flatten().to(X.device)] = True
+            out = X.clone()
+            out[sel] = X[sel] - mu
+        elif mode == "perclass_rand":            # independent random dir per class (pure init noise)
+            gen = torch.Generator(device=X.device).manual_seed(int(getattr(self.cfg, "seed", 0)))
+            U = F.normalize(torch.randn(X.shape, generator=gen, device=X.device), dim=-1)
+            out = X - X.mean(0).norm() * U
         else:
             raise ValueError(f"unknown PROMPT_CENTER_MODE: {mode}")
         return F.normalize(out, dim=-1).to(orig_dtype)
