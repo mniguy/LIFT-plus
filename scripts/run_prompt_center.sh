@@ -3,30 +3,29 @@
 # CONTROL for #3: is the caption-geometry gain from the CAPTIONS, or just from
 # de-anisotropizing the prototype (subtracting the global prompt centroid)?
 #
-# Same pipeline as run_caption_geom.sh (KD 0.001 + InfoNCE 0.005, scale 25, TTE,
-# no warmup) but classifier_init=semantic (prompt-only, NO captions). Only knob is
-# PROMPT_CENTER. This fills the "no caption" row of the 2x2:
+# LA loss only (aux OFF), classifier_init=semantic (prompt-only, NO captions). Only knob
+# is PROMPT_CENTER. The no-center cell is ALREADY on record as the 11-seed baseline in
+# "output/seed_ablation 25/" (identical config: aux off, scale 25, mda/tte/5ep/no-warmup):
+#     ImageNet 78.33 +/- 0.06    Places 52.15 +/- 0.10    (n=11)
+# so we only run `center` and test it against that anchor.
 #
-#                    no center            center
-#   no caption   ->  plain (this)         center (this)
-#   caption      ->  caption_geom25/convex  caption_geom25/center
-#
-#   center ~= caption_geom25/center  -> caption content is a red herring; the win is centering
-#   center ~= plain                  -> centering alone does nothing; the caption residual matters
+#   center >> anchor (>2 sigma: >78.46 IN / >52.35 PL)  -> centering alone helps (Direction 3 worth it)
+#   center ~= anchor                                    -> centering alone is a no-op
 #
 #   bash scripts/run_prompt_center.sh
+#   VARIANTS="plain center" bash scripts/run_prompt_center.sh   # also re-run no-center in-session
 #   python scripts/agg_runs.py output/prompt_center25 --sort few
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-VARIANTS=${VARIANTS:-"plain center"}
+VARIANTS=${VARIANTS:-"center"}
 OUT_ROOT=${OUT_ROOT:-"prompt_center25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
-# Matches caption_geom25 base (scale 25), minus the caption knobs.
+# Matches the "seed_ablation 25" baseline (semantic, scale 25, aux OFF), only PROMPT_CENTER varies.
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25
-  TEXT_REG_LAMBDA 0.001 INFONCE_LAMBDA 0.005 PRIOR_REG_MODE fixed
+  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
   mda True tte True num_epochs 5 PEFT_WARMUP False
 )
 variant_args(){ case "$1" in

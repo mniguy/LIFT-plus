@@ -14,7 +14,7 @@
 #   GATE_TAU=0.15 VARIANTS=hard bash scripts/run_caption_gate.sh   # sweep the hard threshold
 #   python scripts/agg_runs.py output/caption_gate25 --sort few
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
 VARIANTS=${VARIANTS:-"soft hard freq"}
 GATE_TAU=${GATE_TAU:-0.1}
