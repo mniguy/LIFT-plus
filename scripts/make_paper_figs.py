@@ -59,37 +59,40 @@ plt.close(fig)
 
 # ============ Fig 2: breadth predictor -- tail init-persistence predicts benefit ============
 # provenance: breadth25 (ΔFew), analyze_anisotropy.py (Few drift), + IN/PL from center_seeds25
-# (dataset, tail_drift M2, ΔFew pp, baseline Few%)
+# (dataset, tail_drift M2, ΔFew pp, baseline Few%) -- all at each dataset's matched protocol
+# (iNat = 15 epochs, matching LIFT+; its tail drifts ~0.85 from init, so it is not frozen)
 pts = [
     ("CIFAR-IR100", 0.037, +2.24, 79.63),
     ("Places-LT",   0.065, +1.62, 51.62),
     ("ImageNet-LT", 0.074, +1.59, 73.58),
     ("CIFAR-IR50",  0.049, -0.27, 84.44),
-    ("iNat2018",    0.360, -0.79, 78.45),
+    ("iNat2018",    0.853, -0.23, 82.36),
 ]
-fig, ax = plt.subplots(figsize=(3.6, 2.7))
+fig, ax = plt.subplots(figsize=(3.7, 2.7))
 style_ax(ax)
+ax.set_xscale("log")
 ax.axhline(0, color=GRAY, lw=1.0, ls=(0, (4, 3)), zorder=1)
-# per-point label offset: (text_x, text_y, ha)
+# per-point label: (text_x, text_y, ha, display text)
 lab = {
-    "CIFAR-IR100": (0.050, 2.30, "left"),
-    "Places-LT":   (0.058, 1.92, "left"),
-    "ImageNet-LT": (0.092, 1.40, "left"),
-    "CIFAR-IR50":  (0.064, -0.30, "left"),
-    "iNat2018":    (0.348, -0.52, "right"),
+    "CIFAR-IR100": (0.036, 2.62, "center", "CIFAR-IR100"),
+    "Places-LT":   (0.073, 1.98, "left",   "Places-LT"),
+    "ImageNet-LT": (0.081, 1.30, "left",   "ImageNet-LT"),
+    "CIFAR-IR50":  (0.049, -0.66, "center", "CIFAR-IR50 (saturated)"),
+    "iNat2018":    (0.85,  0.44, "center", "iNat2018 (not frozen)"),
 }
 for name, drift, dfew, bfew in pts:
-    c = BLUE if dfew > 0 else VERM
-    s = (100 - bfew) * 9          # marker size ~ tail headroom (100 - baseline Few)
+    c = BLUE if dfew > 0.5 else GRAY          # helps vs. neutral (nothing actually hurts)
+    s = (100 - bfew) * 9                      # marker size ~ tail headroom (100 - baseline Few)
     ax.scatter(drift, dfew, s=s, color=c, alpha=0.85, edgecolor="white", lw=1.2, zorder=3)
-    tx, ty, ha = lab[name]
-    ax.annotate(name, (drift, dfew), xytext=(tx, ty), fontsize=7.5, ha=ha, va="center", color="#222")
-ax.text(0.205, 2.55, "frozen tail\n(centering helps)", fontsize=8, color=BLUE, ha="center", va="center")
-ax.text(0.300, -1.05, "tail fine-tunes away\n(centering hurts)", fontsize=8, color=VERM, ha="center", va="center")
-ax.set_xlabel(r"tail weight-drift from init  $1-\cos(W_{\mathrm{final}},W_{\mathrm{init}})$")
+    tx, ty, ha, disp = lab[name]
+    ax.annotate(disp, (drift, dfew), xytext=(tx, ty), fontsize=7.3, ha=ha, va="center", color="#222")
+ax.text(0.050, 3.02, "frozen tail + headroom\n$\\rightarrow$ centering helps", fontsize=7.8, color=BLUE, ha="center", va="center")
+ax.text(0.30, -0.72, "not frozen or saturated $\\rightarrow$ neutral", fontsize=7.8, color=GRAY, ha="center", va="center")
+ax.text(0.30, 2.55, "marker size $\\propto$ tail headroom", fontsize=6.5, color=GRAY, ha="center", va="center")
+ax.set_xlabel(r"tail weight-drift from init  $1-\cos(W_{\mathrm{final}},W_{\mathrm{init}})$  (log)")
 ax.set_ylabel(r"centering $\Delta$ Few acc. (pp)")
-ax.set_xlim(0, 0.40)
-ax.set_ylim(-1.3, 3.0)
+ax.set_xlim(0.03, 1.15)
+ax.set_ylim(-1.05, 3.35)
 fig.tight_layout(pad=0.4)
 fig.savefig(f"{OUT}/fig_breadth_predictor.pdf"); fig.savefig(f"{OUT}/fig_breadth_predictor.png")
 plt.close(fig)
