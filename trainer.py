@@ -1522,6 +1522,10 @@ class Trainer:
             print("Pre-computing class features for testing.")
             with torch.no_grad():
                 text = self.compute_prompt_class_features()
+                if getattr(cfg, "PROMPT_CENTER", False):  # exp1: zero-shot centering (no classifier, no training)
+                    text = self._center_prototypes(text)
+                    print(f"[PROMPT_CENTER] zero-shot mode={getattr(cfg, 'PROMPT_CENTER_MODE', 'global')} "
+                          f"applied to text prototypes.")
             model_args = {"text": text, "is_text_feature": True}
         
         save_logits = bool(getattr(cfg, "SAVE_LOGITS", False))

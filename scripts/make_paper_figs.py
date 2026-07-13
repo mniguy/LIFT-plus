@@ -151,6 +151,35 @@ figm.tight_layout(rect=[0, 0, 1, 0.92])
 figm.savefig(f"{OUT}/fig_mechanism.pdf"); figm.savefig(f"{OUT}/fig_mechanism.png")
 plt.close(figm)
 
+# ============ Fig 4: freeze intervention -- the init advantage centering provides ============
+# center - baseline, trainable vs frozen classifier. Freezing (init cannot be overwritten)
+# turns the small trainable gain into a large one on every dataset, incl. iNat.
+ds = ["ImageNet-LT", "Places-LT", "iNat2018"]
+panels = {
+    r"$\Delta$ Overall": ([0.18, 0.09, -0.11], [3.49, 3.85, 12.43]),
+    r"$\Delta$ Few":     ([1.59, 1.62, -0.23], [11.62, 6.62, 10.64]),
+}
+figf, axs = plt.subplots(1, 2, figsize=(7.2, 3.0))
+x = np.arange(len(ds)); w = 0.38
+for ax, (title, (tr, fr)) in zip(axs, panels.items()):
+    style_ax(ax)
+    b1 = ax.bar(x - w / 2, tr, w, color=GRAY, edgecolor="white", lw=0.6, label="trainable classifier", zorder=3)
+    b2 = ax.bar(x + w / 2, fr, w, color=BLUE, edgecolor="white", lw=0.6, label="frozen classifier", zorder=3)
+    ax.axhline(0, color="#9aa0a6", lw=0.8, zorder=2)
+    for b in list(b1) + list(b2):
+        h = b.get_height()
+        ax.annotate(f"{h:+.1f}", (b.get_x() + b.get_width() / 2, h),
+                    xytext=(0, 2 if h >= 0 else -9), textcoords="offset points",
+                    ha="center", fontsize=6.8, color="#333")
+    ax.set_xticks(x); ax.set_xticklabels(ds, fontsize=7.3)
+    ax.set_title(title, fontsize=9.5)
+    ax.set_ylabel("centering gain (pp)")
+    ax.margins(y=0.18)
+axs[0].legend(loc="upper left", fontsize=7.3, handlelength=1.2)
+figf.tight_layout(pad=0.5)
+figf.savefig(f"{OUT}/fig_freeze.pdf"); figf.savefig(f"{OUT}/fig_freeze.png")
+plt.close(figf)
+
 print("wrote:")
-for f in ["fig_pca_ucurve", "fig_breadth_predictor", "fig_mechanism"]:
+for f in ["fig_pca_ucurve", "fig_breadth_predictor", "fig_mechanism", "fig_freeze"]:
     print(f"  {OUT}/{f}.pdf  {OUT}/{f}.png")
