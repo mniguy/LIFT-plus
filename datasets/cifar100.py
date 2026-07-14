@@ -66,6 +66,11 @@ class CIFAR100_IR10(IMBALANCECIFAR100):
         super().__init__(root, imb_factor=0.1, split=split, transform=transform)
 
 
+class CIFAR100_IR40(IMBALANCECIFAR100):
+    def __init__(self, root, split="train", transform=None):
+        super().__init__(root, imb_factor=0.025, split=split, transform=transform)
+
+
 class CIFAR100_IR50(IMBALANCECIFAR100):
     def __init__(self, root, split="train", transform=None):
         super().__init__(root, imb_factor=0.02, split=split, transform=transform)
@@ -74,3 +79,8 @@ class CIFAR100_IR50(IMBALANCECIFAR100):
 class CIFAR100_IR100(IMBALANCECIFAR100):
     def __init__(self, root, split="train", transform=None):
         super().__init__(root, imb_factor=0.01, split=split, transform=transform)
+
+
+class CIFAR100_IR200(IMBALANCECIFAR100):
+    def __init__(self, root, split="train", transform=None):
+        super().__init__(root, imb_factor=0.005, split=split, transform=transform)
