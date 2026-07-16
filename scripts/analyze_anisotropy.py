@@ -56,6 +56,33 @@ def mu_align(P, mask, mu):
     return (F.normalize(P[mask], dim=-1) @ F.normalize(mu, dim=0)).mean().item()
 
 
+def group_drift(run):
+    """Per-group mean weight-drift (1 - cos(W_final, W_init)) + pearson r vs log(count)."""
+    W_init, W_final, cn = load(run)
+    if W_init is None:
+        return None, None
+    drift = (1 - F.cosine_similarity(F.normalize(W_final, dim=-1),
+                                     F.normalize(W_init, dim=-1), dim=-1)).numpy()
+    r = np.corrcoef(np.log(cn.astype(float)), drift)[0, 1]
+    return {name: float(drift[mask].mean()) for name, mask in groups(cn).items() if mask.sum()}, float(r)
+
+
+def diff_drift(base_run, center_run):
+    """Q4: compare few/head drift with vs without centering (baseline - center)."""
+    db, rb = group_drift(base_run)
+    dc, rc = group_drift(center_run)
+    if db is None or dc is None:
+        print("diff_drift: need ckpts/init in BOTH runs"); return
+    print(f"\n=== drift diff: centering vs baseline ===")
+    print(f"  baseline = {base_run}")
+    print(f"  center   = {center_run}")
+    print(f"  {'group':5} {'drift_base':>10} {'drift_cent':>10} {'delta(c-b)':>10}")
+    for name in ["Many", "Med", "Few", "All"]:
+        if name in db and name in dc:
+            print(f"  {name:5} {db[name]:10.4f} {dc[name]:10.4f} {dc[name]-db[name]:+10.4f}")
+    print(f"  pearson r(drift, log count):  base {rb:+.3f} -> center {rc:+.3f}  (delta {rc-rb:+.3f})")
+
+
 def analyze(run):
     W_init, W_final, cn = load(run)
     g = groups(cn)
@@ -91,6 +118,11 @@ def analyze(run):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("runs", nargs="+", help="run dirs (each with checkpoint.pth.tar, ckpts/init/, cls_num_list.npy)")
-    for run in ap.parse_args().runs:
+    ap.add_argument("runs", nargs="*", help="run dirs (each with checkpoint.pth.tar, ckpts/init/, cls_num_list.npy)")
+    ap.add_argument("--diff", nargs=2, metavar=("BASELINE", "CENTER"),
+                    help="Q4: paired few/head drift, baseline vs centering")
+    args = ap.parse_args()
+    if args.diff:
+        diff_drift(*args.diff)
+    for run in args.runs:
         analyze(run)

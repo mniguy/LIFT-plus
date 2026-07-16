@@ -6,6 +6,7 @@
 #
 #   randdir       : subtract a RANDOM direction of matched norm   -> is it specifically mu?
 #   headonly      : center head+med only, leave Few RAW           -> must we touch the frozen tail?
+#   fewonly       : center Few only (global mu), leave head+med RAW -> is the tail the WHOLE gain?
 #   perclass_rand : independent random dir per class (init noise)  -> is any init perturbation enough?
 #
 # Prediction (mechanism = "centering fixes the frozen tail init"): NONE of these recover Few.
@@ -17,7 +18,7 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-VARIANTS=${VARIANTS:-"randdir headonly perclass_rand"}
+VARIANTS=${VARIANTS:-"randdir headonly fewonly perclass_rand"}
 OUT_ROOT=${OUT_ROOT:-"center_control25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
@@ -27,7 +28,7 @@ BASE_ARGS=(
   mda True tte True num_epochs 5 PEFT_WARMUP False
 )
 variant_args(){ case "$1" in
-  randdir|headonly|perclass_rand) echo "PROMPT_CENTER_MODE $1" ;;
+  randdir|headonly|fewonly|perclass_rand) echo "PROMPT_CENTER_MODE $1" ;;
   *) return 1 ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }

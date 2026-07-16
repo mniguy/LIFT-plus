@@ -22,7 +22,9 @@ _C.accum_step = 1  # Gradient accumulation step. Must be a divisor of batch_size
 _C.lr = 0.02
 _C.weight_decay = 5e-4
 _C.momentum = 0.9
-_C.loss_type = "LA"  # Loss type (in utils/losses.py).
+_C.loss_type = "LA"  # Loss type (in utils/losses.py): CE Focal LDAM CB GRW BS LA LADE VS
+_C.VS_GAMMA = 0.3    # VS loss: multiplicative (CDT) strength; 0 -> collapses to LA
+_C.VS_TAU = 1.0      # VS loss: additive (LA) strength
 
 _C.mda = True  # Minimalist data augmentation.
 _C.mda_func = "convex"  # "min" / "convex" / "linear" / "concave" / "max".
@@ -50,7 +52,7 @@ _C.GROUP_SCALE_TAIL = 30  # scale for the rarest class (set > head to help tail;
 
 # --- control + #3: caption-free prototype centering / de-anisotropization ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes (no captions)
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | std | whiten | pca ; J-controls: randdir | headonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 
 # --- #2: how the caption/prompt agreement weight (cap_w) is gated ---

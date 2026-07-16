@@ -47,6 +47,15 @@ CALIBRATION = [
     ("iNat2018",      "output/breadth25/inat2018/baseline_15ep",                   82.36,  -0.23),
 ]
 
+# OUT-OF-SAMPLE (2026-07-14): predicted from CALIBRATION alone, BEFORE these were trained
+# (see draft_intro_method.tex Sec. "A composite, pre-registered applicability rule").
+# ΔFew here is the 5-seed mean from output/ir_extremes25 (run_ir_extremes.sh); kept separate
+# from CALIBRATION -- folding these in after the fact would erase the pre-registration.
+VALIDATION = [
+    ("CIFAR-IR40",    "output/ir_extremes25/cifar100_ir40/baseline_seed0",         83.60,  -0.14),
+    ("CIFAR-IR200",   "output/ir_extremes25/cifar100_ir200/baseline_seed0",        73.73,  +5.88),
+]
+
 
 def _clf_weight(ckpt_path):
     d = torch.load(ckpt_path, map_location="cpu", weights_only=False)["tuner"]
@@ -82,20 +91,28 @@ def main():
 
     if args.calibrate:
         print(f"rule: predict HELPS iff drift_Few < {DRIFT_THRESH} AND headroom_Few > {HEADROOM_THRESH}\n")
+
+        def run_set(rows):
+            n_match = 0
+            for name, run, base_few, obs_dfew in rows:
+                drift_few, headroom_few = few_drift_headroom(run)
+                pred_helps = predict(drift_few, headroom_few)
+                obs_helps = obs_dfew > 0
+                match = pred_helps == obs_helps
+                n_match += match
+                print(f"{name:14} {drift_few:10.3f} {headroom_few:13.2f} {str(pred_helps):>10} "
+                      f"{obs_dfew:+14.2f} {'OK' if match else 'MISS':>6}")
+            return n_match
+
+        print("-- calibration set (fixed the 0.15 / 18.0 thresholds) --")
         print(f"{'dataset':14} {'drift_Few':>10} {'headroom_Few':>13} {'predicted':>10} {'observed ΔFew':>14} {'match':>6}")
-        n_match = 0
-        for name, run, base_few, obs_dfew in CALIBRATION:
-            drift_few, headroom_few = few_drift_headroom(run)
-            pred_helps = predict(drift_few, headroom_few)
-            obs_helps = obs_dfew > 0
-            match = pred_helps == obs_helps
-            n_match += match
-            print(f"{name:14} {drift_few:10.3f} {headroom_few:13.2f} {str(pred_helps):>10} "
-                  f"{obs_dfew:+14.2f} {'OK' if match else 'MISS':>6}")
-        print(f"\n{n_match}/{len(CALIBRATION)} signs match. NOTE: 2 free thresholds fit on 5 points is a"
-              " weak calibration (essentially: iNat separated by drift, IR50 separated by headroom from"
-              " the other 3 LT/CIFAR points) -- treat this as a provisional rule pending an out-of-sample"
-              " test (CIFAR-IR20 / CIFAR-IR200), not a validated model.")
+        n_cal = run_set(CALIBRATION)
+        print(f"{n_cal}/{len(CALIBRATION)} signs match (expected: this is what the thresholds were set to fit).\n")
+
+        print("-- out-of-sample validation (predicted BEFORE training; see VALIDATION provenance comment) --")
+        print(f"{'dataset':14} {'drift_Few':>10} {'headroom_Few':>13} {'predicted':>10} {'observed ΔFew':>14} {'match':>6}")
+        n_val = run_set(VALIDATION)
+        print(f"{n_val}/{len(VALIDATION)} signs match -- this is the number that actually tests the rule.")
         return
 
     for i, run in enumerate(args.runs):

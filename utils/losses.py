@@ -211,4 +211,20 @@ class LADELoss(nn.Module):
         estim_loss = -torch.sum(estim_loss * self.cls_weight)
 
         return ce_loss + self.estim_loss_weight * estim_loss
-    
+
+
+class VSLoss(nn.Module):
+    """ Vector-Scaling loss (Kini et al., NeurIPS 2021, https://arxiv.org/abs/2103.01550).
+    Unifies multiplicative (CDT) and additive (LA/BS) logit adjustment:
+        output_j = logit_j / Delta_j + iota_j
+        Delta_j = (n_max / n_j)^gamma   (>= 1, head = 1; multiplicative -> recovers CDT at tau=0)
+        iota_j  = tau * log(n_j / N)     (additive -> recovers LA at gamma=0)
+    gamma=0 collapses to LA. Typical LT settings use gamma in [0.1, 0.3], tau in [1.0, 1.5].
+    """
+    def __init__(self, cls_num_list, gamma=0.3, tau=1.0):
+        super().__init__()
+        self.Delta = (cls_num_list.max() / cls_num_list) ** gamma
+        self.iota = tau * torch.log(cls_num_list / cls_num_list.sum())
+
+    def forward(self, logit, label, **kwargs):
+        return F.cross_entropy(logit / self.Delta.unsqueeze(0) + self.iota.unsqueeze(0), label, **kwargs)

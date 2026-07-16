@@ -9,7 +9,9 @@
 # geometric fix, stackable on top of any of them. A large gain under CE is the strongest
 # form of this argument.
 #
-#   losses: CE (none) | BS (balanced softmax) | LDAM | LA (logit-adjusted, our default)
+#   losses: CE (none) | Focal | CB (class-balanced) | GRW (generalized reweight) | BS (balanced
+#           softmax) | LDAM | LA (logit-adjusted, our default) | LADE | VS (vector-scaling,
+#           Kini 2021 -- the modern additive+multiplicative generalization of LA/CDT)
 #   center: baseline (PROMPT_CENTER False) vs center (global)
 #   semantic init, aux off, scale 25, 5 ep, mda+tte -- matches the main-result setup.
 #
@@ -18,7 +20,7 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-LOSSES=${LOSSES:-"CE BS LDAM LA"}
+LOSSES=${LOSSES:-"CE Focal CB GRW BS LDAM LA LADE VS"}
 VARIANTS=${VARIANTS:-"baseline center"}
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}

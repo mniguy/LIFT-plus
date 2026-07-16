@@ -209,6 +209,9 @@ class Trainer:
             self.criterion = LogitAdjustedLoss(cls_num_list=cls_num_list)
         elif cfg.loss_type == "LADE":
             self.criterion = LADELoss(cls_num_list=cls_num_list)
+        elif cfg.loss_type == "VS":
+            self.criterion = VSLoss(cls_num_list=cls_num_list,
+                                    gamma=getattr(cfg, "VS_GAMMA", 0.3), tau=getattr(cfg, "VS_TAU", 1.0))
         else:
             raise ValueError
         
@@ -891,6 +894,12 @@ class Trainer:
             sel = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
             sel[torch.as_tensor(self.many_classes).flatten().to(X.device)] = True
             sel[torch.as_tensor(self.med_classes).flatten().to(X.device)] = True
+            out = X.clone()
+            out[sel] = X[sel] - mu
+        elif mode == "fewonly":                  # center Few only w/ GLOBAL mu; leave head+med raw (is tail the whole gain?)
+            mu = X.mean(0)                        # mu computed over ALL classes, applied to tail alone
+            sel = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
+            sel[torch.as_tensor(self.few_classes).flatten().to(X.device)] = True
             out = X.clone()
             out[sel] = X[sel] - mu
         elif mode == "perclass_rand":            # independent random dir per class (pure init noise)
