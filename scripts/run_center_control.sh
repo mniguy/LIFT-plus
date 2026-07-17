@@ -18,7 +18,7 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-VARIANTS=${VARIANTS:-"randdir headonly fewonly perclass_rand"}
+VARIANTS=${VARIANTS:-"fewonly"}
 OUT_ROOT=${OUT_ROOT:-"center_control25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 

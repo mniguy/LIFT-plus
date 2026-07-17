@@ -20,7 +20,7 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-LOSSES=${LOSSES:-"CE Focal CB GRW BS LDAM LA LADE VS"}
+LOSSES=${LOSSES:-"Focal CB GRW LADE VS"}
 VARIANTS=${VARIANTS:-"baseline center"}
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}
