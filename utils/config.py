@@ -44,6 +44,8 @@ _C.classifier = None  # Classifier type (in models/classifiers.py). Use text enc
 _C.classifier_scale = 25  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method.
 _C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (do not train it).
+_C.FREEZE_ENCODER = False     # H_E test: freeze PEFT/encoder, train ONLY the classifier (inverse of FREEZE_CLASSIFIER).
+_C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAINED classifier weight (decision-time centering).
 
 # --- #1: per-frequency-group FIXED cosine scale (classifier=CosineClassifierGroupScale) ---
 # tail classes need a larger effective scale (smaller required margin vs the LA freq penalty).

@@ -751,6 +751,13 @@ class Trainer:
             for param in self.tuner["classifier"].parameters():
                 param.requires_grad_(False)
 
+        if getattr(cfg, "FREEZE_ENCODER", False):  # H_E: freeze PEFT/encoder, train ONLY the classifier
+            assert not getattr(cfg, "FREEZE_CLASSIFIER", False), "FREEZE_ENCODER and FREEZE_CLASSIFIER can't both be set (nothing would train)."
+            print("Freezing encoder (PEFT): only the classifier trains.")
+            for name, param in self.tuner.named_parameters():
+                if not name.startswith("classifier"):
+                    param.requires_grad_(False)
+
         self.optim = torch.optim.SGD(
             [p for p in self.tuner.parameters() if p.requires_grad],
             lr=cfg.lr, weight_decay=cfg.weight_decay, momentum=cfg.momentum)
@@ -1526,6 +1533,12 @@ class Trainer:
         evaluator = Evaluator()
 
         if cfg.classifier:
+            if getattr(cfg, "EVAL_CENTER", False):  # H_B: decision-time centering of the TRAINED classifier
+                with torch.no_grad():
+                    W = self.tuner["classifier"].weight.data
+                    self.tuner["classifier"].weight.data = self._center_prototypes(F.normalize(W, dim=1)).to(W.dtype)
+                print(f"[EVAL_CENTER] centered TRAINED classifier weight before eval "
+                      f"(mode={getattr(cfg, 'PROMPT_CENTER_MODE', 'global')}).")
             model_args = {"use_classifier": True}
         else:
             print("Pre-computing class features for testing.")
