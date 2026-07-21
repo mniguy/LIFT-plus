@@ -40,7 +40,9 @@ def parse(run, use_runavg=False):
 def smooth(y, k):
     if k <= 1 or len(y) < k:
         return y
-    return np.convolve(y, np.ones(k) / k, mode="same")
+    pad = k // 2
+    yp = np.pad(y, (pad, pad), mode="edge")            # edge-pad so ends don't dip
+    return np.convolve(yp, np.ones(k) / k, mode="valid")[:len(y)]
 
 
 def main():
