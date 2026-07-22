@@ -43,7 +43,7 @@ _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
 _C.classifier_scale = 25  # Logit scale for classifier. (default=25)
 _C.classifier_init = "semantic"  # Classifier initialization method (semantic|class_mean|img_shrink|hybrid|...).
-_C.IMG_SHRINK_KAPPA = 20.0        # img_shrink init: lam_c = n_c/(n_c+kappa) blend of imagemean(head) vs centered-text(tail).
+_C.IMG_SHRINK_KAPPA = 20          # img_shrink init: lam_c = n_c/(n_c+kappa) blend of imagemean(head) vs centered-text(tail). int (yacs-strict); trainer casts to float.
 _C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (do not train it).
 _C.FREEZE_ENCODER = False     # H_E test: freeze PEFT/encoder, train ONLY the classifier (inverse of FREEZE_CLASSIFIER).
 _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAINED classifier weight (decision-time centering).
