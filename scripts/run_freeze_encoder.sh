@@ -24,7 +24,7 @@
 #   bash scripts/run_freeze_encoder.sh
 #   python scripts/agg_runs.py output/freeze_encoder25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
 VARIANTS=${VARIANTS:-"baseline center fewonly"}
 SCALE=${SCALE:-25}

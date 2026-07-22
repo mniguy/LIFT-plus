@@ -20,8 +20,8 @@
 #   bash scripts/run_freeze_target.sh                                      # imgmean only (reuse existing)
 #   python scripts/agg_runs.py output/freeze_center25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
+GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+DATASETS=${DATASETS:-"imagenet_lt places_lt"}
 VARIANTS=${VARIANTS:-"imgmean"}
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}              # ImageNet-LT / Places-LT

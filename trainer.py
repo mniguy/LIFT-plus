@@ -500,6 +500,32 @@ class Trainer:
                     # initialize classifier
                     self.model.init_classifier_weight(class_means, feature_modality="image")
 
+                elif classifier_init == "img_shrink":
+                    # count-adaptive blend of class-mean IMAGE features and centered TEXT prototypes:
+                    #   w_c = normalize(lam_c * imgmean_c + (1-lam_c) * centered_text_c),  lam_c = n_c/(n_c+kappa)
+                    # head (many imgs) -> trust image mean; tail (few) -> fall back to centered text.
+                    kappa = float(getattr(cfg, "IMG_SHRINK_KAPPA", 20.0))
+                    print(f"Using image-mean + shrink-to-centered-text init (kappa={kappa}).")
+                    with torch.no_grad():
+                        # centered text prototypes, projected into the image/classifier space
+                        text = self._center_prototypes(self.compute_prompt_class_features())
+                        text_img = F.normalize(text @ self.model.text_proj.data, dim=-1)
+                        if hasattr(self.model, "image_proj"):
+                            text_img = F.normalize(text_img @ self.model.image_proj.data.t(), dim=-1)
+                        # class-mean image features
+                        train_features, train_labels = self.compute_train_features()
+                        sorted_index = train_labels.argsort()
+                        train_features = train_features[sorted_index]; train_labels = train_labels[sorted_index]
+                        _, label_counts = torch.unique(train_labels, return_counts=True)
+                        img_means = F.normalize(torch.stack(
+                            [x.mean(dim=0) for x in torch.split(train_features, label_counts.tolist())]), dim=-1)
+                        cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=img_means.device)
+                        lam = (cn / (cn + kappa)).unsqueeze(1)                       # [C,1]
+                        blend = lam * img_means + (1 - lam) * text_img.to(img_means.device)
+                    self.model.init_classifier_weight(blend, feature_modality="image")
+                    print(f"[img_shrink] lambda in [{lam.min().item():.2f}, {lam.max().item():.2f}] "
+                          f"(head->imagemean, tail->centered-text)")
+
                 elif classifier_init == "linear_probing":
                     print("Using linear probing for initialization.")
                     with torch.no_grad():
