@@ -16,7 +16,7 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt"}
-VARIANTS=${VARIANTS:-"global group tail std whiten"}
+VARIANTS=${VARIANTS:-"global"}
 OUT_ROOT=${OUT_ROOT:-"center_geom25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 

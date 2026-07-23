@@ -889,7 +889,10 @@ class Trainer:
         """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
         mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
         orig_dtype = feats.dtype
-        X = feats.float()
+        # row-normalize BEFORE computing any mean/covariance: the single-template path (default
+        # PROMPT_MODE) returns raw CLIP text-encoder output, not unit rows (measured CoV~0.10,
+        # up to 1.5x norm spread across classes) -- without this, mu is a norm-weighted average.
+        X = F.normalize(feats.float(), dim=-1)
         if mode == "global":                     # subtract the global prompt centroid
             out = X - X.mean(0)
         elif mode == "group":                    # subtract the head(many)-group centroid
@@ -899,6 +902,13 @@ class Trainer:
             cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=X.device)
             rank = torch.argsort(torch.argsort(cn)).float()
             rarity = (1.0 - rank / max(len(cn) - 1, 1)).unsqueeze(1)   # [C,1] rarest->1, head->0
+            out = X - rarity * X.mean(0)
+        elif mode == "kappa":                    # smooth COUNT-based strength (vs tail's rank-based ramp):
+            # rarity_c = kappa/(n_c+kappa) -- reuses the img_shrink shrinkage form, same read: rare (n->0)
+            # -> rarity->1 (full center), common (n->inf) -> rarity->0. kappa sets the half-strength count.
+            kappa = float(getattr(self.cfg, "PROMPT_CENTER_KAPPA", 20.0))
+            cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=X.device)
+            rarity = (kappa / (cn + kappa)).unsqueeze(1)               # [C,1] rare->1, common->0
             out = X - rarity * X.mean(0)
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)
