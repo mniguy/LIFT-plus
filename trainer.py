@@ -907,6 +907,14 @@ class Trainer:
             cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=X.device)
             rarity = (kappa / (cn + kappa)).unsqueeze(1)               # [C,1] rare->1, common->0
             out = X - rarity * X.mean(0)
+        elif mode == "logcount":                 # parameter-free: LINEAR ramp in log-count space (vs tail's
+            # linear-in-RANK, which ignores count gaps, and kappa's hyperbolic-in-count, whose shape is tied
+            # to kappa). rarity_c = (log(n_max)-log(n_c)) / (log(n_max)-log(n_min)), clipped to [0,1].
+            cn = torch.as_tensor(self.cls_num_list, dtype=torch.float32, device=X.device)
+            log_n = cn.clamp_min(1.0).log()
+            lo, hi = log_n.min(), log_n.max()
+            rarity = ((hi - log_n) / (hi - lo).clamp_min(1e-6)).clamp(0.0, 1.0).unsqueeze(1)
+            out = X - rarity * X.mean(0)
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)
         elif mode == "whiten":                   # ZCA whitening (decorrelate + unit variance)
