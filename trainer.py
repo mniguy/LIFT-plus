@@ -250,6 +250,8 @@ class Trainer:
 
         if prompt_mode == "default":
             return ["a photo of a {}."]
+        if prompt_mode == "bare":                 # #6 ablation: no template, just the class name itself
+            return ["{}."]
         if prompt_mode == "places_scene":
             return ["a photo of a {} scene."]
         if prompt_mode == "places_place":
@@ -915,6 +917,39 @@ class Trainer:
             lo, hi = log_n.min(), log_n.max()
             rarity = ((hi - log_n) / (hi - lo).clamp_min(1e-6)).clamp(0.0, 1.0).unsqueeze(1)
             out = X - rarity * X.mean(0)
+        elif mode == "genus":                    # taxonomy-aware LOCAL group (iNat): subtract the per-genus
+            # mean instead of one global mu. Genus = first token of classnames (binomial "Genus species",
+            # true for iNat's default name-based classnames; degrades to global on non-binomial datasets
+            # since every class becomes its own singleton "genus"). Genera smaller than the min size fall
+            # back to global mu -- most iNat genera are singletons (68% have exactly 1 species; subtracting
+            # a genus's own single-member mean would zero that class's vector out entirely).
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            global_mu = X.mean(0)
+            genus_of = [name.split()[0] for name in self.classnames]
+            groups_idx = {}
+            for i, g in enumerate(genus_of):
+                groups_idx.setdefault(g, []).append(i)
+            local_mu = global_mu.unsqueeze(0).repeat(X.shape[0], 1)
+            n_fallback = 0
+            for g, idxs in groups_idx.items():
+                if len(idxs) >= min_size:
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    local_mu[idxs_t] = X[idxs_t].mean(0)
+                else:
+                    n_fallback += len(idxs)
+            print(f"[PROMPT_CENTER genus] {n_fallback}/{len(genus_of)} classes fell back to global mu "
+                  f"(genus size < {min_size}); {len(groups_idx)} distinct genera")
+            out = X - local_mu
+        elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
+            # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
+            # nearest OTHER classes (by prototype cosine similarity) instead of one fixed global mu.
+            k = int(getattr(self.cfg, "PROMPT_CENTER_KNN_K", 20))
+            Xn = F.normalize(X, dim=-1)
+            sim = Xn @ Xn.t()
+            sim.fill_diagonal_(-2.0)             # exclude self from its own neighbor list
+            topk_idx = sim.topk(min(k, X.shape[0] - 1), dim=1).indices   # [C, k]
+            local_mu = X[topk_idx].mean(dim=1)   # [C, D] mean of the k nearest OTHER classes
+            out = X - local_mu
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)
         elif mode == "whiten":                   # ZCA whitening (decorrelate + unit variance)
