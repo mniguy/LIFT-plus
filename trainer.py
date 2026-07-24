@@ -889,10 +889,7 @@ class Trainer:
         """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
         mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
         orig_dtype = feats.dtype
-        # row-normalize BEFORE computing any mean/covariance: the single-template path (default
-        # PROMPT_MODE) returns raw CLIP text-encoder output, not unit rows (measured CoV~0.10,
-        # up to 1.5x norm spread across classes) -- without this, mu is a norm-weighted average.
-        X = F.normalize(feats.float(), dim=-1)
+        X = feats.float()
         if mode == "global":                     # subtract the global prompt centroid
             out = X - X.mean(0)
         elif mode == "group":                    # subtract the head(many)-group centroid
