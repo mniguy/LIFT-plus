@@ -55,10 +55,11 @@ _C.GROUP_SCALE_TAIL = 30  # scale for the rarest class (set > head to help tail;
 
 # --- control + #3: caption-free prototype centering / de-anisotropization ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes (no captions)
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | cascade | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
-_C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus: min species in a genus to use its own local mean (else fallback to global)
+_C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to use its own local mean (else fall to the next level)
+_C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)
 
 # --- #2: how the caption/prompt agreement weight (cap_w) is gated ---

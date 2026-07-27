@@ -9,6 +9,18 @@
 #      offline: min_size=5 -> 5863/8142 classes fall back, Quercus's 28 species get a real local mean
 #      (cos to global mu = 0.22, genuinely different direction).
 #
+#   cascade (PROMPT_CENTER_MODE=cascade, iNat only): hierarchical fallback genus -> family -> order ->
+#      global. Fixes genus mode's coverage hole: genus-only sent 5863/8142 (72%) straight to global mu,
+#      which left those classes carrying their own genus blob. Verified offline on all 8142 classes:
+#      cascade assigns genus=2279, family=4427, order=1068, and only 368 (4.5%) reach global. Geometry
+#      (CPU, real CLIP prototypes, 1824-species sample) is strictly better than BOTH global and genus:
+#        overall coll  global 0.0045 | genus-only 0.0143 | cascade 0.0010
+#        within-genus  global 0.8425 | genus-only 0.0323 | cascade 0.0265
+#      CAVEAT: genus mode already showed that a better iNat init does NOT convert into trainable
+#      accuracy (drift 0.85-0.89 overwrites it; genus's Med/Few drift was even HIGHER than baseline).
+#      Cascade is more aggressive still, so a neutral-or-slightly-worse trainable result is the
+#      expectation here -- the geometry claim is what this run actually tests.
+#
 #   knn (PROMPT_CENTER_MODE=knn, any dataset): taxonomy-free generalization of genus -- subtract the
 #      mean of each class's PROMPT_CENTER_KNN_K nearest OTHER classes (by prototype cosine similarity)
 #      instead of the fixed global mu. Sweep k to see where it sits relative to genus (iNat) and to
@@ -30,7 +42,7 @@
 #   python scripts/agg_runs.py output/center_local25 --sort path
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
+DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_local25"}
@@ -43,6 +55,8 @@ COMMON_ARGS=(
 )
 variant_args(){ case "$1" in
   genus)        echo "PROMPT_CENTER True PROMPT_CENTER_MODE genus" ;;
+  cascade)      echo "PROMPT_CENTER True PROMPT_CENTER_MODE cascade PROMPT_CENTER_CASCADE genus,family,order" ;;
+  cascade_gf)   echo "PROMPT_CENTER True PROMPT_CENTER_MODE cascade PROMPT_CENTER_CASCADE genus,family" ;;
   knn[0-9]*)    echo "PROMPT_CENTER True PROMPT_CENTER_MODE knn PROMPT_CENTER_KNN_K ${1#knn}" ;;
   bare_raw)     echo "PROMPT_MODE bare PROMPT_CENTER False" ;;
   bare_global)  echo "PROMPT_MODE bare PROMPT_CENTER True PROMPT_CENTER_MODE global" ;;
@@ -51,7 +65,7 @@ variant_args(){ case "$1" in
 default_variants(){ case "$1" in
   imagenet_lt) echo "knn10 knn20 knn50 bare_raw bare_global" ;;
   places_lt)   echo "knn10 knn20 knn50 bare_raw bare_global" ;;
-  inat2018)    echo "genus" ;;
+  inat2018)    echo "cascade" ;;
   *) echo "" ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }

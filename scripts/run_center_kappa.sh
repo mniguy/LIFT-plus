@@ -40,7 +40,7 @@
 #   python scripts/agg_runs.py output/center_kappa25 --sort path
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
+DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_kappa25"}
@@ -59,7 +59,7 @@ variant_args(){ case "$1" in
 default_variants(){ case "$1" in
   imagenet_lt) echo "kappa100 logcount" ;;
   places_lt)   echo "kappa35 kappa75 logcount" ;;
-  inat2018)    echo "kappa20 kappa10" ;;
+  inat2018)    echo "kappa50" ;;
   *) echo "" ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }

@@ -887,6 +887,22 @@ class Trainer:
 
         return F.normalize(torch.stack(class_features, dim=0).mean(dim=0), dim=-1)
 
+    def _load_taxonomy(self):
+        """classname -> its categories.json record (kingdom/phylum/class/order/family/genus).
+
+        iNat only; returns None for ImageNet/Places (no categories.json), which makes
+        PROMPT_CENTER_MODE=cascade an explicit error there rather than a silent no-op.
+        """
+        cats_path = os.path.join("datasets", self.cfg.dataset, "categories.json")
+        if not os.path.exists(cats_path):
+            return None
+        import json
+        try:
+            cats = json.load(open(cats_path))
+            return {c["name"]: c for c in cats if "name" in c}
+        except (ValueError, TypeError, KeyError):
+            return None
+
     def _center_prototypes(self, feats):
         """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
         mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
@@ -939,6 +955,40 @@ class Trainer:
                     n_fallback += len(idxs)
             print(f"[PROMPT_CENTER genus] {n_fallback}/{len(genus_of)} classes fell back to global mu "
                   f"(genus size < {min_size}); {len(groups_idx)} distinct genera")
+            out = X - local_mu
+        elif mode == "cascade":                  # HIERARCHICAL taxonomy fallback (iNat): try the deepest
+            # level first, and only the classes still unassigned drop to the next level up, so nothing has
+            # to fall all the way to global. Fixes 'genus' mode's coverage hole (only 28% of iNat species
+            # sit in a genus >= 5, the other 72% jumped straight to global and kept their genus blob).
+            # Group means are computed over the STILL-UNASSIGNED members at each level -- i.e. the residual
+            # shared component among the classes that actually still need one.
+            levels = [s.strip() for s in
+                      str(getattr(self.cfg, "PROMPT_CENTER_CASCADE", "genus,family,order")).split(",") if s.strip()]
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=cascade needs a dataset with categories.json (iNat only)")
+            local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+            assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
+            used = []
+            for lv in levels:
+                groups_idx = {}
+                for i, name in enumerate(self.classnames):
+                    if assigned[i]:
+                        continue
+                    key = taxo.get(name, {}).get(lv)
+                    if key is not None:
+                        groups_idx.setdefault(key, []).append(i)
+                n_lv = 0
+                for key, idxs in groups_idx.items():
+                    if len(idxs) >= min_size:
+                        idxs_t = torch.as_tensor(idxs, device=X.device)
+                        local_mu[idxs_t] = X[idxs_t].mean(0)
+                        assigned[idxs_t] = True
+                        n_lv += len(idxs)
+                used.append(f"{lv}={n_lv}")
+            used.append(f"global={int((~assigned).sum())}")
+            print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} -> " + " ".join(used))
             out = X - local_mu
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
