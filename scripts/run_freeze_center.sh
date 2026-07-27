@@ -48,7 +48,7 @@
 #   python scripts/agg_runs.py output/freeze_center25 --sort few
 set -euo pipefail
 GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
+DATASETS=${DATASETS:-"inat2018"}
 VARIANTS=${VARIANTS:-}          # empty -> per-dataset default_variants() below
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}              # default (ImageNet-LT / Places-LT)
