@@ -59,7 +59,7 @@ variant_args(){ case "$1" in
 default_variants(){ case "$1" in
   imagenet_lt) echo "kappa100 logcount" ;;
   places_lt)   echo "kappa35 kappa75 logcount" ;;
-  inat2018)    echo "kappa50" ;;
+  inat2018)    echo "tail" ;;
   *) echo "" ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }

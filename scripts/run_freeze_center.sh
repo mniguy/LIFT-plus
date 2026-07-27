@@ -21,12 +21,35 @@
 #   center-vs-baseline gap WITHIN the frozen setting, and how it differs from the trainable
 #   setting (breadth25 / prompt_center25), NOT the absolute number.
 #
+# ---------------------------------------------------------------------------------------------
+# 2026-07-25 ADDITION: frozen `cascade` on iNat (variant added; IN/PL unchanged and already done).
+#
+# Why: trainable cascade is the first variant to BEAT baseline on iNat (80.84/75.81/80.57/82.50 vs
+# baseline 80.63/74.62/80.50/82.36, i.e. +0.21/+1.19/+0.07/+0.14; global center was -0.11/+0.24/
+# -0.09/-0.23). Its drift split is the tell: Many drift FELL (-0.021) and Many gained +1.19, while
+# Med/Few drift ROSE (+0.068/+0.079) and stayed flat -- i.e. the Med/Few init advantage was
+# overwritten, exactly what freezing the classifier blocks.
+#
+# Reference (this same folder, already run, seed 0, 15 ep):
+#   inat2018/baseline  22.91 / 67.66 / 23.37 / 10.64
+#   inat2018/center    35.34 / 68.33 / 39.65 / 21.28     (= +12.43 / +0.67 / +16.28 / +10.64)
+#
+#   Prediction: cascade's init is geometrically cleaner than global's on the full 8142 classes
+#   (overall prototype collinearity 0.00154 vs 0.00740; within-genus 0.042 vs 0.828), so if the
+#   frozen gain tracks init quality, frozen cascade should EXCEED frozen center -- most in Med/Few,
+#   whose advantage the trainable run demonstrably threw away.
+#   If frozen cascade <= frozen center, then cascade's trainable Head win is NOT about a better
+#   init and needs another explanation (e.g. it merely suits what the head encoder already does).
+#
+#   DATASETS="inat2018" bash scripts/run_freeze_center.sh     # runs cascade, skips finished ones
+# ---------------------------------------------------------------------------------------------
+#
 #   bash scripts/run_freeze_center.sh
 #   python scripts/agg_runs.py output/freeze_center25 --sort few
 set -euo pipefail
 GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"imagenet_lt places_lt inat2018"}
-VARIANTS=${VARIANTS:-"center"}
+VARIANTS=${VARIANTS:-}          # empty -> per-dataset default_variants() below
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}              # default (ImageNet-LT / Places-LT)
 INAT_EPOCHS=${INAT_EPOCHS:-15}  # iNat native protocol
@@ -41,13 +64,21 @@ BASE_ARGS=(
 variant_args(){ case "$1" in
   baseline) echo "PROMPT_CENTER False" ;;
   center)   echo "PROMPT_CENTER True PROMPT_CENTER_MODE global" ;;
+  cascade)  echo "PROMPT_CENTER True PROMPT_CENTER_MODE cascade PROMPT_CENTER_CASCADE genus,family,order" ;;
+  genus)    echo "PROMPT_CENTER True PROMPT_CENTER_MODE genus" ;;
   *) return 1 ;; esac; }
+
+# cascade/genus need categories.json -> iNat only; IN/PL keep the original baseline+center pair
+# (already finished, so a bare run of this script does the iNat cascade work and skips the rest).
+default_variants(){ case "$1" in
+  inat2018) echo "cascade" ;;
+  *)        echo "baseline center" ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
 for data in ${DATASETS}; do
   if [ "$data" = "inat2018" ]; then ep=${INAT_EPOCHS}; else ep=${EPOCHS}; fi
-  for v in ${VARIANTS}; do
+  for v in ${VARIANTS:-$(default_variants "${data}")}; do
     va=$(variant_args "$v") || { echo "unknown variant $v"; exit 1; }
     out="${OUT_ROOT}/${data}/${v}"
     completed "${out}" && { echo "  [skip] ${out}"; continue; }
