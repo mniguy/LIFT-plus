@@ -8,6 +8,7 @@ __pycache__/
 *.pyd
 
 /output
+/data
 
 # Logs / outputs
 *.txt
