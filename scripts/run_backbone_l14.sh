@@ -9,12 +9,40 @@
 # a reviewer will ask whether it is a property of one checkpoint. A second backbone converts
 # "single-backbone limitation" into a two-point generalization result.
 #
-# DO THIS FIRST (no GPU hours, needs the L/14 weights downloaded):
-#   python scripts/measure_anisotropy_backbone.py --backbones ViT-B/16 ViT-L/14
-# If L/14 shows |mu| ~ 0.8, rho ~ 0.55 and coll - a^2 ~ 0 as B/16 does, the problem statement
-# already generalizes and the training arm below is confirming the *remedy*, not the *diagnosis*.
-# Reference (B/16, measured): |mu| 0.77-0.87, rho 0.49-0.63, coll - a^2 = -0.001..-0.013 across
-# ImageNet-LT / Places-LT / iNat2018.
+# DIAGNOSIS STEP: ALREADY DONE (2026-07-30, measure_anisotropy_backbone.py, full class sets)
+#   backbone  dataset   |mu|     coll     a_std    rho      1/rho    coll - a^2
+#   ViT-B/16  IN       0.7676   0.5889   0.0953   0.6259    1.60     -0.0004
+#   ViT-B/16  PL       0.8558   0.7317   0.0384   0.5122    1.95     -0.0007
+#   ViT-B/16  iNat     0.8306   0.6899   0.0966   0.5306    1.88     -0.0000
+#   ViT-L/14  IN       0.7226   0.5216   0.1111   0.6752    1.48     -0.0005
+#   ViT-L/14  PL       0.8139   0.6615   0.0463   0.5758    1.74     -0.0009
+#   ViT-L/14  iNat     0.7241   0.5243   0.1105   0.6709    1.49     -0.0001
+#
+# Two findings, both of which change what this training arm is for:
+#  (a) coll - a^2 ~ 0 holds on 6/6 (backbone x dataset) to four decimals -> the central claim
+#      ("all apparent inter-class similarity IS the shared component; the class residuals were
+#      already mutually orthogonal") is now a six-point result, not a single measurement.
+#  (b) The defect EXISTS on L/14 but is MILDER: the recoverable factor 1/rho - 1 drops by
+#      20% (IN), 23% (PL), 45% (iNat). A larger, better-trained text encoder has a less
+#      degenerate prototype space -- the defect shrinks with scale but does not vanish.
+#
+# So the diagnosis already generalizes with zero GPU hours. What this arm now tests is the
+# QUANTITATIVE link "size of the defect predicts size of the gain", which is a separate and
+# stronger claim than "it works on another backbone".
+#
+# PRE-REGISTERED PREDICTION (written before running; scale the B/16 gain by the ratio of
+# recoverable factors (1/rho - 1)):
+#   ImageNet-LT  B/16 measured Delta-Few +1.66  ->  L/14 predicted +1.34
+#   Places-LT    B/16 measured Delta-Few +1.84  ->  L/14 predicted +1.42
+#   L/14 also starts from a higher baseline, so headroom shrinks too and the true value should sit
+#   at or BELOW these numbers. Prediction interval: Delta-Few in [+1.0, +1.4], sign positive.
+#   FALSIFICATION: if L/14's gain equals or exceeds B/16's, "recoverable norm budget determines
+#   the gain" is wrong and the mechanism section needs revising. If it lands in the interval, this
+#   becomes the second successful pre-registered quantitative prediction alongside IR40/IR200.
+#
+# !! Also correct the draft: the "1.9x logit-gap loss" figure was measured on iNat class names.
+#    Per dataset on B/16 it is 1.60x (ImageNet-LT), 1.95x (Places-LT), 1.88x (iNat). Do not quote
+#    a single 1.9x next to an ImageNet-LT table -- say "1.6-2.0x depending on the dataset".
 #
 # CAVEATS -- read before launching
 #  1. classifier_scale=25 was chosen on ViT-B/16. L/14 has a different embedding dimension (768 vs

@@ -30,7 +30,7 @@ import datasets
 from utils.evaluator import Evaluator
 from utils.losses import *
 from utils.meter import AverageMeter
-from utils.samplers import DownSampler
+from utils.samplers import ClassBalancedSampler, DownSampler
 from utils.transforms import *
 
 
@@ -173,8 +173,17 @@ class Trainer:
         assert cfg.batch_size % cfg.accum_step == 0, "batch_size must be divisible by accum_step"
         micro_batch_size = cfg.batch_size // cfg.accum_step
 
+        # B2 intervention: "balanced" gives every class an equal share of the SAME number of
+        # gradient steps (see ClassBalancedSampler). Pair with loss_type=CE -- under balanced
+        # sampling the effective prior is uniform, so LA/BS/LDAM would double-correct.
+        train_sampler = None
+        if getattr(cfg, "train_sampler", "default") == "balanced":
+            train_sampler = ClassBalancedSampler(train_dataset.labels)
+            print(f"[train_sampler] class-balanced: {len(train_sampler)} samples/epoch "
+                  f"(= default), equal gradient share across {self.num_classes} classes")
+
         self.train_loader = DataLoader(train_dataset,
-            batch_size=micro_batch_size, shuffle=True,
+            batch_size=micro_batch_size, shuffle=(train_sampler is None), sampler=train_sampler,
             num_workers=cfg.num_workers, pin_memory=True)
 
         self.init_loader = DataLoader(init_dataset,

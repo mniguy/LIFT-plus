@@ -19,6 +19,7 @@ _C.prec_test = "fp16"  # Model precision during test. "fp16" / "fp32".
 _C.num_epochs = 5
 _C.batch_size = 128
 _C.accum_step = 1  # Gradient accumulation step. Must be a divisor of batch_size.
+_C.train_sampler = "default"  # default (shuffled) | balanced (equal gradient share per class, same steps/epoch; pair with loss_type=CE)
 _C.lr = 0.02
 _C.weight_decay = 5e-4
 _C.momentum = 0.9

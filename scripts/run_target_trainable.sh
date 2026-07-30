@@ -10,9 +10,48 @@
 #   imgmean  : class_mean (per-class image-feature mean)
 #   blend    : img_shrink (count-adaptive imagemean<->centered-text, IMG_SHRINK_KAPPA)
 #
-# NOTE the frozen finding: count-based lambda looked BACKWARDS on Places (imgmean helped Few,
-# hurt Head, opposite to head->image / tail->text). So read the blend critically; if imgmean
-# wins but blend doesn't, the lambda axis (count) is wrong and should be redesigned.
+# ============================================================================================
+# ALREADY RUN (seed 0, on vast.ai; the output/ dirs were never copied back to this repo, so the
+# completed() check below will NOT skip and a bare re-run would repeat ~80 min of work for
+# nothing). Results, transcribed:
+#
+#   ImageNet-LT            All      Head      Med       Few
+#     baseline           78.28     81.03    77.43     73.49
+#     center             78.51     81.01    77.46     75.12   (+1.63 Few)
+#     imgmean            77.50     81.27    76.78     69.38   (-4.11 Few)
+#     blend              78.25     80.85    77.03     75.22   (+1.73 Few)
+#
+#   Places-LT              All      Head      Med       Few
+#     baseline           52.16     51.67    52.93     51.36
+#     center             52.32     51.23    52.64     53.58   (+2.22 Few)
+#     imgmean            51.15     50.79    52.43     48.90   (-2.46 Few)
+#     blend              52.01     50.95    52.33     53.25   (+1.89 Few)
+#
+# CONCLUSIONS (judged against the 5-seed Few sigma = 0.32, so diff sigma = 0.45):
+#  1. imgmean LOSES DECISIVELY to center on the tail: -5.74 Few on IN (-12.7 sigma) and -4.68 on
+#     PL (-10.3 sigma), and its Overall is below even the raw baseline. This closes the "why not
+#     just initialize from image class means?" objection with data. Mechanism is obvious in
+#     hindsight: a Few class has <20 images, so its image mean is a noisy estimate exactly where
+#     the paper's regime lives.
+#  2. It also RESOLVES the frozen anomaly noted above -- frozen Places had imgmean (44.93) beating
+#     center (42.51), which did NOT transfer to the trainable setting (48.90 vs 53.58). Say this
+#     explicitly in the paper so a reviewer reading the frozen table does not raise it.
+#  3. blend TIES center on Few (IN +0.10 = +0.2 sigma, PL -0.33 = -0.7 sigma) but is worse on
+#     All/Head/Med on both datasets, while additionally requiring a full forward pass over the
+#     train set and a kappa hyper-parameter that center does not need. center dominates once cost
+#     is accounted for. The lambda axis is therefore NOT wrong -- blend behaves exactly as designed
+#     (tail lambda ~0.09-0.20 -> inherits center's tail gain; head lambda ~0.98 -> inherits
+#     imgmean's head behaviour); it simply buys nothing.
+#  4. Suggestive: on ImageNet, blend's Head (80.85) is BELOW both pure options (center 81.01,
+#     imgmean 81.27). Putting head classes in image space and tail classes in text space makes the
+#     coordinate system inconsistent ACROSS the class set. Same shape as the genus finding (28%
+#     local / 72% global was worse than uniform global). Independent support for the "uniform"
+#     clause of the global/uniform/minimal design law. Holds clearly on IN, only partially on PL
+#     (blend Head sits between the two there), so report it as an observation, not a claim.
+#
+# Only re-run this if the raw logs/checkpoints are needed (e.g. to compute rho/coll diagnostics
+# on the imgmean and blend inits via scripts/diag_rho_scg.py, which needs ckpts/init).
+# ============================================================================================
 #
 #   bash scripts/run_target_trainable.sh
 #   python scripts/agg_runs.py output/target_trainable25 --sort path
