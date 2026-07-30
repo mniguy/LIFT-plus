@@ -36,8 +36,7 @@ OUT_ROOT=${OUT_ROOT:-"ir_extremes25"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale "${SCALE}"
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False num_epochs "${EPOCHS}"
+  mda True tte True num_epochs "${EPOCHS}"
 )
 variant_args(){ case "$1" in
   baseline) echo "PROMPT_CENTER False" ;;

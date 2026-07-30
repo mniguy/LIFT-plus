@@ -35,8 +35,7 @@ OUT_ROOT=${OUT_ROOT:-"freeze_encoder25"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale "${SCALE}" FREEZE_ENCODER True
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False
+  mda True tte True
 )
 variant_args(){ case "$1" in
   baseline) echo "PROMPT_CENTER False" ;;

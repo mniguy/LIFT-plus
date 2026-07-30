@@ -32,8 +32,8 @@ for data in ${DATASETS}; do
     for s in ${SEEDS}; do
       echo "=== [${data}] ${rung} seed=${s} ==="
       CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py \
-        -d "${data}" -b clip_vit_b16 -m lift+ tte True PEFT_WARMUP False seed "${s}" \
-        classifier_init semantic TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0 PRIOR_REG_MODE fixed \
+        -d "${data}" -b clip_vit_b16 -m lift+ tte True seed "${s}" \
+        classifier_init semantic \
         ${args} \
         output_dir "pct/${data}/${rung}_seed${s}"
     done

@@ -48,8 +48,7 @@ OUT_ROOT=${OUT_ROOT:-"center_kappa25"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25 PROMPT_CENTER True
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False
+  mda True tte True
 )
 variant_args(){ case "$1" in
   global|tail|logcount) echo "PROMPT_CENTER_MODE $1" ;;

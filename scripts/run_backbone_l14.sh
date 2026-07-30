@@ -87,8 +87,7 @@ OUT_ROOT=${OUT_ROOT:-"backbone_l14"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale "${SCALE}"
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs "${EPOCHS}" PEFT_WARMUP False
+  mda True tte True num_epochs "${EPOCHS}"
   accum_step "${ACCUM}"
 )
 variant_args(){ case "$1" in

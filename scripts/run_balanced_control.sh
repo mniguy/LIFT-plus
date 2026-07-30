@@ -37,8 +37,7 @@ OUT_ROOT=${OUT_ROOT:-"balanced25"}
 # identical to the CIFAR cells of run_breadth.sh / run_center_seeds.sh
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs "${EPOCHS}" PEFT_WARMUP False
+  mda True tte True num_epochs "${EPOCHS}"
 )
 variant_args(){ case "$1" in
   baseline) echo "PROMPT_CENTER False" ;;

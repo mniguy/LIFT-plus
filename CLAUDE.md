@@ -53,20 +53,18 @@ Output is saved to `output/<data>_<backbone>_<method>[_opts]/`.
 - `PEFT_Model` wraps a CLIP or TIMM model. All trainable parameters are collected into a `self.tuner` `nn.ParameterDict` — only params inside `tuner` are optimized.
 - `PEFT_ViT` / `PEFT_RN` are image encoders; `PEFT_Text` is the text encoder.
 - `PEFT_Block` wraps a transformer block and exposes `add_lora`, `add_adapter`, `add_adaptformer`, `add_ssf`, `add_aft` methods.
-- Classifiers (`models/classifiers.py`): `CosineClassifier` (default for LIFT+), `LinearClassifier`, `L2NormClassifier`, `LayerNormClassifier`.
+- Classifiers (`models/classifiers.py`): `CosineClassifier` (default for LIFT+), `CosineClassifierPCT`, `LinearClassifier`, `L2NormClassifier`, `LayerNormClassifier`.
 - Custom modules (`models/modules.py`): `LoRA`, `Adapter`, `AdaptFormer`, `SSF`, `MaskedLinear`, `NonHalfLayerNorm`.
 
-**Trainer** (`trainer.py`): The `Trainer` class handles model building, data loading, loss, optimizer, training loop, and evaluation. PEFT modules are attached to the model during `build_tuner()`. The `warmup_peft()` method optionally pre-warms adapters before the main training loop.
+**Trainer** (`trainer.py`): The `Trainer` class handles model building, data loading, loss, optimizer, training loop, and evaluation. PEFT modules are attached to the model during `build_tuner()`.
 
-**Loss functions** (`utils/losses.py`): `LogitAdjustedLoss` (default `LA`), `LDAMLoss`, `FocalLoss`, `BalancedSoftmaxLoss`, `ClassBalancedLoss`, `GeneralizedReweightLoss`, `LADELoss`, `InfoNCELoss`, `LogitKDLoss`. Loss is selected via `cfg.loss_type`.
+**Loss functions** (`utils/losses.py`): `LogitAdjustedLoss` (default `LA`), `LDAMLoss`, `FocalLoss`, `BalancedSoftmaxLoss`, `ClassBalancedLoss`, `GeneralizedReweightLoss`, `LADELoss`, `VSLoss`. Loss is selected via `cfg.loss_type`.
 
 **Datasets** (`datasets/`): `ImageNetLT`, `PlacesLT`, `iNat2018`, `CIFAR100LT`. All extend a common `_LTData` base. Dataset paths are configured in the corresponding `configs/data/*.yaml` files.
 
-**Auxiliary losses**: Two regularization terms are available on top of the main classification loss:
-- `TEXT_REG_LAMBDA` / `TEXT_REG_T`: KD-style regularization toward frozen text prototypes (logit KD).
-- `INFONCE_LAMBDA` / `INFONCE_T`: InfoNCE contrastive loss between image features and text prototypes.
+**Classifier initialization** (`classifier_init`): `"semantic"` (default) initializes the classifier from CLIP text embeddings; `"class_mean"` and `"linear_probing"` use train image features; `"img_shrink"` blends class-mean image features (head) with centered text prototypes (tail), controlled by `IMG_SHRINK_KAPPA`.
 
-**Classifier initialization** (`classifier_init`): `"semantic"` initializes the classifier from CLIP text embeddings; `"hybrid"` uses a blend of text embeddings and wiki-caption embeddings (controlled by `SIM_THRESHOLD`, `HYBRID_TOPK`, `HYBRID_CAPTION_SOURCE`).
+**Prototype centering** (the current research direction): `PROMPT_CENTER: True` de-anisotropizes the text prototypes used to initialize the classifier. `PROMPT_CENTER_MODE` selects what is subtracted (`global`, `group`, `kappa`, `pca`, `knn`, `genus`/`cascade` for iNat taxonomy, plus negative controls like `randdir`, `headonly`). `EVAL_CENTER: True` instead centers the *trained* classifier weight at test time. `FREEZE_CLASSIFIER` / `FREEZE_ENCODER` isolate which side the effect comes from.
 
 **MDA** (Minimalist Data Augmentation): When `mda: True`, crop scale increases progressively across epochs following a schedule (`mda_func`).
 

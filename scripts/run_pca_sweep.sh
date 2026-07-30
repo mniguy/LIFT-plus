@@ -21,8 +21,7 @@ OUT_ROOT=${OUT_ROOT:-"pca_sweep25"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25 PROMPT_CENTER True PROMPT_CENTER_MODE pca
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs 5 PEFT_WARMUP False
+  mda True tte True num_epochs 5
 )
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 

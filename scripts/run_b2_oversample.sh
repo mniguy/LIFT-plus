@@ -63,8 +63,7 @@ OUT_ROOT=${OUT_ROOT:-"b2_oversample25"}
 # CE on purpose -- see the loss note above. Everything else matches loss_robust25's CE cells.
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25 loss_type CE
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs "${EPOCHS}" PEFT_WARMUP False
+  mda True tte True num_epochs "${EPOCHS}"
 )
 variant_args(){ case "$1" in
   baseline) echo "PROMPT_CENTER False" ;;

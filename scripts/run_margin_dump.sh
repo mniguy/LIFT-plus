@@ -16,7 +16,7 @@ DATASETS=${DATASETS:-"imagenet_lt places_lt"}
 OUT_ROOT=${OUT_ROOT:-"margin25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
-COMMON="classifier_init semantic classifier_scale 25 tte True SAVE_LOGITS True TEXT_REG_LAMBDA 0 INFONCE_LAMBDA 0"
+COMMON="classifier_init semantic classifier_scale 25 tte True SAVE_LOGITS True"
 completed(){ [ -f "./output/$1/logits.npy" ]; }
 
 for data in ${DATASETS}; do

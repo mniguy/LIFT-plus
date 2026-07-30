@@ -2,4 +2,3 @@ dataset: "Places_LT"
 root: "/workspace/data/places365_standard"
 
 num_classes: 365
-wiki_caption_dir: "/workspace/LIFT-plus/datasets/Places_LT/wiki"

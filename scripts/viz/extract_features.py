@@ -2,10 +2,10 @@
 
 Usage:
     python scripts/viz/extract_features.py \
-        --ckpt output/final_tte/warmup/ep2_lr_1e-4/checkpoint.pth.tar \
+        --ckpt output/center_lift/checkpoint.pth.tar \
         --output_dir output/viz/ours \
         -d imagenet_lt -b clip_vit_b16 -m lift+ \
-        PEFT_WARMUP True PEFT_WARMUP_EPOCHS 2 PEFT_WARMUP_LR 1e-4 tte True
+        classifier_init semantic PROMPT_CENTER True tte True
 
 This loads a checkpoint, runs the test set, and saves:
     - image_features.npy : [N, D] test image features (post-PEFT)

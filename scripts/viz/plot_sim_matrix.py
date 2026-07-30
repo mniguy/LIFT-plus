@@ -1,9 +1,9 @@
-"""Image-text similarity heatmap evolution: init -> after warmup -> final.
+"""Image-text similarity heatmap evolution: init -> final.
 
-Run extract_features.py 3 times (one per checkpoint) into separate dirs, then:
+Run extract_features.py once per checkpoint into separate dirs, then:
     python scripts/viz/plot_sim_matrix.py \
-        --dirs output/viz/init output/viz/after_warmup output/viz/final \
-        --titles "Init" "After warmup" "Final" \
+        --dirs output/viz/init output/viz/final \
+        --titles "Init" "Final" \
         --out figures/sim_matrix.pdf
 """
 

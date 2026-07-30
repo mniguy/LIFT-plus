@@ -3,8 +3,8 @@
 Usage:
     python scripts/viz/plot_per_class_acc.py \
         --baseline output/baseline_lift/cls_accs.npy \
-        --ours     output/final_tte/warmup/ep2_lr_1e-4/cls_accs.npy \
-        --freq     output/final_tte/warmup/ep2_lr_1e-4/cls_num_list.npy \
+        --ours     output/center_lift/cls_accs.npy \
+        --freq     output/center_lift/cls_num_list.npy \
         --out      figures/per_class_acc.pdf
 """
 

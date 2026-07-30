@@ -46,8 +46,7 @@ STAGES=${STAGES:-"frozen trainable"}
 # byte-identical to run_freeze_center.sh / run_center_control.sh apart from FREEZE_CLASSIFIER
 COMMON=(
   classifier_init semantic classifier_scale 25
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs "${EPOCHS}" PEFT_WARMUP False
+  mda True tte True num_epochs "${EPOCHS}"
 )
 variant_args(){ case "$1" in
   baseline)      echo "PROMPT_CENTER False" ;;

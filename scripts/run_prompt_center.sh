@@ -25,8 +25,7 @@ OUT_ROOT=${OUT_ROOT:-"prompt_center25"}
 # Matches the "seed_ablation 25" baseline (semantic, scale 25, aux OFF), only PROMPT_CENTER varies.
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs 5 PEFT_WARMUP False
+  mda True tte True num_epochs 5
 )
 variant_args(){ case "$1" in
   plain)  echo "PROMPT_CENTER False" ;;

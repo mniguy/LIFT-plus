@@ -2,4 +2,3 @@ dataset: "iNaturalist2018"
 root: "/workspace/data/inat2018"
 
 num_classes: 8142
-wiki_caption_dir: "/workspace/LIFT-plus/datasets/iNaturalist2018/wiki"

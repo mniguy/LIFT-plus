@@ -30,7 +30,7 @@ _C.VS_TAU = 1.0      # VS loss: additive (LA) strength
 _C.mda = True  # Minimalist data augmentation.
 _C.mda_func = "convex"  # "min" / "convex" / "linear" / "concave" / "max".
 _C.tte = False  # Test-time ensembling.
-_C.SAVE_LOGITS = False  # If True, test() dumps raw logits.npy (float16) for test-agnostic / prior-shift analysis.
+_C.SAVE_LOGITS = False  # If True, test() dumps raw logits.npy (float16) for offline margin analysis.
 _C.expand = None  # Test-time expanded size.
 
 _C.zero_shot = False  # Zero-shot CLIP.
@@ -43,38 +43,20 @@ _C.clip_adapter = False  # Add CLIP adapters.
 _C.clip_adapter_dim = 4  # CLIP adapters hidden dimension.
 _C.classifier = None  # Classifier type (in models/classifiers.py). Use text encoder set when it is None.
 _C.classifier_scale = 25  # Logit scale for classifier. (default=25)
-_C.classifier_init = "semantic"  # Classifier initialization method (semantic|class_mean|img_shrink|hybrid|...).
+_C.classifier_init = "semantic"  # Classifier initialization method (semantic|class_mean|img_shrink|linear_probing).
 _C.IMG_SHRINK_KAPPA = 20          # img_shrink init: lam_c = n_c/(n_c+kappa) blend of imagemean(head) vs centered-text(tail). int (yacs-strict); trainer casts to float.
 _C.FREEZE_CLASSIFIER = False  # If True, keep the classifier at its init value (do not train it).
 _C.FREEZE_ENCODER = False     # H_E test: freeze PEFT/encoder, train ONLY the classifier (inverse of FREEZE_CLASSIFIER).
 _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAINED classifier weight (decision-time centering).
 
-# --- #1: per-frequency-group FIXED cosine scale (classifier=CosineClassifierGroupScale) ---
-# tail classes need a larger effective scale (smaller required margin vs the LA freq penalty).
-_C.GROUP_SCALE_HEAD = 30  # scale for the most-frequent class (int, like classifier_scale)
-_C.GROUP_SCALE_TAIL = 30  # scale for the rarest class (set > head to help tail; == head is plain cosine)
-
-# --- control + #3: caption-free prototype centering / de-anisotropization ---
-_C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes (no captions)
+# --- prototype centering / de-anisotropization (main research direction) ---
+_C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
 _C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | cascade | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
 _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to use its own local mean (else fall to the next level)
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)
-
-# --- #2: how the caption/prompt agreement weight (cap_w) is gated ---
-_C.CAPTION_GATE = "soft"    # soft (continuous, current) | hard (0/1) | freq (tail-scaled)
-_C.CAPTION_GATE_TAU = 0.0   # agreement threshold for CAPTION_GATE=hard
-
-# --- #3: hybrid-caption geometry (reduce averaging dilution / tail noise) ---
-_C.CAPTION_CENTER = False   # subtract the global prompt centroid before averaging captions
-_C.CAPTION_BLEND = "convex" # convex (current) | residual (add only caption comp. orthogonal to prompt)
-_C.CAPTION_SHRINK = False   # down-weight the caption when few captions were selected (tail-noise shrinkage)
-
-# --- #4: WHERE to apply the caption blend (need vs reliability) ---
-_C.CAPTION_APPLY = "all"    # all | tail | headmed | reliable
-_C.CAPTION_RELIABLE_MIN = 2 # for CAPTION_APPLY=reliable: min #selected captions to trust the blend
 
 _C.v = CN()
 _C.v.fft = False  # Full fine-tuning (FFT).
@@ -101,55 +83,10 @@ _C.v.aft_ratio = None  # Fine-tuning ratio.
 _C.v.aft_loc = "all"  # Location of arbitrary fine-tuning parameters. "attn" / "mlp" / "all".
 _C.v.aft_seed = 0  # Manual seed for generating mask.
 
-# Textual Prior
-_C.TEXT_REG_LAMBDA        = 0.001
-_C.TEXT_REG_T             = 0.01
-
-# InfoNCE
-_C.INFONCE_LAMBDA         = 0.005
-_C.INFONCE_T              = 0.08
-
-# Warmup
-_C.PEFT_WARMUP            = False
-_C.PEFT_WARMUP_EPOCHS     = 2
-_C.PEFT_WARMUP_STEPS      = -1
-_C.PEFT_WARMUP_LR         = 5e-4
-
-_C.PEFT_WARMUP_IMAGE      = True
-_C.PEFT_WARMUP_TEXT       = False
-_C.PEFT_WARMUP_PROJ       = False
-_C.PEFT_WARMUP_CLASSIFIER = False
-
-_C.WARMUP_TEXT_REG_LAMBDA = 0.0001
-_C.WARMUP_TEXT_REG_T      = 0.001
-_C.WARMUP_INFONCE_LAMBDA  = 0.0
-_C.WARMUP_INFONCE_T       = 0.1
-
-# Hybrid Caption
-_C.SIM_THRESHOLD          = 0.6
-_C.CHUNK_SIZE             = 50
-
-_C.HYBRID_TOPK            = 8
-_C.HYBRID_CAPTION_SOURCE  = "wiki"
-
-# Dataset-aware text prior
-_C.PROMPT_MODE            = "default"  # default / places_scene / places_place / places_ensemble
-_C.PRIOR_REG_MODE         = "fixed"    # fixed / class_gate
-_C.PRIOR_GATE_SOURCE      = "image_text"  # image_text / frequency / shuffled — signal driving the per-class gate
-_C.PRIOR_GATE_POWER       = 1.0
-_C.PRIOR_GATE_NORM        = "minmax"   # none / minmax / rank — rescale raw per-class similarity to a usable [0,1] range
-_C.PRIOR_GATE_INVERT      = False      # False: high-sim classes get stronger reg. True: low-sim classes get stronger reg (1-gate).
-
-# Regularization (KD / InfoNCE) annealing over the main training loop:
-# strong early (stabilize init), weak late (let LA fit the visual boundary).
-_C.REG_ANNEAL             = "none"     # none / linear / cosine
-_C.REG_ANNEAL_END         = 0.0        # final scale (fraction of base lambda) at the last epoch
-_C.REG_ANNEAL_START_EPOCH = 0          # keep scale=1.0 before this epoch, then decay
+# Prompt template selection for building text prototypes
+_C.PROMPT_MODE            = "default"  # default / bare / places_scene / places_place / places_ensemble
 
 _C.num_classes = 1000
-_C.wiki_caption_dir = "datasets/ImageNet_LT/wiki"
-_C.WIKI_MAX_SENTENCES = 0    # 0이면 전체 문장 사용
-_C.WIKI_MAX_CHARS = 0        # 0이면 글자 수 제한 없음
 
 _C.WEIGHTS_PATH = ""
 _C.l = CN()

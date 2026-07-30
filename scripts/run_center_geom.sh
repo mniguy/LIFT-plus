@@ -23,8 +23,7 @@ OUT_ROOT=${OUT_ROOT:-"center_geom25"}
 # Caption-free centering pipeline (= run_prompt_center.sh center cell, aux OFF), only the mode varies.
 BASE_ARGS=(
   classifier_init semantic classifier_scale 25 PROMPT_CENTER True
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True num_epochs 5 PEFT_WARMUP False
+  mda True tte True num_epochs 5
 )
 variant_args(){ case "$1" in
   global|group|tail|std|whiten) echo "PROMPT_CENTER_MODE $1" ;;

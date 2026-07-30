@@ -50,8 +50,7 @@ OUT_ROOT=${OUT_ROOT:-"center_local25"}
 
 COMMON_ARGS=(
   classifier_init semantic classifier_scale 25
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False
+  mda True tte True
 )
 variant_args(){ case "$1" in
   genus)        echo "PROMPT_CENTER True PROMPT_CENTER_MODE genus" ;;

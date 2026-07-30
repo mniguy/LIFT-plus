@@ -24,8 +24,7 @@ OUT_ROOT=${OUT_ROOT:-"eval_center25"}
 
 BASE_ARGS=(
   classifier_init semantic classifier_scale "${SCALE}" PROMPT_CENTER False
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False num_epochs "${EPOCHS}"
+  mda True tte True num_epochs "${EPOCHS}"
 )
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 

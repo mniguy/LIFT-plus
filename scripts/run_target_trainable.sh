@@ -68,8 +68,7 @@ OUT_ROOT=${OUT_ROOT:-"target_trainable25"}
 
 BASE_ARGS=(
   classifier_scale "${SCALE}"
-  TEXT_REG_LAMBDA 0.0 INFONCE_LAMBDA 0.0
-  mda True tte True PEFT_WARMUP False
+  mda True tte True
 )
 variant_args(){ case "$1" in
   baseline) echo "classifier_init semantic PROMPT_CENTER False" ;;
