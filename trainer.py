@@ -591,11 +591,20 @@ class Trainer:
             # level first, and only the classes still unassigned drop to the next level up, so nothing has
             # to fall all the way to global. Fixes 'genus' mode's coverage hole (only 28% of iNat species
             # sit in a genus >= 5, the other 72% jumped straight to global and kept their genus blob).
-            # Group means are computed over the STILL-UNASSIGNED members at each level -- i.e. the residual
-            # shared component among the classes that actually still need one.
+            # PROMPT_CENTER_CASCADE_MEAN picks what a fallback level's mean is taken over:
+            #   "residual" (default): only the STILL-UNASSIGNED members -- the shared component left
+            #      among the classes that actually still need one, and the group must have >= min_size
+            #      of THOSE to qualify.
+            #   "full": every member of the group, deeper-assigned ones included (a 4-species genus in
+            #      an 11-species family subtracts the whole family's mean, not the mean of the 4 left
+            #      over). Group size is then the full group size, so more classes get a taxonomic mean
+            #      and fewer reach global.
             levels = [s.strip() for s in
                       str(getattr(self.cfg, "PROMPT_CENTER_CASCADE", "genus,family,order")).split(",") if s.strip()]
             min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            mean_mode = str(getattr(self.cfg, "PROMPT_CENTER_CASCADE_MEAN", "residual"))
+            if mean_mode not in ("residual", "full"):
+                raise ValueError(f"unknown PROMPT_CENTER_CASCADE_MEAN: {mean_mode}")
             taxo = self._load_taxonomy()
             if taxo is None:
                 raise ValueError("PROMPT_CENTER_MODE=cascade needs a dataset with categories.json (iNat only)")
@@ -605,21 +614,26 @@ class Trainer:
             for lv in levels:
                 groups_idx = {}
                 for i, name in enumerate(self.classnames):
-                    if assigned[i]:
+                    if assigned[i] and mean_mode == "residual":
                         continue
                     key = taxo.get(name, {}).get(lv)
                     if key is not None:
                         groups_idx.setdefault(key, []).append(i)
                 n_lv = 0
                 for key, idxs in groups_idx.items():
-                    if len(idxs) >= min_size:
-                        idxs_t = torch.as_tensor(idxs, device=X.device)
-                        local_mu[idxs_t] = X[idxs_t].mean(0)
-                        assigned[idxs_t] = True
-                        n_lv += len(idxs)
+                    if len(idxs) < min_size:
+                        continue
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    target = idxs_t[~assigned[idxs_t]]      # only classes without a mean yet get one
+                    if target.numel() == 0:
+                        continue
+                    local_mu[target] = X[idxs_t].mean(0)    # mean over the group as scoped above
+                    assigned[target] = True
+                    n_lv += int(target.numel())
                 used.append(f"{lv}={n_lv}")
             used.append(f"global={int((~assigned).sum())}")
-            print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} -> " + " ".join(used))
+            print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} mean={mean_mode} -> "
+                  + " ".join(used))
             out = X - local_mu
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
@@ -630,6 +644,30 @@ class Trainer:
             sim.fill_diagonal_(-2.0)             # exclude self from its own neighbor list
             topk_idx = sim.topk(min(k, X.shape[0] - 1), dim=1).indices   # [C, k]
             local_mu = X[topk_idx].mean(dim=1)   # [C, D] mean of the k nearest OTHER classes
+            out = X - local_mu
+        elif mode == "cluster":                  # semantic k-means groups (taxonomy-free, unsupervised):
+            # partition the prototypes into PROMPT_CENTER_CLUSTER_K clusters and subtract each class's
+            # own cluster mean. Hard-partition counterpart of 'knn' (which uses a per-class, overlapping
+            # neighborhood) and the taxonomy-free stand-in for 'cascade' -- on iNat the cluster/family
+            # agreement can be measured, on IN/PL it is the only local option. Clusters smaller than
+            # PROMPT_CENTER_GENUS_MIN fall back to global mu (same guard as genus/cascade).
+            from sklearn.cluster import KMeans
+            k = int(getattr(self.cfg, "PROMPT_CENTER_CLUSTER_K", 100))
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            k = min(k, X.shape[0])
+            labels = KMeans(n_clusters=k, n_init=10, random_state=int(getattr(self.cfg, "seed", 0))
+                            ).fit_predict(F.normalize(X, dim=-1).cpu().numpy())
+            labels = torch.as_tensor(labels, device=X.device)
+            local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+            n_fallback = 0
+            for c in range(k):
+                idxs = (labels == c).nonzero(as_tuple=True)[0]
+                if idxs.numel() >= min_size:
+                    local_mu[idxs] = X[idxs].mean(0)
+                else:
+                    n_fallback += int(idxs.numel())
+            print(f"[PROMPT_CENTER cluster] k={k} min_size={min_size} -> {n_fallback}/{X.shape[0]} "
+                  f"classes fell back to global mu")
             out = X - local_mu
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)

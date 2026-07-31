@@ -51,11 +51,13 @@ _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAI
 
 # --- prototype centering / de-anisotropization (main research direction) ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | cascade | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | cascade | cluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
 _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to use its own local mean (else fall to the next level)
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
+_C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level's mean is over its still-unassigned members ("residual") or over the whole group incl. deeper-assigned ones ("full")
+_C.PROMPT_CENTER_CLUSTER_K = 100   # for mode=cluster: # k-means clusters over the prototypes (taxonomy-free local groups)
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)
 
 _C.v = CN()
