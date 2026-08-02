@@ -32,6 +32,31 @@
 #      vs raw 45.9%), and its clusters do recover the taxonomy (NMI vs genus 0.64, vs family 0.46;
 #      k=500 -> 0.82/0.64). k=500 is the finer, more cascade-like end of the same knob.
 #
+# PRE-REGISTERED PREDICTION for the single-level ladder (measured on all 8142 real prototypes
+# BEFORE any of these ran; cos(W_L, W_global) = per-class cosine of this init to the global-centered
+# init, top5-conf = mean cos to each class's 5 nearest OTHER classes, i.e. the fine-grained
+# confusion pressure that is iNat's actual bottleneck):
+#   level    cover%   |mu_L-mu_g|/|mu_g|   cos(W_L,W_global)   top5-conf
+#   genus     28.0         0.279                0.817            0.492    (already run: 80.46)
+#   family    83.5         0.431 <- max         0.868            0.483 <- min
+#   order     97.0         0.373                0.916            0.515
+#   class     99.4         0.289                0.949            0.540
+#   phylum    99.8         0.260                0.958            0.547
+#   kingdom   99.9         0.230                0.967            0.555
+#   (global reference: top5-conf 0.593; raw prototypes 0.883)
+# -> class/phylum/kingdom are >=0.95 cosine-identical to the global-centered init and recover only
+#    ~1/4 of family's extra separation: predicted INDISTINGUISHABLE from global (80.52 +-0.15), so
+#    they are NOT queued below. Run one only if the ladder needs a null anchor.
+# -> family is the single level that departs from global the most AND separates the hardest
+#    neighbours the most, and it is the level cascade already assigns ~55% of its classes at.
+#    Predicted the only single level that can beat global: 80.6-80.9 All, Head-led (its coverage is
+#    head-biased, 90.5% Many vs 82.7% Few -- the same pattern that gave cascade Head +1.19).
+# -> order is the uniformity control (97% coverage, one coherent level, weak locality).
+#    family > order  => locality at the family scale is what pays and the 16.5% global-fallback
+#    mixture is tolerable. order >= family => uniformity dominates locality, which would also
+#    explain genus (28% mixture) failing and cascade (96% covered) winning, and would make "cover
+#    every class at the coarsest level that still localizes" the rule.
+#
 # Reference anchors (iNat, 15 ep, seed 0, scale 25, mda+tte -- identical args to below):
 #   baseline (breadth25/inat2018/baseline_15ep)  80.63  74.62  80.50  82.36
 #   global   (breadth25/inat2018/center_15ep)    80.52  74.86  80.41  82.13
