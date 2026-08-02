@@ -654,6 +654,11 @@ class Trainer:
             from sklearn.cluster import KMeans
             k = int(getattr(self.cfg, "PROMPT_CENTER_CLUSTER_K", 100))
             min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            target = int(getattr(self.cfg, "PROMPT_CENTER_CLUSTER_SIZE", 0))
+            if target > 0:                   # dataset-relative: fix the GRANULARITY (avg classes per
+                # cluster) instead of the cluster count, so one setting means the same thing on 365,
+                # 1000 and 8142 classes. k=100 is 3 classes/cluster on Places and 57 on iNat.
+                k = max(1, round(X.shape[0] / target))
             k = min(k, X.shape[0])
             labels = KMeans(n_clusters=k, n_init=10, random_state=int(getattr(self.cfg, "seed", 0))
                             ).fit_predict(F.normalize(X, dim=-1).cpu().numpy())
@@ -666,8 +671,8 @@ class Trainer:
                     local_mu[idxs] = X[idxs].mean(0)
                 else:
                     n_fallback += int(idxs.numel())
-            print(f"[PROMPT_CENTER cluster] k={k} min_size={min_size} -> {n_fallback}/{X.shape[0]} "
-                  f"classes fell back to global mu")
+            print(f"[PROMPT_CENTER cluster] k={k} (target size={target or '-'}) min_size={min_size} "
+                  f"-> {n_fallback}/{X.shape[0]} classes fell back to global mu")
             out = X - local_mu
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)

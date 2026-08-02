@@ -58,6 +58,7 @@ _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to u
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level's mean is over its still-unassigned members ("residual") or over the whole group incl. deeper-assigned ones ("full")
 _C.PROMPT_CENTER_CLUSTER_K = 100   # for mode=cluster: # k-means clusters over the prototypes (taxonomy-free local groups)
+_C.PROMPT_CENTER_CLUSTER_SIZE = 0  # for mode=cluster: target AVG classes per cluster; >0 overrides _K via k=round(C/size), matching granularity (not cluster count) across datasets of different C
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)
 
 _C.v = CN()
