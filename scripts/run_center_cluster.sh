@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# PROMPT_CENTER_MODE=cluster at a matched k across all three LT datasets (default k=100).
+# PROMPT_CENTER_MODE=cluster at a matched GRANULARITY across all three LT datasets
+# (default: target 16 and 32 classes per cluster).
 #
 # cluster = k-means over the prompt prototypes (unit-normalized rows, sklearn KMeans, k-means++,
 # n_init=10, random_state=seed), each class centered by its own cluster's mean; clusters smaller
@@ -9,8 +10,8 @@
 # which is the generality gap cascade cannot close.
 #
 # Why this run: on iNat, cluster500 (80.75 All / 76.01 Head / 82.60 Few) came within 0.09 of
-# cascade WITHOUT a taxonomy, while cluster50 (80.52) sat at global. So k matters and its useful
-# range is unknown; k=100 is the matched point across datasets.
+# cascade WITHOUT a taxonomy, while cluster50 (80.52) sat at global. So granularity matters and its
+# useful range is unknown -- and it is the ONE knob that has to be expressed per-dataset.
 #
 # TWO WAYS TO SET THE GRANULARITY:
 #   KS="100"     absolute cluster count. NOT comparable across datasets -- k=100 is 3 classes per
@@ -98,4 +99,5 @@ echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sor
 echo "    check each log's '[PROMPT_CENTER cluster] k=.. -> N/C classes fell back' line FIRST:"
 echo "    a high N means the run is mostly plain global centering, not a clustering result."
 echo "    IN/PL: does cluster beat global's Few (+1.63 IN / +2.21 PL over baseline), or repeat knn's failure?"
-echo "    iNat:  k=100 vs k=50 (80.52) and k=500 (80.75) -- is there a real k trend or is it flat?"
+echo "    iNat:  size32 is k=254, the missing middle between cluster50 (80.52) and cluster500 (80.75)."
+echo "           size16 is k=509 ~= cluster500 -- skip it on iNat unless you want the reproduction."
