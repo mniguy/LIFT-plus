@@ -37,7 +37,7 @@
 #   GENUS_MIN="5 10 20" bash scripts/run_center_genuslex.sh   # sweep the min-group-size gate too
 #   python scripts/agg_runs.py output/center_genuslex25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 GENUS_MIN=${GENUS_MIN:-"5"}
 INAT_EPOCHS=${INAT_EPOCHS:-15}

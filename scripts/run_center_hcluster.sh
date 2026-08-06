@@ -53,7 +53,7 @@
 #   DATASETS="imagenet_lt places_lt inat2018" bash scripts/run_center_hcluster.sh
 #   python scripts/agg_runs.py output/center_hcluster25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 SIZES_LIST=${SIZES_LIST:-"16,64,256"}
 EPOCHS=${EPOCHS:-5}
