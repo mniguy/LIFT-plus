@@ -51,7 +51,7 @@ _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAI
 
 # --- prototype centering / de-anisotropization (main research direction) ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | cascade | cluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | cascade | cascade_lex | nested | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
 _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to use its own local mean (else fall to the next level)
@@ -60,6 +60,9 @@ _C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level
 _C.PROMPT_CENTER_CLUSTER_K = 100   # for mode=cluster: # k-means clusters over the prototypes (taxonomy-free local groups)
 _C.PROMPT_CENTER_CLUSTER_SIZE = 0  # for mode=cluster: target AVG classes per cluster; >0 overrides _K via k=round(C/size), matching granularity (not cluster count) across datasets of different C
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)
+_C.PROMPT_CENTER_HCLUSTER_SIZES = "16,64,256"  # for mode=hcluster: comma list of target AVG classes per cluster, finest->coarsest; cuts ONE agglomerative dendrogram at k=round(C/size) for each, so levels nest like genus/family/order do
+_C.PROMPT_CENTER_NESTED_LEVELS = "order,family,genus"  # for mode=nested: taxonomy levels centered REPEATEDLY, in the order given -- that order is the direction ("order,family,genus"=top-down, "genus,family,order"=bottom-up)
+_C.PROMPT_CENTER_NESTED_MEAN = "recompute"  # for mode=nested: each level's mean is taken on the current residual ("recompute", a hierarchical decomposition) or on the raw prototypes and summed ("static", the deliberate over-subtraction control)
 
 _C.v = CN()
 _C.v.fft = False  # Full fine-tuning (FFT).

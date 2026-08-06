@@ -587,6 +587,40 @@ class Trainer:
             print(f"[PROMPT_CENTER genus] {n_fallback}/{len(genus_of)} classes fell back to global mu "
                   f"(genus size < {min_size}); {len(groups_idx)} distinct genera")
             out = X - local_mu
+        elif mode == "genus_lex":                # D: surgical LEXICAL fix (vs 'genus's raw group mean).
+            # 'genus' subtracts the mean of genus-mates' FULL embeddings, which conflates two things:
+            # (a) the repeated genus WORD itself, and (b) whatever genuine within-genus content those
+            # particular species happen to share beyond the word. This isolates (a) specifically: encode
+            # each class a second time with the genus word stripped (species epithet alone), take the
+            # per-class difference embed(full) - embed(epithet) as that class's estimate of "what the
+            # genus word alone contributes", and subtract the GENUS-AVERAGE of that difference vector --
+            # not the genus-average of the full embedding. Classes whose genus is too small fall back to
+            # plain global mu, same guard as 'genus'.
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            global_mu = X.mean(0)
+            genus_of = [name.split()[0] for name in self.classnames]
+            epithets = [" ".join(name.split()[1:]) if len(name.split()) > 1 else name
+                        for name in self.classnames]
+            with torch.no_grad():
+                epi_prompts = clip.tokenize(
+                    [self.template.format(e.replace("_", " ")) for e in epithets]).to(X.device)
+                X_epi = F.normalize(self.compute_class_features(epi_prompts).float(), dim=-1)
+            diff = X - X_epi                      # [C, D] per-class estimate of the genus word's own contribution
+            groups_idx = {}
+            for i, g in enumerate(genus_of):
+                groups_idx.setdefault(g, []).append(i)
+            local_mu = global_mu.unsqueeze(0).repeat(X.shape[0], 1)
+            n_fallback = 0
+            for g, idxs in groups_idx.items():
+                if len(idxs) >= min_size:
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    local_mu[idxs_t] = diff[idxs_t].mean(0)     # subtract the LEXICAL diff, not the raw group mean
+                else:
+                    n_fallback += len(idxs)
+            print(f"[PROMPT_CENTER genus_lex] {n_fallback}/{len(genus_of)} classes fell back to global mu "
+                  f"(genus size < {min_size}); {len(groups_idx)} distinct genera; "
+                  f"mean|diff|={diff.norm(dim=-1).mean().item():.3f}")
+            out = X - local_mu
         elif mode == "cascade":                  # HIERARCHICAL taxonomy fallback (iNat): try the deepest
             # level first, and only the classes still unassigned drop to the next level up, so nothing has
             # to fall all the way to global. Fixes 'genus' mode's coverage hole (only 28% of iNat species
@@ -635,6 +669,123 @@ class Trainer:
             print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} mean={mean_mode} -> "
                   + " ".join(used))
             out = X - local_mu
+        elif mode == "cascade_lex":               # genus_lex's surgical diff-vector subtraction,
+            # plugged into cascade's multi-level fallback instead of standing alone. Only the 'genus'
+            # level has a literal shared TOKEN to isolate this way (binomial "Genus species" repeats
+            # the genus word; a family name like "Fagaceae" never appears inside a classname at all,
+            # so there is no analogous epithet-style split for family/order) -- those levels fall back
+            # to ordinary full-embedding-mean subtraction, identical to plain 'cascade'. Same
+            # levels/min_size/PROMPT_CENTER_CASCADE_MEAN options as 'cascade'.
+            levels = [s.strip() for s in
+                      str(getattr(self.cfg, "PROMPT_CENTER_CASCADE", "genus,family,order")).split(",") if s.strip()]
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            mean_mode = str(getattr(self.cfg, "PROMPT_CENTER_CASCADE_MEAN", "residual"))
+            if mean_mode not in ("residual", "full"):
+                raise ValueError(f"unknown PROMPT_CENTER_CASCADE_MEAN: {mean_mode}")
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=cascade_lex needs a dataset with categories.json (iNat only)")
+            epithets = [" ".join(name.split()[1:]) if len(name.split()) > 1 else name
+                        for name in self.classnames]
+            with torch.no_grad():
+                epi_prompts = clip.tokenize(
+                    [self.template.format(e.replace("_", " ")) for e in epithets]).to(X.device)
+                X_epi = F.normalize(self.compute_class_features(epi_prompts).float(), dim=-1)
+            diff = X - X_epi                      # reused ONLY for the 'genus' level below
+            local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+            assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
+            used = []
+            for lv in levels:
+                groups_idx = {}
+                for i, name in enumerate(self.classnames):
+                    if assigned[i] and mean_mode == "residual":
+                        continue
+                    key = taxo.get(name, {}).get(lv)
+                    if key is not None:
+                        groups_idx.setdefault(key, []).append(i)
+                n_lv = 0
+                source = diff if lv == "genus" else X     # only genus gets the lexical-diff treatment
+                for key, idxs in groups_idx.items():
+                    if len(idxs) < min_size:
+                        continue
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    target = idxs_t[~assigned[idxs_t]]
+                    if target.numel() == 0:
+                        continue
+                    local_mu[target] = source[idxs_t].mean(0)
+                    assigned[target] = True
+                    n_lv += int(target.numel())
+                used.append(f"{lv}{'(lex)' if lv == 'genus' else ''}={n_lv}")
+            used.append(f"global={int((~assigned).sum())}")
+            print(f"[PROMPT_CENTER cascade_lex] levels={levels} min_size={min_size} mean={mean_mode} -> "
+                  + " ".join(used))
+            out = X - local_mu
+        elif mode == "nested":                    # REPEATED centering down (or up) the taxonomy, instead
+            # of cascade's "each class is centered at exactly ONE level". Every class is centered at
+            # EVERY level it has a big-enough group for, so the subtractions stack.
+            # PROMPT_CENTER_NESTED_LEVELS is applied IN THE ORDER GIVEN, and that order IS the direction:
+            #   "order,family,genus" = top-down  (coarse -> fine)
+            #   "genus,family,order" = bottom-up (fine -> coarse)
+            # The pseudo-level "global" (one centroid over ALL classes, no taxonomy lookup, no min_size
+            # gate) may be used anywhere in the chain. Its purpose is to DECONFOUND the direction
+            # comparison: measured offline that whichever level runs FIRST also absorbs the global
+            # component (|mu| 0.84-0.98), so a bare top-down-vs-bottom-up contrast conflates "which
+            # direction" with "which group size estimated the global component". Prepending "global"
+            # equalizes that -- cos(topdown, bottomup) rises 0.7382 -> 0.9246 once it is prepended.
+            # PROMPT_CENTER_NESTED_MEAN decides what each level's mean is computed on:
+            #   "recompute" (default): the CURRENT residual, so each level removes only what the levels
+            #      before it did not already explain (an ANOVA-style hierarchical decomposition, and the
+            #      only variant where the two directions are genuinely different operations).
+            #   "static": every level's mean comes from the ORIGINAL raw prototypes and they are summed,
+            #      so the same shared component is subtracted once per level. Deliberately the
+            #      over-subtraction control: measured offline that this pushes many rows PAST the origin
+            #      (pre-normalization norm mean 1.13 / max 2.02 vs raw 1.0), i.e. past "removed" into
+            #      "negated". Direction is irrelevant here (addition commutes) -- expected to be bad.
+            levels = [s.strip() for s in
+                      str(getattr(self.cfg, "PROMPT_CENTER_NESTED_LEVELS", "order,family,genus")).split(",") if s.strip()]
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            mean_mode = str(getattr(self.cfg, "PROMPT_CENTER_NESTED_MEAN", "recompute"))
+            if mean_mode not in ("recompute", "static"):
+                raise ValueError(f"unknown PROMPT_CENTER_NESTED_MEAN: {mean_mode}")
+            if min_size < 2:
+                raise ValueError("PROMPT_CENTER_GENUS_MIN must be >= 2 for mode=nested: a singleton "
+                                 "group's mean is the class itself, so subtracting it zeroes the row")
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=nested needs a dataset with categories.json (iNat only)")
+            X_out = X.clone()
+            used = []
+            for lv in levels:
+                src = X_out if mean_mode == "recompute" else X
+                shift = torch.zeros_like(X_out)
+                if lv == "global":                # pseudo-level: every class, one centroid, no gate
+                    shift[:] = src.mean(0)
+                    n_hit = X.shape[0]
+                    mag = shift.norm(dim=-1)
+                    used.append(f"global(n={n_hit},|mu|={mag.mean().item():.3f})")
+                    X_out = X_out - shift
+                    continue
+                groups_idx = {}
+                for i, name in enumerate(self.classnames):
+                    key = taxo.get(name, {}).get(lv)
+                    if key is not None:
+                        groups_idx.setdefault(key, []).append(i)
+                n_hit = 0
+                for key, idxs in groups_idx.items():
+                    if len(idxs) < min_size:
+                        continue                  # too small (incl. every singleton): skip this level
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    shift[idxs_t] = src[idxs_t].mean(0)
+                    n_hit += len(idxs)
+                mag = shift.norm(dim=-1)
+                mag_hit = mag[mag > 0].mean().item() if bool((mag > 0).any()) else 0.0
+                used.append(f"{lv}(n={n_hit},|mu|={mag_hit:.3f})")
+                X_out = X_out - shift
+            print(f"[PROMPT_CENTER nested] levels={levels} min_size={min_size} mean={mean_mode} -> "
+                  + " ".join(used)
+                  + f" | pre-norm row norm mean={X_out.norm(dim=-1).mean().item():.3f} "
+                    f"min={X_out.norm(dim=-1).min().item():.3f} max={X_out.norm(dim=-1).max().item():.3f}")
+            out = X_out
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
             # nearest OTHER classes (by prototype cosine similarity) instead of one fixed global mu.
@@ -673,6 +824,46 @@ class Trainer:
                     n_fallback += int(idxs.numel())
             print(f"[PROMPT_CENTER cluster] k={k} (target size={target or '-'}) min_size={min_size} "
                   f"-> {n_fallback}/{X.shape[0]} classes fell back to global mu")
+            out = X - local_mu
+        elif mode == "hcluster":                 # C: taxonomy-free HIERARCHICAL cascade. Cuts ONE
+            # agglomerative dendrogram at several granularities (finest -> coarsest) instead of reading
+            # genus/family/order from a taxonomy file, then reuses cascade's exact fallback logic
+            # (residual mean, min_size gate). Levels are GUARANTEED nested -- a fine cluster never
+            # straddles two coarse clusters -- because every cut comes from the SAME linkage tree, the
+            # same nesting property genus/family/order has by construction (unlike independent per-level
+            # KMeans calls in 'cluster', which have no such guarantee).
+            # Linkage = "complete" (max pairwise distance between two clusters), not "average": measured
+            # offline that "average" linkage chains -- one cluster absorbed 4549/8142 classes at k=509,
+            # a "rich get richer" blob (median cluster size only 3) that is barely different from plain
+            # global centering for the majority of classes it nominally "covers". "complete" resists this
+            # (same k=509: max cluster size 893, median 6) and reaches HIGHER 3-level coverage (8108/8142
+            # = 99.6%, 34 fall to global) than "average" did (8100/8142, 42 fall to global).
+            from scipy.cluster.hierarchy import linkage, fcluster
+            from scipy.spatial.distance import pdist
+            sizes = sorted(int(s) for s in
+                            str(getattr(self.cfg, "PROMPT_CENTER_HCLUSTER_SIZES", "16,64,256")).split(",")
+                            if s.strip())
+            min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            Xn = F.normalize(X, dim=-1).cpu().numpy()
+            Z = linkage(pdist(Xn, metric="cosine"), method="complete")
+            local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+            assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
+            used = []
+            for s in sizes:                      # smallest size = finest (most clusters) first
+                k = max(1, min(round(X.shape[0] / s), X.shape[0]))
+                labels = torch.as_tensor(fcluster(Z, t=k, criterion="maxclust"), device=X.device)
+                n_lv = 0
+                for c in labels.unique().tolist():
+                    idxs = (labels == c).nonzero(as_tuple=True)[0]
+                    idxs = idxs[~assigned[idxs]]         # residual: only still-unassigned members count
+                    if idxs.numel() < min_size:
+                        continue
+                    local_mu[idxs] = X[idxs].mean(0)
+                    assigned[idxs] = True
+                    n_lv += int(idxs.numel())
+                used.append(f"size{s}(k={k})={n_lv}")
+            used.append(f"global={int((~assigned).sum())}")
+            print(f"[PROMPT_CENTER hcluster] sizes={sizes} min_size={min_size} -> " + " ".join(used))
             out = X - local_mu
         elif mode == "std":                      # diagonal whitening (standardize each dim)
             out = (X - X.mean(0)) / X.std(0).clamp_min(1e-6)

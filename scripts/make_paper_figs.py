@@ -4,7 +4,7 @@ Paper figures for the prototype-centering study. Numbers are the verified aggreg
 from output/ (see comments for provenance). Colorblind-safe (Okabe-Ito), IEEE-column size.
 
     /opt/anaconda3/bin/python scripts/make_paper_figs.py
-Outputs: output/paper/fig_pca_ucurve.{pdf,png}, output/paper/fig_breadth_predictor.{pdf,png}
+Outputs: output/_paper/fig_{pca_ucurve,mechanism,freeze}.{pdf,png}
 """
 import os
 import numpy as np
@@ -12,11 +12,12 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-OUT = "output/paper"
+OUT = "output/_paper"
 os.makedirs(OUT, exist_ok=True)
 
 # Okabe-Ito (CVD-safe). blue = ImageNet / helps ; orange = Places ; vermillion = hurts
 BLUE, ORANGE, VERM, GRAY = "#0072B2", "#E69F00", "#D55E00", "#8a8a8a"
+INK, MUTE, SUB = "#1a1a1a", "#7a828c", "#3f4650"   # schematic (Fig 3) text tones
 
 plt.rcParams.update({
     "figure.dpi": 150, "savefig.dpi": 300, "font.size": 9,
@@ -41,115 +42,145 @@ base_in, base_pl = 73.58, 51.62
 in_few = np.array([75.12, 75.15, 75.13, 75.18, 74.49, 73.44]) - base_in
 pl_few = np.array([53.58, 53.08, 52.73, 52.73, 52.13, 51.03]) - base_pl
 
-fig, ax = plt.subplots(figsize=(3.5, 2.7))
-style_ax(ax)
-ax.axhline(0, color=GRAY, lw=1.0, ls=(0, (4, 3)), zorder=1)
-ax.text(x[0], -0.12, "no-centering baseline", color=GRAY, fontsize=7, ha="left", va="top")
-for y, c, name, ly in [(in_few, BLUE, "ImageNet-LT", 1.38), (pl_few, ORANGE, "Places-LT", 1.98)]:
-    ax.plot(x, y, "-", color=c, lw=2, marker="o", ms=5, zorder=3)
-    ax.text(x[0] + 0.12, ly, name, color=c, fontsize=8, ha="left", va="center", fontweight="bold")
+sd_in, sd_pl = 0.23, 0.33          # seed std on Few (Table 1), used as the noise band
+
+fig, ax = plt.subplots(figsize=(3.5, 2.25))
+ax.grid(axis="y", color="#ececec", lw=0.6, zorder=0)
+ax.set_axisbelow(True)
+ax.tick_params(length=3, width=0.7, labelsize=8)
+for sp in ("top", "right"):
+    ax.spines[sp].set_visible(False)
+for sp in ("left", "bottom"):
+    ax.spines[sp].set_color("#b8bcc2")
+
+ax.axhline(0, color="#9aa0a6", lw=0.8, ls=(0, (4, 3)), zorder=1)
+ax.text(-0.28, -0.08, "uncentered baseline", color="#9aa0a6", fontsize=7,
+        ha="left", va="top")
+
+for y, sd, c, name in [(in_few, sd_in, BLUE, "ImageNet-LT"), (pl_few, sd_pl, ORANGE, "Places-LT")]:
+    ax.fill_between(x, y - sd, y + sd, color=c, alpha=0.13, lw=0, zorder=2)
+    ax.plot(x, y, "-", color=c, lw=1.4, zorder=3)
+    ax.plot(x, y, "o", color=c, ms=3.6, mec="white", mew=0.8, zorder=4, label=name)
+
+ax.annotate("", xy=(-0.1, 2.02), xytext=(3.1, 2.02),
+            arrowprops=dict(arrowstyle="-", color="#c2c7ce", lw=0.8))
+for xb in (-0.1, 3.1):
+    ax.plot([xb, xb], [1.94, 2.02], color="#c2c7ce", lw=0.8)
+ax.text(1.5, 2.08, "ImageNet-LT flat within seed noise", fontsize=7.0,
+        color="#7a828c", ha="center", va="bottom")
+
+ax.legend(loc="upper right", fontsize=7.6, handlelength=1.1, handletextpad=0.5,
+          borderaxespad=0.1, labelspacing=0.3)
 ax.set_xticks(x); ax.set_xticklabels(k_lab)
-ax.set_xlabel(r"principal components removed  $k$")
-ax.set_ylabel(r"$\Delta$ Few acc. vs baseline (pp)")
-ax.margins(x=0.08)
-ax.set_ylim(-0.85, 2.25)
-fig.tight_layout(pad=0.4)
+ax.set_xlabel(r"principal components removed  $k$", fontsize=8.5)
+ax.set_ylabel(r"$\Delta$ Few accuracy (pp)", fontsize=8.5)
+ax.set_xlim(-0.35, len(x) - 0.65)
+ax.set_ylim(-1.0, 2.35)
+fig.tight_layout(pad=0.3)
 fig.savefig(f"{OUT}/fig_pca_ucurve.pdf"); fig.savefig(f"{OUT}/fig_pca_ucurve.png")
 plt.close(fig)
 
-# ============ Fig 2: breadth predictor -- tail init-persistence predicts benefit ============
-# provenance: breadth25 (ΔFew), analyze_anisotropy.py (Few drift), + IN/PL from center_seeds25
-# (dataset, tail_drift M2, ΔFew pp, baseline Few%) -- all at each dataset's matched protocol
-# (iNat = 15 epochs, matching LIFT+; its tail drifts ~0.85 from init, so it is not frozen)
-pts = [
-    ("CIFAR-IR100", 0.037, +2.24, 79.63),
-    ("Places-LT",   0.065, +1.62, 51.62),
-    ("ImageNet-LT", 0.074, +1.59, 73.58),
-    ("CIFAR-IR50",  0.049, -0.27, 84.44),
-    ("iNat2018",    0.853, -0.23, 82.36),
-]
-fig, ax = plt.subplots(figsize=(3.7, 2.7))
-style_ax(ax)
-ax.set_xscale("log")
-ax.axhline(0, color=GRAY, lw=1.0, ls=(0, (4, 3)), zorder=1)
-# per-point label: (text_x, text_y, ha, display text)
-lab = {
-    "CIFAR-IR100": (0.036, 2.62, "center", "CIFAR-IR100"),
-    "Places-LT":   (0.073, 1.98, "left",   "Places-LT"),
-    "ImageNet-LT": (0.081, 1.30, "left",   "ImageNet-LT"),
-    "CIFAR-IR50":  (0.049, -0.66, "center", "CIFAR-IR50 (saturated)"),
-    "iNat2018":    (0.85,  0.44, "center", "iNat2018 (not frozen)"),
-}
-for name, drift, dfew, bfew in pts:
-    c = BLUE if dfew > 0.5 else GRAY          # helps vs. neutral (nothing actually hurts)
-    s = (100 - bfew) * 9                      # marker size ~ tail headroom (100 - baseline Few)
-    ax.scatter(drift, dfew, s=s, color=c, alpha=0.85, edgecolor="white", lw=1.2, zorder=3)
-    tx, ty, ha, disp = lab[name]
-    ax.annotate(disp, (drift, dfew), xytext=(tx, ty), fontsize=7.3, ha=ha, va="center", color="#222")
-ax.text(0.050, 3.02, "frozen tail + headroom\n$\\rightarrow$ centering helps", fontsize=7.8, color=BLUE, ha="center", va="center")
-ax.text(0.30, -0.72, "not frozen or saturated $\\rightarrow$ neutral", fontsize=7.8, color=GRAY, ha="center", va="center")
-ax.text(0.30, 2.55, "marker size $\\propto$ tail headroom", fontsize=6.5, color=GRAY, ha="center", va="center")
-ax.set_xlabel(r"tail weight-drift from init  $1-\cos(W_{\mathrm{final}},W_{\mathrm{init}})$  (log)")
-ax.set_ylabel(r"centering $\Delta$ Few acc. (pp)")
-ax.set_xlim(0.03, 1.15)
-ax.set_ylim(-1.05, 3.35)
-fig.tight_layout(pad=0.4)
-fig.savefig(f"{OUT}/fig_breadth_predictor.pdf"); fig.savefig(f"{OUT}/fig_breadth_predictor.png")
-plt.close(fig)
-
 # ============ Fig 3 (schematic): the mechanism ============
-# uniform anisotropy at init -> head fine-tunes out of the cone, tail is frozen ->
-# centering de-anisotropizes the init the tail is stuck with.
-from matplotlib.patches import Wedge
+# uniform anisotropy at init -> head fine-tunes out of the cone, tail stays ->
+# centering spreads the init the tail is stuck with.
+from matplotlib.patches import Wedge, FancyArrowPatch
 from matplotlib.lines import Line2D
 
-rng = np.random.default_rng(3)
-c0 = 90.0                                                     # init-cone center angle (deg), pointing up
-head_init = c0 + rng.uniform(-11, 11, 6)
-tail_init = c0 + rng.uniform(-11, 11, 6)
-head_ft = np.array([22, 48, 68, 112, 138, 162]) + rng.uniform(-3, 3, 6)   # head escapes (same in b,c)
-tail_froz = c0 + rng.uniform(-11, 11, 6)                                   # tail frozen near init
-tail_spr = np.array([35, 58, 80, 100, 125, 150]) + rng.uniform(-3, 3, 6)   # tail spreads with centering
+C0, HALF = 90.0, 11.0
+
+head_init = C0 + np.array([-7.5, -3.5, 0.5, 4.5, 8.0])
+tail_init = C0 + np.array([-5.5, -1.5, 2.5, 6.5, 9.5])
+head_ft = np.array([26.0, 54, 82, 124, 150])
+tail_ft = tail_init + np.array([0.8, -0.6, 0.5, -0.9, 0.4])
+head_ctr = head_ft
+tail_ctr = np.array([44.0, 70, 96, 134, 156])
 
 
-def circ(ax, title):
-    t = np.linspace(0, 2 * np.pi, 240)
-    ax.plot(np.cos(t), np.sin(t), color="#d3d8de", lw=1.0, zorder=0)
-    ax.set_aspect("equal"); ax.set_xlim(-1.3, 1.3); ax.set_ylim(-1.3, 1.5); ax.axis("off")
-    ax.set_title(title, fontsize=8.5, pad=1)
-
-
-def dots(ax, ang, color):
+def polar(ang, r=1.0):
     a = np.deg2rad(ang)
-    ax.scatter(np.cos(a), np.sin(a), s=38, color=color, edgecolor="white", lw=1.0, zorder=3)
+    return r * np.cos(a), r * np.sin(a)
 
 
-figm, axs = plt.subplots(1, 3, figsize=(7.4, 2.8))
-am = np.deg2rad(c0)
+def panel(ax, tag, title, sub):
+    t = np.linspace(np.deg2rad(16), np.deg2rad(164), 200)
+    ax.plot(np.cos(t), np.sin(t), color="#c5cad2", lw=1.1, solid_capstyle="round", zorder=1)
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.22, 1.22)
+    ax.set_ylim(0.22, 1.30)
+    ax.axis("off")
+    ax.text(0.0, 1.05, f"{tag}  {title}", transform=ax.transAxes,
+            fontsize=9.0, color=INK, va="bottom", ha="left")
+    ax.text(0.5, -0.13, sub, transform=ax.transAxes, fontsize=8.2, color=SUB,
+            ha="center", va="top", linespacing=1.4)
 
-ax = axs[0]; circ(ax, "(a) text-prototype init")
-ax.add_patch(Wedge((0, 0), 1.16, c0 - 13, c0 + 13, color=GRAY, alpha=0.13, zorder=1))
-dots(ax, head_init, BLUE); dots(ax, tail_init, ORANGE)
-ax.annotate("", xy=(0.6 * np.cos(am), 0.6 * np.sin(am)), xytext=(0, 0),
-            arrowprops=dict(arrowstyle="-|>", color=GRAY, lw=1.6))
-ax.text(0.6 * np.cos(am) + 0.14, 0.6 * np.sin(am), r"$\mu$", color="#555", fontsize=12, va="center")
-ax.text(0, -1.16, "anisotropic cone: all prototypes\n$\\approx\\mu$ (head & tail alike)", ha="center", va="top", fontsize=7.5, color="#333")
 
-ax = axs[1]; circ(ax, "(b) after fine-tuning")
-ax.add_patch(Wedge((0, 0), 1.16, c0 - 13, c0 + 13, color=VERM, alpha=0.12, zorder=1))
-dots(ax, head_ft, BLUE); dots(ax, tail_froz, ORANGE)
-ax.text(0, -1.16, "head escapes the cone;\ntail frozen at init (collinear)", ha="center", va="top", fontsize=7.5, color="#333")
+def cone(ax, dashed=False):
+    if dashed:
+        for s in (-1, 1):
+            a = np.deg2rad(C0 + s * HALF)
+            ax.plot([0.45 * np.cos(a), 1.10 * np.cos(a)], [0.45 * np.sin(a), 1.10 * np.sin(a)],
+                    color=GRAY, lw=0.7, ls=(0, (2.5, 2.5)), alpha=0.6, zorder=1)
+    else:
+        ax.add_patch(Wedge((0, 0), 1.13, C0 - HALF, C0 + HALF,
+                           facecolor=GRAY, alpha=0.15, edgecolor="none", zorder=1))
 
-ax = axs[2]; circ(ax, "(c) + prototype centering")
-dots(ax, head_ft, BLUE); dots(ax, tail_spr, ORANGE)
-ax.text(0, -1.16, "centering spreads the init\nthe tail cannot move from", ha="center", va="top", fontsize=7.5, color="#333")
 
-handles = [Line2D([0], [0], marker='o', color='w', markerfacecolor=BLUE, markersize=8, label='head (many-shot)'),
-           Line2D([0], [0], marker='o', color='w', markerfacecolor=ORANGE, markersize=8, label='tail (few-shot)')]
-figm.legend(handles=handles, loc="upper center", ncol=2, frameon=False, fontsize=8, bbox_to_anchor=(0.5, 1.0))
-figm.tight_layout(rect=[0, 0, 1, 0.92])
-figm.savefig(f"{OUT}/fig_mechanism.pdf"); figm.savefig(f"{OUT}/fig_mechanism.png")
-plt.close(figm)
+def dots(ax, ang, color, marker="o", s=36):
+    x, y = polar(np.asarray(ang, dtype=float))
+    ax.scatter(x, y, s=s, marker=marker, color=color, edgecolor="white", lw=1.0, zorder=4)
+
+
+def move(ax, a0, a1, color):
+    sgn = 1 if a1 > a0 else -1
+    p0, p1 = polar(a0 + 3 * sgn, 1.13), polar(a1 - 4 * sgn, 1.13)
+    rad = 0.10 if a1 > a0 else -0.10
+    ax.add_patch(FancyArrowPatch(p0, p1, connectionstyle=f"arc3,rad={rad}",
+                                 arrowstyle="-|>", mutation_scale=7.5,
+                                 lw=0.95, color=color, alpha=0.8, zorder=3))
+
+
+fig, axs = plt.subplots(1, 3, figsize=(7.3, 1.85))
+
+# ---- (a) ---------------------------------------------------------------
+ax = axs[0]
+panel(ax, "(a)", "text-prototype init", "every class starts inside\nthe same narrow cone")
+cone(ax)
+ax.annotate("", xy=polar(C0, 0.90), xytext=polar(C0, 0.50),
+            arrowprops=dict(arrowstyle="-|>", color=MUTE, lw=1.0, shrinkA=0, shrinkB=0))
+ax.text(0.08, 0.68, r"$\hat\mu$", color=MUTE, fontsize=10)
+dots(ax, head_init, BLUE)
+dots(ax, tail_init, ORANGE, marker="^", s=40)
+h_head = Line2D([0], [0], marker="o", color="none", markerfacecolor=BLUE,
+                markeredgecolor="white", markersize=6, label="head class")
+h_tail = Line2D([0], [0], marker="^", color="none", markerfacecolor=ORANGE,
+                markeredgecolor="white", markersize=6.5, label="tail class")
+ax.legend(handles=[h_head, h_tail], loc="lower left", fontsize=7.8, frameon=False,
+          handletextpad=0.35, borderpad=0.0, borderaxespad=0.1, labelspacing=0.35)
+
+# ---- (b) ---------------------------------------------------------------
+ax = axs[1]
+panel(ax, "(b)", "after fine-tuning", "head classes move out,\nthe tail does not")
+cone(ax)
+move(ax, head_init[0], head_ft[0], BLUE)
+move(ax, head_init[-1], head_ft[-1], BLUE)
+dots(ax, head_ft, BLUE)
+dots(ax, tail_ft, ORANGE, marker="^", s=40)
+ax.annotate("tail unmoved", polar(C0, 1.0), xytext=(0, 20), textcoords="offset points",
+            fontsize=8, color=ORANGE, ha="center",
+            arrowprops=dict(arrowstyle="-", color=ORANGE, lw=0.7, alpha=0.55))
+
+# ---- (c) ---------------------------------------------------------------
+ax = axs[2]
+panel(ax, "(c)", "with centering", "the tail starts outside\nthe cone instead")
+cone(ax, dashed=True)
+move(ax, tail_init[0], tail_ctr[0], ORANGE)
+move(ax, tail_init[-1], tail_ctr[-1], ORANGE)
+dots(ax, head_ctr, BLUE)
+dots(ax, tail_ctr, ORANGE, marker="^", s=40)
+
+fig.subplots_adjust(left=0.004, right=0.996, top=0.86, bottom=0.30, wspace=0.03)
+fig.savefig(f"{OUT}/fig_mechanism.pdf"); fig.savefig(f"{OUT}/fig_mechanism.png")
+plt.close(fig)
 
 # ============ Fig 4: freeze intervention -- the init advantage centering provides ============
 # center - baseline, trainable vs frozen classifier. Freezing (init cannot be overwritten)
@@ -157,29 +188,45 @@ plt.close(figm)
 ds = ["ImageNet-LT", "Places-LT", "iNat2018"]
 panels = {
     r"$\Delta$ Overall": ([0.18, 0.09, -0.11], [3.49, 3.85, 12.43]),
-    r"$\Delta$ Few":     ([1.59, 1.62, -0.23], [11.62, 6.62, 10.64]),
+    r"$\Delta$ Few":     ([1.59, 1.61, -0.23], [11.62, 6.62, 10.64]),
 }
-figf, axs = plt.subplots(1, 2, figsize=(7.2, 3.0))
-x = np.arange(len(ds)); w = 0.38
+
+figf, axs = plt.subplots(1, 2, figsize=(7.2, 2.0), sharey=True)
+y = np.arange(len(ds))[::-1]
 for ax, (title, (tr, fr)) in zip(axs, panels.items()):
-    style_ax(ax)
-    b1 = ax.bar(x - w / 2, tr, w, color=GRAY, edgecolor="white", lw=0.6, label="trainable classifier", zorder=3)
-    b2 = ax.bar(x + w / 2, fr, w, color=BLUE, edgecolor="white", lw=0.6, label="frozen classifier", zorder=3)
-    ax.axhline(0, color="#9aa0a6", lw=0.8, zorder=2)
-    for b in list(b1) + list(b2):
-        h = b.get_height()
-        ax.annotate(f"{h:+.1f}", (b.get_x() + b.get_width() / 2, h),
-                    xytext=(0, 2 if h >= 0 else -9), textcoords="offset points",
-                    ha="center", fontsize=6.8, color="#333")
-    ax.set_xticks(x); ax.set_xticklabels(ds, fontsize=7.3)
-    ax.set_title(title, fontsize=9.5)
-    ax.set_ylabel("centering gain (pp)")
-    ax.margins(y=0.18)
-axs[0].legend(loc="upper left", fontsize=7.3, handlelength=1.2)
-figf.tight_layout(pad=0.5)
+    ax.grid(axis="x", color="#ececec", lw=0.6, zorder=0)
+    ax.set_axisbelow(True)
+    for sp in ("top", "right", "left"):
+        ax.spines[sp].set_visible(False)
+    ax.spines["bottom"].set_color("#b8bcc2")
+    ax.tick_params(length=3, width=0.7, labelsize=8)
+    ax.tick_params(axis="y", length=0)
+    ax.axvline(0, color="#9aa0a6", lw=0.8, zorder=1)
+    for yi, a, b in zip(y, tr, fr):
+        ax.annotate("", xy=(b, yi), xytext=(a, yi),
+                    arrowprops=dict(arrowstyle="-|>", color="#c3ccd6", lw=2.4,
+                                    shrinkA=3, shrinkB=4, mutation_scale=9), zorder=2)
+        ax.plot([a], [yi], "o", ms=5, color=GRAY, mec="white", mew=0.9, zorder=3)
+        ax.plot([b], [yi], "o", ms=6, color=BLUE, mec="white", mew=0.9, zorder=3)
+        ax.annotate(f"{b:+.1f}", (b, yi), xytext=(7, 0), textcoords="offset points",
+                    fontsize=7.6, color=BLUE, va="center")
+        ax.annotate(f"{a:+.1f}", (a, yi), xytext=(-7, 0), textcoords="offset points",
+                    fontsize=7.2, color="#7a828c", va="center", ha="right")
+    ax.set_title(title, fontsize=9, pad=4)
+    ax.set_xlabel("centering gain (pp)", fontsize=8.5)
+    ax.set_xlim(-3.4, 14.6)
+axs[0].set_yticks(y); axs[0].set_yticklabels(ds, fontsize=8.5)
+axs[0].set_ylim(-0.5, len(ds) - 0.25)
+
+axs[0].annotate("trainable", (0.18, y[0]), xytext=(-2, 13), textcoords="offset points",
+                fontsize=7.4, color="#7a828c", ha="center")
+axs[0].annotate("frozen", (3.49, y[0]), xytext=(2, 13), textcoords="offset points",
+                fontsize=7.4, color=BLUE, ha="center")
+
+figf.tight_layout(pad=0.4)
 figf.savefig(f"{OUT}/fig_freeze.pdf"); figf.savefig(f"{OUT}/fig_freeze.png")
 plt.close(figf)
 
 print("wrote:")
-for f in ["fig_pca_ucurve", "fig_breadth_predictor", "fig_mechanism", "fig_freeze"]:
+for f in ["fig_pca_ucurve", "fig_mechanism", "fig_freeze"]:
     print(f"  {OUT}/{f}.pdf  {OUT}/{f}.png")
