@@ -50,6 +50,9 @@
 #
 #   bash scripts/run_center_hcluster.sh                                   # iNat only, default sizes
 #   SIZES_LIST="16,64,256 8,32,128" bash scripts/run_center_hcluster.sh   # sweep two size ladders
+#   NOTE on the sizes syntax: yacs literal_eval's CLI values, so "16,64,256" arrives as a TUPLE and
+#   PROMPT_CENTER_HCLUSTER_SIZES is declared as a tuple to match. A single level therefore needs a
+#   trailing comma -- SIZES_LIST="16," (bare "16" parses to int and raises a yacs type mismatch).
 #   DATASETS="imagenet_lt places_lt inat2018" bash scripts/run_center_hcluster.sh
 #   python scripts/agg_runs.py output/center_hcluster25 --sort path
 set -euo pipefail

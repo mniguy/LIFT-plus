@@ -840,9 +840,16 @@ class Trainer:
             # = 99.6%, 34 fall to global) than "average" did (8100/8142, 42 fall to global).
             from scipy.cluster.hierarchy import linkage, fcluster
             from scipy.spatial.distance import pdist
-            sizes = sorted(int(s) for s in
-                            str(getattr(self.cfg, "PROMPT_CENTER_HCLUSTER_SIZES", "16,64,256")).split(",")
-                            if s.strip())
+            # yacs literal_eval's CLI values, so "16,64,256" arrives as a tuple, "16" as a bare int,
+            # and a YAML string stays a str -- accept all three rather than assuming one.
+            raw_sizes = getattr(self.cfg, "PROMPT_CENTER_HCLUSTER_SIZES", (16, 64, 256))
+            if isinstance(raw_sizes, (int, float)):
+                raw_sizes = [raw_sizes]
+            elif isinstance(raw_sizes, str):
+                raw_sizes = [s for s in raw_sizes.split(",") if s.strip()]
+            sizes = sorted({int(s) for s in raw_sizes})
+            if not sizes or min(sizes) < 1:
+                raise ValueError(f"PROMPT_CENTER_HCLUSTER_SIZES must be positive ints, got {raw_sizes}")
             min_size = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
             Xn = F.normalize(X, dim=-1).cpu().numpy()
             Z = linkage(pdist(Xn, metric="cosine"), method="complete")
