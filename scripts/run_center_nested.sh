@@ -97,6 +97,14 @@
 #   T3 topdown_skip     order,genus                         5   0.7474  0.430/0.0712  .859 .458
 #   T3 bottomup_skip    genus,order                         5   0.6620  0.559/0.1105  .975 .618
 #   T3 static3          order,family,genus (static)         5   0.2592  1.128/0.2078  (over-subtracts)
+#   T5 g_topdown_fg     global,family,genus                 5   0.7424  (drops the order level)
+#      Motivation: in the completed g_topdown run the order level contributed the least once global
+#      had already run (|mu| .219 vs family .172 vs genus .321 in normalized units), and the cascade
+#      assignment census shows order is where only 13.1% of classes land anyway (genus 28.0%,
+#      family 54.4%, global 4.5%). If dropping it ties g_topdown (80.87/76.21/80.46/82.60), the chain
+#      shortens to three steps with no loss. cos-to-global 0.7424 sits between g_topdown's 0.7285 and
+#      cascade's 0.743, i.e. squarely inside the band where every winning arm on this dataset lives.
+#
 #   T4 bottomup_fo      family,order                        5   0.7729  0.524/0.0966  .882 .124
 #   T4 topdown_of       order,family                        5   0.8396  0.475/0.0867  .859 .172
 #   T4 g_bottomup_fo    global,family,order                 5   0.8490  0.461/0.0902  .828 .295 .033
@@ -175,6 +183,7 @@ arm_spec(){ case "$1" in
   bottomup3_ms2)    echo "genus,family,order 2 recompute" ;;
   bottomup3_ms10)   echo "genus,family,order 10 recompute" ;;
   g_topdown)        echo "global,order,family,genus 5 recompute" ;;
+  g_topdown_fg)     echo "global,family,genus 5 recompute" ;;
   g_bottomup)       echo "global,genus,family,order 5 recompute" ;;
   g_bottomup_ms2)   echo "global,genus,family,order 2 recompute" ;;
   bottomup_fo)      echo "family,order 5 recompute" ;;

@@ -604,7 +604,11 @@ class Trainer:
             with torch.no_grad():
                 epi_prompts = clip.tokenize(
                     [self.template.format(e.replace("_", " ")) for e in epithets]).to(X.device)
-                X_epi = F.normalize(self.compute_class_features(epi_prompts).float(), dim=-1)
+                # NO F.normalize here: X arrives as raw CLIP text features (norm ~8.6 on B/16, since
+                # compute_prompt_class_features' single-template path does not normalize). Unit-norming
+                # only the epithet side made the subtraction ~20x too small -- measured cos(diff, X)
+                # = 0.9968, i.e. "diff" was just X and the lexical isolation was a no-op.
+                X_epi = self.compute_class_features(epi_prompts).float()
             diff = X - X_epi                      # [C, D] per-class estimate of the genus word's own contribution
             groups_idx = {}
             for i, g in enumerate(genus_of):
@@ -621,6 +625,35 @@ class Trainer:
                   f"(genus size < {min_size}); {len(groups_idx)} distinct genera; "
                   f"mean|diff|={diff.norm(dim=-1).mean().item():.3f}")
             out = X - local_mu
+        elif mode == "diff_init":                # A': the lexical diff IS the initialization.
+            # Every other lexical mode uses diff only to build something to SUBTRACT from X. This one
+            # discards X entirely and initializes from diff = embed(full binomial) - embed(epithet
+            # alone), then globally centers it. Rationale from an offline measurement on all 8142 real
+            # iNat prototypes: diff is NOT the genus-shared blob one would expect (the text encoder is
+            # non-linear, so what the genus word contributes depends on the species it is paired with).
+            # Measured within-genus cosine: raw 0.944, global-centered 0.834, but diff-then-centered
+            # 0.624 -- the lowest of anything tried -- and top5-conf (mean cosine to each class's 5
+            # nearest OTHER classes, iNat's actual confusion bottleneck) 0.557 vs global's 0.668.
+            # RISK, stated up front: this replaces the semantic target geometry ("what this species
+            # is") with a lexical one ("what the genus word contributes"), so the image encoder has a
+            # much larger remapping to learn. cos to the global-centered init is only 0.560, far from
+            # the 0.72-0.75 band where every arm that has actually won on this dataset sits. Note also
+            # that top5-conf has NOT predicted accuracy here before (the family level had the best
+            # top5-conf in the level ladder yet only middling accuracy), so the geometry above is a
+            # reason to test this, not a reason to expect it to win.
+            epithets = [" ".join(name.split()[1:]) if len(name.split()) > 1 else name
+                        for name in self.classnames]
+            with torch.no_grad():
+                epi_prompts = clip.tokenize(
+                    [self.template.format(e.replace("_", " ")) for e in epithets]).to(X.device)
+                X_epi = self.compute_class_features(epi_prompts).float()   # raw scale, see genus_lex note
+            diff = X - X_epi
+            print(f"[PROMPT_CENTER diff_init] mean|X|={X.norm(dim=-1).mean().item():.3f} "
+                  f"mean|X_epi|={X_epi.norm(dim=-1).mean().item():.3f} "
+                  f"mean|diff|={diff.norm(dim=-1).mean().item():.3f} "
+                  f"cos(diff,X)={(F.normalize(diff, dim=-1) * F.normalize(X, dim=-1)).sum(-1).mean().item():.4f} "
+                  f"(expect ~0.17; ~1.0 would mean the epithet subtraction was a no-op)")
+            out = diff - diff.mean(0)             # global centering of the diff == variant A'
         elif mode == "cascade":                  # HIERARCHICAL taxonomy fallback (iNat): try the deepest
             # level first, and only the classes still unassigned drop to the next level up, so nothing has
             # to fall all the way to global. Fixes 'genus' mode's coverage hole (only 28% of iNat species
@@ -690,7 +723,7 @@ class Trainer:
             with torch.no_grad():
                 epi_prompts = clip.tokenize(
                     [self.template.format(e.replace("_", " ")) for e in epithets]).to(X.device)
-                X_epi = F.normalize(self.compute_class_features(epi_prompts).float(), dim=-1)
+                X_epi = self.compute_class_features(epi_prompts).float()   # raw scale, see genus_lex note
             diff = X - X_epi                      # reused ONLY for the 'genus' level below
             local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
             assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
