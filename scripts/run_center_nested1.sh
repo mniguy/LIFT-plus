@@ -187,9 +187,9 @@
 #   ARMS="topdown3 g_topdown" bash scripts/run_center_nested.sh  # ad-hoc subset
 #   python scripts/agg_runs.py output/center_nested25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 T1="topdown3 bottomup3 g_topdown g_bottomup"
-T2="g_bottomup_gf g_topdown_fg"
+T2="g_bottomup_go topdown_skip"
 T3="topdown2 bottomup2 topdown4 topdown_skip bottomup_skip static3"
 T4="bottomup_fo topdown_of g_bottomup_fo g_topdown_of"
 ARMS=${ARMS:-"${T2}"}
