@@ -57,7 +57,7 @@
 #   bash scripts/run_center_diffinit.sh
 #   python scripts/agg_runs.py output/center_diffinit25 --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_diffinit25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
