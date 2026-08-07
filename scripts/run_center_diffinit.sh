@@ -15,6 +15,16 @@
 # cos 0.9896 to plain cascade. Both branches now use raw-scale epithet features (cos(diff,X) = 0.1700).
 # THE EXISTING output/center_cascadelex25 RESULT (80.62) IS INVALID and should be discarded or re-run.
 #
+# MEASUREMENT-SPACE NOTE (found while checking the first run's log): trainer-side numbers and the
+# offline table below live in DIFFERENT spaces. PEFT_Text.forward returns the EOT feature BEFORE
+# text_projection (mean norm ~23), and init_classifier_weight applies text_proj/image_proj afterwards;
+# the offline probe used vanilla clip.encode_text, which applies text_projection (mean norm ~8.6).
+# Hence the log prints cos(diff,X)=0.38 where the offline probe measured 0.17 -- same operation, two
+# spaces, NOT a bug. The offline ORDERING still transfers because group-mean subtraction and the diff
+# are linear and commute with a linear projection: verified on the nested arms, where offline
+# cos-to-global predictions matched the saved inits to ~0.003 (topdown3 0.7164 predicted / 0.7191
+# actual).
+#
 # OFFLINE GEOMETRY (2026-08-07, real CLIP ViT-B/16 CPU encode of all 8142 iNat classnames,
 # scripts/probe_diff_init.py; lower within-genus / top5-conf is better, top5-conf = mean cosine to
 # each class's 5 nearest OTHER classes, which is iNat's actual confusion bottleneck):
@@ -75,6 +85,6 @@ else
     num_epochs "${INAT_EPOCHS}" seed "${SEED}" output_dir "${out}"
 fi
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="
-echo "    CHECK FIRST: the log's '[PROMPT_CENTER diff_init] ... cos(diff,X)=' value must be ~0.17."
-echo "    If it prints ~1.0 the epithet subtraction silently did nothing (the bug fixed 2026-08-07)"
-echo "    and the run is meaningless -- kill it rather than waiting 3 hours."
+echo "    CHECK FIRST: the log's '[PROMPT_CENTER diff_init] ... cos(diff,X)=' should be ~0.38 and"
+echo "    mean|X| ~23 (both measured on the first real run). Only a value near 1.0 means the epithet"
+echo "    subtraction silently did nothing (the bug fixed 2026-08-07) -- kill the run then."

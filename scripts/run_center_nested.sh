@@ -88,9 +88,35 @@
 #   T1 bottomup3        genus,family,order                  5   0.6047  0.561/0.0966  .975 .586 .124
 #   T1 g_topdown        global,order,family,genus           5   0.7291  0.405/0.0712  .828 .219 .172 .321
 #   T1 g_bottomup       global,genus,family,order           5   0.7015  0.408/0.0902  .828 .576 .159 .033
-#   T2 bottomup3_ms2    genus,family,order                  2   0.3859  0.453/0.0634  .977 .298 .045
-#   T2 bottomup3_ms10   genus,family,order                 10   0.6953  0.597/0.1590  .975 .715 .209
-#   T2 g_bottomup_ms2   global,genus,family,order           2   0.5122  0.301/0.0614  .828 .533 .085 .015
+#   ---- T2 (rebuilt 2026-08-07): in-band, structurally informative. cos-g measured on the real init ----
+#   T2 g_bottomup_gf    global,genus,family                 5   0.7200   drops g_bottomup's DEAD level
+#   T2 g_topdown_fg     global,family,genus                 5   0.7433   drops order from g_topdown
+#   T2 g_bottomup_go    global,genus,order                  5   0.7306   drops family instead
+#   T2 topdown_skip     order,genus                         5   0.7474   no global, family dropped
+#
+#   WHY THESE FOUR:
+#   * g_bottomup_gf is the strongest bet. g_bottomup (80.93) is the best result so far AND the only
+#     structurally novel one (top-down provably telescopes to cascade -- per-class cos(topdown3,
+#     g_topdown) = 1.0000 on all 7897 covered classes, and cos(topdown3, cascade) = 1.000 on the 2278
+#     fully-covered ones). Inside g_bottomup the ORDER level is measurably dead: its |mu| is 0.033 in
+#     normalized units once global has run, vs global 0.828 / genus 0.576 / family 0.159. This arm
+#     deletes exactly that level. A tie means the method simplifies to three steps for free; a drop
+#     means "dead by |mu|" does not imply "useless", which would itself be worth knowing.
+#   * g_topdown_fg drops order from g_topdown (order is where only 13.1% of classes are assigned in
+#     the cascade census: genus 28.0%, family 54.4%, order 13.1%, global 4.5%).
+#   * g_bottomup_go is the mirror of _gf: keep order, drop family. Family is the level that assigns
+#     the MOST classes, so if _go ties _gf then level identity matters less than chain length.
+#   * topdown_skip is the only in-band arm with NO global step, kept as the control that says whether
+#     the explicit global prefix is doing real work or is interchangeable with a coarse taxonomy level.
+#
+#   RETIRED (T2_OLD, do not run without a reason): the min_size sweep. Measured cos-to-global
+#   ms2 0.512 / ms3 0.601 / ms4 0.661 / ms5 0.701(winner) / ms8 0.767 / ms10 0.801 -- the axis leaves
+#   the band within one step in either direction, so ms=5 is already at its optimum.
+#
+#   ALSO MEASURED AND REJECTED (2026-08-07): putting global LAST instead of first. By the time the
+#   chain reaches it the shared component is already gone -- glo |mu| = 0.026 for genus,family,order,
+#   global and 0.039 for order,family,genus,global -- so it is a near no-op that only drags cos-g out
+#   of band (0.606 / 0.715). Not queued.
 #   T3 topdown2         family,genus                        5   0.6734  0.490/0.0712  .882 .321
 #   T3 bottomup2        genus,family                        5   0.6080  0.581/0.0867  .975 .586
 #   T3 topdown4         class,order,family,genus            5   0.7245  0.408/0.0712  .845 .130 .172 .321
@@ -163,10 +189,22 @@
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 T1="topdown3 bottomup3 g_topdown g_bottomup"
-T2="bottomup3_ms2 bottomup3_ms10 g_bottomup_ms2"
+# T2 REBUILT 2026-08-07 after T1 + hcluster + diff_init all came back. The old T2 was a min_size
+# sweep on bottom-up; it is retired to T2_OLD below because the min_size axis exits the winning band
+# immediately in BOTH directions (measured cos-to-global: ms2 0.512, ms3 0.601, ms4 0.661, ms5 0.701
+# <- the winner, ms8 0.767, ms10 0.801), i.e. ms=5 is already a sweet spot and its neighbours are the
+# same territory where every loss so far has lived.
+#
+# SELECTION RULE, from 8 completed runs: everything inside cos-to-global 0.70-0.745 landed at
+# 80.84-80.93; everything outside it lost (bottomup3 0.622 -> 80.81, diff_init 0.531 -> 80.57,
+# global 1.000 -> 80.52, hcluster 0.744 -> 80.68 is the one in-band loss). Not a law -- hcluster
+# proves DIRECTION matters too, not just distance -- but it is the only screen we have, so T2 is
+# restricted to in-band chains that are also structurally informative.
+T2="g_bottomup_gf g_topdown_fg g_bottomup_go topdown_skip"
+T2_OLD="bottomup3_ms2 bottomup3_ms10 g_bottomup_ms2"
 T3="topdown2 bottomup2 topdown4 topdown_skip bottomup_skip static3"
 T4="bottomup_fo topdown_of g_bottomup_fo g_topdown_of"
-ARMS=${ARMS:-"${T1}"}
+ARMS=${ARMS:-"${T2}"}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_nested25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
@@ -184,6 +222,8 @@ arm_spec(){ case "$1" in
   bottomup3_ms10)   echo "genus,family,order 10 recompute" ;;
   g_topdown)        echo "global,order,family,genus 5 recompute" ;;
   g_topdown_fg)     echo "global,family,genus 5 recompute" ;;
+  g_bottomup_gf)    echo "global,genus,family 5 recompute" ;;
+  g_bottomup_go)    echo "global,genus,order 5 recompute" ;;
   g_bottomup)       echo "global,genus,family,order 5 recompute" ;;
   g_bottomup_ms2)   echo "global,genus,family,order 2 recompute" ;;
   bottomup_fo)      echo "family,order 5 recompute" ;;

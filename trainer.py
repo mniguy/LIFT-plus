@@ -652,7 +652,7 @@ class Trainer:
                   f"mean|X_epi|={X_epi.norm(dim=-1).mean().item():.3f} "
                   f"mean|diff|={diff.norm(dim=-1).mean().item():.3f} "
                   f"cos(diff,X)={(F.normalize(diff, dim=-1) * F.normalize(X, dim=-1)).sum(-1).mean().item():.4f} "
-                  f"(expect ~0.17; ~1.0 would mean the epithet subtraction was a no-op)")
+                  f"(expect ~0.38 with mean|X| ~23; ~1.0 would mean the epithet subtraction was a no-op)")
             out = diff - diff.mean(0)             # global centering of the diff == variant A'
         elif mode == "cascade":                  # HIERARCHICAL taxonomy fallback (iNat): try the deepest
             # level first, and only the classes still unassigned drop to the next level up, so nothing has
