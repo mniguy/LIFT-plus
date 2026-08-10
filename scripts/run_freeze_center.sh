@@ -43,13 +43,43 @@
 #
 #   DATASETS="inat2018" bash scripts/run_freeze_center.sh     # runs cascade, skips finished ones
 # ---------------------------------------------------------------------------------------------
+# 2026-08-08 ADDITION: frozen `g_bottomup_gf` / `g_bottomup` (nested mode) on iNat.
+#
+# Why now: the trainable sweep is SATURATED. 9 nested/cascade arms all land in 80.80-80.95, a spread
+# of 0.15, while pairs whose inits are 99% identical swing by far more than that -- g_bottomup_gf vs
+# g_bottomup (cos 0.9906) differ by +0.87 on Many, g_topdown_fg vs g_topdown (cos 0.9864) by -0.83,
+# cascade vs cascade_lex (cos 0.9896) by 0.22 on Overall. Nothing in the trainable regime can resolve
+# these arms, because iNat's trainable classifier drifts 0.85 from init and overwrites the very thing
+# being compared. The frozen regime is where the signal is 50-200x larger (center - baseline = +12.43
+# Overall / +16.28 Med / +10.64 Few), so it is the only place these inits can actually be ranked.
+#
+# g_bottomup_gf is the arm worth freezing: bottom-up is the ONLY structurally novel family here
+# (top-down provably telescopes to cascade -- per-class cos(topdown3, g_topdown) = 1.0000 on all 7897
+# covered classes, cos(topdown3, cascade) = 1.000 on the 2278 fully-covered ones), and _gf is
+# g_bottomup with its measurably dead `order` level removed (|mu| 0.033 after global, vs global 0.828
+# / genus 0.576 / family 0.159), which cost nothing when trainable (+0.02 Overall).
+#
+# PRE-REGISTERED, written before running:
+#   frozen cascade / g_bottomup_gf  >  frozen center (35.34)  by a margin >> 1 pt
+#     => the hierarchical init IS genuinely better and the trainable regime simply overwrites it;
+#        the 0.1-level trainable differences stay uninterpretable but the mechanism claim is made.
+#   frozen cascade / g_bottomup_gf  ~=  frozen center (35.34)
+#     => hierarchy adds NOTHING on top of plain global centering. Then every trainable difference
+#        chased above was noise, and the paper's simpler claim ("remove the one shared direction")
+#        is the correct and stronger one. This outcome is just as publishable -- it retires the
+#        localization branch with evidence rather than by omission.
+#   Read Med/Few first: those are the groups whose init advantage the trainable run demonstrably
+#   threw away (Med/Few drift ROSE +0.068/+0.079 under cascade while Many's FELL -0.021).
+#
+#   VARIANTS="cascade g_bottomup_gf" bash scripts/run_freeze_center.sh
+# ---------------------------------------------------------------------------------------------
 #
 #   bash scripts/run_freeze_center.sh
 #   python scripts/agg_runs.py output/freeze_center25 --sort few
 set -euo pipefail
-GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
-VARIANTS=${VARIANTS:-}          # empty -> per-dataset default_variants() below
+VARIANTS=${VARIANTS:-"cascade"}          # empty -> per-dataset default_variants() below
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}              # default (ImageNet-LT / Places-LT)
 INAT_EPOCHS=${INAT_EPOCHS:-15}  # iNat native protocol
@@ -65,6 +95,10 @@ variant_args(){ case "$1" in
   center)   echo "PROMPT_CENTER True PROMPT_CENTER_MODE global" ;;
   cascade)  echo "PROMPT_CENTER True PROMPT_CENTER_MODE cascade PROMPT_CENTER_CASCADE genus,family,order" ;;
   genus)    echo "PROMPT_CENTER True PROMPT_CENTER_MODE genus" ;;
+  # nested arms (2026-08-08). FREEZE_CLASSIFIER only drops the classifier's gradients after the
+  # init is built, so it composes with any PROMPT_CENTER_MODE.
+  g_bottomup_gf) echo "PROMPT_CENTER True PROMPT_CENTER_MODE nested PROMPT_CENTER_NESTED_LEVELS global,genus,family" ;;
+  g_bottomup)    echo "PROMPT_CENTER True PROMPT_CENTER_MODE nested PROMPT_CENTER_NESTED_LEVELS global,genus,family,order" ;;
   *) return 1 ;; esac; }
 
 # cascade/genus need categories.json -> iNat only; IN/PL keep the original baseline+center pair
