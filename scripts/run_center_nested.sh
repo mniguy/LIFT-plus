@@ -188,17 +188,21 @@
 #   python scripts/agg_runs.py output/center_nested25 --sort path
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-T1="topdown3 bottomup3 g_topdown g_bottomup"
+T1="g_bottomup_gf_rn g_topdown_rn"
 T2="g_bottomup_gf g_topdown_fg"
 T3="topdown2 bottomup2 topdown4 topdown_skip bottomup_skip static3"
 T4="bottomup_fo topdown_of g_bottomup_fo g_topdown_of"
-ARMS=${ARMS:-"${T2}"}
+ARMS=${ARMS:-"${T1}"}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_nested25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
-# each arm -> "<levels> <min_size> <mean_mode>"
+# each arm -> "<levels> <min_size> <mean_mode> [renorm]"; renorm defaults to False when omitted
 arm_spec(){ case "$1" in
+  g_bottomup_rn)    echo "global,genus,family,order 5 recompute True" ;;
+  g_bottomup_gf_rn) echo "global,genus,family 5 recompute True" ;;
+  bottomup3_rn)     echo "genus,family,order 5 recompute True" ;;
+  g_topdown_rn)     echo "global,order,family,genus 5 recompute True" ;;
   topdown2)         echo "family,genus 5 recompute" ;;
   topdown3)         echo "order,family,genus 5 recompute" ;;
   topdown4)         echo "class,order,family,genus 5 recompute" ;;
@@ -225,15 +229,15 @@ completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
 for arm in ${ARMS}; do
   spec=$(arm_spec "${arm}") || { echo "unknown arm ${arm}"; exit 1; }
-  set -- ${spec}; lv="$1"; ms="$2"; mm="$3"
+  set -- ${spec}; lv="$1"; ms="$2"; mm="$3"; rn="${4:-False}"
   out="${OUT_ROOT}/inat2018/${arm}"
   completed "${out}" && { echo "  [skip] ${out}"; continue; }
-  echo "=== [inat2018] nested ${arm}: levels=${lv} min_size=${ms} mean=${mm} (${INAT_EPOCHS} ep) ==="
+  echo "=== [inat2018] nested ${arm}: levels=${lv} min_size=${ms} mean=${mm} renorm=${rn} (${INAT_EPOCHS} ep) ==="
   CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d inat2018 -b clip_vit_b16 -m lift+ \
     classifier_init semantic classifier_scale 25 mda True tte True \
     PROMPT_CENTER True PROMPT_CENTER_MODE nested \
     PROMPT_CENTER_NESTED_LEVELS "${lv}" PROMPT_CENTER_NESTED_MEAN "${mm}" \
-    PROMPT_CENTER_GENUS_MIN "${ms}" \
+    PROMPT_CENTER_NESTED_RENORM "${rn}" PROMPT_CENTER_GENUS_MIN "${ms}" \
     num_epochs "${INAT_EPOCHS}" seed "${SEED}" output_dir "${out}"
 done
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="

@@ -780,6 +780,14 @@ class Trainer:
             mean_mode = str(getattr(self.cfg, "PROMPT_CENTER_NESTED_MEAN", "recompute"))
             if mean_mode not in ("recompute", "static"):
                 raise ValueError(f"unknown PROMPT_CENTER_NESTED_MEAN: {mean_mode}")
+            # Row-renormalize after EVERY level instead of only at the end. This is the one cheap way
+            # to break the telescoping identity: with a single trailing normalize, coarse-to-fine mean
+            # subtraction sums to "subtract the finest group mean" exactly (verified: per-class
+            # cos(topdown3, cascade) = 1.0000 on all fully-covered classes), so the intermediate levels
+            # contribute nothing. Rescaling each row between levels is nonlinear and per-row, so the
+            # levels stop collapsing. Measured offline on the real prototypes, it also repairs
+            # bottom-up's redundant subtraction: within-genus cosine 0.2563 -> 0.0749.
+            renorm = bool(getattr(self.cfg, "PROMPT_CENTER_NESTED_RENORM", False))
             if min_size < 2:
                 raise ValueError("PROMPT_CENTER_GENUS_MIN must be >= 2 for mode=nested: a singleton "
                                  "group's mean is the class itself, so subtracting it zeroes the row")
@@ -797,6 +805,8 @@ class Trainer:
                     mag = shift.norm(dim=-1)
                     used.append(f"global(n={n_hit},|mu|={mag.mean().item():.3f})")
                     X_out = X_out - shift
+                    if renorm:
+                        X_out = F.normalize(X_out, dim=-1)
                     continue
                 groups_idx = {}
                 for i, name in enumerate(self.classnames):
@@ -814,7 +824,10 @@ class Trainer:
                 mag_hit = mag[mag > 0].mean().item() if bool((mag > 0).any()) else 0.0
                 used.append(f"{lv}(n={n_hit},|mu|={mag_hit:.3f})")
                 X_out = X_out - shift
-            print(f"[PROMPT_CENTER nested] levels={levels} min_size={min_size} mean={mean_mode} -> "
+                if renorm:
+                    X_out = F.normalize(X_out, dim=-1)
+            print(f"[PROMPT_CENTER nested] levels={levels} min_size={min_size} mean={mean_mode} "
+                  f"renorm={renorm} -> "
                   + " ".join(used)
                   + f" | pre-norm row norm mean={X_out.norm(dim=-1).mean().item():.3f} "
                     f"min={X_out.norm(dim=-1).min().item():.3f} max={X_out.norm(dim=-1).max().item():.3f}")

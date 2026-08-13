@@ -73,13 +73,50 @@
 #
 #   VARIANTS="cascade g_bottomup_gf" bash scripts/run_freeze_center.sh
 # ---------------------------------------------------------------------------------------------
+# 2026-08-08 RESULT of the above, and the follow-up it selects.
+#
+#   frozen iNat:   baseline 22.91 / 67.66 / 23.37 / 10.64
+#                  center   35.34 / 68.33 / 39.65 / 21.28
+#                  cascade  31.99 / 72.53 / 36.75 / 15.37   (= -3.35 / +4.20 / -2.90 / -5.91 vs center)
+#
+# The ordering FLIPS between regimes: trainable cascade BEATS global (+0.32) while frozen cascade
+# LOSES to it (-3.35). So the hierarchical init is not a better init; it is a worse one, and its
+# trainable win is a training-dynamics artifact. The group split says where: local centering helps
+# Head (+4.20) and damages the tail (Few -5.91, Med -2.90), matching the coverage census (39.4% of
+# Many sit in a genus >= 5 vs 26.4% Med / 27.0% Few, so Head gets the most and most stable local
+# treatment while tail groups get means estimated from ~5 members). It also explains the drift split
+# that was previously read as "overwriting": cascade's Many drift FELL (-0.021) because its Head init
+# was good and needed no repair, while Med/Few drift ROSE (+0.068/+0.079) because the optimizer was
+# REPAIRING a damaged tail init, not discarding a good one.
+#
+# FOLLOW-UP: g_bottomup_fo (global,family,order). Chosen over g_bottomup_gf because gf sits at
+# cos-to-global 0.719, right next to cascade's 0.743 and containing the same genus level, so it would
+# mostly re-measure cascade. fo sits at 0.851, a NEW point between global (1.000) and cascade (0.743),
+# and it drops genus entirely -- the weakest localization we have. It is also the trainable #1
+# (81.02), which makes it the decisive test of "the trainable winners are dynamics, not init quality".
+#
+# PRE-REGISTERED, written before running. Linear interpolation in cos-to-global through the two known
+# frozen points (global 1.000 -> 35.34, cascade 0.743 -> 31.99, slope 13.0 pts per unit cos-g) puts
+# fo at 0.851 -> ~33.4 Overall.
+#   fo lands near 33.4, i.e. between global and cascade  => dose-response: the more local the removal,
+#     the worse the initialization. Strongest possible form of the "globally" clause, and it retires
+#     the iNaturalist counterexample with a graded causal curve rather than a single contrast.
+#   fo lands at or above global's 35.34  => the damage is specific to FINE levels (genus), and coarse
+#     localization is harmless. The design law then needs a granularity boundary, not a blanket ban.
+#   fo lands at or below cascade's 31.99 => cos-to-global does not order frozen init quality either,
+#     and the mechanism is something other than distance-from-global.
+#   Read Few first: it carries the largest frozen effect (cascade -5.91) and is the group the paper
+#   is about.
+#
+#   VARIANTS="g_bottomup_fo" bash scripts/run_freeze_center.sh
+# ---------------------------------------------------------------------------------------------
 #
 #   bash scripts/run_freeze_center.sh
 #   python scripts/agg_runs.py output/freeze_center25 --sort few
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
-VARIANTS=${VARIANTS:-"cascade"}          # empty -> per-dataset default_variants() below
+VARIANTS=${VARIANTS:-"g_bottomup_fo"}          # empty -> per-dataset default_variants() below
 SCALE=${SCALE:-25}
 EPOCHS=${EPOCHS:-5}              # default (ImageNet-LT / Places-LT)
 INAT_EPOCHS=${INAT_EPOCHS:-15}  # iNat native protocol
@@ -99,6 +136,7 @@ variant_args(){ case "$1" in
   # init is built, so it composes with any PROMPT_CENTER_MODE.
   g_bottomup_gf) echo "PROMPT_CENTER True PROMPT_CENTER_MODE nested PROMPT_CENTER_NESTED_LEVELS global,genus,family" ;;
   g_bottomup)    echo "PROMPT_CENTER True PROMPT_CENTER_MODE nested PROMPT_CENTER_NESTED_LEVELS global,genus,family,order" ;;
+  g_bottomup_fo) echo "PROMPT_CENTER True PROMPT_CENTER_MODE nested PROMPT_CENTER_NESTED_LEVELS global,family,order" ;;
   *) return 1 ;; esac; }
 
 # cascade/genus need categories.json -> iNat only; IN/PL keep the original baseline+center pair
