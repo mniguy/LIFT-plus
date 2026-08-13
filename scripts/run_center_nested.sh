@@ -209,6 +209,15 @@ arm_spec(){ case "$1" in
   topdown_skip)     echo "order,genus 5 recompute" ;;
   bottomup2)        echo "genus,family 5 recompute" ;;
   bottomup3)        echo "genus,family,order 5 recompute" ;;
+  # global placed LAST rather than first. Measured offline before implementing: by the time the chain
+  # reaches it the shared component is already gone, because zeroing each group's mean at the earlier
+  # levels drives the overall mean to ~0 as a weighted sum of them. Relative |mu| at that final step is
+  # 0.052 (0.069 with renorm) against genus 0.975 / family 1.129, and the resulting init is
+  # cos 0.9990 to plain bottomup3 (0.9982 with renorm), i.e. the same operation. Position matters a
+  # lot though: the SAME level placed first has relative |mu| 0.828 and yields a different init
+  # (cos 0.7697 between the two placements), which is the g_bottomup arm.
+  bottomup3_gL)     echo "genus,family,order,global 5 recompute" ;;
+  bottomup3_gL_rn)  echo "genus,family,order,global 5 recompute True" ;;
   bottomup_skip)    echo "genus,order 5 recompute" ;;
   bottomup3_ms2)    echo "genus,family,order 2 recompute" ;;
   bottomup3_ms10)   echo "genus,family,order 10 recompute" ;;
