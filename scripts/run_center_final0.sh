@@ -2,7 +2,7 @@
 
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-CODES=${CODES:-"60"}
+CODES=${CODES:-"50"}
 MIN_SIZE=${MIN_SIZE:-5}
 RENORM=${RENORM:-False}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
