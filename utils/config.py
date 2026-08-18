@@ -57,6 +57,8 @@ _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa
 _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade: min group size to use its own local mean (else fall to the next level)
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level's mean is over its still-unassigned members ("residual") or over the whole group incl. deeper-assigned ones ("full")
+_C.PROMPT_CENTER_CASCADE_GLOBAL_FIRST = False  # for mode=cascade: remove the global centroid before cascading. A PROVABLE NO-OP (the global term cancels out of every later group mean; verified per-class cosine 1.0000 vs plain cascade), kept as a null control that isolates run-to-run variation
+_C.PROMPT_CENTER_CASCADE_GLOBAL_LAST = False  # for mode=cascade: remove the residual's global centroid AFTER cascading. Near no-op (leftover centroid norm 0.0031 vs original 0.8278; per-class cosine 0.999937 to plain cascade), kept as the companion null control to GLOBAL_FIRST
 _C.PROMPT_CENTER_CLUSTER_K = 100   # for mode=cluster: # k-means clusters over the prototypes (taxonomy-free local groups)
 _C.PROMPT_CENTER_CLUSTER_SIZE = 0  # for mode=cluster: target AVG classes per cluster; >0 overrides _K via k=round(C/size), matching granularity (not cluster count) across datasets of different C
 _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes whose mean is subtracted (taxonomy-free local group)

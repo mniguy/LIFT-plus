@@ -675,6 +675,18 @@ class Trainer:
             taxo = self._load_taxonomy()
             if taxo is None:
                 raise ValueError("PROMPT_CENTER_MODE=cascade needs a dataset with categories.json (iNat only)")
+            # PROMPT_CENTER_CASCADE_GLOBAL_FIRST: subtract the global centroid before the cascade runs.
+            # This is a PROVABLE NO-OP, kept only as a null control. Mean subtraction is linear, so the
+            # global term cancels out of every group mean computed afterwards:
+            #   (X - mu_g) - [mu_group(X) - mu_g] = X - mu_group(X)
+            # and the classes that reach the global fallback see a residual whose global mean is already
+            # zero. Verified offline against plain cascade: per-class cosine 1.00000000 (min 0.99999964),
+            # max elementwise difference 2e-7, i.e. float32 rounding. Any accuracy difference this
+            # produces is therefore a measurement of run-to-run variation, not of the operation.
+            if bool(getattr(self.cfg, "PROMPT_CENTER_CASCADE_GLOBAL_FIRST", False)):
+                X = X - X.mean(0)
+                print("[PROMPT_CENTER cascade] global centroid removed first "
+                      "(provable no-op; null control for run-to-run variation)")
             local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
             assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
             used = []
@@ -702,6 +714,21 @@ class Trainer:
             print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} mean={mean_mode} -> "
                   + " ".join(used))
             out = X - local_mu
+            # PROMPT_CENTER_CASCADE_GLOBAL_LAST: remove the residual's global centroid AFTER cascading.
+            # Also a near no-op, but for a different reason than GLOBAL_FIRST. Every class assigned to a
+            # real group already has that group's mean zeroed, so the only thing leaving a nonzero
+            # overall mean is the global-fallback set, which subtracts the mean over ALL classes rather
+            # than over itself. Measured on the real prototypes: the leftover centroid has norm 0.0031
+            # against an original 0.8278 (0.8% of the mean row norm), and the resulting init is
+            # per-class cosine 0.999937 to plain cascade (min 0.999036). Paired with GLOBAL_FIRST
+            # (cosine 1.0000000) this gives two null controls at slightly different distances from
+            # exact identity.
+            if bool(getattr(self.cfg, "PROMPT_CENTER_CASCADE_GLOBAL_LAST", False)):
+                res_mu = out.mean(0)
+                print(f"[PROMPT_CENTER cascade] global centroid removed last: |mu_residual|="
+                      f"{res_mu.norm().item():.4f} vs |mu_original|={X.mean(0).norm().item():.4f} "
+                      f"(near no-op; null control)")
+                out = out - res_mu
         elif mode == "cascade_lex":               # genus_lex's surgical diff-vector subtraction,
             # plugged into cascade's multi-level fallback instead of standing alone. Only the 'genus'
             # level has a literal shared TOKEN to isolate this way (binomial "Genus species" repeats
