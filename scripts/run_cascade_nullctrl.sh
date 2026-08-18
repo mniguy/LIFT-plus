@@ -39,7 +39,7 @@ OUT_ROOT=${OUT_ROOT:-"global_cascade25"}
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
-ARMS=${ARMS:-"global_then_cascade"}
+ARMS=${ARMS:-"global_then_cascade cascade_then_global"}
 arm_args(){ case "$1" in
   global_then_cascade) echo "PROMPT_CENTER_CASCADE_GLOBAL_FIRST True" ;;
   cascade_then_global) echo "PROMPT_CENTER_CASCADE_GLOBAL_LAST True" ;;
