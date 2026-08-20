@@ -859,6 +859,54 @@ class Trainer:
                   + f" | pre-norm row norm mean={X_out.norm(dim=-1).mean().item():.3f} "
                     f"min={X_out.norm(dim=-1).min().item():.3f} max={X_out.norm(dim=-1).max().item():.3f}")
             out = X_out
+        elif mode in ("level", "level_keep"):     # SINGLE taxonomy level, NO fallback and NO min_size gate.
+            # Every taxonomy mode above (genus/cascade/nested) guards small groups, because a group of
+            # size 1 has mean == the class itself and O - mu annihilates the row. These two modes remove
+            # that guard on purpose, to measure what the guard was actually buying:
+            #   "level":      out = O - mu(group)          singletons land exactly on 0 (see the warning
+            #                                              below; 3000/8142 iNat classes at level=genus).
+            #   "level_keep": out = 2*O - mu(group)        singletons degrade to the RAW prototype O
+            #                                              instead of 0, applied uniformly to all classes.
+            # PROMPT_CENTER_LEVEL picks the level; "global" is the whole-dataset centroid (no taxonomy
+            # lookup, no groups), which for mode=level is identical to PROMPT_CENTER_MODE=global and so is
+            # only worth running under level_keep.
+            # NOTE on level_keep's scale: the rows are renormalized at the end, so 2*O - mu points the same
+            # direction as O - 0.5*mu. level_keep is therefore exactly the half-strength point of the
+            # shrinkage family O - alpha*mu, with level being alpha = 1.
+            lv = str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus"))
+            keep = (mode == "level_keep")
+            if lv == "global":
+                local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+                n_groups, n_single = 1, 0
+            else:
+                taxo = self._load_taxonomy()
+                if taxo is None:
+                    raise ValueError(f"PROMPT_CENTER_MODE={mode} with PROMPT_CENTER_LEVEL={lv} needs a "
+                                     "dataset with categories.json (iNat only); use LEVEL=global otherwise")
+                keys = [taxo.get(name, {}).get(lv) for name in self.classnames]
+                missing = [n for n, k in zip(self.classnames, keys) if k is None]
+                if missing:                       # no fallback exists in these modes -- fail loud
+                    raise ValueError(f"PROMPT_CENTER_LEVEL={lv} is missing for {len(missing)} classes "
+                                     f"(e.g. {missing[:3]}); these modes have no fallback by design")
+                groups_idx = {}
+                for i, k in enumerate(keys):
+                    groups_idx.setdefault(k, []).append(i)
+                local_mu = torch.zeros_like(X)
+                for k, idxs in groups_idx.items():
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    local_mu[idxs_t] = X[idxs_t].mean(0)
+                n_groups = len(groups_idx)
+                n_single = sum(len(v) for v in groups_idx.values() if len(v) == 1)
+            out = (2.0 * X - local_mu) if keep else (X - local_mu)
+            norms = out.norm(dim=-1)
+            n_zero = int((norms < 1e-6).sum())
+            print(f"[PROMPT_CENTER {mode}] level={lv} groups={n_groups} "
+                  f"classes_in_singleton_group={n_single} -> pre-norm row norm "
+                  f"mean={norms.mean().item():.3f} min={norms.min().item():.3f} "
+                  f"max={norms.max().item():.3f}; {n_zero}/{X.shape[0]} rows are ZERO")
+            if n_zero:                            # expected for mode=level, impossible for level_keep
+                print(f"[PROMPT_CENTER {mode}] WARNING: {n_zero} classifier rows initialize to the zero "
+                      "vector (F.normalize leaves them at 0), so those classes start with a dead logit.")
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
             # nearest OTHER classes (by prototype cosine similarity) instead of one fixed global mu.
