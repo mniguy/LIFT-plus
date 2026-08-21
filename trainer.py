@@ -534,6 +534,24 @@ class Trainer:
         except (ValueError, TypeError, KeyError):
             return None
 
+    def _level_mean(self, X, lv, taxo):
+        """[C, D] per-class mean of its group at taxonomy level `lv` (self included).
+
+        Used by the two modes that combine level means linearly (blend, sum_all). The older
+        taxonomy modes build this inline; they are deliberately left untouched.
+        """
+        mu = torch.zeros_like(X)
+        groups = {}
+        for i, name in enumerate(self.classnames):
+            key = taxo.get(name, {}).get(lv)
+            if key is None:
+                raise ValueError(f"taxonomy level '{lv}' missing for class '{name}'")
+            groups.setdefault(key, []).append(i)
+        for _, idxs in groups.items():
+            idxs_t = torch.as_tensor(idxs, device=X.device)
+            mu[idxs_t] = X[idxs_t].mean(0)
+        return mu
+
     def _center_prototypes(self, feats):
         """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
         mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
@@ -996,6 +1014,72 @@ class Trainer:
                   f"{census} | pre-norm row norm mean={nrm.mean().item():.3f} "
                   f"min={nrm.min().item():.3f} max={nrm.max().item():.3f} | "
                   f"{int((nrm < 1e-6).sum())}/{C} rows are ZERO (must be 0 by construction)")
+        elif mode == "blend":                    # LINEAR BLEND of the global mean and one level mean:
+            #     out = O - (1-s) * mu_global - s * mu_LEVEL
+            # Derived from the hierarchical (ANOVA) decomposition of a prototype,
+            #     O = mu_global + sum_k e_k + e_species,   e_k = mu_k - mu_{k-1}
+            # by shrinking EVERY level effect by the same factor s. The telescoping sum then folds up
+            # into the two-term form above, so what looks like six shrinkage terms is really one knob.
+            # s = 0 is exactly mode=global; s -> 1 approaches mode=level at the same LEVEL.
+            #
+            # WHY THIS IS SINGLETON-SAFE WITHOUT A BRANCH: if the class is alone in its group then
+            # mu_LEVEL = O, and the expression collapses to (1-s) * (O - mu_global) -- a positive
+            # multiple of the globally centered vector, i.e. that class simply receives GLOBAL
+            # centering. No guard, no fallback chain, no zero row, and the rule is still one formula
+            # for all classes. (At s = 1 exactly this degenerates to mode=level, zero rows included,
+            # which is why s >= 1 is rejected below rather than silently allowed.)
+            #
+            # Offline on the real iNat prototypes (LEVEL=genus), cos-to-global / top5conf:
+            #   s=0.00 1.0000/0.6399 (=global)   s=0.50 0.9763/0.5646   s=0.75 0.8972/0.4856
+            #   s=0.90 0.7614/0.4502   s~0.92 ~0.74/~0.45 (the 0.72-0.75 winning band)
+            #   s=0.95 0.6873/0.4495   s=1.00 0.2302/0.2624 (=level, 3000 zero rows)
+            s = float(getattr(self.cfg, "PROMPT_CENTER_S", 0.92))
+            lv = str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus"))
+            if not (0.0 <= s < 1.0):
+                raise ValueError(f"PROMPT_CENTER_S must satisfy 0 <= s < 1 (got {s}); "
+                                 "s=1 is PROMPT_CENTER_MODE=level, which produces zero rows")
+            mu_g = X.mean(0).unsqueeze(0).expand_as(X)
+            if lv == "global":
+                mu_l = mu_g
+            else:
+                taxo = self._load_taxonomy()
+                if taxo is None:
+                    raise ValueError("PROMPT_CENTER_MODE=blend with a taxonomy LEVEL needs categories.json")
+                mu_l = self._level_mean(X, lv, taxo)
+            out = X - (1.0 - s) * mu_g - s * mu_l
+            nrm = out.norm(dim=-1)
+            print(f"[PROMPT_CENTER blend] s={s} level={lv} -> pre-norm row norm "
+                  f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
+                  f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO (must be 0 for s < 1)")
+        elif mode == "sum_all":                  # ADD UP every level residual, no weights, no knobs:
+            #     out = sum_{k} r_k,  r_k = O - mu_k  over k = global, kingdom, phylum, class, order,
+            #                                             family, genus   (7 terms)
+            # Row normalization removes the overall scale, so this is NOT a weakened centering: it
+            # equals 7 * (O - mean_k mu_k), i.e. FULL-strength centering against the arithmetic mean of
+            # the seven level means. In decomposition terms (verified to 1.4e-14 on the real
+            # prototypes) it is
+            #     sum_k r_k = 7 * ( sum_{j=1..6} (j/7) e_j + e_species )
+            # so it keeps each level effect with a LINEAR ramp: kingdom 1/7, phylum 2/7, class 3/7,
+            # order 4/7, family 5/7, genus 6/7, species 7/7. Coarse structure is removed most, fine
+            # structure least. Zero free parameters.
+            #
+            # HONEST EXPECTATION: measured cos-to-global 0.9687 / top5conf 0.5792, i.e. geometrically a
+            # near-duplicate of mode=global (1.0000/0.6399) and outside the 0.72-0.75 winning band. The
+            # reason is visible in the ramp: the genus effect carries 46.4% of the prototype norm and
+            # this keeps 6/7 of it. Predict a tie with global (80.52). It is here because it is the one
+            # arm in this family with NO constant to justify.
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=sum_all needs a dataset with categories.json")
+            LEVELS = ["kingdom", "phylum", "class", "order", "family", "genus"]
+            mu_total = X.mean(0).unsqueeze(0).expand_as(X).clone()        # mu_global
+            for lv in LEVELS:
+                mu_total = mu_total + self._level_mean(X, lv, taxo)
+            out = float(len(LEVELS) + 1) * X - mu_total                   # == sum_k (X - mu_k)
+            nrm = out.norm(dim=-1)
+            print(f"[PROMPT_CENTER sum_all] levels=global+{LEVELS} (no knobs) -> pre-norm row norm "
+                  f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
+                  f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO")
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
             # nearest OTHER classes (by prototype cosine similarity) instead of one fixed global mu.
