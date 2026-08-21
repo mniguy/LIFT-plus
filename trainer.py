@@ -907,6 +907,95 @@ class Trainer:
             if n_zero:                            # expected for mode=level, impossible for level_keep
                 print(f"[PROMPT_CENTER {mode}] WARNING: {n_zero} classifier rows initialize to the zero "
                       "vector (F.normalize leaves them at 0), so those classes start with a dead logit.")
+        elif mode == "taxo_kernel":              # SOFT taxonomic neighbourhood: no branch, no min_size,
+            # no fallback chain. Every class subtracts a kernel-weighted mean of its RELATIVES, where
+            # the weight decays geometrically with taxonomic distance:
+            #     mu_i = sum_{j != i} gamma^d(i,j) O_j  /  sum_{j != i} gamma^d(i,j)
+            # d(i,j) = the level at which i and j first share an ancestor: same genus 1, family 2,
+            # order 3, class 4, phylum 5, kingdom 6, unrelated 7.
+            #
+            # WHY THIS EXISTS: every other taxonomy mode makes a BINARY membership test, which creates
+            # the degenerate state "my group has 0 other members" and then patches it after the fact
+            # (min_size guard / cascade's fallback chain / level_keep's +O tax on all 8142 classes).
+            # Here the d=1 term simply DROPS OUT of both numerator and denominator when a class has no
+            # genus-mates, and the nearest non-empty level takes over automatically. Measured on iNat:
+            # Quercus agrifolia (28-species genus) puts 99.3% of its weight on its 27 genus-mates,
+            # while Abaeis nicippe (singleton genus) automatically splits 55.9% family / 43.3% order.
+            # Excluding self also makes a zero row structurally impossible: mu_i is a mean of OTHER
+            # classes. Measured min pre-norm row norm 1.96-10.5 against a raw row norm of ~23.
+            #
+            # gamma is the only knob and it subsumes the existing modes: gamma -> 1 weights every class
+            # equally (== mode=global; measured cos-to-global 0.9997 at gamma=0.9), gamma -> 0 keeps
+            # only the nearest non-empty relatives (== cascade with min_size=2, but gateless). Offline
+            # on the real prototypes: gamma 0/0.01/0.02/0.03/0.05/0.1 -> cos-to-global
+            # 0.544/0.659/0.709/0.746/0.802/0.887, top5conf 0.417/0.423/0.431/0.438/0.451/0.492.
+            # gamma=0.03 lands in the 0.72-0.75 band where every arm that has won on iNat sits, with a
+            # top5conf far below anything else measured here (global 0.654, cascade ~0.60).
+            #
+            # NOTE the leave-one-out identity that motivates excluding self: for any group of size
+            # k >= 2, O_i - mu^(-i) = k/(k-1) * (O_i - mu), a POSITIVE scalar multiple, so after row
+            # normalization self-exclusion changes nothing (verified: per-class cos 1.0000000000 on all
+            # 5142 non-singleton iNat classes). k = 1 is the only genuine singularity, which is exactly
+            # the state this kernel formulation never enters.
+            gamma = float(getattr(self.cfg, "PROMPT_CENTER_GAMMA", 0.03))
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=taxo_kernel needs a dataset with categories.json")
+            LEVELS = ["genus", "family", "order", "class", "phylum", "kingdom"]
+            C = X.shape[0]
+            Xd = X.double()                       # gamma**7 ~ 2e-11; accumulate in fp64 for headroom
+            # S_d = the set of classes within distance d. The taxonomy is NESTED (genus in family in
+            # order ...), so S_d IS the level-d group and the classes at distance EXACTLY d are
+            # S_d \ S_{d-1}. That telescoping is what makes this 7 group-sum passes instead of a
+            # C x C distance matrix.
+            S_sum = [Xd.clone()]                                            # S_0 = {i}
+            S_cnt = [torch.ones(C, dtype=torch.float64, device=X.device)]
+            for lv in LEVELS:
+                groups = {}
+                for i, name in enumerate(self.classnames):
+                    key = taxo.get(name, {}).get(lv)
+                    if key is None:
+                        raise ValueError(f"taxo_kernel: level '{lv}' missing for class '{name}'")
+                    groups.setdefault(key, []).append(i)
+                s = torch.zeros_like(Xd)
+                c = torch.zeros(C, dtype=torch.float64, device=X.device)
+                for _, idxs in groups.items():
+                    it = torch.as_tensor(idxs, device=X.device)
+                    s[it] = Xd[it].sum(0)
+                    c[it] = float(len(idxs))
+                S_sum.append(s)
+                S_cnt.append(c)
+            S_sum.append(Xd.sum(0).expand_as(Xd).clone())                   # S_7 = every class
+            S_cnt.append(torch.full((C,), float(C), dtype=torch.float64, device=X.device))
+
+            near = torch.zeros(C, dtype=torch.long, device=X.device)        # nearest non-empty distance
+            for dd in range(7, 0, -1):
+                near[(S_cnt[dd] - S_cnt[dd - 1]) > 0] = dd
+            if gamma <= 0.0:                      # limit: mean of the nearest non-empty relatives only
+                mu = torch.zeros_like(Xd)
+                for dd in range(1, 8):
+                    hit = near == dd
+                    if hit.any():
+                        cnt = (S_cnt[dd] - S_cnt[dd - 1])[hit]
+                        mu[hit] = (S_sum[dd] - S_sum[dd - 1])[hit] / cnt.unsqueeze(1)
+            else:
+                num = torch.zeros_like(Xd)
+                den = torch.zeros(C, dtype=torch.float64, device=X.device)
+                for dd in range(1, 8):
+                    w = gamma ** dd
+                    num += w * (S_sum[dd] - S_sum[dd - 1])
+                    den += w * (S_cnt[dd] - S_cnt[dd - 1])
+                mu = num / den.unsqueeze(1)
+            out = (Xd - mu).to(X.dtype)
+            nrm = out.norm(dim=-1)
+            census = " ".join(f"{lv}={int((near == d).sum())}"
+                              for d, lv in enumerate(LEVELS + ["unrelated"], start=1)
+                              if int((near == d).sum()) > 0)
+            print(f"[PROMPT_CENTER taxo_kernel] gamma={gamma if gamma > 0 else 0.0}"
+                  f"{' (nearest-relative limit)' if gamma <= 0 else ''} | nearest non-empty level: "
+                  f"{census} | pre-norm row norm mean={nrm.mean().item():.3f} "
+                  f"min={nrm.min().item():.3f} max={nrm.max().item():.3f} | "
+                  f"{int((nrm < 1e-6).sum())}/{C} rows are ZERO (must be 0 by construction)")
         elif mode == "knn":                      # per-class LOCAL group via k-nearest classes (taxonomy-free
             # generalization of 'genus' -- works on any dataset). Subtracts the mean of each class's k
             # nearest OTHER classes (by prototype cosine similarity) instead of one fixed global mu.

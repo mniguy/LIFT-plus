@@ -51,7 +51,10 @@ _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAI
 
 # --- prototype centering / de-anisotropization (main research direction) ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | taxo_kernel | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_GAMMA = 0.03   # for mode=taxo_kernel: per-level decay of the taxonomic kernel, w_ij = gamma^d(i,j).
+                                # gamma<=0 selects the limit "mean of the nearest non-empty relatives" (no hyperparameter).
+                                # yacs is type-strict: pass 0.0, not 0.
 _C.PROMPT_CENTER_LEVEL = "genus"   # for mode=level/level_keep: which taxonomy level supplies the group mean. global | genus | family | order | class | phylum | kingdom
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
