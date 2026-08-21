@@ -79,6 +79,45 @@
 #
 # NOTE: yacs is type-strict, so s MUST be written with a decimal point ("0.92", not "1").
 #
+# ============================ ADDED 2026-08-21: shrink, and multi-level blend ============================
+# ARM SYNTAX: "sum_all" | "s<S>" = blend | "sh<S>" = shrink. LEVEL may be a comma-separated list for
+# blend/shrink (the weight S is split evenly over the listed levels).
+#
+# (3) shrink -- out = O - s * mu_LEVEL, i.e. blend WITHOUT the global term. s=0.5 reproduces
+#     mode=level_keep exactly (verified per-class cos 1.00000000, already run: 80.59), s=1 is
+#     mode=level. Zero-row-safe for s<1, but a class alone in its group collapses to (1-s)*O, i.e. the
+#     RAW uncentered prototype -- it receives NO centering at any s. Measured cos to the raw direction,
+#     singleton vs non-singleton, LEVEL=genus:
+#         s=0.50  1.0000/0.9747   s=0.80  1.0000/0.8105   s=0.90  1.0000/0.6196   s=0.98  1.0000/0.3464
+#     versus blend s=0.92 (0.7198/0.4149), global (0.7198/0.7140), sum_all (0.6888/0.6904).
+#     So raising s does not strengthen the method uniformly; it SPLITS the init into an untouched 37%
+#     and a heavily centered 63%. The trainer logs "N rows are UNCENTERED" so this is visible per run.
+#
+# THE CONTROLLED PAIR: shrink s=0.963 matches blend s=0.92 on the non-singleton classes (cos-to-raw
+# 0.4141 vs 0.4149) while leaving the 3000 singletons at exactly 1.0000. The two inits are per-class
+# cos 0.8851. Running both isolates ONE question that has never been tested separately:
+#     should a class with no relatives receive GLOBAL centering, or nothing at all?
+# blend s=0.92 already ran (80.64), so only the shrink arm is outstanding.
+#
+# MULTI-LEVEL BLEND: listing several levels turns the flat keep-profile into a staircase. Measured
+# keep-profiles at s=0.92 (kingdom..genus, species always 1.0):
+#     genus              0.080 0.080 0.080 0.080 0.080 0.080
+#     family,genus       0.080 0.080 0.080 0.080 0.080 0.540
+#     order,family,genus 0.080 0.080 0.080 0.080 0.387 0.693
+#     all six            0.080 0.233 0.387 0.540 0.693 0.847
+#     (sum_all           0.143 0.286 0.429 0.571 0.714 0.857)
+# The profile is always monotone (C_j is a tail sum of non-negative weights), so fine effects are
+# always kept at least as much as coarse ones, and e_species is kept in full for every choice.
+# REDUNDANCY, measured: "all six" is per-class cos 0.9997 to sum_all -- the SAME arm, already run
+# (80.68). "order,family,genus" is 0.9722 to sum_all. Only "family,genus" is genuinely off every
+# curve already run (<= 0.94 to all of them). kingdom/phylum/class as single levels are mutually
+# cos 0.98-0.99, i.e. one arm in triplicate.
+#   => of this whole family, exactly two arms are worth GPU: blend LEVEL="family,genus", and
+#      shrink s=0.963.
+#
+#   ARMS="sh0.963" bash scripts/run_center_decomp.sh                       # the singleton-policy control
+#   ARMS="s0.92" LEVEL="family,genus" bash scripts/run_center_decomp.sh    # the one new keep-profile
+#
 #   bash scripts/run_center_decomp.sh                          # sum_all + blend s=0.92
 #   ARMS="s0.5 s0.75 s0.92 s0.95" bash scripts/run_center_decomp.sh   # the s axis
 #   LEVEL=family bash scripts/run_center_decomp.sh             # blend against the family mean instead
@@ -96,10 +135,14 @@ completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 for arm in ${ARMS}; do
   case "${arm}" in
     sum_all) extra=(PROMPT_CENTER_MODE sum_all); tag="sum_all" ;;
+    sh*)     sv="${arm#sh}"
+             case "${sv}" in *.*) ;; *) echo "ERROR: s must have a decimal point (yacs is type-strict): '${sv}'"; exit 1;; esac
+             extra=(PROMPT_CENTER_MODE shrink PROMPT_CENTER_S "${sv}" PROMPT_CENTER_LEVEL "${LEVEL}")
+             tag="shrink_$(echo "${LEVEL}" | tr ',' '-')_s$(echo "${sv}" | tr -d '.')" ;;
     s*)      sv="${arm#s}"
              case "${sv}" in *.*) ;; *) echo "ERROR: s must have a decimal point (yacs is type-strict): '${sv}'"; exit 1;; esac
              extra=(PROMPT_CENTER_MODE blend PROMPT_CENTER_S "${sv}" PROMPT_CENTER_LEVEL "${LEVEL}")
-             tag="blend_${LEVEL}_s$(echo "${sv}" | tr -d '.')" ;;
+             tag="blend_$(echo "${LEVEL}" | tr ',' '-')_s$(echo "${sv}" | tr -d '.')" ;;
     *) echo "unknown arm ${arm}"; exit 1 ;;
   esac
   out="${OUT_ROOT}/inat2018/${tag}"

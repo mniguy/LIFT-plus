@@ -1034,23 +1034,101 @@ class Trainer:
             #   s=0.90 0.7614/0.4502   s~0.92 ~0.74/~0.45 (the 0.72-0.75 winning band)
             #   s=0.95 0.6873/0.4495   s=1.00 0.2302/0.2624 (=level, 3000 zero rows)
             s = float(getattr(self.cfg, "PROMPT_CENTER_S", 0.92))
-            lv = str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus"))
+            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus")).split(",") if x.strip()]
             if not (0.0 <= s < 1.0):
                 raise ValueError(f"PROMPT_CENTER_S must satisfy 0 <= s < 1 (got {s}); "
                                  "s=1 is PROMPT_CENTER_MODE=level, which produces zero rows")
+            if not lvs:
+                raise ValueError("PROMPT_CENTER_LEVEL is empty")
             mu_g = X.mean(0).unsqueeze(0).expand_as(X)
-            if lv == "global":
-                mu_l = mu_g
-            else:
-                taxo = self._load_taxonomy()
-                if taxo is None:
-                    raise ValueError("PROMPT_CENTER_MODE=blend with a taxonomy LEVEL needs categories.json")
-                mu_l = self._level_mean(X, lv, taxo)
+            # PROMPT_CENTER_LEVEL may list several levels; the weight s is split evenly over them, so
+            # the subtracted vector stays a proper weighted average and the coefficients still sum to 1.
+            # This is NOT cosmetic: with one level every level EFFECT is shrunk by the same factor
+            # (a flat keep-profile), while with several the profile becomes a staircase -- e.g.
+            # "family,genus" at s=0.92 keeps 0.080 of the kingdom..family effects but 0.540 of the
+            # genus effect. Because C_j is a tail sum of non-negative weights the profile is always
+            # monotone (fine effects are kept at least as much as coarse ones), and e_species is kept
+            # in full for every choice, so this family only varies how much SHARED structure is stripped.
+            # Measured on the real prototypes: listing all six levels is per-class cos 0.9997 to
+            # mode=sum_all, i.e. the same arm; "family,genus" is the one combination that is genuinely
+            # off every curve already run (<= 0.94 to all of them).
+            mu_l = torch.zeros_like(X)
+            for lv in lvs:
+                if lv == "global":
+                    mu_l = mu_l + mu_g
+                else:
+                    taxo = self._load_taxonomy()
+                    if taxo is None:
+                        raise ValueError("PROMPT_CENTER_MODE=blend with a taxonomy LEVEL needs categories.json")
+                    mu_l = mu_l + self._level_mean(X, lv, taxo)
+            mu_l = mu_l / float(len(lvs))
             out = X - (1.0 - s) * mu_g - s * mu_l
             nrm = out.norm(dim=-1)
-            print(f"[PROMPT_CENTER blend] s={s} level={lv} -> pre-norm row norm "
+            print(f"[PROMPT_CENTER blend] s={s} levels={','.join(lvs)} -> pre-norm row norm "
                   f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
                   f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO (must be 0 for s < 1)")
+        elif mode == "shrink":                   # PARTIAL centering with NO global term:
+            #     out = O - s * mu_LEVEL
+            # This is the alpha axis of mode=level_keep generalized: s = 0.5 reproduces level_keep
+            # exactly (2O - mu is a positive multiple of O - 0.5 mu; verified per-class cos 1.00000000),
+            # s = 1 is mode=level. It is zero-row-safe for s < 1, which is the reason to want it.
+            #
+            # BUT READ THIS BEFORE USING IT. A class alone in its group has mu_LEVEL = O, so the
+            # expression collapses to (1-s) * O -- after row normalization, the RAW uncentered
+            # prototype. Such a class receives NO centering at any s. Measured on iNat with
+            # LEVEL=genus, cosine to the raw prototype direction, singleton vs non-singleton:
+            #     s=0.50  1.0000 / 0.9747      s=0.90  1.0000 / 0.6196
+            #     s=0.80  1.0000 / 0.8105      s=0.98  1.0000 / 0.3464
+            # The 3000 singleton classes (36.8%) sit at exactly 1.0000 for every s, so turning s up
+            # does not strengthen the method uniformly -- it SPLITS the initialization in two. Compare
+            # mode=blend, where the global term reaches every class (singleton 0.7198, the same value
+            # the plain global arm gives them), or mode=sum_all / mode=global, which are essentially
+            # homogeneous (singleton-vs-rest gap 0.002 and 0.006).
+            #
+            # WHY IT IS STILL WORTH RUNNING: whether that inhomogeneity actually hurts has never been
+            # measured. s = 0.963 matches blend s=0.92 on the NON-singleton classes (cos-to-raw 0.4141
+            # vs 0.4149) while leaving singletons untouched, so the pair is a controlled experiment on
+            # one question alone: should a class with no relatives get global centering, or nothing?
+            # The two inits are per-class cos 0.8851, i.e. genuinely different arms.
+            s = float(getattr(self.cfg, "PROMPT_CENTER_S", 0.92))
+            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus")).split(",") if x.strip()]
+            if not (0.0 <= s < 1.0):
+                raise ValueError(f"PROMPT_CENTER_S must satisfy 0 <= s < 1 (got {s}); "
+                                 "s=1 is PROMPT_CENTER_MODE=level, which produces zero rows")
+            if not lvs:
+                raise ValueError("PROMPT_CENTER_LEVEL is empty")
+            mu_l = torch.zeros_like(X)
+            for lv in lvs:
+                if lv == "global":
+                    mu_l = mu_l + X.mean(0).unsqueeze(0).expand_as(X)
+                else:
+                    taxo = self._load_taxonomy()
+                    if taxo is None:
+                        raise ValueError("PROMPT_CENTER_MODE=shrink with a taxonomy LEVEL needs categories.json")
+                    mu_l = mu_l + self._level_mean(X, lv, taxo)
+            # PROMPT_CENTER_G adds an independent global term:  out = O - g*mu_global - s*mean(mu_LEVELs).
+            # g = 0 is plain shrink. g = 1 is "sum_k (O - mu_global - s*mu_k)" written in closed form,
+            # where the subtracted coefficients sum to 1 + s > 1 -- deliberate OVER-centering, which
+            # pushes rows PAST the origin rather than merely towards it. Measured on the real iNat
+            # prototypes with all six levels, count of classes whose init ends up NEGATIVELY correlated
+            # with their own raw prototype: s=0.3 -> 0/8142, s=0.5 -> 130/8142, s=0.963 -> 6390/8142
+            # (mean cos to raw -0.167). Past roughly s=0.5 the classifier row for a species points away
+            # from that species. The log below reports this count so it cannot be missed.
+            g = float(getattr(self.cfg, "PROMPT_CENTER_G", 0.0))
+            out = X - s * (mu_l / float(len(lvs)))
+            if g != 0.0:
+                out = out - g * X.mean(0).unsqueeze(0).expand_as(X)
+            nrm = out.norm(dim=-1)
+            # how many classes came out pointing exactly where they started -- the inhomogeneity above,
+            # surfaced in the log rather than left to be discovered from the accuracies
+            cos_raw = (F.normalize(out, dim=-1) * F.normalize(X, dim=-1)).sum(-1)
+            untouched = int((cos_raw > 0.9999).sum())
+            flipped = int((cos_raw < 0).sum())
+            print(f"[PROMPT_CENTER shrink] s={s} g={g} levels={','.join(lvs)} -> pre-norm row norm "
+                  f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
+                  f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO; "
+                  f"{untouched}/{X.shape[0]} rows are UNCENTERED (identical direction to raw O); "
+                  f"{flipped}/{X.shape[0]} rows are FLIPPED (negative cosine to raw O -- over-centered)")
         elif mode == "sum_all":                  # ADD UP every level residual, no weights, no knobs:
             #     out = sum_{k} r_k,  r_k = O - mu_k  over k = global, kingdom, phylum, class, order,
             #                                             family, genus   (7 terms)
