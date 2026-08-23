@@ -1138,6 +1138,73 @@ class Trainer:
                   f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO; "
                   f"{untouched}/{X.shape[0]} rows are UNCENTERED (identical direction to raw O); "
                   f"{flipped}/{X.shape[0]} rows are FLIPPED (negative cosine to raw O -- over-centered)")
+        elif mode == "proj":                     # LEAST-SQUARES SUBSPACE REMOVAL.
+            # Every other combination mode fixes the weights on the level means and subtracts a
+            # weighted average. This one SOLVES for them: find the coefficients that make the residual
+            # as small as possible, i.e. project O onto the orthogonal complement of the subspace the
+            # level means span.
+            #     c_hat = argmin_c || O - sum_k c_k mu_k ||        out = O - sum_k c_hat_k mu_k
+            # Zero free parameters beyond which levels enter the span, and the weights adapt per class.
+            #
+            # WHY THE GATE IS LOAD-BEARING HERE: if a class is alone in its group then mu_LEVEL = O, so
+            # O lies exactly IN the span and the residual is exactly ZERO -- the failure that destroyed
+            # mode=level (2579 zero rows measured with no gate). A level is therefore admitted to the
+            # span only when that class's group has >= PROMPT_CENTER_GENUS_MIN members, which is not an
+            # arbitrary cutoff at its natural value 2: a group of one carries no information about the
+            # class beyond the class itself. Measured with the gate: 0 zero rows, min pre-norm row norm
+            # 1.520, mean span dimension 6.56 of 7.
+            #
+            # Offline geometry on the real iNat prototypes (cos-to-global / top5conf):
+            #   all 7 levels, gate 2   0.5271 / 0.3963   <- lowest top5conf measured in this project
+            #   all 7 levels, gate 5   0.6966 / 0.4313
+            #   genus excluded, gate 2 0.7323 / 0.4749
+            # The two gate settings are per-class cos 0.7914 apart, i.e. genuinely different arms.
+            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL",
+                   "global,kingdom,phylum,class,order,family,genus")).split(",") if x.strip()]
+            ms = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            if not lvs:
+                raise ValueError("PROMPT_CENTER_LEVEL is empty")
+            C_, D_ = X.shape
+            Xd = X.double()
+            mus, keeps = [], []
+            for lv in lvs:
+                if lv == "global":
+                    mus.append(Xd.mean(0).unsqueeze(0).expand_as(Xd))
+                    keeps.append(torch.full((C_,), float(C_), dtype=torch.float64, device=X.device))
+                    continue
+                taxo = self._load_taxonomy()
+                if taxo is None:
+                    raise ValueError("PROMPT_CENTER_MODE=proj with a taxonomy LEVEL needs categories.json")
+                mu = torch.zeros_like(Xd)
+                cnt = torch.zeros(C_, dtype=torch.float64, device=X.device)
+                groups = {}
+                for i, name in enumerate(self.classnames):
+                    key = taxo.get(name, {}).get(lv)
+                    if key is None:
+                        raise ValueError(f"taxonomy level '{lv}' missing for class '{name}'")
+                    groups.setdefault(key, []).append(i)
+                for _, idxs in groups.items():
+                    it = torch.as_tensor(idxs, device=X.device)
+                    mu[it] = Xd[it].mean(0)
+                    cnt[it] = float(len(idxs))
+                mus.append(mu); keeps.append(cnt)
+            B = torch.stack(mus, dim=1).clone()                        # [C, K, D]
+            keep = torch.stack(keeps, dim=1) >= float(ms)              # [C, K]
+            B[~keep] = 0.0                                             # a gated-out level leaves the span
+            K = len(lvs)
+            G = torch.einsum("cid,cjd->cij", B, B)
+            # ridge scaled by each class's own Gram trace: the level means are nested and therefore
+            # highly collinear, and a zeroed-out row would otherwise make G singular.
+            eye = torch.eye(K, dtype=torch.float64, device=X.device)
+            G = G + 1e-8 * (G.diagonal(dim1=1, dim2=2).sum(-1) / K).clamp_min(1e-12)[:, None, None] * eye
+            coef = torch.linalg.solve(G, torch.einsum("cid,cd->ci", B, Xd))
+            out = (Xd - torch.einsum("ci,cid->cd", coef, B)).to(X.dtype)
+            nrm = out.norm(dim=-1)
+            print(f"[PROMPT_CENTER proj] levels={','.join(lvs)} gate={ms} -> mean span dim="
+                  f"{keep.double().sum(1).mean().item():.2f}/{K}; pre-norm row norm "
+                  f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
+                  f"{int((nrm < 1e-6).sum())}/{C_} rows are ZERO (must be 0; a nonzero count means the "
+                  f"gate let a singleton level into the span)")
         elif mode == "sum_all":                  # ADD UP every level residual, no weights, no knobs:
             #     out = sum_{k} r_k,  r_k = O - mu_k  over k = global, kingdom, phylum, class, order,
             #                                             family, genus   (7 terms)
