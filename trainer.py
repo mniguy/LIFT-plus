@@ -705,7 +705,16 @@ class Trainer:
                 X = X - X.mean(0)
                 print("[PROMPT_CENTER cascade] global centroid removed first "
                       "(provable no-op; null control for run-to-run variation)")
-            local_mu = X.mean(0).unsqueeze(0).repeat(X.shape[0], 1)
+            # PROMPT_CENTER_CASCADE_NOFALL: what a class that qualifies at NO level receives.
+            # Default (False) is the global mean -- the "fallback" in this mode has never meant
+            # "left alone", it means "centered with the global centroid instead of a local one".
+            # With True the fallback vector is ZERO, so such a class keeps its RAW prototype and is
+            # genuinely not centered at all. Safe (raw O is far from the origin, unlike the zero rows
+            # that broke mode=level), but it makes the init inhomogeneous: those classes end up where
+            # mode=shrink leaves its singletons.
+            nofall = bool(getattr(self.cfg, "PROMPT_CENTER_CASCADE_NOFALL", False))
+            local_mu = (torch.zeros_like(X) if nofall
+                        else X.mean(0).unsqueeze(0).repeat(X.shape[0], 1))
             assigned = torch.zeros(X.shape[0], dtype=torch.bool, device=X.device)
             used = []
             for lv in levels:
@@ -728,8 +737,8 @@ class Trainer:
                     assigned[target] = True
                     n_lv += int(target.numel())
                 used.append(f"{lv}={n_lv}")
-            used.append(f"global={int((~assigned).sum())}")
-            print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} mean={mean_mode} -> "
+            used.append(f"{'UNCENTERED' if nofall else 'global'}={int((~assigned).sum())}")
+            print(f"[PROMPT_CENTER cascade] levels={levels} min_size={min_size} mean={mean_mode} nofall={nofall} -> "
                   + " ".join(used))
             out = X - local_mu
             # PROMPT_CENTER_CASCADE_GLOBAL_LAST: remove the residual's global centroid AFTER cascading.

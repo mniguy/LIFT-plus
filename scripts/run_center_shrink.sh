@@ -41,6 +41,40 @@
 # project pre-registered such an arm once (nested's PROMPT_CENTER_NESTED_MEAN=static, "expected to
 # lose") and never ran it, so over-centering is still untested on iNat.
 #
+# ============================ THE REMAINING FOUR LEVELS (added 2026-08-21) ============================
+# Completing the single-level sweep. Measured at s=0.963 on the real prototypes:
+#
+#   level     groups  UNCENTERED  cos-to-global  top5conf   result
+#   global         1        0        0.9993       0.6435      ?
+#   kingdom        6        1        0.9728       0.6193      ?
+#   phylum        25        5        0.9637       0.6124      ?
+#   class         57        9        0.9540       0.6055      ?
+#   order        272       64        0.9158       0.5801    80.80
+#   family      1118      463        0.8304       0.5421    80.58
+#   genus       4401     3000        0.5583       0.5627    80.85
+#
+# REDUNDANCY: shrink global is per-class cos 0.9993 to PROMPT_CENTER_MODE=global, which scored 80.52.
+# It is a replication, not a new arm -- kept only because the sweep is otherwise incomplete. The other
+# three are mutually 0.980-0.990 (one arm in triplicate) and each 0.986-0.988 to sum_all (80.68) /
+# sumB (80.65). None of the four is independent in the way genus/family/order were.
+#
+# PREDICTIONS FOR THE FOUR, anchored on the redundancy relation rather than on geometry-vs-accuracy
+# (which is dead here, r = -0.37). The cos > 0.99 bucket has held empirically: sumB vs sum_all were
+# cos 0.9979 and landed 0.03 apart; across all measured pairs the cos>0.99 bucket has max |dAll| 0.10
+# and the 0.97-0.99 bucket max 0.15.
+#   global                 predict 80.50 - 80.60   (cos 0.9993 to a known 80.52)
+#   kingdom/phylum/class   predict 80.55 - 80.75, clustered within ~0.15 of each other
+#
+# WHICH LEVEL WINS OVERALL: predict GENUS (80.85) stays best. The argument is not mechanistic -- the
+# three measured levels are non-monotone in every variable tried (UNCENTERED r = +0.61 against a
+# pre-registered negative, cos-to-global and top5conf both flat). It is that the four new arms are
+# geometrically pinned to arms that already scored 80.52-80.68, and the redundancy relation above has
+# held, so none of them should reach 80.85. CONFIDENCE IS LOW: the gap between genus and the top of
+# the predicted band is ~0.10, under 2 sigma_All.
+#   WHAT WOULD CHANGE THE READING: if kingdom/phylum/class come back spread by more than 0.2 despite
+#   being cos 0.98-0.99 apart, the redundancy relation breaks too and single-seed arms on this dataset
+#   carry no information at all.
+#
 # ============================ PRE-REGISTERED PREDICTIONS ============================
 # BASE RATE: 65 iNat centering arms measured so far span 80.46-81.02.
 #
@@ -89,13 +123,14 @@
 # PARTIAL sums, they are genuinely new (0.88 / 0.96 to sum_all), and together with the single-level
 # arms they give two independent readings of the same inhomogeneity dose axis.
 #
-#   bash scripts/run_center_shrink.sh                          # genus family order sumB sumA
+#   bash scripts/run_center_shrink.sh                          # global kingdom phylum class (the rest of the sweep)
+#   ARMS="genus family order sumB sumA" bash scripts/run_center_shrink.sh   # the first batch (already run)
 #   ARMS="sumB_gf sumB_gfo" bash scripts/run_center_shrink.sh  # the partial sums instead of sumB
 #   ARMS="sumA sumA_mild" bash scripts/run_center_shrink.sh    # the over-centering pair only
 #   python scripts/agg_runs.py output/center_shrink --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"genus family order sumB sumA sumA_mild"}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+ARMS=${ARMS:-"global kingdom phylum class"}   # first batch (genus family order sumB sumA sumA_mild) already run
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_shrink"}
 ALL6="genus,family,order,class,phylum,kingdom"
@@ -106,6 +141,10 @@ arm_spec(){ case "$1" in
   genus)      echo "genus 0.963 0.0" ;;
   family)     echo "family 0.963 0.0" ;;
   order)      echo "order 0.963 0.0" ;;
+  class)      echo "class 0.963 0.0" ;;
+  phylum)     echo "phylum 0.963 0.0" ;;
+  kingdom)    echo "kingdom 0.963 0.0" ;;
+  global)     echo "global 0.963 0.0" ;;
   sumB)       echo "${ALL6} 0.963 0.0" ;;
   sumB_gf)    echo "genus,family 0.963 0.0" ;;
   sumB_gfo)   echo "genus,family,order 0.963 0.0" ;;
