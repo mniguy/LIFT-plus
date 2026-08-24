@@ -92,7 +92,7 @@
 #
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2"}
+ARMS=${ARMS:-"g_bottomup_rn_ms2 g_bottomup_fo_ms2 g_topdown_ms2"}   # round 1 (cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2) already run
 MS=${MS:-2}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_ms2"}
@@ -109,7 +109,31 @@ arm_spec(){ case "$1" in
   cascade_ms2)       echo "cascade genus,family,order          True" ;;
   g_bottomup_ms2)    echo "nested  global,genus,family,order   False" ;;
   bottomup3_gL_ms2)  echo "nested  genus,family,order,global   False" ;;
-  bottomup3_rn_ms2)  echo "nested  genus,family,order          True" ;;
+  bottomup3_rn_ms2)  echo "nested  genus,family,order          True" ;;   # renorm=True
+  # ---- round 2 (2026-08-21), after ms=2 split the band in both directions ----
+  # ROUND 1 RESULT: g_bottomup_ms2 81.24 (new project best), cascade_ms2 80.90,
+  # bottomup3_gL_ms2 79.97, bottomup3_rn_ms2 79.38 (new project worst) -- a 1.86 spread inside one
+  # batch, against 0.56 across the previous 71 arms. The two that CRASHED are the two where global is
+  # NOT subtracted first, so the genus step runs on raw prototypes and removes |mu| = 22.04 out of a
+  # row norm of ~23. Final training loss ranks the four exactly as test accuracy does
+  # (0.3523 / 0.3702 / 0.3898 / 0.4369), and across all 79 completed 15-epoch iNat runs
+  # r(train loss, test All) = -0.633 -- the first variable in this project that predicts accuracy.
+  #
+  # the decisive mechanism test: does putting global FIRST rescue the arm that crashed hardest?
+  g_bottomup_rn_ms2) echo "nested  global,genus,family,order   True" ;;
+  # drop the genus level entirely -- it is where the |mu| = 22 annihilation happens at ms=2
+  g_bottomup_fo_ms2) echo "nested  global,family,order         False" ;;
+  # direction, re-asked at the new gate. At ms=5 the two directions tied (g_topdown 80.87 vs
+  # g_bottomup 80.93) while their inits were cos 0.74 apart; at ms=2 g_bottomup jumped to 81.24 and
+  # the two inits are now cos 0.9231. Originally cut as near-redundant with cascade_ms2 (cos 0.9641),
+  # but that pruning rule no longer holds: this batch produced a 1.86 gap between two arms only
+  # cos 0.9126 apart, against a historical max of 0.28 in that band.
+  g_topdown_ms2)     echo "nested  global,order,family,genus   False" ;;
+  # the gate axis needs MS=3 on the command line, e.g.
+  #   MS=3 ARMS="g_bottomup_ms2 bottomup3_gL_ms2" bash scripts/run_center_ms2.sh
+  # (ms=5 and ms=2 are already measured for both; output dirs would collide, so set OUT_ROOT too)
+  #
+  # measured and dropped: g_bottomup_gf_ms2 (global,genus,family) is cos 0.9945 to g_bottomup_ms2.
   # optional: shorter cascade chains, where the "leave it alone" fallback reaches far more classes.
   # On the full genus,family,order chain only 116 classes ever get there, so the policy moves 1.4% of
   # the rows; dropping levels is what makes it bite.

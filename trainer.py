@@ -1195,16 +1195,80 @@ class Trainer:
             G = torch.einsum("cid,cjd->cij", B, B)
             # ridge scaled by each class's own Gram trace: the level means are nested and therefore
             # highly collinear, and a zeroed-out row would otherwise make G singular.
+            # PROMPT_CENTER_PROJ_RIDGE: at its default 1e-8 this is numerical hygiene. Raised, it becomes
+            # a SMOOTH replacement for the size gate -- a singleton level makes O lie in the span and the
+            # coefficients blow up, and the ridge caps that without a hard cutoff. Measured with the gate
+            # switched off (PROMPT_CENTER_GENUS_MIN 1), zero rows / min pre-norm row norm / cos-to-global:
+            #   1e-3 -> 0 / 0.0042 / 0.5351    1e-2 -> 0 / 0.0420 / 0.5669
+            #   1e-1 -> 0 / 0.3916 / 0.7254    0.5  -> 0 / 1.6918 / 0.9009
+            # Below ~1e-2 the smallest rows are numerically indistinguishable from the degenerate case, so
+            # use lambda >= 0.1 if the gate is off. lambda -> inf converges to no centering at all.
+            ridge = float(getattr(self.cfg, "PROMPT_CENTER_PROJ_RIDGE", 1e-8))
             eye = torch.eye(K, dtype=torch.float64, device=X.device)
-            G = G + 1e-8 * (G.diagonal(dim1=1, dim2=2).sum(-1) / K).clamp_min(1e-12)[:, None, None] * eye
+            G = G + ridge * (G.diagonal(dim1=1, dim2=2).sum(-1) / K).clamp_min(1e-12)[:, None, None] * eye
             coef = torch.linalg.solve(G, torch.einsum("cid,cd->ci", B, Xd))
             out = (Xd - torch.einsum("ci,cid->cd", coef, B)).to(X.dtype)
             nrm = out.norm(dim=-1)
-            print(f"[PROMPT_CENTER proj] levels={','.join(lvs)} gate={ms} -> mean span dim="
+            print(f"[PROMPT_CENTER proj] levels={','.join(lvs)} gate={ms} ridge={ridge:g} -> mean span dim="
                   f"{keep.double().sum(1).mean().item():.2f}/{K}; pre-norm row norm "
                   f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
                   f"{int((nrm < 1e-6).sum())}/{C_} rows are ZERO (must be 0; a nonzero count means the "
                   f"gate let a singleton level into the span)")
+        elif mode == "pick":                     # HARD per-class selection by ALIGNMENT, not by size.
+            # cascade also picks exactly one level per class, but it picks the DEEPEST level whose group
+            # is big enough -- a rule about coverage. This picks the level whose mean is most aligned
+            # with the prototype itself, i.e. the one that explains the most of it:
+            #     k*(i) = argmax_k  cos(mu_k(i), O_i)   over levels whose group has >= GENUS_MIN members
+            #     out_i = O_i - mu_{k*}(i)
+            # Same size gate as mode=proj and for the same reason: a singleton group has mu = O, which
+            # would score cos = 1, win the argmax every time, and zero the row out.
+            # Measured on the real iNat prototypes with gate 2, which level each class ends up choosing:
+            #   genus 4678 | family 1639 | order 575 | global 492 | kingdom 327 | class 245 | phylum 186
+            # -- so it usually lands on genus, but 3464 classes prefer a coarser level than cascade would
+            # have given them. zero rows 0, min pre-norm row norm 1.561, cos-to-global 0.5631,
+            # top5conf 0.4170; per-class cos 0.9534 to mode=proj at gate 2, i.e. a distinct arm.
+            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL",
+                   "global,kingdom,phylum,class,order,family,genus")).split(",") if x.strip()]
+            ms = int(getattr(self.cfg, "PROMPT_CENTER_GENUS_MIN", 5))
+            if not lvs:
+                raise ValueError("PROMPT_CENTER_LEVEL is empty")
+            C_ = X.shape[0]
+            mus, cnts = [], []
+            for lv in lvs:
+                if lv == "global":
+                    mus.append(X.mean(0).unsqueeze(0).expand_as(X))
+                    cnts.append(torch.full((C_,), float(C_), device=X.device))
+                    continue
+                taxo = self._load_taxonomy()
+                if taxo is None:
+                    raise ValueError("PROMPT_CENTER_MODE=pick with a taxonomy LEVEL needs categories.json")
+                mu = torch.zeros_like(X)
+                cnt = torch.zeros(C_, device=X.device)
+                groups = {}
+                for i, name in enumerate(self.classnames):
+                    key = taxo.get(name, {}).get(lv)
+                    if key is None:
+                        raise ValueError(f"taxonomy level '{lv}' missing for class '{name}'")
+                    groups.setdefault(key, []).append(i)
+                for _, idxs in groups.items():
+                    it = torch.as_tensor(idxs, device=X.device)
+                    mu[it] = X[it].mean(0)
+                    cnt[it] = float(len(idxs))
+                mus.append(mu); cnts.append(cnt)
+            Bm = torch.stack(mus, dim=1)                                   # [C, K, D]
+            ok = torch.stack(cnts, dim=1) >= float(ms)                     # [C, K]
+            align = (F.normalize(Bm, dim=-1) * F.normalize(X, dim=-1).unsqueeze(1)).sum(-1)  # [C, K]
+            align = align.masked_fill(~ok, -2.0)
+            if bool((align.max(1).values <= -2.0).any()):
+                raise ValueError("mode=pick: some class has no level passing the gate; lower "
+                                 "PROMPT_CENTER_GENUS_MIN or include 'global' in PROMPT_CENTER_LEVEL")
+            pick = align.argmax(1)
+            out = X - Bm[torch.arange(C_, device=X.device), pick]
+            nrm = out.norm(dim=-1)
+            census = " ".join(f"{lv}={int((pick == i).sum())}" for i, lv in enumerate(lvs))
+            print(f"[PROMPT_CENTER pick] levels={','.join(lvs)} gate={ms} -> chosen level: {census}"
+                  f" | pre-norm row norm mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} "
+                  f"max={nrm.max().item():.3f}; {int((nrm < 1e-6).sum())}/{C_} rows are ZERO")
         elif mode == "sum_all":                  # ADD UP every level residual, no weights, no knobs:
             #     out = sum_{k} r_k,  r_k = O - mu_k  over k = global, kingdom, phylum, class, order,
             #                                             family, genus   (7 terms)

@@ -41,7 +41,7 @@
 #   proj             all 7                 2      0     6.56/7     0.5271       0.3963
 #   proj_ms5         all 7                 5      0     6.08/7     0.6966       0.4313
 #   proj_nog         genus excluded (6)    2      0     5.93/6     0.7323       0.4749
-#   proj_nog_ms5     genus excluded (6)    5      0     5.62/6     0.7672       0.4859
+#   proj_nog_ms5     genus excluded (6)    5      0     5.80/6     0.7672       0.4859
 #
 # All four are independent of every already-run arm (closest: blend s=0.92 at 0.8918) and mutually
 # distinct -- the tightest pair is proj_nog vs proj_nog_ms5 at per-class cos 0.9592, the widest is
@@ -83,39 +83,59 @@
 #   iNat seed noise (5-ep/scale-30 proxy): All ~0.06, Head ~0.74, Med ~0.16, Few ~0.23.
 #
 #   bash scripts/run_center_proj.sh                       # the 2x2: proj proj_ms5 proj_nog proj_nog_ms5
-#   ARMS="proj_noglob" bash scripts/run_center_proj.sh    # the near-redundant no-global span
+#   ARMS="proj_noglob" bash scripts/run_center_proj0.sh   # the near-redundant no-global span
 #   python scripts/agg_runs.py output/center_proj --sort path
 set -euo pipefail
-GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"proj proj_ms5"}
+GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
+ARMS=${ARMS:-"ridge01 ridge05 pick"}   # the 2x2 (proj proj_ms5 proj_nog proj_nog_ms5) is already run
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_proj"}
 ALL7="global,kingdom,phylum,class,order,family,genus"
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
-# arm -> "<levels> <gate>"
+# arm -> "<mode> <levels> <gate> <ridge>"
 arm_spec(){ case "$1" in
-  proj)      echo "${ALL7} 2" ;;
-  proj_ms5)  echo "${ALL7} 5" ;;
-  proj_nog)     echo "global,kingdom,phylum,class,order,family 2" ;;
-  proj_nog_ms5) echo "global,kingdom,phylum,class,order,family 5" ;;
-  # dropped: span without the global term. mu_kingdom is nearly mu_global (6 groups, Animalia
-  # dominates), so removing global barely changes the span -- per-class cos 0.9848 to proj.
-  proj_noglob)  echo "kingdom,phylum,class,order,family,genus 2" ;;
+  # the 2x2 factorial (already run): proj 80.75, proj_ms5 80.58, proj_nog 80.51, proj_nog_ms5 80.74
+  proj)         echo "proj ${ALL7} 2 0.00000001" ;;
+  proj_ms5)     echo "proj ${ALL7} 5 0.00000001" ;;
+  proj_nog)     echo "proj global,kingdom,phylum,class,order,family 2 0.00000001" ;;
+  proj_nog_ms5) echo "proj global,kingdom,phylum,class,order,family 5 0.00000001" ;;
+  proj_noglob)  echo "proj kingdom,phylum,class,order,family,genus 2 0.00000001" ;;
+  # --- RIDGE: the size gate replaced by smooth regularization (gate switched off at 1) ---
+  # lambda -> 0 is the plain projection, lambda -> inf leaves the prototype untouched. A singleton
+  # level puts O inside the span and blows the coefficients up; the ridge caps that with no cutoff.
+  # Measured with the gate off, zero rows / min pre-norm row norm / cos-to-global / top5conf:
+  #   1e-2  0 / 0.042 / 0.5669 / 0.4039   <- smallest rows are numerically at the degenerate case
+  #   1e-1  0 / 0.392 / 0.7254 / 0.4109
+  #   5e-1  0 / 1.692 / 0.9009 / 0.4654
+  # 1e-2 is NOT queued: a min row norm of 0.042 against a raw row of ~23 is the same near-annihilation
+  # the gate exists to prevent. Distinctness: ridge01 is cos 0.9287 to proj, ridge05 is cos 0.9539 to
+  # sum_all (80.68).
+  ridge01)      echo "proj ${ALL7} 1 0.1" ;;
+  ridge05)      echo "proj ${ALL7} 1 0.5" ;;
+  # --- PICK: one level per class, chosen by ALIGNMENT instead of by group size ---
+  # k* = argmax_k cos(mu_k, O). cascade also picks one level per class, but the deepest one whose group
+  # is big enough -- a coverage rule, not an explanatory one. Same gate, same reason: a singleton group
+  # has mu = O, would score cos = 1, and would zero the row.
+  # Measured at gate 2: genus 4678 | family 1639 | order 575 | global 492 | kingdom 327 | class 245 |
+  # phylum 186 -- 3464 classes prefer a coarser level than cascade would hand them.
+  # zero rows 0, min row norm 1.561, cos-to-global 0.5631, top5conf 0.4170, cos 0.9534 to proj.
+  pick)         echo "pick ${ALL7} 2 0.00000001" ;;
   *) return 1 ;; esac; }
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
 for arm in ${ARMS}; do
   spec=$(arm_spec "${arm}") || { echo "unknown arm ${arm}"; exit 1; }
-  set -- ${spec}; lv="$1"; gate="$2"
+  set -- ${spec}; mode="$1"; lv="$2"; gate="$3"; ridge="$4"
   out="${OUT_ROOT}/inat2018/${arm}"
   completed "${out}" && { echo "  [skip] ${out}"; continue; }
-  echo "=== [inat2018] ${arm}: levels=${lv} gate=${gate} (${INAT_EPOCHS} ep) ==="
+  echo "=== [inat2018] ${arm}: mode=${mode} levels=${lv} gate=${gate} ridge=${ridge} (${INAT_EPOCHS} ep) ==="
   CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d inat2018 -b clip_vit_b16 -m lift+ \
     classifier_init semantic classifier_scale 25 mda True tte True \
-    PROMPT_CENTER True PROMPT_CENTER_MODE proj \
+    PROMPT_CENTER True PROMPT_CENTER_MODE "${mode}" \
     PROMPT_CENTER_LEVEL "${lv}" PROMPT_CENTER_GENUS_MIN "${gate}" \
+    PROMPT_CENTER_PROJ_RIDGE "${ridge}" \
     num_epochs "${INAT_EPOCHS}" seed "${SEED}" output_dir "${out}"
 done
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="

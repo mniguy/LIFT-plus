@@ -51,7 +51,7 @@ _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAI
 
 # --- prototype centering / de-anisotropization (main research direction) ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | taxo_kernel | blend | shrink | sum_all | proj | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | taxo_kernel | blend | shrink | sum_all | proj | pick | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_GAMMA = 0.03   # for mode=taxo_kernel: per-level decay of the taxonomic kernel, w_ij = gamma^d(i,j).
                                 # gamma<=0 selects the limit "mean of the nearest non-empty relatives" (no hyperparameter).
                                 # yacs is type-strict: pass 0.0, not 0.
@@ -66,7 +66,12 @@ _C.PROMPT_CENTER_G = 0.0      # for mode=shrink: weight of an extra global term,
 _C.PROMPT_CENTER_LEVEL = "genus"   # for mode=level/level_keep/blend/shrink/proj (comma-separated list allowed for blend/shrink): which taxonomy level supplies the group mean. global | genus | family | order | class | phylum | kingdom
 _C.PROMPT_CENTER_PCA_K = 1         # for mode=pca: # top principal components to remove (0 == global mean-only)
 _C.PROMPT_CENTER_KAPPA = 20        # for mode=kappa: rarity_c = kappa/(n_c+kappa) (int, yacs-strict; trainer casts to float)
-_C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade/proj: min group size to use its own local mean (else fall to the next level)
+_C.PROMPT_CENTER_PROJ_RIDGE = 0.00000001  # for mode=proj: ridge on the normal equations, scaled by each
+                              # class's own Gram trace. 1e-8 is numerical hygiene only. Raising it turns the
+                              # hard size gate into smooth regularization: lambda -> 0 is the plain
+                              # projection, lambda -> inf leaves the prototype untouched. Pair with
+                              # PROMPT_CENTER_GENUS_MIN 1 to drop the gate entirely.
+_C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade/proj/pick: min group size to use its own local mean (else fall to the next level)
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level's mean is over its still-unassigned members ("residual") or over the whole group incl. deeper-assigned ones ("full")
 _C.PROMPT_CENTER_CASCADE_NOFALL = False  # for mode=cascade: classes that qualify at NO level get
