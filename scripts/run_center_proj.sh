@@ -87,7 +87,7 @@
 #   python scripts/agg_runs.py output/center_proj --sort path
 set -euo pipefail
 GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"ridge05 pick"}   # the 2x2 (proj proj_ms5 proj_nog proj_nog_ms5) is already run
+ARMS=${ARMS:-"pick"}   # the 2x2 (proj proj_ms5 proj_nog proj_nog_ms5) is already run
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_proj"}
 ALL7="global,kingdom,phylum,class,order,family,genus"

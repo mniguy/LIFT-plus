@@ -92,7 +92,7 @@
 #
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"g_bottomup_fo_ms2 g_topdown_ms2"}   # round 1 (cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2) already run
+ARMS=${ARMS:-"g_topdown_ms2"}   # round 1 (cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2) already run
 MS=${MS:-2}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_ms2"}
