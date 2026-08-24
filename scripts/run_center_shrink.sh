@@ -130,7 +130,7 @@
 #   python scripts/agg_runs.py output/center_shrink --sort path
 set -euo pipefail
 GPU_ID=${GPU_ID:-1}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"global kingdom phylum class"}   # first batch (genus family order sumB sumA sumA_mild) already run
+ARMS=${ARMS:-"mix_gf mix_go mixn_gf mixn_go"}   # single levels + sumA/sumB already run
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_shrink"}
 ALL6="genus,family,order,class,phylum,kingdom"
@@ -145,6 +145,34 @@ arm_spec(){ case "$1" in
   phylum)     echo "phylum 0.963 0.0" ;;
   kingdom)    echo "kingdom 0.963 0.0" ;;
   global)     echo "global 0.963 0.0" ;;
+  # ---- WEIGHTED MULTI-LEVEL MIXES (PROMPT_CENTER_LEVEL now accepts "lv:w,lv:w") ----
+  # The single-level results are corners of the family out = O - s * sum_k w_k mu_k: genus 80.85,
+  # order 80.80, phylum 80.75, kingdom 80.71, class 80.65, global 80.58, family 80.58. Every MIXTURE
+  # tried so far (sum_all 80.68, taxo_kernel 80.70/80.60, blend 80.64, proj 80.75) lands BELOW the
+  # genus corner, so these two probe the only unexplored region: right next to that corner.
+  # Measured at s=0.963, cos to pure genus / cos-to-global / top5conf / uncentered classes:
+  #   genus:0.7,family:0.3            0.8310 / 0.7762 / 0.4598 / 461
+  #   genus:0.7,order:0.3             0.8027 / 0.8546 / 0.4700 /  64
+  # WHY ONLY TWO: within a level pair the weight barely matters -- genus:0.7,family:0.3 vs
+  # genus:0.5,family:0.5 is per-class cos 0.9878, and genus:0.7,order:0.3 vs genus:0.5,order:0.5 is
+  # 0.9859. Adding a third level does not open new ground either: genus:0.6,family:0.2,order:0.2 is
+  # cos 0.9892 to genus:0.7,order:0.3 and 0.9911 to genus:0.4,family:0.3,order:0.3. Only the CHOICE
+  # of levels separates arms (family-mix vs order-mix are 0.909-0.942 apart), not the weights.
+  mix_gf)     echo "genus:0.7,family:0.3 0.963 0.0" ;;
+  mix_go)     echo "genus:0.7,order:0.3 0.963 0.0" ;;
+  # ---- the same mixes, but combining the ARMS' OUTPUTS instead of their raw differences ----
+  # mix_* computes O - s*(0.7*mu_genus + 0.3*mu_family), which is identical to summing the raw
+  # per-level differences. mixn_* instead row-normalizes each per-level result FIRST and then sums:
+  #     out = sum_k w_k * normalize(O - s*mu_k)
+  # Normalization is per row, so a level that shrank a given class a lot is upweighted for that class
+  # -- the mixture weights become class-dependent rather than fixed. Still inside span{mu_k, O}
+  # (measured 0.0% outside), but a different point in it. Measured per-class cos between the two:
+  #   uniform over all 7 levels   0.9933   <- with equal weights the distinction nearly vanishes
+  #   genus:0.7,family:0.3        0.9377
+  #   genus:0.7,order:0.3         0.9280
+  # Closest already-run arm for the mixn_* pair is shrink genus (80.85) at cos 0.9676 / 0.9627.
+  mixn_gf)    echo "genus:0.7,family:0.3 0.963 0.0 True" ;;
+  mixn_go)    echo "genus:0.7,order:0.3 0.963 0.0 True" ;;
   sumB)       echo "${ALL6} 0.963 0.0" ;;
   sumB_gf)    echo "genus,family 0.963 0.0" ;;
   sumB_gfo)   echo "genus,family,order 0.963 0.0" ;;
@@ -156,14 +184,15 @@ completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
 for arm in ${ARMS}; do
   spec=$(arm_spec "${arm}") || { echo "unknown arm ${arm}"; exit 1; }
-  set -- ${spec}; lv="$1"; sv="$2"; gv="$3"
+  set -- ${spec}; lv="$1"; sv="$2"; gv="$3"; mn="${4:-False}"
   out="${OUT_ROOT}/inat2018/${arm}"
   completed "${out}" && { echo "  [skip] ${out}"; continue; }
-  echo "=== [inat2018] shrink ${arm}: levels=${lv} s=${sv} g=${gv} (${INAT_EPOCHS} ep) ==="
+  echo "=== [inat2018] shrink ${arm}: levels=${lv} s=${sv} g=${gv} mix_norm=${mn} (${INAT_EPOCHS} ep) ==="
   CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d inat2018 -b clip_vit_b16 -m lift+ \
     classifier_init semantic classifier_scale 25 mda True tte True \
     PROMPT_CENTER True PROMPT_CENTER_MODE shrink \
     PROMPT_CENTER_S "${sv}" PROMPT_CENTER_G "${gv}" PROMPT_CENTER_LEVEL "${lv}" \
+    PROMPT_CENTER_MIX_NORM "${mn}" \
     num_epochs "${INAT_EPOCHS}" seed "${SEED}" output_dir "${out}"
 done
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="

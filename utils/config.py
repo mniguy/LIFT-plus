@@ -58,6 +58,11 @@ _C.PROMPT_CENTER_GAMMA = 0.03   # for mode=taxo_kernel: per-level decay of the t
 _C.PROMPT_CENTER_S = 0.92     # for mode=blend/shrink: out = O - (1-s)*mu_global - s*mu_LEVEL. s=0 is mode=global,
                               # s->1 approaches mode=level. Must be < 1 (s=1 IS mode=level, zero rows and all).
                               # yacs is type-strict: pass 0.0, not 0.
+_C.PROMPT_CENTER_MIX_NORM = False  # for mode=shrink with several levels: normalize each per-level result
+                              # BEFORE the weighted sum, i.e. combine the 7 arms' actual outputs rather than
+                              # their raw differences. Row normalization is per-row, so this makes the
+                              # effective weight on a level depend on how much that level shrank that class.
+                              # Requires PROMPT_CENTER_G = 0.
 _C.PROMPT_CENTER_G = 0.0      # for mode=shrink: weight of an extra global term,
                               #   out = O - g*mu_global - s*mean(mu_LEVELs).
                               # g=0 (default) is plain shrink. g=1 makes the subtracted coefficients

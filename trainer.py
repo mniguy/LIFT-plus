@@ -534,6 +534,37 @@ class Trainer:
         except (ValueError, TypeError, KeyError):
             return None
 
+    def _parse_weighted_levels(self, spec):
+        """'genus' | 'genus,family' | 'genus:0.7,family:0.3'  ->  (levels, weights summing to 1).
+
+        Without any ':' the weight is split evenly, which is the behaviour the earlier comma lists had.
+        Weights are normalized, so 'genus:7,family:3' and 'genus:0.7,family:0.3' are the same thing.
+        Mixing weighted and unweighted entries is rejected rather than guessed at.
+        """
+        lvs, ws = [], []
+        for tok in str(spec).split(","):
+            tok = tok.strip()
+            if not tok:
+                continue
+            if ":" in tok:
+                name, w = tok.split(":", 1)
+                lvs.append(name.strip()); ws.append(float(w))
+            else:
+                lvs.append(tok); ws.append(None)
+        if not lvs:
+            raise ValueError("PROMPT_CENTER_LEVEL is empty")
+        if any(w is None for w in ws):
+            if any(w is not None for w in ws):
+                raise ValueError(f"PROMPT_CENTER_LEVEL '{spec}' mixes weighted and unweighted levels; "
+                                 "give every level a weight or none of them")
+            ws = [1.0 / len(lvs)] * len(lvs)
+        else:
+            tot = sum(ws)
+            if tot <= 0:
+                raise ValueError(f"PROMPT_CENTER_LEVEL '{spec}': weights must sum to something positive")
+            ws = [w / tot for w in ws]
+        return lvs, ws
+
     def _level_mean(self, X, lv, taxo):
         """[C, D] per-class mean of its group at taxonomy level `lv` (self included).
 
@@ -1043,12 +1074,10 @@ class Trainer:
             #   s=0.90 0.7614/0.4502   s~0.92 ~0.74/~0.45 (the 0.72-0.75 winning band)
             #   s=0.95 0.6873/0.4495   s=1.00 0.2302/0.2624 (=level, 3000 zero rows)
             s = float(getattr(self.cfg, "PROMPT_CENTER_S", 0.92))
-            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus")).split(",") if x.strip()]
+            lvs, lws = self._parse_weighted_levels(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus"))
             if not (0.0 <= s < 1.0):
                 raise ValueError(f"PROMPT_CENTER_S must satisfy 0 <= s < 1 (got {s}); "
                                  "s=1 is PROMPT_CENTER_MODE=level, which produces zero rows")
-            if not lvs:
-                raise ValueError("PROMPT_CENTER_LEVEL is empty")
             mu_g = X.mean(0).unsqueeze(0).expand_as(X)
             # PROMPT_CENTER_LEVEL may list several levels; the weight s is split evenly over them, so
             # the subtracted vector stays a proper weighted average and the coefficients still sum to 1.
@@ -1062,18 +1091,18 @@ class Trainer:
             # mode=sum_all, i.e. the same arm; "family,genus" is the one combination that is genuinely
             # off every curve already run (<= 0.94 to all of them).
             mu_l = torch.zeros_like(X)
-            for lv in lvs:
+            for lv, w in zip(lvs, lws):
                 if lv == "global":
-                    mu_l = mu_l + mu_g
+                    mu_l = mu_l + w * mu_g
                 else:
                     taxo = self._load_taxonomy()
                     if taxo is None:
                         raise ValueError("PROMPT_CENTER_MODE=blend with a taxonomy LEVEL needs categories.json")
-                    mu_l = mu_l + self._level_mean(X, lv, taxo)
-            mu_l = mu_l / float(len(lvs))
+                    mu_l = mu_l + w * self._level_mean(X, lv, taxo)
             out = X - (1.0 - s) * mu_g - s * mu_l
             nrm = out.norm(dim=-1)
-            print(f"[PROMPT_CENTER blend] s={s} levels={','.join(lvs)} -> pre-norm row norm "
+            print(f"[PROMPT_CENTER blend] s={s} levels="
+                  f"{','.join(f'{l}:{w:.3f}' for l, w in zip(lvs, lws))} -> pre-norm row norm "
                   f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
                   f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO (must be 0 for s < 1)")
         elif mode == "shrink":                   # PARTIAL centering with NO global term:
@@ -1100,21 +1129,19 @@ class Trainer:
             # one question alone: should a class with no relatives get global centering, or nothing?
             # The two inits are per-class cos 0.8851, i.e. genuinely different arms.
             s = float(getattr(self.cfg, "PROMPT_CENTER_S", 0.92))
-            lvs = [x.strip() for x in str(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus")).split(",") if x.strip()]
+            lvs, lws = self._parse_weighted_levels(getattr(self.cfg, "PROMPT_CENTER_LEVEL", "genus"))
             if not (0.0 <= s < 1.0):
                 raise ValueError(f"PROMPT_CENTER_S must satisfy 0 <= s < 1 (got {s}); "
                                  "s=1 is PROMPT_CENTER_MODE=level, which produces zero rows")
-            if not lvs:
-                raise ValueError("PROMPT_CENTER_LEVEL is empty")
             mu_l = torch.zeros_like(X)
-            for lv in lvs:
+            for lv, w in zip(lvs, lws):
                 if lv == "global":
-                    mu_l = mu_l + X.mean(0).unsqueeze(0).expand_as(X)
+                    mu_l = mu_l + w * X.mean(0).unsqueeze(0).expand_as(X)
                 else:
                     taxo = self._load_taxonomy()
                     if taxo is None:
                         raise ValueError("PROMPT_CENTER_MODE=shrink with a taxonomy LEVEL needs categories.json")
-                    mu_l = mu_l + self._level_mean(X, lv, taxo)
+                    mu_l = mu_l + w * self._level_mean(X, lv, taxo)
             # PROMPT_CENTER_G adds an independent global term:  out = O - g*mu_global - s*mean(mu_LEVELs).
             # g = 0 is plain shrink. g = 1 is "sum_k (O - mu_global - s*mu_k)" written in closed form,
             # where the subtracted coefficients sum to 1 + s > 1 -- deliberate OVER-centering, which
@@ -1124,16 +1151,37 @@ class Trainer:
             # (mean cos to raw -0.167). Past roughly s=0.5 the classifier row for a species points away
             # from that species. The log below reports this count so it cannot be missed.
             g = float(getattr(self.cfg, "PROMPT_CENTER_G", 0.0))
-            out = X - s * (mu_l / float(len(lvs)))
-            if g != 0.0:
-                out = out - g * X.mean(0).unsqueeze(0).expand_as(X)
+            # PROMPT_CENTER_MIX_NORM: what exactly gets summed when several levels are listed.
+            #   False (default): out = O - s * sum_k w_k mu_k, which is identical to summing the raw
+            #     per-level differences sum_k w_k (O - s mu_k) because the weights sum to 1.
+            #   True: each per-level result is ROW-NORMALIZED first, i.e. the seven arms' ACTUAL outputs
+            #     are combined rather than their raw differences. Normalization is per row, so a level
+            #     that shrank a given class a lot gets upweighted for that class -- the mixture weights
+            #     become class-dependent instead of fixed. Still inside span{mu_k, O} (measured 0.0%
+            #     outside), but a different point in it: with uniform weights the two agree (per-class
+            #     cos 0.9933), with genus:0.7,family:0.3 they are 0.9377 apart and with
+            #     genus:0.7,order:0.3 0.9280 apart.
+            mix_norm = bool(getattr(self.cfg, "PROMPT_CENTER_MIX_NORM", False))
+            if mix_norm:
+                if g != 0.0:
+                    raise ValueError("PROMPT_CENTER_MIX_NORM=True requires PROMPT_CENTER_G=0")
+                out = torch.zeros_like(X)
+                for lv, w in zip(lvs, lws):
+                    mu_k = (X.mean(0).unsqueeze(0).expand_as(X) if lv == "global"
+                            else self._level_mean(X, lv, self._load_taxonomy()))
+                    out = out + w * F.normalize(X - s * mu_k, dim=-1)
+            else:
+                out = X - s * mu_l
+                if g != 0.0:
+                    out = out - g * X.mean(0).unsqueeze(0).expand_as(X)
             nrm = out.norm(dim=-1)
             # how many classes came out pointing exactly where they started -- the inhomogeneity above,
             # surfaced in the log rather than left to be discovered from the accuracies
             cos_raw = (F.normalize(out, dim=-1) * F.normalize(X, dim=-1)).sum(-1)
             untouched = int((cos_raw > 0.9999).sum())
             flipped = int((cos_raw < 0).sum())
-            print(f"[PROMPT_CENTER shrink] s={s} g={g} levels={','.join(lvs)} -> pre-norm row norm "
+            print(f"[PROMPT_CENTER shrink] s={s} g={g} mix_norm={mix_norm} levels="
+                  f"{','.join(f'{l}:{w:.3f}' for l, w in zip(lvs, lws))} -> pre-norm row norm "
                   f"mean={nrm.mean().item():.3f} min={nrm.min().item():.3f} max={nrm.max().item():.3f}; "
                   f"{int((nrm < 1e-6).sum())}/{X.shape[0]} rows are ZERO; "
                   f"{untouched}/{X.shape[0]} rows are UNCENTERED (identical direction to raw O); "

@@ -92,13 +92,13 @@
 #
 set -euo pipefail
 GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
-ARMS=${ARMS:-"g_bottomup_rn_ms2 g_bottomup_fo_ms2 g_topdown_ms2"}   # round 1 (cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2) already run
+ARMS=${ARMS:-"g_bottomup_fo_ms2 g_topdown_ms2"}   # round 1 (cascade_ms2 g_bottomup_ms2 bottomup3_gL_ms2 bottomup3_rn_ms2) already run
 MS=${MS:-2}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 OUT_ROOT=${OUT_ROOT:-"center_ms2"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
-# arm -> "<mode> <levels> <flag>".  The gate value comes from MS so all arms move together.
+# arm -> "<mode> <levels> <flag> [gate]".  The 4th field is optional; without it the arm uses MS.  The gate value comes from MS so all arms move together.
 # <flag> means different things per mode, because the two modes need different options:
 #   cascade -> PROMPT_CENTER_CASCADE_NOFALL : what a class that qualifies at NO level receives.
 #              True = subtract nothing (raw O), False = subtract the global mean.
@@ -129,6 +129,22 @@ arm_spec(){ case "$1" in
   # but that pruning rule no longer holds: this batch produced a 1.86 gap between two arms only
   # cos 0.9126 apart, against a historical max of 0.28 in that band.
   g_topdown_ms2)     echo "nested  global,order,family,genus   False" ;;
+  # ---- the GATE AXIS on the winning chain (global -> genus -> family -> order) ----
+  # This is the one knob that has actually moved results: ms=5 gave 80.93 and ms=2 gave 81.24, the
+  # project best. The gate is also what makes sequential subtraction NONLINEAR -- without it the chain
+  # telescopes into "subtract the finest mean" and stays inside span{mu_k}. Measured on this chain,
+  # genus coverage / zero rows / fraction of the result OUTSIDE span{mu_k} / cos-to-global:
+  #   ms=1  100.0% / 2657 zero / 6.3% / 0.2287   <- UNUSABLE, see below
+  #   ms=2   63.2% /    0     / 13.2% / 0.5131   (81.24)
+  #   ms=3   46.2% /    0     / 12.2% / 0.6026
+  #   ms=5   28.0% /    0     /  9.4% / 0.7030   (80.93)
+  #   ms=10  12.9% /    0     /  6.0% / 0.8039
+  # ms=1 is NOT offered: a class alone in its genus has its row zeroed at the genus step, and if every
+  # member of its family is also a genus singleton the family mean is zero too, so the row never
+  # recovers -- 2657 dead rows, the same failure that gave mode=level an accuracy of 0.01.
+  # ms3 is cos 0.8697 to ms2 and 0.8626 to ms5; ms10 is 0.8716 to ms5. Both are independent arms.
+  g_bottomup_ms3)    echo "nested  global,genus,family,order   False 3" ;;
+  g_bottomup_ms10)   echo "nested  global,genus,family,order   False 10" ;;
   # the gate axis needs MS=3 on the command line, e.g.
   #   MS=3 ARMS="g_bottomup_ms2 bottomup3_gL_ms2" bash scripts/run_center_ms2.sh
   # (ms=5 and ms=2 are already measured for both; output dirs would collide, so set OUT_ROOT too)
@@ -148,7 +164,7 @@ completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 for arm in ${ARMS}; do
   spec=$(arm_spec "${arm}") || { echo "unknown arm ${arm}"; exit 1; }
   # 3rd field: NOFALL when mode=cascade, RENORM when mode=nested (see arm_spec)
-  set -- ${spec}; mode="$1"; lv="$2"; flag="$3"
+  set -- ${spec}; mode="$1"; lv="$2"; flag="$3"; gate="${4:-$MS}"
   out="${OUT_ROOT}/inat2018/${arm}"
   completed "${out}" && { echo "  [skip] ${out}"; continue; }
   if [ "${mode}" = "cascade" ]; then
@@ -159,10 +175,10 @@ for arm in ${ARMS}; do
            PROMPT_CENTER_NESTED_MEAN recompute PROMPT_CENTER_NESTED_RENORM "${flag}")
   fi
     if [ "${mode}" = "cascade" ]; then flagname="nofall"; else flagname="renorm"; fi
-  echo "=== [inat2018] ${arm}: mode=${mode} levels=${lv} min_size=${MS} ${flagname}=${flag} (${INAT_EPOCHS} ep) ==="
+  echo "=== [inat2018] ${arm}: mode=${mode} levels=${lv} min_size=${gate} ${flagname}=${flag} (${INAT_EPOCHS} ep) ==="
   CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d inat2018 -b clip_vit_b16 -m lift+ \
     classifier_init semantic classifier_scale 25 mda True tte True \
-    PROMPT_CENTER True "${extra[@]}" PROMPT_CENTER_GENUS_MIN "${MS}" \
+    PROMPT_CENTER True "${extra[@]}" PROMPT_CENTER_GENUS_MIN "${gate}" \
     num_epochs "${INAT_EPOCHS}" seed "${SEED}" output_dir "${out}"
 done
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="
