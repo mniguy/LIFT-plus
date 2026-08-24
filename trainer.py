@@ -583,6 +583,30 @@ class Trainer:
             mu[idxs_t] = X[idxs_t].mean(0)
         return mu
 
+    def _group_cohesion(self, X, groups):
+        """Per-group mean pairwise cosine among its members, plus the size-weighted level mean.
+
+        Measured on X's row DIRECTIONS, so it reads as "what fraction of this group's spread is one
+        SHARED direction rather than per-class detail" -- exactly the quantity in fig_residual_shape
+        (iNat, after global centering: genus .834, family .167, order .106). A group with m < 2 has
+        no pair to average over and gets 0.0, which is what drives its shrinkage weight to 0 in
+        mode=cohesion.
+        """
+        Xn = F.normalize(X, dim=-1)
+        rho, num, den = {}, 0.0, 0.0
+        for key, idxs in groups.items():
+            m = len(idxs)
+            if m < 2:
+                rho[key] = 0.0
+                continue
+            s = Xn[torch.as_tensor(idxs, device=X.device)].sum(0)
+            pair_sum = (s.dot(s).item() - m) / 2.0        # sum over the C(m,2) within-group pairs
+            npair = m * (m - 1) / 2.0
+            rho[key] = pair_sum / npair
+            num += pair_sum
+            den += npair
+        return rho, (num / den if den > 0 else 0.0)
+
     def _center_prototypes(self, feats):
         """#3: de-anisotropize prompt prototypes (subtract a centroid / whiten). feats: [C, D] unit rows."""
         mode = getattr(self.cfg, "PROMPT_CENTER_MODE", "global")
@@ -1450,6 +1474,102 @@ class Trainer:
                 Xc = Xc - (Xc @ V) @ V.T           # project them out
             out = Xc
         # --- J negative controls: look like centering but do NOT remove the shared direction ---
+        elif mode == "cohesion":                      # LEAVE-ONE-OUT local mean, weighted by the group's OWN
+            # cohesion. The goal is to DELETE PROMPT_CENTER_GENUS_MIN, not to tune it.
+            #
+            # That gate exists because a singleton's group mean IS its own prototype, so O - mu = 0:
+            # a zero classifier row, which detonates CosineClassifier. Two changes kill that failure
+            # at the root instead of gating around it:
+            #   (1) the mean is taken over the OTHER members, so it never contains O itself;
+            #   (2) w = rho(m-1) / (rho(m-1) + 1 - rho) is EXACTLY 0 at m = 1 -- numerator 0,
+            #       denominator 1 - rho > 0 -- with no branch and no division by zero.
+            # A singleton therefore keeps its globally-centered vector untouched, and since the leave-one-out
+            # mean of a singleton is also identically 0, no row can reach the origin by either path.
+            # On iNat this lets genus centering reach 63.2% of classes instead of GENUS_MIN=5's 28.0%,
+            # and the classes it newly admits are not marginal: genus groups with m=2 still measure
+            # rho .726, against family's .167.
+            #
+            # WHY COHESION IS THE LOAD-BEARING TERM (vs the size-only reliability weighting that
+            # run_center_proj.sh measured and dropped): that scheme used w = (n-1)/(n-1+tau) with a
+            # FIXED tau, ranking levels purely by group size, and so handed genus the SMALLEST weight
+            # (.046 at tau=4) -- backwards, since genus is the one level on iNat with anything worth
+            # subtracting. This is the same functional shape with tau = (1 - rho)/rho, i.e. the
+            # reliability constant is MEASURED per group instead of tuned. That flips genus to
+            # .83-.98 while leaving the flat coarse levels low, which is the opposite ordering.
+            levels = [s.strip() for s in
+                      str(getattr(self.cfg, "PROMPT_CENTER_COHESION_LEVELS", "genus")).split(",") if s.strip()]
+            if not levels:
+                raise ValueError("PROMPT_CENTER_COHESION_LEVELS is empty")
+            wmode = str(getattr(self.cfg, "PROMPT_CENTER_COHESION_W", "shrink"))
+            if wmode not in ("one", "shrink", "cliff"):
+                raise ValueError(f"unknown PROMPT_CENTER_COHESION_W: {wmode}")
+            rho_mode = str(getattr(self.cfg, "PROMPT_CENTER_COHESION_RHO", "group"))
+            if rho_mode not in ("group", "level"):
+                raise ValueError(f"unknown PROMPT_CENTER_COHESION_RHO: {rho_mode}")
+            taxo = self._load_taxonomy()
+            if taxo is None:
+                raise ValueError("PROMPT_CENTER_MODE=cohesion needs a dataset with categories.json")
+            chains = [["genus", "family", "order", "class", "phylum", "kingdom"],
+                      ["h1", "h2", "h3", "h4", "h5", "h6", "h7", "h8"]]
+
+            def groups_at(level):
+                g = {}
+                for i, name in enumerate(self.classnames):
+                    key = taxo.get(name, {}).get(level)
+                    if key is None:
+                        raise ValueError(f"taxonomy level '{level}' missing for class '{name}'")
+                    g.setdefault(key, []).append(i)
+                return g
+
+            out = X - X.mean(0)                  # w = 0 IS plain global centering, so start from it
+            for lv in levels:
+                src_lv = out.clone()             # groups at one level are disjoint, but read from a
+                                                 # frozen copy so nothing can depend on group order
+                groups = groups_at(lv)
+                rho_g, rho_lv = self._group_cohesion(src_lv, groups)
+                # mode=cliff credits a level only with the cohesion its PARENT does not already
+                # explain. A smooth level-to-level decay (ImageNet h1/h2/h3: 1.45x per hop) is the
+                # semantic hierarchy itself, i.e. signal; a cliff (iNat genus->family: 4.98x) is a
+                # nuisance cluster that lives at one specific scale and is safe to remove.
+                rho_par = 0.0
+                if wmode == "cliff":
+                    par = None
+                    for ch in chains:
+                        if lv in ch and ch.index(lv) + 1 < len(ch):
+                            par = ch[ch.index(lv) + 1]
+                            break
+                    if par is not None:
+                        _, rho_par = self._group_cohesion(src_lv, groups_at(par))
+                ws = []
+                for key, idxs in groups.items():
+                    m = len(idxs)
+                    r = rho_g[key] if rho_mode == "group" else rho_lv
+                    if wmode == "cliff":
+                        r = r - rho_par
+                    r = min(max(r, 0.0), 1.0 - 1e-6)
+                    if wmode == "one":
+                        w = 1.0 if m >= 2 else 0.0
+                    else:
+                        a = r * (m - 1)
+                        w = a / (a + 1.0 - r)    # 0 at m = 1; no branch, no 0/0
+                    idxs_t = torch.as_tensor(idxs, device=X.device)
+                    G = src_lv[idxs_t]
+                    loo = (G.sum(0, keepdim=True) - G) / max(m - 1, 1)   # m = 1 -> exactly 0
+                    out[idxs_t] = G - w * loo
+                    ws.extend([w] * m)
+                ws_t = torch.tensor(ws)
+                print(f"[PROMPT_CENTER cohesion] level={lv} w={wmode} rho={rho_mode} "
+                      f"rho_level={rho_lv:.3f}"
+                      + (f" rho_parent={rho_par:.3f}" if wmode == "cliff" else "")
+                      + f" -> mean w={ws_t.mean().item():.3f}, "
+                      f"w>0 for {int((ws_t > 0).sum())}/{len(ws)} classes")
+            rn = out.norm(dim=-1)
+            if rn.min().item() <= 1e-6:          # the failure GENUS_MIN used to gate. leave-one-out makes it
+                                                 # unreachable, so this firing means something is wrong
+                raise RuntimeError(f"PROMPT_CENTER_MODE=cohesion produced "
+                                   f"{int((rn <= 1e-6).sum())} zero rows")
+            print(f"[PROMPT_CENTER cohesion] min row norm {rn.min().item():.4f} "
+                  f"(global-centered baseline {(X - X.mean(0)).norm(dim=-1).min().item():.4f})")
         elif mode == "randdir":                  # subtract a RANDOM direction of matched norm (is it really mu?)
             gen = torch.Generator(device=X.device).manual_seed(int(getattr(self.cfg, "seed", 0)))
             u = F.normalize(torch.randn(X.shape[1], generator=gen, device=X.device), dim=0)

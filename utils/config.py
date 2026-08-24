@@ -51,7 +51,7 @@ _C.EVAL_CENTER = False        # H_B test: at TEST time, de-anisotropize the TRAI
 
 # --- prototype centering / de-anisotropization (main research direction) ---
 _C.PROMPT_CENTER = False        # semantic init: de-anisotropize prototypes
-_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | taxo_kernel | blend | shrink | sum_all | proj | pick | cluster | hcluster | knn | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
+_C.PROMPT_CENTER_MODE = "global"  # I: global | group | tail | kappa | logcount | genus | genus_lex | diff_init | cascade | cascade_lex | nested | level | level_keep | taxo_kernel | blend | shrink | sum_all | proj | pick | cluster | hcluster | knn | cohesion | std | whiten | pca ; J-controls: randdir | headonly | fewonly | perclass_rand
 _C.PROMPT_CENTER_GAMMA = 0.03   # for mode=taxo_kernel: per-level decay of the taxonomic kernel, w_ij = gamma^d(i,j).
                                 # gamma<=0 selects the limit "mean of the nearest non-empty relatives" (no hyperparameter).
                                 # yacs is type-strict: pass 0.0, not 0.
@@ -77,6 +77,20 @@ _C.PROMPT_CENTER_PROJ_RIDGE = 0.00000001  # for mode=proj: ridge on the normal e
                               # projection, lambda -> inf leaves the prototype untouched. Pair with
                               # PROMPT_CENTER_GENUS_MIN 1 to drop the gate entirely.
 _C.PROMPT_CENTER_GENUS_MIN = 5     # for mode=genus/cascade/proj/pick: min group size to use its own local mean (else fall to the next level)
+_C.PROMPT_CENTER_COHESION_LEVELS = "genus"  # for mode=cohesion: taxonomy level(s) whose LEAVE-ONE-OUT group mean is
+                              # subtracted, applied in order on the running residual. One level is the
+                              # intended setting; a comma list is the nested variant. mode=cohesion has no
+                              # GENUS_MIN and no fallback chain -- a group too small or too incoherent to
+                              # be worth subtracting gets weight 0, which leaves plain global centering.
+_C.PROMPT_CENTER_COHESION_W = "shrink"  # for mode=cohesion: one (w=1 whenever m>=2 -- isolates the coverage gain of
+                              # dropping the size gate, with no shrinkage) | shrink (w = rho(m-1)/(rho(m-1)+1-rho),
+                              # the MSE-optimal weight when a group is a shared direction of strength rho plus
+                              # per-class detail) | cliff (same formula on rho - rho_parent, crediting a level
+                              # only with the cohesion its parent does not already explain)
+_C.PROMPT_CENTER_COHESION_RHO = "group"  # for mode=cohesion: cohesion estimated per GROUP (its own pairwise cosine --
+                              # tracks the real m-dependence, iNat genus .726 at m=2 rising to .865 at m>=10)
+                              # or per LEVEL (one size-weighted scalar, immune to an m=2 estimate being a
+                              # single pair)
 _C.PROMPT_CENTER_CASCADE = "genus,family,order"  # for mode=cascade: taxonomy levels tried deepest-first before global
 _C.PROMPT_CENTER_CASCADE_MEAN = "residual"  # for mode=cascade: a fallback level's mean is over its still-unassigned members ("residual") or over the whole group incl. deeper-assigned ones ("full")
 _C.PROMPT_CENTER_CASCADE_NOFALL = False  # for mode=cascade: classes that qualify at NO level get
