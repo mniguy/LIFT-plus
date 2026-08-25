@@ -897,9 +897,23 @@ class Trainer:
             # levels stop collapsing. Measured offline on the real prototypes, it also repairs
             # bottom-up's redundant subtraction: within-genus cosine 0.2563 -> 0.0749.
             renorm = bool(getattr(self.cfg, "PROMPT_CENTER_NESTED_RENORM", False))
-            if min_size < 2:
-                raise ValueError("PROMPT_CENTER_GENUS_MIN must be >= 2 for mode=nested: a singleton "
-                                 "group's mean is the class itself, so subtracting it zeroes the row")
+            # PARTIAL subtraction, mode=shrink's s axis applied to every link of the chain:
+            #     X <- X - s * mu_level        (s = 1 is the full mean, the original behaviour)
+            # Two things fall out of s < 1. (a) It is zero-row-safe, so the min_size gate below is no
+            # longer needed: a singleton's group mean is its own row, giving (1 - s) * X, which is a
+            # positive rescale, and with renorm on it is EXACTLY the identity -- the class simply
+            # passes through that level untouched instead of being zeroed. (b) It repairs mode=shrink's
+            # documented split: there, singletons keep cos-to-raw 1.0000 at every s (36.8% of iNat
+            # receives no centering at all), but a chain that STARTS with the "global" pseudo-level
+            # centers every class first, since that level has no group and no gate.
+            s_nested = float(getattr(self.cfg, "PROMPT_CENTER_NESTED_S", 1.0))
+            if not (0.0 < s_nested <= 1.0):
+                raise ValueError(f"PROMPT_CENTER_NESTED_S must satisfy 0 < s <= 1 (got {s_nested})")
+            if min_size < 2 and s_nested >= 1.0:
+                raise ValueError("PROMPT_CENTER_GENUS_MIN must be >= 2 for mode=nested at "
+                                 "PROMPT_CENTER_NESTED_S=1: a singleton group's mean is the class "
+                                 "itself, so subtracting it zeroes the row. Set NESTED_S < 1 to make "
+                                 "the subtraction partial, which is zero-row-safe at any group size.")
             taxo = self._load_taxonomy()
             if taxo is None:
                 raise ValueError("PROMPT_CENTER_MODE=nested needs a dataset with categories.json (iNat only)")
@@ -913,7 +927,7 @@ class Trainer:
                     n_hit = X.shape[0]
                     mag = shift.norm(dim=-1)
                     used.append(f"global(n={n_hit},|mu|={mag.mean().item():.3f})")
-                    X_out = X_out - shift
+                    X_out = X_out - s_nested * shift
                     if renorm:
                         X_out = F.normalize(X_out, dim=-1)
                     continue
@@ -932,11 +946,11 @@ class Trainer:
                 mag = shift.norm(dim=-1)
                 mag_hit = mag[mag > 0].mean().item() if bool((mag > 0).any()) else 0.0
                 used.append(f"{lv}(n={n_hit},|mu|={mag_hit:.3f})")
-                X_out = X_out - shift
+                X_out = X_out - s_nested * shift
                 if renorm:
                     X_out = F.normalize(X_out, dim=-1)
             print(f"[PROMPT_CENTER nested] levels={levels} min_size={min_size} mean={mean_mode} "
-                  f"renorm={renorm} -> "
+                  f"s={s_nested} renorm={renorm} -> "
                   + " ".join(used)
                   + f" | pre-norm row norm mean={X_out.norm(dim=-1).mean().item():.3f} "
                     f"min={X_out.norm(dim=-1).min().item():.3f} max={X_out.norm(dim=-1).max().item():.3f}")

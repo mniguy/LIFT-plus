@@ -104,6 +104,11 @@ _C.PROMPT_CENTER_KNN_K = 20        # for mode=knn: # nearest-neighbor classes wh
 _C.PROMPT_CENTER_HCLUSTER_SIZES = (16, 64, 256)  # for mode=hcluster: target AVG classes per cluster, finest->coarsest; cuts ONE agglomerative dendrogram at k=round(C/size) for each, so levels nest like genus/family/order do. MUST be a tuple, not a str: yacs literal_eval's the CLI value, and "16,64,256" parses to a tuple, so a str default would raise a type mismatch (unlike the bare-word level lists below, which literal_eval rejects and so stay str)
 _C.PROMPT_CENTER_NESTED_LEVELS = "order,family,genus"  # for mode=nested: taxonomy levels centered REPEATEDLY, in the order given -- that order is the direction ("order,family,genus"=top-down, "genus,family,order"=bottom-up)
 _C.PROMPT_CENTER_NESTED_MEAN = "recompute"  # for mode=nested: each level's mean is taken on the current residual ("recompute", a hierarchical decomposition) or on the raw prototypes and summed ("static", the deliberate over-subtraction control)
+_C.PROMPT_CENTER_NESTED_S = 1.0    # for mode=nested: PARTIAL subtraction per level, X <- X - s*mu_level.
+                              # s=1 (default) is the original full-mean chain and needs GENUS_MIN>=2.
+                              # s<1 is zero-row-safe at ANY group size, so the gate can be dropped:
+                              # a singleton gets (1-s)*X, a positive rescale that renorm undoes exactly,
+                              # i.e. it passes through the level untouched rather than being zeroed.
 _C.PROMPT_CENTER_NESTED_RENORM = False  # for mode=nested: row-renormalize after EVERY level, not just at the end. Breaks the telescoping identity that otherwise makes coarse-to-fine subtraction collapse to "subtract the finest group mean"
 
 _C.v = CN()
