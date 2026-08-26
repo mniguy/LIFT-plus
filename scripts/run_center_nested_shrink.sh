@@ -78,23 +78,47 @@ GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
-# global,genus,family is IN the grid at rnFalse: it is the renorm control for the best arm
-# this family has produced, global,genus,family s=0.963 gate=1 rnTrue at All 81.02. Without
-# it that 81.02 differs from g_bottomup_gf (80.95, same chain) in s, renorm AND gate at once.
-# The 4-level chain stays deferred -- it is cos 0.988-0.994 to the 3-level one.
-#   add it back:  CHAINS="$CHAINS_DEFERRED" bash scripts/run_center_nested_shrink.sh
-CHAINS_DEFERRED="global,genus,family,order"   # the 4-level chain, deferred for now
-CHAINS=${CHAINS:-"global,genus genus,global genus,order global,genus,family"}
 # s=0.7 is DEFERRED. It maximizes the chain-LENGTH contrast (see the table above), but this
 # grid is about chain SHAPE at a fixed s, and 0.963 is the value the single-level shrink
 # sweep used, so those runs are its controls.  add it back with:  S_VALUES="0.963 0.7"
 S_VALUES=${S_VALUES:-"0.963"}
-# RENORM is an AXIS, not a constant. The evidence is genuinely mixed and depends on the rest
-# of the config: at s=1/gate=5 it HURT (g_bottomup 80.93 off vs g_bottomup_rn 80.68 on) but
-# helped on the gate-free chain (bottomup3 80.81 off vs bottomup3_rn 80.97 on), and the best
-# arm this grid has produced so far, global,genus,family s=0.963 gate=1 at All 81.02, has it
-# ON. Do not fix it by argument; measure it at the (s, gate) you are actually running.
-RENORM_VALUES=${RENORM_VALUES:-"False"}
+
+# ARMS: one entry per run, "chain|renorm". NOT a full cross of chains x renorm -- renorm is set
+# per arm because the long chain REQUIRES it (see below) while the 3-level chain uses it as a
+# paired control against a run that already exists.
+#
+#   global,genus,family|False
+#       the renorm probe. Its rnTrue twin already ran at All 81.02 (this family's best) and the
+#       two inits are cos 0.9715, the widest renorm gap among the candidates. Every other pairing
+#       is too close to resolve anything: global,genus is 0.9967 across renorm, the 7-level chain
+#       0.9907.
+#   global,kingdom,phylum,class,order,family,genus|True
+#       the intuitive top-down order, coarse to fine. renorm=True is MANDATORY here: with it off,
+#       a class alone in every group is multiplied by (1-s) at each of the six taxonomic levels,
+#       i.e. (1-0.963)^6 = 2.6e-9, and 9 rows measured below norm 1e-4 (5 below 1e-6). renorm
+#       restores unit norm between levels and the collapse disappears entirely.
+#       Direction is NOT the question here -- at s < 1 top-down and bottom-up land at cos 0.997
+#       (0.999 at s=0.8). It is worth running because it SPREADS the work across levels instead of
+#       dumping it on genus (|mu| per level: kingdom 1.27 phylum 0.46 class 0.46 order 1.14
+#       family 1.69 genus 3.15, versus bottom-up genus 4.50 then 0.11, 0.003, ~0, ~0, ~0), which
+#       is the version that can actually be explained as a hierarchical decomposition.
+#   genus,order|True
+#       does the level after genus have to be its immediate parent? Most independent of the arms
+#       already run (max cos 0.9623).
+#
+# ALREADY RUNNING ELSEWHERE, not repeated here (the completed() guard would skip them anyway):
+#   global,genus|False   genus,order|False   global,genus,family|False
+# The last of those is the renorm control for the 81.02 arm; add them back by listing them in ARMS.
+#
+# DROPPED, with the measurement that killed each:
+#   genus,global                      cos 1.0000 to global,genus -- the global mean is one constant
+#                                     vector, so with no gate the order cannot matter. Same arm.
+#   global,kingdom,order,family,genus cos 0.9994 to the 7-level chain. phylum and class branch ~1:1
+#                                     (14 of 25 phyla contain a single class), so they were already
+#                                     doing nothing; dropping them changes nothing either.
+#   global,genus|False                cos 0.9967 to its rnTrue twin. Cannot resolve renorm.
+#   global,genus,family,order         cos 0.988-0.994 to the 3-level chain; already running as rnTrue.
+ARMS=${ARMS:-"global,kingdom,phylum,class,order,family,genus|True"}
 OUT_ROOT=${OUT_ROOT:-"center_nestshrink25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
@@ -110,12 +134,11 @@ completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
 for data in ${DATASETS}; do
   if [ "${data}" = "inat2018" ]; then ep=${INAT_EPOCHS}; else ep=${EPOCHS}; fi
-  for chain in ${CHAINS}; do
-    # name by COMPOSITION, not by length: genus,global and global,genus are both 2 levels but are
-    # different arms (the chain order decides which level absorbs the global component first).
+  for spec in ${ARMS}; do
+    chain="${spec%|*}"; rn="${spec#*|}"
+    # name by COMPOSITION and renorm, never by chain length: several distinct arms share a length.
     tag=$(echo "${chain}" | tr ',' '_')
     for s in ${S_VALUES}; do
-      for rn in ${RENORM_VALUES}; do
       out="${OUT_ROOT}/${data}/${tag}_s${s}_rn${rn}"
       completed "${out}" && { echo "  [skip] ${out}"; continue; }
       echo "=== [${data}] ${tag}_s${s}_rn${rn} (${ep} ep) ==="
@@ -124,7 +147,6 @@ for data in ${DATASETS}; do
         PROMPT_CENTER_NESTED_LEVELS "${chain}" PROMPT_CENTER_NESTED_S "${s}" \
         PROMPT_CENTER_NESTED_RENORM "${rn}" \
         seed "${SEED}" output_dir "${out}"
-      done
     done
   done
 done
