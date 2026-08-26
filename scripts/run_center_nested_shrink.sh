@@ -1,56 +1,75 @@
 #!/bin/bash
 #
-# CHAINED PARTIAL centering with renorm between levels (2026-08-25).
+# CHAINED PARTIAL centering, no renorm anywhere (2026-08-26).
 #
-#     X <- normalize( X - s * mu_level )     for each level in the chain, in order
+#     X <- X - s * mu_level        for each level in the chain, in order, mean recomputed on the residual
 #
-# i.e. mode=shrink's partial-subtraction axis (s) applied to every link of mode=nested's chain,
-# with PROMPT_CENTER_NESTED_RENORM breaking the telescoping identity in between.
+# i.e. mode=shrink's partial-subtraction axis (s) applied to every link of mode=nested's chain.
+# This is g_bottomup_ms2 -- the current project best -- with the subtraction made partial.
 #
-# ============================ WHY THIS IS NOT AN ARM ALREADY RUN ============================
-# Every multi-level arm measured so far MIXES the level means and subtracts the mixture ONCE:
-#   sumA / sumB / blend / taxo_kernel / sum_all   out = O - sum_k w_k mu_k
-# This one SUBTRACTS SEQUENTIALLY and RENORMALIZES BETWEEN LEVELS, which matters because with a
-# single trailing normalize the chain telescopes exactly onto "subtract the finest level's mean"
-# (verified in the repo: per-class cos(topdown3, cascade) = 1.0000). Row rescaling is nonlinear and
-# per-row, so the levels stop collapsing into one another.
+# ============================ THE ARM THIS BUILDS ON ============================
+# Ranked by All (NOT by Few: the two disagree here and All is the headline the ms2 header uses):
+#     g_bottomup_ms2  81.24  global,genus,family,order  ms=2   <- project best
+#     g_bottomup_fo   81.02  |  bottomup3_gL 81.02  |  bottomup3_rn 80.97  |  g_bottomup_gf 80.95
+#     g_bottomup      80.93  (same chain at ms=5)     |  cascade_ms2 80.90
+#     genus (shrink)  80.85  Few 82.90                |  cascade 80.84  |  global 80.52
+# Chains BEAT single-level genus on All (+0.39) while losing to it on Few (-0.22). Every MIXTURE
+# scheme loses on both (mixnorm 80.33-80.62, sumA 80.59, sumB) -- the split is chain vs mixture,
+# not "combining always loses".
+# Verified: this script at s=1.0 with GENUS_MIN=2 reproduces g_bottomup_ms2 EXACTLY (per-class
+# cosine 1.0000), so the s axis below is anchored on a known point.
 #
-# The single-level shrink sweep is the reason to try stacking at all -- and also the reason to be
-# skeptical of the mixtures (s=0.963, iNat Few):
-#     genus 82.90   phylum 82.64   order 82.51   kingdom 82.49   class 82.30   global 82.29
-#     family 82.18  |  MIXED six levels: sumB 82.50, sumA 82.27, sumA_mild(s=.3) 82.23
-# Single-level genus is the best arm on this axis and beats cascade (82.50), yet every attempt to
-# combine levels so far LOST to it. If mixing is what breaks and chaining is not, this grid finds
-# it; if the chains also land at ~82.3, the "one level is enough" reading is confirmed properly.
-# THE NUMBER TO BEAT IS 82.90.
+# ============================ WHY PARTIAL, AND WHY THE GATE DISAPPEARS ============================
+# mode=nested needs GENUS_MIN >= 2 at s=1 because a singleton's group mean is its own row, so the
+# subtraction zeroes it. At s < 1 that is impossible at ANY group size: a singleton gets (1-s)*X, a
+# positive rescale, and the trailing normalize makes it a no-op for that class. GENUS_MIN is set to 1
+# here and is inert. That matters because the gate is what ms2 was sweeping: 5 -> 2 took g_bottomup
+# from 80.93 to 81.24, and s < 1 is the limit of that direction -- no gate and no fallback at all.
 #
-# ============================ WHAT s < 1 BUYS ============================
-# mode=nested previously required GENUS_MIN >= 2 because a singleton's group mean is its own row, so
-# a full subtraction zeroes it. With s < 1 that cannot happen at any group size: a singleton gets
-# (1 - s) * X, a positive rescale that renorm undoes EXACTLY, so the class passes through the level
-# untouched. GENUS_MIN is therefore set to 1 here and is doing nothing.
-# It also repairs mode=shrink's documented split. There, singletons sit at cos-to-raw 1.0000 for
-# every s -- 36.8% of iNat receives no centering whatsoever. Starting the chain with the "global"
-# pseudo-level (no group, no gate) reaches every class first. Measured on the real prototypes at
-# s=0.92, chain global,genus:  singleton cos-to-raw 0.7155 vs mode=blend's documented 0.7198, i.e.
-# singletons now get exactly what plain global centering gives them, and non-singletons 0.3400.
+# ============================ NO RENORM, DELIBERATELY ============================
+# Measured on this chain: g_bottomup 80.93 with renorm OFF vs g_bottomup_rn 80.68 with it ON (-0.25).
+# And at s < 1 renorm has little left to do anyway: the partial subtraction ALREADY breaks the
+# telescoping identity that renorm exists to break, and turning it on makes the chain lengths MORE
+# alike, not less (lv4-vs-lv2 at s=0.963: 0.9407 renorm off, 0.9608 renorm on). s and renorm are
+# substitutes for the same degeneracy, so this grid uses s and leaves renorm off everywhere.
 #
-# ============================ s CONTROLS HOW MANY LEVELS GET WORK ============================
-# Measured |mu| per level on the real prototypes (chain global,genus,family,order, renorm on):
-#     s=0.50   global 7.259  genus 0.971  family 0.717  order 0.442
-#     s=0.92   global 7.259  genus 0.952  family 0.321  order 0.066
-# A low s deliberately leaves residue for the next level, so the deeper levels still have something
-# to remove; a high s lets genus take nearly everything and the tail of the chain idles. That is the
-# axis this grid sweeps, and it is exactly what a one-shot mixture cannot express.
-# Geometry (cos to plain global centering): 0.63 - 0.88 across the grid, all distinct arms.
-# Against the arm to beat, single-level genus shrink (82.90), at s=0.963 the chains sit at
-# lv2 0.8641, lv3 0.8131, lv4 0.7987 -- all genuinely different inits, not restatements of it.
+# ============================ WHY s = 0.963 AND 0.7 ============================
+# 0.963 matches the single-level shrink sweep exactly, so those runs are its controls. The second
+# value was chosen by measuring where the CHAIN-LENGTH axis is most alive -- this grid's whole point
+# is lv2 vs lv3 vs lv4, and that contrast dies at both ends of s:
+#     s      lv2-lv4   vs g_bottomup_ms2   flipped rows
+#     0.963   0.9407        0.9177             48
+#     0.900   0.9311        0.9099             18
+#     0.800   0.9069        0.8771              3
+#     0.700   0.8854        0.8318              0     <- chains most separated, first s with 0 flips
+#     0.500   0.8864        0.7097              0
+#     0.300   0.9495        0.5288              0     <- too little removed, chains collapse together
+# CAVEAT: global,genus,family and global,genus,family,order sit at cos 0.988-0.994 at every s --
+# adding `order` on top of `family` barely moves the init (that step's |mu| is 0.052 against genus's
+# 0.916). Expect those two to land together; if they do not, that is the noise floor talking. They
+# are DEFERRED out of the default grid for that reason; CHAINS_DEFERRED below re-adds them.
+#
+# ============================ THE TWO SHORT CHAINS, AND WHY ============================
+# genus,global and genus,order were added because every chain arm run so far uses only
+# global/genus/family/order with global FIRST. Screened against the eight chain arms already run
+# (max per-class cosine to ANY of them, renorm off, gate 1):
+#     chain            s=0.963   s=0.7
+#     genus,global      0.9081   0.8398   <- the most independent point measured in this family
+#     genus,order       0.9081   0.8532
+# genus,global is the ORDER question. Where "global" sits mattered a lot while the size gate existed:
+#     global first  g_bottomup   80.93 (ms=5) -> 81.24 (ms=2)
+#     global last   bottomup3_gL 81.02 (ms=5) -> 79.97 (ms=2)   <- collapsed once small groups entered
+# But that was a GATE effect, and at s < 1 there is no gate: singletons pass through every level
+# untouched on their own. The ordering verdict therefore has to be re-taken here.
+# genus,order asks whether the level after genus should be its immediate parent (family, whose rho
+# is 0.020 once genus has run) or a coarser one. Note g_bottomup_fo = global,family,order scored
+# All 81.02 with NO genus level at all, so "genus then something" is not obviously the right shape.
 #
 # ============================ PREDICTION ============================
-# NONE OFFERED, following run_center_ms2.sh: across the 15 arms where both were measured,
-# cos-to-global correlates with All at r = -0.37, and the sumA control (78% of rows initialized
-# pointing AWAY from their own class) scored 80.59 vs an 80.63 baseline. Init geometry does not
-# predict accuracy on iNat. BASE RATE: 71 iNat centering arms span All 80.46 - 81.02.
+# NONE, per run_center_ms2.sh: across the 15 arms where both were measured cos-to-global correlates
+# with All at r = -0.37, and the sumA control (78% of rows initialized pointing AWAY from their own
+# class) scored 80.59 against an 80.63 baseline. Init geometry does not predict accuracy on iNat.
+# BASE RATE: 71 iNat centering arms span All 80.46 - 81.02.  THE NUMBER TO BEAT IS All 81.24.
 #
 #   bash scripts/run_center_nested_shrink.sh
 #   python scripts/agg_runs.py output/center_nestshrink25 --sort path
@@ -59,12 +78,13 @@ GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
-# chain length axis. "global" first is load-bearing: it is the only level that reaches every class.
-CHAINS=${CHAINS:-"global,genus,family global,genus,family,order"}
-# 0.963 matches the single-level shrink sweep exactly, so those runs are the controls for it.
-# 0.5 is the "leave residue for the deeper levels" end of the axis.
-S_VALUES=${S_VALUES:-"0.963"}          # 0.963 matches the single-level shrink sweep exactly
-RENORM_CONTROL=${RENORM_CONTROL:-1}     # also run the LONGEST chain with renorm OFF, to isolate renorm
+# The two family/order chains are DEFERRED, not dropped -- they sit at cos 0.988-0.994 to each
+# other (see the CAVEAT above), so they are the least informative pair to spend GPU time on.
+#   add them back:  CHAINS="$CHAINS_DEFERRED" bash scripts/run_center_nested_shrink.sh
+#   or run both:    CHAINS="global,genus genus,global genus,order $CHAINS_DEFERRED" bash ...
+CHAINS_DEFERRED="global,genus,family global,genus,family,order"
+CHAINS=${CHAINS:-"global,genus genus,global genus,order"}
+S_VALUES=${S_VALUES:-"0.963 0.7"}
 OUT_ROOT=${OUT_ROOT:-"center_nestshrink25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
@@ -73,52 +93,36 @@ COMMON_ARGS=(
   mda True tte True
   PROMPT_CENTER True PROMPT_CENTER_MODE nested
   PROMPT_CENTER_NESTED_MEAN recompute
-  PROMPT_CENTER_GENUS_MIN 1          # inert at s < 1; kept explicit so the log shows it
+  PROMPT_CENTER_NESTED_RENORM False   # see "NO RENORM, DELIBERATELY" above
+  PROMPT_CENTER_GENUS_MIN 1           # inert at s < 1; explicit so the log shows the gate is gone
 )
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
 
-run(){   # run <name> <extra cfg opts...>
-  local data="$1"; local name="$2"; shift 2
-  local out="${OUT_ROOT}/${data}/${name}"
-  completed "${out}" && { echo "  [skip] ${out}"; return 0; }
-  echo "=== [${data}] ${name} (${ep} ep) ==="
-  CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d "${data}" -b clip_vit_b16 -m lift+ \
-    "${COMMON_ARGS[@]}" num_epochs "${ep}" "$@" \
-    seed "${SEED}" output_dir "${out}"
-}
-
 for data in ${DATASETS}; do
   if [ "${data}" = "inat2018" ]; then ep=${INAT_EPOCHS}; else ep=${EPOCHS}; fi
   for chain in ${CHAINS}; do
-    n_lv=$(( $(echo "${chain}" | tr -cd ',' | wc -c) + 1 ))
+    # name by COMPOSITION, not by length: genus,global and global,genus are both 2 levels but are
+    # different arms (the chain order decides which level absorbs the global component first).
+    tag=$(echo "${chain}" | tr ',' '_')
     for s in ${S_VALUES}; do
-      run "${data}" "lv${n_lv}_s${s}" \
-        PROMPT_CENTER_NESTED_LEVELS "${chain}" \
-        PROMPT_CENTER_NESTED_S "${s}" \
-        PROMPT_CENTER_NESTED_RENORM True
+      out="${OUT_ROOT}/${data}/${tag}_s${s}"
+      completed "${out}" && { echo "  [skip] ${out}"; continue; }
+      echo "=== [${data}] ${tag}_s${s} (${ep} ep) ==="
+      CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d "${data}" -b clip_vit_b16 -m lift+ \
+        "${COMMON_ARGS[@]}" num_epochs "${ep}" \
+        PROMPT_CENTER_NESTED_LEVELS "${chain}" PROMPT_CENTER_NESTED_S "${s}" \
+        seed "${SEED}" output_dir "${out}"
     done
   done
-  if [ "${RENORM_CONTROL}" != "0" ]; then
-    # renorm OFF on the LONGEST chain, because that is where renorm has the most to do: measured
-    # cos(renorm on, off) at s=0.963 is lv2 0.9967, lv3 0.9715, lv4 0.9651. With only one taxonomy
-    # level after "global" there is nothing for the telescoping to collapse, so an lv2 control would
-    # be comparing an arm against itself.
-    last_chain=""; for c in ${CHAINS}; do last_chain="${c}"; done
-    n_lv=$(( $(echo "${last_chain}" | tr -cd ',' | wc -c) + 1 ))
-    for s in ${S_VALUES}; do
-      run "${data}" "lv${n_lv}_s${s}_norenorm" \
-        PROMPT_CENTER_NESTED_LEVELS "${last_chain}" \
-        PROMPT_CENTER_NESTED_S "${s}" \
-        PROMPT_CENTER_NESTED_RENORM False
-    done
-  fi
 done
 
 echo; echo "=== tabulate: ${PYTHON} scripts/agg_runs.py output/${OUT_ROOT} --sort path ==="
-echo "    read each log's '[PROMPT_CENTER nested] ... global(...) genus(|mu|=..) family(|mu|=..)' line:"
+echo "    read each log's '[PROMPT_CENTER nested] ... global(|mu|=..) genus(|mu|=..) family(..)' line:"
 echo "    a level whose |mu| is ~0 did no work, so that chain is really the shorter chain."
-echo "    Q1 does any chain beat single-level genus shrink (Few 82.90)?"
-echo "    Q2 lv4_s0.963 vs lv4_s0.963_norenorm: renorm alone. inits differ at cos 0.9651,"
-echo "       so a null result here means renorm is cosmetic on iNat, not that it was untested."
-echo "    Q3 does Few rise or fall with chain length at fixed s? that is 'is stacking worth it'."
+echo "    Q1 does any arm beat g_bottomup_ms2 (All 81.24)? that is s=1 on global,genus,family,order."
+echo "    Q2 chain SHAPE at fixed s: global_genus (baseline) vs genus_global (order of the"
+echo "       global level) vs genus_order (which partner follows genus)."
+echo "       the chain-LENGTH question is NOT in this grid -- add CHAINS_DEFERRED for it."
+echo "    Q3 s=0.963 vs s=0.7 at fixed chain: does leaving residue for later levels help?"
+echo "    compare on All AND Few -- the chain and single-genus families disagree on which wins."
