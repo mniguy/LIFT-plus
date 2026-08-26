@@ -78,13 +78,23 @@ GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
-# The two family/order chains are DEFERRED, not dropped -- they sit at cos 0.988-0.994 to each
-# other (see the CAVEAT above), so they are the least informative pair to spend GPU time on.
-#   add them back:  CHAINS="$CHAINS_DEFERRED" bash scripts/run_center_nested_shrink.sh
-#   or run both:    CHAINS="global,genus genus,global genus,order $CHAINS_DEFERRED" bash ...
-CHAINS_DEFERRED="global,genus,family global,genus,family,order"
-CHAINS=${CHAINS:-"global,genus genus,global genus,order"}
-S_VALUES=${S_VALUES:-"0.963 0.7"}
+# global,genus,family is IN the grid at rnFalse: it is the renorm control for the best arm
+# this family has produced, global,genus,family s=0.963 gate=1 rnTrue at All 81.02. Without
+# it that 81.02 differs from g_bottomup_gf (80.95, same chain) in s, renorm AND gate at once.
+# The 4-level chain stays deferred -- it is cos 0.988-0.994 to the 3-level one.
+#   add it back:  CHAINS="$CHAINS_DEFERRED" bash scripts/run_center_nested_shrink.sh
+CHAINS_DEFERRED="global,genus,family,order"   # the 4-level chain, deferred for now
+CHAINS=${CHAINS:-"global,genus genus,global genus,order global,genus,family"}
+# s=0.7 is DEFERRED. It maximizes the chain-LENGTH contrast (see the table above), but this
+# grid is about chain SHAPE at a fixed s, and 0.963 is the value the single-level shrink
+# sweep used, so those runs are its controls.  add it back with:  S_VALUES="0.963 0.7"
+S_VALUES=${S_VALUES:-"0.963"}
+# RENORM is an AXIS, not a constant. The evidence is genuinely mixed and depends on the rest
+# of the config: at s=1/gate=5 it HURT (g_bottomup 80.93 off vs g_bottomup_rn 80.68 on) but
+# helped on the gate-free chain (bottomup3 80.81 off vs bottomup3_rn 80.97 on), and the best
+# arm this grid has produced so far, global,genus,family s=0.963 gate=1 at All 81.02, has it
+# ON. Do not fix it by argument; measure it at the (s, gate) you are actually running.
+RENORM_VALUES=${RENORM_VALUES:-"False"}
 OUT_ROOT=${OUT_ROOT:-"center_nestshrink25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
@@ -93,7 +103,6 @@ COMMON_ARGS=(
   mda True tte True
   PROMPT_CENTER True PROMPT_CENTER_MODE nested
   PROMPT_CENTER_NESTED_MEAN recompute
-  PROMPT_CENTER_NESTED_RENORM False   # see "NO RENORM, DELIBERATELY" above
   PROMPT_CENTER_GENUS_MIN 1           # inert at s < 1; explicit so the log shows the gate is gone
 )
 
@@ -106,13 +115,16 @@ for data in ${DATASETS}; do
     # different arms (the chain order decides which level absorbs the global component first).
     tag=$(echo "${chain}" | tr ',' '_')
     for s in ${S_VALUES}; do
-      out="${OUT_ROOT}/${data}/${tag}_s${s}"
+      for rn in ${RENORM_VALUES}; do
+      out="${OUT_ROOT}/${data}/${tag}_s${s}_rn${rn}"
       completed "${out}" && { echo "  [skip] ${out}"; continue; }
-      echo "=== [${data}] ${tag}_s${s} (${ep} ep) ==="
+      echo "=== [${data}] ${tag}_s${s}_rn${rn} (${ep} ep) ==="
       CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d "${data}" -b clip_vit_b16 -m lift+ \
         "${COMMON_ARGS[@]}" num_epochs "${ep}" \
         PROMPT_CENTER_NESTED_LEVELS "${chain}" PROMPT_CENTER_NESTED_S "${s}" \
+        PROMPT_CENTER_NESTED_RENORM "${rn}" \
         seed "${SEED}" output_dir "${out}"
+      done
     done
   done
 done
