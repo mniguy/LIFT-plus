@@ -60,7 +60,7 @@ DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 # chain length axis. "global" first is load-bearing: it is the only level that reaches every class.
-CHAINS=${CHAINS:-"global,genus global,genus,family global,genus,family,order"}
+CHAINS=${CHAINS:-"global,genus,family global,genus,family,order"}
 # 0.963 matches the single-level shrink sweep exactly, so those runs are the controls for it.
 # 0.5 is the "leave residue for the deeper levels" end of the axis.
 S_VALUES=${S_VALUES:-"0.963"}          # 0.963 matches the single-level shrink sweep exactly
