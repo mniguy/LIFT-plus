@@ -93,7 +93,11 @@ DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
 RENORM=${RENORM:-False}   # see "renorm IS OFF BY DEFAULT" above
+<<<<<<< HEAD
 ARMS=${ARMS:-"0246 0123 0123456"}
+=======
+ARMS=${ARMS:-"1 2 3 4 5 6 012 034 056 0135"}
+>>>>>>> 97d94ce (0828)
 OUT_ROOT=${OUT_ROOT:-"center_levelcode25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 

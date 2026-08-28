@@ -1,4 +1,4 @@
 dataset: "iNaturalist2018" 
-root: "/workspace/data/inat2018"
+root: "/data/inat2018"
 
 num_classes: 8142

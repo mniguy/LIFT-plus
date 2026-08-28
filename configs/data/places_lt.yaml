@@ -1,4 +1,4 @@
 dataset: "Places_LT" 
-root: "/workspace/data/places365_standard"
+root: "/places365"
 
 num_classes: 365

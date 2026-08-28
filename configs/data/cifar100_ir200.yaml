@@ -1,2 +1,2 @@
 dataset: "CIFAR100_IR200"
-root: "/workspace/data"
+root: "/data/cifar100"

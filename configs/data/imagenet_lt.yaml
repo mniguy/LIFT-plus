@@ -1,4 +1,4 @@
 dataset: "ImageNet_LT" 
-root: "/workspace/data/imagenet"
+root: "/ImageNet"
 
 num_classes: 1000
