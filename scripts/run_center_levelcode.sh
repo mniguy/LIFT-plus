@@ -8,8 +8,8 @@
 #     6        subtract the genus mean only
 #     06       global centering, then genus centering on the residual
 #     0123456  every level, top-down
-# Each step is  X <- normalize( X - s * mu_level(X) ),  the mean recomputed on the running residual
-# (PROMPT_CENTER_MODE=nested, NESTED_MEAN=recompute), s < 1 so no size gate is needed.
+# Each step is  X <- X - mu_level(X),  the mean recomputed on the running residual
+# (PROMPT_CENTER_MODE=nested, NESTED_MEAN=recompute). Plain centering: the full mean.
 #
 # ============================ SINGLE DIGITS ARE IN THE GRID ============================
 # 1-6 are run here under mode=nested, the same code path as every multi-level code, so the whole
@@ -92,9 +92,8 @@ GPU_ID=${GPU_ID:-0}; PYTHON=${PYTHON:-python}; SEED=${SEED:-0}
 DATASETS=${DATASETS:-"inat2018"}
 EPOCHS=${EPOCHS:-5}
 INAT_EPOCHS=${INAT_EPOCHS:-15}
-S=${S:-0.963}
 RENORM=${RENORM:-False}   # see "renorm IS OFF BY DEFAULT" above
-ARMS=${ARMS:-"1 2 3 4 5 6 012 034 056 0135 0246 0123 0123456"}
+ARMS=${ARMS:-"0246 0123 0123456"}
 OUT_ROOT=${OUT_ROOT:-"center_levelcode25"}
 [ -f main.py ] || { echo "ERROR: run from repo root"; exit 1; }
 
@@ -117,7 +116,7 @@ COMMON_ARGS=(
   mda True tte True
   PROMPT_CENTER True PROMPT_CENTER_MODE nested
   PROMPT_CENTER_NESTED_MEAN recompute
-  PROMPT_CENTER_GENUS_MIN 1          # inert at s < 1; explicit so the log shows the gate is gone
+  PROMPT_CENTER_GENUS_MIN 2          # a group of 1 is SKIPPED at that level (ms2), not zeroed
 )
 
 completed(){ grep -lq "\* Many:" "./output/$1"/log-*.txt 2>/dev/null; }
@@ -126,12 +125,12 @@ for data in ${DATASETS}; do
   if [ "${data}" = "inat2018" ]; then ep=${INAT_EPOCHS}; else ep=${EPOCHS}; fi
   for code in ${ARMS}; do
     chain=$(expand "${code}") || exit 1
-    out="${OUT_ROOT}/${data}/c${code}_s${S}_rn${RENORM}"
+    out="${OUT_ROOT}/${data}/c${code}"
     completed "${out}" && { echo "  [skip] ${out}"; continue; }
     echo "=== [${data}] code ${code} = ${chain} (${ep} ep) ==="
     CUDA_VISIBLE_DEVICES=${GPU_ID} ${PYTHON} main.py -d "${data}" -b clip_vit_b16 -m lift+ \
       "${COMMON_ARGS[@]}" num_epochs "${ep}" \
-      PROMPT_CENTER_NESTED_LEVELS "${chain}" PROMPT_CENTER_NESTED_S "${S}" \
+      PROMPT_CENTER_NESTED_LEVELS "${chain}" \
       PROMPT_CENTER_NESTED_RENORM "${RENORM}" \
       seed "${SEED}" output_dir "${out}"
   done
