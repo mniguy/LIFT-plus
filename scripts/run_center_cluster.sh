@@ -13,6 +13,17 @@
 # cascade WITHOUT a taxonomy, while cluster50 (80.52) sat at global. So granularity matters and its
 # useful range is unknown -- and it is the ONE knob that has to be expressed per-dataset.
 #
+# SUPERSEDED, 2026-09-02 -- READ BEFORE USING THE NUMBERS ABOVE. This script leaves GENUS_MIN at
+# its default of 5, so cluster50/cluster500 gate away every cluster below 5 members. The 2026-09-01
+# granularity sweep (scripts/run_center_granularity.sh) deliberately used GENUS_MIN=2, which makes
+# it a DIFFERENT experiment, not a finer-grained version of this one:
+#     size=15 here (k=543, min_size 2)  ->  80.49        cluster500 (k=500, min_size 5) -> 80.75
+#     size=143      (k=57,  min_size 2)  ->  80.60        cluster50  (k=50,  min_size 5) -> 80.52
+# The size=15 / cluster500 pair should have reproduced and did not. Do not treat either number as
+# a baseline for the other. The full sweep at min_size=2 is flat (80.49-80.77, all at or near
+# baseline 80.63) because mode=cluster always falls back to the GLOBAL mean, which is the worst
+# fallback measured -- see docs/FINDINGS.md.
+#
 # TWO WAYS TO SET THE GRANULARITY:
 #   KS="100"     absolute cluster count. NOT comparable across datasets -- k=100 is 3 classes per
 #                cluster on Places (C=365) and 57 on iNat (C=8142), i.e. two different experiments.
