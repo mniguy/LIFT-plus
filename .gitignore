@@ -10,6 +10,8 @@ __pycache__/
 /output
 /data
 /docs
+/fig
+/src
 
 # Logs / outputs
 *.txt
